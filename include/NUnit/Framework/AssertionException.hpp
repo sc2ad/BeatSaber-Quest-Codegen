@@ -34,7 +34,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: AssertionException
     AssertionException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x159B3B4
+    // Offset: 0x159FDC4
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -44,7 +44,7 @@ namespace NUnit::Framework {
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x159B3BC
+    // Offset: 0x159FDCC
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -54,9 +54,9 @@ namespace NUnit::Framework {
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(info, context)));
     }
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x159B3C4
+    // Offset: 0x159FDD4
     // Implemented from: NUnit.Framework.ResultStateException
-    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState_NEW()
+    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
   }; // NUnit.Framework.AssertionException
   #pragma pack(pop)

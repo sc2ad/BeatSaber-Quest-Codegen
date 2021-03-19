@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectToServerParams
     ConnectToServerParams(System::Net::IPEndPoint* endPoint_ = {}, ::Il2CppString* serverUserId_ = {}, ::Il2CppString* serverUserName_ = {}, bool serverIsConnectionOwner_ = {}) noexcept : endPoint{endPoint_}, serverUserId{serverUserId_}, serverUserName{serverUserName_}, serverIsConnectionOwner{serverIsConnectionOwner_} {}
     // public System.Void .ctor()
-    // Offset: 0x1217D70
+    // Offset: 0x121A780
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

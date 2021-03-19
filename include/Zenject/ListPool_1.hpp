@@ -45,7 +45,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     static Zenject::ListPool_1<T>* get_Instance() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ListPool_1::get_Instance");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "get_Instance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "get_Instance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<Zenject::ListPool_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // private System.Void OnDespawned(System.Collections.Generic.List`1<T> list)
@@ -59,7 +59,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ListPool_1::.cctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // public System.Void .ctor()

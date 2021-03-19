@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnCancel_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.ICancelHandler
   #pragma pack(pop)
 }

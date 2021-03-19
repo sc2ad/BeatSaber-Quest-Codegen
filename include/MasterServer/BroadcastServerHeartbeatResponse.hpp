@@ -109,22 +109,22 @@ namespace MasterServer {
       return result;
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatResponse> get_pool()
-    // Offset: 0x1283CC8
+    // Offset: 0x12866D8
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatResponse*>* get_pool();
     // public MasterServer.BroadcastServerHeartbeatResponse Init(MasterServer.BroadcastServerHeartbeatResponse/Result result)
-    // Offset: 0x1283D10
+    // Offset: 0x1286720
     MasterServer::BroadcastServerHeartbeatResponse* Init(MasterServer::BroadcastServerHeartbeatResponse::Result result);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1283D18
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x1286728
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1283D3C
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x128674C
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1283D74
-    void Release_NEW();
+    // Offset: 0x1286784
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x1283DD0
+    // Offset: 0x12867E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

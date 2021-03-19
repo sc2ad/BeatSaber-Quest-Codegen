@@ -30,13 +30,13 @@ namespace System::Net {
     IAuthenticationModule() noexcept {}
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest request, System.Net.ICredentials credentials)
     // Offset: 0xFFFFFFFF
-    System::Net::Authorization* Authenticate_NEW(::Il2CppString* challenge, System::Net::WebRequest* request, System::Net::ICredentials* credentials);
+    System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* request, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest request, System.Net.ICredentials credentials)
     // Offset: 0xFFFFFFFF
-    System::Net::Authorization* PreAuthenticate_NEW(System::Net::WebRequest* request, System::Net::ICredentials* credentials);
+    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* request, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_AuthenticationType_NEW();
+    ::Il2CppString* get_AuthenticationType();
   }; // System.Net.IAuthenticationModule
   #pragma pack(pop)
 }

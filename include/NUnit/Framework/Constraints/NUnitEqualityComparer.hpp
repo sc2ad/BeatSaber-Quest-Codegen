@@ -93,8 +93,8 @@ namespace NUnit::Framework::Constraints {
     System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD105B0
-    // [CompilerGeneratedAttribute] Offset: 0xD105B0
+    // [DebuggerBrowsableAttribute] Offset: 0xD10A1C
+    // [CompilerGeneratedAttribute] Offset: 0xD10A1C
     // private System.Boolean <WithSameOffset>k__BackingField
     // Size: 0x1
     // Offset: 0x28
@@ -112,67 +112,67 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.Type GameObjectType
     static void _set_GameObjectType(System::Type* value);
     // public System.Boolean get_IgnoreCase()
-    // Offset: 0x159E5F8
+    // Offset: 0x15A3008
     bool get_IgnoreCase();
     // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> get_FailurePoints()
-    // Offset: 0x159E630
+    // Offset: 0x15A3040
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // public System.Boolean get_WithSameOffset()
-    // Offset: 0x15A421C
+    // Offset: 0x15A8C2C
     bool get_WithSameOffset();
     // public System.Boolean AreEqual(System.Object x, System.Object y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x159C488
+    // Offset: 0x15A0E98
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Reflection.MethodInfo FirstImplementsIEquatableOfSecond(System.Type first, System.Type second)
-    // Offset: 0x15A58A0
+    // Offset: 0x15AA2B0
     static System::Reflection::MethodInfo* FirstImplementsIEquatableOfSecond(System::Type* first, System::Type* second);
     // static private System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Reflection.MethodInfo>> GetEquatableGenericArguments(System.Type type)
-    // Offset: 0x15A6318
+    // Offset: 0x15AAD28
     static System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<System::Type*, System::Reflection::MethodInfo*>>* GetEquatableGenericArguments(System::Type* type);
     // static private System.Boolean InvokeFirstIEquatableEqualsSecond(System.Object first, System.Object second, System.Reflection.MethodInfo equals)
-    // Offset: 0x15A5B94
+    // Offset: 0x15AA5A4
     static bool InvokeFirstIEquatableEqualsSecond(::Il2CppObject* first, ::Il2CppObject* second, System::Reflection::MethodInfo* equals);
     // private NUnit.Framework.Constraints.EqualityAdapter GetExternalComparer(System.Object x, System.Object y)
-    // Offset: 0x15A4224
+    // Offset: 0x15A8C34
     NUnit::Framework::Constraints::EqualityAdapter* GetExternalComparer(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Boolean ArraysEqual(System.Array x, System.Array y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x15A4350
+    // Offset: 0x15A8D60
     bool ArraysEqual(System::Array* x, System::Array* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean DictionariesEqual(System.Collections.IDictionary x, System.Collections.IDictionary y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x15A4430
+    // Offset: 0x15A8E40
     bool DictionariesEqual(System::Collections::IDictionary* x, System::Collections::IDictionary* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean DictionaryEntriesEqual(System.Collections.DictionaryEntry x, System.Collections.DictionaryEntry y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x15A4A40
+    // Offset: 0x15A9450
     bool DictionaryEntriesEqual(System::Collections::DictionaryEntry x, System::Collections::DictionaryEntry y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // private System.Boolean StringsEqual(System.String x, System.String y)
-    // Offset: 0x15A4B58
+    // Offset: 0x15A9568
     bool StringsEqual(::Il2CppString* x, ::Il2CppString* y);
     // private System.Boolean CharsEqual(System.Char x, System.Char y)
-    // Offset: 0x15A51FC
+    // Offset: 0x15A9C0C
     bool CharsEqual(::Il2CppChar x, ::Il2CppChar y);
     // private System.Boolean EnumerablesEqual(System.Collections.IEnumerable x, System.Collections.IEnumerable y, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x15A5D38
+    // Offset: 0x15AA748
     bool EnumerablesEqual(System::Collections::IEnumerable* x, System::Collections::IEnumerable* y, NUnit::Framework::Constraints::Tolerance*& tolerance);
     // static private System.Boolean DirectoriesEqual(System.IO.DirectoryInfo x, System.IO.DirectoryInfo y)
-    // Offset: 0x15A52C0
+    // Offset: 0x15A9CD0
     static bool DirectoriesEqual(System::IO::DirectoryInfo* x, System::IO::DirectoryInfo* y);
     // private System.Boolean StreamsEqual(System.IO.Stream x, System.IO.Stream y)
-    // Offset: 0x15A4BD0
+    // Offset: 0x15A95E0
     bool StreamsEqual(System::IO::Stream* x, System::IO::Stream* y);
     // static System.Void CheckGameObjectReference(ref T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void CheckGameObjectReference(T& value) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::NUnitEqualityComparer::CheckGameObjectReference");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", "CheckGameObjectReference", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(value)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", "CheckGameObjectReference", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(value)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value);
     }
     // static private System.Void .cctor()
-    // Offset: 0x15A658C
+    // Offset: 0x15AAF9C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x159E564
+    // Offset: 0x15A2F74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

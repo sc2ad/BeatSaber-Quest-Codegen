@@ -23,12 +23,12 @@ namespace GlobalNamespace {
     OVROnCompleteListener() noexcept {}
     // public System.Void onSuccess()
     // Offset: 0xFFFFFFFF
-    void onSuccess_NEW();
+    void onSuccess();
     // public System.Void onFailure()
     // Offset: 0xFFFFFFFF
-    void onFailure_NEW();
+    void onFailure();
     // public System.Void .ctor()
-    // Offset: 0x13AF460
+    // Offset: 0x13B1E70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

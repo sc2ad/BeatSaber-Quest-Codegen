@@ -20,33 +20,33 @@ namespace System::Threading {
     // Creating value type constructor for type: Volatile
     Volatile() noexcept {}
     // static public System.Boolean Read(ref System.Boolean location)
-    // Offset: 0x16E2DBC
+    // Offset: 0x16E67DC
     static bool Read(bool& location);
     // static public System.Int32 Read(ref System.Int32 location)
-    // Offset: 0x16E2DE0
+    // Offset: 0x16E6800
     static int Read(int& location);
     // static public T Read(ref T location)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Read(T& location) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Read");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Read", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Read", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location);
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
-    // Offset: 0x16E2E04
+    // Offset: 0x16E6824
     static void Write(bool& location, bool value);
     // static public System.Void Write(ref System.Int32 location, System.Int32 value)
-    // Offset: 0x16E2E2C
+    // Offset: 0x16E684C
     static void Write(int& location, int value);
     // static public System.Void Write(ref T location, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Write(T& location, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Write");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Write", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location, value)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Write", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location, value)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location, value);
     }
   }; // System.Threading.Volatile

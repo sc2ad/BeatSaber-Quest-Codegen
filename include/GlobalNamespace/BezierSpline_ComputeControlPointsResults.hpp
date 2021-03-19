@@ -42,7 +42,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
-    // Offset: 0xDDD040
+    // Offset: 0xDDF5EC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2)
   }; // BezierSpline/ComputeControlPointsResults

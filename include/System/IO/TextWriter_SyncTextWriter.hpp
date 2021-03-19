@@ -41,101 +41,101 @@ namespace System::IO {
     // Creating value type constructor for type: SyncTextWriter
     SyncTextWriter(System::IO::TextWriter* out_ = {}) noexcept : out{out_} {}
     // System.Void .ctor(System.IO.TextWriter t)
-    // Offset: 0x168EBC0
+    // Offset: 0x16915E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextWriter::SyncTextWriter* New_ctor(System::IO::TextWriter* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextWriter::SyncTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::SyncTextWriter*, creationType>(t)));
     }
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x168FAC0
+    // Offset: 0x16924E0
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Text.Encoding TextWriter::get_Encoding_NEW()
+    // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.IFormatProvider get_FormatProvider()
-    // Offset: 0x168FAE0
+    // Offset: 0x1692500
     // Implemented from: System.IO.TextWriter
-    // Base method: System.IFormatProvider TextWriter::get_FormatProvider_NEW()
+    // Base method: System.IFormatProvider TextWriter::get_FormatProvider()
     System::IFormatProvider* get_FormatProvider();
     // public override System.Void Close()
-    // Offset: 0x168FB00
+    // Offset: 0x1692520
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Close_NEW()
+    // Base method: System.Void TextWriter::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x168FB20
+    // Offset: 0x1692540
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Dispose_NEW(System.Boolean disposing)
+    // Base method: System.Void TextWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0x168FBF0
+    // Offset: 0x1692610
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Flush_NEW()
+    // Base method: System.Void TextWriter::Flush()
     void Flush();
     // public override System.Void Write(System.Char value)
-    // Offset: 0x168FC10
+    // Offset: 0x1692630
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.Char value)
+    // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] buffer)
-    // Offset: 0x168FC30
+    // Offset: 0x1692650
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.Char[] buffer)
+    // Base method: System.Void TextWriter::Write(System.Char[] buffer)
     void Write(::Array<::Il2CppChar>* buffer);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x168FC54
+    // Offset: 0x1692674
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x168FC78
+    // Offset: 0x1692698
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.String value)
+    // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // public override System.Void Write(System.String format, System.Object arg0)
-    // Offset: 0x168FC9C
+    // Offset: 0x16926BC
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.String format, System.Object arg0)
+    // Base method: System.Void TextWriter::Write(System.String format, System.Object arg0)
     void Write(::Il2CppString* format, ::Il2CppObject* arg0);
     // public override System.Void Write(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0x168FCC0
+    // Offset: 0x16926E0
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
+    // Base method: System.Void TextWriter::Write(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     void Write(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public override System.Void WriteLine()
-    // Offset: 0x168FCE4
+    // Offset: 0x1692704
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW()
+    // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.Char value)
-    // Offset: 0x168FD08
+    // Offset: 0x1692728
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.Char value)
+    // Base method: System.Void TextWriter::WriteLine(System.Char value)
     void WriteLine(::Il2CppChar value);
     // public override System.Void WriteLine(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x168FD2C
+    // Offset: 0x169274C
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Void TextWriter::WriteLine(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteLine(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0x168FD50
+    // Offset: 0x1692770
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.String value)
+    // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::Il2CppString* value);
     // public override System.Void WriteLine(System.String format, System.Object arg0)
-    // Offset: 0x168FD74
+    // Offset: 0x1692794
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.String format, System.Object arg0)
+    // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object arg0)
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0);
     // public override System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x168FD98
+    // Offset: 0x16927B8
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.String format, System.Object arg0, System.Object arg1)
+    // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object arg0, System.Object arg1)
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public override System.Void WriteLine(System.String format, params System.Object[] arg)
-    // Offset: 0x168FDBC
+    // Offset: 0x16927DC
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.String format, params System.Object[] arg)
+    // Base method: System.Void TextWriter::WriteLine(System.String format, params System.Object[] arg)
     void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
     // Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
     void WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg);

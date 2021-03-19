@@ -25,7 +25,7 @@ namespace System::Security::Cryptography::X509Certificates {
     INativeCertificateHelper() noexcept {}
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import_NEW(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
+    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
   }; // System.Security.Cryptography.X509Certificates.INativeCertificateHelper
   #pragma pack(pop)
 }

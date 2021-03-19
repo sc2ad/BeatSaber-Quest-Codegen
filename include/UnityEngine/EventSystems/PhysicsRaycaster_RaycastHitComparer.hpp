@@ -34,13 +34,13 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer instance
     static void _set_instance(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
     // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0x131414C
-    int Compare_NEW(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y);
+    // Offset: 0x1316B5C
+    int Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y);
     // static private System.Void .cctor()
-    // Offset: 0x1314198
+    // Offset: 0x1316BA8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1314190
+    // Offset: 0x1316BA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

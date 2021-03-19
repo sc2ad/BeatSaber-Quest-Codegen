@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(UnityEngine::AudioClip* audioClip_ = {}, float startSongTime_ = {}, float songTimeOffset_ = {}, float timeScale_ = {}) noexcept : audioClip{audioClip_}, startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, timeScale{timeScale_} {}
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x100001C
+    // Offset: 0x1002F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTimeSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioTimeSyncController::InitData::.ctor");

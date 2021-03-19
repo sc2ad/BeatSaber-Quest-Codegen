@@ -22,10 +22,10 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Glyph
     TMP_Glyph() noexcept {}
     // static public TMPro.TMP_Glyph Clone(TMPro.TMP_Glyph source)
-    // Offset: 0xF8CFEC
+    // Offset: 0xF90B18
     static TMPro::TMP_Glyph* Clone(TMPro::TMP_Glyph* source);
     // public System.Void .ctor()
-    // Offset: 0xF8D0A0
+    // Offset: 0xF90BCC
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

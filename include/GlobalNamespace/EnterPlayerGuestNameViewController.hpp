@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     class $$c__DisplayClass10_0;
     // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1
     class $$c__DisplayClass10_1;
-    // [SignalSenderAttribute] Offset: 0xD2DC00
+    // [SignalSenderAttribute] Offset: 0xD2E124
     // private StringSignal _playerNameWasEnteredSignal
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StringSignal*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2DC38
+    // [SpaceAttribute] Offset: 0xD2E15C
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x78
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GuestNameButtonsListItemsList*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2DC90
+    // [InjectAttribute] Offset: 0xD2E1B4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
@@ -99,23 +99,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxShowPlayer
     static void _set_kMaxShowPlayer(int value);
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0xFE31E0
+    // Offset: 0x102136C
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
     // private System.Void OkButtonPressed()
-    // Offset: 0xFE34EC
+    // Offset: 0x1021678
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFE31E8
+    // Offset: 0x1021374
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xFE343C
+    // Offset: 0x10215C8
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate_NEW(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xFE39A4
+    // Offset: 0x1021B30
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

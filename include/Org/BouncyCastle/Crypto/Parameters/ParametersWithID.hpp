@@ -35,10 +35,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: ParametersWithID
     ParametersWithID(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::Array<uint8_t>* id_ = {}) noexcept : parameters{parameters_}, id{id_} {}
     // public System.Byte[] GetID()
-    // Offset: 0x1163530
+    // Offset: 0x1165F40
     ::Array<uint8_t>* GetID();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x1163538
+    // Offset: 0x1165F48
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
   #pragma pack(pop)

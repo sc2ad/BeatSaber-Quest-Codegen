@@ -40,7 +40,7 @@ namespace System::Net {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x1403228
+    // Offset: 0x1406C38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Timer* New_ctor(int durationMilliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Timer::.ctor");
@@ -48,10 +48,10 @@ namespace System::Net {
     }
     // System.Boolean Cancel()
     // Offset: 0xFFFFFFFF
-    bool Cancel_NEW();
+    bool Cancel();
     // public System.Void Dispose()
-    // Offset: 0x1403260
-    void Dispose_NEW();
+    // Offset: 0x1406C70
+    void Dispose();
   }; // System.Net.TimerThread/Timer
   #pragma pack(pop)
   static check_size<sizeof(TimerThread::Timer), 20 + sizeof(int)> __System_Net_TimerThread_TimerSizeCheck;

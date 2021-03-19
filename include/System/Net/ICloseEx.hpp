@@ -23,7 +23,7 @@ namespace System::Net {
     ICloseEx() noexcept {}
     // public System.Void CloseEx(System.Net.CloseExState closeState)
     // Offset: 0xFFFFFFFF
-    void CloseEx_NEW(System::Net::CloseExState closeState);
+    void CloseEx(System::Net::CloseExState closeState);
   }; // System.Net.ICloseEx
   #pragma pack(pop)
 }

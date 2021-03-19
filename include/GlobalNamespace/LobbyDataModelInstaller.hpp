@@ -22,12 +22,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LobbyDataModelInstaller
     LobbyDataModelInstaller() noexcept {}
     // public override System.Void InstallBindings()
-    // Offset: 0x109EB70
+    // Offset: 0x10A1514
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x109EFA0
+    // Offset: 0x10A1944
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

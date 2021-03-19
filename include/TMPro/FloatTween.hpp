@@ -71,44 +71,44 @@ namespace TMPro {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xDDD3FC
+    // Offset: 0xDDF9A8
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xDDD404
+    // Offset: 0xDDF9B0
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xDDD40C
+    // Offset: 0xDDF9B8
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xDDD414
+    // Offset: 0xDDF9C0
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0xDDD41C
-    float get_duration_NEW();
+    // Offset: 0xDDF9C8
+    float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDDD424
+    // Offset: 0xDDF9D0
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDDD42C
-    bool get_ignoreTimeScale_NEW();
+    // Offset: 0xDDF9D8
+    bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDDD434
+    // Offset: 0xDDF9E0
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDDD440
-    void TweenValue_NEW(float floatPercentage);
+    // Offset: 0xDDF9EC
+    void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xDDD448
+    // Offset: 0xDDF9F4
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDDD450
+    // Offset: 0xDDF9FC
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDDD458
+    // Offset: 0xDDFA04
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0xDDD460
-    bool ValidTarget_NEW();
+    // Offset: 0xDDFA0C
+    bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;

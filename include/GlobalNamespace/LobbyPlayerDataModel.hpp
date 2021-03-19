@@ -21,21 +21,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LobbyPlayerDataModel : public GlobalNamespace::LevelGameplaySetupData/*, public GlobalNamespace::ILobbyPlayerDataModel*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD2146C
+    // [CompilerGeneratedAttribute] Offset: 0xD219A0
     // private System.Boolean <isActive>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
     bool isActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD2147C
+    // [CompilerGeneratedAttribute] Offset: 0xD219B0
     // private System.Boolean <isReady>k__BackingField
     // Size: 0x1
     // Offset: 0x2D
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD2148C
+    // [CompilerGeneratedAttribute] Offset: 0xD219C0
     // private System.Boolean <isInLobby>k__BackingField
     // Size: 0x1
     // Offset: 0x2E
@@ -49,25 +49,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILobbyPlayerDataModel*>(this);
     }
     // public System.Boolean get_isActive()
-    // Offset: 0x10A45D0
-    bool get_isActive_NEW();
+    // Offset: 0x10A6F74
+    bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x10A45D8
-    void set_isActive_NEW(bool value);
+    // Offset: 0x10A6F7C
+    void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x10A45E4
-    bool get_isReady_NEW();
+    // Offset: 0x10A6F88
+    bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x10A45EC
-    void set_isReady_NEW(bool value);
+    // Offset: 0x10A6F90
+    void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x10A45F8
-    bool get_isInLobby_NEW();
+    // Offset: 0x10A6F9C
+    bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x10A4600
-    void set_isInLobby_NEW(bool value);
+    // Offset: 0x10A6FA4
+    void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10A460C
+    // Offset: 0x10A6FB0
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     // Base method: System.Void Object::.ctor()

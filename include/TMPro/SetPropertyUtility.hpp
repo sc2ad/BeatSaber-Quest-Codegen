@@ -35,7 +35,7 @@ namespace TMPro {
     // Creating value type constructor for type: SetPropertyUtility
     SetPropertyUtility() noexcept {}
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0xF7EDE0
+    // Offset: 0xF8290C
     static bool SetColor(UnityEngine::Color& currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetEquatableStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
@@ -43,8 +43,8 @@ namespace TMPro {
     static bool SetEquatableStruct(T& currentValue, T newValue) {
       static_assert(std::is_base_of_v<System::IEquatable_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetEquatableStruct");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetEquatableStruct", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetEquatableStruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, currentValue, newValue);
     }
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
@@ -53,8 +53,8 @@ namespace TMPro {
     static bool SetStruct(T& currentValue, T newValue) {
       static_assert(is_value_type_v<T>);
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetStruct");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetStruct", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetStruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, currentValue, newValue);
     }
     // static public System.Boolean SetClass(ref T currentValue, T newValue)
@@ -62,8 +62,8 @@ namespace TMPro {
     template<class T>
     static bool SetClass(T& currentValue, T newValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetClass");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetClass", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetClass", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, currentValue, newValue);
     }
   }; // TMPro.SetPropertyUtility

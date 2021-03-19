@@ -60,37 +60,37 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] macDiversifier
     static void _set_macDiversifier(::Array<uint8_t>* value);
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x213901C
+    // Offset: 0x213AB04
     void set_HashName(::Il2CppString* value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x2139024
+    // Offset: 0x213AB0C
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x213902C
+    // Offset: 0x213AB14
     void set_Password(::Array<uint8_t>* value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x21390CC
+    // Offset: 0x213ABB4
     void set_Salt(::Array<uint8_t>* value);
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x2139160
+    // Offset: 0x213AC48
     void Adjust(::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x2139248
+    // Offset: 0x213AD30
     ::Array<uint8_t>* Derive(::Array<uint8_t>* diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x2139694
+    // Offset: 0x213B17C
     ::Array<uint8_t>* DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x2139714
+    // Offset: 0x213B1FC
     ::Array<uint8_t>* DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x2139794
+    // Offset: 0x213B27C
     ::Array<uint8_t>* DeriveMAC(int size);
     // static private System.Void .cctor()
-    // Offset: 0x2139814
+    // Offset: 0x213B2FC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2139014
+    // Offset: 0x213AAFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

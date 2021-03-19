@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerResponse : public ::Il2CppObject/*, public MasterServer::IMasterServerResponse*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD05B40
+    // [CompilerGeneratedAttribute] Offset: 0xD05F9C
     // private System.UInt32 <responseId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,31 +46,31 @@ namespace GlobalNamespace {
       return responseId;
     }
     // public System.UInt32 get_responseId()
-    // Offset: 0x12096D0
-    uint get_responseId_NEW();
+    // Offset: 0x120C0E0
+    uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x12096D8
+    // Offset: 0x120C0E8
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x12096E0
+    // Offset: 0x120C0F0
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x12096E8
+    // Offset: 0x120C0F8
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1209488
+    // Offset: 0x120BE98
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12094F8
+    // Offset: 0x120BF08
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
-    void Release_NEW();
+    void Release();
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x1209730
-    MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId_NEW(uint responseId);
+    // Offset: 0x120C140
+    MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x1209534
+    // Offset: 0x120BF44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

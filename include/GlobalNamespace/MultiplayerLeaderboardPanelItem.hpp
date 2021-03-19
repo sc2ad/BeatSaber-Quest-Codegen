@@ -120,13 +120,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
-    // Offset: 0xF42414
+    // Offset: 0xF45BAC
     void SetData(int position, ::Il2CppString* playerName, int score, bool failed, int numberOfPlayers);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0xF4215C
+    // Offset: 0xF458F4
     void set_hide(bool value);
     // public System.Void .ctor()
-    // Offset: 0xF42730
+    // Offset: 0xF45EC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

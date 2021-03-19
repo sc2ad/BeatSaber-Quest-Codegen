@@ -29,9 +29,9 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // public System.String GetString()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetString_NEW();
+    ::Il2CppString* GetString();
     // protected System.Void .ctor()
-    // Offset: 0x154C8C4
+    // Offset: 0x15502D4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -42,14 +42,14 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerStringBase*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1551A4C
+    // Offset: 0x155545C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1551A58
+    // Offset: 0x1555468
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Int32 Asn1Object::Asn1GetHashCode_NEW()
+    // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerStringBase
   #pragma pack(pop)

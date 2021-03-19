@@ -41,49 +41,49 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Challenges
     Challenges() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetNextEntries(Oculus.Platform.Models.ChallengeEntryList list)
-    // Offset: 0x1378AB0
+    // Offset: 0x137B4C0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetNextEntries(Oculus::Platform::Models::ChallengeEntryList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetPreviousEntries(Oculus.Platform.Models.ChallengeEntryList list)
-    // Offset: 0x1378BE0
+    // Offset: 0x137B5F0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetPreviousEntries(Oculus::Platform::Models::ChallengeEntryList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeList> GetNextChallenges(Oculus.Platform.Models.ChallengeList list)
-    // Offset: 0x1378D10
+    // Offset: 0x137B720
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* GetNextChallenges(Oculus::Platform::Models::ChallengeList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeList> GetPreviousChallenges(Oculus.Platform.Models.ChallengeList list)
-    // Offset: 0x1378E40
+    // Offset: 0x137B850
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* GetPreviousChallenges(Oculus::Platform::Models::ChallengeList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Challenge> Create(System.String leaderboardName, Oculus.Platform.ChallengeOptions challengeOptions)
-    // Offset: 0x1378F70
+    // Offset: 0x137B980
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* Create(::Il2CppString* leaderboardName, Oculus::Platform::ChallengeOptions* challengeOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Challenge> DeclineInvite(System.UInt64 challengeID)
-    // Offset: 0x13790C0
+    // Offset: 0x137BAD0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* DeclineInvite(uint64_t challengeID);
     // static public Oculus.Platform.Request Delete(System.UInt64 challengeID)
-    // Offset: 0x13791DC
+    // Offset: 0x137BBEC
     static Oculus::Platform::Request* Delete(uint64_t challengeID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Challenge> Get(System.UInt64 challengeID)
-    // Offset: 0x137931C
+    // Offset: 0x137BD2C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* Get(uint64_t challengeID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetEntries(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1379438
+    // Offset: 0x137BE48
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetEntries(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetEntriesAfterRank(System.UInt64 challengeID, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1379574
+    // Offset: 0x137BF84
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesAfterRank(uint64_t challengeID, int limit, uint64_t afterRank);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetEntriesByIds(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs)
-    // Offset: 0x13796A8
+    // Offset: 0x137C0B8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesByIds(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeList> GetList(Oculus.Platform.ChallengeOptions challengeOptions, System.Int32 limit)
-    // Offset: 0x13797F8
+    // Offset: 0x137C208
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* GetList(Oculus::Platform::ChallengeOptions* challengeOptions, int limit);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Challenge> Join(System.UInt64 challengeID)
-    // Offset: 0x1379948
+    // Offset: 0x137C358
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* Join(uint64_t challengeID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Challenge> Leave(System.UInt64 challengeID)
-    // Offset: 0x1379A64
+    // Offset: 0x137C474
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* Leave(uint64_t challengeID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Challenge> UpdateInfo(System.UInt64 challengeID, Oculus.Platform.ChallengeOptions challengeOptions)
-    // Offset: 0x1379B80
+    // Offset: 0x137C590
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* UpdateInfo(uint64_t challengeID, Oculus::Platform::ChallengeOptions* challengeOptions);
   }; // Oculus.Platform.Challenges
   #pragma pack(pop)

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class ConditionalSpriteSwitcher : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xD29FF8
+    // [HeaderAttribute] Offset: 0xD2A51C
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD2A054
+    // [HeaderAttribute] Offset: 0xD2A578
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2A0B0
+    // [SpaceAttribute] Offset: 0xD2A5D4
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -79,25 +79,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Sprite get_falseSprite()
-    // Offset: 0xFD6BA0
+    // Offset: 0x1014D2C
     UnityEngine::Sprite* get_falseSprite();
     // public System.Void set_falseSprite(UnityEngine.Sprite value)
-    // Offset: 0xFD6BA8
+    // Offset: 0x1014D34
     void set_falseSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_trueSprite()
-    // Offset: 0xFD6BB0
+    // Offset: 0x1014D3C
     UnityEngine::Sprite* get_trueSprite();
     // public System.Void set_trueSprite(UnityEngine.Sprite value)
-    // Offset: 0xFD6BB8
+    // Offset: 0x1014D44
     void set_trueSprite(UnityEngine::Sprite* value);
     // protected System.Void Awake()
-    // Offset: 0xFD6BC0
+    // Offset: 0x1014D4C
     void Awake();
     // public System.Void Apply()
-    // Offset: 0xFD6BC4
+    // Offset: 0x1014D50
     void Apply();
     // public System.Void .ctor()
-    // Offset: 0xFD6C6C
+    // Offset: 0x1014DF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

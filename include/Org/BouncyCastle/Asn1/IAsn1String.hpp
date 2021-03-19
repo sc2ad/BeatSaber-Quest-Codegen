@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Asn1 {
     IAsn1String() noexcept {}
     // public System.String GetString()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetString_NEW();
+    ::Il2CppString* GetString();
   }; // Org.BouncyCastle.Asn1.IAsn1String
   #pragma pack(pop)
 }

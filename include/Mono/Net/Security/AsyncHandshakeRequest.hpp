@@ -31,7 +31,7 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: AsyncHandshakeRequest
     AsyncHandshakeRequest() noexcept {}
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
-    // Offset: 0x142E37C
+    // Offset: 0x1432D8C
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: System.Void AsyncProtocolRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,9 +40,9 @@ namespace Mono::Net::Security {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncHandshakeRequest*, creationType>(parent, sync)));
     }
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x142E40C
+    // Offset: 0x1432E1C
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
-    // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run_NEW(Mono.Net.Security.AsyncOperationStatus status)
+    // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);
   }; // Mono.Net.Security.AsyncHandshakeRequest
   #pragma pack(pop)

@@ -41,10 +41,10 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary defaultKeySizes
     static void _set_defaultKeySizes(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x124F53C
+    // Offset: 0x1251F4C
     static void _cctor();
     // static private System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
-    // Offset: 0x1252A3C
+    // Offset: 0x125544C
     static void AddDefaultKeySizeEntries(int size, ::Array<::Il2CppString*>* algorithms);
     // Creating initializer_list -> params proxy for: System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
     static void AddDefaultKeySizeEntries(int size, std::initializer_list<::Il2CppString*> algorithms);
@@ -54,7 +54,7 @@ namespace Org::BouncyCastle::Security {
       AddDefaultKeySizeEntries(size, {algorithms...});
     }
     // static private System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x1252228
+    // Offset: 0x1254C38
     static void AddKgAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddKgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
@@ -64,7 +64,7 @@ namespace Org::BouncyCastle::Security {
       AddKgAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x12527EC
+    // Offset: 0x12551FC
     static void AddKpgAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddKpgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
@@ -74,7 +74,7 @@ namespace Org::BouncyCastle::Security {
       AddKpgAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
-    // Offset: 0x1252478
+    // Offset: 0x1254E88
     static void AddHMacKeyGenerator(::Il2CppString* algorithm, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
     static void AddHMacKeyGenerator(::Il2CppString* algorithm, std::initializer_list<::Il2CppObject*> aliases);
@@ -84,16 +84,16 @@ namespace Org::BouncyCastle::Security {
       AddHMacKeyGenerator(algorithm, {aliases...});
     }
     // static System.String GetCanonicalKeyGeneratorAlgorithm(System.String algorithm)
-    // Offset: 0x1252BA8
+    // Offset: 0x12555B8
     static ::Il2CppString* GetCanonicalKeyGeneratorAlgorithm(::Il2CppString* algorithm);
     // static System.Int32 GetDefaultKeySize(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1252CDC
+    // Offset: 0x12556EC
     static int GetDefaultKeySize(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static System.Int32 GetDefaultKeySize(System.String algorithm)
-    // Offset: 0x1252D4C
+    // Offset: 0x125575C
     static int GetDefaultKeySize(::Il2CppString* algorithm);
     // static private System.Int32 FindDefaultKeySize(System.String canonicalName)
-    // Offset: 0x1252F38
+    // Offset: 0x1255948
     static int FindDefaultKeySize(::Il2CppString* canonicalName);
   }; // Org.BouncyCastle.Security.GeneratorUtilities
   #pragma pack(pop)

@@ -29,22 +29,22 @@ namespace Org::BouncyCastle::Crypto {
     IBlockCipher() noexcept {}
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_AlgorithmName_NEW();
+    ::Il2CppString* get_AlgorithmName();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
     // Offset: 0xFFFFFFFF
-    int GetBlockSize_NEW();
+    int GetBlockSize();
     // public System.Boolean get_IsPartialBlockOkay()
     // Offset: 0xFFFFFFFF
-    bool get_IsPartialBlockOkay_NEW();
+    bool get_IsPartialBlockOkay();
     // public System.Int32 ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Byte[] outBuf, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
-    int ProcessBlock_NEW(::Array<uint8_t>* inBuf, int inOff, ::Array<uint8_t>* outBuf, int outOff);
+    int ProcessBlock(::Array<uint8_t>* inBuf, int inOff, ::Array<uint8_t>* outBuf, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
-    void Reset_NEW();
+    void Reset();
   }; // Org.BouncyCastle.Crypto.IBlockCipher
   #pragma pack(pop)
 }

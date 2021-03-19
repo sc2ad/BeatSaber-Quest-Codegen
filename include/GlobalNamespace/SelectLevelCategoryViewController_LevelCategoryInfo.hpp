@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelCategoryInfo
     LevelCategoryInfo(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory_ = {}, ::Il2CppString* localizedKey_ = {}, UnityEngine::Sprite* categoryIcon_ = {}) noexcept : levelCategory{levelCategory_}, localizedKey{localizedKey_}, categoryIcon{categoryIcon_} {}
     // public System.Void .ctor()
-    // Offset: 0xF702F8
+    // Offset: 0xF74E24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

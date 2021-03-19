@@ -58,24 +58,24 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.Stack stack)
-    // Offset: 0x1819300
+    // Offset: 0x181AD20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack::StackEnumerator* New_ctor(System::Collections::Stack* stack) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::StackEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack::StackEnumerator*, creationType>(stack)));
     }
     // public System.Object Clone()
-    // Offset: 0x18195F8
-    ::Il2CppObject* Clone_NEW();
+    // Offset: 0x181B018
+    ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1819600
-    bool MoveNext_NEW();
+    // Offset: 0x181B020
+    bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x1819720
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x181B140
+    ::Il2CppObject* get_Current();
     // public System.Void Reset()
-    // Offset: 0x18197D4
-    void Reset_NEW();
+    // Offset: 0x181B1F4
+    void Reset();
   }; // System.Collections.Stack/StackEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Stack::StackEnumerator), 32 + sizeof(::Il2CppObject*)> __System_Collections_Stack_StackEnumeratorSizeCheck;

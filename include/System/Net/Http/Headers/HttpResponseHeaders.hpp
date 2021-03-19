@@ -21,7 +21,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HttpResponseHeaders
     HttpResponseHeaders() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x13DD1D4
+    // Offset: 0x13E0BE4
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()

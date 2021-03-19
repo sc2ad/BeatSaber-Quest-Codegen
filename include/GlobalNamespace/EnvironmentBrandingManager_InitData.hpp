@@ -32,7 +32,7 @@ namespace GlobalNamespace {
       return hideBranding;
     }
     // public System.Void .ctor(System.Boolean hideBranding)
-    // Offset: 0xF26BF4
+    // Offset: 0xF13524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentBrandingManager::InitData* New_ctor(bool hideBranding) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentBrandingManager::InitData::.ctor");

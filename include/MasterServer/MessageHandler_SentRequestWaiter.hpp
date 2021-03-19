@@ -51,28 +51,28 @@ namespace MasterServer {
     // Creating value type constructor for type: SentRequestWaiter
     SentRequestWaiter(System::Threading::Tasks::TaskCompletionSource_1<bool>* taskCompletionSource_ = {}, System::Threading::CancellationTokenRegistration disposedCancellationTokenRegistration_ = {}, System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration_ = {}) noexcept : taskCompletionSource{taskCompletionSource_}, disposedCancellationTokenRegistration{disposedCancellationTokenRegistration_}, requestCancellationTokenRegistration{requestCancellationTokenRegistration_} {}
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x128D1C8
+    // Offset: 0x128FBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::SentRequestWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SentRequestWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::SentRequestWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(System.Boolean handled)
-    // Offset: 0x128A69C
+    // Offset: 0x128D0AC
     void Complete(bool handled);
     // public System.Void Cancel()
-    // Offset: 0x128D3A4
+    // Offset: 0x128FDB4
     void Cancel();
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x128D2E4
+    // Offset: 0x128FCF4
     System::Threading::Tasks::Task* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x128D334
+    // Offset: 0x128FD44
     bool get_isWaiting();
     // public override System.Void Dispose()
-    // Offset: 0x128ED50
+    // Offset: 0x1291760
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
-    // Base method: System.Void RequestWaiter::Dispose_NEW()
+    // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();
   }; // MasterServer.MessageHandler/SentRequestWaiter
   // WARNING Not writing size check since size may be invalid!

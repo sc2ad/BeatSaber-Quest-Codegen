@@ -109,49 +109,49 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(StandardLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_StandardLevelGameplayManager_GameStateSizeCheck;
     static_assert(sizeof(StandardLevelGameplayManager::GameState) == 0x4);
-    // [InjectAttribute] Offset: 0xD254D4
+    // [InjectAttribute] Offset: 0xD259F8
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD254E4
+    // [InjectAttribute] Offset: 0xD25A08
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD254F4
+    // [InjectAttribute] Offset: 0xD25A18
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25504
+    // [InjectAttribute] Offset: 0xD25A28
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25514
+    // [InjectAttribute] Offset: 0xD25A38
     // private readonly StandardLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::StandardLevelGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelGameplayManager::InitData*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25524
+    // [CompilerGeneratedAttribute] Offset: 0xD25A48
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* levelFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25534
+    // [CompilerGeneratedAttribute] Offset: 0xD25A58
     // private System.Action levelFinishedEvent
     // Size: 0x8
     // Offset: 0x48
@@ -173,46 +173,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x10146E8
-    void add_levelFailedEvent_NEW(System::Action* value);
+    // Offset: 0xFDAF50
+    void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x101478C
-    void remove_levelFailedEvent_NEW(System::Action* value);
+    // Offset: 0xFDAFF4
+    void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x1014830
-    void add_levelFinishedEvent_NEW(System::Action* value);
+    // Offset: 0xFDB098
+    void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x10148D4
-    void remove_levelFinishedEvent_NEW(System::Action* value);
+    // Offset: 0xFDB13C
+    void remove_levelFinishedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1014978
+    // Offset: 0xFDB1E0
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1014980
+    // Offset: 0xFDB1E8
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1014A1C
+    // Offset: 0xFDB284
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1014C60
+    // Offset: 0xFDB4C8
     void Update();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x1014CA8
+    // Offset: 0xFDB510
     void HandleGameEnergyDidReach0();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x1014CF4
+    // Offset: 0xFDB55C
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1014D24
+    // Offset: 0xFDB58C
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x1014DA0
+    // Offset: 0xFDB608
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x1014DB8
+    // Offset: 0xFDB620
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x1014DD0
+    // Offset: 0xFDB638
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

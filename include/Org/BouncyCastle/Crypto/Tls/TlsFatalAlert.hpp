@@ -36,14 +36,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor(System.Byte alertDescription)
-    // Offset: 0x1170F20
+    // Offset: 0x1173930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription)));
     }
     // public System.Void .ctor(System.Byte alertDescription, System.Exception alertCause)
-    // Offset: 0x11710C0
+    // Offset: 0x1173AD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, System::Exception* alertCause) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");

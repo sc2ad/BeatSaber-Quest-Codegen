@@ -46,7 +46,7 @@ namespace HMUI {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [InjectAttribute] Offset: 0xD02070
+    // [InjectAttribute] Offset: 0xD024CC
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -72,28 +72,28 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
-    // Offset: 0x122B598
+    // Offset: 0x122DFA8
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x122B5A0
+    // Offset: 0x122DFB0
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x122B5A8
+    // Offset: 0x122DFB8
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x122B640
+    // Offset: 0x122E050
     UnityEngine::Vector3 get_worldCenter();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x122B7C8
-    void OnPointerEnter_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
+    // Offset: 0x122E1D8
+    void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x122B87C
-    void OnPointerExit_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
+    // Offset: 0x122E28C
+    void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x122B9E4
+    // Offset: 0x122E3F4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x122BA74
+    // Offset: 0x122E484
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

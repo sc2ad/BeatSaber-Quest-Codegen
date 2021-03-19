@@ -93,38 +93,38 @@ namespace Mono::Net {
     // Set static field: static private System.IntPtr kCFProxyTypeSOCKS
     static void _set_kCFProxyTypeSOCKS(System::IntPtr value);
     // static private System.Void .cctor()
-    // Offset: 0x142D61C
+    // Offset: 0x143202C
     static void _cctor();
     // System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x142B2F0
+    // Offset: 0x142FD00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxy* New_ctor(Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFProxy*, creationType>(settings)));
     }
     // static private Mono.Net.CFProxyType CFProxyTypeToEnum(System.IntPtr type)
-    // Offset: 0x142D818
+    // Offset: 0x1432228
     static Mono::Net::CFProxyType CFProxyTypeToEnum(System::IntPtr type);
     // public System.IntPtr get_AutoConfigurationJavaScript()
-    // Offset: 0x142CF18
+    // Offset: 0x1431928
     System::IntPtr get_AutoConfigurationJavaScript();
     // public System.IntPtr get_AutoConfigurationUrl()
-    // Offset: 0x142CFD8
+    // Offset: 0x14319E8
     System::IntPtr get_AutoConfigurationUrl();
     // public System.String get_HostName()
-    // Offset: 0x142C87C
+    // Offset: 0x143128C
     ::Il2CppString* get_HostName();
     // public System.String get_Password()
-    // Offset: 0x142C7B8
+    // Offset: 0x14311C8
     ::Il2CppString* get_Password();
     // public System.Int32 get_Port()
-    // Offset: 0x142C940
+    // Offset: 0x1431350
     int get_Port();
     // public Mono.Net.CFProxyType get_ProxyType()
-    // Offset: 0x142C630
+    // Offset: 0x1431040
     Mono::Net::CFProxyType get_ProxyType();
     // public System.String get_Username()
-    // Offset: 0x142C6F4
+    // Offset: 0x1431104
     ::Il2CppString* get_Username();
   }; // Mono.Net.CFProxy
   #pragma pack(pop)

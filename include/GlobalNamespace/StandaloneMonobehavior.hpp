@@ -84,34 +84,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_objectLifeTime()
-    // Offset: 0x15CA690
+    // Offset: 0x15CF0B0
     float get_objectLifeTime();
     // public System.Single get_deltaTime()
-    // Offset: 0x15CA6BC
+    // Offset: 0x15CF0DC
     float get_deltaTime();
     // public System.Single get_lastFrameTime()
-    // Offset: 0x15CA6C4
+    // Offset: 0x15CF0E4
     float get_lastFrameTime();
     // protected System.Void Awake()
-    // Offset: 0x15CA74C
+    // Offset: 0x15CF16C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x15CA774
+    // Offset: 0x15CF194
     void Start();
     // protected System.Void Update()
-    // Offset: 0x15CA778
+    // Offset: 0x15CF198
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x15CA77C
+    // Offset: 0x15CF19C
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x15CA780
+    // Offset: 0x15CF1A0
     void OnApplicationPause(bool pauseStatus);
     // public System.Void WhenReady(System.Action action)
-    // Offset: 0x15CA784
+    // Offset: 0x15CF1A4
     void WhenReady(System::Action* action);
     // private System.Collections.IEnumerator AfterOneFrame(System.Action action)
-    // Offset: 0x15CA7CC
+    // Offset: 0x15CF1EC
     System::Collections::IEnumerator* AfterOneFrame(System::Action* action);
     // static public T Create()
     // Offset: 0xFFFFFFFF
@@ -119,21 +119,21 @@ namespace GlobalNamespace {
     static T Create() {
       static_assert(std::is_convertible_v<T, GlobalNamespace::StandaloneMonobehavior*>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandaloneMonobehavior::Create");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "StandaloneMonobehavior", "Create", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "StandaloneMonobehavior", "Create", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // public System.Threading.Tasks.Task RunAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15CA874
+    // Offset: 0x15CF294
     System::Threading::Tasks::Task* RunAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Collections.IEnumerator RunAsyncCoroutine(System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15CA910
+    // Offset: 0x15CF330
     System::Collections::IEnumerator* RunAsyncCoroutine(System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, System::Threading::CancellationToken cancellationToken);
     // private System.Single GetLastFrameTime()
-    // Offset: 0x15CA6C8
+    // Offset: 0x15CF0E8
     float GetLastFrameTime();
     // public System.Void .ctor()
-    // Offset: 0x15BD20C
+    // Offset: 0x15C1C1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

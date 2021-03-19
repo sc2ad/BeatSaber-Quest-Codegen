@@ -40,7 +40,7 @@ namespace GlobalNamespace {
       return leaderboardsData;
     }
     // public System.Void .ctor()
-    // Offset: 0x10AB2B4
+    // Offset: 0x10ADC58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

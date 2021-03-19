@@ -105,28 +105,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0xFDA860
+    // Offset: 0x10189EC
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0xFDA874
+    // Offset: 0x1018A00
     int get_multiplier();
     // public ILazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> get_didFinishEvent()
-    // Offset: 0xFDA87C
+    // Offset: 0x1018A08
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Init(in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0xFDA884
+    // Offset: 0x1018A10
     void Init(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier);
     // private System.Void RefreshScores()
-    // Offset: 0xFDA9E0
+    // Offset: 0x1018B6C
     void RefreshScores();
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0xFDAA50
-    void HandleSaberSwingRatingCounterDidChange_NEW(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
+    // Offset: 0x1018BDC
+    void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xFDAA54
-    void HandleSaberSwingRatingCounterDidFinish_NEW(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
+    // Offset: 0x1018BE0
+    void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0xFDACB0
+    // Offset: 0x1018E3C
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -35,12 +35,12 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class StringWithQualityHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCF78B0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7CFC
     // private System.Nullable`1<System.Double> <Quality>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
     System::Nullable_1<double> Quality;
-    // [CompilerGeneratedAttribute] Offset: 0xCF78C0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7D0C
     // private System.String <Value>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -54,28 +54,28 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Nullable`1<System.Double> get_Quality()
-    // Offset: 0x13E208C
+    // Offset: 0x13E5A9C
     System::Nullable_1<double> get_Quality();
     // private System.Void set_Quality(System.Nullable`1<System.Double> value)
-    // Offset: 0x13E2098
+    // Offset: 0x13E5AA8
     void set_Quality(System::Nullable_1<double> value);
     // public System.String get_Value()
-    // Offset: 0x13E20A0
+    // Offset: 0x13E5AB0
     ::Il2CppString* get_Value();
     // private System.Void set_Value(System.String value)
-    // Offset: 0x13E20A8
+    // Offset: 0x13E5AB8
     void set_Value(::Il2CppString* value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13E20B0
-    ::Il2CppObject* System_ICloneable_Clone_NEW();
+    // Offset: 0x13E5AC0
+    ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.StringWithQualityHeaderValue> result)
-    // Offset: 0x13E2228
+    // Offset: 0x13E5C38
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*& result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.StringWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x13E22C8
+    // Offset: 0x13E5CD8
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::StringWithQualityHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // private System.Void .ctor()
-    // Offset: 0x13E2084
+    // Offset: 0x13E5A94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,19 +84,19 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<StringWithQualityHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13E20B8
+    // Offset: 0x13E5AC8
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13E2194
+    // Offset: 0x13E5BA4
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13E2528
+    // Offset: 0x13E5F38
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.StringWithQualityHeaderValue
   // WARNING Not writing size check since size may be invalid!

@@ -41,7 +41,7 @@ namespace Zenject {
     // Creating value type constructor for type: InitializableInfo
     InitializableInfo(Zenject::IInitializable* Initializable_ = {}, int Priority_ = {}) noexcept : Initializable{Initializable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1479130
+    // Offset: 0x147DB40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager::InitializableInfo* New_ctor(Zenject::IInitializable* initializable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::InitializableInfo::.ctor");

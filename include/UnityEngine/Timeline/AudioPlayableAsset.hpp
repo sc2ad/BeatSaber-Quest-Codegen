@@ -66,7 +66,7 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Loop and: m_bufferingTime
     char __padding1[0x3] = {};
-    // [HideInInspector] Offset: 0xCEA69C
+    // [HideInInspector] Offset: 0xCEAAD8
     // private System.Single m_bufferingTime
     // Size: 0x4
     // Offset: 0x24
@@ -88,43 +88,43 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // System.Single get_bufferingTime()
-    // Offset: 0x1666AE0
+    // Offset: 0x166A500
     float get_bufferingTime();
     // System.Void set_bufferingTime(System.Single value)
-    // Offset: 0x1666AE8
+    // Offset: 0x166A508
     void set_bufferingTime(float value);
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x1666AF0
+    // Offset: 0x166A510
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1666AF8
+    // Offset: 0x166A518
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Boolean get_loop()
-    // Offset: 0x1666B00
+    // Offset: 0x166A520
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x1666B08
+    // Offset: 0x166A528
     void set_loop(bool value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1666DBC
-    UnityEngine::Timeline::ClipCaps get_clipCaps_NEW();
+    // Offset: 0x166A7DC
+    UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override System.Double get_duration()
-    // Offset: 0x1666B14
+    // Offset: 0x166A534
     // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Double PlayableAsset::get_duration_NEW()
+    // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x1666BD8
+    // Offset: 0x166A5F8
     // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs_NEW()
+    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1666C90
+    // Offset: 0x166A6B0
     // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable_NEW(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x1666DC8
+    // Offset: 0x166A7E8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DoubleSO
     DoubleSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x111C7B0
+    // Offset: 0x111F1CC
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

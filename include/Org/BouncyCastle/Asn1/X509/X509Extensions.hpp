@@ -187,28 +187,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ExpiredCertsOnCrl
     static void _set_ExpiredCertsOnCrl(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static public Org.BouncyCastle.Asn1.X509.X509Extensions GetInstance(System.Object obj)
-    // Offset: 0x18616AC
+    // Offset: 0x18630CC
     static Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1868BC0
+    // Offset: 0x186A5E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extensions* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Extensions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extensions*, creationType>(seq)));
     }
     // public System.Collections.IEnumerable get_ExtensionOids()
-    // Offset: 0x18692CC
+    // Offset: 0x186ACEC
     System::Collections::IEnumerable* get_ExtensionOids();
     // public Org.BouncyCastle.Asn1.X509.X509Extension GetExtension(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1869334
+    // Offset: 0x186AD54
     Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static private System.Void .cctor()
-    // Offset: 0x186993C
+    // Offset: 0x186B35C
     static void _cctor();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1869434
+    // Offset: 0x186AE54
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.X509Extensions
   #pragma pack(pop)

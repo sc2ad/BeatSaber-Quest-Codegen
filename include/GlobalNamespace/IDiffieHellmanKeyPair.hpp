@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     IDiffieHellmanKeyPair() noexcept {}
     // public System.Byte[] get_publicKey()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* get_publicKey_NEW();
+    ::Array<uint8_t>* get_publicKey();
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync_NEW(::Array<uint8_t>* clientPublicKey);
+    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetPreMasterSecret_NEW(::Array<uint8_t>* clientPublicKey);
+    ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
   }; // IDiffieHellmanKeyPair
   #pragma pack(pop)
 }

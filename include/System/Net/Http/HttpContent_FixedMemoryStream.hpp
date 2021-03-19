@@ -30,22 +30,22 @@ namespace System::Net::Http {
     // Creating value type constructor for type: FixedMemoryStream
     FixedMemoryStream(int64_t maxSize_ = {}) noexcept : maxSize{maxSize_} {}
     // public System.Void .ctor(System.Int64 maxSize)
-    // Offset: 0x13E7B58
+    // Offset: 0x13EB568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContent::FixedMemoryStream* New_ctor(int64_t maxSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpContent::FixedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent::FixedMemoryStream*, creationType>(maxSize)));
     }
     // private System.Void CheckOverflow(System.Int32 count)
-    // Offset: 0x13E83FC
+    // Offset: 0x13EBE0C
     void CheckOverflow(int count);
     // public override System.Void WriteByte(System.Byte value)
-    // Offset: 0x13E854C
+    // Offset: 0x13EBF5C
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x13E8580
+    // Offset: 0x13EBF90
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);

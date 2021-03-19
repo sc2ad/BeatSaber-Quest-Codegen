@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CachedTcs
     CachedTcs(float kRefreshTime_ = {}, System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::EntitlementsStatus>* source_ = {}, float creationTime_ = {}) noexcept : kRefreshTime{kRefreshTime_}, source{source_}, creationTime{creationTime_} {}
     // public System.Threading.Tasks.Task`1<EntitlementsStatus> get_task()
-    // Offset: 0x10BB490
+    // Offset: 0x10BDE54
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* get_task();
     // public System.Void SetResult(EntitlementsStatus status)
-    // Offset: 0x10BB4E0
+    // Offset: 0x10BDEA4
     void SetResult(GlobalNamespace::EntitlementsStatus status);
     // public System.Boolean Refresh()
-    // Offset: 0x10BB574
+    // Offset: 0x10BDF38
     bool Refresh();
     // public System.Void .ctor()
-    // Offset: 0x10BB408
+    // Offset: 0x10BDDCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

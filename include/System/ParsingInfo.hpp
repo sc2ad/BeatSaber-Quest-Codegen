@@ -88,7 +88,7 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init()
-    // Offset: 0xE01638
+    // Offset: 0xE04BD4
     void Init();
   }; // System.ParsingInfo
   #pragma pack(pop)

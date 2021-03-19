@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StartRelayParams
     StartRelayParams() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1217F78
+    // Offset: 0x121A988
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

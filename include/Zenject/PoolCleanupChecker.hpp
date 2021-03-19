@@ -58,15 +58,15 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IMemoryPool> poolFactories, System.Collections.Generic.List`1<System.Type> ignoredPools)
-    // Offset: 0x150C864
+    // Offset: 0x1510274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolCleanupChecker* New_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool*>* poolFactories, System::Collections::Generic::List_1<System::Type*>* ignoredPools) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolCleanupChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolCleanupChecker*, creationType>(poolFactories, ignoredPools)));
     }
     // public System.Void LateDispose()
-    // Offset: 0x150C974
-    void LateDispose_NEW();
+    // Offset: 0x1510384
+    void LateDispose();
   }; // Zenject.PoolCleanupChecker
   #pragma pack(pop)
   static check_size<sizeof(PoolCleanupChecker), 24 + sizeof(System::Collections::Generic::List_1<System::Type*>*)> __Zenject_PoolCleanupCheckerSizeCheck;

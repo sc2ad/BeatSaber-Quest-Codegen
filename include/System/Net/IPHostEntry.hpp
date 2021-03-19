@@ -51,22 +51,22 @@ namespace System::Net {
     // Creating value type constructor for type: IPHostEntry
     IPHostEntry(::Il2CppString* hostName_ = {}, ::Array<::Il2CppString*>* aliases_ = {}, ::Array<System::Net::IPAddress*>* addressList_ = {}, bool isTrustedHost_ = {}) noexcept : hostName{hostName_}, aliases{aliases_}, addressList{addressList_}, isTrustedHost{isTrustedHost_} {}
     // public System.String get_HostName()
-    // Offset: 0x1494B7C
+    // Offset: 0x149958C
     ::Il2CppString* get_HostName();
     // public System.Void set_HostName(System.String value)
-    // Offset: 0x1494B84
+    // Offset: 0x1499594
     void set_HostName(::Il2CppString* value);
     // public System.Void set_Aliases(System.String[] value)
-    // Offset: 0x1494B8C
+    // Offset: 0x149959C
     void set_Aliases(::Array<::Il2CppString*>* value);
     // public System.Net.IPAddress[] get_AddressList()
-    // Offset: 0x1494B94
+    // Offset: 0x14995A4
     ::Array<System::Net::IPAddress*>* get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
-    // Offset: 0x1494B9C
+    // Offset: 0x14995AC
     void set_AddressList(::Array<System::Net::IPAddress*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1494BA4
+    // Offset: 0x14995B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

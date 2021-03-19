@@ -34,16 +34,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAnalyticsModel*>(this);
     }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0x10BE4E0
-    bool get_supportsOpenDataPrivacyPage_NEW();
+    // Offset: 0x10C0EA4
+    bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0x10BE4E8
-    void OpenDataPrivacyPage_NEW();
+    // Offset: 0x10C0EAC
+    void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x10BE4EC
-    void LogEvent_NEW(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
+    // Offset: 0x10C0EB0
+    void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
     // public System.Void .ctor()
-    // Offset: 0x10BE4F0
+    // Offset: 0x10C0EB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

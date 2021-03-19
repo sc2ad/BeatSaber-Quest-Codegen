@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD240EC
+    // [InjectAttribute] Offset: 0xD24630
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD240FC
+    // [InjectAttribute] Offset: 0xD24640
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -121,25 +121,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFABF68
+    // Offset: 0xFD00CC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFAC3F0
+    // Offset: 0xFD0554
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0xFAC4FC
+    // Offset: 0xFD0660
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xFAC5EC
+    // Offset: 0xFD0750
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xFAC6DC
+    // Offset: 0xFD0840
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0xFAC974
+    // Offset: 0xFD0AD8
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xFACE04
+    // Offset: 0xFD0F68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

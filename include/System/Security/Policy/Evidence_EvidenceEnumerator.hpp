@@ -46,21 +46,21 @@ namespace System::Security::Policy {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x1971F44
+    // Offset: 0x1973964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1971F80
-    bool MoveNext_NEW();
+    // Offset: 0x19739A0
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19720CC
-    void Reset_NEW();
+    // Offset: 0x1973AEC
+    void Reset();
     // public System.Object get_Current()
-    // Offset: 0x197220C
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x1973C2C
+    ::Il2CppObject* get_Current();
   }; // System.Security.Policy.Evidence/EvidenceEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Evidence::EvidenceEnumerator), 32 + sizeof(System::Collections::IEnumerator*)> __System_Security_Policy_Evidence_EvidenceEnumeratorSizeCheck;

@@ -16,7 +16,7 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: Debug
     Debug() noexcept {}
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x16C8890
+    // Offset: 0x16CC2B0
     static void Assert_(bool condition);
   }; // System.Diagnostics.Debug
   #pragma pack(pop)

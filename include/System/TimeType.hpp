@@ -40,16 +40,16 @@ namespace System {
     // Creating value type constructor for type: TimeType
     TimeType(int Offset_ = {}, bool IsDst_ = {}, ::Il2CppString* Name_ = {}) noexcept : Offset{Offset_}, IsDst{IsDst_}, Name{Name_} {}
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
-    // Offset: 0x16E5D34
+    // Offset: 0x16E9754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeType* New_ctor(int offset, bool is_dst, ::Il2CppString* abbrev) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeType*, creationType>(offset, is_dst, abbrev)));
     }
     // public override System.String ToString()
-    // Offset: 0x16E5D7C
+    // Offset: 0x16E979C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.TimeType
   #pragma pack(pop)

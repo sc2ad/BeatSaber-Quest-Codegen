@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentTypeSO* environmentType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentTypeSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3289C
+    // [CompilerGeneratedAttribute] Offset: 0xD32DE0
     // private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -72,13 +72,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Elements
     Elements(TMPro::TextMeshProUGUI* label_ = {}, HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::EnvironmentTypeSO* environmentType_ = {}, System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos_ = {}) noexcept : label{label_}, simpleTextDropdown{simpleTextDropdown_}, environmentType{environmentType_}, environmentInfos{environmentInfos_} {}
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
-    // Offset: 0xF28220
+    // Offset: 0xF14B70
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public System.Void set_environmentInfos(System.Collections.Generic.List`1<EnvironmentInfoSO> value)
-    // Offset: 0xF28228
+    // Offset: 0xF14B78
     void set_environmentInfos(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0xF28230
+    // Offset: 0xF14B80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

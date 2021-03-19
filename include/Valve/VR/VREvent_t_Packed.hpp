@@ -52,7 +52,7 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0xE14864
+    // Offset: 0xE18E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VREvent_t_Packed(Valve::VR::VREvent_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VREvent_t_Packed::.ctor");
@@ -60,7 +60,7 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0xE148B4
+    // Offset: 0xE18E50
     void Unpack(Valve::VR::VREvent_t& unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

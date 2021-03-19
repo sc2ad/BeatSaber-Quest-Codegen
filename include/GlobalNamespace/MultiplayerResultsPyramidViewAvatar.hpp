@@ -131,7 +131,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: localPlayerColor and: nameCanvas
     char __padding5[0x4] = {};
-    // [HeaderAttribute] Offset: 0xD28344
+    // [HeaderAttribute] Offset: 0xD28868
     // private UnityEngine.CanvasGroup _nameCanvas
     // Size: 0x8
     // Offset: 0x50
@@ -168,7 +168,7 @@ namespace GlobalNamespace {
     Tweening::EaseType titleMakingSpaceEasing;
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
-    // [HeaderAttribute] Offset: 0xD283E0
+    // [HeaderAttribute] Offset: 0xD28904
     // private UnityEngine.CanvasGroup _badgeCanvas
     // Size: 0x8
     // Offset: 0x78
@@ -213,7 +213,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* badgeReceiveAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD2848C
+    // [HeaderAttribute] Offset: 0xD289B0
     // private TMPro.TextMeshProUGUI _badgeSubtitleText
     // Size: 0x8
     // Offset: 0xB0
@@ -226,7 +226,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* badgeSubtitleCanvas;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD284E8
+    // [HeaderAttribute] Offset: 0xD28A0C
     // private GhostDuplicationEffect _ghostDuplicationEffect
     // Size: 0x8
     // Offset: 0xC0
@@ -249,7 +249,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams) == 0x45);
     // Padding between fields: ghostReceive and: trophyImage
     char __padding23[0x3] = {};
-    // [HeaderAttribute] Offset: 0xD28554
+    // [HeaderAttribute] Offset: 0xD28A78
     // private HMUI.ImageView _trophyImage
     // Size: 0x8
     // Offset: 0x158
@@ -286,7 +286,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* personalBestVisual;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD285F0
+    // [HeaderAttribute] Offset: 0xD28B14
     // private Tweening.EaseType _riseTweenEasing
     // Size: 0x4
     // Offset: 0x190
@@ -311,7 +311,7 @@ namespace GlobalNamespace {
     float avatarRelativeDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xD2866C
+    // [HeaderAttribute] Offset: 0xD28B90
     // private Tweening.EaseType _nameTweenOpacityEasing
     // Size: 0x4
     // Offset: 0x1A8
@@ -336,7 +336,7 @@ namespace GlobalNamespace {
     float additionalPerPositionDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD286E8
+    // [SpaceAttribute] Offset: 0xD28C0C
     // private Tweening.EaseType _nameTweenPositionEasing
     // Size: 0x4
     // Offset: 0x1B8
@@ -349,21 +349,21 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 nameTweenOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [InjectAttribute] Offset: 0xD28730
+    // [InjectAttribute] Offset: 0xD28C54
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x1C8
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28740
+    // [InjectAttribute] Offset: 0xD28C64
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x1D0
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28750
+    // [InjectAttribute] Offset: 0xD28C74
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x1D8
@@ -426,7 +426,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: originalBadgeLocalPos and: connectedPlayer
     char __padding51[0x4] = {};
-    // [InjectAttribute] Offset: 0xD28760
+    // [InjectAttribute] Offset: 0xD28C84
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x230
@@ -438,43 +438,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF18064
+    // Offset: 0xF3334C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF182E8
-    void OnDestroy_NEW();
+    // Offset: 0xF335D0
+    void OnDestroy();
     // public System.Void AnimateDisplay(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
-    // Offset: 0xF17BE4
+    // Offset: 0xF32ECC
     void AnimateDisplay(GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
     // public System.Void AnimateBadge(UnityEngine.Transform startPosition, UnityEngine.Transform midPosition)
-    // Offset: 0xF17CCC
+    // Offset: 0xF32FB4
     void AnimateBadge(UnityEngine::Transform* startPosition, UnityEngine::Transform* midPosition);
     // private System.Void OnValidate()
-    // Offset: 0xF18498
+    // Offset: 0xF33780
     void OnValidate();
     // private System.Collections.IEnumerator BadgeEffectCoroutine(System.Single delayBeforeReceiveStarts, System.Single delayBeforeArrivalEffect)
-    // Offset: 0xF18414
+    // Offset: 0xF336FC
     System::Collections::IEnumerator* BadgeEffectCoroutine(float delayBeforeReceiveStarts, float delayBeforeArrivalEffect);
     // private System.Collections.IEnumerator AnimationCoroutine(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
-    // Offset: 0xF18380
+    // Offset: 0xF33668
     System::Collections::IEnumerator* AnimationCoroutine(GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
     // private System.Void <Awake>b__54_0(UnityEngine.Vector3 val)
-    // Offset: 0xF1861C
+    // Offset: 0xF33904
     void $Awake$b__54_0(UnityEngine::Vector3 val);
     // private System.Void <Awake>b__54_1(UnityEngine.Vector3 val)
-    // Offset: 0xF18638
+    // Offset: 0xF33920
     void $Awake$b__54_1(UnityEngine::Vector3 val);
     // private System.Void <AnimateBadge>b__57_0(UnityEngine.Vector3 val)
-    // Offset: 0xF18654
+    // Offset: 0xF3393C
     void $AnimateBadge$b__57_0(UnityEngine::Vector3 val);
     // private System.Void <AnimationCoroutine>b__60_0(System.Single val)
-    // Offset: 0xF186A8
+    // Offset: 0xF33990
     void $AnimationCoroutine$b__60_0(float val);
     // private System.Void <AnimationCoroutine>b__60_1(UnityEngine.Vector3 val)
-    // Offset: 0xF186C4
+    // Offset: 0xF339AC
     void $AnimationCoroutine$b__60_1(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0xF18504
+    // Offset: 0xF337EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

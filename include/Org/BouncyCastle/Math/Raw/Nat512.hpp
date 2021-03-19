@@ -16,10 +16,10 @@ namespace Org::BouncyCastle::Math::Raw {
     // Creating value type constructor for type: Nat512
     Nat512() noexcept {}
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x123EE50
+    // Offset: 0x1242860
     static void Mul(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* zz);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] zz)
-    // Offset: 0x123EF8C
+    // Offset: 0x124299C
     static void Square(::Array<uint>* x, ::Array<uint>* zz);
   }; // Org.BouncyCastle.Math.Raw.Nat512
   #pragma pack(pop)

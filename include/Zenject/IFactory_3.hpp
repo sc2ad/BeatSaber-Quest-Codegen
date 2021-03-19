@@ -26,8 +26,8 @@ namespace Zenject {
     }
     // public TValue Create(TParam1 param1, TParam2 param2)
     // Offset: 0xFFFFFFFF
-    TValue Create_NEW(TParam1 param1, TParam2 param2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactory_3::Create_NEW");
+    TValue Create(TParam1 param1, TParam2 param2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactory_3::Create");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(param1, param2)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param1, param2);
     }

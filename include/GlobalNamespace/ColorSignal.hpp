@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSignal
     ColorSignal() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x111A080
+    // Offset: 0x111CA9C
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

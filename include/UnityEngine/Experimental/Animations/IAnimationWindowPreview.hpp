@@ -23,7 +23,7 @@ namespace UnityEngine::Experimental::Animations {
     IAnimationWindowPreview() noexcept {}
     // public System.Void UpdatePreviewGraph(UnityEngine.Playables.PlayableGraph graph)
     // Offset: 0xFFFFFFFF
-    void UpdatePreviewGraph_NEW(UnityEngine::Playables::PlayableGraph graph);
+    void UpdatePreviewGraph(UnityEngine::Playables::PlayableGraph graph);
   }; // UnityEngine.Experimental.Animations.IAnimationWindowPreview
   #pragma pack(pop)
 }

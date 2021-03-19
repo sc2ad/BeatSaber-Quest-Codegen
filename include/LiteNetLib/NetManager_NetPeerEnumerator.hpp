@@ -54,7 +54,7 @@ namespace LiteNetLib {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>*>(this);
     }
     // public System.Void .ctor(LiteNetLib.NetPeer p)
-    // Offset: 0xDFD924
+    // Offset: 0xDFFEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     NetPeerEnumerator(LiteNetLib::NetPeer* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::NetPeerEnumerator::.ctor");
@@ -62,20 +62,20 @@ namespace LiteNetLib {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, p);
     }
     // public System.Void Dispose()
-    // Offset: 0xDFD92C
-    void Dispose_NEW();
+    // Offset: 0xDFFEC8
+    void Dispose();
     // public System.Boolean MoveNext()
-    // Offset: 0xDFD930
-    bool MoveNext_NEW();
+    // Offset: 0xDFFECC
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0xDFD970
-    void Reset_NEW();
+    // Offset: 0xDFFF0C
+    void Reset();
     // public LiteNetLib.NetPeer get_Current()
-    // Offset: 0xDFD97C
-    LiteNetLib::NetPeer* get_Current_NEW();
+    // Offset: 0xDFFF18
+    LiteNetLib::NetPeer* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xDFD984
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
+    // Offset: 0xDFFF20
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // LiteNetLib.NetManager/NetPeerEnumerator
   #pragma pack(pop)
   static check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(LiteNetLib::NetPeer*)> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;

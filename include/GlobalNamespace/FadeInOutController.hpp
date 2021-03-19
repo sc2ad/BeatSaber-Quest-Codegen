@@ -84,37 +84,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void FadeOutInstant()
-    // Offset: 0x111EADC
+    // Offset: 0x11214F8
     void FadeOutInstant();
     // public System.Void FadeIn()
-    // Offset: 0x111EBB0
+    // Offset: 0x11215CC
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x111EC8C
+    // Offset: 0x11216A8
     void FadeOut();
     // public System.Void FadeIn(System.Single duration)
-    // Offset: 0x111EC98
+    // Offset: 0x11216B4
     void FadeIn(float duration);
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0x111ECA0
+    // Offset: 0x11216BC
     void FadeOut(float duration);
     // public System.Void FadeIn(System.Action fadeInCallback)
-    // Offset: 0x111ECA8
+    // Offset: 0x11216C4
     void FadeIn(System::Action* fadeInCallback);
     // public System.Void FadeOut(System.Action fadeOutCallback)
-    // Offset: 0x111ECB0
+    // Offset: 0x11216CC
     void FadeOut(System::Action* fadeOutCallback);
     // public System.Void FadeIn(System.Single duration, System.Action fadeInFinishedCallback)
-    // Offset: 0x111EBBC
+    // Offset: 0x11215D8
     void FadeIn(float duration, System::Action* fadeInFinishedCallback);
     // public System.Void FadeOut(System.Single duration, System.Action fadeOutFinishedCallback)
-    // Offset: 0x111EAE8
+    // Offset: 0x1121504
     void FadeOut(float duration, System::Action* fadeOutFinishedCallback);
     // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve, System.Action fadeFinishedCallback)
-    // Offset: 0x111ECB8
+    // Offset: 0x11216D4
     System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, UnityEngine::AnimationCurve* curve, System::Action* fadeFinishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x111ED98
+    // Offset: 0x11217B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

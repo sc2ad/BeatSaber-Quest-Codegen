@@ -23,7 +23,7 @@ namespace UnityEngine::UI {
     IMaterialModifier() noexcept {}
     // public UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Material* GetModifiedMaterial_NEW(UnityEngine::Material* baseMaterial);
+    UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
   }; // UnityEngine.UI.IMaterialModifier
   #pragma pack(pop)
 }

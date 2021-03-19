@@ -27,7 +27,7 @@ namespace System::Diagnostics::Tracing {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // [ThreadStaticAttribute] Offset: 0xC9AAAC
+    // [ThreadStaticAttribute] Offset: 0xC9AEFC
     // Get static field: static private System.Byte m_EventSourceExceptionRecurenceCount
     static uint8_t _get_m_EventSourceExceptionRecurenceCount();
     // Set static field: static private System.Byte m_EventSourceExceptionRecurenceCount
@@ -41,21 +41,21 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid
     static void _set_AspNetEventSourceGuid(System::Guid value);
     // public System.Boolean IsEnabled()
-    // Offset: 0x1647230
+    // Offset: 0x164AC50
     bool IsEnabled();
     // public System.Void Dispose()
-    // Offset: 0x16472AC
-    void Dispose_NEW();
+    // Offset: 0x164ACCC
+    void Dispose();
     // static private System.Void .cctor()
-    // Offset: 0x16472B4
+    // Offset: 0x164ACD4
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1647238
+    // Offset: 0x164AC58
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x16472A4
+    // Offset: 0x164ACC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,9 +64,9 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x16472B0
+    // Offset: 0x164ACD0
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize_NEW()
+    // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Diagnostics.Tracing.EventSource
   #pragma pack(pop)

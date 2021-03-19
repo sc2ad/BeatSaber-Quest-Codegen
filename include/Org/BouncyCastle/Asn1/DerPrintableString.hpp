@@ -40,39 +40,39 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x15416BC
+    // Offset: 0x15450CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerPrintableString* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerPrintableString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerPrintableString*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str, System.Boolean validate)
-    // Offset: 0x155158C
+    // Offset: 0x1554F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerPrintableString* New_ctor(::Il2CppString* str, bool validate) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerPrintableString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerPrintableString*, creationType>(str, validate)));
     }
     // public System.Byte[] GetOctets()
-    // Offset: 0x155177C
+    // Offset: 0x155518C
     ::Array<uint8_t>* GetOctets();
     // static public System.Boolean IsPrintableString(System.String str)
-    // Offset: 0x1551674
+    // Offset: 0x1555084
     static bool IsPrintableString(::Il2CppString* str);
     // public override System.String GetString()
-    // Offset: 0x1551774
+    // Offset: 0x1555184
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
-    // Base method: System.String DerStringBase::GetString_NEW()
+    // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1551788
+    // Offset: 0x1555198
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Void Asn1Object::Encode_NEW(Org.BouncyCastle.Asn1.DerOutputStream derOut)
+    // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x15517C4
+    // Offset: 0x15551D4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Boolean Asn1Object::Asn1Equals_NEW(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
+    // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerPrintableString
   #pragma pack(pop)

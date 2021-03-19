@@ -40,19 +40,19 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
     static void _set_Int32Tasks(::Array<System::Threading::Tasks::Task_1<int>*>* value);
     // static private System.Threading.Tasks.Task`1<System.Int32>[] CreateInt32Tasks()
-    // Offset: 0x12FE798
+    // Offset: 0x13001A8
     static ::Array<System::Threading::Tasks::Task_1<int>*>* CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* CreateCacheableTask(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncTaskCache::CreateCacheableTask");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "AsyncTaskCache", "CreateCacheableTask", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(result)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "AsyncTaskCache", "CreateCacheableTask", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(result)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, result);
     }
     // static private System.Void .cctor()
-    // Offset: 0x12FE8A0
+    // Offset: 0x13002B0
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskCache
   #pragma pack(pop)

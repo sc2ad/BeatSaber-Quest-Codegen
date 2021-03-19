@@ -57,7 +57,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void EnumByteSerializer_1::Read(T inf, LiteNetLib.Utils.NetDataReader r)
     void Read(T inf, LiteNetLib::Utils::NetDataReader* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::EnumIntSerializer_1::Read");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, r)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(T inf, LiteNetLib.Utils.NetDataWriter w)
@@ -66,7 +66,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void EnumByteSerializer_1::Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(T inf, LiteNetLib::Utils::NetDataWriter* w) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::EnumIntSerializer_1::Write");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(inf, w)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }
   }; // LiteNetLib.Utils.NetSerializer/EnumIntSerializer`1

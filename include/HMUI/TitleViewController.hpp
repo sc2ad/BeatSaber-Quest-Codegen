@@ -35,10 +35,10 @@ namespace HMUI {
     // Creating value type constructor for type: TitleViewController
     TitleViewController(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
     // public System.Void SetText(System.String text)
-    // Offset: 0x1205D18
+    // Offset: 0x1208728
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x1205D34
+    // Offset: 0x1208744
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

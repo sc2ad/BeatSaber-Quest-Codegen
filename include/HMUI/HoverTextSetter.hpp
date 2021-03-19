@@ -60,22 +60,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
-    // Offset: 0x122CE3C
+    // Offset: 0x122F84C
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x122CE44
+    // Offset: 0x122F854
     void set_text(::Il2CppString* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x122CE4C
-    void OnPointerEnter_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
+    // Offset: 0x122F85C
+    void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x122CE6C
-    void OnPointerExit_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
+    // Offset: 0x122F87C
+    void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x122CE84
+    // Offset: 0x122F894
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x122CE9C
+    // Offset: 0x122F8AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

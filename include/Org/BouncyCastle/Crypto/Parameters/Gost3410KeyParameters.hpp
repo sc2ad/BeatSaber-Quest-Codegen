@@ -50,17 +50,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x1162E18
+    // Offset: 0x1165828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410KeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410KeyParameters*, creationType>(isPrivate, publicKeyParamSet)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters get_Parameters()
-    // Offset: 0x1162FA0
+    // Offset: 0x11659B0
     Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();
     // static private Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters LookupParameters(Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x1162E50
+    // Offset: 0x1165860
     static Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters
   #pragma pack(pop)

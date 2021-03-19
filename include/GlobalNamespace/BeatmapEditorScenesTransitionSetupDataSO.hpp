@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BeatmapEditorScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD31788
+    // [CompilerGeneratedAttribute] Offset: 0xD31CBC
     // private System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> didFinishEvent
     // Size: 0x8
     // Offset: 0x30
@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapEditorScenesTransitionSetupDataSO
     BeatmapEditorScenesTransitionSetupDataSO(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent_ = {}) noexcept : didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x1070818
+    // Offset: 0x10723DC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x10708BC
+    // Offset: 0x1072480
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void Init()
-    // Offset: 0x1070960
+    // Offset: 0x1072524
     void Init();
     // public System.Void Finish()
-    // Offset: 0x10709CC
+    // Offset: 0x1072590
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0x1070A30
+    // Offset: 0x10725F4
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

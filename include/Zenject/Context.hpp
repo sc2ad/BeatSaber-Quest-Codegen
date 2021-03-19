@@ -61,8 +61,8 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCF0BE0
-    // [FormerlySerializedAsAttribute] Offset: 0xCF0BE0
+    // [FormerlySerializedAsAttribute] Offset: 0xCF101C
+    // [FormerlySerializedAsAttribute] Offset: 0xCF101C
     // private System.Collections.Generic.List`1<Zenject.MonoInstaller> _monoInstallers
     // Size: 0x8
     // Offset: 0x20
@@ -92,34 +92,34 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_Installers()
-    // Offset: 0x12A4218
+    // Offset: 0x12A6C28
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_Installers();
     // public System.Void set_Installers(System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> value)
-    // Offset: 0x12A4220
+    // Offset: 0x12A6C30
     void set_Installers(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_InstallerPrefabs()
-    // Offset: 0x12A42A0
+    // Offset: 0x12A6CB0
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_InstallerPrefabs();
     // public System.Void set_InstallerPrefabs(System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> value)
-    // Offset: 0x12A42A8
+    // Offset: 0x12A6CB8
     void set_InstallerPrefabs(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.ScriptableObjectInstaller> get_ScriptableObjectInstallers()
-    // Offset: 0x12A4328
+    // Offset: 0x12A6D38
     System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* get_ScriptableObjectInstallers();
     // public System.Void set_ScriptableObjectInstallers(System.Collections.Generic.IEnumerable`1<Zenject.ScriptableObjectInstaller> value)
-    // Offset: 0x12A4330
+    // Offset: 0x12A6D40
     void set_ScriptableObjectInstallers(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.Type> get_NormalInstallerTypes()
-    // Offset: 0x12A43B0
+    // Offset: 0x12A6DC0
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_NormalInstallerTypes();
     // public System.Void set_NormalInstallerTypes(System.Collections.Generic.IEnumerable`1<System.Type> value)
-    // Offset: 0x12A43B8
+    // Offset: 0x12A6DC8
     void set_NormalInstallerTypes(System::Collections::Generic::IEnumerable_1<System::Type*>* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.InstallerBase> get_NormalInstallers()
-    // Offset: 0x12A44F0
+    // Offset: 0x12A6F00
     System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>* get_NormalInstallers();
     // public System.Void set_NormalInstallers(System.Collections.Generic.IEnumerable`1<Zenject.InstallerBase> value)
-    // Offset: 0x12A44F8
+    // Offset: 0x12A6F08
     void set_NormalInstallers(System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>* value);
     // public Zenject.DiContainer get_Container()
     // Offset: 0xFFFFFFFF
@@ -128,31 +128,31 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // public System.Void AddNormalInstallerType(System.Type installerType)
-    // Offset: 0x12A4578
+    // Offset: 0x12A6F88
     void AddNormalInstallerType(System::Type* installerType);
     // public System.Void AddNormalInstaller(Zenject.InstallerBase installer)
-    // Offset: 0x12A4624
+    // Offset: 0x12A7034
     void AddNormalInstaller(Zenject::InstallerBase* installer);
     // private System.Void CheckInstallerPrefabTypes(System.Collections.Generic.List`1<Zenject.MonoInstaller> installers, System.Collections.Generic.List`1<Zenject.MonoInstaller> installerPrefabs)
-    // Offset: 0x12A468C
+    // Offset: 0x12A709C
     void CheckInstallerPrefabTypes(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* installers, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* installerPrefabs);
     // protected System.Void InstallInstallers()
-    // Offset: 0x12A48EC
+    // Offset: 0x12A72FC
     void InstallInstallers();
     // protected System.Void InstallInstallers(System.Collections.Generic.List`1<Zenject.InstallerBase> normalInstallers, System.Collections.Generic.List`1<System.Type> normalInstallerTypes, System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> scriptableObjectInstallers, System.Collections.Generic.List`1<Zenject.MonoInstaller> installers, System.Collections.Generic.List`1<Zenject.MonoInstaller> installerPrefabs)
-    // Offset: 0x12A48FC
+    // Offset: 0x12A730C
     void InstallInstallers(System::Collections::Generic::List_1<Zenject::InstallerBase*>* normalInstallers, System::Collections::Generic::List_1<System::Type*>* normalInstallerTypes, System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* installers, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* installerPrefabs);
     // protected System.Void InstallSceneBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x12A4F70
+    // Offset: 0x12A7980
     void InstallSceneBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // private System.Void InstallZenjectBinding(Zenject.ZenjectBinding binding)
-    // Offset: 0x12A5444
+    // Offset: 0x12A7E54
     void InstallZenjectBinding(Zenject::ZenjectBinding* binding);
     // protected System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> components)
     // Offset: 0xFFFFFFFF
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* components);
     // protected System.Void .ctor()
-    // Offset: 0x12A5B98
+    // Offset: 0x12A85A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

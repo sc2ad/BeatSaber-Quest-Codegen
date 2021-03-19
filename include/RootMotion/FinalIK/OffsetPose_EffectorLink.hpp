@@ -62,10 +62,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: EffectorLink
     EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 pin_ = {}, UnityEngine::Vector3 pinWeight_ = {}) noexcept : effector{effector_}, offset{offset_}, pin{pin_}, pinWeight{pinWeight_} {}
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1919C98
+    // Offset: 0x191A6B8
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x191A0E8
+    // Offset: 0x191AB08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

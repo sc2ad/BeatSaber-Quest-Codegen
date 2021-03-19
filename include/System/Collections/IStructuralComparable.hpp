@@ -26,7 +26,7 @@ namespace System::Collections {
     IStructuralComparable() noexcept {}
     // public System.Int32 CompareTo(System.Object other, System.Collections.IComparer comparer)
     // Offset: 0xFFFFFFFF
-    int CompareTo_NEW(::Il2CppObject* other, System::Collections::IComparer* comparer);
+    int CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
   }; // System.Collections.IStructuralComparable
   #pragma pack(pop)
 }

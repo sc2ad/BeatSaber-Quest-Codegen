@@ -26,17 +26,17 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* unit;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7780
+    // [CompilerGeneratedAttribute] Offset: 0xCF7BCC
     // private System.Nullable`1<System.Int64> <From>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<int64_t> From;
-    // [CompilerGeneratedAttribute] Offset: 0xCF7790
+    // [CompilerGeneratedAttribute] Offset: 0xCF7BDC
     // private System.Nullable`1<System.Int64> <Length>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Nullable_1<int64_t> Length;
-    // [CompilerGeneratedAttribute] Offset: 0xCF77A0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7BEC
     // private System.Nullable`1<System.Int64> <To>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -48,34 +48,34 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x13D8314
+    // Offset: 0x13DBD24
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x13D8320
+    // Offset: 0x13DBD30
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x13D8328
+    // Offset: 0x13DBD38
     System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x13D8334
+    // Offset: 0x13DBD44
     void set_Length(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x13D833C
+    // Offset: 0x13DBD4C
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x13D8348
+    // Offset: 0x13DBD58
     void set_To(System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x13D8350
+    // Offset: 0x13DBD60
     ::Il2CppString* get_Unit();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13D8358
-    ::Il2CppObject* System_ICloneable_Clone_NEW();
+    // Offset: 0x13DBD68
+    ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x13D85A0
+    // Offset: 0x13DBFB0
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::ContentRangeHeaderValue*& parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x13D82BC
+    // Offset: 0x13DBCCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,19 +84,19 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ContentRangeHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13D8360
+    // Offset: 0x13DBD70
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13D84A4
+    // Offset: 0x13DBEB4
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13D8AC4
+    // Offset: 0x13DC4D4
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ContentRangeHeaderValue
   // WARNING Not writing size check since size may be invalid!

@@ -31,27 +31,27 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: EmptyFilter
     EmptyFilter() noexcept {}
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2096328
+    // Offset: 0x209CE04
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: System.Boolean TestFilter::Match_NEW(NUnit.Framework.Interfaces.ITest test)
+    // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2096330
+    // Offset: 0x209CE0C
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: System.Boolean TestFilter::Pass_NEW(NUnit.Framework.Interfaces.ITest test)
+    // Base method: System.Boolean TestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2096338
+    // Offset: 0x209CE14
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: System.Boolean TestFilter::IsExplicitMatch_NEW(NUnit.Framework.Interfaces.ITest test)
+    // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x2096340
+    // Offset: 0x209CE1C
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml_NEW(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
+    // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Void .ctor()
-    // Offset: 0x20962C0
+    // Offset: 0x209CD9C
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()

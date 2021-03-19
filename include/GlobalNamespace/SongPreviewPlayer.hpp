@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     class AudioSourceVolumeController;
     // Nested type: GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__23
     class $CrossFadeAfterDelayCoroutine$d__23;
-    // [RangeAttribute] Offset: 0xD1EBEC
+    // [RangeAttribute] Offset: 0xD1F058
     // private System.Int32 _channelsCount
     // Size: 0x4
     // Offset: 0x18
@@ -89,21 +89,21 @@ namespace GlobalNamespace {
     float fadeInSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xD1EC8C
+    // [HeaderAttribute] Offset: 0xD1F0F8
     // private SongPreviewPlayer/AudioSourceParams _defaultAudioSourceParams
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::SongPreviewPlayer::AudioSourceParams* defaultAudioSourceParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1ECD8
+    // [SpaceAttribute] Offset: 0xD1F144
     // private SongPreviewPlayer/AudioSourceParams _othersAudioSourceParams
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::SongPreviewPlayer::AudioSourceParams* othersAudioSourceParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1ED10
+    // [InjectAttribute] Offset: 0xD1F17C
     // private readonly SongPreviewPlayer/InitData _initData
     // Size: 0x8
     // Offset: 0x50
@@ -159,49 +159,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF7AA1C
+    // Offset: 0xF7F548
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF7ABE0
+    // Offset: 0xF7F70C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xF7AC00
+    // Offset: 0xF7F72C
     void OnEnable();
     // private System.Collections.IEnumerator CrossFadeAfterDelayCoroutine(System.Single delay)
-    // Offset: 0xF7AD14
+    // Offset: 0xF7F840
     System::Collections::IEnumerator* CrossFadeAfterDelayCoroutine(float delay);
     // protected System.Void OnDisable()
-    // Offset: 0xF7AD94
+    // Offset: 0xF7F8C0
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xF7AE80
+    // Offset: 0xF7F9AC
     void Update();
     // public System.Void CrossFadeToDefault()
-    // Offset: 0xF7B2B0
+    // Offset: 0xF7FDDC
     void CrossFadeToDefault();
     // public System.Void CrossfadeToNewDefault(UnityEngine.AudioClip audioClip)
-    // Offset: 0xF7B36C
+    // Offset: 0xF7FE98
     void CrossfadeToNewDefault(UnityEngine::AudioClip* audioClip);
     // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration)
-    // Offset: 0xF7B480
+    // Offset: 0xF7FFAC
     void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration);
     // private System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration, System.Boolean isDefault)
-    // Offset: 0xF7B04C
+    // Offset: 0xF7FB78
     void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration, bool isDefault);
     // public System.Void PauseCurrentChannel()
-    // Offset: 0xF7B488
+    // Offset: 0xF7FFB4
     void PauseCurrentChannel();
     // public System.Void UnPauseCurrentChannel()
-    // Offset: 0xF7B504
+    // Offset: 0xF80030
     void UnPauseCurrentChannel();
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0xF7B580
+    // Offset: 0xF800AC
     void FadeOut(float duration);
     // public System.Void CrossfadeToDefault()
-    // Offset: 0xF7B59C
+    // Offset: 0xF800C8
     void CrossfadeToDefault();
     // public System.Void .ctor()
-    // Offset: 0xF7B704
+    // Offset: 0xF80230
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

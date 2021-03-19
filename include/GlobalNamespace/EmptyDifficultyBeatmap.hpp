@@ -32,49 +32,49 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EmptyDifficultyBeatmap : public ::Il2CppObject/*, public GlobalNamespace::IDifficultyBeatmap*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD2055C
+    // [CompilerGeneratedAttribute] Offset: 0xD20A90
     // private readonly IBeatmapLevel <level>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IBeatmapLevel* level;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2056C
+    // [CompilerGeneratedAttribute] Offset: 0xD20AA0
     // private readonly IDifficultyBeatmapSet <parentDifficultyBeatmapSet>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmapSet*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2057C
+    // [CompilerGeneratedAttribute] Offset: 0xD20AB0
     // private readonly BeatmapDifficulty <difficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapDifficulty difficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD2058C
+    // [CompilerGeneratedAttribute] Offset: 0xD20AC0
     // private readonly System.Int32 <difficultyRank>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     int difficultyRank;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD2059C
+    // [CompilerGeneratedAttribute] Offset: 0xD20AD0
     // private readonly System.Single <noteJumpMovementSpeed>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     float noteJumpMovementSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD205AC
+    // [CompilerGeneratedAttribute] Offset: 0xD20AE0
     // private readonly System.Single <noteJumpStartBeatOffset>k__BackingField
     // Size: 0x4
     // Offset: 0x2C
     float noteJumpStartBeatOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD205BC
+    // [CompilerGeneratedAttribute] Offset: 0xD20AF0
     // private readonly BeatmapData <beatmapData>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -88,28 +88,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
     // public IBeatmapLevel get_level()
-    // Offset: 0xFE2E1C
-    GlobalNamespace::IBeatmapLevel* get_level_NEW();
+    // Offset: 0x1020FA8
+    GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0xFE2E24
-    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet_NEW();
+    // Offset: 0x1020FB0
+    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xFE2E2C
-    GlobalNamespace::BeatmapDifficulty get_difficulty_NEW();
+    // Offset: 0x1020FB8
+    GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0xFE2E34
-    int get_difficultyRank_NEW();
+    // Offset: 0x1020FC0
+    int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xFE2E3C
-    float get_noteJumpMovementSpeed_NEW();
+    // Offset: 0x1020FC8
+    float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xFE2E44
-    float get_noteJumpStartBeatOffset_NEW();
+    // Offset: 0x1020FD0
+    float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0xFE2E4C
-    GlobalNamespace::BeatmapData* get_beatmapData_NEW();
+    // Offset: 0x1020FD8
+    GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor()
-    // Offset: 0xFE2E54
+    // Offset: 0x1020FE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

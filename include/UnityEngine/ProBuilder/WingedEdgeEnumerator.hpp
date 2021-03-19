@@ -45,27 +45,27 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x20A247C
+    // Offset: 0x20A8F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::WingedEdgeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdgeEnumerator*, creationType>(start)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x20A2788
-    bool MoveNext_NEW();
+    // Offset: 0x20A9264
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x20AE6FC
-    void Reset_NEW();
+    // Offset: 0x20B51D8
+    void Reset();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x20A24A8
-    UnityEngine::ProBuilder::WingedEdge* get_Current_NEW();
+    // Offset: 0x20A8F84
+    UnityEngine::ProBuilder::WingedEdge* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x20AE704
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
+    // Offset: 0x20B51E0
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Dispose()
-    // Offset: 0x20AE748
-    void Dispose_NEW();
+    // Offset: 0x20B5224
+    void Dispose();
   }; // UnityEngine.ProBuilder.WingedEdgeEnumerator
   #pragma pack(pop)
   static check_size<sizeof(WingedEdgeEnumerator), 24 + sizeof(UnityEngine::ProBuilder::WingedEdge*)> __UnityEngine_ProBuilder_WingedEdgeEnumeratorSizeCheck;

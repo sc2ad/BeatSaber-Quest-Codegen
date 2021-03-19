@@ -46,14 +46,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LightWithIdManager : public UnityEngine::MonoBehaviour {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD009AC
+    // [CompilerGeneratedAttribute] Offset: 0xD00E08
     // private System.Action didChangeSomeColorsThisFrameEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* didChangeSomeColorsThisFrameEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD009BC
+    // [CompilerGeneratedAttribute] Offset: 0xD00E18
     // private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
     // Size: 0x8
     // Offset: 0x20
@@ -95,37 +95,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxLightId
     static void _set_kMaxLightId(int value);
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1CDFD68
+    // Offset: 0x1CE87C0
     void add_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1CDFE0C
+    // Offset: 0x1CE8864
     void remove_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void add_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1CDFEB0
+    // Offset: 0x1CE8908
     void add_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Void remove_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1CDFF54
+    // Offset: 0x1CE89AC
     void remove_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Nullable`1<UnityEngine.Color>[] get_colors()
-    // Offset: 0x1CDFFF8
+    // Offset: 0x1CE8A50
     ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();
     // protected System.Void LateUpdate()
-    // Offset: 0x1CE0000
+    // Offset: 0x1CE8A58
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1CE01F0
+    // Offset: 0x1CE8C48
     void RegisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1CE0560
+    // Offset: 0x1CE8FB8
     void UnregisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1CE0744
+    // Offset: 0x1CE919C
     void SetColorForId(int lightId, UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId)
-    // Offset: 0x1CE09A8
+    // Offset: 0x1CE9400
     UnityEngine::Color GetColorForId(int lightId);
     // public System.Void .ctor()
-    // Offset: 0x1CE0A58
+    // Offset: 0x1CE94B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

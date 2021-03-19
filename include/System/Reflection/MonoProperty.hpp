@@ -103,15 +103,15 @@ namespace System::Reflection {
     // Creating value type constructor for type: MonoProperty
     MonoProperty(System::IntPtr klass_ = {}, System::IntPtr prop_ = {}, System::Reflection::MonoPropertyInfo info_ = {}, System::Reflection::PInfo cached_ = {}, System::Reflection::MonoProperty::GetterAdapter* cached_getter_ = {}) noexcept : klass{klass_}, prop{prop_}, info{info_}, cached{cached_}, cached_getter{cached_getter_} {}
     // private System.Void CachePropertyInfo(System.Reflection.PInfo flags)
-    // Offset: 0x1ACA98C
+    // Offset: 0x1AD03E4
     void CachePropertyInfo(System::Reflection::PInfo flags);
     // static private System.Object GetterAdapterFrame(System.Reflection.MonoProperty/Getter`2<T,R> getter, System.Object obj)
     // Offset: 0xFFFFFFFF
     template<class T, class R>
     static ::Il2CppObject* GetterAdapterFrame(System::Reflection::MonoProperty::Getter_2<T, R>* getter, ::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::GetterAdapterFrame");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "GetterAdapterFrame", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj))));
-      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "GetterAdapterFrame", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()})));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, getter, obj);
     }
     // static private System.Object StaticGetterAdapterFrame(System.Reflection.MonoProperty/StaticGetter`1<R> getter, System.Object obj)
@@ -119,125 +119,125 @@ namespace System::Reflection {
     template<class R>
     static ::Il2CppObject* StaticGetterAdapterFrame(System::Reflection::MonoProperty::StaticGetter_1<R>* getter, ::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::StaticGetterAdapterFrame");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "StaticGetterAdapterFrame", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Reflection", "MonoProperty", "StaticGetterAdapterFrame", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, ::il2cpp_utils::ExtractTypes(getter, obj)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, getter, obj);
     }
     // static private System.Reflection.MonoProperty/GetterAdapter CreateGetterDelegate(System.Reflection.MethodInfo method)
-    // Offset: 0x1ACB39C
+    // Offset: 0x1AD0DF4
     static System::Reflection::MonoProperty::GetterAdapter* CreateGetterDelegate(System::Reflection::MethodInfo* method);
     // public override System.Reflection.PropertyAttributes get_Attributes()
-    // Offset: 0x1ACA9D4
+    // Offset: 0x1AD042C
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Reflection.PropertyAttributes PropertyInfo::get_Attributes_NEW()
+    // Base method: System.Reflection.PropertyAttributes PropertyInfo::get_Attributes()
     System::Reflection::PropertyAttributes get_Attributes();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x1ACAA18
+    // Offset: 0x1AD0470
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Boolean PropertyInfo::get_CanRead_NEW()
+    // Base method: System.Boolean PropertyInfo::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x1ACAA88
+    // Offset: 0x1AD04E0
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Boolean PropertyInfo::get_CanWrite_NEW()
+    // Base method: System.Boolean PropertyInfo::get_CanWrite()
     bool get_CanWrite();
     // public override System.Type get_PropertyType()
-    // Offset: 0x1ACAAF8
+    // Offset: 0x1AD0550
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Type PropertyInfo::get_PropertyType_NEW()
+    // Base method: System.Type PropertyInfo::get_PropertyType()
     System::Type* get_PropertyType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1ACABDC
+    // Offset: 0x1AD0634
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Type MemberInfo::get_ReflectedType_NEW()
+    // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1ACAC20
+    // Offset: 0x1AD0678
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Type MemberInfo::get_DeclaringType_NEW()
+    // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x1ACAC64
+    // Offset: 0x1AD06BC
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.String MemberInfo::get_Name_NEW()
+    // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Reflection.MethodInfo[] GetAccessors(System.Boolean nonPublic)
-    // Offset: 0x1ACACA8
+    // Offset: 0x1AD0700
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Reflection.MethodInfo[] PropertyInfo::GetAccessors_NEW(System.Boolean nonPublic)
+    // Base method: System.Reflection.MethodInfo[] PropertyInfo::GetAccessors(System.Boolean nonPublic)
     ::Array<System::Reflection::MethodInfo*>* GetAccessors(bool nonPublic);
     // public override System.Reflection.MethodInfo GetGetMethod(System.Boolean nonPublic)
-    // Offset: 0x1ACAE88
+    // Offset: 0x1AD08E0
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Reflection.MethodInfo PropertyInfo::GetGetMethod_NEW(System.Boolean nonPublic)
+    // Base method: System.Reflection.MethodInfo PropertyInfo::GetGetMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
     // public override System.Reflection.ParameterInfo[] GetIndexParameters()
-    // Offset: 0x1ACAF38
+    // Offset: 0x1AD0990
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Reflection.ParameterInfo[] PropertyInfo::GetIndexParameters_NEW()
+    // Base method: System.Reflection.ParameterInfo[] PropertyInfo::GetIndexParameters()
     ::Array<System::Reflection::ParameterInfo*>* GetIndexParameters();
     // public override System.Reflection.MethodInfo GetSetMethod(System.Boolean nonPublic)
-    // Offset: 0x1ACB17C
+    // Offset: 0x1AD0BD4
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Reflection.MethodInfo PropertyInfo::GetSetMethod_NEW(System.Boolean nonPublic)
+    // Base method: System.Reflection.MethodInfo PropertyInfo::GetSetMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
     // public override System.Object GetConstantValue()
-    // Offset: 0x1ACB22C
+    // Offset: 0x1AD0C84
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Object PropertyInfo::GetConstantValue_NEW()
+    // Base method: System.Object PropertyInfo::GetConstantValue()
     ::Il2CppObject* GetConstantValue();
     // public override System.Object GetRawConstantValue()
-    // Offset: 0x1ACB234
+    // Offset: 0x1AD0C8C
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Object PropertyInfo::GetRawConstantValue_NEW()
+    // Base method: System.Object PropertyInfo::GetRawConstantValue()
     ::Il2CppObject* GetRawConstantValue();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1ACB238
+    // Offset: 0x1AD0C90
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Boolean MemberInfo::IsDefined_NEW(System.Type attributeType, System.Boolean inherit)
+    // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1ACB2B4
+    // Offset: 0x1AD0D0C
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Object[] MemberInfo::GetCustomAttributes_NEW(System.Boolean inherit)
+    // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1ACB320
+    // Offset: 0x1AD0D78
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Object[] MemberInfo::GetCustomAttributes_NEW(System.Type attributeType, System.Boolean inherit)
+    // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Object GetValue(System.Object obj, System.Object[] index)
-    // Offset: 0x1ACB694
+    // Offset: 0x1AD10EC
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Object PropertyInfo::GetValue_NEW(System.Object obj, System.Object[] index)
+    // Base method: System.Object PropertyInfo::GetValue(System.Object obj, System.Object[] index)
     ::Il2CppObject* GetValue(::Il2CppObject* obj, ::Array<::Il2CppObject*>* index);
     // public override System.Object GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
-    // Offset: 0x1ACB6B4
+    // Offset: 0x1AD110C
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Object PropertyInfo::GetValue_NEW(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
+    // Base method: System.Object PropertyInfo::GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     ::Il2CppObject* GetValue(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* index, System::Globalization::CultureInfo* culture);
     // public override System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
-    // Offset: 0x1ACB8D4
+    // Offset: 0x1AD132C
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Void PropertyInfo::SetValue_NEW(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
+    // Base method: System.Void PropertyInfo::SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* index, System::Globalization::CultureInfo* culture);
     // public override System.Type[] GetOptionalCustomModifiers()
-    // Offset: 0x1ACBAF8
+    // Offset: 0x1AD1550
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Type[] PropertyInfo::GetOptionalCustomModifiers_NEW()
+    // Base method: System.Type[] PropertyInfo::GetOptionalCustomModifiers()
     ::Array<System::Type*>* GetOptionalCustomModifiers();
     // public override System.Type[] GetRequiredCustomModifiers()
-    // Offset: 0x1ACBB7C
+    // Offset: 0x1AD15D4
     // Implemented from: System.Reflection.PropertyInfo
-    // Base method: System.Type[] PropertyInfo::GetRequiredCustomModifiers_NEW()
+    // Base method: System.Type[] PropertyInfo::GetRequiredCustomModifiers()
     ::Array<System::Type*>* GetRequiredCustomModifiers();
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x1ACBBF8
+    // Offset: 0x1AD1650
     // Implemented from: System.Reflection.MemberInfo
-    // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData_NEW()
+    // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
     // public System.Void .ctor()
-    // Offset: 0x1ACBBFC
+    // Offset: 0x1AD1654
     // Implemented from: System.Reflection.RuntimePropertyInfo
     // Base method: System.Void RuntimePropertyInfo::.ctor()
     // Base method: System.Void PropertyInfo::.ctor()

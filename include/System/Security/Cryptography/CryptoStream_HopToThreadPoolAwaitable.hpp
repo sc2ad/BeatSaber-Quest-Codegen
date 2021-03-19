@@ -37,16 +37,16 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::Runtime::CompilerServices::INotifyCompletion*>(this);
     }
     // public System.Security.Cryptography.CryptoStream/HopToThreadPoolAwaitable GetAwaiter()
-    // Offset: 0xDF620C
+    // Offset: 0xDF87A8
     System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable GetAwaiter();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDF6214
+    // Offset: 0xDF87B0
     bool get_IsCompleted();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDF621C
-    void OnCompleted_NEW(System::Action* continuation);
+    // Offset: 0xDF87B8
+    void OnCompleted(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0xDF6220
+    // Offset: 0xDF87BC
     void GetResult();
   }; // System.Security.Cryptography.CryptoStream/HopToThreadPoolAwaitable
   #pragma pack(pop)

@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: MemoableResetException
     MemoableResetException() noexcept {}
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x1E2C644
+    // Offset: 0x1E30120
     // Implemented from: System.InvalidCastException
     // Base method: System.Void InvalidCastException::.ctor(System.String msg)
     // Base method: System.Void SystemException::.ctor(System.String msg)

@@ -28,7 +28,7 @@ namespace MasterServer {
     }
     // public MasterServer.IMasterServerReliableResponse WithRequestAndResponseId(System.UInt32 requestId, System.UInt32 responseId)
     // Offset: 0xFFFFFFFF
-    MasterServer::IMasterServerReliableResponse* WithRequestAndResponseId_NEW(uint requestId, uint responseId);
+    MasterServer::IMasterServerReliableResponse* WithRequestAndResponseId(uint requestId, uint responseId);
   }; // MasterServer.IMasterServerReliableResponse
   #pragma pack(pop)
 }

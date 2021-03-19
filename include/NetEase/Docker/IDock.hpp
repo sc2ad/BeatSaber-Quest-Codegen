@@ -39,37 +39,37 @@ namespace NetEase::Docker {
     IDock() noexcept {}
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
     // Offset: 0xFFFFFFFF
-    void SetInitializeCallback_NEW(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
+    void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
-    void Initialize_NEW();
+    void Initialize();
     // public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
     // Offset: 0xFFFFFFFF
-    void SetLoginCallback_NEW(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
+    void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
     // public System.Void Login()
     // Offset: 0xFFFFFFFF
-    void Login_NEW();
+    void Login();
     // public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
     // Offset: 0xFFFFFFFF
-    void SetLogoutCallback_NEW(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
+    void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
     // public System.Void Logout()
     // Offset: 0xFFFFFFFF
-    void Logout_NEW();
+    void Logout();
     // public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
     // Offset: 0xFFFFFFFF
-    void UploadScore_NEW(NetEase::Docker::UploadScoreData scoreData);
+    void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // public System.Boolean WillProvideHighscore()
     // Offset: 0xFFFFFFFF
-    bool WillProvideHighscore_NEW();
+    bool WillProvideHighscore();
     // public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
     // Offset: 0xFFFFFFFF
-    void SetHighscoreReceivedCallback_NEW(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
+    void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
     // Offset: 0xFFFFFFFF
-    void RequestHighscoreList_NEW(NetEase::Docker::RequestHighscoreData highscoreRequest);
+    void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // public System.Void UpdateLoop()
     // Offset: 0xFFFFFFFF
-    void UpdateLoop_NEW();
+    void UpdateLoop();
   }; // NetEase.Docker.IDock
   #pragma pack(pop)
 }

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool hide_ = {}, bool showEnergyPanel_ = {}, bool advancedHUD_ = {}) noexcept : hide{hide_}, showEnergyPanel{showEnergyPanel_}, advancedHUD{advancedHUD_} {}
     // public System.Void .ctor(System.Boolean hide, System.Boolean showEnergyPanel, System.Boolean advancedHUD)
-    // Offset: 0xFD7AA0
+    // Offset: 0x1015C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CoreGameHUDController::InitData::.ctor");

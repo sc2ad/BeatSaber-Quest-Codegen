@@ -41,19 +41,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryObject
     BinaryObject(int objectId_ = {}, int mapId_ = {}) noexcept : objectId{objectId_}, mapId{mapId_} {}
     // System.Void Set(System.Int32 objectId, System.Int32 mapId)
-    // Offset: 0x145B560
+    // Offset: 0x145FF70
     void Set(int objectId, int mapId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x145B568
-    void Write_NEW(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    // Offset: 0x145FF78
+    void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x145B5BC
-    void Read_NEW(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+    // Offset: 0x145FFCC
+    void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x145B61C
+    // Offset: 0x146002C
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x145B558
+    // Offset: 0x145FF68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -26,35 +26,35 @@ namespace UnityEngine::Events {
   // [] Offset: FFFFFFFF
   class ArgumentCache : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC28C
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD6DC
     // private UnityEngine.Object m_ObjectArgument
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* m_ObjectArgument;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC2D8
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD728
     // private System.String m_ObjectArgumentAssemblyTypeName
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_ObjectArgumentAssemblyTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC324
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD774
     // private System.Int32 m_IntArgument
     // Size: 0x4
     // Offset: 0x20
     int m_IntArgument;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC370
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD7C0
     // private System.Single m_FloatArgument
     // Size: 0x4
     // Offset: 0x24
     float m_FloatArgument;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC3BC
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD80C
     // private System.String m_StringArgument
     // Size: 0x8
     // Offset: 0x28
@@ -74,34 +74,34 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // public UnityEngine.Object get_unityObjectArgument()
-    // Offset: 0x19C8564
+    // Offset: 0x19C9FBC
     UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
-    // Offset: 0x19C856C
+    // Offset: 0x19C9FC4
     ::Il2CppString* get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
-    // Offset: 0x19C8574
+    // Offset: 0x19C9FCC
     int get_intArgument();
     // public System.Single get_floatArgument()
-    // Offset: 0x19C857C
+    // Offset: 0x19C9FD4
     float get_floatArgument();
     // public System.String get_stringArgument()
-    // Offset: 0x19C8584
+    // Offset: 0x19C9FDC
     ::Il2CppString* get_stringArgument();
     // public System.Boolean get_boolArgument()
-    // Offset: 0x19C858C
+    // Offset: 0x19C9FE4
     bool get_boolArgument();
     // private System.Void TidyAssemblyTypeName()
-    // Offset: 0x19C8594
+    // Offset: 0x19C9FEC
     void TidyAssemblyTypeName();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x19C87A8
-    void OnBeforeSerialize_NEW();
+    // Offset: 0x19CA200
+    void OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x19C87AC
-    void OnAfterDeserialize_NEW();
+    // Offset: 0x19CA204
+    void OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x19C87B0
+    // Offset: 0x19CA208
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

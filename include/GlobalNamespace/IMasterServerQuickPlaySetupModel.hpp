@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     IMasterServerQuickPlaySetupModel() noexcept {}
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync_NEW(System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
   }; // IMasterServerQuickPlaySetupModel
   #pragma pack(pop)
 }

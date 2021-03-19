@@ -49,7 +49,7 @@ namespace HMUI {
     float noInteractionAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD02008
+    // [SpaceAttribute] Offset: 0xD02464
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -67,12 +67,12 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x11F58D0
+    // Offset: 0x11F82E0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
-    // Base method: System.Void UIBehaviour::OnCanvasGroupChanged_NEW()
+    // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
     void OnCanvasGroupChanged();
     // public System.Void .ctor()
-    // Offset: 0x11F5A68
+    // Offset: 0x11F8478
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

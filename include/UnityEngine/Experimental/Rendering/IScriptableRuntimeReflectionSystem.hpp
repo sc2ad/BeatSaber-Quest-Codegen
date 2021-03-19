@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::Rendering {
     }
     // public System.Boolean TickRealtimeProbes()
     // Offset: 0xFFFFFFFF
-    bool TickRealtimeProbes_NEW();
+    bool TickRealtimeProbes();
   }; // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem
   #pragma pack(pop)
 }

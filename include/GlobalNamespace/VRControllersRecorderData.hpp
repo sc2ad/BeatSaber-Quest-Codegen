@@ -72,11 +72,11 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-      // Offset: 0xDDE7A8
+      // Offset: 0xDE0D44
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  PositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot)
       // static public VRControllersRecorderData/PositionAndRotation Lerp(VRControllersRecorderData/PositionAndRotation a, VRControllersRecorderData/PositionAndRotation b, System.Single t)
-      // Offset: 0x108AE6C
+      // Offset: 0x108D7D8
       static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);
     }; // VRControllersRecorderData/PositionAndRotation
     #pragma pack(pop)
@@ -97,26 +97,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VRControllersRecorderData
     VRControllersRecorderData(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* nodesInfo_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
     // public System.Void .ctor(VRControllersRecorderData/NodeInfo[] nodesInfo)
-    // Offset: 0x108AB44
+    // Offset: 0x108D4B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* nodesInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData*, creationType>(nodesInfo)));
     }
     // public System.Void AddKeyFrame(VRControllersRecorderData/PositionAndRotation[] positionsAndRotations, System.Single time)
-    // Offset: 0x108ABC8
+    // Offset: 0x108D534
     void AddKeyFrame(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations, float time);
     // public VRControllersRecorderData/PositionAndRotation GetPositionAndRotation(System.Int32 frameIdx, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x108ACA0
+    // Offset: 0x108D60C
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetPositionAndRotation(int frameIdx, UnityEngine::XR::XRNode nodeType, int nodeIdx);
     // public VRControllersRecorderData/PositionAndRotation GetLerpedPositionAndRotation(System.Int32 frameIdx, System.Single t, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x108ADCC
+    // Offset: 0x108D738
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetLerpedPositionAndRotation(int frameIdx, float t, UnityEngine::XR::XRNode nodeType, int nodeIdx);
     // public System.Single GetFrameTime(System.Int32 frameIdx)
-    // Offset: 0x108AFC8
+    // Offset: 0x108D934
     float GetFrameTime(int frameIdx);
     // public System.Int32 get_numberOfKeyframes()
-    // Offset: 0x108B048
+    // Offset: 0x108D9B4
     int get_numberOfKeyframes();
   }; // VRControllersRecorderData
   #pragma pack(pop)

@@ -28,22 +28,22 @@ namespace Org::BouncyCastle::Crypto::Modes {
     IAeadCipher() noexcept {}
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
-    int ProcessBytes_NEW(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
+    int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
-    int DoFinal_NEW(::Array<uint8_t>* outBytes, int outOff);
+    int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
     // Offset: 0xFFFFFFFF
-    int GetUpdateOutputSize_NEW(int len);
+    int GetUpdateOutputSize(int len);
     // public System.Int32 GetOutputSize(System.Int32 len)
     // Offset: 0xFFFFFFFF
-    int GetOutputSize_NEW(int len);
+    int GetOutputSize(int len);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
-    void Reset_NEW();
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.IAeadCipher
   #pragma pack(pop)
 }

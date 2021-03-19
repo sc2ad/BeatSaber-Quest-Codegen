@@ -24,7 +24,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: CloudStorage2
     CloudStorage2() noexcept {}
     // static public Oculus.Platform.Request`1<System.String> GetUserDirectoryPath()
-    // Offset: 0x137A8DC
+    // Offset: 0x137D2EC
     static Oculus::Platform::Request_1<::Il2CppString*>* GetUserDirectoryPath();
   }; // Oculus.Platform.CloudStorage2
   #pragma pack(pop)

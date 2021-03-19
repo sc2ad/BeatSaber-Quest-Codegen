@@ -38,21 +38,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InviteRequestedDelegate
     InviteRequestedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10AEA90
+    // Offset: 0x10B1434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::InviteRequestedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::InviteRequestedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.String secret, System.Int32 multiplayerPort, System.Byte flags)
-    // Offset: 0x10ADF40
-    void Invoke_NEW(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, uint8_t flags);
+    // Offset: 0x10B08E4
+    void Invoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, uint8_t flags);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.String secret, System.Int32 multiplayerPort, System.Byte flags, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10AEAA0
-    System::IAsyncResult* BeginInvoke_NEW(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, uint8_t flags, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x10B1444
+    System::IAsyncResult* BeginInvoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, uint8_t flags, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10AEB78
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x10B151C
+    void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/InviteRequestedDelegate
   #pragma pack(pop)
 }

@@ -31,19 +31,19 @@ namespace GlobalNamespace {
     IConnection() noexcept {}
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userId_NEW();
+    ::Il2CppString* get_userId();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName_NEW();
+    ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
     // Offset: 0xFFFFFFFF
-    bool get_isConnectionOwner_NEW();
+    bool get_isConnectionOwner();
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0xFFFFFFFF
-    void Send_NEW(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
     // Offset: 0xFFFFFFFF
-    void Disconnect_NEW();
+    void Disconnect();
   }; // IConnection
   #pragma pack(pop)
 }

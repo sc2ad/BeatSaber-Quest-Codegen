@@ -16,31 +16,31 @@ namespace UnityEngine::UI {
     ILayoutElement() noexcept {}
     // public System.Void CalculateLayoutInputHorizontal()
     // Offset: 0xFFFFFFFF
-    void CalculateLayoutInputHorizontal_NEW();
+    void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
     // Offset: 0xFFFFFFFF
-    void CalculateLayoutInputVertical_NEW();
+    void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
     // Offset: 0xFFFFFFFF
-    float get_minWidth_NEW();
+    float get_minWidth();
     // public System.Single get_preferredWidth()
     // Offset: 0xFFFFFFFF
-    float get_preferredWidth_NEW();
+    float get_preferredWidth();
     // public System.Single get_flexibleWidth()
     // Offset: 0xFFFFFFFF
-    float get_flexibleWidth_NEW();
+    float get_flexibleWidth();
     // public System.Single get_minHeight()
     // Offset: 0xFFFFFFFF
-    float get_minHeight_NEW();
+    float get_minHeight();
     // public System.Single get_preferredHeight()
     // Offset: 0xFFFFFFFF
-    float get_preferredHeight_NEW();
+    float get_preferredHeight();
     // public System.Single get_flexibleHeight()
     // Offset: 0xFFFFFFFF
-    float get_flexibleHeight_NEW();
+    float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
     // Offset: 0xFFFFFFFF
-    int get_layoutPriority_NEW();
+    int get_layoutPriority();
   }; // UnityEngine.UI.ILayoutElement
   #pragma pack(pop)
 }

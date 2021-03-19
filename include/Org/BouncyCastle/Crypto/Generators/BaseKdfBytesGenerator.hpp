@@ -61,18 +61,18 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationFunction*>(this);
     }
     // public System.Void .ctor(System.Int32 counterStart, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x170B7A0
+    // Offset: 0x170F1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseKdfBytesGenerator* New_ctor(int counterStart, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseKdfBytesGenerator*, creationType>(counterStart, digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
-    // Offset: 0x170B7DC
-    void Init_NEW(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
+    // Offset: 0x170F1FC
+    void Init(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
-    // Offset: 0x170B8E4
-    int GenerateBytes_NEW(::Array<uint8_t>* output, int outOff, int length);
+    // Offset: 0x170F304
+    int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
   #pragma pack(pop)
   static check_size<sizeof(BaseKdfBytesGenerator), 40 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Generators_BaseKdfBytesGeneratorSizeCheck;

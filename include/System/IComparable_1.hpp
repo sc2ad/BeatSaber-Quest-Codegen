@@ -20,8 +20,8 @@ namespace System {
     IComparable_1() noexcept {}
     // public System.Int32 CompareTo(T other)
     // Offset: 0xFFFFFFFF
-    int CompareTo_NEW(T other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IComparable_1::CompareTo_NEW");
+    int CompareTo(T other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IComparable_1::CompareTo");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CompareTo", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, other);
     }

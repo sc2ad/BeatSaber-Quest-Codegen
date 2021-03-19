@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     IMasterServerAvailabilityModel() noexcept {}
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync_NEW(System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);
   }; // IMasterServerAvailabilityModel
   #pragma pack(pop)
 }

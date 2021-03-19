@@ -22,21 +22,21 @@ namespace UnityEngine::ProBuilder {
   // [] Offset: FFFFFFFF
   struct Normal/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Normal>*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD41F38
+    // [CompilerGeneratedAttribute] Offset: 0xD4449C
     // private UnityEngine.Vector3 <normal>k__BackingField
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Vector3 normal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xD41F48
+    // [CompilerGeneratedAttribute] Offset: 0xD444AC
     // private UnityEngine.Vector4 <tangent>k__BackingField
     // Size: 0x10
     // Offset: 0xC
     UnityEngine::Vector4 tangent;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xD41F58
+    // [CompilerGeneratedAttribute] Offset: 0xD444BC
     // private UnityEngine.Vector3 <bitangent>k__BackingField
     // Size: 0xC
     // Offset: 0x1C
@@ -54,33 +54,33 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Normal>*>(this);
     }
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xDF0B30
+    // Offset: 0xDF30CC
     UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0xDF0B3C
+    // Offset: 0xDF30D8
     void set_normal(UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0xDF0B48
+    // Offset: 0xDF30E4
     UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0xDF0B54
+    // Offset: 0xDF30F0
     void set_tangent(UnityEngine::Vector4 value);
     // public UnityEngine.Vector3 get_bitangent()
-    // Offset: 0xDF0B60
+    // Offset: 0xDF30FC
     UnityEngine::Vector3 get_bitangent();
     // public System.Void set_bitangent(UnityEngine.Vector3 value)
-    // Offset: 0xDF0B6C
+    // Offset: 0xDF3108
     void set_bitangent(UnityEngine::Vector3 value);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Normal other)
-    // Offset: 0xDF0B88
-    bool Equals_NEW(UnityEngine::ProBuilder::Normal other);
+    // Offset: 0xDF3124
+    bool Equals(UnityEngine::ProBuilder::Normal other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDF0B78
+    // Offset: 0xDF3114
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDF0B80
+    // Offset: 0xDF311C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -89,10 +89,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Normal), 28 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_NormalSizeCheck;
   static_assert(sizeof(Normal) == 0x28);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x1580158
+  // Offset: 0x1584B68
   bool operator ==(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x158018C
+  // Offset: 0x1584B9C
   bool operator !=(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,97 +16,97 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Easing
     Easing() noexcept {}
     // static public System.Single Linear(System.Single t)
-    // Offset: 0x111CCDC
+    // Offset: 0x111F6F8
     static float Linear(float t);
     // static public System.Single InSine(System.Single t)
-    // Offset: 0x111CCE0
+    // Offset: 0x111F6FC
     static float InSine(float t);
     // static public System.Single OutSine(System.Single t)
-    // Offset: 0x111CD68
+    // Offset: 0x111F784
     static float OutSine(float t);
     // static public System.Single InOutSine(System.Single t)
-    // Offset: 0x111CDE4
+    // Offset: 0x111F800
     static float InOutSine(float t);
     // static public System.Single InQuad(System.Single t)
-    // Offset: 0x111CE6C
+    // Offset: 0x111F888
     static float InQuad(float t);
     // static public System.Single OutQuad(System.Single t)
-    // Offset: 0x111CE74
+    // Offset: 0x111F890
     static float OutQuad(float t);
     // static public System.Single InOutQuad(System.Single t)
-    // Offset: 0x111CE88
+    // Offset: 0x111F8A4
     static float InOutQuad(float t);
     // static public System.Single InCubic(System.Single t)
-    // Offset: 0x111CEB8
+    // Offset: 0x111F8D4
     static float InCubic(float t);
     // static public System.Single OutCubic(System.Single t)
-    // Offset: 0x111CEC4
+    // Offset: 0x111F8E0
     static float OutCubic(float t);
     // static public System.Single InOutCubic(System.Single t)
-    // Offset: 0x111CF40
+    // Offset: 0x111F95C
     static float InOutCubic(float t);
     // static public System.Single InQuart(System.Single t)
-    // Offset: 0x111CFEC
+    // Offset: 0x111FA08
     static float InQuart(float t);
     // static public System.Single OutQuart(System.Single t)
-    // Offset: 0x111CFFC
+    // Offset: 0x111FA18
     static float OutQuart(float t);
     // static public System.Single InOutQuart(System.Single t)
-    // Offset: 0x111D078
+    // Offset: 0x111FA94
     static float InOutQuart(float t);
     // static public System.Single InQuint(System.Single t)
-    // Offset: 0x111D128
+    // Offset: 0x111FB44
     static float InQuint(float t);
     // static public System.Single OutQuint(System.Single t)
-    // Offset: 0x111D13C
+    // Offset: 0x111FB58
     static float OutQuint(float t);
     // static public System.Single InOutQuint(System.Single t)
-    // Offset: 0x111D1B8
+    // Offset: 0x111FBD4
     static float InOutQuint(float t);
     // static public System.Single InExpo(System.Single t)
-    // Offset: 0x111D26C
+    // Offset: 0x111FC88
     static float InExpo(float t);
     // static public System.Single OutExpo(System.Single t)
-    // Offset: 0x111D300
+    // Offset: 0x111FD1C
     static float OutExpo(float t);
     // static public System.Single InOutExpo(System.Single t)
-    // Offset: 0x111D388
+    // Offset: 0x111FDA4
     static float InOutExpo(float t);
     // static public System.Single InCirc(System.Single t)
-    // Offset: 0x111D460
+    // Offset: 0x111FE7C
     static float InCirc(float t);
     // static public System.Single OutCirc(System.Single t)
-    // Offset: 0x111D4EC
+    // Offset: 0x111FF08
     static float OutCirc(float t);
     // static public System.Single InOutCirc(System.Single t)
-    // Offset: 0x111D588
+    // Offset: 0x111FFA4
     static float InOutCirc(float t);
     // static public System.Single InBack(System.Single t)
-    // Offset: 0x111D66C
+    // Offset: 0x1120088
     static float InBack(float t);
     // static public System.Single OutBack(System.Single t)
-    // Offset: 0x111D698
+    // Offset: 0x11200B4
     static float OutBack(float t);
     // static public System.Single InOutBack(System.Single t)
-    // Offset: 0x111D73C
+    // Offset: 0x1120158
     static float InOutBack(float t);
     // static public System.Single InElastic(System.Single t)
-    // Offset: 0x111D820
+    // Offset: 0x112023C
     static float InElastic(float t);
     // static public System.Single OutElastic(System.Single t)
-    // Offset: 0x111D8DC
+    // Offset: 0x11202F8
     static float OutElastic(float t);
     // static public System.Single InOutElastic(System.Single t)
-    // Offset: 0x111D99C
+    // Offset: 0x11203B8
     static float InOutElastic(float t);
     // static public System.Single InBounce(System.Single t)
-    // Offset: 0x111DACC
+    // Offset: 0x11204E8
     static float InBounce(float t);
     // static public System.Single OutBounce(System.Single t)
-    // Offset: 0x111DAF4
+    // Offset: 0x1120510
     static float OutBounce(float t);
     // static public System.Single InOutBounce(System.Single t)
-    // Offset: 0x111DBB4
+    // Offset: 0x11205D0
     static float InOutBounce(float t);
   }; // Easing
   #pragma pack(pop)

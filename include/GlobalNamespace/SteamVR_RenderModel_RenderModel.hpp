@@ -28,14 +28,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SteamVR_RenderModel::RenderModel : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCE6EEC
+    // [CompilerGeneratedAttribute] Offset: 0xCE7328
     // private UnityEngine.Mesh <mesh>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Mesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCE6EFC
+    // [CompilerGeneratedAttribute] Offset: 0xCE7338
     // private UnityEngine.Material <material>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -45,23 +45,23 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RenderModel
     RenderModel(UnityEngine::Mesh* mesh_ = {}, UnityEngine::Material* material_ = {}) noexcept : mesh{mesh_}, material{material_} {}
     // public System.Void .ctor(UnityEngine.Mesh mesh, UnityEngine.Material material)
-    // Offset: 0x12D9D58
+    // Offset: 0x12DB768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::RenderModel* New_ctor(UnityEngine::Mesh* mesh, UnityEngine::Material* material) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_RenderModel::RenderModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::RenderModel*, creationType>(mesh, material)));
     }
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x12DAE9C
+    // Offset: 0x12DC8AC
     UnityEngine::Mesh* get_mesh();
     // private System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x12DAEA4
+    // Offset: 0x12DC8B4
     void set_mesh(UnityEngine::Mesh* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0x12DAEAC
+    // Offset: 0x12DC8BC
     UnityEngine::Material* get_material();
     // private System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x12DAEB4
+    // Offset: 0x12DC8C4
     void set_material(UnityEngine::Material* value);
   }; // SteamVR_RenderModel/RenderModel
   #pragma pack(pop)

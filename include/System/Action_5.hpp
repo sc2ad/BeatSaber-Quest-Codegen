@@ -39,23 +39,23 @@ namespace System {
     }
     // public System.Void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)
     // Offset: 0xFFFFFFFF
-    void Invoke_NEW(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Action_5::Invoke_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg1, arg2, arg3, arg4, arg5)));
+    void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Action_5::Invoke");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg1, arg2, arg3, arg4, arg5)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg1, arg2, arg3, arg4, arg5);
     }
     // public System.IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke_NEW(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Action_5::BeginInvoke_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg1, arg2, arg3, arg4, arg5, callback, object)));
+    System::IAsyncResult* BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Action_5::BeginInvoke");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg1, arg2, arg3, arg4, arg5, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, arg1, arg2, arg3, arg4, arg5, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
-    void EndInvoke_NEW(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Action_5::EndInvoke_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
+    void EndInvoke(System::IAsyncResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Action_5::EndInvoke");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }
   }; // System.Action`5

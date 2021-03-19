@@ -42,57 +42,57 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // static public Org.BouncyCastle.Asn1.DerIA5String GetInstance(System.Object obj)
-    // Offset: 0x154F320
+    // Offset: 0x1552D30
     static Org::BouncyCastle::Asn1::DerIA5String* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.DerIA5String GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x154F420
+    // Offset: 0x1552E30
     static Org::BouncyCastle::Asn1::DerIA5String* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1541554
+    // Offset: 0x1544F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerIA5String* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
-    // Offset: 0x154F650
+    // Offset: 0x1553060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerIA5String* New_ctor(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str, System.Boolean validate)
-    // Offset: 0x154F568
+    // Offset: 0x1552F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerIA5String* New_ctor(::Il2CppString* str, bool validate) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str, validate)));
     }
     // public System.Byte[] GetOctets()
-    // Offset: 0x154F6CC
+    // Offset: 0x15530DC
     ::Array<uint8_t>* GetOctets();
     // static public System.Boolean IsIA5String(System.String str)
-    // Offset: 0x154F658
+    // Offset: 0x1553068
     static bool IsIA5String(::Il2CppString* str);
     // public override System.String GetString()
-    // Offset: 0x154F6C4
+    // Offset: 0x15530D4
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
-    // Base method: System.String DerStringBase::GetString_NEW()
+    // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x154F6D8
+    // Offset: 0x15530E8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Void Asn1Object::Encode_NEW(Org.BouncyCastle.Asn1.DerOutputStream derOut)
+    // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x154F714
+    // Offset: 0x1553124
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x154F730
+    // Offset: 0x1553140
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Boolean Asn1Object::Asn1Equals_NEW(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
+    // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerIA5String
   #pragma pack(pop)

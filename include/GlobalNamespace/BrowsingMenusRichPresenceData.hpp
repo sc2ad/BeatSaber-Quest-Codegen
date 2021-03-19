@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BrowsingMenusRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD22364
+    // [CompilerGeneratedAttribute] Offset: 0xD228A8
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0xD22374
+    // [LocalizationKeyAttribute] Offset: 0xD228B8
     // static field const value: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static constexpr const char* kBrowsingMenusRichPresenceLocalizationKey = "BROWSING_MENUS_PRESENCE";
     // Get static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static void _set_kBrowsingMenusRichPresenceLocalizationKey(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0xF06D90
-    ::Il2CppString* get_apiName_NEW();
+    // Offset: 0xF0A584
+    ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0xF06DD8
-    ::Il2CppString* get_localizedDescription_NEW();
+    // Offset: 0xF0A5CC
+    ::Il2CppString* get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0xF06DE0
+    // Offset: 0xF0A5D4
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xF06DE8
+    // Offset: 0xF0A5DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -38,7 +38,7 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: Entry
     Entry(UnityEngine::EventSystems::EventTriggerType eventID_ = {}, UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback_ = {}) noexcept : eventID{eventID_}, callback{callback_} {}
     // public System.Void .ctor()
-    // Offset: 0x13113C8
+    // Offset: 0x1313DD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

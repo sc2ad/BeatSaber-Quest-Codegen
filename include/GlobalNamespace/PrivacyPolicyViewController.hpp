@@ -46,12 +46,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PrivacyPolicyViewController
     PrivacyPolicyViewController(HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* privacyPolicyLocalizedTextAsset_ = {}) noexcept : textPageScrollView{textPageScrollView_}, privacyPolicyLocalizedTextAsset{privacyPolicyLocalizedTextAsset_} {}
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF9D9DC
+    // Offset: 0xFC1B44
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF9DA30
+    // Offset: 0xFC1B98
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2C60C
+    // [SpaceAttribute] Offset: 0xD2CB30
     // private BeatmapLevelSO _demoLevel1
     // Size: 0x8
     // Offset: 0xB8
@@ -119,35 +119,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: demoLevel2Difficulty and: simpleDemoViewController
     char __padding7[0x4] = {};
-    // [SpaceAttribute] Offset: 0xD2C694
+    // [SpaceAttribute] Offset: 0xD2CBB8
     // private SimpleRetailDemoViewController _simpleDemoViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::SimpleRetailDemoViewController* simpleDemoViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleRetailDemoViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C6CC
+    // [InjectAttribute] Offset: 0xD2CBF0
     // private readonly HowToPlayViewController _howToPlayViewController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::HowToPlayViewController* howToPlayViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HowToPlayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C6DC
+    // [InjectAttribute] Offset: 0xD2CC00
     // private readonly ResultsViewController _resultsViewController
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C6EC
+    // [InjectAttribute] Offset: 0xD2CC10
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C6FC
+    // [InjectAttribute] Offset: 0xD2CC20
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x108
@@ -189,35 +189,35 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleRetailDemoFlowCoordinator
     SimpleRetailDemoFlowCoordinator(GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::BeatmapLevelSO* demoLevel1_ = {}, GlobalNamespace::BeatmapCharacteristicSO* demoLevel1Characteristic_ = {}, GlobalNamespace::BeatmapDifficulty demoLevel1Difficulty_ = {}, GlobalNamespace::BeatmapLevelSO* demoLevel2_ = {}, GlobalNamespace::BeatmapCharacteristicSO* demoLevel2Characteristic_ = {}, GlobalNamespace::BeatmapDifficulty demoLevel2Difficulty_ = {}, GlobalNamespace::SimpleRetailDemoViewController* simpleDemoViewController_ = {}, GlobalNamespace::HowToPlayViewController* howToPlayViewController_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::IDifficultyBeatmap* level1DifficultyBeatmap_ = {}, GlobalNamespace::IDifficultyBeatmap* level2DifficultyBeatmap_ = {}, GlobalNamespace::IDifficultyBeatmap* selectedLevelDifficultyBeatmap_ = {}, bool quittingApplication_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : menuTransitionsHelper{menuTransitionsHelper_}, defaultLightsPreset{defaultLightsPreset_}, demoLevel1{demoLevel1_}, demoLevel1Characteristic{demoLevel1Characteristic_}, demoLevel1Difficulty{demoLevel1Difficulty_}, demoLevel2{demoLevel2_}, demoLevel2Characteristic{demoLevel2Characteristic_}, demoLevel2Difficulty{demoLevel2Difficulty_}, simpleDemoViewController{simpleDemoViewController_}, howToPlayViewController{howToPlayViewController_}, resultsViewController{resultsViewController_}, menuLightsManager{menuLightsManager_}, fadeInOut{fadeInOut_}, level1DifficultyBeatmap{level1DifficultyBeatmap_}, level2DifficultyBeatmap{level2DifficultyBeatmap_}, selectedLevelDifficultyBeatmap{selectedLevelDifficultyBeatmap_}, quittingApplication{quittingApplication_}, gameplayModifiers{gameplayModifiers_} {}
     // private System.Void HandleSimpleDemoViewControllerDidFinish(SimpleRetailDemoViewController viewController, SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0xF75420
+    // Offset: 0xF79F4C
     void HandleSimpleDemoViewControllerDidFinish(GlobalNamespace::SimpleRetailDemoViewController* viewController, GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xF755D0
+    // Offset: 0xF7A0FC
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Collections.IEnumerator QuitApplicationCoroutine()
-    // Offset: 0xF75610
+    // Offset: 0xF7A13C
     System::Collections::IEnumerator* QuitApplicationCoroutine();
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xF756AC
+    // Offset: 0xF7A1D8
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0xF754A4
+    // Offset: 0xF79FD0
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xF7575C
+    // Offset: 0xF7A288
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF74FF4
+    // Offset: 0xF79B20
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF7525C
+    // Offset: 0xF79D88
     // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidDeactivate_NEW(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF757F8
+    // Offset: 0xF7A324
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

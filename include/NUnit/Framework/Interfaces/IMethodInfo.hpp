@@ -48,50 +48,50 @@ namespace NUnit::Framework::Interfaces {
     }
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo_NEW();
+    NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // public System.Reflection.MethodInfo get_MethodInfo()
     // Offset: 0xFFFFFFFF
-    System::Reflection::MethodInfo* get_MethodInfo_NEW();
+    System::Reflection::MethodInfo* get_MethodInfo();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name_NEW();
+    ::Il2CppString* get_Name();
     // public System.Boolean get_IsAbstract()
     // Offset: 0xFFFFFFFF
-    bool get_IsAbstract_NEW();
+    bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
     // Offset: 0xFFFFFFFF
-    bool get_IsPublic_NEW();
+    bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
     // Offset: 0xFFFFFFFF
-    bool get_ContainsGenericParameters_NEW();
+    bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
     // Offset: 0xFFFFFFFF
-    bool get_IsGenericMethodDefinition_NEW();
+    bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType_NEW();
+    NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
     // Offset: 0xFFFFFFFF
-    ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters_NEW();
+    ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod_NEW(::Array<System::Type*>* typeArguments);
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
     // Creating initializer_list -> params proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod_NEW(std::initializer_list<System::Type*> typeArguments);
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
     // Creating TArgs -> initializer_list proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     template<class ...TParams>
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod_NEW(TParams&&... typeArguments) {
-      return MakeGenericMethod_NEW({typeArguments...});
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(TParams&&... typeArguments) {
+      return MakeGenericMethod({typeArguments...});
     }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Invoke_NEW(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
-    ::Il2CppObject* Invoke_NEW(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
     template<class ...TParams>
-    ::Il2CppObject* Invoke_NEW(::Il2CppObject* fixture, TParams&&... args) {
-      return Invoke_NEW(fixture, {args...});
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, TParams&&... args) {
+      return Invoke(fixture, {args...});
     }
   }; // NUnit.Framework.Interfaces.IMethodInfo
   #pragma pack(pop)

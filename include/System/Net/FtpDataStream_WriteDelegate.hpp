@@ -33,21 +33,21 @@ namespace System::Net {
     // Creating value type constructor for type: WriteDelegate
     WriteDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14D6BD4
+    // Offset: 0x14DB5E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpDataStream::WriteDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpDataStream::WriteDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpDataStream::WriteDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x14D754C
-    void Invoke_NEW(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x14DBF5C
+    void Invoke(::Array<uint8_t>* buffer, int offset, int size);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14D6BE4
-    System::IAsyncResult* BeginInvoke_NEW(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x14DB5F4
+    System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14D6DB8
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x14DB7C8
+    void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.FtpDataStream/WriteDelegate
   #pragma pack(pop)
 }

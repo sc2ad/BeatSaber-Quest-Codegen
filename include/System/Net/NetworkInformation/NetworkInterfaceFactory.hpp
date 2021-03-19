@@ -36,12 +36,12 @@ namespace System::Net::NetworkInformation {
     NetworkInterfaceFactory() noexcept {}
     // public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
     // Offset: 0xFFFFFFFF
-    ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces_NEW();
+    ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x132794C
+    // Offset: 0x132A35C
     static System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1327A7C
+    // Offset: 0x132A48C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

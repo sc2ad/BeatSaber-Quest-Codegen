@@ -28,14 +28,14 @@ namespace UnityEngine::TestTools::Utils {
   // [] Offset: FFFFFFFF
   class AssemblyWrapper : public ::Il2CppObject/*, public UnityEngine::TestTools::Utils::IAssemblyWrapper*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD451E4
+    // [CompilerGeneratedAttribute] Offset: 0xD47748
     // private readonly System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::Assembly* Assembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD451F4
+    // [CompilerGeneratedAttribute] Offset: 0xD47758
     // private readonly System.Reflection.AssemblyName <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -49,15 +49,15 @@ namespace UnityEngine::TestTools::Utils {
       return *reinterpret_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x2175808
+    // Offset: 0x21772F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyWrapper*, creationType>(assembly)));
     }
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x217585C
-    System::Reflection::Assembly* get_Assembly_NEW();
+    // Offset: 0x2177344
+    System::Reflection::Assembly* get_Assembly();
   }; // UnityEngine.TestTools.Utils.AssemblyWrapper
   #pragma pack(pop)
   static check_size<sizeof(AssemblyWrapper), 24 + sizeof(System::Reflection::AssemblyName*)> __UnityEngine_TestTools_Utils_AssemblyWrapperSizeCheck;

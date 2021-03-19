@@ -37,20 +37,20 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xE16840
+    // Offset: 0xE1ADDC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  EmissionModule(UnityEngine::ParticleSystem* particleSystem)
     // public System.Boolean get_enabled()
-    // Offset: 0xE16848
+    // Offset: 0xE1ADE4
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xE16888
+    // Offset: 0xE1AE24
     void set_enabled(bool value);
     // static private System.Boolean get_enabled_Injected(ref UnityEngine.ParticleSystem/EmissionModule _unity_self)
-    // Offset: 0x217F394
+    // Offset: 0x2180E7C
     static bool get_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self);
     // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/EmissionModule _unity_self, System.Boolean value)
-    // Offset: 0x217F424
+    // Offset: 0x2180F0C
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule
   #pragma pack(pop)

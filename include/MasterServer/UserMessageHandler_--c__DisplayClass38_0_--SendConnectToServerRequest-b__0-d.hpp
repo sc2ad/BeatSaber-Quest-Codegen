@@ -91,11 +91,11 @@ namespace MasterServer {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDE2574
-    void MoveNext_NEW();
+    // Offset: 0xDE3B10
+    void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDE257C
-    void SetStateMachine_NEW(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+    // Offset: 0xDE3B18
+    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass38_0/<<SendConnectToServerRequest>b__0>d
   // WARNING Not writing size check since size may be invalid!
 }

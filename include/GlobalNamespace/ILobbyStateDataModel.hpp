@@ -41,43 +41,43 @@ namespace GlobalNamespace {
     ILobbyStateDataModel() noexcept {}
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
-    void add_playerConnectedEvent_NEW(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
-    void remove_playerConnectedEvent_NEW(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
-    void add_playerDisconnectedEvent_NEW(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
-    void remove_playerDisconnectedEvent_NEW(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Boolean get_isConnected()
     // Offset: 0xFFFFFFFF
-    bool get_isConnected_NEW();
+    bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IConnectedPlayer* get_localPlayer_NEW();
+    GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers_NEW();
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers_NEW();
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public System.Boolean get_isHost()
     // Offset: 0xFFFFFFFF
-    bool get_isHost_NEW();
+    bool get_isHost();
     // public System.Int32 get_maxPartySize()
     // Offset: 0xFFFFFFFF
-    int get_maxPartySize_NEW();
+    int get_maxPartySize();
     // public System.Void Activate()
     // Offset: 0xFFFFFFFF
-    void Activate_NEW();
+    void Activate();
     // public System.Void Deactivate()
     // Offset: 0xFFFFFFFF
-    void Deactivate_NEW();
+    void Deactivate();
     // public IConnectedPlayer GetPlayerById(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IConnectedPlayer* GetPlayerById_NEW(::Il2CppString* userId);
+    GlobalNamespace::IConnectedPlayer* GetPlayerById(::Il2CppString* userId);
   }; // ILobbyStateDataModel
   #pragma pack(pop)
 }

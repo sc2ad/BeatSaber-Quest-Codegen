@@ -47,16 +47,16 @@ namespace System::Net {
       return authObject;
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x132A6C8
-    System::Net::Authorization* Authenticate_NEW(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x132D0D8
+    System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x132A7B4
-    System::Net::Authorization* PreAuthenticate_NEW(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x132D1C4
+    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x132A7BC
-    ::Il2CppString* get_AuthenticationType_NEW();
+    // Offset: 0x132D1CC
+    ::Il2CppString* get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x132A65C
+    // Offset: 0x132D06C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

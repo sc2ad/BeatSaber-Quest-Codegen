@@ -95,51 +95,51 @@ namespace System::Security::Claims {
     // Creating value type constructor for type: Claim
     Claim(::Il2CppString* m_issuer_ = {}, ::Il2CppString* m_originalIssuer_ = {}, ::Il2CppString* m_type_ = {}, ::Il2CppString* m_value_ = {}, ::Il2CppString* m_valueType_ = {}, ::Array<uint8_t>* m_userSerializationData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* m_properties_ = {}, ::Il2CppObject* m_propertyLock_ = {}, System::Security::Claims::ClaimsIdentity* m_subject_ = {}) noexcept : m_issuer{m_issuer_}, m_originalIssuer{m_originalIssuer_}, m_type{m_type_}, m_value{m_value_}, m_valueType{m_valueType_}, m_userSerializationData{m_userSerializationData_}, m_properties{m_properties_}, m_propertyLock{m_propertyLock_}, m_subject{m_subject_} {}
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x14F4584
+    // Offset: 0x14F8F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
-    // Offset: 0x14F45A8
+    // Offset: 0x14F8FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject, ::Il2CppString* propertyKey, ::Il2CppString* propertyValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x14F48C8
+    // Offset: 0x14F92D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(System::Security::Claims::Claim* other, System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(other, subject)));
     }
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14F4B1C
+    // Offset: 0x14F952C
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
-    // Offset: 0x14F47D0
+    // Offset: 0x14F91E0
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
-    // Offset: 0x14F4B7C
+    // Offset: 0x14F958C
     System::Security::Claims::ClaimsIdentity* get_Subject();
     // System.Void set_Subject(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0x14F4B84
+    // Offset: 0x14F9594
     void set_Subject(System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
-    // Offset: 0x14F4B8C
+    // Offset: 0x14F959C
     ::Il2CppString* get_Type();
     // public System.String get_Value()
-    // Offset: 0x14F4B94
+    // Offset: 0x14F95A4
     ::Il2CppString* get_Value();
     // public System.Security.Claims.Claim Clone(System.Security.Claims.ClaimsIdentity identity)
-    // Offset: 0x14F4B9C
-    System::Security::Claims::Claim* Clone_NEW(System::Security::Claims::ClaimsIdentity* identity);
+    // Offset: 0x14F95AC
+    System::Security::Claims::Claim* Clone(System::Security::Claims::ClaimsIdentity* identity);
     // public override System.String ToString()
-    // Offset: 0x14F4C0C
+    // Offset: 0x14F961C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.Claims.Claim
   #pragma pack(pop)

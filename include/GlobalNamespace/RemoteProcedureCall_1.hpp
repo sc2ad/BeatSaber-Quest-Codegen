@@ -66,19 +66,19 @@ namespace GlobalNamespace {
     // protected override System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     // Implemented from: RemoteProcedureCall
-    // Base method: System.Void RemoteProcedureCall::SerializeData_NEW(LiteNetLib.Utils.NetDataWriter writer)
+    // Base method: System.Void RemoteProcedureCall::SerializeData(LiteNetLib.Utils.NetDataWriter writer)
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall_1::SerializeData");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SerializeData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(writer)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SerializeData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(writer)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer);
     }
     // protected override System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
     // Implemented from: RemoteProcedureCall
-    // Base method: System.Void RemoteProcedureCall::DeserializeData_NEW(LiteNetLib.Utils.NetDataReader reader)
+    // Base method: System.Void RemoteProcedureCall::DeserializeData(LiteNetLib.Utils.NetDataReader reader)
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall_1::DeserializeData");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "DeserializeData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "DeserializeData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader);
     }
     // protected System.Void .ctor()

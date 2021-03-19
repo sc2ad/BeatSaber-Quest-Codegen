@@ -68,26 +68,26 @@ namespace System::Collections {
     // Set static field: static private System.Object dummyObject
     static void _set_dummyObject(::Il2CppObject* value);
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1628C8C
+    // Offset: 0x162D6AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
     // public System.Object Clone()
-    // Offset: 0x1629938
-    ::Il2CppObject* Clone_NEW();
+    // Offset: 0x162E358
+    ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1629940
-    bool MoveNext_NEW();
+    // Offset: 0x162E360
+    bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x1629B38
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x162E558
+    ::Il2CppObject* get_Current();
     // public System.Void Reset()
-    // Offset: 0x1629C24
-    void Reset_NEW();
+    // Offset: 0x162E644
+    void Reset();
     // static private System.Void .cctor()
-    // Offset: 0x1629D08
+    // Offset: 0x162E728
     static void _cctor();
   }; // System.Collections.ArrayList/ArrayListEnumeratorSimple
   #pragma pack(pop)

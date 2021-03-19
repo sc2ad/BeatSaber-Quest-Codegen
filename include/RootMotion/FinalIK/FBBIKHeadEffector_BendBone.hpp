@@ -28,15 +28,15 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class FBBIKHeadEffector::BendBone : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD15BA0
+    // [TooltipAttribute] Offset: 0xD1600C
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD15BD8
-    // [RangeAttribute] Offset: 0xD15BD8
+    // [TooltipAttribute] Offset: 0xD16044
+    // [RangeAttribute] Offset: 0xD16044
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -52,20 +52,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: BendBone
     BendBone(UnityEngine::Transform* transform_ = {}, float weight_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : transform{transform_}, weight{weight_}, defaultLocalRotation{defaultLocalRotation_} {}
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1AB3FE8
+    // Offset: 0x1AB9A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector::BendBone* New_ctor(UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>(transform, weight)));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1AB16F8
+    // Offset: 0x1AB7150
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x1AB1AFC
+    // Offset: 0x1AB7554
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1AB3F68
+    // Offset: 0x1AB99C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

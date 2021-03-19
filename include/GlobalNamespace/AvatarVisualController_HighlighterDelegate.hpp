@@ -33,21 +33,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HighlighterDelegate
     HighlighterDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1005F58
+    // Offset: 0x1008F4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarVisualController::HighlighterDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarVisualController::HighlighterDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarVisualController::HighlighterDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean highlighted, System.Int32 uvSegmentNumber)
-    // Offset: 0x10067D4
-    void Invoke_NEW(bool highlighted, int uvSegmentNumber);
+    // Offset: 0x10097C8
+    void Invoke(bool highlighted, int uvSegmentNumber);
     // public System.IAsyncResult BeginInvoke(System.Boolean highlighted, System.Int32 uvSegmentNumber, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1006B14
-    System::IAsyncResult* BeginInvoke_NEW(bool highlighted, int uvSegmentNumber, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1009B08
+    System::IAsyncResult* BeginInvoke(bool highlighted, int uvSegmentNumber, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1006BC4
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x1009BB8
+    void EndInvoke(System::IAsyncResult* result);
   }; // AvatarVisualController/HighlighterDelegate
   #pragma pack(pop)
 }

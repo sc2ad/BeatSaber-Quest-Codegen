@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: WillRenderCanvases
     WillRenderCanvases() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x217A650
+    // Offset: 0x217C138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Canvas::WillRenderCanvases* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Canvas::WillRenderCanvases::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Canvas::WillRenderCanvases*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x217A43C
-    void Invoke_NEW();
+    // Offset: 0x217BF24
+    void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x217A660
-    System::IAsyncResult* BeginInvoke_NEW(System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x217C148
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x217A68C
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x217C174
+    void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Canvas/WillRenderCanvases
   #pragma pack(pop)
 }

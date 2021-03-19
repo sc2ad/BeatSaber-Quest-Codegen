@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStreamTexture : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCE6F0C
+    // [CompilerGeneratedAttribute] Offset: 0xCE7348
     // private System.Boolean <undistorted>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: undistorted and: frameBounds
     char __padding0[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xCE6F1C
+    // [CompilerGeneratedAttribute] Offset: 0xCE7358
     // private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField
     // Size: 0x10
     // Offset: 0x14
@@ -90,62 +90,62 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VideoStreamTexture
     VideoStreamTexture(bool undistorted_ = {}, Valve::VR::VRTextureBounds_t frameBounds_ = {}, UnityEngine::Texture2D* texture_ = {}, int prevFrameCount_ = {}, uint glTextureId_ = {}, GlobalNamespace::SteamVR_TrackedCamera::VideoStream* videostream_ = {}, Valve::VR::CameraVideoStreamFrameHeader_t header_ = {}) noexcept : undistorted{undistorted_}, frameBounds{frameBounds_}, texture{texture_}, prevFrameCount{prevFrameCount_}, glTextureId{glTextureId_}, videostream{videostream_}, header{header_} {}
     // public System.Void .ctor(System.UInt32 deviceIndex, System.Boolean undistorted)
-    // Offset: 0x14F5DD8
+    // Offset: 0x14F97E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStreamTexture* New_ctor(uint deviceIndex, bool undistorted) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStreamTexture*, creationType>(deviceIndex, undistorted)));
     }
     // public System.Boolean get_undistorted()
-    // Offset: 0x14F6330
+    // Offset: 0x14F9D40
     bool get_undistorted();
     // private System.Void set_undistorted(System.Boolean value)
-    // Offset: 0x14F6338
+    // Offset: 0x14F9D48
     void set_undistorted(bool value);
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0x14F6344
+    // Offset: 0x14F9D54
     uint get_deviceIndex();
     // public System.Boolean get_hasCamera()
-    // Offset: 0x14F6360
+    // Offset: 0x14F9D70
     bool get_hasCamera();
     // public System.Boolean get_hasTracking()
-    // Offset: 0x14F637C
+    // Offset: 0x14F9D8C
     bool get_hasTracking();
     // public System.UInt32 get_frameId()
-    // Offset: 0x14F6700
+    // Offset: 0x14FA110
     uint get_frameId();
     // public Valve.VR.VRTextureBounds_t get_frameBounds()
-    // Offset: 0x14F6724
+    // Offset: 0x14FA134
     Valve::VR::VRTextureBounds_t get_frameBounds();
     // private System.Void set_frameBounds(Valve.VR.VRTextureBounds_t value)
-    // Offset: 0x14F6730
+    // Offset: 0x14FA140
     void set_frameBounds(Valve::VR::VRTextureBounds_t value);
     // public Valve.VR.EVRTrackedCameraFrameType get_frameType()
-    // Offset: 0x14F673C
+    // Offset: 0x14FA14C
     Valve::VR::EVRTrackedCameraFrameType get_frameType();
     // public UnityEngine.Texture2D get_texture()
-    // Offset: 0x14F6744
+    // Offset: 0x14FA154
     UnityEngine::Texture2D* get_texture();
     // public SteamVR_Utils/RigidTransform get_transform()
-    // Offset: 0x14F6768
+    // Offset: 0x14FA178
     GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x14F69DC
+    // Offset: 0x14FA3EC
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x14F6A2C
+    // Offset: 0x14FA43C
     UnityEngine::Vector3 get_angularVelocity();
     // public Valve.VR.TrackedDevicePose_t GetPose()
-    // Offset: 0x14F6A80
+    // Offset: 0x14FA490
     Valve::VR::TrackedDevicePose_t GetPose();
     // public System.UInt64 Acquire()
-    // Offset: 0x14F6AB0
+    // Offset: 0x14FA4C0
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x14F6AC8
+    // Offset: 0x14FA4D8
     uint64_t Release();
     // private System.Void Update()
-    // Offset: 0x14F63A0
+    // Offset: 0x14F9DB0
     void Update();
   }; // SteamVR_TrackedCamera/VideoStreamTexture
   #pragma pack(pop)

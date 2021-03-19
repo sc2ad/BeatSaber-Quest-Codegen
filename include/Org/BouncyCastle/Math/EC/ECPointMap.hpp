@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Math::EC {
     ECPointMap() noexcept {}
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* Map_NEW(Org::BouncyCastle::Math::EC::ECPoint* p);
+    Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ECPointMap
   #pragma pack(pop)
 }

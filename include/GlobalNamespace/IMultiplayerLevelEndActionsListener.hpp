@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     IMultiplayerLevelEndActionsListener() noexcept {}
     // public System.Void ReportPlayerDidFinish(LevelCompletionResults results)
     // Offset: 0xFFFFFFFF
-    void ReportPlayerDidFinish_NEW(GlobalNamespace::LevelCompletionResults* results);
+    void ReportPlayerDidFinish(GlobalNamespace::LevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
     // Offset: 0xFFFFFFFF
-    void ReportPlayerNetworkDidFailed_NEW(GlobalNamespace::PlayerNetworkFailReason failReason);
+    void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
   }; // IMultiplayerLevelEndActionsListener
   #pragma pack(pop)
 }

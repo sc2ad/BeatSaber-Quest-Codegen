@@ -43,27 +43,27 @@ namespace HMUI {
     // Creating value type constructor for type: StackedController
     StackedController() noexcept {}
     // public HMUI.ViewController get_topStackedViewController()
-    // Offset: 0x120179C
+    // Offset: 0x12041AC
     HMUI::ViewController* get_topStackedViewController();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x12019D0
+    // Offset: 0x12043E0
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1201AA4
+    // Offset: 0x12044B4
     void PopViewController(System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1201AB8
+    // Offset: 0x12044C8
     void PopViewControllers(int numberOfViewControllersToPop, System::Action* finishedCallback, bool immediately);
     // static private System.Void SetupViewControllerRect(HMUI.ViewController viewController, System.Int32 index)
-    // Offset: 0x120194C
+    // Offset: 0x120435C
     static void SetupViewControllerRect(HMUI::ViewController* viewController, int index);
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x1201808
+    // Offset: 0x1204218
     // Implemented from: HMUI.ContainerViewController
-    // Base method: System.Void ContainerViewController::LayoutViewControllers_NEW(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
+    // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x1201C50
+    // Offset: 0x1204660
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

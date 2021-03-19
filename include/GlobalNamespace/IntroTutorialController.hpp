@@ -89,28 +89,28 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* shockWavePS;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD29664
+    // [SpaceAttribute] Offset: 0xD29B88
     // private BloomFogEnvironmentParams _finishForParams
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BloomFogEnvironmentParams* finishForParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2969C
+    // [InjectAttribute] Offset: 0xD29BC0
     // private readonly BloomFogParamsAnimator _bloomFogAnimator
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogParamsAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD296AC
+    // [InjectAttribute] Offset: 0xD29BD0
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGamePause*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD296BC
+    // [CompilerGeneratedAttribute] Offset: 0xD29BE0
     // private System.Action introTutorialDidFinishEvent
     // Size: 0x8
     // Offset: 0x60
@@ -140,40 +140,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xFF4F54
+    // Offset: 0xFF6E68
     void add_introTutorialDidFinishEvent(System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xFF4FF8
+    // Offset: 0xFF6F0C
     void remove_introTutorialDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0xFF509C
+    // Offset: 0xFF6FB0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFF5220
+    // Offset: 0xFF7134
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xFF53C0
+    // Offset: 0xFF72D4
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0xFF5224
+    // Offset: 0xFF7138
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0xFF5510
+    // Offset: 0xFF7424
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0xFF558C
+    // Offset: 0xFF74A0
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0xFF5484
+    // Offset: 0xFF7398
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0xFF55D0
+    // Offset: 0xFF74E4
     System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0xFF566C
+    // Offset: 0xFF7580
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0xFF5700
+    // Offset: 0xFF7614
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

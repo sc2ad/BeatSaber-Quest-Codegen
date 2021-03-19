@@ -16,7 +16,7 @@ namespace System::Net::NetworkInformation {
   // [] Offset: FFFFFFFF
   struct AlignmentUnion/*, public System::ValueType*/ {
     public:
-    struct SmallCollection {
+    struct __InternalUnionData {
       // public System.Int32 Length
       // Size: 0x4
       // Offset: 0x0
@@ -38,10 +38,9 @@ namespace System::Net::NetworkInformation {
       uint64_t Alignment;
       // Field size check
       static_assert(sizeof(uint64_t) == 0x8);
-      // WARNING: Manual field
-      SmallCollection data;
-      // WARNING: Manual field size check
-      static_assert(sizeof(SmallCollection) == 0x8);
+      // WARNING: Manual union structure
+      __InternalUnionData data;
+      static_assert(sizeof(__InternalUnionData) == 0x8);
     };
     // Creating value type constructor for type: AlignmentUnion
     constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}

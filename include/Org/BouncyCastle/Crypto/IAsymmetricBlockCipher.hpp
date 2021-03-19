@@ -28,16 +28,16 @@ namespace Org::BouncyCastle::Crypto {
     IAsymmetricBlockCipher() noexcept {}
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
     // Offset: 0xFFFFFFFF
-    int GetInputBlockSize_NEW();
+    int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
     // Offset: 0xFFFFFFFF
-    int GetOutputBlockSize_NEW();
+    int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* ProcessBlock_NEW(::Array<uint8_t>* inBuf, int inOff, int inLen);
+    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBuf, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
   #pragma pack(pop)
 }

@@ -75,18 +75,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
     // public System.String get_hashedUserId()
-    // Offset: 0xF5DE34
-    ::Il2CppString* get_hashedUserId_NEW();
+    // Offset: 0xF615CC
+    ::Il2CppString* get_hashedUserId();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0xF5DE3C
+    // Offset: 0xF615D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0xF5DF00
-    System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken_NEW();
+    // Offset: 0xF61698
+    System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)
   static check_size<sizeof(PlatformAuthenticationTokenProvider), 48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)> __GlobalNamespace_PlatformAuthenticationTokenProviderSizeCheck;

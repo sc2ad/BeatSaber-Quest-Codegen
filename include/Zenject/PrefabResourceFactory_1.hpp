@@ -26,7 +26,7 @@ namespace Zenject {
   template<typename T>
   class PrefabResourceFactory_1 : public ::Il2CppObject/*, public Zenject::IFactory_2<::Il2CppString*, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xCF0B80
+    // [InjectAttribute] Offset: 0xCF0FBC
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -52,9 +52,9 @@ namespace Zenject {
     }
     // public T Create(System.String prefabResourceName)
     // Offset: 0xFFFFFFFF
-    T Create_NEW(::Il2CppString* prefabResourceName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::Create_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefabResourceName)));
+    T Create(::Il2CppString* prefabResourceName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::Create");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefabResourceName)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName);
     }
     // public System.Void .ctor()

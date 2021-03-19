@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songMusicDelay and: multiplayerScoreRingManager
     char __padding2[0x4] = {};
-    // [SpaceAttribute] Offset: 0xD27E60
+    // [SpaceAttribute] Offset: 0xD28384
     // private MultiplayerScoreRingManager _multiplayerScoreRingManager
     // Size: 0x8
     // Offset: 0x28
@@ -89,14 +89,14 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27EB8
+    // [InjectAttribute] Offset: 0xD283DC
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27EC8
+    // [InjectAttribute] Offset: 0xD283EC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x48
@@ -108,28 +108,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF121F0
+    // Offset: 0xF2D4D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF12360
+    // Offset: 0xF2D648
     void OnDestroy();
     // public System.Void AnimateOutro(MultiplayerResultsData multiplayerResultsData, System.Action onCompleted)
-    // Offset: 0xF124D4
+    // Offset: 0xF2D7BC
     void AnimateOutro(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayOutroAnimation(MultiplayerResultsData multiplayerResultsData, System.Action onCompleted)
-    // Offset: 0xF12500
+    // Offset: 0xF2D7E8
     System::Collections::IEnumerator* PlayOutroAnimation(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayBigAvatarHideSfxClip(System.Single delay)
-    // Offset: 0xF125B0
+    // Offset: 0xF2D898
     System::Collections::IEnumerator* PlayBigAvatarHideSfxClip(float delay);
     // private System.Void PlayMusicPreview(System.Single maxDuration)
-    // Offset: 0xF12654
+    // Offset: 0xF2D93C
     void PlayMusicPreview(float maxDuration);
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0xF12294
+    // Offset: 0xF2D57C
     void HandlePlayerSpawningDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xF12AA0
+    // Offset: 0xF2DD88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

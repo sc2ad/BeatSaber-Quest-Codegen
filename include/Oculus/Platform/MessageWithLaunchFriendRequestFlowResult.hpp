@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLaunchFriendRequestFlowResult
     MessageWithLaunchFriendRequestFlowResult() noexcept {}
     // protected Oculus.Platform.Models.LaunchFriendRequestFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1386254
+    // Offset: 0x1388C64
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1380ED0
+    // Offset: 0x13838E0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLaunchFriendRequestFlowResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LaunchFriendRequestFlowResult GetLaunchFriendRequestFlowResult()
-    // Offset: 0x1386210
+    // Offset: 0x1388C20
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.LaunchFriendRequestFlowResult Message::GetLaunchFriendRequestFlowResult_NEW()
+    // Base method: Oculus.Platform.Models.LaunchFriendRequestFlowResult Message::GetLaunchFriendRequestFlowResult()
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
   }; // Oculus.Platform.MessageWithLaunchFriendRequestFlowResult
 }

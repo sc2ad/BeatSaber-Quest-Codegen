@@ -59,7 +59,7 @@ namespace System::Net {
     // Creating value type constructor for type: HeaderInfo
     HeaderInfo(bool IsRequestRestricted_ = {}, bool IsResponseRestricted_ = {}, System::Net::HeaderParser* Parser_ = {}, ::Il2CppString* HeaderName_ = {}, bool AllowMultiValues_ = {}) noexcept : IsRequestRestricted{IsRequestRestricted_}, IsResponseRestricted{IsResponseRestricted_}, Parser{Parser_}, HeaderName{HeaderName_}, AllowMultiValues{AllowMultiValues_} {}
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
-    // Offset: 0x1480320
+    // Offset: 0x1484D30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfo::.ctor");

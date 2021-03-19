@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2B24C
+    // [SpaceAttribute] Offset: 0xD2B770
     // private UnityEngine.UI.Image _coverImage
     // Size: 0x8
     // Offset: 0x60
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* songBpmText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2B2D4
+    // [SpaceAttribute] Offset: 0xD2B7F8
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x90
@@ -165,34 +165,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelListTableCell
     LevelListTableCell(UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, UnityEngine::UI::Image* coverImage_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, TMPro::TextMeshProUGUI* songAuthorText_ = {}, UnityEngine::UI::Image* favoritesBadgeImage_ = {}, TMPro::TextMeshProUGUI* songDurationText_ = {}, TMPro::TextMeshProUGUI* songBpmText_ = {}, UnityEngine::Color highlightBackgroundColor_ = {}, UnityEngine::Color selectedBackgroundColor_ = {}, UnityEngine::Color selectedAndHighlightedBackgroundColor_ = {}, float notOwnedAlpha_ = {}, System::Threading::CancellationTokenSource* refreshingAvailabilityCancellationTokenSource_ = {}, System::Threading::CancellationTokenSource* settingDataCancellationTokenSource_ = {}, bool notOwned_ = {}, ::Il2CppString* refreshingAvailabilityLevelID_ = {}, ::Il2CppString* settingDataFromLevelId_ = {}) noexcept : backgroundImage{backgroundImage_}, canvasGroup{canvasGroup_}, coverImage{coverImage_}, songNameText{songNameText_}, songAuthorText{songAuthorText_}, favoritesBadgeImage{favoritesBadgeImage_}, songDurationText{songDurationText_}, songBpmText{songBpmText_}, highlightBackgroundColor{highlightBackgroundColor_}, selectedBackgroundColor{selectedBackgroundColor_}, selectedAndHighlightedBackgroundColor{selectedAndHighlightedBackgroundColor_}, notOwnedAlpha{notOwnedAlpha_}, refreshingAvailabilityCancellationTokenSource{refreshingAvailabilityCancellationTokenSource_}, settingDataCancellationTokenSource{settingDataCancellationTokenSource_}, notOwned{notOwned_}, refreshingAvailabilityLevelID{refreshingAvailabilityLevelID_}, settingDataFromLevelId{settingDataFromLevelId_} {}
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0x10917B8
+    // Offset: 0x1094124
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
     // private System.Void RefreshVisuals()
-    // Offset: 0x10968F0
+    // Offset: 0x1099294
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0x109188C
+    // Offset: 0x10941F8
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::Il2CppString* levelID);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x1091DFC
+    // Offset: 0x1094768
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x10968EC
+    // Offset: 0x1099290
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x10969C0
+    // Offset: 0x1099364
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x10969C4
+    // Offset: 0x1099368
     // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::WasPreparedForReuse_NEW()
+    // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0x10969C8
+    // Offset: 0x109936C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

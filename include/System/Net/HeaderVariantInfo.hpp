@@ -41,14 +41,14 @@ namespace System::Net {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0xDEC518
+    // Offset: 0xDEEAB4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
     // System.String get_Name()
-    // Offset: 0xDEC524
+    // Offset: 0xDEEAC0
     ::Il2CppString* get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0xDEC52C
+    // Offset: 0xDEEAC8
     System::Net::CookieVariant get_Variant();
   }; // System.Net.HeaderVariantInfo
   #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class TimelinePauseMarker : public UnityEngine::Timeline::Marker/*, public UnityEngine::Playables::INotification*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCF50F4
+    // [CompilerGeneratedAttribute] Offset: 0xCF5530
     // private readonly UnityEngine.PropertyName <id>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -37,10 +37,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);
     }
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x2120000
-    UnityEngine::PropertyName get_id_NEW();
+    // Offset: 0x2122AE8
+    UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x2120008
+    // Offset: 0x2122AF0
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

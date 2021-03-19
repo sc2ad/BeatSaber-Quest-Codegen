@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RumbleData
     RumbleData(bool active_ = {}, bool continuous_ = {}, float strength_ = {}, float endTime_ = {}, float frequency_ = {}) noexcept : active{active_}, continuous{continuous_}, strength{strength_}, endTime{endTime_}, frequency{frequency_} {}
     // public System.Void .ctor()
-    // Offset: 0x1125984
+    // Offset: 0x1128394
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

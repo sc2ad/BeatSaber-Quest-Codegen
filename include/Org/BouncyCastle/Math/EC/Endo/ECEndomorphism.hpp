@@ -23,10 +23,10 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     ECEndomorphism() noexcept {}
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap_NEW();
+    Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
     // public System.Boolean get_HasEfficientPointMap()
     // Offset: 0xFFFFFFFF
-    bool get_HasEfficientPointMap_NEW();
+    bool get_HasEfficientPointMap();
   }; // Org.BouncyCastle.Math.EC.Endo.ECEndomorphism
   #pragma pack(pop)
 }

@@ -151,26 +151,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapCallbackItemDataList
     BeatmapCallbackItemDataList(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback_ = {}, System::Action* earlyEventsWereProcessedCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectDataList_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEventDataList_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ColorType, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesByColorType_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* bombNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ObstacleData*>* obstacles_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEarlyEvents_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapLateEvents_ = {}, float maxNotesAlignmentAngle_ = {}) noexcept : spawnBasicNoteCallback{spawnBasicNoteCallback_}, spawnBombNoteCallback{spawnBombNoteCallback_}, spawnObstacleCallback{spawnObstacleCallback_}, processEarlyBeatmapEventCallback{processEarlyBeatmapEventCallback_}, processLateBeatmapEventCallback{processLateBeatmapEventCallback_}, earlyEventsWereProcessedCallback{earlyEventsWereProcessedCallback_}, getRelativeNoteOffsetCallback{getRelativeNoteOffsetCallback_}, beatmapObjectDataList{beatmapObjectDataList_}, beatmapEventDataList{beatmapEventDataList_}, notesByColorType{notesByColorType_}, bombNotes{bombNotes_}, obstacles{obstacles_}, beatmapEarlyEvents{beatmapEarlyEvents_}, beatmapLateEvents{beatmapLateEvents_}, maxNotesAlignmentAngle{maxNotesAlignmentAngle_} {}
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0x1065550
+    // Offset: 0x10670C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList*, creationType>(spawnBasicNoteCallback, spawnBombNoteCallback, spawnObstacleCallback, processEarlyBeatmapEventCallback, processLateBeatmapEventCallback, earlyEventsWereProcessedCallback, getRelativeNoteOffsetCallback)));
     }
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x1065830
+    // Offset: 0x10673A0
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x1065934
+    // Offset: 0x10674A4
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0x1065A38
+    // Offset: 0x10675A8
     void ProcessData();
     // private System.Boolean ProcessNotesByColorType(System.Collections.Generic.List`1<NoteData> notesWithTheSameColorTypeList)
-    // Offset: 0x10667C8
+    // Offset: 0x1068338
     bool ProcessNotesByColorType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameColorTypeList);
     // private System.Void SpawnNoteOrLongNote(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x10669F4
+    // Offset: 0x1068564
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
   #pragma pack(pop)

@@ -81,7 +81,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0xFFFFFFFF
     static UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Infinite(int dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* math) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::HyperRect_1::Infinite");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HyperRect_1<T>>::get(), "Infinite", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(dimensions, math))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HyperRect_1<T>>::get(), "Infinite", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(dimensions, math))));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dimensions, math);
     }
     // public T[] GetClosestPoint(T[] toPoint, UnityEngine.ProBuilder.KdTree.ITypeMath`1<T> math)

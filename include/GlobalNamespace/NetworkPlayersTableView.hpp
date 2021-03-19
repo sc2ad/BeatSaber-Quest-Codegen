@@ -141,28 +141,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kOptionsCellIdentifier
     static void _set_kOptionsCellIdentifier(::Il2CppString* value);
     // public System.Single CellSize()
-    // Offset: 0x10BC9C4
-    float CellSize_NEW();
+    // Offset: 0x10BF388
+    float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x10BC9CC
-    int NumberOfCells_NEW();
+    // Offset: 0x10BF390
+    int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x10BCA1C
-    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int row);
+    // Offset: 0x10BF3E0
+    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
-    // Offset: 0x10BCFB8
+    // Offset: 0x10BF97C
     void AddPlayers(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* players, ::Il2CppString* title);
     // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
-    // Offset: 0x10BD86C
+    // Offset: 0x10C0230
     void SetParties(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* partyPlayers, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* otherPlayers, ::Il2CppString* myPartyTitle, ::Il2CppString* otherPlayersTitle);
     // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
-    // Offset: 0x10BD98C
+    // Offset: 0x10C0350
     void HandleCellWasPressed(HMUI::TableView* tableView, HMUI::TableCell* tableCell);
     // static private System.Boolean HasVisibleOptions(INetworkPlayer player)
-    // Offset: 0x10BD4D4
+    // Offset: 0x10BFE98
     static bool HasVisibleOptions(GlobalNamespace::INetworkPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x10BD990
+    // Offset: 0x10C0354
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

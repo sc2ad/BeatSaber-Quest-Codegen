@@ -81,7 +81,7 @@ namespace Mono::Net::Security {
     System::Net::WebExceptionStatus status;
     // Field size check
     static_assert(sizeof(System::Net::WebExceptionStatus) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCA0FB4
+    // [CompilerGeneratedAttribute] Offset: 0xCA2404
     // private System.Boolean <CertificateValidationFailed>k__BackingField
     // Size: 0x1
     // Offset: 0x3C
@@ -91,26 +91,26 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: MonoTlsStream
     MonoTlsStream(Mono::Security::Interface::MonoTlsProvider* provider_ = {}, System::Net::Sockets::NetworkStream* networkStream_ = {}, System::Net::HttpWebRequest* request_ = {}, Mono::Security::Interface::MonoTlsSettings* settings_ = {}, Mono::Security::Interface::IMonoSslStream* sslStream_ = {}, System::Net::WebExceptionStatus status_ = {}, bool CertificateValidationFailed_ = {}) noexcept : provider{provider_}, networkStream{networkStream_}, request{request_}, settings{settings_}, sslStream{sslStream_}, status{status_}, CertificateValidationFailed{CertificateValidationFailed_} {}
     // System.Net.HttpWebRequest get_Request()
-    // Offset: 0x1435560
+    // Offset: 0x1439F70
     System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
-    // Offset: 0x1435568
+    // Offset: 0x1439F78
     System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
-    // Offset: 0x1435570
+    // Offset: 0x1439F80
     bool get_CertificateValidationFailed();
     // System.Void set_CertificateValidationFailed(System.Boolean value)
-    // Offset: 0x1435578
+    // Offset: 0x1439F88
     void set_CertificateValidationFailed(bool value);
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
-    // Offset: 0x1435584
+    // Offset: 0x1439F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
-    // Offset: 0x1435638
+    // Offset: 0x143A048
     System::IO::Stream* CreateStream(::Array<uint8_t>* buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)

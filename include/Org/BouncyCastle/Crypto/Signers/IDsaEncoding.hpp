@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     IDsaEncoding() noexcept {}
     // public System.Byte[] Encode(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger s)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* Encode_NEW(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* r, Org::BouncyCastle::Math::BigInteger* s);
+    ::Array<uint8_t>* Encode(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* r, Org::BouncyCastle::Math::BigInteger* s);
   }; // Org.BouncyCastle.Crypto.Signers.IDsaEncoding
   #pragma pack(pop)
 }

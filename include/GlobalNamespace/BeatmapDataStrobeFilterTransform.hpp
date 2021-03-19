@@ -12,6 +12,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: IReadonlyBeatmapData
   class IReadonlyBeatmapData;
+  // Forward declaring type: EnvironmentIntensityReductionOptions
+  class EnvironmentIntensityReductionOptions;
 }
 // Completed forward declares
 // Type namespace: 
@@ -34,11 +36,11 @@ namespace GlobalNamespace {
     static float _get_kMaxSecondsToConsiderStrobe();
     // Set static field: static private System.Single kMaxSecondsToConsiderStrobe
     static void _set_kMaxSecondsToConsiderStrobe(float value);
-    // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x106EB90
-    static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions)
+    // Offset: 0x1070700
+    static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
     // static System.Void <CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0(System.Single insertionTime, ref BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0 )
-    // Offset: 0x106F344
+    // Offset: 0x1070F00
     static void $CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0(float insertionTime, GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0& param_1);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)

@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Crypto {
     IBufferedCipher() noexcept {}
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Byte[] DoFinal(System.Byte[] input)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* DoFinal_NEW(::Array<uint8_t>* input);
+    ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input);
   }; // Org.BouncyCastle.Crypto.IBufferedCipher
   #pragma pack(pop)
 }

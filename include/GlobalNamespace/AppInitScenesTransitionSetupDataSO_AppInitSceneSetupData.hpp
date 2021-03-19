@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD3297C
+    // [CompilerGeneratedAttribute] Offset: 0xD32EC0
     // private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -37,13 +37,13 @@ namespace GlobalNamespace {
       return appInitOverrideStartType;
     }
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
-    // Offset: 0xFFD648
+    // Offset: 0x100055C
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();
     // private System.Void set_appInitOverrideStartType(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType value)
-    // Offset: 0xFFD650
+    // Offset: 0x1000564
     void set_appInitOverrideStartType(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // public System.Void .ctor(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0xFFD24C
+    // Offset: 0x1000160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::.ctor");

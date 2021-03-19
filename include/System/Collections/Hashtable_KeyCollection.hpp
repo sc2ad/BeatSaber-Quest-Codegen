@@ -50,21 +50,21 @@ namespace System::Collections {
       return hashtable;
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x181236C
+    // Offset: 0x1813D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1812398
-    void CopyTo_NEW(System::Array* array, int arrayIndex);
+    // Offset: 0x1813DB8
+    void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1812520
-    System::Collections::IEnumerator* GetEnumerator_NEW();
+    // Offset: 0x1813F40
+    System::Collections::IEnumerator* GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x1812588
-    int get_Count_NEW();
+    // Offset: 0x1813FA8
+    int get_Count();
   }; // System.Collections.Hashtable/KeyCollection
   #pragma pack(pop)
   static check_size<sizeof(Hashtable::KeyCollection), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_KeyCollectionSizeCheck;

@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: TriangulationConstraint
     TriangulationConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q_ = {}) noexcept : P{P_}, Q{Q_} {}
     // public System.Void .ctor()
-    // Offset: 0x21280F0
+    // Offset: 0x2129BD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

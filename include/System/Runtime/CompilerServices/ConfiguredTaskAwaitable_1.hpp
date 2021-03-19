@@ -83,16 +83,16 @@ namespace System::Runtime::CompilerServices {
       }
       // public System.Void OnCompleted(System.Action continuation)
       // Offset: 0xFFFFFFFF
-      void OnCompleted_NEW(System::Action* continuation) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::OnCompleted_NEW");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
+      void OnCompleted(System::Action* continuation) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::OnCompleted");
+        auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
       }
       // public System.Void UnsafeOnCompleted(System.Action continuation)
       // Offset: 0xFFFFFFFF
-      void UnsafeOnCompleted_NEW(System::Action* continuation) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::UnsafeOnCompleted_NEW");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
+      void UnsafeOnCompleted(System::Action* continuation) {
+        static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::UnsafeOnCompleted");
+        auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(continuation)));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
       }
       // public TResult GetResult()

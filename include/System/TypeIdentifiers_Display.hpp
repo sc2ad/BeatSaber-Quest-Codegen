@@ -42,22 +42,22 @@ namespace System {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x20D46E0
+    // Offset: 0x20DA1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // public System.String get_InternalName()
-    // Offset: 0x20D471C
-    ::Il2CppString* get_InternalName_NEW();
+    // Offset: 0x20DA1F8
+    ::Il2CppString* get_InternalName();
     // private System.String GetInternalName()
-    // Offset: 0x20D474C
+    // Offset: 0x20DA228
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x20D4714
+    // Offset: 0x20DA1F0
     // Implemented from: System.TypeNames/ATypeName
-    // Base method: System.String ATypeName::get_DisplayName_NEW()
+    // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
   }; // System.TypeIdentifiers/Display
   #pragma pack(pop)

@@ -32,7 +32,7 @@ namespace LeaderboardsDTO {
     // Creating value type constructor for type: TokenDTO
     TokenDTO(::Il2CppString* token_ = {}, int expireIn_ = {}) noexcept : token{token_}, expireIn{expireIn_} {}
     // public System.Void .ctor()
-    // Offset: 0x108D380
+    // Offset: 0x108FCEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

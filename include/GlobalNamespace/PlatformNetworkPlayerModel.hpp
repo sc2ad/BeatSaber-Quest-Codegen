@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlatformNetworkPlayerModel
     PlatformNetworkPlayerModel() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_friends()
-    // Offset: 0xF607B0
+    // Offset: 0xF63F48
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_friends();
     // protected System.Void .ctor()
-    // Offset: 0xF588F0
+    // Offset: 0xF5C088
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
     // Base method: System.Void StandaloneMonobehavior::.ctor()

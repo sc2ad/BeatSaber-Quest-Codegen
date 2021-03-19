@@ -28,7 +28,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     IEnumerableTestMethodCommand() noexcept {}
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerable* ExecuteEnumerable_NEW(NUnit::Framework::Internal::ITestExecutionContext* context);
+    System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
   #pragma pack(pop)
 }

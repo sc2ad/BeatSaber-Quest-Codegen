@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>* elements;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2B8E4
+    // [SpaceAttribute] Offset: 0xD2BE08
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x30
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2B92C
+    // [SpaceAttribute] Offset: 0xD2BE50
     // private EnvironmentsListSO _allEnvironments
     // Size: 0x8
     // Offset: 0x40
@@ -110,28 +110,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0xF2789C
+    // Offset: 0xF141EC
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0xF278A4
+    // Offset: 0xF141F4
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0xF27C34
+    // Offset: 0xF14584
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0xF27DBC
-    void Refresh_NEW();
+    // Offset: 0xF1470C
+    void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0xF27F24
+    // Offset: 0xF14874
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0xF28060
+    // Offset: 0xF149B0
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__15_0()
-    // Offset: 0xF2817C
+    // Offset: 0xF14ACC
     void $HandleOverrideEnvironmentsToggleValueChanged$b__15_0();
     // public System.Void .ctor()
-    // Offset: 0xF28174
+    // Offset: 0xF14AC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

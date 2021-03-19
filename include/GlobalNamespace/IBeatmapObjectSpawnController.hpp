@@ -28,43 +28,43 @@ namespace GlobalNamespace {
     IBeatmapObjectSpawnController() noexcept {}
     // public System.Single get_jumpOffsetY()
     // Offset: 0xFFFFFFFF
-    float get_jumpOffsetY_NEW();
+    float get_jumpOffsetY();
     // public System.Void set_jumpOffsetY(System.Single value)
     // Offset: 0xFFFFFFFF
-    void set_jumpOffsetY_NEW(float value);
+    void set_jumpOffsetY(float value);
     // public System.Single get_currentBpm()
     // Offset: 0xFFFFFFFF
-    float get_currentBpm_NEW();
+    float get_currentBpm();
     // public System.Single get_moveDuration()
     // Offset: 0xFFFFFFFF
-    float get_moveDuration_NEW();
+    float get_moveDuration();
     // public System.Single get_jumpDuration()
     // Offset: 0xFFFFFFFF
-    float get_jumpDuration_NEW();
+    float get_jumpDuration();
     // public System.Single get_jumpDistance()
     // Offset: 0xFFFFFFFF
-    float get_jumpDistance_NEW();
+    float get_jumpDistance();
     // public System.Single get_verticalLayerDistance()
     // Offset: 0xFFFFFFFF
-    float get_verticalLayerDistance_NEW();
+    float get_verticalLayerDistance();
     // public System.Single get_noteJumpMovementSpeed()
     // Offset: 0xFFFFFFFF
-    float get_noteJumpMovementSpeed_NEW();
+    float get_noteJumpMovementSpeed();
     // public System.Single get_noteLinesDistance()
     // Offset: 0xFFFFFFFF
-    float get_noteLinesDistance_NEW();
+    float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData_NEW();
+    GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
     // Offset: 0xFFFFFFFF
-    bool get_isInitialized_NEW();
+    bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_didInitEvent_NEW(System::Action* value);
+    void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_didInitEvent_NEW(System::Action* value);
+    void remove_didInitEvent(System::Action* value);
   }; // IBeatmapObjectSpawnController
   #pragma pack(pop)
 }

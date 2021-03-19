@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusInit::$$c
     class $$c;
-    // [InjectOptionalAttribute] Offset: 0xD1E49C
+    // [InjectOptionalAttribute] Offset: 0xD1E908
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Size: 0x8
     // Offset: 0x18
@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init()
-    // Offset: 0x10D2CFC
+    // Offset: 0x10D56C0
     void Init();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0x10D2ED0
+    // Offset: 0x10D5894
     void InitCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x10D3060
+    // Offset: 0x10D5A24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

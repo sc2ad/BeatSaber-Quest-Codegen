@@ -34,8 +34,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
     static Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int length, Unity::Collections::Allocator allocator) {
       static_assert(is_value_type_v<T>);
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility", "ConvertExistingDataToNativeArray", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(dataPointer, length, allocator)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility", "ConvertExistingDataToNativeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(dataPointer, length, allocator)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Unity::Collections::NativeArray_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, dataPointer, length, allocator);
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility

@@ -74,32 +74,44 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_kLights5();
     // Set static field: static public BeatmapEventType kLights5
     static void _set_kLights5(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kRotateRings
+    static constexpr const int kRotateRings = 8;
+    // Get static field: static public BeatmapEventType kRotateRings
+    static GlobalNamespace::BeatmapEventType _get_kRotateRings();
+    // Set static field: static public BeatmapEventType kRotateRings
+    static void _set_kRotateRings(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType kCompressExpand
+    static constexpr const int kCompressExpand = 9;
+    // Get static field: static public BeatmapEventType kCompressExpand
+    static GlobalNamespace::BeatmapEventType _get_kCompressExpand();
+    // Set static field: static public BeatmapEventType kCompressExpand
+    static void _set_kCompressExpand(GlobalNamespace::BeatmapEventType value);
     // static public System.Collections.Generic.HashSet`1<BeatmapEventType> GetEventsValidForAllBeatmaps()
-    // Offset: 0x21787F8
+    // Offset: 0x217A2E0
     static System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* GetEventsValidForAllBeatmaps();
     // static public System.Boolean IsBPMChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x217897C
+    // Offset: 0x217A464
     static bool IsBPMChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2178988
+    // Offset: 0x217A470
     static bool IsRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpecialEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2178998
+    // Offset: 0x217A480
     static bool IsSpecialEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLightIntensityChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x21789BC
+    // Offset: 0x217A4A4
     static bool IsLightIntensityChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x21789D8
+    // Offset: 0x217A4C0
     static bool IsEarlyRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLateRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x21789E4
+    // Offset: 0x217A4CC
     static bool IsLateRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x21789F0
+    // Offset: 0x217A4D8
     static bool IsEarlyEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpawnAffectingEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2178A00
+    // Offset: 0x217A4E8
     static bool IsSpawnAffectingEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
   }; // BeatmapEventTypeExtensions
   #pragma pack(pop)

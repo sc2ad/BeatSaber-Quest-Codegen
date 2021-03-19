@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLaunchReportFlowResult
     MessageWithLaunchReportFlowResult() noexcept {}
     // protected Oculus.Platform.Models.LaunchReportFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1386434
+    // Offset: 0x1388E44
     Oculus::Platform::Models::LaunchReportFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1386390
+    // Offset: 0x1388DA0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLaunchReportFlowResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LaunchReportFlowResult GetLaunchReportFlowResult()
-    // Offset: 0x13863F0
+    // Offset: 0x1388E00
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.LaunchReportFlowResult Message::GetLaunchReportFlowResult_NEW()
+    // Base method: Oculus.Platform.Models.LaunchReportFlowResult Message::GetLaunchReportFlowResult()
     Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
   }; // Oculus.Platform.MessageWithLaunchReportFlowResult
 }

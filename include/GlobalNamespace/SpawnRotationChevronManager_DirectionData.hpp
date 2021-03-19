@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DirectionData
     DirectionData(GlobalNamespace::SpawnRotationChevron* chevron_ = {}, bool fullyLid_ = {}, float fadeOutStartTime_ = {}, float fadeInEndTime_ = {}) noexcept : chevron{chevron_}, fullyLid{fullyLid_}, fadeOutStartTime{fadeOutStartTime_}, fadeInEndTime{fadeInEndTime_} {}
     // public System.Void .ctor()
-    // Offset: 0x100EA70
+    // Offset: 0xFD51E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -28,22 +28,22 @@ namespace Org::BouncyCastle::Crypto {
     IMac() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
     // Offset: 0xFFFFFFFF
-    int GetMacSize_NEW();
+    int GetMacSize();
     // public System.Void Update(System.Byte input)
     // Offset: 0xFFFFFFFF
-    void Update_NEW(uint8_t input);
+    void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
     // Offset: 0xFFFFFFFF
-    void BlockUpdate_NEW(::Array<uint8_t>* input, int inOff, int len);
+    void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
-    int DoFinal_NEW(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
-    void Reset_NEW();
+    void Reset();
   }; // Org.BouncyCastle.Crypto.IMac
   #pragma pack(pop)
 }

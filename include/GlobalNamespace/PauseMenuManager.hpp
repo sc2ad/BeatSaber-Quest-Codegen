@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PauseAnimationController* pauseAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseAnimationController*) == 0x8);
-    // [NullAllowed] Offset: 0xD25BFC
+    // [NullAllowed] Offset: 0xD26120
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x20
@@ -102,49 +102,49 @@ namespace GlobalNamespace {
     UnityEngine::Transform* pauseContainerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25C84
+    // [InjectAttribute] Offset: 0xD261A8
     // private readonly PauseMenuManager/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::PauseMenuManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseMenuManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25C94
+    // [InjectAttribute] Offset: 0xD261B8
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25CA4
+    // [InjectAttribute] Offset: 0xD261C8
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentSpawnRotation*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25CB4
+    // [CompilerGeneratedAttribute] Offset: 0xD261D8
     // private System.Action didPressContinueButtonEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action* didPressContinueButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25CC4
+    // [CompilerGeneratedAttribute] Offset: 0xD261E8
     // private System.Action didPressMenuButtonEvent
     // Size: 0x8
     // Offset: 0x70
     System::Action* didPressMenuButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25CD4
+    // [CompilerGeneratedAttribute] Offset: 0xD261F8
     // private System.Action didPressRestartButtonEvent
     // Size: 0x8
     // Offset: 0x78
     System::Action* didPressRestartButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25CE4
+    // [CompilerGeneratedAttribute] Offset: 0xD26208
     // private System.Action didFinishResumeAnimationEvent
     // Size: 0x8
     // Offset: 0x80
@@ -174,61 +174,61 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0xF5C324
+    // Offset: 0xF5FABC
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0xF5C914
+    // Offset: 0xF600AC
     void remove_didPressContinueButtonEvent(System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0xF5C46C
+    // Offset: 0xF5FC04
     void add_didPressMenuButtonEvent(System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0xF5CA5C
+    // Offset: 0xF601F4
     void remove_didPressMenuButtonEvent(System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0xF5C3C8
+    // Offset: 0xF5FB60
     void add_didPressRestartButtonEvent(System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0xF5C9B8
+    // Offset: 0xF60150
     void remove_didPressRestartButtonEvent(System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0xF5C280
+    // Offset: 0xF5FA18
     void add_didFinishResumeAnimationEvent(System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0xF5C870
+    // Offset: 0xF60008
     void remove_didFinishResumeAnimationEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xF5D07C
+    // Offset: 0xF60814
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xF5D204
+    // Offset: 0xF6099C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF5D344
+    // Offset: 0xF60ADC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF5D424
+    // Offset: 0xF60BBC
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0xF5CC34
+    // Offset: 0xF603CC
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0xF5CEB8
+    // Offset: 0xF60650
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0xF5D5B0
+    // Offset: 0xF60D48
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0xF5D570
+    // Offset: 0xF60D08
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0xF5D51C
+    // Offset: 0xF60CB4
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0xF5D4DC
+    // Offset: 0xF60C74
     void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0xF5D5C4
+    // Offset: 0xF60D5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

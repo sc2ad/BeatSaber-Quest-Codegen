@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     float avatarFadeOutDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD26844
+    // [SpaceAttribute] Offset: 0xD26D68
     // private ColorSO _offLightsColor
     // Size: 0x8
     // Offset: 0x20
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBigAvatarAnimator* avatarAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBigAvatarAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD268AC
+    // [InjectAttribute] Offset: 0xD26DD0
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -110,19 +110,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x1042570
+    // Offset: 0x10440DC
     void OnDestroy();
     // public System.Void Animate()
-    // Offset: 0x1042608
-    void Animate_NEW();
+    // Offset: 0x1044174
+    void Animate();
     // private System.Collections.IEnumerator AnimationCoroutine()
-    // Offset: 0x1042634
+    // Offset: 0x10441A0
     System::Collections::IEnumerator* AnimationCoroutine();
     // private System.Void <AnimationCoroutine>b__10_0(UnityEngine.Color color)
-    // Offset: 0x10426E4
+    // Offset: 0x1044250
     void $AnimationCoroutine$b__10_0(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x10426D0
+    // Offset: 0x104423C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

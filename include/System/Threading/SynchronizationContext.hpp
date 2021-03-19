@@ -64,34 +64,34 @@ namespace System::Threading {
     // Set static field: static private System.Type s_cachedPreparedType5
     static void _set_s_cachedPreparedType5(System::Type* value);
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x16FF7F4
-    void Send_NEW(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
+    // Offset: 0x1703214
+    void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x16FF810
-    void Post_NEW(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
+    // Offset: 0x1703230
+    void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0x16FF894
-    void OperationStarted_NEW();
+    // Offset: 0x17032B4
+    void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0x16FF898
-    void OperationCompleted_NEW();
+    // Offset: 0x17032B8
+    void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0x16FF89C
+    // Offset: 0x17032BC
     static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0x16F5CF4
+    // Offset: 0x16F9714
     static System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0x16FF934
+    // Offset: 0x1703354
     static System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0x16FF8D8
+    // Offset: 0x17032F8
     static System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x16FF970
-    System::Threading::SynchronizationContext* CreateCopy_NEW();
+    // Offset: 0x1703390
+    System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x16FB478
+    // Offset: 0x16FEE98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

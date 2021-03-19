@@ -34,17 +34,17 @@ namespace Oculus::Platform {
       return messageCallback;
     }
     // public System.Void .ctor(Oculus.Platform.Message/Callback callback)
-    // Offset: 0x13776B4
+    // Offset: 0x137A0C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback* New_ctor(Oculus::Platform::Message::Callback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::RequestCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback*, creationType>(callback)));
     }
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x1377E4C
-    void HandleMessage_NEW(Oculus::Platform::Message* msg);
+    // Offset: 0x137A85C
+    void HandleMessage(Oculus::Platform::Message* msg);
     // public System.Void .ctor()
-    // Offset: 0x1377E44
+    // Offset: 0x137A854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

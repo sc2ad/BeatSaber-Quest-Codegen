@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     ICutScoreBufferDidFinishEvent() noexcept {}
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
     // Offset: 0xFFFFFFFF
-    void HandleCutScoreBufferDidFinish_NEW(GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
+    void HandleCutScoreBufferDidFinish(GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
   }; // ICutScoreBufferDidFinishEvent
   #pragma pack(pop)
 }

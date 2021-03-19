@@ -31,7 +31,7 @@ namespace MasterServer {
     IMessageSender() noexcept {}
     // public System.Void SendMessage(LiteNetLib.Utils.NetDataWriter writer, System.Net.IPEndPoint endPoint)
     // Offset: 0xFFFFFFFF
-    void SendMessage_NEW(LiteNetLib::Utils::NetDataWriter* writer, System::Net::IPEndPoint* endPoint);
+    void SendMessage(LiteNetLib::Utils::NetDataWriter* writer, System::Net::IPEndPoint* endPoint);
   }; // MasterServer.MessageHandler/IMessageSender
   #pragma pack(pop)
 }

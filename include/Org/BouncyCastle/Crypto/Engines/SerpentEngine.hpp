@@ -22,22 +22,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: SerpentEngine
     SerpentEngine() noexcept {}
     // protected override System.Int32[] MakeWorkingKey(System.Byte[] key)
-    // Offset: 0x1C5665C
+    // Offset: 0x1C5E0B4
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
-    // Base method: System.Int32[] SerpentEngineBase::MakeWorkingKey_NEW(System.Byte[] key)
+    // Base method: System.Int32[] SerpentEngineBase::MakeWorkingKey(System.Byte[] key)
     ::Array<int>* MakeWorkingKey(::Array<uint8_t>* key);
     // protected override System.Void EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1C58304
+    // Offset: 0x1C5FD5C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
-    // Base method: System.Void SerpentEngineBase::EncryptBlock_NEW(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Base method: System.Void SerpentEngineBase::EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // protected override System.Void DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1C59924
+    // Offset: 0x1C6137C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
-    // Base method: System.Void SerpentEngineBase::DecryptBlock_NEW(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Base method: System.Void SerpentEngineBase::DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x1C5B4B8
+    // Offset: 0x1C62F10
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::.ctor()
     // Base method: System.Void Object::.ctor()

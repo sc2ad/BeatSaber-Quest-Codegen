@@ -36,14 +36,14 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, ::Il2CppChar& prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementWrite");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ElementWrite", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(w, prop)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ElementWrite", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(w, prop)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, w, prop);
     }
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out System.Char prop)
     // Offset: 0xFFFFFFFF
     void ElementRead(LiteNetLib::Utils::NetDataReader* r, ::Il2CppChar& prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementRead");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(r, prop)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(r, prop)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, prop);
     }
     // public System.Void .ctor()

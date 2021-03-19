@@ -77,13 +77,13 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
     static void _set_s_ReflectionMethodsCache(UnityEngine::UI::ReflectionMethodsCache* value);
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
-    // Offset: 0x1837D50
+    // Offset: 0x1839770
     static UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
     // static private System.Void .cctor()
-    // Offset: 0x1837E10
+    // Offset: 0x1839830
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1837264
+    // Offset: 0x1838C84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

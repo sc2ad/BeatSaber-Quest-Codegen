@@ -34,7 +34,7 @@ namespace System::Net {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x1402B00
+    // Offset: 0x1406510
     // Implemented from: System.Net.TimerThread/Queue
     // Base method: System.Void Queue::.ctor(System.Int32 durationMilliseconds)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

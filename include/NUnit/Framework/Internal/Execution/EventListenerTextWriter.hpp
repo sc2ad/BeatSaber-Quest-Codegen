@@ -41,34 +41,34 @@ namespace NUnit::Framework::Internal::Execution {
     // Creating value type constructor for type: EventListenerTextWriter
     EventListenerTextWriter(System::IO::TextWriter* defaultWriter_ = {}, ::Il2CppString* streamName_ = {}) noexcept : defaultWriter{defaultWriter_}, streamName{streamName_} {}
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x15B2AC4
+    // Offset: 0x15B74D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::Il2CppString* streamName, System::IO::TextWriter* defaultWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x15B2B9C
+    // Offset: 0x15B75AC
     bool TrySendToListener(::Il2CppString* text);
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x15B2B44
+    // Offset: 0x15B7554
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.Char aChar)
+    // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x15B2CF8
+    // Offset: 0x15B7708
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.String aString)
+    // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::Il2CppString* aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x15B2D48
+    // Offset: 0x15B7758
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.String aString)
+    // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::Il2CppString* aString);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x15B2DB8
+    // Offset: 0x15B77C8
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Text.Encoding TextWriter::get_Encoding_NEW()
+    // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
   }; // NUnit.Framework.Internal.Execution.EventListenerTextWriter
   #pragma pack(pop)

@@ -24,7 +24,7 @@ namespace System {
     // Creating value type constructor for type: BuiltInUriParser
     BuiltInUriParser() noexcept {}
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
-    // Offset: 0x214BE3C
+    // Offset: 0x214D924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriParser::BuiltInUriParser::.ctor");

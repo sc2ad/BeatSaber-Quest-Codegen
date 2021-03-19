@@ -16,7 +16,7 @@ namespace Zenject {
     ILateTickable() noexcept {}
     // public System.Void LateTick()
     // Offset: 0xFFFFFFFF
-    void LateTick_NEW();
+    void LateTick();
   }; // Zenject.ILateTickable
   #pragma pack(pop)
 }

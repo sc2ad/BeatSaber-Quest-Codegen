@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding2[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xD00B50
+    // [DrawIfAttribute] Offset: 0xD00FAC
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xD00BF4
+    // [DrawIfAttribute] Offset: 0xD01050
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -82,18 +82,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ParticleSystemLightWithId
     ParticleSystemLightWithId(UnityEngine::ParticleSystem* particleSystem_ = {}, bool setOnlyOnce_ = {}, bool setColorOnly_ = {}, float intensity_ = {}, float minAlpha_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}) noexcept : particleSystem{particleSystem_}, setOnlyOnce{setOnlyOnce_}, setColorOnly{setColorOnly_}, intensity{intensity_}, minAlpha{minAlpha_}, mainModule{mainModule_}, particles{particles_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CE3F68
+    // Offset: 0x1CEC9C0
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1CE3FC8
+    // Offset: 0x1CECA20
     void Awake();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CE4048
+    // Offset: 0x1CECAA0
     // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet_NEW(UnityEngine.Color color)
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CE428C
+    // Offset: 0x1CECCE4
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

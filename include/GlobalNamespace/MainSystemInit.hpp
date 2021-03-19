@@ -219,14 +219,14 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E08C
+    // [SpaceAttribute] Offset: 0xD1E4F8
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E0C4
+    // [SpaceAttribute] Offset: 0xD1E530
     // private TimeHelper _timeHelperPrefab
     // Size: 0x8
     // Offset: 0x88
@@ -311,21 +311,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassLightsUpdateSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E1CC
+    // [SpaceAttribute] Offset: 0xD1E638
     // private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E204
+    // [SpaceAttribute] Offset: 0xD1E670
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E23C
+    // [SpaceAttribute] Offset: 0xD1E6A8
     // private PSVRHelper _psVRHelperPrefab
     // Size: 0x8
     // Offset: 0x108
@@ -350,7 +350,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DevicelessVRHelper*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E2A4
+    // [SpaceAttribute] Offset: 0xD1E710
     // private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
     // Size: 0x8
     // Offset: 0x128
@@ -375,7 +375,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamPlatformAdditionalContentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E30C
+    // [SpaceAttribute] Offset: 0xD1E778
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x148
@@ -412,7 +412,7 @@ namespace GlobalNamespace {
     GlobalNamespace::RichPresenceManager* richPresenceManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RichPresenceManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E394
+    // [SpaceAttribute] Offset: 0xD1E800
     // private NetworkConfigSO _networkConfig
     // Size: 0x8
     // Offset: 0x178
@@ -443,14 +443,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4NetworkPlayerModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E40C
+    // [SpaceAttribute] Offset: 0xD1E878
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x1A0
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E444
+    // [SpaceAttribute] Offset: 0xD1E8B0
     // private LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x1A8
@@ -474,25 +474,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init()
-    // Offset: 0x10B752C
+    // Offset: 0x10B9EF0
     void Init();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x10B790C
+    // Offset: 0x10BA2D0
     void InstallBindings(Zenject::DiContainer* container);
     // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0x10B8854
+    // Offset: 0x10BB218
     void InstallRichPresence(Zenject::DiContainer* container);
     // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0x10B8778
+    // Offset: 0x10BB13C
     void InstallOculusDestinationBindings(Zenject::DiContainer* container);
     // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0x10B8914
+    // Offset: 0x10BB2D8
     void InstallPlatformLeaderboardsModel(Zenject::DiContainer* container);
     // private System.Boolean IsRunningFromNUnit()
-    // Offset: 0x10B8770
+    // Offset: 0x10BB134
     bool IsRunningFromNUnit();
     // public System.Void .ctor()
-    // Offset: 0x10B8A58
+    // Offset: 0x10BB41C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

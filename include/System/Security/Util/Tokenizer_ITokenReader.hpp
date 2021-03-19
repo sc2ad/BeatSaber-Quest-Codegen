@@ -19,7 +19,7 @@ namespace System::Security::Util {
     ITokenReader() noexcept {}
     // public System.Int32 Read()
     // Offset: 0xFFFFFFFF
-    int Read_NEW();
+    int Read();
   }; // System.Security.Util.Tokenizer/ITokenReader
   #pragma pack(pop)
 }

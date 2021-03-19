@@ -47,21 +47,21 @@ namespace GlobalNamespace {
     GlobalNamespace::CrossFadeAudioSource* audioSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CrossFadeAudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27144
+    // [SpaceAttribute] Offset: 0xD27668
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2717C
+    // [InjectAttribute] Offset: 0xD276A0
     // private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2718C
+    // [InjectAttribute] Offset: 0xD276B0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
@@ -133,37 +133,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kReSyncThreshold
     static void _set_kReSyncThreshold(float value);
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xF51208
-    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong_NEW();
+    // Offset: 0xF549A0
+    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // private System.Boolean get_isAudioLoaded()
-    // Offset: 0xF512A0
+    // Offset: 0xF54A38
     bool get_isAudioLoaded();
     // protected System.Void Awake()
-    // Offset: 0xF5134C
+    // Offset: 0xF54AE4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF51468
+    // Offset: 0xF54C00
     void Update();
     // public System.Void StartSong(System.Single offsetTime)
-    // Offset: 0xF51888
-    void StartSong_NEW(float offsetTime);
+    // Offset: 0xF55020
+    void StartSong(float offsetTime);
     // public System.Void FollowOffsetSyncTime(IMultiplayerObservable observable)
-    // Offset: 0xF51B4C
+    // Offset: 0xF552E4
     void FollowOffsetSyncTime(GlobalNamespace::IMultiplayerObservable* observable);
     // private System.Void UpdateOffsetSyncTime(System.Single offsetSyncTime, System.Boolean forceUpdate)
-    // Offset: 0xF5172C
+    // Offset: 0xF54EC4
     void UpdateOffsetSyncTime(float offsetSyncTime, bool forceUpdate);
     // public System.Void SeekTo(System.Single offsetTime)
-    // Offset: 0xF51D44
-    void SeekTo_NEW(float offsetTime);
+    // Offset: 0xF554DC
+    void SeekTo(float offsetTime);
     // private System.Void SeekTo(System.Single offsetTime, System.Boolean crossFade, System.Single toVolume)
-    // Offset: 0xF51980
+    // Offset: 0xF55118
     void SeekTo(float offsetTime, bool crossFade, float toVolume);
     // private System.Boolean <get_waitUntilIsReadyToStartTheSong>b__6_0()
-    // Offset: 0xF51D58
+    // Offset: 0xF554F0
     bool $get_waitUntilIsReadyToStartTheSong$b__6_0();
     // public System.Void .ctor()
-    // Offset: 0xF51D50
+    // Offset: 0xF554E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

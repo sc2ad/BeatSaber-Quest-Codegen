@@ -46,49 +46,49 @@ namespace OVRSimpleJSON {
       return m_Data;
     }
     // public System.Void .ctor(System.String aData)
-    // Offset: 0x1E5001C
+    // Offset: 0x1E54AF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONString* New_ctor(::Il2CppString* aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONString*, creationType>(aData)));
     }
     // public override OVRSimpleJSON.JSONNodeType get_Tag()
-    // Offset: 0x1E4FFDC
+    // Offset: 0x1E54AB8
     // Implemented from: OVRSimpleJSON.JSONNode
-    // Base method: OVRSimpleJSON.JSONNodeType JSONNode::get_Tag_NEW()
+    // Base method: OVRSimpleJSON.JSONNodeType JSONNode::get_Tag()
     OVRSimpleJSON::JSONNodeType get_Tag();
     // public override System.Boolean get_IsString()
-    // Offset: 0x1E4FFE4
+    // Offset: 0x1E54AC0
     // Implemented from: OVRSimpleJSON.JSONNode
-    // Base method: System.Boolean JSONNode::get_IsString_NEW()
+    // Base method: System.Boolean JSONNode::get_IsString()
     bool get_IsString();
     // public override OVRSimpleJSON.JSONNode/Enumerator GetEnumerator()
-    // Offset: 0x1E4FFEC
+    // Offset: 0x1E54AC8
     // Implemented from: OVRSimpleJSON.JSONNode
-    // Base method: OVRSimpleJSON.JSONNode/Enumerator JSONNode::GetEnumerator_NEW()
+    // Base method: OVRSimpleJSON.JSONNode/Enumerator JSONNode::GetEnumerator()
     OVRSimpleJSON::JSONNode::Enumerator GetEnumerator();
     // public override System.String get_Value()
-    // Offset: 0x1E5000C
+    // Offset: 0x1E54AE8
     // Implemented from: OVRSimpleJSON.JSONNode
-    // Base method: System.String JSONNode::get_Value_NEW()
+    // Base method: System.String JSONNode::get_Value()
     ::Il2CppString* get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x1E50014
+    // Offset: 0x1E54AF0
     // Implemented from: OVRSimpleJSON.JSONNode
-    // Base method: System.Void JSONNode::set_Value_NEW(System.String value)
+    // Base method: System.Void JSONNode::set_Value(System.String value)
     void set_Value(::Il2CppString* value);
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
-    // Offset: 0x1E50098
+    // Offset: 0x1E54B74
     // Implemented from: OVRSimpleJSON.JSONNode
-    // Base method: System.Void JSONNode::WriteToStringBuilder_NEW(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
+    // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1E50154
+    // Offset: 0x1E54C30
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1E50278
+    // Offset: 0x1E54D54
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();

@@ -30,14 +30,14 @@ namespace System::Runtime::Serialization {
       return m_typeName;
     }
     // System.Void .ctor(System.String typeName)
-    // Offset: 0x14E9068
+    // Offset: 0x14EDA78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadExceptionHolder* New_ctor(::Il2CppString* typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::TypeLoadExceptionHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadExceptionHolder*, creationType>(typeName)));
     }
     // System.String get_TypeName()
-    // Offset: 0x14E9094
+    // Offset: 0x14EDAA4
     ::Il2CppString* get_TypeName();
   }; // System.Runtime.Serialization.TypeLoadExceptionHolder
   #pragma pack(pop)

@@ -59,36 +59,36 @@ namespace GlobalNamespace {
     IScoreSyncStateManager_5() noexcept {}
     // public System.Single get_syncTime()
     // Offset: 0xFFFFFFFF
-    float get_syncTime_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_syncTime_NEW");
+    float get_syncTime() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_syncTime");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_syncTime", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
     }
     // public System.Int32 get_connectedPlayerCount()
     // Offset: 0xFFFFFFFF
-    int get_connectedPlayerCount_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_connectedPlayerCount_NEW");
+    int get_connectedPlayerCount() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_connectedPlayerCount");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_connectedPlayerCount", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public LocalMultiplayerSyncState`3<TStateTable,TType,TState> get_localState()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_localState_NEW");
+    GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_localState");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_localState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
     }
     // public MultiplayerSyncState`3<TStateTable,TType,TState> GetSyncStateForPlayer(IConnectedPlayer player)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer_NEW(GlobalNamespace::IConnectedPlayer* player) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::GetSyncStateForPlayer_NEW");
+    GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::GetSyncStateForPlayer");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetSyncStateForPlayer", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(player)));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, player);
     }
     // public MultiplayerSyncState`3<TStateTable,TType,TState> GetSyncState(System.Int32 i)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState_NEW(int i) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::GetSyncState_NEW");
+    GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int i) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::GetSyncState");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetSyncState", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(i)));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, i);
     }

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     INoteControllerNoteWasCutEvent() noexcept {}
     // public System.Void HandleNoteControllerNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteWasCut_NEW(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
+    void HandleNoteControllerNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
   }; // INoteControllerNoteWasCutEvent
   #pragma pack(pop)
 }

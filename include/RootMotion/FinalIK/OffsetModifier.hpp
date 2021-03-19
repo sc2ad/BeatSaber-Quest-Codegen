@@ -35,7 +35,7 @@ namespace RootMotion::FinalIK {
     class OffsetLimits;
     // Nested type: RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
-    // [TooltipAttribute] Offset: 0xD153B8
+    // [TooltipAttribute] Offset: 0xD15824
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -44,7 +44,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xD153F0
+    // [TooltipAttribute] Offset: 0xD1585C
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -62,28 +62,28 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Single get_deltaTime()
-    // Offset: 0x1918E3C
+    // Offset: 0x191985C
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x1918E68
-    void Start_NEW();
+    // Offset: 0x1919888
+    void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1918E94
+    // Offset: 0x19198B4
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x1918F30
+    // Offset: 0x1919950
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/OffsetLimits[] limits)
-    // Offset: 0x191903C
+    // Offset: 0x1919A5C
     void ApplyLimits(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x1919358
-    void OnDestroy_NEW();
+    // Offset: 0x1919D78
+    void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1919450
+    // Offset: 0x1919E70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

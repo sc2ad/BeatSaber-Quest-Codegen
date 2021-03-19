@@ -70,11 +70,11 @@ namespace UnityEngine {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0xDFB960
+      // Offset: 0xDFDEFC
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  WorkRequest(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle)
       // public System.Void Invoke()
-      // Offset: 0xDFB96C
+      // Offset: 0xDFDF08
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/WorkRequest
     #pragma pack(pop)
@@ -109,58 +109,58 @@ namespace UnityEngine {
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // private System.Void .ctor(System.Int32 mainThreadID)
-    // Offset: 0x1988F34
+    // Offset: 0x198A954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(mainThreadID)));
     }
     // private System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> queue, System.Int32 mainThreadID)
-    // Offset: 0x1988FE4
+    // Offset: 0x198AA04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* queue, int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(queue, mainThreadID)));
     }
     // private System.Void Exec()
-    // Offset: 0x198941C
+    // Offset: 0x198AE3C
     void Exec();
     // private System.Boolean HasPendingTasks()
-    // Offset: 0x198968C
+    // Offset: 0x198B0AC
     bool HasPendingTasks();
     // static private System.Void InitializeSynchronizationContext()
-    // Offset: 0x19896F4
+    // Offset: 0x198B114
     static void InitializeSynchronizationContext();
     // static private System.Void ExecuteTasks()
-    // Offset: 0x1989774
+    // Offset: 0x198B194
     static void ExecuteTasks();
     // static private System.Boolean ExecutePendingTasks(System.Int64 millisecondsTimeout)
-    // Offset: 0x19897EC
+    // Offset: 0x198B20C
     static bool ExecutePendingTasks(int64_t millisecondsTimeout);
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x1989078
+    // Offset: 0x198AA98
     // Implemented from: System.Threading.SynchronizationContext
-    // Base method: System.Void SynchronizationContext::Send_NEW(System.Threading.SendOrPostCallback callback, System.Object state)
+    // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void OperationStarted()
-    // Offset: 0x19892C0
+    // Offset: 0x198ACE0
     // Implemented from: System.Threading.SynchronizationContext
-    // Base method: System.Void SynchronizationContext::OperationStarted_NEW()
+    // Base method: System.Void SynchronizationContext::OperationStarted()
     void OperationStarted();
     // public override System.Void OperationCompleted()
-    // Offset: 0x19892CC
+    // Offset: 0x198ACEC
     // Implemented from: System.Threading.SynchronizationContext
-    // Base method: System.Void SynchronizationContext::OperationCompleted_NEW()
+    // Base method: System.Void SynchronizationContext::OperationCompleted()
     void OperationCompleted();
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x19892D8
+    // Offset: 0x198ACF8
     // Implemented from: System.Threading.SynchronizationContext
-    // Base method: System.Void SynchronizationContext::Post_NEW(System.Threading.SendOrPostCallback callback, System.Object state)
+    // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x19893A8
+    // Offset: 0x198ADC8
     // Implemented from: System.Threading.SynchronizationContext
-    // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy_NEW()
+    // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
   }; // UnityEngine.UnitySynchronizationContext
   #pragma pack(pop)

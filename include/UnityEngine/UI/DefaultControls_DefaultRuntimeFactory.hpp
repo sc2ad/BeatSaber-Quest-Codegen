@@ -45,20 +45,20 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.DefaultControls/IFactoryControls Default
     static void _set_Default(UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x1321B40
-    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, ::Array<System::Type*>* components);
+    // Offset: 0x1324550
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, std::initializer_list<System::Type*> components);
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     template<class ...TParams>
-    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, TParams&&... components) {
-      return CreateGameObject_NEW(name, {components...});
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, TParams&&... components) {
+      return CreateGameObject(name, {components...});
     }
     // static private System.Void .cctor()
-    // Offset: 0x1321BBC
+    // Offset: 0x13245CC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1321BB4
+    // Offset: 0x13245C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -16,7 +16,7 @@ namespace Polyglot {
     ILocalize() noexcept {}
     // public System.Void OnLocalize()
     // Offset: 0xFFFFFFFF
-    void OnLocalize_NEW();
+    void OnLocalize();
   }; // Polyglot.ILocalize
   #pragma pack(pop)
 }

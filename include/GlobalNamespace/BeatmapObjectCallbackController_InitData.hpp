@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, float spawningStartTime_ = {}) noexcept : beatmapData{beatmapData_}, spawningStartTime{spawningStartTime_} {}
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, System.Single spawningStartTime)
-    // Offset: 0xEFBEC8
+    // Offset: 0xEFF6BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackController::InitData* New_ctor(GlobalNamespace::IReadonlyBeatmapData* beatmapData, float spawningStartTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackController::InitData::.ctor");

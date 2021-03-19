@@ -47,19 +47,19 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.ClipperRegistry s_Instance
     static void _set_s_Instance(UnityEngine::UI::ClipperRegistry* value);
     // static public UnityEngine.UI.ClipperRegistry get_instance()
-    // Offset: 0x131BCC4
+    // Offset: 0x131E6D4
     static UnityEngine::UI::ClipperRegistry* get_instance();
     // public System.Void Cull()
-    // Offset: 0x131BD40
+    // Offset: 0x131E750
     void Cull();
     // static public System.Void Register(UnityEngine.UI.IClipper c)
-    // Offset: 0x131C8D4
+    // Offset: 0x131F2E4
     static void Register(UnityEngine::UI::IClipper* c);
     // static public System.Void Unregister(UnityEngine.UI.IClipper c)
-    // Offset: 0x131C948
+    // Offset: 0x131F358
     static void Unregister(UnityEngine::UI::IClipper* c);
     // protected System.Void .ctor()
-    // Offset: 0x131C864
+    // Offset: 0x131F274
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -53,17 +53,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: ECKeyGenerationParameters
     ECKeyGenerationParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParams_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}) noexcept : domainParams{domainParams_}, publicKeyParamSet{publicKeyParamSet_} {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParameters, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x1160AA8
+    // Offset: 0x11634B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyGenerationParameters* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, Org::BouncyCastle::Security::SecureRandom* random) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyGenerationParameters*, creationType>(domainParameters, random)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_DomainParameters()
-    // Offset: 0x1160B00
+    // Offset: 0x1163510
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x1160B08
+    // Offset: 0x1163518
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
   }; // Org.BouncyCastle.Crypto.Parameters.ECKeyGenerationParameters
   #pragma pack(pop)

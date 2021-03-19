@@ -32,7 +32,7 @@ namespace System::Net {
       return password;
     }
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x1488310
+    // Offset: 0x148CD20
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

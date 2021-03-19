@@ -30,100 +30,100 @@ namespace GlobalNamespace {
     INetworkPlayer() noexcept {}
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userId_NEW();
+    ::Il2CppString* get_userId();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName_NEW();
+    ::Il2CppString* get_userName();
     // public System.Boolean get_isMe()
     // Offset: 0xFFFFFFFF
-    bool get_isMe_NEW();
+    bool get_isMe();
     // public System.Int32 get_currentPartySize()
     // Offset: 0xFFFFFFFF
-    int get_currentPartySize_NEW();
+    int get_currentPartySize();
     // public System.Int32 get_maxPartySize()
     // Offset: 0xFFFFFFFF
-    int get_maxPartySize_NEW();
+    int get_maxPartySize();
     // public System.Boolean get_isMyPartyOwner()
     // Offset: 0xFFFFFFFF
-    bool get_isMyPartyOwner_NEW();
+    bool get_isMyPartyOwner();
     // public System.Boolean get_isOpenParty()
     // Offset: 0xFFFFFFFF
-    bool get_isOpenParty_NEW();
+    bool get_isOpenParty();
     // public System.Boolean get_isConnected()
     // Offset: 0xFFFFFFFF
-    bool get_isConnected_NEW();
+    bool get_isConnected();
     // public System.Boolean get_isPlayer()
     // Offset: 0xFFFFFFFF
-    bool get_isPlayer_NEW();
+    bool get_isPlayer();
     // public System.Boolean get_isDedicatedServer()
     // Offset: 0xFFFFFFFF
-    bool get_isDedicatedServer_NEW();
+    bool get_isDedicatedServer();
     // public System.Boolean get_isSpectating()
     // Offset: 0xFFFFFFFF
-    bool get_isSpectating_NEW();
+    bool get_isSpectating();
     // public BeatmapDifficultyMask get_difficulties()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapDifficultyMask get_difficulties_NEW();
+    GlobalNamespace::BeatmapDifficultyMask get_difficulties();
     // public GameplayModifierMask get_modifiers()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayModifierMask get_modifiers_NEW();
+    GlobalNamespace::GameplayModifierMask get_modifiers();
     // public SongPackMask get_songPacks()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::SongPackMask get_songPacks_NEW();
+    GlobalNamespace::SongPackMask get_songPacks();
     // public System.Boolean get_canJoin()
     // Offset: 0xFFFFFFFF
-    bool get_canJoin_NEW();
+    bool get_canJoin();
     // public System.Void Join()
     // Offset: 0xFFFFFFFF
-    void Join_NEW();
+    void Join();
     // public System.Boolean get_requiresPassword()
     // Offset: 0xFFFFFFFF
-    bool get_requiresPassword_NEW();
+    bool get_requiresPassword();
     // public System.Void Join(System.String password)
     // Offset: 0xFFFFFFFF
-    void Join_NEW(::Il2CppString* password);
+    void Join(::Il2CppString* password);
     // public System.Boolean get_isWaitingOnJoin()
     // Offset: 0xFFFFFFFF
-    bool get_isWaitingOnJoin_NEW();
+    bool get_isWaitingOnJoin();
     // public System.Boolean get_canInvite()
     // Offset: 0xFFFFFFFF
-    bool get_canInvite_NEW();
+    bool get_canInvite();
     // public System.Void Invite()
     // Offset: 0xFFFFFFFF
-    void Invite_NEW();
+    void Invite();
     // public System.Boolean get_isWaitingOnInvite()
     // Offset: 0xFFFFFFFF
-    bool get_isWaitingOnInvite_NEW();
+    bool get_isWaitingOnInvite();
     // public System.Boolean get_canKick()
     // Offset: 0xFFFFFFFF
-    bool get_canKick_NEW();
+    bool get_canKick();
     // public System.Void Kick()
     // Offset: 0xFFFFFFFF
-    void Kick_NEW();
+    void Kick();
     // public System.Boolean get_canLeave()
     // Offset: 0xFFFFFFFF
-    bool get_canLeave_NEW();
+    bool get_canLeave();
     // public System.Void Leave()
     // Offset: 0xFFFFFFFF
-    void Leave_NEW();
+    void Leave();
     // public System.Boolean get_canBlock()
     // Offset: 0xFFFFFFFF
-    bool get_canBlock_NEW();
+    bool get_canBlock();
     // public System.Void Block()
     // Offset: 0xFFFFFFFF
-    void Block_NEW();
+    void Block();
     // public System.Boolean get_canUnblock()
     // Offset: 0xFFFFFFFF
-    bool get_canUnblock_NEW();
+    bool get_canUnblock();
     // public System.Void Unblock()
     // Offset: 0xFFFFFFFF
-    void Unblock_NEW();
+    void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
     // Offset: 0xFFFFFFFF
-    void SendJoinResponse_NEW(bool accept);
+    void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
     // Offset: 0xFFFFFFFF
-    void SendInviteResponse_NEW(bool accept);
+    void SendInviteResponse(bool accept);
   }; // INetworkPlayer
   #pragma pack(pop)
 }

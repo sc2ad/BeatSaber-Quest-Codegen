@@ -97,33 +97,33 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.SortedList sortedList, System.Int32 index, System.Int32 count, System.Int32 getObjRetType)
-    // Offset: 0x1816758
+    // Offset: 0x1818178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList::SortedListEnumerator* New_ctor(System::Collections::SortedList* sortedList, int index, int count, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::SortedListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList::SortedListEnumerator*, creationType>(sortedList, index, count, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x1817678
-    ::Il2CppObject* Clone_NEW();
+    // Offset: 0x1819098
+    ::Il2CppObject* Clone();
     // public System.Object get_Key()
-    // Offset: 0x1817680
-    ::Il2CppObject* get_Key_NEW();
+    // Offset: 0x18190A0
+    ::Il2CppObject* get_Key();
     // public System.Boolean MoveNext()
-    // Offset: 0x1817744
-    bool MoveNext_NEW();
+    // Offset: 0x1819164
+    bool MoveNext();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x181786C
-    System::Collections::DictionaryEntry get_Entry_NEW();
+    // Offset: 0x181928C
+    System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x181794C
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x181936C
+    ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x1817A40
-    ::Il2CppObject* get_Value_NEW();
+    // Offset: 0x1819460
+    ::Il2CppObject* get_Value();
     // public System.Void Reset()
-    // Offset: 0x1817B04
-    void Reset_NEW();
+    // Offset: 0x1819524
+    void Reset();
   }; // System.Collections.SortedList/SortedListEnumerator
   #pragma pack(pop)
   static check_size<sizeof(SortedList::SortedListEnumerator), 60 + sizeof(int)> __System_Collections_SortedList_SortedListEnumeratorSizeCheck;

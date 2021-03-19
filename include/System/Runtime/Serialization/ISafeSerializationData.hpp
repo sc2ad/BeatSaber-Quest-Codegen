@@ -19,7 +19,7 @@ namespace System::Runtime::Serialization {
     ISafeSerializationData() noexcept {}
     // public System.Void CompleteDeserialization(System.Object deserialized)
     // Offset: 0xFFFFFFFF
-    void CompleteDeserialization_NEW(::Il2CppObject* deserialized);
+    void CompleteDeserialization(::Il2CppObject* deserialized);
   }; // System.Runtime.Serialization.ISafeSerializationData
   #pragma pack(pop)
 }

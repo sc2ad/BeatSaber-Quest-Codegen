@@ -58,22 +58,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: AttributeCertificate
     AttributeCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerBitString* signatureValue_ = {}) noexcept : acinfo{acinfo_}, signatureAlgorithm{signatureAlgorithm_}, signatureValue{signatureValue_} {}
     // static public Org.BouncyCastle.Asn1.X509.AttributeCertificate GetInstance(System.Object obj)
-    // Offset: 0x1860C94
+    // Offset: 0x18626B4
     static Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1860D38
+    // Offset: 0x1862758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeCertificate* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeCertificate*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo get_ACInfo()
-    // Offset: 0x1861034
+    // Offset: 0x1862A54
     Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* get_ACInfo();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x186103C
+    // Offset: 0x1862A5C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.AttributeCertificate
   #pragma pack(pop)

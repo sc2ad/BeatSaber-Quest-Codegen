@@ -27,7 +27,7 @@ namespace System::Net {
     // Creating value type constructor for type: WebProxyWrapper
     WebProxyWrapper() noexcept {}
     // System.Net.WebProxy get_WebProxy()
-    // Offset: 0x1414D64
+    // Offset: 0x1418774
     System::Net::WebProxy* get_WebProxy();
   }; // System.Net.WebRequest/WebProxyWrapper
   #pragma pack(pop)

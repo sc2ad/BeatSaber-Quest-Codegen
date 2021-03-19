@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
-    // [InjectAttribute] Offset: 0xD2111C
+    // [InjectAttribute] Offset: 0xD21650
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -105,25 +105,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kQuickPlayOverrideSetupJson
     static void _set_kQuickPlayOverrideSetupJson(::Il2CppString* value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10B929C
-    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync_NEW(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0x10BBC60
+    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x10B9494
+    // Offset: 0x10BBE58
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x10B941C
+    // Offset: 0x10BBDE0
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x10B9498
+    // Offset: 0x10BBE5C
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x10B9310
+    // Offset: 0x10BBCD4
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x10B9598
+    // Offset: 0x10BBF5C
     bool IsUrlValid(::Il2CppString* url);
     // public System.Void .ctor()
-    // Offset: 0x10B9604
+    // Offset: 0x10BBFC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

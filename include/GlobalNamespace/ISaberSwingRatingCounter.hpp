@@ -25,22 +25,22 @@ namespace GlobalNamespace {
     ISaberSwingRatingCounter() noexcept {}
     // public System.Single get_beforeCutRating()
     // Offset: 0xFFFFFFFF
-    float get_beforeCutRating_NEW();
+    float get_beforeCutRating();
     // public System.Single get_afterCutRating()
     // Offset: 0xFFFFFFFF
-    float get_afterCutRating_NEW();
+    float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
     // Offset: 0xFFFFFFFF
-    void RegisterDidChangeReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
     // Offset: 0xFFFFFFFF
-    void RegisterDidFinishReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
     // Offset: 0xFFFFFFFF
-    void UnregisterDidChangeReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
     // Offset: 0xFFFFFFFF
-    void UnregisterDidFinishReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
   }; // ISaberSwingRatingCounter
   #pragma pack(pop)
 }

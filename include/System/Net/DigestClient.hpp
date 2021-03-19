@@ -46,25 +46,25 @@ namespace System::Net {
     // Set static field: static private readonly System.Collections.Hashtable cache
     static void _set_cache(System::Collections::Hashtable* value);
     // static private System.Collections.Hashtable get_Cache()
-    // Offset: 0x14CC6F4
+    // Offset: 0x14D1104
     static System::Collections::Hashtable* get_Cache();
     // static private System.Void CheckExpired(System.Int32 count)
-    // Offset: 0x14CC844
+    // Offset: 0x14D1254
     static void CheckExpired(int count);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x14CCFFC
-    System::Net::Authorization* Authenticate_NEW(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x14D1A0C
+    System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x14CD8C4
-    System::Net::Authorization* PreAuthenticate_NEW(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x14D22D4
+    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x14CDA44
-    ::Il2CppString* get_AuthenticationType_NEW();
+    // Offset: 0x14D2454
+    ::Il2CppString* get_AuthenticationType();
     // static private System.Void .cctor()
-    // Offset: 0x14CDA8C
+    // Offset: 0x14D249C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14C1954
+    // Offset: 0x14C6364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

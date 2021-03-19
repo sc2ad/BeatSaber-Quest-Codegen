@@ -148,7 +148,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: GUILayoutOption
     GUILayoutOption(UnityEngine::GUILayoutOption::Type type_ = {}, ::Il2CppObject* value_ = {}) noexcept : type{type_}, value{value_} {}
     // System.Void .ctor(UnityEngine.GUILayoutOption/Type type, System.Object value)
-    // Offset: 0x190702C
+    // Offset: 0x1907A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutOption* New_ctor(UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUILayoutOption::.ctor");

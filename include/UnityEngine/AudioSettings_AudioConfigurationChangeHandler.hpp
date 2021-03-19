@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: AudioConfigurationChangeHandler
     AudioConfigurationChangeHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x216C28C
+    // Offset: 0x216DD74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSettings::AudioConfigurationChangeHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioSettings::AudioConfigurationChangeHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSettings::AudioConfigurationChangeHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean deviceWasChanged)
-    // Offset: 0x216BFB4
-    void Invoke_NEW(bool deviceWasChanged);
+    // Offset: 0x216DA9C
+    void Invoke(bool deviceWasChanged);
     // public System.IAsyncResult BeginInvoke(System.Boolean deviceWasChanged, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x216C29C
-    System::IAsyncResult* BeginInvoke_NEW(bool deviceWasChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x216DD84
+    System::IAsyncResult* BeginInvoke(bool deviceWasChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x216C32C
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x216DE14
+    void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
   #pragma pack(pop)
 }

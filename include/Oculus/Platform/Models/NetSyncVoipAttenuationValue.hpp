@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: NetSyncVoipAttenuationValue
     NetSyncVoipAttenuationValue(float Decibels_ = {}, float Distance_ = {}) noexcept : Decibels{Decibels_}, Distance{Distance_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138D160
+    // Offset: 0x138FB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncVoipAttenuationValue* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncVoipAttenuationValue::.ctor");

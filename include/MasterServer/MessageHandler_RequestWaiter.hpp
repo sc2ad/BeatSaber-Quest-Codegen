@@ -29,9 +29,9 @@ namespace MasterServer {
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
-    void Dispose_NEW();
+    void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x128DDBC
+    // Offset: 0x12907CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

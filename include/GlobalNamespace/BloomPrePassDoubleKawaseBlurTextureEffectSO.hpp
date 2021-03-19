@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BloomPrePassDoubleKawaseBlurTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
     public:
-    // [SpaceAttribute] Offset: 0xD0D9BC
+    // [SpaceAttribute] Offset: 0xD0DE28
     // private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
     // Size: 0x4
     // Offset: 0x2C
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gammaCorrection and: kawaseBlurRenderer
     char __padding6[0x3] = {};
-    // [SpaceAttribute] Offset: 0xD0DA54
+    // [SpaceAttribute] Offset: 0xD0DEC0
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x48
@@ -87,12 +87,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassDoubleKawaseBlurTextureEffectSO
     BloomPrePassDoubleKawaseBlurTextureEffectSO(GlobalNamespace::KawaseBlurRendererSO::KernelSize bloom1KernelSize_ = {}, float bloom1Boost_ = {}, GlobalNamespace::KawaseBlurRendererSO::KernelSize bloom2KernelSize_ = {}, float bloom2Boost_ = {}, float bloom2Alpha_ = {}, int downsample_ = {}, bool gammaCorrection_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}) noexcept : bloom1KernelSize{bloom1KernelSize_}, bloom1Boost{bloom1Boost_}, bloom2KernelSize{bloom2KernelSize_}, bloom2Boost{bloom2Boost_}, bloom2Alpha{bloom2Alpha_}, downsample{downsample_}, gammaCorrection{gammaCorrection_}, kawaseBlurRenderer{kawaseBlurRenderer_} {}
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x20F7FD0
+    // Offset: 0x20FCAB4
     // Implemented from: TextureEffectSO
-    // Base method: System.Void TextureEffectSO::Render_NEW(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
+    // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x20F8008
+    // Offset: 0x20FCAEC
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()

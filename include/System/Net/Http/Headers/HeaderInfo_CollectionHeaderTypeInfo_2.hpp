@@ -61,10 +61,10 @@ namespace System::Net::Http::Headers {
     // public override System.String get_Separator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
-    // Base method: System.String HeaderInfo::get_Separator_NEW()
+    // Base method: System.String HeaderInfo::get_Separator()
     ::Il2CppString* get_Separator() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::get_Separator");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Separator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Separator", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public override System.Boolean TryParse(System.String value, out System.Object result)
@@ -73,7 +73,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Boolean HeaderTypeInfo_2::TryParse(System.String value, out System.Object result)
     bool TryParse(::Il2CppString* value, ::Il2CppObject*& result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::TryParse");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, result)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value, result)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, result);
     }
   }; // System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2

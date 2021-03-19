@@ -41,20 +41,20 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
-    // Offset: 0xDFE6A0
+    // Offset: 0xE00C3C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction)
     // public UnityEngine.Vector2 get_origin()
-    // Offset: 0xDFE6D4
+    // Offset: 0xE00C70
     UnityEngine::Vector2 get_origin();
     // public UnityEngine.Vector2 get_direction()
-    // Offset: 0xDFE6DC
+    // Offset: 0xE00C78
     UnityEngine::Vector2 get_direction();
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
-    // Offset: 0xDFE6E4
+    // Offset: 0xE00C80
     UnityEngine::Vector2 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xDFE6EC
+    // Offset: 0xE00C88
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

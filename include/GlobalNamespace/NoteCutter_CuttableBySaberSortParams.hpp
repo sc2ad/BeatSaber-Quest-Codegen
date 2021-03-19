@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CuttableBySaberSortParams
     CuttableBySaberSortParams(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, float distance_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, distance{distance_}, pos{pos_} {}
     // public System.Void .ctor()
-    // Offset: 0x10C37C4
+    // Offset: 0x10C6188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,14 +30,14 @@ namespace UnityEngine::EventSystems {
   // [] Offset: FFFFFFFF
   class AxisEventData : public UnityEngine::EventSystems::BaseEventData {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCDAA20
+    // [CompilerGeneratedAttribute] Offset: 0xCDBE5C
     // private UnityEngine.Vector2 <moveVector>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Vector2 moveVector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCDAA30
+    // [CompilerGeneratedAttribute] Offset: 0xCDBE6C
     // private UnityEngine.EventSystems.MoveDirection <moveDir>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -47,19 +47,19 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: AxisEventData
     AxisEventData(UnityEngine::Vector2 moveVector_ = {}, UnityEngine::EventSystems::MoveDirection moveDir_ = {}) noexcept : moveVector{moveVector_}, moveDir{moveDir_} {}
     // public UnityEngine.Vector2 get_moveVector()
-    // Offset: 0x130E6AC
+    // Offset: 0x13110BC
     UnityEngine::Vector2 get_moveVector();
     // public System.Void set_moveVector(UnityEngine.Vector2 value)
-    // Offset: 0x130E6B4
+    // Offset: 0x13110C4
     void set_moveVector(UnityEngine::Vector2 value);
     // public UnityEngine.EventSystems.MoveDirection get_moveDir()
-    // Offset: 0x130E6BC
+    // Offset: 0x13110CC
     UnityEngine::EventSystems::MoveDirection get_moveDir();
     // public System.Void set_moveDir(UnityEngine.EventSystems.MoveDirection value)
-    // Offset: 0x130E6C4
+    // Offset: 0x13110D4
     void set_moveDir(UnityEngine::EventSystems::MoveDirection value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x130E6CC
+    // Offset: 0x13110DC
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

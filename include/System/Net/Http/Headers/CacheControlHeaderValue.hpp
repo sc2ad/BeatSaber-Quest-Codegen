@@ -56,85 +56,85 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<::Il2CppString*>* private_headers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF76B0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7AFC
     // private System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Nullable_1<System::TimeSpan> MaxAge;
-    // [CompilerGeneratedAttribute] Offset: 0xCF76C0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B0C
     // private System.Boolean <MaxStale>k__BackingField
     // Size: 0x1
     // Offset: 0x38
     bool MaxStale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF76D0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B1C
     // private System.Nullable`1<System.TimeSpan> <MaxStaleLimit>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     System::Nullable_1<System::TimeSpan> MaxStaleLimit;
-    // [CompilerGeneratedAttribute] Offset: 0xCF76E0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B2C
     // private System.Nullable`1<System.TimeSpan> <MinFresh>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x50
     System::Nullable_1<System::TimeSpan> MinFresh;
-    // [CompilerGeneratedAttribute] Offset: 0xCF76F0
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B3C
     // private System.Boolean <MustRevalidate>k__BackingField
     // Size: 0x1
     // Offset: 0x60
     bool MustRevalidate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7700
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B4C
     // private System.Boolean <NoCache>k__BackingField
     // Size: 0x1
     // Offset: 0x61
     bool NoCache;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7710
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B5C
     // private System.Boolean <NoStore>k__BackingField
     // Size: 0x1
     // Offset: 0x62
     bool NoStore;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7720
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B6C
     // private System.Boolean <NoTransform>k__BackingField
     // Size: 0x1
     // Offset: 0x63
     bool NoTransform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7730
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B7C
     // private System.Boolean <OnlyIfCached>k__BackingField
     // Size: 0x1
     // Offset: 0x64
     bool OnlyIfCached;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7740
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B8C
     // private System.Boolean <Private>k__BackingField
     // Size: 0x1
     // Offset: 0x65
     bool Private;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7750
+    // [CompilerGeneratedAttribute] Offset: 0xCF7B9C
     // private System.Boolean <ProxyRevalidate>k__BackingField
     // Size: 0x1
     // Offset: 0x66
     bool ProxyRevalidate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7760
+    // [CompilerGeneratedAttribute] Offset: 0xCF7BAC
     // private System.Boolean <Public>k__BackingField
     // Size: 0x1
     // Offset: 0x67
     bool Public;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7770
+    // [CompilerGeneratedAttribute] Offset: 0xCF7BBC
     // private System.Nullable`1<System.TimeSpan> <SharedMaxAge>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x68
@@ -146,115 +146,115 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Extensions()
-    // Offset: 0x13D5C14
+    // Offset: 0x13D9624
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();
     // public System.Nullable`1<System.TimeSpan> get_MaxAge()
-    // Offset: 0x13D5C88
+    // Offset: 0x13D9698
     System::Nullable_1<System::TimeSpan> get_MaxAge();
     // public System.Void set_MaxAge(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x13D5C94
+    // Offset: 0x13D96A4
     void set_MaxAge(System::Nullable_1<System::TimeSpan> value);
     // public System.Boolean get_MaxStale()
-    // Offset: 0x13D5C9C
+    // Offset: 0x13D96AC
     bool get_MaxStale();
     // public System.Void set_MaxStale(System.Boolean value)
-    // Offset: 0x13D5CA4
+    // Offset: 0x13D96B4
     void set_MaxStale(bool value);
     // public System.Nullable`1<System.TimeSpan> get_MaxStaleLimit()
-    // Offset: 0x13D5CB0
+    // Offset: 0x13D96C0
     System::Nullable_1<System::TimeSpan> get_MaxStaleLimit();
     // public System.Void set_MaxStaleLimit(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x13D5CBC
+    // Offset: 0x13D96CC
     void set_MaxStaleLimit(System::Nullable_1<System::TimeSpan> value);
     // public System.Nullable`1<System.TimeSpan> get_MinFresh()
-    // Offset: 0x13D5CC4
+    // Offset: 0x13D96D4
     System::Nullable_1<System::TimeSpan> get_MinFresh();
     // public System.Void set_MinFresh(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x13D5CD0
+    // Offset: 0x13D96E0
     void set_MinFresh(System::Nullable_1<System::TimeSpan> value);
     // public System.Boolean get_MustRevalidate()
-    // Offset: 0x13D5CD8
+    // Offset: 0x13D96E8
     bool get_MustRevalidate();
     // public System.Void set_MustRevalidate(System.Boolean value)
-    // Offset: 0x13D5CE0
+    // Offset: 0x13D96F0
     void set_MustRevalidate(bool value);
     // public System.Boolean get_NoCache()
-    // Offset: 0x13D5CEC
+    // Offset: 0x13D96FC
     bool get_NoCache();
     // public System.Void set_NoCache(System.Boolean value)
-    // Offset: 0x13D5CF4
+    // Offset: 0x13D9704
     void set_NoCache(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_NoCacheHeaders()
-    // Offset: 0x13D5D00
+    // Offset: 0x13D9710
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_NoCacheHeaders();
     // public System.Boolean get_NoStore()
-    // Offset: 0x13D5D74
+    // Offset: 0x13D9784
     bool get_NoStore();
     // public System.Void set_NoStore(System.Boolean value)
-    // Offset: 0x13D5D7C
+    // Offset: 0x13D978C
     void set_NoStore(bool value);
     // public System.Boolean get_NoTransform()
-    // Offset: 0x13D5D88
+    // Offset: 0x13D9798
     bool get_NoTransform();
     // public System.Void set_NoTransform(System.Boolean value)
-    // Offset: 0x13D5D90
+    // Offset: 0x13D97A0
     void set_NoTransform(bool value);
     // public System.Boolean get_OnlyIfCached()
-    // Offset: 0x13D5D9C
+    // Offset: 0x13D97AC
     bool get_OnlyIfCached();
     // public System.Void set_OnlyIfCached(System.Boolean value)
-    // Offset: 0x13D5DA4
+    // Offset: 0x13D97B4
     void set_OnlyIfCached(bool value);
     // public System.Boolean get_Private()
-    // Offset: 0x13D5DB0
+    // Offset: 0x13D97C0
     bool get_Private();
     // public System.Void set_Private(System.Boolean value)
-    // Offset: 0x13D5DB8
+    // Offset: 0x13D97C8
     void set_Private(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_PrivateHeaders()
-    // Offset: 0x13D5DC4
+    // Offset: 0x13D97D4
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_PrivateHeaders();
     // public System.Boolean get_ProxyRevalidate()
-    // Offset: 0x13D5E38
+    // Offset: 0x13D9848
     bool get_ProxyRevalidate();
     // public System.Void set_ProxyRevalidate(System.Boolean value)
-    // Offset: 0x13D5E40
+    // Offset: 0x13D9850
     void set_ProxyRevalidate(bool value);
     // public System.Boolean get_Public()
-    // Offset: 0x13D5E4C
+    // Offset: 0x13D985C
     bool get_Public();
     // public System.Void set_Public(System.Boolean value)
-    // Offset: 0x13D5E54
+    // Offset: 0x13D9864
     void set_Public(bool value);
     // public System.Nullable`1<System.TimeSpan> get_SharedMaxAge()
-    // Offset: 0x13D5E60
+    // Offset: 0x13D9870
     System::Nullable_1<System::TimeSpan> get_SharedMaxAge();
     // public System.Void set_SharedMaxAge(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x13D5E6C
+    // Offset: 0x13D987C
     void set_SharedMaxAge(System::Nullable_1<System::TimeSpan> value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13D5E74
-    ::Il2CppObject* System_ICloneable_Clone_NEW();
+    // Offset: 0x13D9884
+    ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.CacheControlHeaderValue parsedValue)
-    // Offset: 0x13D6778
+    // Offset: 0x13DA188
     static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::CacheControlHeaderValue*& parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13D61F8
+    // Offset: 0x13D9C08
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13D6580
+    // Offset: 0x13D9F90
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13D71DC
+    // Offset: 0x13DABEC
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x13D7064
+    // Offset: 0x13DAA74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

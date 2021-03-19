@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* creditsButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2E158
+    // [CompilerGeneratedAttribute] Offset: 0xD2E68C
     // private System.Action`1<HowToPlayViewController/HowToPlayOptions> didFinishEvent
     // Size: 0x8
     // Offset: 0x80
@@ -94,27 +94,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HowToPlayViewController
     HowToPlayViewController(UnityEngine::UI::Button* tutorialButton_ = {}, UnityEngine::UI::Button* creditsButton_ = {}, System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* didFinishEvent_ = {}) noexcept : tutorialButton{tutorialButton_}, creditsButton{creditsButton_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0xFF3D8C
+    // Offset: 0xFF5CA0
     void add_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0xFF3E30
+    // Offset: 0xFF5D44
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0xFF3ED4
+    // Offset: 0xFF5DE8
     void Setup(bool showTutorialButton);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0xFF4014
+    // Offset: 0xFF5F28
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0xFF4078
+    // Offset: 0xFF5F8C
     void $DidActivate$b__7_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFF3F10
+    // Offset: 0xFF5E24
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFF400C
+    // Offset: 0xFF5F20
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

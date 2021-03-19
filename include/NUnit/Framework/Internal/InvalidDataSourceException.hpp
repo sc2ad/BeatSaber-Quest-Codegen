@@ -29,7 +29,7 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: InvalidDataSourceException
     InvalidDataSourceException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2090DDC
+    // Offset: 0x20978B8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -39,7 +39,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidDataSourceException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2090E44
+    // Offset: 0x2097920
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

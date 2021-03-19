@@ -44,7 +44,7 @@ namespace GlobalNamespace {
       return loggers;
     }
     // public System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
-    // Offset: 0x120907C
+    // Offset: 0x120BA8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BGNetLogger* New_ctor(::Array<Microsoft::Extensions::Logging::ILogger*>* loggers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BGNetLogger::.ctor");
@@ -61,14 +61,14 @@ namespace GlobalNamespace {
       return New_ctor<creationType>({loggers...});
     }
     // public System.Void LogError(System.String message)
-    // Offset: 0x12090A8
-    void LogError_NEW(::Il2CppString* message);
+    // Offset: 0x120BAB8
+    void LogError(::Il2CppString* message);
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x12091AC
-    void LogInfo_NEW(::Il2CppString* message);
+    // Offset: 0x120BBBC
+    void LogInfo(::Il2CppString* message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x12092B4
-    void LogWarning_NEW(::Il2CppString* message);
+    // Offset: 0x120BCC4
+    void LogWarning(::Il2CppString* message);
   }; // BGNetLogger
   #pragma pack(pop)
   static check_size<sizeof(BGNetLogger), 16 + sizeof(::Array<Microsoft::Extensions::Logging::ILogger*>*)> __GlobalNamespace_BGNetLoggerSizeCheck;

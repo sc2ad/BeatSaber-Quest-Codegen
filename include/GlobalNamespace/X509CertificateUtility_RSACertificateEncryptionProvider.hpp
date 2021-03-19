@@ -50,18 +50,18 @@ namespace GlobalNamespace {
       return signer;
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters privateKey)
-    // Offset: 0x2160678
+    // Offset: 0x2163160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::RSACertificateEncryptionProvider* New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::RSACertificateEncryptionProvider*, creationType>(privateKey)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2161A40
-    void Dispose_NEW();
+    // Offset: 0x2164528
+    void Dispose();
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x2161A44
-    ::Array<uint8_t>* SignData_NEW(::Array<uint8_t>* data, int offset, int length);
+    // Offset: 0x216452C
+    ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);
   }; // X509CertificateUtility/RSACertificateEncryptionProvider
   #pragma pack(pop)
   static check_size<sizeof(X509CertificateUtility::RSACertificateEncryptionProvider), 16 + sizeof(Org::BouncyCastle::Crypto::ISigner*)> __GlobalNamespace_X509CertificateUtility_RSACertificateEncryptionProviderSizeCheck;

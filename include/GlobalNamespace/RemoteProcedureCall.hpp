@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     struct TypeWrapper_1;
-    // [CompilerGeneratedAttribute] Offset: 0xD05E90
+    // [CompilerGeneratedAttribute] Offset: 0xD062EC
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -52,31 +52,31 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // public System.Single get_syncTime()
-    // Offset: 0x15C6588
-    float get_syncTime_NEW();
+    // Offset: 0x15CAF98
+    float get_syncTime();
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x15C6590
+    // Offset: 0x15CAFA0
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15C6598
+    // Offset: 0x15CAFA8
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15C659C
+    // Offset: 0x15CAFAC
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15C65A0
-    void LiteNetLib_Utils_INetSerializable_Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x15CAFB0
+    void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15C65E8
-    void LiteNetLib_Utils_INetSerializable_Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x15CAFF8
+    void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x15C6630
-    void Release_NEW();
+    // Offset: 0x15CB040
+    void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x15C6750
+    // Offset: 0x15CB160
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x15BA6BC
+    // Offset: 0x15BF0CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

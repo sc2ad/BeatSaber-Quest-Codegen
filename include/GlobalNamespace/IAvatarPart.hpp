@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     IAvatarPart() noexcept {}
     // public System.String get_id()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_id_NEW();
+    ::Il2CppString* get_id();
     // public System.String get_localizedName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_localizedName_NEW();
+    ::Il2CppString* get_localizedName();
   }; // IAvatarPart
   #pragma pack(pop)
 }

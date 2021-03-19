@@ -32,13 +32,13 @@ namespace UnityEngine::UI {
     IFactoryControls() noexcept {}
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, ::Array<System::Type*>* components);
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, std::initializer_list<System::Type*> components);
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     template<class ...TParams>
-    UnityEngine::GameObject* CreateGameObject_NEW(::Il2CppString* name, TParams&&... components) {
-      return CreateGameObject_NEW(name, {components...});
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, TParams&&... components) {
+      return CreateGameObject(name, {components...});
     }
   }; // UnityEngine.UI.DefaultControls/IFactoryControls
   #pragma pack(pop)

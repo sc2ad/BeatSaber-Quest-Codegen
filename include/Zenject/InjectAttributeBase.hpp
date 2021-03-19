@@ -21,7 +21,7 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class InjectAttributeBase : public Zenject::Internal::PreserveAttribute {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCDF198
+    // [CompilerGeneratedAttribute] Offset: 0xCDF5D4
     // private System.Boolean <Optional>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -30,14 +30,14 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: Optional and: Id
     char __padding0[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xCDF1A8
+    // [CompilerGeneratedAttribute] Offset: 0xCDF5E4
     // private System.Object <Id>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppObject* Id;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCDF1B8
+    // [CompilerGeneratedAttribute] Offset: 0xCDF5F4
     // private Zenject.InjectSources <Source>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -47,25 +47,25 @@ namespace Zenject {
     // Creating value type constructor for type: InjectAttributeBase
     InjectAttributeBase(bool Optional_ = {}, ::Il2CppObject* Id_ = {}, Zenject::InjectSources Source_ = {}) noexcept : Optional{Optional_}, Id{Id_}, Source{Source_} {}
     // public System.Boolean get_Optional()
-    // Offset: 0x216E39C
+    // Offset: 0x216FE84
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x216E3A4
+    // Offset: 0x216FE8C
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x216E3B0
+    // Offset: 0x216FE98
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x216E3B8
+    // Offset: 0x216FEA0
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x216E3C0
+    // Offset: 0x216FEA8
     Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x216E3C8
+    // Offset: 0x216FEB0
     void set_Source(Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x216E394
+    // Offset: 0x216FE7C
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

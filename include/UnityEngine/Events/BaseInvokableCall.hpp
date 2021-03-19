@@ -32,7 +32,7 @@ namespace UnityEngine::Events {
     // Creating value type constructor for type: BaseInvokableCall
     BaseInvokableCall() noexcept {}
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
-    // Offset: 0x19C87C0
+    // Offset: 0x19CA218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* function) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::.ctor");
@@ -40,24 +40,24 @@ namespace UnityEngine::Events {
     }
     // public System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void Invoke_NEW(::Array<::Il2CppObject*>* args);
+    void Invoke(::Array<::Il2CppObject*>* args);
     // static protected System.Void ThrowOnInvalidArg(System.Object arg)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ThrowOnInvalidArg(::Il2CppObject* arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::ThrowOnInvalidArg");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Events", "BaseInvokableCall", "ThrowOnInvalidArg", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arg)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Events", "BaseInvokableCall", "ThrowOnInvalidArg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arg)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg);
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
-    // Offset: 0x19C887C
+    // Offset: 0x19CA2D4
     static bool AllowInvoke(System::Delegate* delegate);
     // public System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF
-    bool Find_NEW(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
+    bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // protected System.Void .ctor()
-    // Offset: 0x19C87B8
+    // Offset: 0x19CA210
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

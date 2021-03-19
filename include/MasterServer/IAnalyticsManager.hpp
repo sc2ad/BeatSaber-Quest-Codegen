@@ -50,55 +50,55 @@ namespace MasterServer {
     }
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFF
-    void PollUpdate_NEW();
+    void PollUpdate();
     // public System.Void UpdateState(System.String metricName, System.Int64 state, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
     // Offset: 0xFFFFFFFF
-    void UpdateState_NEW(::Il2CppString* metricName, int64_t state, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
+    void UpdateState(::Il2CppString* metricName, int64_t state, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
     // public System.Void UpdateAverage(System.String metricName, System.Double value, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
     // Offset: 0xFFFFFFFF
-    void UpdateAverage_NEW(::Il2CppString* metricName, double value, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
+    void UpdateAverage(::Il2CppString* metricName, double value, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
     // public System.Void IncrementCounter(System.String metricName, System.Int64 incrementAmount, MasterServer.AnalyticsMetricUnit unit)
     // Offset: 0xFFFFFFFF
-    void IncrementCounter_NEW(::Il2CppString* metricName, int64_t incrementAmount, MasterServer::AnalyticsMetricUnit unit);
+    void IncrementCounter(::Il2CppString* metricName, int64_t incrementAmount, MasterServer::AnalyticsMetricUnit unit);
     // public System.Void ReceivedReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
     // Offset: 0xFFFFFFFF
-    void ReceivedReliableRequestEvent_NEW(MasterServer::IMasterServerReliableRequest* request);
+    void ReceivedReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
     // public System.Void SentReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
     // Offset: 0xFFFFFFFF
-    void SentReliableRequestEvent_NEW(MasterServer::IMasterServerReliableRequest* request);
+    void SentReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
     // public System.Void ReceivedReliableResponseEvent(MasterServer.IMasterServerReliableResponse request)
     // Offset: 0xFFFFFFFF
-    void ReceivedReliableResponseEvent_NEW(MasterServer::IMasterServerReliableResponse* request);
+    void ReceivedReliableResponseEvent(MasterServer::IMasterServerReliableResponse* request);
     // public System.Void SentReliableResponseEvent(MasterServer.IMasterServerReliableResponse response)
     // Offset: 0xFFFFFFFF
-    void SentReliableResponseEvent_NEW(MasterServer::IMasterServerReliableResponse* response);
+    void SentReliableResponseEvent(MasterServer::IMasterServerReliableResponse* response);
     // public System.Void ReceivedUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
     // Offset: 0xFFFFFFFF
-    void ReceivedUnreliableMessageEvent_NEW(MasterServer::IMasterServerUnreliableMessage* message);
+    void ReceivedUnreliableMessageEvent(MasterServer::IMasterServerUnreliableMessage* message);
     // public System.Void SentUnreliableMessageEvent(MasterServer.IMasterServerUnreliableMessage message)
     // Offset: 0xFFFFFFFF
-    void SentUnreliableMessageEvent_NEW(MasterServer::IMasterServerUnreliableMessage* message);
+    void SentUnreliableMessageEvent(MasterServer::IMasterServerUnreliableMessage* message);
     // public System.Void SentUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
     // Offset: 0xFFFFFFFF
-    void SentUnreliableResponseEvent_NEW(MasterServer::IMasterServerResponse* response);
+    void SentUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
     // public System.Void ReceivedUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
     // Offset: 0xFFFFFFFF
-    void ReceivedUnreliableResponseEvent_NEW(MasterServer::IMasterServerResponse* response);
+    void ReceivedUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
     // public System.Void DedicatedServerServerConnectedEvent(DedicatedServerType serverType)
     // Offset: 0xFFFFFFFF
-    void DedicatedServerServerConnectedEvent_NEW(GlobalNamespace::DedicatedServerType serverType);
+    void DedicatedServerServerConnectedEvent(GlobalNamespace::DedicatedServerType serverType);
     // public System.Void DedicatedServerServerConnectionFailedEvent(DedicatedServerType serverType, ConnectionFailedReason reason)
     // Offset: 0xFFFFFFFF
-    void DedicatedServerServerConnectionFailedEvent_NEW(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::ConnectionFailedReason reason);
+    void DedicatedServerServerConnectionFailedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::ConnectionFailedReason reason);
     // public System.Void DedicatedServerServerDisconnectedEvent(DedicatedServerType serverType, DisconnectedReason reason)
     // Offset: 0xFFFFFFFF
-    void DedicatedServerServerDisconnectedEvent_NEW(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
+    void DedicatedServerServerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
     // public System.Void DedicatedServerPlayerConnectedEvent(DedicatedServerType serverType)
     // Offset: 0xFFFFFFFF
-    void DedicatedServerPlayerConnectedEvent_NEW(GlobalNamespace::DedicatedServerType serverType);
+    void DedicatedServerPlayerConnectedEvent(GlobalNamespace::DedicatedServerType serverType);
     // public System.Void DedicatedServerPlayerDisconnectedEvent(DedicatedServerType serverType, DisconnectedReason reason)
     // Offset: 0xFFFFFFFF
-    void DedicatedServerPlayerDisconnectedEvent_NEW(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
+    void DedicatedServerPlayerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
   }; // MasterServer.IAnalyticsManager
   #pragma pack(pop)
 }

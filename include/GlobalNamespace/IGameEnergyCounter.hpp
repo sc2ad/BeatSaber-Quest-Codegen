@@ -29,46 +29,46 @@ namespace GlobalNamespace {
     IGameEnergyCounter() noexcept {}
     // public System.Void add_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_didInitEvent_NEW(System::Action* value);
+    void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_didInitEvent_NEW(System::Action* value);
+    void remove_didInitEvent(System::Action* value);
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_gameEnergyDidReach0Event_NEW(System::Action* value);
+    void add_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void remove_gameEnergyDidReach0Event(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_gameEnergyDidReach0Event_NEW(System::Action* value);
+    void remove_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void add_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_gameEnergyDidChangeEvent_NEW(System::Action_1<float>* value);
+    void add_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_gameEnergyDidChangeEvent_NEW(System::Action_1<float>* value);
+    void remove_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // public System.Boolean get_isInitialized()
     // Offset: 0xFFFFFFFF
-    bool get_isInitialized_NEW();
+    bool get_isInitialized();
     // public System.Single get_energy()
     // Offset: 0xFFFFFFFF
-    float get_energy_NEW();
+    float get_energy();
     // public System.Int32 get_batteryEnergy()
     // Offset: 0xFFFFFFFF
-    int get_batteryEnergy_NEW();
+    int get_batteryEnergy();
     // public System.Int32 get_batteryLives()
     // Offset: 0xFFFFFFFF
-    int get_batteryLives_NEW();
+    int get_batteryLives();
     // public GameplayModifiers/EnergyType get_energyType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayModifiers::EnergyType get_energyType_NEW();
+    GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Boolean get_noFail()
     // Offset: 0xFFFFFFFF
-    bool get_noFail_NEW();
+    bool get_noFail();
     // public System.Boolean get_instaFail()
     // Offset: 0xFFFFFFFF
-    bool get_instaFail_NEW();
+    bool get_instaFail();
     // public System.Boolean get_failOnSaberClash()
     // Offset: 0xFFFFFFFF
-    bool get_failOnSaberClash_NEW();
+    bool get_failOnSaberClash();
   }; // IGameEnergyCounter
   #pragma pack(pop)
 }

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xCF4D1C
+    // [SpaceAttribute] Offset: 0xCF5158
     // private System.Single _distanceScale
     // Size: 0x4
     // Offset: 0x28
@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xCF4D64
+    // [SpaceAttribute] Offset: 0xCF51A0
     // private System.Single _alpha
     // Size: 0x4
     // Offset: 0x30
     float alpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xCF4D9C
+    // [SpaceAttribute] Offset: 0xCF51D8
     // private System.Single _floorYPos
     // Size: 0x4
     // Offset: 0x34
@@ -86,13 +86,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x211E5A0
+    // Offset: 0x2121088
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x211E5C8
+    // Offset: 0x21210B0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x211E740
+    // Offset: 0x2121228
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

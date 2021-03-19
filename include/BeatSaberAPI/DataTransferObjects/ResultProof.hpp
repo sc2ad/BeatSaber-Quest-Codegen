@@ -17,7 +17,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [] Offset: FFFFFFFF
   class ResultProof : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD31D60
+    // [CompilerGeneratedAttribute] Offset: 0xD322A4
     // private System.String <proof>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -31,13 +31,13 @@ namespace BeatSaberAPI::DataTransferObjects {
       return proof;
     }
     // public System.String get_proof()
-    // Offset: 0x10653B4
+    // Offset: 0x1066F24
     ::Il2CppString* get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x10653BC
+    // Offset: 0x1066F2C
     void set_proof(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x10653C4
+    // Offset: 0x1066F34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

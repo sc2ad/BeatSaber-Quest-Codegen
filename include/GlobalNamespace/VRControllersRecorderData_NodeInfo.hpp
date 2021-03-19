@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NodeInfo
     NodeInfo(UnityEngine::XR::XRNode nodeType_ = {}, int nodeIdx_ = {}) noexcept : nodeType{nodeType_}, nodeIdx{nodeIdx_} {}
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x108B098
+    // Offset: 0x108DA04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::NodeInfo::.ctor");

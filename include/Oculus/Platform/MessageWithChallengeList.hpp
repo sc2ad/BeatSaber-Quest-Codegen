@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithChallengeList
     MessageWithChallengeList() noexcept {}
     // protected Oculus.Platform.Models.ChallengeList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1384BB4
+    // Offset: 0x13875C4
     Oculus::Platform::Models::ChallengeList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1380BD0
+    // Offset: 0x13835E0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithChallengeList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.ChallengeList GetChallengeList()
-    // Offset: 0x1384B70
+    // Offset: 0x1387580
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.ChallengeList Message::GetChallengeList_NEW()
+    // Base method: Oculus.Platform.Models.ChallengeList Message::GetChallengeList()
     Oculus::Platform::Models::ChallengeList* GetChallengeList();
   }; // Oculus.Platform.MessageWithChallengeList
 }

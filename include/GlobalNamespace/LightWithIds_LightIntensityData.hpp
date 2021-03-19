@@ -54,28 +54,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
     }
     // public System.Int32 get_lightId()
-    // Offset: 0x1CE0FDC
-    int get_lightId_NEW();
+    // Offset: 0x1CE9A34
+    int get_lightId();
     // public System.Single get_intensity()
-    // Offset: 0x1CE0FE4
+    // Offset: 0x1CE9A3C
     float get_intensity();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CE0FEC
+    // Offset: 0x1CE9A44
     UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1CE0FF8
-    bool get_isRegistered_NEW();
+    // Offset: 0x1CE9A50
+    bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1CE1000
-    void __SetIsRegistered_NEW();
+    // Offset: 0x1CE9A58
+    void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1CE100C
-    void __SetIsUnRegistered_NEW();
+    // Offset: 0x1CE9A64
+    void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1CE1014
-    void ColorWasSet_NEW(UnityEngine::Color newColor);
+    // Offset: 0x1CE9A6C
+    void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1CE1034
+    // Offset: 0x1CE9A8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

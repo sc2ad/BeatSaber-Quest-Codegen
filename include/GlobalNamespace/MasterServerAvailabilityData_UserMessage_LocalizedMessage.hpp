@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedMessage
     LocalizedMessage(::Il2CppString* language_ = {}, ::Il2CppString* message_ = {}) noexcept : language{language_}, message{message_} {}
     // public System.Void .ctor()
-    // Offset: 0x10B8A70
+    // Offset: 0x10BB434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

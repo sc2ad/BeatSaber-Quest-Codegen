@@ -42,21 +42,21 @@ namespace UnityEngine::Events {
   // [] Offset: FFFFFFFF
   class PersistentCall : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC544
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD994
     // private UnityEngine.Object m_Target
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* m_Target;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC590
+    // [FormerlySerializedAsAttribute] Offset: 0xCAD9E0
     // private System.String m_MethodName
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_MethodName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC5DC
+    // [FormerlySerializedAsAttribute] Offset: 0xCADA2C
     // private UnityEngine.Events.PersistentListenerMode m_Mode
     // Size: 0x4
     // Offset: 0x20
@@ -65,15 +65,15 @@ namespace UnityEngine::Events {
     static_assert(sizeof(UnityEngine::Events::PersistentListenerMode) == 0x4);
     // Padding between fields: m_Mode and: m_Arguments
     char __padding2[0x4] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC628
+    // [FormerlySerializedAsAttribute] Offset: 0xCADA78
     // private UnityEngine.Events.ArgumentCache m_Arguments
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Events::ArgumentCache* m_Arguments;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::ArgumentCache*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC674
-    // [FormerlySerializedAsAttribute] Offset: 0xCAC674
+    // [FormerlySerializedAsAttribute] Offset: 0xCADAC4
+    // [FormerlySerializedAsAttribute] Offset: 0xCADAC4
     // private UnityEngine.Events.UnityEventCallState m_CallState
     // Size: 0x4
     // Offset: 0x30
@@ -83,28 +83,28 @@ namespace UnityEngine::Events {
     // Creating value type constructor for type: PersistentCall
     PersistentCall(UnityEngine::Object* m_Target_ = {}, ::Il2CppString* m_MethodName_ = {}, UnityEngine::Events::PersistentListenerMode m_Mode_ = {}, UnityEngine::Events::ArgumentCache* m_Arguments_ = {}, UnityEngine::Events::UnityEventCallState m_CallState_ = {}) noexcept : m_Target{m_Target_}, m_MethodName{m_MethodName_}, m_Mode{m_Mode_}, m_Arguments{m_Arguments_}, m_CallState{m_CallState_} {}
     // public UnityEngine.Object get_target()
-    // Offset: 0x19C9070
+    // Offset: 0x19CAAC8
     UnityEngine::Object* get_target();
     // public System.String get_methodName()
-    // Offset: 0x19C9078
+    // Offset: 0x19CAAD0
     ::Il2CppString* get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
-    // Offset: 0x19C9080
+    // Offset: 0x19CAAD8
     UnityEngine::Events::PersistentListenerMode get_mode();
     // public UnityEngine.Events.ArgumentCache get_arguments()
-    // Offset: 0x19C9088
+    // Offset: 0x19CAAE0
     UnityEngine::Events::ArgumentCache* get_arguments();
     // public System.Boolean IsValid()
-    // Offset: 0x19C9090
+    // Offset: 0x19CAAE8
     bool IsValid();
     // public UnityEngine.Events.BaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase theEvent)
-    // Offset: 0x19C9124
+    // Offset: 0x19CAB7C
     UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(UnityEngine::Events::UnityEventBase* theEvent);
     // static private UnityEngine.Events.BaseInvokableCall GetObjectCall(UnityEngine.Object target, System.Reflection.MethodInfo method, UnityEngine.Events.ArgumentCache arguments)
-    // Offset: 0x19C9494
+    // Offset: 0x19CAEEC
     static UnityEngine::Events::BaseInvokableCall* GetObjectCall(UnityEngine::Object* target, System::Reflection::MethodInfo* method, UnityEngine::Events::ArgumentCache* arguments);
     // public System.Void .ctor()
-    // Offset: 0x19C98A0
+    // Offset: 0x19CB2F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

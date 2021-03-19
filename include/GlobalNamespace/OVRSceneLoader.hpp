@@ -87,7 +87,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
-      // Offset: 0xDF0864
+      // Offset: 0xDF2E00
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion)
     }; // OVRSceneLoader/SceneInfo
@@ -197,37 +197,37 @@ namespace GlobalNamespace {
     // Set static field: static public System.String resourceBundleName
     static void _set_resourceBundleName(::Il2CppString* value);
     // private System.Void Awake()
-    // Offset: 0x1563B40
+    // Offset: 0x1567550
     void Awake();
     // private System.Void Start()
-    // Offset: 0x1563BBC
+    // Offset: 0x15675CC
     void Start();
     // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
-    // Offset: 0x1563F6C
+    // Offset: 0x156797C
     void LoadScene(GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
     // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
-    // Offset: 0x15647D4
+    // Offset: 0x15681E4
     void LoadSceneOperation_completed(UnityEngine::AsyncOperation* obj);
     // public System.Void Update()
-    // Offset: 0x1564928
+    // Offset: 0x1568338
     void Update();
     // private System.Void UpdateCanvasPosition()
-    // Offset: 0x1564B60
+    // Offset: 0x1568570
     void UpdateCanvasPosition();
     // private OVRSceneLoader/SceneInfo GetSceneInfo()
-    // Offset: 0x1563D54
+    // Offset: 0x1567764
     GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
     // private System.Collections.IEnumerator DelayCanvasPosUpdate()
-    // Offset: 0x1563CE4
+    // Offset: 0x15676F4
     System::Collections::IEnumerator* DelayCanvasPosUpdate();
     // private System.Collections.IEnumerator onCheckSceneCoroutine()
-    // Offset: 0x15648B8
+    // Offset: 0x15682C8
     System::Collections::IEnumerator* onCheckSceneCoroutine();
     // private System.Void DestroyAllGameObjects()
-    // Offset: 0x1564E24
+    // Offset: 0x1568834
     void DestroyAllGameObjects();
     // public System.Void .ctor()
-    // Offset: 0x1564F38
+    // Offset: 0x1568948
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

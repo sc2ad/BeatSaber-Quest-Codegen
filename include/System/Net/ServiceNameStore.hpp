@@ -45,7 +45,7 @@ namespace System::Net {
     // Creating value type constructor for type: ServiceNameStore
     ServiceNameStore(System::Collections::Generic::List_1<::Il2CppString*>* serviceNames_ = {}, System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection_ = {}) noexcept : serviceNames{serviceNames_}, serviceNameCollection{serviceNameCollection_} {}
     // public System.Void .ctor()
-    // Offset: 0x132ED20
+    // Offset: 0x1331730
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

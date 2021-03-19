@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     }
     // public IServerBeatmapProvider GetServerBeatmapProvider()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IServerBeatmapProvider* GetServerBeatmapProvider_NEW();
+    GlobalNamespace::IServerBeatmapProvider* GetServerBeatmapProvider();
     // public System.Threading.Tasks.Task RefreshAsync()
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task* RefreshAsync_NEW();
+    System::Threading::Tasks::Task* RefreshAsync();
   }; // IServerBeatmapProviderManager
   #pragma pack(pop)
 }

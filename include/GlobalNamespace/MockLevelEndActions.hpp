@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockLevelEndActions : public ::Il2CppObject/*, public GlobalNamespace::ILevelEndActions*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD254B4
+    // [CompilerGeneratedAttribute] Offset: 0xD259D8
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action* levelFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD254C4
+    // [CompilerGeneratedAttribute] Offset: 0xD259E8
     // private System.Action levelFinishedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -47,19 +47,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);
     }
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x102E048
-    void add_levelFailedEvent_NEW(System::Action* value);
+    // Offset: 0x1030B30
+    void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x102E0EC
-    void remove_levelFailedEvent_NEW(System::Action* value);
+    // Offset: 0x1030BD4
+    void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x102E190
-    void add_levelFinishedEvent_NEW(System::Action* value);
+    // Offset: 0x1030C78
+    void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x102E234
-    void remove_levelFinishedEvent_NEW(System::Action* value);
+    // Offset: 0x1030D1C
+    void remove_levelFinishedEvent(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x102E2D8
+    // Offset: 0x1030DC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

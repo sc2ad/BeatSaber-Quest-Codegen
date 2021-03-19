@@ -33,8 +33,8 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x34
     char ___base_padding[0x1] = {};
-    // [TooltipAttribute] Offset: 0xD125D8
-    // [RangeAttribute] Offset: 0xD125D8
+    // [TooltipAttribute] Offset: 0xD12A44
+    // [RangeAttribute] Offset: 0xD12A44
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x34
@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
     ::Array<RootMotion::FinalIK::Finger*>* fingers;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::Finger*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1262C
+    // [CompilerGeneratedAttribute] Offset: 0xD12A98
     // private System.Boolean <initiated>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -57,52 +57,52 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: FingerRig
     FingerRig(float weight_ = {}, ::Array<RootMotion::FinalIK::Finger*>* fingers_ = {}, bool initiated_ = {}) noexcept : weight{weight_}, fingers{fingers_}, initiated{initiated_} {}
     // public System.Boolean get_initiated()
-    // Offset: 0x1A56B10
+    // Offset: 0x1A5A568
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1A56B18
+    // Offset: 0x1A5A570
     void set_initiated(bool value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x1A56B24
+    // Offset: 0x1A5A57C
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void AutoDetect()
-    // Offset: 0x1A56BB0
+    // Offset: 0x1A5A608
     void AutoDetect();
     // public System.Void AddFinger(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform tip, UnityEngine.Transform target)
-    // Offset: 0x1A56ECC
+    // Offset: 0x1A5A924
     void AddFinger(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* tip, UnityEngine::Transform* target);
     // public System.Void RemoveFinger(System.Int32 index)
-    // Offset: 0x1A57040
+    // Offset: 0x1A5AA98
     void RemoveFinger(int index);
     // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, ref UnityEngine.Transform[] array)
-    // Offset: 0x1A56DC4
+    // Offset: 0x1A5A81C
     void AddChildrenRecursive(UnityEngine::Transform* parent, ::Array<UnityEngine::Transform*>*& array);
     // public System.Void UpdateFingerSolvers()
-    // Offset: 0x1A57270
+    // Offset: 0x1A5ACC8
     void UpdateFingerSolvers();
     // public System.Void FixFingerTransforms()
-    // Offset: 0x1A572EC
+    // Offset: 0x1A5AD44
     void FixFingerTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1A57364
+    // Offset: 0x1A5ADBC
     void StoreDefaultLocalState();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1A571A8
+    // Offset: 0x1A5AC00
     // Implemented from: RootMotion.SolverManager
-    // Base method: System.Void SolverManager::InitiateSolver_NEW()
+    // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1A573D0
+    // Offset: 0x1A5AE28
     // Implemented from: RootMotion.SolverManager
-    // Base method: System.Void SolverManager::UpdateSolver_NEW()
+    // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1A573D4
+    // Offset: 0x1A5AE2C
     // Implemented from: RootMotion.SolverManager
-    // Base method: System.Void SolverManager::FixTransforms_NEW()
+    // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1A573E8
+    // Offset: 0x1A5AE40
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

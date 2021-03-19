@@ -26,31 +26,31 @@ namespace Zenject {
     IMemoryPool() noexcept {}
     // public System.Int32 get_NumTotal()
     // Offset: 0xFFFFFFFF
-    int get_NumTotal_NEW();
+    int get_NumTotal();
     // public System.Int32 get_NumActive()
     // Offset: 0xFFFFFFFF
-    int get_NumActive_NEW();
+    int get_NumActive();
     // public System.Int32 get_NumInactive()
     // Offset: 0xFFFFFFFF
-    int get_NumInactive_NEW();
+    int get_NumInactive();
     // public System.Type get_ItemType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ItemType_NEW();
+    System::Type* get_ItemType();
     // public System.Void Resize(System.Int32 desiredPoolSize)
     // Offset: 0xFFFFFFFF
-    void Resize_NEW(int desiredPoolSize);
+    void Resize(int desiredPoolSize);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
-    void Clear_NEW();
+    void Clear();
     // public System.Void ExpandBy(System.Int32 numToAdd)
     // Offset: 0xFFFFFFFF
-    void ExpandBy_NEW(int numToAdd);
+    void ExpandBy(int numToAdd);
     // public System.Void ShrinkBy(System.Int32 numToRemove)
     // Offset: 0xFFFFFFFF
-    void ShrinkBy_NEW(int numToRemove);
+    void ShrinkBy(int numToRemove);
     // public System.Void Despawn(System.Object obj)
     // Offset: 0xFFFFFFFF
-    void Despawn_NEW(::Il2CppObject* obj);
+    void Despawn(::Il2CppObject* obj);
   }; // Zenject.IMemoryPool
   #pragma pack(pop)
 }

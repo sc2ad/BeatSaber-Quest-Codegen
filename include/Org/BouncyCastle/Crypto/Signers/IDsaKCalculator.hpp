@@ -33,16 +33,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     IDsaKCalculator() noexcept {}
     // public System.Boolean get_IsDeterministic()
     // Offset: 0xFFFFFFFF
-    bool get_IsDeterministic_NEW();
+    bool get_IsDeterministic();
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
+    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::Array<uint8_t>* message);
+    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::Array<uint8_t>* message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::BigInteger* NextK_NEW();
+    Org::BouncyCastle::Math::BigInteger* NextK();
   }; // Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
   #pragma pack(pop)
 }

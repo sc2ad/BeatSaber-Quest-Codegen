@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     }
     // public System.Void Add(System.Object o)
     // Offset: 0xFFFFFFFF
-    void Add_NEW(::Il2CppObject* o);
+    void Add(::Il2CppObject* o);
   }; // Org.BouncyCastle.Utilities.Collections.ISet
   #pragma pack(pop)
 }

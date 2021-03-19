@@ -66,7 +66,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C2E0
+    // [ObsoleteAttribute] Offset: 0xD0C73C
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x40
@@ -76,7 +76,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LaunchDetails
     LaunchDetails(::Il2CppString* DeeplinkMessage_ = {}, ::Il2CppString* DestinationApiName_ = {}, ::Il2CppString* LaunchSource_ = {}, Oculus::Platform::LaunchType LaunchType_ = {}, uint64_t RoomID_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}) noexcept : DeeplinkMessage{DeeplinkMessage_}, DestinationApiName{DestinationApiName_}, LaunchSource{LaunchSource_}, LaunchType{LaunchType_}, RoomID{RoomID_}, UsersOptional{UsersOptional_}, Users{Users_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138C88C
+    // Offset: 0x138F29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchDetails* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchDetails::.ctor");

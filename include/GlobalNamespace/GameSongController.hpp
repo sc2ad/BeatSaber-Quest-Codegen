@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xD295B4
+    // [InjectAttribute] Offset: 0xD29AD8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -69,43 +69,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);
     }
     // public System.Single get_songLength()
-    // Offset: 0xF3B9B0
+    // Offset: 0xF28204
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xF3B9CC
-    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong_NEW();
+    // Offset: 0xF28220
+    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0xF3B9E8
+    // Offset: 0xF2823C
     void LateUpdate();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0xF3BA60
-    void StartSong_NEW(float songTimeOffset);
+    // Offset: 0xF282B4
+    void StartSong(float songTimeOffset);
     // public System.Void FailStopSong()
-    // Offset: 0xF3BC28
+    // Offset: 0xF2847C
     void FailStopSong();
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0xF3BDEC
-    void SeekTo_NEW(float songTime);
+    // Offset: 0xF28640
+    void SeekTo(float songTime);
     // private System.Void <FailStopSong>b__13_0()
-    // Offset: 0xF3BE10
+    // Offset: 0xF28664
     void $FailStopSong$b__13_0();
     // public override System.Void StopSong()
-    // Offset: 0xF3BA84
+    // Offset: 0xF282D8
     // Implemented from: SongController
-    // Base method: System.Void SongController::StopSong_NEW()
+    // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xF3BAA0
+    // Offset: 0xF282F4
     // Implemented from: SongController
-    // Base method: System.Void SongController::PauseSong_NEW()
+    // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xF3BB64
+    // Offset: 0xF283B8
     // Implemented from: SongController
-    // Base method: System.Void SongController::ResumeSong_NEW()
+    // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0xF3BE08
+    // Offset: 0xF2865C
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

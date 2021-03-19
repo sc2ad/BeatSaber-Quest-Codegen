@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
     // public System.Void .ctor()
-    // Offset: 0x20E103C
+    // Offset: 0x20E6B18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

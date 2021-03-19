@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     IFlyingObjectEffectDidFinishEvent() noexcept {}
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
     // Offset: 0xFFFFFFFF
-    void HandleFlyingObjectEffectDidFinish_NEW(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
+    void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
   }; // IFlyingObjectEffectDidFinishEvent
   #pragma pack(pop)
 }

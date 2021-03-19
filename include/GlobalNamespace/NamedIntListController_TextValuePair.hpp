@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextValuePair
     TextValuePair(::Il2CppString* localizationKey_ = {}, int value_ = {}) noexcept : localizationKey{localizationKey_}, value{value_} {}
     // public System.String get_localizedText()
-    // Offset: 0xF20544
+    // Offset: 0xF3B82C
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0xF20558
+    // Offset: 0xF3B840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

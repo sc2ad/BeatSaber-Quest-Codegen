@@ -39,16 +39,16 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.Runtime.Remoting.Messaging.EnvoyTerminatorSink Instance
     static void _set_Instance(System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* value);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x18ACC68
-    System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage_NEW(System::Runtime::Remoting::Messaging::IMessage* msg);
+    // Offset: 0x18AD688
+    System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x18ACD30
-    System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage_NEW(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+    // Offset: 0x18AD750
+    System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // static private System.Void .cctor()
-    // Offset: 0x18ACE14
+    // Offset: 0x18AD834
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18ACE0C
+    // Offset: 0x18AD82C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

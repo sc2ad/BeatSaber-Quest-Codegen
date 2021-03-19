@@ -43,17 +43,17 @@ namespace System::Text {
     // Creating value type constructor for type: Encoder
     Encoder(int bits_ = {}, int bitCount_ = {}) noexcept : bits{bits_}, bitCount{bitCount_} {}
     // public System.Void .ctor(System.Text.UTF7Encoding encoding)
-    // Offset: 0x1B10978
+    // Offset: 0x1B163D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding::Encoder* New_ctor(System::Text::UTF7Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::Encoder*, creationType>(encoding)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1B11260
-    void System_Runtime_Serialization_ISerializable_GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    // Offset: 0x1B16CB8
+    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1B1106C
+    // Offset: 0x1B16AC4
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,14 +62,14 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::Encoder*, creationType>(info, context)));
     }
     // public override System.Void Reset()
-    // Offset: 0x1B1133C
+    // Offset: 0x1B16D94
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x1B11360
+    // Offset: 0x1B16DB8
     // Implemented from: System.Text.EncoderNLS
-    // Base method: System.Boolean EncoderNLS::get_HasState_NEW()
+    // Base method: System.Boolean EncoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF7Encoding/Encoder
   #pragma pack(pop)

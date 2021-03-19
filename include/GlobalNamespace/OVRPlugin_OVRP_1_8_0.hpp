@@ -29,40 +29,40 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Bool ovrp_GetBoundaryConfigured()
-    // Offset: 0x155FBE4
+    // Offset: 0x15635F4
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryConfigured();
     // static public OVRPlugin/BoundaryTestResult ovrp_TestBoundaryNode(OVRPlugin/Node nodeId, OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x155FC58
+    // Offset: 0x1563668
     static GlobalNamespace::OVRPlugin::BoundaryTestResult ovrp_TestBoundaryNode(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryTestResult ovrp_TestBoundaryPoint(OVRPlugin/Vector3f point, OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x155FCF0
+    // Offset: 0x1563700
     static GlobalNamespace::OVRPlugin::BoundaryTestResult ovrp_TestBoundaryPoint(GlobalNamespace::OVRPlugin::Vector3f point, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryGeometry ovrp_GetBoundaryGeometry(OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x155FDA8
+    // Offset: 0x15637B8
     static GlobalNamespace::OVRPlugin::BoundaryGeometry ovrp_GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/Vector3f ovrp_GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x155FE4C
+    // Offset: 0x156385C
     static GlobalNamespace::OVRPlugin::Vector3f ovrp_GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/Bool ovrp_GetBoundaryVisible()
-    // Offset: 0x155FECC
+    // Offset: 0x15638DC
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryVisible();
     // static public OVRPlugin/Bool ovrp_SetBoundaryVisible(OVRPlugin/Bool value)
-    // Offset: 0x155FF40
+    // Offset: 0x1563950
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetBoundaryVisible(GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_Update2(System.Int32 stateId, System.Int32 frameIndex, System.Double predictionSeconds)
-    // Offset: 0x155FFC0
+    // Offset: 0x15639D0
     static GlobalNamespace::OVRPlugin::Bool ovrp_Update2(int stateId, int frameIndex, double predictionSeconds);
     // static public OVRPlugin/Posef ovrp_GetNodePose2(System.Int32 stateId, OVRPlugin/Node nodeId)
-    // Offset: 0x1560060
+    // Offset: 0x1563A70
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodePose2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeVelocity2(System.Int32 stateId, OVRPlugin/Node nodeId)
-    // Offset: 0x15600F8
+    // Offset: 0x1563B08
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeAcceleration2(System.Int32 stateId, OVRPlugin/Node nodeId)
-    // Offset: 0x1560190
+    // Offset: 0x1563BA0
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId);
     // static private System.Void .cctor()
-    // Offset: 0x1560228
+    // Offset: 0x1563C38
     static void _cctor();
   }; // OVRPlugin/OVRP_1_8_0
   #pragma pack(pop)

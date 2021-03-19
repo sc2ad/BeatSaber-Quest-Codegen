@@ -23,10 +23,10 @@ namespace System::Xml {
     // Creating value type constructor for type: BinHexEncoder
     BinHexEncoder() noexcept {}
     // static System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Xml.XmlWriter writer)
-    // Offset: 0x17809B8
+    // Offset: 0x17833D8
     static void Encode(::Array<uint8_t>* buffer, int index, int count, System::Xml::XmlWriter* writer);
     // static private System.Int32 Encode(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 count, System.Char[] outArray)
-    // Offset: 0x1780B44
+    // Offset: 0x1783564
     static int Encode(::Array<uint8_t>* inArray, int offsetIn, int count, ::Array<::Il2CppChar>* outArray);
   }; // System.Xml.BinHexEncoder
   #pragma pack(pop)

@@ -44,61 +44,61 @@ namespace Org::BouncyCastle::Crypto {
       return cipher;
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher cipher)
-    // Offset: 0x1875978
+    // Offset: 0x1877398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAeadBlockCipher* New_ctor(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::BufferedAeadBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAeadBlockCipher*, creationType>(cipher)));
     }
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1875A34
+    // Offset: 0x1877454
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Void BufferedCipherBase::Init_NEW(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Base method: System.Void BufferedCipherBase::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x1875B38
+    // Offset: 0x1877558
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Int32 BufferedCipherBase::GetBlockSize_NEW()
+    // Base method: System.Int32 BufferedCipherBase::GetBlockSize()
     int GetBlockSize();
     // public override System.Int32 GetUpdateOutputSize(System.Int32 length)
-    // Offset: 0x1875BE8
+    // Offset: 0x1877608
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Int32 BufferedCipherBase::GetUpdateOutputSize_NEW(System.Int32 length)
+    // Base method: System.Int32 BufferedCipherBase::GetUpdateOutputSize(System.Int32 length)
     int GetUpdateOutputSize(int length);
     // public override System.Int32 GetOutputSize(System.Int32 length)
-    // Offset: 0x1875CAC
+    // Offset: 0x18776CC
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Int32 BufferedCipherBase::GetOutputSize_NEW(System.Int32 length)
+    // Base method: System.Int32 BufferedCipherBase::GetOutputSize(System.Int32 length)
     int GetOutputSize(int length);
     // public override System.Byte[] ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1875D70
+    // Offset: 0x1877790
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Byte[] BufferedCipherBase::ProcessBytes_NEW(System.Byte[] input, System.Int32 inOff, System.Int32 length)
+    // Base method: System.Byte[] BufferedCipherBase::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::Array<uint8_t>* ProcessBytes(::Array<uint8_t>* input, int inOff, int length);
     // public override System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1875ED0
+    // Offset: 0x18778F0
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Int32 BufferedCipherBase::ProcessBytes_NEW(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
+    // Base method: System.Int32 BufferedCipherBase::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public override System.Byte[] DoFinal()
-    // Offset: 0x1875FC4
+    // Offset: 0x18779E4
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Byte[] BufferedCipherBase::DoFinal_NEW()
+    // Base method: System.Byte[] BufferedCipherBase::DoFinal()
     ::Array<uint8_t>* DoFinal();
     // public override System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x18760A4
+    // Offset: 0x1877AC4
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Byte[] BufferedCipherBase::DoFinal_NEW(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
+    // Base method: System.Byte[] BufferedCipherBase::DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
     ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input, int inOff, int inLen);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1876210
+    // Offset: 0x1877C30
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Int32 BufferedCipherBase::DoFinal_NEW(System.Byte[] output, System.Int32 outOff)
+    // Base method: System.Int32 BufferedCipherBase::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x18762DC
+    // Offset: 0x1877CFC
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
-    // Base method: System.Void BufferedCipherBase::Reset_NEW()
+    // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedAeadBlockCipher
   #pragma pack(pop)

@@ -54,20 +54,20 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return m_p;
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1B2F738
+    // Offset: 0x1B35190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointUtilities::FixedPointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointUtilities::FixedPointCallback*, creationType>(p)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1B2F7C0
-    Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute_NEW(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
+    // Offset: 0x1B35218
+    Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo existingFP, System.Int32 n)
-    // Offset: 0x1B2FBF8
+    // Offset: 0x1B35650
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* existingFP, int n);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECLookupTable table, System.Int32 n)
-    // Offset: 0x1B2FC3C
+    // Offset: 0x1B35694
     bool CheckTable(Org::BouncyCastle::Math::EC::ECLookupTable* table, int n);
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities/FixedPointCallback
   #pragma pack(pop)

@@ -28,13 +28,13 @@ namespace NUnit::Framework {
     ITestAction() noexcept {}
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    void BeforeTest_NEW(NUnit::Framework::Interfaces::ITest* test);
+    void BeforeTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    void AfterTest_NEW(NUnit::Framework::Interfaces::ITest* test);
+    void AfterTest(NUnit::Framework::Interfaces::ITest* test);
     // public NUnit.Framework.ActionTargets get_Targets()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::ActionTargets get_Targets_NEW();
+    NUnit::Framework::ActionTargets get_Targets();
   }; // NUnit.Framework.ITestAction
   #pragma pack(pop)
 }

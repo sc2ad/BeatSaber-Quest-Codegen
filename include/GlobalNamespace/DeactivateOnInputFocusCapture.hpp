@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class DeactivateOnInputFocusCapture : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xCF49B4
+    // [InjectAttribute] Offset: 0xCF4DF0
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x111B348
+    // Offset: 0x111DD64
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x111B568
+    // Offset: 0x111DF84
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x111B704
+    // Offset: 0x111E120
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x111B904
+    // Offset: 0x111E320
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x111BA64
+    // Offset: 0x111E480
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

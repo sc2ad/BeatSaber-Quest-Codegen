@@ -17,21 +17,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   struct OVRMeshRenderer::MeshRendererData/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCE3B84
+    // [CompilerGeneratedAttribute] Offset: 0xCE3FC0
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x0
     bool IsDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCE3B94
+    // [CompilerGeneratedAttribute] Offset: 0xCE3FD0
     // private System.Boolean <IsDataHighConfidence>k__BackingField
     // Size: 0x1
     // Offset: 0x1
     bool IsDataHighConfidence;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCE3BA4
+    // [CompilerGeneratedAttribute] Offset: 0xCE3FE0
     // private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     // Size: 0x1
     // Offset: 0x2
@@ -45,22 +45,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xDE6320
+    // Offset: 0xDE78BC
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xDE6328
+    // Offset: 0xDE78C4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xDE6334
+    // Offset: 0xDE78D0
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xDE633C
+    // Offset: 0xDE78D8
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xDE6348
+    // Offset: 0xDE78E4
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xDE6350
+    // Offset: 0xDE78EC
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRMeshRenderer/MeshRendererData
   #pragma pack(pop)

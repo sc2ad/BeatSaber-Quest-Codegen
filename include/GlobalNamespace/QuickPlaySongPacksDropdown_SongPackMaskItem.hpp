@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SongPackMaskItem
     SongPackMaskItem(::Il2CppString* serializedName_ = {}, ::Il2CppString* localizedName_ = {}, int order_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}) noexcept : serializedName{serializedName_}, localizedName{localizedName_}, order{order_}, songPackMask{songPackMask_} {}
     // public System.Void .ctor()
-    // Offset: 0xFA39E0
+    // Offset: 0xFC7B44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

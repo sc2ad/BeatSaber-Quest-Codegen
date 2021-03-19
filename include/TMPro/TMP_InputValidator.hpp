@@ -23,9 +23,9 @@ namespace TMPro {
     TMP_InputValidator() noexcept {}
     // public System.Char Validate(ref System.String text, ref System.Int32 pos, System.Char ch)
     // Offset: 0xFFFFFFFF
-    ::Il2CppChar Validate_NEW(::Il2CppString*& text, int& pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::Il2CppString*& text, int& pos, ::Il2CppChar ch);
     // protected System.Void .ctor()
-    // Offset: 0xFB0618
+    // Offset: 0xF9DD24
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

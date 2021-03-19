@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DefaultScenesTransitionsFromInit*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1E614
+    // [SpaceAttribute] Offset: 0xD1EA80
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x50
@@ -60,27 +60,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: QuestAppInit
     QuestAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF9E150
+    // Offset: 0xFC22B8
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup_NEW()
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF9E16C
+    // Offset: 0xFC22D4
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup_NEW()
+    // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF9E1B8
+    // Offset: 0xFC2320
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene_NEW()
+    // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF9E1F4
+    // Offset: 0xFC235C
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF9E2C4
+    // Offset: 0xFC242C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

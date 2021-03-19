@@ -22,7 +22,7 @@ namespace MasterServer {
     }
     // public System.Boolean get_messageHandled()
     // Offset: 0xFFFFFFFF
-    bool get_messageHandled_NEW();
+    bool get_messageHandled();
   }; // MasterServer.IMasterServerAcknowledgeMessage
   #pragma pack(pop)
 }

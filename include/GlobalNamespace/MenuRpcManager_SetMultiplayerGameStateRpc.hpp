@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetMultiplayerGameStateRpc
     SetMultiplayerGameStateRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15BAA4C
+    // Offset: 0x15BF45C
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

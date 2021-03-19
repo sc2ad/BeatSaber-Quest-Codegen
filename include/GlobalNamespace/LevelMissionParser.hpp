@@ -43,19 +43,19 @@ namespace GlobalNamespace {
       return functions;
     }
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
-    // Offset: 0x1097718
+    // Offset: 0x109A0BC
     void AddFunction(::Il2CppString* name, GlobalNamespace::LevelMissionParser::ParserFunction* function);
     // public System.Boolean Parse(System.String s)
-    // Offset: 0x1097788
+    // Offset: 0x109A12C
     bool Parse(::Il2CppString* s);
     // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x10977A4
+    // Offset: 0x109A148
     bool Parse(::Il2CppString* s, int start, int length);
     // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x1097A80
+    // Offset: 0x109A424
     bool ParseFunction(::Il2CppString* s, int start, int length);
     // public System.Void .ctor()
-    // Offset: 0x10976A0
+    // Offset: 0x109A044
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

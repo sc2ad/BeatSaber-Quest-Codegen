@@ -32,16 +32,16 @@ namespace UnityEngine {
       return mJavaStackTrace;
     }
     // System.Void .ctor(System.String message, System.String javaStackTrace)
-    // Offset: 0x2110CE0
+    // Offset: 0x21157C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaException*, creationType>(message, javaStackTrace)));
     }
     // public override System.String get_StackTrace()
-    // Offset: 0x2114648
+    // Offset: 0x2119130
     // Implemented from: System.Exception
-    // Base method: System.String Exception::get_StackTrace_NEW()
+    // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.AndroidJavaException
   #pragma pack(pop)

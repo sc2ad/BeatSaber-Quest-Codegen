@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: UpdatedEventHandler
     UpdatedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x21893C4
+    // Offset: 0x2189EAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteSettings::UpdatedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RemoteSettings::UpdatedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteSettings::UpdatedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x21890C4
-    void Invoke_NEW();
+    // Offset: 0x2189BAC
+    void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x21893D4
-    System::IAsyncResult* BeginInvoke_NEW(System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x2189EBC
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2189400
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x2189EE8
+    void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RemoteSettings/UpdatedEventHandler
   #pragma pack(pop)
 }

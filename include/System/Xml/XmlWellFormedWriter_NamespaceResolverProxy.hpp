@@ -38,18 +38,18 @@ namespace System::Xml {
       return wfWriter;
     }
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
-    // Offset: 0x2151F88
+    // Offset: 0x2154A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(System::Xml::XmlWellFormedWriter* wfWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::NamespaceResolverProxy*, creationType>(wfWriter)));
     }
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x2151FB4
-    ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupNamespace_NEW(::Il2CppString* prefix);
+    // Offset: 0x2154A9C
+    ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupNamespace(::Il2CppString* prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x2151FD0
-    ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix_NEW(::Il2CppString* namespaceName);
+    // Offset: 0x2154AB8
+    ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::Il2CppString* namespaceName);
   }; // System.Xml.XmlWellFormedWriter/NamespaceResolverProxy
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::NamespaceResolverProxy), 16 + sizeof(System::Xml::XmlWellFormedWriter*)> __System_Xml_XmlWellFormedWriter_NamespaceResolverProxySizeCheck;

@@ -36,73 +36,73 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: RenderPipelineAsset
     RenderPipelineAsset() noexcept {}
     // UnityEngine.Rendering.RenderPipeline InternalCreatePipeline()
-    // Offset: 0x197B4DC
+    // Offset: 0x197CEFC
     UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
     // public System.String[] get_renderingLayerMaskNames()
-    // Offset: 0x197B7CC
-    ::Array<::Il2CppString*>* get_renderingLayerMaskNames_NEW();
+    // Offset: 0x197D1EC
+    ::Array<::Il2CppString*>* get_renderingLayerMaskNames();
     // public UnityEngine.Material get_defaultMaterial()
-    // Offset: 0x197B7D4
-    UnityEngine::Material* get_defaultMaterial_NEW();
+    // Offset: 0x197D1F4
+    UnityEngine::Material* get_defaultMaterial();
     // public UnityEngine.Shader get_autodeskInteractiveShader()
-    // Offset: 0x197B7DC
-    UnityEngine::Shader* get_autodeskInteractiveShader_NEW();
+    // Offset: 0x197D1FC
+    UnityEngine::Shader* get_autodeskInteractiveShader();
     // public UnityEngine.Shader get_autodeskInteractiveTransparentShader()
-    // Offset: 0x197B7E4
-    UnityEngine::Shader* get_autodeskInteractiveTransparentShader_NEW();
+    // Offset: 0x197D204
+    UnityEngine::Shader* get_autodeskInteractiveTransparentShader();
     // public UnityEngine.Shader get_autodeskInteractiveMaskedShader()
-    // Offset: 0x197B7EC
-    UnityEngine::Shader* get_autodeskInteractiveMaskedShader_NEW();
+    // Offset: 0x197D20C
+    UnityEngine::Shader* get_autodeskInteractiveMaskedShader();
     // public UnityEngine.Shader get_terrainDetailLitShader()
-    // Offset: 0x197B7F4
-    UnityEngine::Shader* get_terrainDetailLitShader_NEW();
+    // Offset: 0x197D214
+    UnityEngine::Shader* get_terrainDetailLitShader();
     // public UnityEngine.Shader get_terrainDetailGrassShader()
-    // Offset: 0x197B7FC
-    UnityEngine::Shader* get_terrainDetailGrassShader_NEW();
+    // Offset: 0x197D21C
+    UnityEngine::Shader* get_terrainDetailGrassShader();
     // public UnityEngine.Shader get_terrainDetailGrassBillboardShader()
-    // Offset: 0x197B804
-    UnityEngine::Shader* get_terrainDetailGrassBillboardShader_NEW();
+    // Offset: 0x197D224
+    UnityEngine::Shader* get_terrainDetailGrassBillboardShader();
     // public UnityEngine.Material get_defaultParticleMaterial()
-    // Offset: 0x197B80C
-    UnityEngine::Material* get_defaultParticleMaterial_NEW();
+    // Offset: 0x197D22C
+    UnityEngine::Material* get_defaultParticleMaterial();
     // public UnityEngine.Material get_defaultLineMaterial()
-    // Offset: 0x197B814
-    UnityEngine::Material* get_defaultLineMaterial_NEW();
+    // Offset: 0x197D234
+    UnityEngine::Material* get_defaultLineMaterial();
     // public UnityEngine.Material get_defaultTerrainMaterial()
-    // Offset: 0x197B81C
-    UnityEngine::Material* get_defaultTerrainMaterial_NEW();
+    // Offset: 0x197D23C
+    UnityEngine::Material* get_defaultTerrainMaterial();
     // public UnityEngine.Material get_defaultUIMaterial()
-    // Offset: 0x197B824
-    UnityEngine::Material* get_defaultUIMaterial_NEW();
+    // Offset: 0x197D244
+    UnityEngine::Material* get_defaultUIMaterial();
     // public UnityEngine.Material get_defaultUIOverdrawMaterial()
-    // Offset: 0x197B82C
-    UnityEngine::Material* get_defaultUIOverdrawMaterial_NEW();
+    // Offset: 0x197D24C
+    UnityEngine::Material* get_defaultUIOverdrawMaterial();
     // public UnityEngine.Material get_defaultUIETC1SupportedMaterial()
-    // Offset: 0x197B834
-    UnityEngine::Material* get_defaultUIETC1SupportedMaterial_NEW();
+    // Offset: 0x197D254
+    UnityEngine::Material* get_defaultUIETC1SupportedMaterial();
     // public UnityEngine.Material get_default2DMaterial()
-    // Offset: 0x197B83C
-    UnityEngine::Material* get_default2DMaterial_NEW();
+    // Offset: 0x197D25C
+    UnityEngine::Material* get_default2DMaterial();
     // public UnityEngine.Shader get_defaultShader()
-    // Offset: 0x197B844
-    UnityEngine::Shader* get_defaultShader_NEW();
+    // Offset: 0x197D264
+    UnityEngine::Shader* get_defaultShader();
     // public UnityEngine.Shader get_defaultSpeedTree7Shader()
-    // Offset: 0x197B84C
-    UnityEngine::Shader* get_defaultSpeedTree7Shader_NEW();
+    // Offset: 0x197D26C
+    UnityEngine::Shader* get_defaultSpeedTree7Shader();
     // public UnityEngine.Shader get_defaultSpeedTree8Shader()
-    // Offset: 0x197B854
-    UnityEngine::Shader* get_defaultSpeedTree8Shader_NEW();
+    // Offset: 0x197D274
+    UnityEngine::Shader* get_defaultSpeedTree8Shader();
     // protected UnityEngine.Rendering.RenderPipeline CreatePipeline()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Rendering::RenderPipeline* CreatePipeline_NEW();
+    UnityEngine::Rendering::RenderPipeline* CreatePipeline();
     // protected System.Void OnValidate()
-    // Offset: 0x197B85C
-    void OnValidate_NEW();
+    // Offset: 0x197D27C
+    void OnValidate();
     // protected System.Void OnDisable()
-    // Offset: 0x197BDB0
-    void OnDisable_NEW();
+    // Offset: 0x197D7D0
+    void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0x197BE0C
+    // Offset: 0x197D82C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -34,16 +34,16 @@ namespace System {
     // Creating value type constructor for type: LowLevelStack
     LowLevelStack(::Array<System::ParameterizedStrings::FormatParam>* arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
     // public System.ParameterizedStrings/FormatParam Pop()
-    // Offset: 0x1ABAB28
+    // Offset: 0x1AC0580
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/FormatParam item)
-    // Offset: 0x1ABAEC4
+    // Offset: 0x1AC091C
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1ABA24C
+    // Offset: 0x1ABFCA4
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1ABA1F4
+    // Offset: 0x1ABFC4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

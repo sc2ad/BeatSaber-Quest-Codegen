@@ -61,21 +61,21 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Byte[] octets, System.Int32 chunkSize)
-    // Offset: 0x1545ED8
+    // Offset: 0x15498E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString::ChunkEnumerator* New_ctor(::Array<uint8_t>* octets, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString::ChunkEnumerator*, creationType>(octets, chunkSize)));
     }
     // public System.Object get_Current()
-    // Offset: 0x15462B4
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x1549CC4
+    ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x154632C
-    bool MoveNext_NEW();
+    // Offset: 0x1549D3C
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1546444
-    void Reset_NEW();
+    // Offset: 0x1549E54
+    void Reset();
   }; // Org.BouncyCastle.Asn1.BerOctetString/ChunkEnumerator
   #pragma pack(pop)
   static check_size<sizeof(BerOctetString::ChunkEnumerator), 40 + sizeof(int)> __Org_BouncyCastle_Asn1_BerOctetString_ChunkEnumeratorSizeCheck;

@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto {
     }
     // public Org.BouncyCastle.Math.BigInteger get_Order()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::BigInteger* get_Order_NEW();
+    Org::BouncyCastle::Math::BigInteger* get_Order();
   }; // Org.BouncyCastle.Crypto.IDsaExt
   #pragma pack(pop)
 }

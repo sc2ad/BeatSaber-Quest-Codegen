@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::UI::Image*>* ringGLowImages;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::UI::Image*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2972C
+    // [InjectAttribute] Offset: 0xD29C50
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
@@ -134,40 +134,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0xFF56E4
+    // Offset: 0xFF75F8
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0xFF5460
+    // Offset: 0xFF7374
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0xFF58AC
+    // Offset: 0xFF77C0
     GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0xFF58B4
+    // Offset: 0xFF77C8
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0xFF58BC
+    // Offset: 0xFF77D0
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xFF5954
+    // Offset: 0xFF7868
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xFF59AC
+    // Offset: 0xFF78C0
     void Update();
     // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0xFF5B1C
+    // Offset: 0xFF7A30
     void SetProgressImagesfillAmount(float fillAmount);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0xFF5B98
+    // Offset: 0xFF7AAC
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0xFF5C9C
+    // Offset: 0xFF7BB0
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0xFF5DA0
+    // Offset: 0xFF7CB4
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0xFF5EB0
+    // Offset: 0xFF7DC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

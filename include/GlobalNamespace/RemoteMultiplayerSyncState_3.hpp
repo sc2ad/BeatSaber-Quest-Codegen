@@ -71,8 +71,8 @@ namespace GlobalNamespace {
     void UpdateState(T serializable) {
       static_assert(std::is_base_of_v<GlobalNamespace::ISyncStateSerializable_1<TStateTable>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteMultiplayerSyncState_3::UpdateState");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdateState", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializable)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdateState", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializable)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializable);
     }
     // public System.Void UpdateDelta(T serializable)
@@ -81,8 +81,8 @@ namespace GlobalNamespace {
     void UpdateDelta(T serializable) {
       static_assert(std::is_base_of_v<GlobalNamespace::ISyncStateDeltaSerializable_1<TStateTable>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteMultiplayerSyncState_3::UpdateDelta");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdateDelta", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializable)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "UpdateDelta", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializable)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializable);
     }
     // public System.Void .ctor(IConnectedPlayer player, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
@@ -95,19 +95,19 @@ namespace GlobalNamespace {
     // protected override StateBuffer`3<TStateTable,TType,TState> get_stateBuffer()
     // Offset: 0xFFFFFFFF
     // Implemented from: MultiplayerSyncState`3
-    // Base method: StateBuffer`3<TStateTable,TType,TState> MultiplayerSyncState_3::get_stateBuffer_NEW()
+    // Base method: StateBuffer`3<TStateTable,TType,TState> MultiplayerSyncState_3::get_stateBuffer()
     GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteMultiplayerSyncState_3::get_stateBuffer");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_stateBuffer", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_stateBuffer", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
     }
     // public override IConnectedPlayer get_player()
     // Offset: 0xFFFFFFFF
     // Implemented from: MultiplayerSyncState`3
-    // Base method: IConnectedPlayer MultiplayerSyncState_3::get_player_NEW()
+    // Base method: IConnectedPlayer MultiplayerSyncState_3::get_player()
     GlobalNamespace::IConnectedPlayer* get_player() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteMultiplayerSyncState_3::get_player");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_player", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_player", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method);
     }
   }; // RemoteMultiplayerSyncState`3

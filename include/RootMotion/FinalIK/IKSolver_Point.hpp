@@ -36,7 +36,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xD15C6C
+    // [RangeAttribute] Offset: 0xD160D8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -70,25 +70,25 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Point
     Point(UnityEngine::Transform* transform_ = {}, float weight_ = {}, UnityEngine::Vector3 solverPosition_ = {}, UnityEngine::Quaternion solverRotation_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : transform{transform_}, weight{weight_}, solverPosition{solverPosition_}, solverRotation{solverRotation_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_} {}
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1A6DC44
+    // Offset: 0x1A7169C
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x1A6DC94
+    // Offset: 0x1A716EC
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x1A6DE1C
+    // Offset: 0x1A71874
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x1A6DE54
+    // Offset: 0x1A718AC
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x1A6DE8C
+    // Offset: 0x1A718E4
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x1A6DEDC
+    // Offset: 0x1A71934
     void UpdateSolverLocalState();
     // public System.Void .ctor()
-    // Offset: 0x1A6D718
+    // Offset: 0x1A71170
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,7 +22,7 @@ namespace UnityEngineInternal {
     // Creating value type constructor for type: GenericStack
     GenericStack() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x218624C
+    // Offset: 0x2187D34
     // Implemented from: System.Collections.Stack
     // Base method: System.Void Stack::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -59,30 +59,30 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list)
-    // Offset: 0x16C21CC
+    // Offset: 0x16C5BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeEnumerator*, creationType>(list)));
     }
     // public System.Object get_Current()
-    // Offset: 0x16C2274
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x16C5C94
+    ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x16C22E0
-    System::Collections::DictionaryEntry get_Entry_NEW();
+    // Offset: 0x16C5D00
+    System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x16C2388
-    ::Il2CppObject* get_Key_NEW();
+    // Offset: 0x16C5DA8
+    ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x16C2414
-    ::Il2CppObject* get_Value_NEW();
+    // Offset: 0x16C5E34
+    ::Il2CppObject* get_Value();
     // public System.Boolean MoveNext()
-    // Offset: 0x16C24A0
-    bool MoveNext_NEW();
+    // Offset: 0x16C5EC0
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16C2568
-    void Reset_NEW();
+    // Offset: 0x16C5F88
+    void Reset();
   }; // System.Collections.Specialized.ListDictionary/NodeEnumerator
   #pragma pack(pop)
   static check_size<sizeof(ListDictionary::NodeEnumerator), 36 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeEnumeratorSizeCheck;

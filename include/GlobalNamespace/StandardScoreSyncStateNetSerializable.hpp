@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardScoreSyncState state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardScoreSyncState) == 0x14);
-    // [CompilerGeneratedAttribute] Offset: 0xD05F40
+    // [CompilerGeneratedAttribute] Offset: 0xD0639C
     // private SyncStateId <id>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SyncStateId) == 0x1);
     // Padding between fields: id and: time
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD05F50
+    // [CompilerGeneratedAttribute] Offset: 0xD063AC
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -81,37 +81,37 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PacketPool`1<StandardScoreSyncStateNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* value);
     // public SyncStateId get_id()
-    // Offset: 0x215FD74
-    GlobalNamespace::SyncStateId get_id_NEW();
+    // Offset: 0x216285C
+    GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x215FD7C
-    void set_id_NEW(GlobalNamespace::SyncStateId value);
+    // Offset: 0x2162864
+    void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x215FD84
-    float get_time_NEW();
+    // Offset: 0x216286C
+    float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x215FD8C
-    void set_time_NEW(float value);
+    // Offset: 0x2162874
+    void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x215FD94
-    GlobalNamespace::StandardScoreSyncState get_state_NEW();
+    // Offset: 0x216287C
+    GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x215FDA8
-    void set_state_NEW(GlobalNamespace::StandardScoreSyncState value);
+    // Offset: 0x2162890
+    void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x215FDBC
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x21628A4
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x215FE34
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x216291C
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x215FEAC
-    void Release_NEW();
+    // Offset: 0x2162994
+    void Release();
     // static private System.Void .cctor()
-    // Offset: 0x215FF38
+    // Offset: 0x2162A20
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x215FF30
+    // Offset: 0x2162A18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

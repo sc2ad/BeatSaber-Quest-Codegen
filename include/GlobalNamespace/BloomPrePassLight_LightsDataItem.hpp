@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LightsDataItem
     LightsDataItem(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights_ = {}) noexcept : lightType{lightType_}, lights{lights_} {}
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
-    // Offset: 0x1CDA850
+    // Offset: 0x1CE32A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");

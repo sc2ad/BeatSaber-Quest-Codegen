@@ -35,10 +35,10 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*>*>(this);
     }
     // public System.Int32 Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
-    // Offset: 0x2093CC0
-    int Compare_NEW(System::Reflection::MethodInfo* m1, System::Reflection::MethodInfo* m2);
+    // Offset: 0x209A79C
+    int Compare(System::Reflection::MethodInfo* m1, System::Reflection::MethodInfo* m2);
     // public System.Void .ctor()
-    // Offset: 0x2093418
+    // Offset: 0x2099EF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

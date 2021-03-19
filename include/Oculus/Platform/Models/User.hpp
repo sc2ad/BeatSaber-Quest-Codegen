@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x18
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // public readonly System.String ImageURL
@@ -84,9 +84,9 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: User
-    User(::Il2CppString* DisplayName_ = {}, uint64_t ID_ = {}, ::Il2CppString* ImageURL_ = {}, ::Il2CppString* InviteToken_ = {}, ::Il2CppString* OculusID_ = {}, ::Il2CppString* Presence_ = {}, ::Il2CppString* PresenceDeeplinkMessage_ = {}, ::Il2CppString* PresenceDestinationApiName_ = {}, Oculus::Platform::UserPresenceStatus PresenceStatus_ = {}, ::Il2CppString* SmallImageUrl_ = {}) noexcept : DisplayName{DisplayName_}, ID{ID_}, ImageURL{ImageURL_}, InviteToken{InviteToken_}, OculusID{OculusID_}, Presence{Presence_}, PresenceDeeplinkMessage{PresenceDeeplinkMessage_}, PresenceDestinationApiName{PresenceDestinationApiName_}, PresenceStatus{PresenceStatus_}, SmallImageUrl{SmallImageUrl_} {}
+    User(::Il2CppString* DisplayName_ = {}, uint64_t _ID_ = {}, ::Il2CppString* ImageURL_ = {}, ::Il2CppString* InviteToken_ = {}, ::Il2CppString* OculusID_ = {}, ::Il2CppString* Presence_ = {}, ::Il2CppString* PresenceDeeplinkMessage_ = {}, ::Il2CppString* PresenceDestinationApiName_ = {}, Oculus::Platform::UserPresenceStatus PresenceStatus_ = {}, ::Il2CppString* SmallImageUrl_ = {}) noexcept : DisplayName{DisplayName_}, _ID{_ID_}, ImageURL{ImageURL_}, InviteToken{InviteToken_}, OculusID{OculusID_}, Presence{Presence_}, PresenceDeeplinkMessage{PresenceDeeplinkMessage_}, PresenceDestinationApiName{PresenceDestinationApiName_}, PresenceStatus{PresenceStatus_}, SmallImageUrl{SmallImageUrl_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138B8C8
+    // Offset: 0x138E2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static User* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::User::.ctor");

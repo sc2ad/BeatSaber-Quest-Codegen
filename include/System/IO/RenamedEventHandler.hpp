@@ -36,21 +36,21 @@ namespace System::IO {
     // Creating value type constructor for type: RenamedEventHandler
     RenamedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D4CA8
+    // Offset: 0x16D86C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenamedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.IO.RenamedEventArgs e)
-    // Offset: 0x16D4CB8
-    void Invoke_NEW(::Il2CppObject* sender, System::IO::RenamedEventArgs* e);
+    // Offset: 0x16D86D8
+    void Invoke(::Il2CppObject* sender, System::IO::RenamedEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.RenamedEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D4934
-    System::IAsyncResult* BeginInvoke_NEW(::Il2CppObject* sender, System::IO::RenamedEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x16D8354
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::RenamedEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16D50A0
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x16D8AC0
+    void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.RenamedEventHandler
   #pragma pack(pop)
 }

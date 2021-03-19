@@ -22,7 +22,7 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // public readonly System.Byte[] Payload
@@ -38,9 +38,9 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HttpTransferUpdate
-    HttpTransferUpdate(uint64_t ID_ = {}, ::Array<uint8_t>* Payload_ = {}, bool IsCompleted_ = {}) noexcept : ID{ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
+    HttpTransferUpdate(uint64_t _ID_ = {}, ::Array<uint8_t>* Payload_ = {}, bool IsCompleted_ = {}) noexcept : _ID{_ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1385BD8
+    // Offset: 0x13885E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpTransferUpdate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::HttpTransferUpdate::.ctor");

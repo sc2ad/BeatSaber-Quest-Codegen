@@ -22,25 +22,25 @@ namespace Org::BouncyCastle::Crypto {
     IDigest() noexcept {}
     // public System.String get_AlgorithmName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_AlgorithmName_NEW();
+    ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetDigestSize()
     // Offset: 0xFFFFFFFF
-    int GetDigestSize_NEW();
+    int GetDigestSize();
     // public System.Int32 GetByteLength()
     // Offset: 0xFFFFFFFF
-    int GetByteLength_NEW();
+    int GetByteLength();
     // public System.Void Update(System.Byte input)
     // Offset: 0xFFFFFFFF
-    void Update_NEW(uint8_t input);
+    void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    void BlockUpdate_NEW(::Array<uint8_t>* input, int inOff, int length);
+    void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
-    int DoFinal_NEW(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
-    void Reset_NEW();
+    void Reset();
   }; // Org.BouncyCastle.Crypto.IDigest
   #pragma pack(pop)
 }

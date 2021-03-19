@@ -33,7 +33,7 @@ namespace Zenject {
     ISubContainerCreator() noexcept {}
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
-    Zenject::DiContainer* CreateSubContainer_NEW(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
+    Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
   }; // Zenject.ISubContainerCreator
   #pragma pack(pop)
 }

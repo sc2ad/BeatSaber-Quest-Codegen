@@ -29,7 +29,7 @@ namespace System::IO {
     // Creating value type constructor for type: NullTextWriter
     NullTextWriter() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x168F544
+    // Offset: 0x1691F64
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -40,29 +40,29 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::NullTextWriter*, creationType>()));
     }
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x168FAA8
+    // Offset: 0x16924C8
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Text.Encoding TextWriter::get_Encoding_NEW()
+    // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x168FAB0
+    // Offset: 0x16924D0
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.Char[] buffer, System.Int32 index, System.Int32 count)
+    // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x168FAB4
+    // Offset: 0x16924D4
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::Write_NEW(System.String value)
+    // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // public override System.Void WriteLine()
-    // Offset: 0x168FAB8
+    // Offset: 0x16924D8
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW()
+    // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0x168FABC
+    // Offset: 0x16924DC
     // Implemented from: System.IO.TextWriter
-    // Base method: System.Void TextWriter::WriteLine_NEW(System.String value)
+    // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::Il2CppString* value);
   }; // System.IO.TextWriter/NullTextWriter
   #pragma pack(pop)

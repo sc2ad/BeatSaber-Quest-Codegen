@@ -18,10 +18,10 @@ namespace GlobalNamespace {
     IOVRSkeletonDataProvider() noexcept {}
     // public OVRSkeleton/SkeletonType GetSkeletonType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRSkeleton::SkeletonType GetSkeletonType_NEW();
+    GlobalNamespace::OVRSkeleton::SkeletonType GetSkeletonType();
     // public OVRSkeleton/SkeletonPoseData GetSkeletonPoseData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRSkeleton::SkeletonPoseData GetSkeletonPoseData_NEW();
+    GlobalNamespace::OVRSkeleton::SkeletonPoseData GetSkeletonPoseData();
   }; // OVRSkeleton/IOVRSkeletonDataProvider
   #pragma pack(pop)
 }

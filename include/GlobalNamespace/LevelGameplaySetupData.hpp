@@ -38,21 +38,21 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2124C
+    // [CompilerGeneratedAttribute] Offset: 0xD21780
     // private IPreviewBeatmapLevel <beatmapLevel>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2125C
+    // [CompilerGeneratedAttribute] Offset: 0xD21790
     // private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2126C
+    // [CompilerGeneratedAttribute] Offset: 0xD217A0
     // private BeatmapDifficulty <beatmapDifficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -66,31 +66,31 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
     // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x1096840
-    GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel_NEW();
+    // Offset: 0x10991E4
+    GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x1096848
-    void set_beatmapLevel_NEW(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Offset: 0x10991EC
+    void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1096850
-    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic_NEW();
+    // Offset: 0x10991F4
+    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x1096858
-    void set_beatmapCharacteristic_NEW(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Offset: 0x10991FC
+    void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1096860
-    GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty_NEW();
+    // Offset: 0x1099204
+    GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x1096868
-    void set_beatmapDifficulty_NEW(GlobalNamespace::BeatmapDifficulty value);
+    // Offset: 0x109920C
+    void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1096870
-    GlobalNamespace::GameplayModifiers* get_gameplayModifiers_NEW();
+    // Offset: 0x1099214
+    GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x10968DC
-    void set_gameplayModifiers_NEW(GlobalNamespace::GameplayModifiers* value);
+    // Offset: 0x1099280
+    void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor()
-    // Offset: 0x10968E4
+    // Offset: 0x1099288
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

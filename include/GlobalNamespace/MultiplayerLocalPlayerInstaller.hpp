@@ -30,21 +30,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLocalPlayerInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xD2A688
+    // [InjectAttribute] Offset: 0xD2ABAC
     // private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A698
+    // [InjectAttribute] Offset: 0xD2ABBC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A6A8
+    // [InjectAttribute] Offset: 0xD2ABCC
     // private readonly MultiplayerPlayerStartState _startState
     // Size: 0x4
     // Offset: 0x30
@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLocalPlayerInstaller
     MultiplayerLocalPlayerInstaller(GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerPlayerStartState startState_ = {}) noexcept : levelSceneSetupData{levelSceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_}, startState{startState_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF51D64
+    // Offset: 0xF554FC
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF51F4C
+    // Offset: 0xF556E4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

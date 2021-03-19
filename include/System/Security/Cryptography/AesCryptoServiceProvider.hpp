@@ -31,7 +31,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: AesCryptoServiceProvider
     AesCryptoServiceProvider() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x212C0C0
+    // Offset: 0x212CBA8
     // Implemented from: System.Security.Cryptography.Aes
     // Base method: System.Void Aes::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
@@ -42,94 +42,94 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<AesCryptoServiceProvider*, creationType>()));
     }
     // public override System.Void GenerateIV()
-    // Offset: 0x212C134
+    // Offset: 0x212CC1C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::GenerateIV_NEW()
+    // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();
     // public override System.Void GenerateKey()
-    // Offset: 0x212C164
+    // Offset: 0x212CC4C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::GenerateKey_NEW()
+    // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x212C194
+    // Offset: 0x212CC7C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor_NEW(System.Byte[] key, System.Byte[] iv)
+    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] key, System.Byte[] iv)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x212C964
+    // Offset: 0x212D44C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor_NEW(System.Byte[] key, System.Byte[] iv)
+    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] key, System.Byte[] iv)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // public override System.Byte[] get_IV()
-    // Offset: 0x212CA50
+    // Offset: 0x212D538
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Byte[] SymmetricAlgorithm::get_IV_NEW()
+    // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
     ::Array<uint8_t>* get_IV();
     // public override System.Void set_IV(System.Byte[] value)
-    // Offset: 0x212CA58
+    // Offset: 0x212D540
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::set_IV_NEW(System.Byte[] value)
+    // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
     void set_IV(::Array<uint8_t>* value);
     // public override System.Byte[] get_Key()
-    // Offset: 0x212CA60
+    // Offset: 0x212D548
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Byte[] SymmetricAlgorithm::get_Key_NEW()
+    // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
     ::Array<uint8_t>* get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x212CA68
+    // Offset: 0x212D550
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::set_Key_NEW(System.Byte[] value)
+    // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);
     // public override System.Int32 get_KeySize()
-    // Offset: 0x212CA70
+    // Offset: 0x212D558
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Int32 SymmetricAlgorithm::get_KeySize_NEW()
+    // Base method: System.Int32 SymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x212CA78
+    // Offset: 0x212D560
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::set_KeySize_NEW(System.Int32 value)
+    // Base method: System.Void SymmetricAlgorithm::set_KeySize(System.Int32 value)
     void set_KeySize(int value);
     // public override System.Int32 get_FeedbackSize()
-    // Offset: 0x212CA80
+    // Offset: 0x212D568
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Int32 SymmetricAlgorithm::get_FeedbackSize_NEW()
+    // Base method: System.Int32 SymmetricAlgorithm::get_FeedbackSize()
     int get_FeedbackSize();
     // public override System.Security.Cryptography.CipherMode get_Mode()
-    // Offset: 0x212CA88
+    // Offset: 0x212D570
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Security.Cryptography.CipherMode SymmetricAlgorithm::get_Mode_NEW()
+    // Base method: System.Security.Cryptography.CipherMode SymmetricAlgorithm::get_Mode()
     System::Security::Cryptography::CipherMode get_Mode();
     // public override System.Void set_Mode(System.Security.Cryptography.CipherMode value)
-    // Offset: 0x212CA90
+    // Offset: 0x212D578
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::set_Mode_NEW(System.Security.Cryptography.CipherMode value)
+    // Base method: System.Void SymmetricAlgorithm::set_Mode(System.Security.Cryptography.CipherMode value)
     void set_Mode(System::Security::Cryptography::CipherMode value);
     // public override System.Security.Cryptography.PaddingMode get_Padding()
-    // Offset: 0x212CB2C
+    // Offset: 0x212D614
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Security.Cryptography.PaddingMode SymmetricAlgorithm::get_Padding_NEW()
+    // Base method: System.Security.Cryptography.PaddingMode SymmetricAlgorithm::get_Padding()
     System::Security::Cryptography::PaddingMode get_Padding();
     // public override System.Void set_Padding(System.Security.Cryptography.PaddingMode value)
-    // Offset: 0x212CB34
+    // Offset: 0x212D61C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::set_Padding_NEW(System.Security.Cryptography.PaddingMode value)
+    // Base method: System.Void SymmetricAlgorithm::set_Padding(System.Security.Cryptography.PaddingMode value)
     void set_Padding(System::Security::Cryptography::PaddingMode value);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor()
-    // Offset: 0x212CB3C
+    // Offset: 0x212D624
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor_NEW()
+    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor()
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor()
-    // Offset: 0x212CB90
+    // Offset: 0x212D678
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor_NEW()
+    // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor()
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x212CBE4
+    // Offset: 0x212D6CC
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::Dispose_NEW(System.Boolean disposing)
+    // Base method: System.Void SymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.AesCryptoServiceProvider
   #pragma pack(pop)

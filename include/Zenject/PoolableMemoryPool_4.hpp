@@ -33,16 +33,16 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     void OnDespawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_4::OnDespawned");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`4
-    // Base method: System.Void MemoryPool_4::Reinitialize_NEW(TParam1 p1, TParam2 p2, TParam3 p3, TValue item)
+    // Base method: System.Void MemoryPool_4::Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TValue item)
     void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableMemoryPool_4::Reinitialize");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, item)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, item);
     }
     // public System.Void .ctor()

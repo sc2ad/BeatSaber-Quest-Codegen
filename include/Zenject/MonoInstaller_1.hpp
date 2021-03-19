@@ -32,28 +32,28 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_1::InstallFromResource");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container))));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_1::InstallFromResource");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(resourcePath, container))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(resourcePath, container))));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container);
     }
     // static public TDerived InstallFromResource(Zenject.DiContainer container, System.Object[] extraArgs)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(Zenject::DiContainer* container, ::Array<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_1::InstallFromResource");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container, extraArgs))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(container, extraArgs))));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, extraArgs);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, System.Object[] extraArgs)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, ::Array<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_1::InstallFromResource");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(resourcePath, container, extraArgs))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(resourcePath, container, extraArgs))));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container, extraArgs);
     }
     // public System.Void .ctor()

@@ -158,31 +158,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x20E03E0
+    // Offset: 0x20E5EBC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x20E0A5C
+    // Offset: 0x20E6538
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x20E0D90
+    // Offset: 0x20E686C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x20E0DB4
+    // Offset: 0x20E6890
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x20E0DD8
+    // Offset: 0x20E68B4
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // protected System.Void Update()
-    // Offset: 0x20E104C
+    // Offset: 0x20E6B28
     void Update();
     // private System.Void Save()
-    // Offset: 0x20E0A6C
+    // Offset: 0x20E6548
     void Save();
     // private System.Void Load()
-    // Offset: 0x20E0578
+    // Offset: 0x20E6054
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x20E14B0
+    // Offset: 0x20E6F8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

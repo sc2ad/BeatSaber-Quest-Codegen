@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     }
     // public System.Int32 GetBlockSize()
     // Offset: 0xFFFFFFFF
-    int GetBlockSize_NEW();
+    int GetBlockSize();
   }; // Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
   #pragma pack(pop)
 }

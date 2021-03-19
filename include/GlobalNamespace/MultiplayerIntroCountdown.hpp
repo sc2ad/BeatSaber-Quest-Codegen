@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 targetLocalPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xD27BF8
+    // [SpaceAttribute] Offset: 0xD2811C
     // private UnityEngine.AudioClip _readyClip
     // Size: 0x8
     // Offset: 0x40
@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* buildUpClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27C60
+    // [SpaceAttribute] Offset: 0xD28184
     // private MultiplayerIntroCountdownTextController _textController0
     // Size: 0x8
     // Offset: 0x60
@@ -133,14 +133,14 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27CB8
+    // [SpaceAttribute] Offset: 0xD281DC
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27CF0
+    // [InjectAttribute] Offset: 0xD28214
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x80
@@ -170,28 +170,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_textAppearDuration()
-    // Offset: 0xF406FC
+    // Offset: 0xF43E94
     float get_textAppearDuration();
     // protected System.Void Awake()
-    // Offset: 0xF40704
+    // Offset: 0xF43E9C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF4082C
-    void OnDestroy_NEW();
+    // Offset: 0xF43FC4
+    void OnDestroy();
     // public System.Void StartCountdown(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0xF404F0
+    // Offset: 0xF43C88
     void StartCountdown(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator CountdownRoutine(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0xF408C4
+    // Offset: 0xF4405C
     System::Collections::IEnumerator* CountdownRoutine(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator PlayDelayed(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0xF40984
+    // Offset: 0xF4411C
     System::Collections::IEnumerator* PlayDelayed(UnityEngine::AudioClip* audioClip, float delay);
     // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
-    // Offset: 0xF40A3C
+    // Offset: 0xF441D4
     System::Collections::IEnumerator* PhaseRoutine(::Il2CppString* text, float appearDuration, float disappearDuration);
     // public System.Void .ctor()
-    // Offset: 0xF40AF8
+    // Offset: 0xF44290
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

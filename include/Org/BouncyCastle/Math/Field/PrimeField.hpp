@@ -43,27 +43,27 @@ namespace Org::BouncyCastle::Math::Field {
       return characteristic;
     }
     // System.Void .ctor(Org.BouncyCastle.Math.BigInteger characteristic)
-    // Offset: 0x1B3D644
+    // Offset: 0x1B4309C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeField* New_ctor(Org::BouncyCastle::Math::BigInteger* characteristic) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::PrimeField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimeField*, creationType>(characteristic)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x1B3DC80
-    Org::BouncyCastle::Math::BigInteger* get_Characteristic_NEW();
+    // Offset: 0x1B436D8
+    Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1B3DC88
-    int get_Dimension_NEW();
+    // Offset: 0x1B436E0
+    int get_Dimension();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B3DC90
+    // Offset: 0x1B436E8
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B3DD58
+    // Offset: 0x1B437B0
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.PrimeField
   #pragma pack(pop)

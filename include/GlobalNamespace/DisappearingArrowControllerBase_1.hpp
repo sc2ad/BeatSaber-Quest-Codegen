@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteMovement*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD22BC0
+    // [SpaceAttribute] Offset: 0xD23104
     // private System.Single _disappearingNormalStart
     // Size: 0x4
     // Offset: 0x0
@@ -131,8 +131,8 @@ namespace GlobalNamespace {
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected T get_gameNoteController()
     // Offset: 0xFFFFFFFF
-    T get_gameNoteController_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::get_gameNoteController_NEW");
+    T get_gameNoteController() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::get_gameNoteController");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_gameNoteController", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }

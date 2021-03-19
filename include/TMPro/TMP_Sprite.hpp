@@ -63,7 +63,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Sprite
     TMP_Sprite(::Il2CppString* name_ = {}, int hashCode_ = {}, int unicode_ = {}, UnityEngine::Vector2 pivot_ = {}, UnityEngine::Sprite* sprite_ = {}) noexcept : name{name_}, hashCode{hashCode_}, unicode{unicode_}, pivot{pivot_}, sprite{sprite_} {}
     // public System.Void .ctor()
-    // Offset: 0xFB6B04
+    // Offset: 0xFA4210
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

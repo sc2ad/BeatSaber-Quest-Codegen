@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     ITime() noexcept {}
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
-    float get_time_NEW();
+    float get_time();
     // public System.Void MoveTime(System.Single offset)
     // Offset: 0xFFFFFFFF
-    void MoveTime_NEW(float offset);
+    void MoveTime(float offset);
   }; // BeatmapSaveData/ITime
   #pragma pack(pop)
 }

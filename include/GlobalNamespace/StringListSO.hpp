@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class StringListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xCF541C
+    // [ReorderableAttribute] Offset: 0xCF5858
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String[] get_strings()
-    // Offset: 0x211F0D4
+    // Offset: 0x2121BBC
     ::Array<::Il2CppString*>* get_strings();
     // public System.Void .ctor()
-    // Offset: 0x211F0DC
+    // Offset: 0x2121BC4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

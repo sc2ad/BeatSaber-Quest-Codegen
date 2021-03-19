@@ -83,7 +83,7 @@ namespace Zenject {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
-      // Offset: 0xDEC35C
+      // Offset: 0xDEE8F8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority)
     }; // Zenject.DisposableManager/DisposableInfo
@@ -121,33 +121,33 @@ namespace Zenject {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.IDisposable> disposables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities, System.Collections.Generic.List`1<Zenject.ILateDisposable> lateDisposables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> latePriorities)
-    // Offset: 0x146D1B8
+    // Offset: 0x1471BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager* New_ctor(System::Collections::Generic::List_1<System::IDisposable*>* disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable*>* lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* latePriorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager*, creationType>(disposables, priorities, lateDisposables, latePriorities)));
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x146D7B0
+    // Offset: 0x14721C0
     void Add(System::IDisposable* disposable);
     // public System.Void Add(System.IDisposable disposable, System.Int32 priority)
-    // Offset: 0x146D7B8
+    // Offset: 0x14721C8
     void Add(System::IDisposable* disposable, int priority);
     // public System.Void AddLate(Zenject.ILateDisposable disposable)
-    // Offset: 0x146D828
+    // Offset: 0x1472238
     void AddLate(Zenject::ILateDisposable* disposable);
     // public System.Void AddLate(Zenject.ILateDisposable disposable, System.Int32 priority)
-    // Offset: 0x146D830
+    // Offset: 0x1472240
     void AddLate(Zenject::ILateDisposable* disposable, int priority);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x146D8C4
+    // Offset: 0x14722D4
     void Remove(System::IDisposable* disposable);
     // public System.Void LateDispose()
-    // Offset: 0x146D9C0
+    // Offset: 0x14723D0
     void LateDispose();
     // public System.Void Dispose()
-    // Offset: 0x146DD94
-    void Dispose_NEW();
+    // Offset: 0x14727A4
+    void Dispose();
   }; // Zenject.DisposableManager
   #pragma pack(pop)
   static check_size<sizeof(DisposableManager), 33 + sizeof(bool)> __Zenject_DisposableManagerSizeCheck;

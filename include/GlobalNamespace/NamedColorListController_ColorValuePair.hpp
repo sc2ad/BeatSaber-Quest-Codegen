@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorValuePair
     ColorValuePair(UnityEngine::Color color_ = {}, int value_ = {}) noexcept : color{color_}, value{value_} {}
     // public System.Void .ctor()
-    // Offset: 0xF20278
+    // Offset: 0xF3B560
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

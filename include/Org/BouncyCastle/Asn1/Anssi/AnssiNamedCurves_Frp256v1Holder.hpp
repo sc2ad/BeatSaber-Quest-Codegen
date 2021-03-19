@@ -35,10 +35,10 @@ namespace Org::BouncyCastle::Asn1::Anssi {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x153D0C8
+    // Offset: 0x1540AD8
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x153CF48
+    // Offset: 0x1540958
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,9 +48,9 @@ namespace Org::BouncyCastle::Asn1::Anssi {
       return THROW_UNLESS((::il2cpp_utils::New<AnssiNamedCurves::Frp256v1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x153CF50
+    // Offset: 0x1540960
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
-    // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters_NEW()
+    // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.Anssi.AnssiNamedCurves/Frp256v1Holder
   #pragma pack(pop)

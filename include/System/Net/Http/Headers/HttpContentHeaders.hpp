@@ -47,17 +47,17 @@ namespace System::Net::Http::Headers {
       return content;
     }
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x13D93AC
+    // Offset: 0x13DCDBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(System::Net::Http::HttpContent* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpContentHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContentHeaders*, creationType>(content)));
     }
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x13D9454
+    // Offset: 0x13DCE64
     System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x13D95D0
+    // Offset: 0x13DCFE0
     System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
   }; // System.Net.Http.Headers.HttpContentHeaders
   // WARNING Not writing size check since size may be invalid!

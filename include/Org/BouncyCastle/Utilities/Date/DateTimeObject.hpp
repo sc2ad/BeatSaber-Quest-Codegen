@@ -32,16 +32,16 @@ namespace Org::BouncyCastle::Utilities::Date {
       return dt;
     }
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x1E29BCC
+    // Offset: 0x1E2D6A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(System::DateTime dt) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()
-    // Offset: 0x1E29BF8
+    // Offset: 0x1E2D6D4
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeObject
   #pragma pack(pop)

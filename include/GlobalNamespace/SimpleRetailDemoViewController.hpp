@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* exitButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2FDDC
+    // [CompilerGeneratedAttribute] Offset: 0xD30310
     // private System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -122,33 +122,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleRetailDemoViewController
     SimpleRetailDemoViewController(UnityEngine::UI::Button* tutorialButton_ = {}, UnityEngine::UI::Button* playLevel1Button_ = {}, UnityEngine::UI::Button* playLevel2Button_ = {}, UnityEngine::UI::Button* exitButton_ = {}, System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* didFinishEvent_ = {}) noexcept : tutorialButton{tutorialButton_}, playLevel1Button{playLevel1Button_}, playLevel2Button{playLevel2Button_}, exitButton{exitButton_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
-    // Offset: 0xF751B8
+    // Offset: 0xF79CE4
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
-    // Offset: 0xF7537C
+    // Offset: 0xF79EA8
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // private System.Void HandleMenuButton(SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0xF75BDC
+    // Offset: 0xF7A708
     void HandleMenuButton(GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xF75C5C
+    // Offset: 0xF7A788
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xF75C64
+    // Offset: 0xF7A790
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xF75C6C
+    // Offset: 0xF7A798
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0xF75C74
+    // Offset: 0xF7A7A0
     void $DidActivate$b__8_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF75A58
+    // Offset: 0xF7A584
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF75C54
+    // Offset: 0xF7A780
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

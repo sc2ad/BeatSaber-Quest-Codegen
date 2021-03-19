@@ -50,19 +50,19 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return impl;
     }
     // public System.Void Add(System.Object o)
-    // Offset: 0x126F3D4
-    void Add_NEW(::Il2CppObject* o);
+    // Offset: 0x1271DE4
+    void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x126F49C
-    void CopyTo_NEW(System::Array* array, int index);
+    // Offset: 0x1271EAC
+    void CopyTo(System::Array* array, int index);
     // public System.Int32 get_Count()
-    // Offset: 0x126F5D8
-    int get_Count_NEW();
+    // Offset: 0x1271FE8
+    int get_Count();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x126F68C
-    System::Collections::IEnumerator* GetEnumerator_NEW();
+    // Offset: 0x127209C
+    System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x126F360
+    // Offset: 0x1271D70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

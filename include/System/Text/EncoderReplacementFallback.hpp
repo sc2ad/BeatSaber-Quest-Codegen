@@ -39,17 +39,17 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(System.String replacement)
-    // Offset: 0x1AFE848
+    // Offset: 0x1B042A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallback* New_ctor(::Il2CppString* replacement) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>(replacement)));
     }
     // public System.String get_DefaultString()
-    // Offset: 0x1AFEA24
+    // Offset: 0x1B0447C
     ::Il2CppString* get_DefaultString();
     // public System.Void .ctor()
-    // Offset: 0x1AFE7F8
+    // Offset: 0x1B04250
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Void EncoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -59,24 +59,24 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>()));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1AFEA2C
+    // Offset: 0x1B04484
     // Implemented from: System.Text.EncoderFallback
-    // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer_NEW()
+    // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1AFEAD8
+    // Offset: 0x1B04530
     // Implemented from: System.Text.EncoderFallback
-    // Base method: System.Int32 EncoderFallback::get_MaxCharCount_NEW()
+    // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1AFEAF4
+    // Offset: 0x1B0454C
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object value)
+    // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AFEB88
+    // Offset: 0x1B045E0
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.EncoderReplacementFallback
   #pragma pack(pop)

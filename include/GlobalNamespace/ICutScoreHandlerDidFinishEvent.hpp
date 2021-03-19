@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // public System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
     // Offset: 0xFFFFFFFF
     template<class T0>
-    void HandleCutScoreHandlerDidFinish_NEW(T0 cutScoreHandler);
+    void HandleCutScoreHandlerDidFinish(T0 cutScoreHandler);
   }; // ICutScoreHandlerDidFinishEvent
   #pragma pack(pop)
 }

@@ -45,16 +45,16 @@ namespace System::Text {
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
-    // Offset: 0x1B03AA8
+    // Offset: 0x1B09500
     static System::Text::Encoding* get_UTF8Unmarked();
     // static System.String InternalCodePage(ref System.Int32 code_page)
-    // Offset: 0x1B03CE0
+    // Offset: 0x1B09738
     static ::Il2CppString* InternalCodePage(int& code_page);
     // static System.Text.Encoding GetDefaultEncoding()
-    // Offset: 0x1B02200
+    // Offset: 0x1B07C58
     static System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
-    // Offset: 0x1B00720
+    // Offset: 0x1B06178
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
@@ -64,7 +64,7 @@ namespace System::Text {
       return InvokeI18N(name, {args...});
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B03CE4
+    // Offset: 0x1B0973C
     static void _cctor();
   }; // System.Text.EncodingHelper
   #pragma pack(pop)

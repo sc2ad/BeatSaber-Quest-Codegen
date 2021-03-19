@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayingDifficultyBeatmapRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD223C4
+    // [CompilerGeneratedAttribute] Offset: 0xD22908
     // private System.String <apiName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* apiName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD223D4
+    // [CompilerGeneratedAttribute] Offset: 0xD22918
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -47,26 +47,26 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);
     }
     // public System.String get_apiName()
-    // Offset: 0xF9AC18
-    ::Il2CppString* get_apiName_NEW();
+    // Offset: 0xFBED80
+    ::Il2CppString* get_apiName();
     // private System.Void set_apiName(System.String value)
-    // Offset: 0xF9AC20
+    // Offset: 0xFBED88
     void set_apiName(::Il2CppString* value);
     // public System.String get_localizedDescription()
-    // Offset: 0xF9AC28
-    ::Il2CppString* get_localizedDescription_NEW();
+    // Offset: 0xFBED90
+    ::Il2CppString* get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0xF9AC30
+    // Offset: 0xFBED98
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF9AC38
+    // Offset: 0xFBEDA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingDifficultyBeatmapRichPresenceData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayingDifficultyBeatmapRichPresenceData*, creationType>(difficultyBeatmap)));
     }
     // private System.String GetDestinationLocalizedString(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF9AC7C
+    // Offset: 0xFBEDE4
     ::Il2CppString* GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // PlayingDifficultyBeatmapRichPresenceData
   #pragma pack(pop)

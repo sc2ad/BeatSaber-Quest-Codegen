@@ -42,7 +42,7 @@ namespace TMPro::SpriteAssetUtilities {
       return frames;
     }
     // public System.Void .ctor()
-    // Offset: 0xF813EC
+    // Offset: 0xF84F18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

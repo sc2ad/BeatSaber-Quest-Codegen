@@ -87,56 +87,56 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::ScriptPlayable_1<T> get_Null() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::get_Null");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "get_Null", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "get_Null", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::ScriptPlayable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<T> Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
     // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::ScriptPlayable_1<T> Create(UnityEngine::Playables::PlayableGraph graph, int inputCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::Create");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(graph, inputCount))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(graph, inputCount))));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::ScriptPlayable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, inputCount);
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<T> Create(UnityEngine.Playables.PlayableGraph graph, T template, System.Int32 inputCount)
     // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::ScriptPlayable_1<T> Create(UnityEngine::Playables::PlayableGraph graph, T _template, int inputCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::Create");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(graph, _template, inputCount))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(graph, _template, inputCount))));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::ScriptPlayable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, _template, inputCount);
     }
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, T template, System.Int32 inputCount)
     // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, T _template, int inputCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::CreateHandle");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateHandle", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(graph, _template, inputCount))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateHandle", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(graph, _template, inputCount))));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableHandle, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, _template, inputCount);
     }
     // static private System.Object CreateScriptInstance()
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CreateScriptInstance() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::CreateScriptInstance");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateScriptInstance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateScriptInstance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static private System.Object CloneScriptInstance(UnityEngine.Playables.IPlayableBehaviour source)
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CloneScriptInstance(UnityEngine::Playables::IPlayableBehaviour* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::CloneScriptInstance");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, source);
     }
     // static private System.Object CloneScriptInstanceFromEngineObject(UnityEngine.Object source)
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CloneScriptInstanceFromEngineObject(UnityEngine::Object* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::CloneScriptInstanceFromEngineObject");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromEngineObject", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromEngineObject", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, source);
     }
     // static private System.Object CloneScriptInstanceFromIClonable(System.ICloneable source)
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CloneScriptInstanceFromIClonable(System::ICloneable* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::CloneScriptInstanceFromIClonable");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromIClonable", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromIClonable", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(source))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, source);
     }
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
@@ -145,9 +145,9 @@ namespace UnityEngine::Playables {
     // ABORTED: conflicts with another method.  ScriptPlayable_1(UnityEngine::Playables::PlayableHandle handle)
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::PlayableHandle GetHandle_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::GetHandle_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHandle", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    UnityEngine::Playables::PlayableHandle GetHandle() {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::GetHandle");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHandle", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableHandle, false>(*this, ___internal__method);
     }
     // public T GetBehaviour()
@@ -159,16 +159,16 @@ namespace UnityEngine::Playables {
     }
     // public System.Boolean Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
     // Offset: 0xFFFFFFFF
-    bool Equals_NEW(UnityEngine::Playables::ScriptPlayable_1<T> other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::Equals_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
+    bool Equals(UnityEngine::Playables::ScriptPlayable_1<T> other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::Equals");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
     // static private System.Void .cctor()
     // Offset: 0xFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::.cctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
   }; // UnityEngine.Playables.ScriptPlayable`1

@@ -56,51 +56,51 @@ namespace System::Diagnostics {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x16C8BA4
+    // Offset: 0x16CC5C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListener* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x16CC1BC
-    bool get_IsThreadSafe_NEW();
+    // Offset: 0x16CFBDC
+    bool get_IsThreadSafe();
     // public System.Void Dispose()
-    // Offset: 0x16CC1C4
-    void Dispose_NEW();
+    // Offset: 0x16CFBE4
+    void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16CC240
-    void Dispose_NEW(bool disposing);
+    // Offset: 0x16CFC60
+    void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x16CC244
-    void Flush_NEW();
+    // Offset: 0x16CFC64
+    void Flush();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x16CB600
+    // Offset: 0x16CF020
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x16CB61C
+    // Offset: 0x16CF03C
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x16CC248
+    // Offset: 0x16CFC68
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x16CC250
+    // Offset: 0x16CFC70
     void set_NeedIndent(bool value);
     // public System.Void Fail(System.String message)
-    // Offset: 0x16C8BF8
-    void Fail_NEW(::Il2CppString* message);
+    // Offset: 0x16CC618
+    void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x16C8CB0
-    void Fail_NEW(::Il2CppString* message, ::Il2CppString* detailMessage);
+    // Offset: 0x16CC6D0
+    void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
-    void Write_NEW(::Il2CppString* message);
+    void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
-    // Offset: 0x16CC25C
-    void WriteIndent_NEW();
+    // Offset: 0x16CFC7C
+    void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
-    void WriteLine_NEW(::Il2CppString* message);
+    void WriteLine(::Il2CppString* message);
   }; // System.Diagnostics.TraceListener
   #pragma pack(pop)
   static check_size<sizeof(TraceListener), 40 + sizeof(::Il2CppString*)> __System_Diagnostics_TraceListenerSizeCheck;

@@ -39,16 +39,16 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetPreventPeopleChooser(System.Boolean value)
-    // Offset: 0x1C88D08
+    // Offset: 0x1C90760
     void SetPreventPeopleChooser(bool value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1C88E10
+    // Offset: 0x1C90868
     void SetReportType(Oculus::Platform::AbuseReportType value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.AbuseReportOptions options)
-    // Offset: 0x1C88F18
+    // Offset: 0x1C90970
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1C88C20
+    // Offset: 0x1C90678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,9 +57,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<AbuseReportOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1C88F68
+    // Offset: 0x1C909C0
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize_NEW()
+    // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.AbuseReportOptions
   #pragma pack(pop)

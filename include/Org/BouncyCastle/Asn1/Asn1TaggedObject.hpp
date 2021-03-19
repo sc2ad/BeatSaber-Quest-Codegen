@@ -48,51 +48,51 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: Asn1TaggedObject
     Asn1TaggedObject(int tagNo_ = {}, bool explicitly_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* obj_ = {}) noexcept : tagNo{tagNo_}, explicitly{explicitly_}, obj{obj_} {}
     // static public Org.BouncyCastle.Asn1.Asn1TaggedObject GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x15449E4
+    // Offset: 0x15483F4
     static Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.Asn1TaggedObject GetInstance(System.Object obj)
-    // Offset: 0x1544A8C
+    // Offset: 0x154849C
     static Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::Il2CppObject* obj);
     // protected System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1544B98
+    // Offset: 0x15485A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1TaggedObject* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1TaggedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1TaggedObject*, creationType>(tagNo, obj)));
     }
     // protected System.Void .ctor(System.Boolean explicitly, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1544BE0
+    // Offset: 0x15485F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1TaggedObject* New_ctor(bool explicitly, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1TaggedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1TaggedObject*, creationType>(explicitly, tagNo, obj)));
     }
     // public System.Int32 get_TagNo()
-    // Offset: 0x1544DDC
-    int get_TagNo_NEW();
+    // Offset: 0x15487EC
+    int get_TagNo();
     // public System.Boolean IsExplicit()
-    // Offset: 0x1544DE4
+    // Offset: 0x15487F4
     bool IsExplicit();
     // public System.Boolean IsEmpty()
-    // Offset: 0x1544DEC
+    // Offset: 0x15487FC
     bool IsEmpty();
     // public Org.BouncyCastle.Asn1.Asn1Object GetObject()
-    // Offset: 0x1541D50
+    // Offset: 0x1545760
     Org::BouncyCastle::Asn1::Asn1Object* GetObject();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1544C7C
+    // Offset: 0x154868C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Boolean Asn1Object::Asn1Equals_NEW(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
+    // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1544D98
+    // Offset: 0x15487A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Int32 Asn1Object::Asn1GetHashCode_NEW()
+    // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1544DF4
+    // Offset: 0x1548804
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Asn1TaggedObject
   #pragma pack(pop)

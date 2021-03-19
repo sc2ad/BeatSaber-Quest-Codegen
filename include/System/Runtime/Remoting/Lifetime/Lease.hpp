@@ -102,34 +102,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x18A4B20
-    System::TimeSpan get_CurrentLeaseTime_NEW();
+    // Offset: 0x18A5540
+    System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x18A4B98
-    System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState_NEW();
+    // Offset: 0x18A55B8
+    System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.Void Activate()
-    // Offset: 0x18A4BA0
+    // Offset: 0x18A55C0
     void Activate();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x18A4BAC
-    System::TimeSpan get_RenewOnCallTime_NEW();
+    // Offset: 0x18A55CC
+    System::TimeSpan get_RenewOnCallTime();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x18A4BB4
-    System::TimeSpan Renew_NEW(System::TimeSpan renewalTime);
+    // Offset: 0x18A55D4
+    System::TimeSpan Renew(System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x18A4C50
-    void Unregister_NEW(System::Runtime::Remoting::Lifetime::ISponsor* obj);
+    // Offset: 0x18A5670
+    void Unregister(System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x18A4D60
+    // Offset: 0x18A5780
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x18A4EAC
+    // Offset: 0x18A58CC
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x18A5110
+    // Offset: 0x18A5B30
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x18A4988
+    // Offset: 0x18A53A8
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -32,24 +32,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: DHValidationParameters
     DHValidationParameters(::Array<uint8_t>* seed_ = {}, int counter_ = {}) noexcept : seed{seed_}, counter{counter_} {}
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
-    // Offset: 0x115EB4C
+    // Offset: 0x116155C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParameters* New_ctor(::Array<uint8_t>* seed, int counter) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
-    // Offset: 0x115ECD8
+    // Offset: 0x11616E8
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x115EC28
+    // Offset: 0x1161638
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x115ED84
+    // Offset: 0x1161794
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DHValidationParameters
   #pragma pack(pop)

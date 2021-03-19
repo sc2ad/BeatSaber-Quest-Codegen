@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder {
     ISelectionPickerRenderer() noexcept {}
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Texture2D* RenderLookupTexture_NEW(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
+    UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer
   #pragma pack(pop)
 }

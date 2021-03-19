@@ -53,35 +53,35 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerPlayersTableView* gameServerPlayersTableView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerPlayersTableView*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2F644
+    // [InjectAttribute] Offset: 0xD2FB78
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2F654
+    // [InjectAttribute] Offset: 0xD2FB88
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F664
+    // [CompilerGeneratedAttribute] Offset: 0xD2FB98
     // private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedBeatmapEvent
     // Size: 0x8
     // Offset: 0x88
     System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F674
+    // [CompilerGeneratedAttribute] Offset: 0xD2FBA8
     // private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::GameplayModifiers*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F684
+    // [CompilerGeneratedAttribute] Offset: 0xD2FBB8
     // private System.Action`1<System.String> kickPlayerEvent
     // Size: 0x8
     // Offset: 0x98
@@ -91,56 +91,56 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ServerPlayerListController
     ServerPlayerListController(GlobalNamespace::GameServerPlayersTableView* gameServerPlayersTableView_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedBeatmapEvent_ = {}, System::Action_1<GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent_ = {}, System::Action_1<::Il2CppString*>* kickPlayerEvent_ = {}) noexcept : gameServerPlayersTableView{gameServerPlayersTableView_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, lobbyStateDataModel{lobbyStateDataModel_}, selectSuggestedBeatmapEvent{selectSuggestedBeatmapEvent_}, selectSuggestedGameplayModifiersEvent{selectSuggestedGameplayModifiersEvent_}, kickPlayerEvent{kickPlayerEvent_} {}
     // public System.Void add_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0xF71114
+    // Offset: 0xF75C40
     void add_selectSuggestedBeatmapEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0xF711B8
+    // Offset: 0xF75CE4
     void remove_selectSuggestedBeatmapEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0xF7125C
+    // Offset: 0xF75D88
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0xF71300
+    // Offset: 0xF75E2C
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0xF713A4
+    // Offset: 0xF75ED0
     void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0xF71448
+    // Offset: 0xF75F74
     void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // private System.Void HandleLobbyPlayersDataDidChange(System.String userId)
-    // Offset: 0xF71C78
+    // Offset: 0xF767A4
     void HandleLobbyPlayersDataDidChange(::Il2CppString* userId);
     // private System.Void HandleLobbyStateDataPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0xF71C7C
+    // Offset: 0xF767A8
     void HandleLobbyStateDataPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0xF71C80
+    // Offset: 0xF767AC
     void HandleLobbyStateDataPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void SetDataToTable()
-    // Offset: 0xF71804
+    // Offset: 0xF76330
     void SetDataToTable();
     // private System.Void HandleSelectSuggestedLevel(System.String levelId, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xF71C84
+    // Offset: 0xF767B0
     void HandleSelectSuggestedLevel(::Il2CppString* levelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void HandleSelectSuggestedGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0xF71D14
+    // Offset: 0xF76840
     void HandleSelectSuggestedGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // private System.Void HandleKickPlayer(System.String userId)
-    // Offset: 0xF71D88
+    // Offset: 0xF768B4
     void HandleKickPlayer(::Il2CppString* userId);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF714EC
+    // Offset: 0xF76018
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF71960
+    // Offset: 0xF7648C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate_NEW(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF71DFC
+    // Offset: 0xF76928
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

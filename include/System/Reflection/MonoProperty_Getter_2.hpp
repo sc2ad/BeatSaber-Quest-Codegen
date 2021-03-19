@@ -41,23 +41,23 @@ namespace System::Reflection {
     }
     // public R Invoke(T _this)
     // Offset: 0xFFFFFFFF
-    R Invoke_NEW(T _this) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::Invoke_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(_this)));
+    R Invoke(T _this) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::Invoke");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(_this)));
       return ::il2cpp_utils::RunMethodThrow<R, false>(this, ___internal__method, _this);
     }
     // public System.IAsyncResult BeginInvoke(T _this, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke_NEW(T _this, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::BeginInvoke_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(_this, callback, object)));
+    System::IAsyncResult* BeginInvoke(T _this, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::BeginInvoke");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(_this, callback, object)));
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, _this, callback, object);
     }
     // public R EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
-    R EndInvoke_NEW(System::IAsyncResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::EndInvoke_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
+    R EndInvoke(System::IAsyncResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::EndInvoke");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
       return ::il2cpp_utils::RunMethodThrow<R, false>(this, ___internal__method, result);
     }
   }; // System.Reflection.MonoProperty/Getter`2

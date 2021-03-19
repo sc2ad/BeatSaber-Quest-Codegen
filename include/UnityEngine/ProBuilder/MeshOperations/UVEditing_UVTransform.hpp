@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public override System.String ToString()
-    // Offset: 0xDF0B28
+    // Offset: 0xDF30C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

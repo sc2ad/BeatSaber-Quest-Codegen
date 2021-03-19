@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     ::Il2CppString* propertyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD01170
+    // [CompilerGeneratedAttribute] Offset: 0xD015CC
     // private System.Int32 <propertyId>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -35,16 +35,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PropertyValuePairBase
     PropertyValuePairBase(::Il2CppString* propertyName_ = {}, int propertyId_ = {}) noexcept : propertyName{propertyName_}, propertyId{propertyId_} {}
     // public System.Int32 get_propertyId()
-    // Offset: 0x1CE2550
+    // Offset: 0x1CEAFA8
     int get_propertyId();
     // private System.Void set_propertyId(System.Int32 value)
-    // Offset: 0x1CE2558
+    // Offset: 0x1CEAFB0
     void set_propertyId(int value);
     // public System.Void RefreshPropertyId()
-    // Offset: 0x1CE2418
+    // Offset: 0x1CEAE70
     void RefreshPropertyId();
     // public System.Void .ctor()
-    // Offset: 0x1CE2480
+    // Offset: 0x1CEAED8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -26,16 +26,16 @@ namespace System::Runtime::Remoting::Messaging {
     IInternalMessage() noexcept {}
     // public System.Runtime.Remoting.Identity get_TargetIdentity()
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Identity* get_TargetIdentity_NEW();
+    System::Runtime::Remoting::Identity* get_TargetIdentity();
     // public System.Void set_TargetIdentity(System.Runtime.Remoting.Identity value)
     // Offset: 0xFFFFFFFF
-    void set_TargetIdentity_NEW(System::Runtime::Remoting::Identity* value);
+    void set_TargetIdentity(System::Runtime::Remoting::Identity* value);
     // public System.String get_Uri()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Uri_NEW();
+    ::Il2CppString* get_Uri();
     // public System.Void set_Uri(System.String value)
     // Offset: 0xFFFFFFFF
-    void set_Uri_NEW(::Il2CppString* value);
+    void set_Uri(::Il2CppString* value);
   }; // System.Runtime.Remoting.Messaging.IInternalMessage
   #pragma pack(pop)
 }

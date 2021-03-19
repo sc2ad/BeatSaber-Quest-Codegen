@@ -16,10 +16,10 @@ namespace UnityEngine::UI {
     ILayoutController() noexcept {}
     // public System.Void SetLayoutHorizontal()
     // Offset: 0xFFFFFFFF
-    void SetLayoutHorizontal_NEW();
+    void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
     // Offset: 0xFFFFFFFF
-    void SetLayoutVertical_NEW();
+    void SetLayoutVertical();
   }; // UnityEngine.UI.ILayoutController
   #pragma pack(pop)
 }

@@ -39,25 +39,25 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Creating value type constructor for type: HexEncoder
     HexEncoder(::Array<uint8_t>* encodingTable_ = {}, ::Array<uint8_t>* decodingTable_ = {}) noexcept : encodingTable{encodingTable_}, decodingTable{decodingTable_} {}
     // protected System.Void InitialiseDecodingTable()
-    // Offset: 0x1E2A990
+    // Offset: 0x1E2E46C
     void InitialiseDecodingTable();
     // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x1E2AB0C
+    // Offset: 0x1E2E5E8
     int Encode(::Array<uint8_t>* inBuf, int inOff, int inLen, ::Array<uint8_t>* outBuf, int outOff);
     // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
-    // Offset: 0x1E2A0DC
-    int Encode_NEW(::Array<uint8_t>* buf, int off, int len, System::IO::Stream* outStream);
+    // Offset: 0x1E2DBB8
+    int Encode(::Array<uint8_t>* buf, int off, int len, System::IO::Stream* outStream);
     // static private System.Boolean Ignore(System.Char c)
-    // Offset: 0x1E2ABF0
+    // Offset: 0x1E2E6CC
     static bool Ignore(::Il2CppChar c);
     // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
-    // Offset: 0x1E2A2C4
-    int DecodeString_NEW(::Il2CppString* data, System::IO::Stream* outStream);
+    // Offset: 0x1E2DDA0
+    int DecodeString(::Il2CppString* data, System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
-    // Offset: 0x1E2A664
+    // Offset: 0x1E2E140
     ::Array<uint8_t>* DecodeStrict(::Il2CppString* str, int off, int len);
     // public System.Void .ctor()
-    // Offset: 0x1E2A8F8
+    // Offset: 0x1E2E3D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

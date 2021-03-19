@@ -38,21 +38,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteWasCutDelegate
     NoteWasCutDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10C0574
+    // Offset: 0x10C2F38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteController::NoteWasCutDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteController::NoteWasCutDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteController::NoteWasCutDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x10C0584
-    void Invoke_NEW(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
+    // Offset: 0x10C2F48
+    void Invoke(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.IAsyncResult BeginInvoke(NoteController noteController, in NoteCutInfo noteCutInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10C096C
-    System::IAsyncResult* BeginInvoke_NEW(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x10C3330
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NoteCutInfo noteCutInfo, System.IAsyncResult result)
-    // Offset: 0x10C0A08
-    void EndInvoke_NEW(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
+    // Offset: 0x10C33CC
+    void EndInvoke(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
   }; // NoteController/NoteWasCutDelegate
   #pragma pack(pop)
 }

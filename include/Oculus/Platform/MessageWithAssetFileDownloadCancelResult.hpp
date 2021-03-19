@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithAssetFileDownloadCancelResult
     MessageWithAssetFileDownloadCancelResult() noexcept {}
     // protected Oculus.Platform.Models.AssetFileDownloadCancelResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1383B18
+    // Offset: 0x1386528
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1380990
+    // Offset: 0x13833A0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAssetFileDownloadCancelResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult()
-    // Offset: 0x1383AD4
+    // Offset: 0x13864E4
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.AssetFileDownloadCancelResult Message::GetAssetFileDownloadCancelResult_NEW()
+    // Base method: Oculus.Platform.Models.AssetFileDownloadCancelResult Message::GetAssetFileDownloadCancelResult()
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();
   }; // Oculus.Platform.MessageWithAssetFileDownloadCancelResult
 }

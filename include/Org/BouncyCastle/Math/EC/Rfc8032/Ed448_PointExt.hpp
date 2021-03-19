@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Creating value type constructor for type: PointExt
     PointExt(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}, ::Array<uint>* z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // public System.Void .ctor()
-    // Offset: 0x1B3C25C
+    // Offset: 0x1B41CB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

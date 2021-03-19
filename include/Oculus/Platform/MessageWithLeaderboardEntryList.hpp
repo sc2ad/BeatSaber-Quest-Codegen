@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLeaderboardEntryList
     MessageWithLeaderboardEntryList() noexcept {}
     // protected Oculus.Platform.Models.LeaderboardEntryList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x138684C
+    // Offset: 0x138925C
     Oculus::Platform::Models::LeaderboardEntryList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1380F30
+    // Offset: 0x1383940
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLeaderboardEntryList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LeaderboardEntryList GetLeaderboardEntryList()
-    // Offset: 0x1386808
+    // Offset: 0x1389218
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.LeaderboardEntryList Message::GetLeaderboardEntryList_NEW()
+    // Base method: Oculus.Platform.Models.LeaderboardEntryList Message::GetLeaderboardEntryList()
     Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
   }; // Oculus.Platform.MessageWithLeaderboardEntryList
 }

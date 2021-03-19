@@ -31,7 +31,7 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: AsyncWriteRequest
     AsyncWriteRequest() noexcept {}
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x142FCA8
+    // Offset: 0x14346B8
     // Implemented from: Mono.Net.Security.AsyncReadOrWriteRequest
     // Base method: System.Void AsyncReadOrWriteRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,9 +40,9 @@ namespace Mono::Net::Security {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncWriteRequest*, creationType>(parent, sync, buffer, offset, size)));
     }
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x142FCB0
+    // Offset: 0x14346C0
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
-    // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run_NEW(Mono.Net.Security.AsyncOperationStatus status)
+    // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);
   }; // Mono.Net.Security.AsyncWriteRequest
   #pragma pack(pop)

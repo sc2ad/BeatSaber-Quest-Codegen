@@ -17,10 +17,10 @@ namespace UnityEngine::Timeline {
     IInterval() noexcept {}
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFF
-    int64_t get_intervalStart_NEW();
+    int64_t get_intervalStart();
     // public System.Int64 get_intervalEnd()
     // Offset: 0xFFFFFFFF
-    int64_t get_intervalEnd_NEW();
+    int64_t get_intervalEnd();
   }; // UnityEngine.Timeline.IInterval
   #pragma pack(pop)
 }

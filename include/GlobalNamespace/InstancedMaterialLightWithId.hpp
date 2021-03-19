@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xD00864
+    // [DrawIfAttribute] Offset: 0xD00CC0
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xD00908
+    // [DrawIfAttribute] Offset: 0xD00D64
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -73,12 +73,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InstancedMaterialLightWithId
     InstancedMaterialLightWithId(GlobalNamespace::MaterialPropertyBlockColorSetter* materialPropertyBlockColorSetter_ = {}, bool setColorOnly_ = {}, float intensity_ = {}, float minAlpha_ = {}, UnityEngine::Color color_ = {}, bool startColorWasSet_ = {}) noexcept : materialPropertyBlockColorSetter{materialPropertyBlockColorSetter_}, setColorOnly{setColorOnly_}, intensity{intensity_}, minAlpha{minAlpha_}, color{color_}, startColorWasSet{startColorWasSet_} {}
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1CDD6B8
+    // Offset: 0x1CE6110
     // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet_NEW(UnityEngine.Color newColor)
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1CDD7B8
+    // Offset: 0x1CE6210
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

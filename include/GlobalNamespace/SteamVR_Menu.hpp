@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCE6C48
+    // [CompilerGeneratedAttribute] Offset: 0xCE7084
     // private System.Single <scale>k__BackingField
     // Size: 0x4
     // Offset: 0x6C
@@ -151,40 +151,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x12D1F44
+    // Offset: 0x12D3954
     UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0x12D2010
+    // Offset: 0x12D3A20
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0x12D2018
+    // Offset: 0x12D3A28
     void set_scale(float value);
     // private System.Void Awake()
-    // Offset: 0x12D2020
+    // Offset: 0x12D3A30
     void Awake();
     // private System.Void OnGUI()
-    // Offset: 0x12D2188
+    // Offset: 0x12D3B98
     void OnGUI();
     // public System.Void ShowMenu()
-    // Offset: 0x12D3D0C
+    // Offset: 0x12D571C
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x12D3C08
+    // Offset: 0x12D5618
     void HideMenu();
     // private System.Void Update()
-    // Offset: 0x12D40C4
+    // Offset: 0x12D5AD4
     void Update();
     // private System.Void SetScale(System.Single scale)
-    // Offset: 0x12D3B1C
+    // Offset: 0x12D552C
     void SetScale(float scale);
     // private System.Void SaveCursorState()
-    // Offset: 0x12D405C
+    // Offset: 0x12D5A6C
     void SaveCursorState();
     // private System.Void RestoreCursorState()
-    // Offset: 0x12D4094
+    // Offset: 0x12D5AA4
     void RestoreCursorState();
     // public System.Void .ctor()
-    // Offset: 0x12D4294
+    // Offset: 0x12D5CA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -16,13 +16,13 @@ namespace UnityEngine::Timeline {
     ITimeControl() noexcept {}
     // public System.Void SetTime(System.Double time)
     // Offset: 0xFFFFFFFF
-    void SetTime_NEW(double time);
+    void SetTime(double time);
     // public System.Void OnControlTimeStart()
     // Offset: 0xFFFFFFFF
-    void OnControlTimeStart_NEW();
+    void OnControlTimeStart();
     // public System.Void OnControlTimeStop()
     // Offset: 0xFFFFFFFF
-    void OnControlTimeStop_NEW();
+    void OnControlTimeStop();
   }; // UnityEngine.Timeline.ITimeControl
   #pragma pack(pop)
 }

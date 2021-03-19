@@ -23,13 +23,13 @@ namespace Org::BouncyCastle::Math::EC {
     ECLookupTable() noexcept {}
     // public System.Int32 get_Size()
     // Offset: 0xFFFFFFFF
-    int get_Size_NEW();
+    int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* Lookup_NEW(int index);
+    Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* LookupVar_NEW(int index);
+    Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.ECLookupTable
   #pragma pack(pop)
 }

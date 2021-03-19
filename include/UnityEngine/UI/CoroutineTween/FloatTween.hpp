@@ -71,44 +71,44 @@ namespace UnityEngine::UI::CoroutineTween {
       return *reinterpret_cast<UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xDE4C00
+    // Offset: 0xDE619C
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xDE4C08
+    // Offset: 0xDE61A4
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xDE4C10
+    // Offset: 0xDE61AC
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xDE4C18
+    // Offset: 0xDE61B4
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0xDE4C20
-    float get_duration_NEW();
+    // Offset: 0xDE61BC
+    float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDE4C28
+    // Offset: 0xDE61C4
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDE4C30
-    bool get_ignoreTimeScale_NEW();
+    // Offset: 0xDE61CC
+    bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDE4C38
+    // Offset: 0xDE61D4
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDE4C44
-    void TweenValue_NEW(float floatPercentage);
+    // Offset: 0xDE61E0
+    void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xDE4C4C
+    // Offset: 0xDE61E8
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDE4C54
+    // Offset: 0xDE61F0
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDE4C5C
+    // Offset: 0xDE61F8
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0xDE4C64
-    bool ValidTarget_NEW();
+    // Offset: 0xDE6200
+    bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_FloatTweenSizeCheck;

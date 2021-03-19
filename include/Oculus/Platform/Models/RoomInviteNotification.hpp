@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // public readonly System.UInt64 RoomID
@@ -46,9 +46,9 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
     // Creating value type constructor for type: RoomInviteNotification
-    RoomInviteNotification(uint64_t ID_ = {}, uint64_t RoomID_ = {}, uint64_t SenderID_ = {}, System::DateTime SentTime_ = {}) noexcept : ID{ID_}, RoomID{RoomID_}, SenderID{SenderID_}, SentTime{SentTime_} {}
+    RoomInviteNotification(uint64_t _ID_ = {}, uint64_t RoomID_ = {}, uint64_t SenderID_ = {}, System::DateTime SentTime_ = {}) noexcept : _ID{_ID_}, RoomID{RoomID_}, SenderID{SenderID_}, SentTime{SentTime_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138A798
+    // Offset: 0x138D1A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomInviteNotification* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::RoomInviteNotification::.ctor");

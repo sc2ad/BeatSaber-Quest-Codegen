@@ -54,22 +54,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DifficultyBeatmap
     DifficultyBeatmap(::Il2CppString* difficulty_ = {}, int difficultyRank_ = {}, ::Il2CppString* beatmapFilename_ = {}, float noteJumpMovementSpeed_ = {}, int noteJumpStartBeatOffset_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, beatmapFilename{beatmapFilename_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_} {}
     // public System.String get_difficulty()
-    // Offset: 0x1015A84
+    // Offset: 0xFDC2EC
     ::Il2CppString* get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1015A8C
+    // Offset: 0xFDC2F4
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0x1015A94
+    // Offset: 0xFDC2FC
     ::Il2CppString* get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1015A9C
+    // Offset: 0xFDC304
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteJumpStartBeatOffset()
-    // Offset: 0x1015AA4
+    // Offset: 0xFDC30C
     int get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Int32 noteJumpStartBeatOffset)
-    // Offset: 0x1015AAC
+    // Offset: 0xFDC314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData_V100::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, int noteJumpStartBeatOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::.ctor");

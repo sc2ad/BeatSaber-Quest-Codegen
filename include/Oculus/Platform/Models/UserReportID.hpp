@@ -25,18 +25,18 @@ namespace Oculus::Platform::Models {
     bool DidCancel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: DidCancel and: ID
+    // Padding between fields: DidCancel and: _ID
     char __padding0[0x7] = {};
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x18
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: UserReportID
-    UserReportID(bool DidCancel_ = {}, uint64_t ID_ = {}) noexcept : DidCancel{DidCancel_}, ID{ID_} {}
+    UserReportID(bool DidCancel_ = {}, uint64_t _ID_ = {}) noexcept : DidCancel{DidCancel_}, _ID{_ID_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138C248
+    // Offset: 0x138EC58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserReportID* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserReportID::.ctor");

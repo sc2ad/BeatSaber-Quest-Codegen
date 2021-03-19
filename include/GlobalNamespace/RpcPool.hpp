@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: RpcPool
     RpcPool() noexcept {}
-    // [ThreadStaticAttribute] Offset: 0xD05EA0
+    // [ThreadStaticAttribute] Offset: 0xD062FC
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
     static System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* _get__pools();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
@@ -50,12 +50,12 @@ namespace GlobalNamespace {
     static T Obtain() {
       static_assert(std::is_base_of_v<GlobalNamespace::IRemoteProcedureCall, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RpcPool::Obtain");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "RpcPool", "Obtain", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "RpcPool", "Obtain", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x15C6634
+    // Offset: 0x15CB044
     static void Release(GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)

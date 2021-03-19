@@ -47,13 +47,13 @@ namespace Mono {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x18D417C
+    // Offset: 0x18D5B9C
     static System::IntPtr StringToUtf8(::Il2CppString* str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x18D4180
+    // Offset: 0x18D5BA0
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
-    // Offset: 0xDF925C
+    // Offset: 0xDFB7F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SafeStringMarshal(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::SafeStringMarshal::.ctor");
@@ -61,11 +61,11 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str);
     }
     // public System.IntPtr get_Value()
-    // Offset: 0xDF92AC
+    // Offset: 0xDFB848
     System::IntPtr get_Value();
     // public System.Void Dispose()
-    // Offset: 0xDF92B4
-    void Dispose_NEW();
+    // Offset: 0xDFB850
+    void Dispose();
   }; // Mono.SafeStringMarshal
   #pragma pack(pop)
   static check_size<sizeof(SafeStringMarshal), 8 + sizeof(System::IntPtr)> __Mono_SafeStringMarshalSizeCheck;

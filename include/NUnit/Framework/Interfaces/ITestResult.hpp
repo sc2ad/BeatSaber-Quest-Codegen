@@ -45,55 +45,55 @@ namespace NUnit::Framework::Interfaces {
     }
     // public NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::ResultState* get_ResultState_NEW();
+    NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name_NEW();
+    ::Il2CppString* get_Name();
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_FullName_NEW();
+    ::Il2CppString* get_FullName();
     // public System.Double get_Duration()
     // Offset: 0xFFFFFFFF
-    double get_Duration_NEW();
+    double get_Duration();
     // public System.DateTime get_StartTime()
     // Offset: 0xFFFFFFFF
-    System::DateTime get_StartTime_NEW();
+    System::DateTime get_StartTime();
     // public System.DateTime get_EndTime()
     // Offset: 0xFFFFFFFF
-    System::DateTime get_EndTime_NEW();
+    System::DateTime get_EndTime();
     // public System.String get_Message()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Message_NEW();
+    ::Il2CppString* get_Message();
     // public System.String get_StackTrace()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_StackTrace_NEW();
+    ::Il2CppString* get_StackTrace();
     // public System.Int32 get_AssertCount()
     // Offset: 0xFFFFFFFF
-    int get_AssertCount_NEW();
+    int get_AssertCount();
     // public System.Int32 get_FailCount()
     // Offset: 0xFFFFFFFF
-    int get_FailCount_NEW();
+    int get_FailCount();
     // public System.Int32 get_PassCount()
     // Offset: 0xFFFFFFFF
-    int get_PassCount_NEW();
+    int get_PassCount();
     // public System.Int32 get_SkipCount()
     // Offset: 0xFFFFFFFF
-    int get_SkipCount_NEW();
+    int get_SkipCount();
     // public System.Int32 get_InconclusiveCount()
     // Offset: 0xFFFFFFFF
-    int get_InconclusiveCount_NEW();
+    int get_InconclusiveCount();
     // public System.Boolean get_HasChildren()
     // Offset: 0xFFFFFFFF
-    bool get_HasChildren_NEW();
+    bool get_HasChildren();
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children_NEW();
+    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
     // public NUnit.Framework.Interfaces.ITest get_Test()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::ITest* get_Test_NEW();
+    NUnit::Framework::Interfaces::ITest* get_Test();
     // public System.String get_Output()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Output_NEW();
+    ::Il2CppString* get_Output();
   }; // NUnit.Framework.Interfaces.ITestResult
   #pragma pack(pop)
 }

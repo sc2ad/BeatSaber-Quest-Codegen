@@ -54,23 +54,23 @@ namespace Oculus::Platform {
       }
       // public System.Void Invoke(Oculus.Platform.Message`1<T> message)
       // Offset: 0xFFFFFFFF
-      void Invoke_NEW(Oculus::Platform::Message_1<T>* message) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::Invoke_NEW");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(message)));
+      void Invoke(Oculus::Platform::Message_1<T>* message) {
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::Invoke");
+        auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(message)));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
       }
       // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message`1<T> message, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
-      System::IAsyncResult* BeginInvoke_NEW(Oculus::Platform::Message_1<T>* message, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::BeginInvoke_NEW");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(message, callback, object)));
+      System::IAsyncResult* BeginInvoke(Oculus::Platform::Message_1<T>* message, System::AsyncCallback* callback, ::Il2CppObject* object) {
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::BeginInvoke");
+        auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(message, callback, object)));
         return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, message, callback, object);
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
-      void EndInvoke_NEW(System::IAsyncResult* result) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::EndInvoke_NEW");
-        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
+      void EndInvoke(System::IAsyncResult* result) {
+        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::EndInvoke");
+        auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(result)));
         ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
       }
     }; // Oculus.Platform.Message`1/Callback
@@ -90,8 +90,8 @@ namespace Oculus::Platform {
     }
     // protected T GetDataFromMessage(System.IntPtr c_message)
     // Offset: 0xFFFFFFFF
-    T GetDataFromMessage_NEW(System::IntPtr c_message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::GetDataFromMessage_NEW");
+    T GetDataFromMessage(System::IntPtr c_message) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::GetDataFromMessage");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetDataFromMessage", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(c_message)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, c_message);
     }

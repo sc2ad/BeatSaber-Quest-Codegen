@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainEffectSO
     MainEffectSO() noexcept {}
     // public System.Void PreRender()
-    // Offset: 0x20FA454
-    void PreRender_NEW();
+    // Offset: 0x20FEF38
+    void PreRender();
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x20FA458
-    void Render_NEW(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
+    // Offset: 0x20FEF3C
+    void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void PostRender(System.Single fade)
-    // Offset: 0x20FA45C
-    void PostRender_NEW(float fade);
+    // Offset: 0x20FEF40
+    void PostRender(float fade);
     // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x20FA460
-    bool get_hasPostProcessEffect_NEW();
+    // Offset: 0x20FEF44
+    bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x20F9ADC
+    // Offset: 0x20FE5C0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

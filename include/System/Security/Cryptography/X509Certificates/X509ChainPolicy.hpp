@@ -100,47 +100,47 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509ChainPolicy
     X509ChainPolicy(System::Security::Cryptography::OidCollection* apps_ = {}, System::Security::Cryptography::OidCollection* cert_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* store_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationMode mode_ = {}, System::TimeSpan timeout_ = {}, System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags_ = {}, System::DateTime vtime_ = {}) noexcept : apps{apps_}, cert{cert_}, store{store_}, store2{store2_}, rflag{rflag_}, mode{mode_}, timeout{timeout_}, vflags{vflags_}, vtime{vtime_} {}
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection store)
-    // Offset: 0x16B13A4
+    // Offset: 0x16B3DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainPolicy* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>(store)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_ExtraStore()
-    // Offset: 0x16AF220
+    // Offset: 0x16B1C40
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
     // public System.Security.Cryptography.X509Certificates.X509RevocationFlag get_RevocationFlag()
-    // Offset: 0x16B13D4
+    // Offset: 0x16B3DF4
     System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
     // public System.Void set_RevocationFlag(System.Security.Cryptography.X509Certificates.X509RevocationFlag value)
-    // Offset: 0x16B13DC
+    // Offset: 0x16B3DFC
     void set_RevocationFlag(System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
     // public System.Security.Cryptography.X509Certificates.X509RevocationMode get_RevocationMode()
-    // Offset: 0x16B1470
+    // Offset: 0x16B3E90
     System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
     // public System.Void set_RevocationMode(System.Security.Cryptography.X509Certificates.X509RevocationMode value)
-    // Offset: 0x16B1478
+    // Offset: 0x16B3E98
     void set_RevocationMode(System::Security::Cryptography::X509Certificates::X509RevocationMode value);
     // public System.Void set_UrlRetrievalTimeout(System.TimeSpan value)
-    // Offset: 0x16B150C
+    // Offset: 0x16B3F2C
     void set_UrlRetrievalTimeout(System::TimeSpan value);
     // public System.Security.Cryptography.X509Certificates.X509VerificationFlags get_VerificationFlags()
-    // Offset: 0x16B1514
+    // Offset: 0x16B3F34
     System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
     // public System.Void set_VerificationFlags(System.Security.Cryptography.X509Certificates.X509VerificationFlags value)
-    // Offset: 0x16B151C
+    // Offset: 0x16B3F3C
     void set_VerificationFlags(System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
     // public System.DateTime get_VerificationTime()
-    // Offset: 0x16B15B0
+    // Offset: 0x16B3FD0
     System::DateTime get_VerificationTime();
     // public System.Void set_VerificationTime(System.DateTime value)
-    // Offset: 0x16B15B8
+    // Offset: 0x16B3FD8
     void set_VerificationTime(System::DateTime value);
     // public System.Void Reset()
-    // Offset: 0x16B12BC
+    // Offset: 0x16B3CDC
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x16ADD78
+    // Offset: 0x16B0798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

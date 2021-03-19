@@ -20,8 +20,8 @@ namespace System {
     IEquatable_1() noexcept {}
     // public System.Boolean Equals(T other)
     // Offset: 0xFFFFFFFF
-    bool Equals_NEW(T other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IEquatable_1::Equals_NEW");
+    bool Equals(T other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::IEquatable_1::Equals");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other);
     }

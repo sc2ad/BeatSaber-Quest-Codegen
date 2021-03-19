@@ -77,13 +77,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kAnimationName
     static void _set_kAnimationName(::Il2CppString* value);
     // public System.Single get_animationDuration()
-    // Offset: 0x10091EC
+    // Offset: 0x100C1E0
     float get_animationDuration();
     // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x10091F4
+    // Offset: 0x100C1E8
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // public System.Void .ctor()
-    // Offset: 0x1009304
+    // Offset: 0x100C2F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

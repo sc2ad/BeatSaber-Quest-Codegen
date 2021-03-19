@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     IDataSource() noexcept {}
     // public System.Single CellSize()
     // Offset: 0xFFFFFFFF
-    float CellSize_NEW();
+    float CellSize();
     // public System.Int32 NumberOfCells()
     // Offset: 0xFFFFFFFF
-    int NumberOfCells_NEW();
+    int NumberOfCells();
     // public HMUI.TableCell CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForContent_NEW(GlobalNamespace::TableViewWithDetailCell* tableView, int idx, bool detailOpened);
+    HMUI::TableCell* CellForContent(GlobalNamespace::TableViewWithDetailCell* tableView, int idx, bool detailOpened);
     // public HMUI.TableCell CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForDetail_NEW(GlobalNamespace::TableViewWithDetailCell* tableView, int contentIdx);
+    HMUI::TableCell* CellForDetail(GlobalNamespace::TableViewWithDetailCell* tableView, int contentIdx);
   }; // TableViewWithDetailCell/IDataSource
   #pragma pack(pop)
 }

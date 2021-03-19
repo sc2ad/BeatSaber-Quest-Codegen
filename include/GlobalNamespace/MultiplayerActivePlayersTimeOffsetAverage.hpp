@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerObservable*/ {
     public:
-    // [InjectAttribute] Offset: 0xD276E0
+    // [InjectAttribute] Offset: 0xD27C04
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -52,13 +52,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);
     }
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x1037FA4
-    float get_offsetSyncTime_NEW();
+    // Offset: 0x1039A8C
+    float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x10381CC
-    bool get_isFailed_NEW();
+    // Offset: 0x1039CB4
+    bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x103832C
+    // Offset: 0x1039E14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

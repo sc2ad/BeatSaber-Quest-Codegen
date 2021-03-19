@@ -60,7 +60,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: NetSyncConnection
     NetSyncConnection(int64_t ConnectionId_ = {}, Oculus::Platform::NetSyncDisconnectReason DisconnectReason_ = {}, uint64_t SessionId_ = {}, Oculus::Platform::NetSyncConnectionStatus Status_ = {}, ::Il2CppString* ZoneId_ = {}) noexcept : ConnectionId{ConnectionId_}, DisconnectReason{DisconnectReason_}, SessionId{SessionId_}, Status{Status_}, ZoneId{ZoneId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13883D0
+    // Offset: 0x138ADE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncConnection* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncConnection::.ctor");

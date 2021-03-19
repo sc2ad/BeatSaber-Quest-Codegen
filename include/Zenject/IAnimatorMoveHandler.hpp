@@ -16,7 +16,7 @@ namespace Zenject {
     IAnimatorMoveHandler() noexcept {}
     // public System.Void OnAnimatorMove()
     // Offset: 0xFFFFFFFF
-    void OnAnimatorMove_NEW();
+    void OnAnimatorMove();
   }; // Zenject.IAnimatorMoveHandler
   #pragma pack(pop)
 }

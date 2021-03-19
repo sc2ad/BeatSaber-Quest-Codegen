@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     ISpriteAsyncLoader() noexcept {}
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync_NEW(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
   }; // ISpriteAsyncLoader
   #pragma pack(pop)
 }

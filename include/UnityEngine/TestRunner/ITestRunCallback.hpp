@@ -25,16 +25,16 @@ namespace UnityEngine::TestRunner {
     ITestRunCallback() noexcept {}
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0xFFFFFFFF
-    void RunStarted_NEW(NUnit::Framework::Interfaces::ITest* testsToRun);
+    void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
     // Offset: 0xFFFFFFFF
-    void RunFinished_NEW(NUnit::Framework::Interfaces::ITestResult* testResults);
+    void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    void TestStarted_NEW(NUnit::Framework::Interfaces::ITest* test);
+    void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0xFFFFFFFF
-    void TestFinished_NEW(NUnit::Framework::Interfaces::ITestResult* result);
+    void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.ITestRunCallback
   #pragma pack(pop)
 }

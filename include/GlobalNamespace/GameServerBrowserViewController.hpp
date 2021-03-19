@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class GameServerBrowserViewController : public HMUI::ViewController {
     public:
-    // [HeaderAttribute] Offset: 0xD2EF88
+    // [HeaderAttribute] Offset: 0xD2F4BC
     // private UnityEngine.UI.Button _filterServersButton
     // Size: 0x8
     // Offset: 0x70
@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD2EFF4
+    // [HeaderAttribute] Offset: 0xD2F528
     // private UnityEngine.UI.Button _createServerButton
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD2F040
+    // [HeaderAttribute] Offset: 0xD2F574
     // private GameServersListTableView _gameServersListTableView
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::GameServersListTableView* gameServersListTableView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServersListTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD2F08C
+    // [HeaderAttribute] Offset: 0xD2F5C0
     // private LoadingControl _mainLoadingControl
     // Size: 0x8
     // Offset: 0x98
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerBrowserViewController
     GameServerBrowserViewController(UnityEngine::UI::Button* filterServersButton_ = {}, GlobalNamespace::GameServersFilterText* filterText_ = {}, UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle_ = {}, UnityEngine::UI::Button* createServerButton_ = {}, GlobalNamespace::GameServersListTableView* gameServersListTableView_ = {}, GlobalNamespace::LoadingControl* mainLoadingControl_ = {}, GlobalNamespace::LoadingControl* smallLoadingControl_ = {}) noexcept : filterServersButton{filterServersButton_}, filterText{filterText_}, canBeInvitedOnLocalNetworkToggle{canBeInvitedOnLocalNetworkToggle_}, createServerButton{createServerButton_}, gameServersListTableView{gameServersListTableView_}, mainLoadingControl{mainLoadingControl_}, smallLoadingControl{smallLoadingControl_} {}
     // public System.Void .ctor()
-    // Offset: 0xF36188
+    // Offset: 0xF229DC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

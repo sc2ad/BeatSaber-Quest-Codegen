@@ -70,7 +70,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: LeaderboardQuery
     LeaderboardQuery(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, BeatSaberAPI::DataTransferObjects::ScoresScope scope_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, bool onlyWithSpecificGameplayModifiers_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, onlyWithSpecificGameplayModifiers{onlyWithSpecificGameplayModifiers_}, gameplayModifiers{gameplayModifiers_} {}
     // public System.Void .ctor()
-    // Offset: 0x10653A4
+    // Offset: 0x1066F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

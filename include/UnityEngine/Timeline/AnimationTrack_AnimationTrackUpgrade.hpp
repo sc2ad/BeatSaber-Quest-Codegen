@@ -18,13 +18,13 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: AnimationTrackUpgrade
     AnimationTrackUpgrade() noexcept {}
     // static public System.Void ConvertRotationsToEuler(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x16663B0
+    // Offset: 0x1669DD0
     static void ConvertRotationsToEuler(UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertRootMotion(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x16663FC
+    // Offset: 0x1669E1C
     static void ConvertRootMotion(UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertInfiniteTrack(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x1666494
+    // Offset: 0x1669EB4
     static void ConvertInfiniteTrack(UnityEngine::Timeline::AnimationTrack* track);
   }; // UnityEngine.Timeline.AnimationTrack/AnimationTrackUpgrade
   #pragma pack(pop)

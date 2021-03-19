@@ -36,25 +36,25 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Creating value type constructor for type: PlayerQuitHandler
     PlayerQuitHandler() noexcept {}
     // public System.Void Start()
-    // Offset: 0x135311C
+    // Offset: 0x1355B2C
     void Start();
     // private System.Void ProcessPlayerQuiteMessage(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0x13531D4
+    // Offset: 0x1355BE4
     void ProcessPlayerQuiteMessage(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x1353218
-    void RunStarted_NEW(NUnit::Framework::Interfaces::ITest* testsToRun);
+    // Offset: 0x1355C28
+    void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x135321C
-    void RunFinished_NEW(NUnit::Framework::Interfaces::ITestResult* testResults);
+    // Offset: 0x1355C2C
+    void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1353220
-    void TestStarted_NEW(NUnit::Framework::Interfaces::ITest* test);
+    // Offset: 0x1355C30
+    void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1353224
-    void TestFinished_NEW(NUnit::Framework::Interfaces::ITestResult* result);
+    // Offset: 0x1355C34
+    void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x1353228
+    // Offset: 0x1355C38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

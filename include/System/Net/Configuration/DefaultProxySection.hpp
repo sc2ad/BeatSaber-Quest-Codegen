@@ -30,7 +30,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: DefaultProxySection
     DefaultProxySection() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14C4564
+    // Offset: 0x14C8F74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -39,14 +39,14 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultProxySection*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x14C45A4
+    // Offset: 0x14C8FB4
     // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties_NEW()
+    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // protected override System.Void Reset(System.Configuration.ConfigurationElement parentElement)
-    // Offset: 0x14C45E4
+    // Offset: 0x14C8FF4
     // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Void ConfigurationElement::Reset_NEW(System.Configuration.ConfigurationElement parentElement)
+    // Base method: System.Void ConfigurationElement::Reset(System.Configuration.ConfigurationElement parentElement)
     void Reset(System::Configuration::ConfigurationElement* parentElement);
   }; // System.Net.Configuration.DefaultProxySection
   #pragma pack(pop)

@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* connectedPlayerNoteEventManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD26548
+    // [SpaceAttribute] Offset: 0xD26A6C
     // private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD265A0
+    // [SpaceAttribute] Offset: 0xD26AC4
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8
     // Offset: 0x48
@@ -90,14 +90,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [InjectAttribute] Offset: 0xD265E8
+    // [InjectAttribute] Offset: 0xD26B0C
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xD265F8
+    // [InjectAttribute] Offset: 0xD26B1C
     // private readonly MultiplayerPlayerStartState _localPlayerStartState
     // Size: 0x4
     // Offset: 0x60
@@ -106,14 +106,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Padding between fields: localPlayerStartState and: sceneSetupData
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0xD26608
+    // [InjectAttribute] Offset: 0xD26B2C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26618
+    // [InjectAttribute] Offset: 0xD26B3C
     // private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     // Size: 0x8
     // Offset: 0x70
@@ -123,12 +123,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerConnectedPlayerInstaller
     MultiplayerConnectedPlayerInstaller(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* connectedPlayerAudioTimeSyncControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* connectedPlayerNoteEventManagerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* multiplayerGameNoteControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* multiplayerBombNoteControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel_ = {}) noexcept : connectedPlayerAudioTimeSyncControllerPrefab{connectedPlayerAudioTimeSyncControllerPrefab_}, connectedPlayerNoteEventManagerPrefab{connectedPlayerNoteEventManagerPrefab_}, multiplayerGameNoteControllerPrefab{multiplayerGameNoteControllerPrefab_}, multiplayerBombNoteControllerPrefab{multiplayerBombNoteControllerPrefab_}, multiplayerObstacleControllerPrefab{multiplayerObstacleControllerPrefab_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, connectedPlayer{connectedPlayer_}, localPlayerStartState{localPlayerStartState_}, sceneSetupData{sceneSetupData_}, playersSpecificSettingsAtGameStartModel{playersSpecificSettingsAtGameStartModel_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x103FC0C
+    // Offset: 0x10416F4
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1040BE8
+    // Offset: 0x1042754
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

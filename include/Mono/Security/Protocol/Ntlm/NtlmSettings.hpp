@@ -22,10 +22,10 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel
     static void _set_defaultAuthLevel(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
     // static public Mono.Security.Protocol.Ntlm.NtlmAuthLevel get_DefaultAuthLevel()
-    // Offset: 0x1B94F9C
+    // Offset: 0x1B989F4
     static Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
     // static private System.Void .cctor()
-    // Offset: 0x1B95004
+    // Offset: 0x1B98A5C
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.NtlmSettings
   #pragma pack(pop)

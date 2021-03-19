@@ -40,21 +40,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteWasCutDelegate
     NoteWasCutDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xEFEAA8
+    // Offset: 0xF0229C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectManager::NoteWasCutDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectManager::NoteWasCutDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0xEFE55C
-    void Invoke_NEW(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
+    // Offset: 0xF01D50
+    void Invoke(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.IAsyncResult BeginInvoke(NoteController noteController, in NoteCutInfo noteCutInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xEFEAB8
-    System::IAsyncResult* BeginInvoke_NEW(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0xF022AC
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NoteCutInfo noteCutInfo, System.IAsyncResult result)
-    // Offset: 0xEFEB54
-    void EndInvoke_NEW(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
+    // Offset: 0xF02348
+    void EndInvoke(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
   }; // BeatmapObjectManager/NoteWasCutDelegate
   #pragma pack(pop)
 }

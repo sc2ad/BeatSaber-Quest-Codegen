@@ -30,7 +30,7 @@ namespace RootMotion {
   // [] Offset: FFFFFFFF
   class SolverManager : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xD121F8
+    // [TooltipAttribute] Offset: 0xD12664
     // public System.Boolean fixTransforms
     // Size: 0x1
     // Offset: 0x18
@@ -74,49 +74,49 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Disable()
-    // Offset: 0x192B674
+    // Offset: 0x192C094
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x192B70C
-    void InitiateSolver_NEW();
+    // Offset: 0x192C12C
+    void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x192B710
-    void UpdateSolver_NEW();
+    // Offset: 0x192C130
+    void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x192B714
-    void FixTransforms_NEW();
+    // Offset: 0x192C134
+    void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x192B718
+    // Offset: 0x192C138
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x192B7A8
+    // Offset: 0x192C1C8
     void Start();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x192B7AC
+    // Offset: 0x192C1CC
     bool get_animatePhysics();
     // private System.Void Initiate()
-    // Offset: 0x192B750
+    // Offset: 0x192C170
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x192BA5C
+    // Offset: 0x192C47C
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x192B89C
+    // Offset: 0x192C2BC
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Boolean get_isAnimated()
-    // Offset: 0x192BAA8
+    // Offset: 0x192C4C8
     bool get_isAnimated();
     // private System.Void FixedUpdate()
-    // Offset: 0x192BB64
+    // Offset: 0x192C584
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x192BBC0
+    // Offset: 0x192C5E0
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x192BC1C
+    // Offset: 0x192C63C
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x191A874
+    // Offset: 0x191B294
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,10 +29,10 @@ namespace System::Runtime::Remoting::Contexts {
     // Creating value type constructor for type: ContextCallbackObject
     ContextCallbackObject() noexcept {}
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
-    // Offset: 0x18A223C
+    // Offset: 0x18A2C5C
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // public System.Void .ctor()
-    // Offset: 0x18A2240
+    // Offset: 0x18A2C60
     // Implemented from: System.ContextBoundObject
     // Base method: System.Void ContextBoundObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()

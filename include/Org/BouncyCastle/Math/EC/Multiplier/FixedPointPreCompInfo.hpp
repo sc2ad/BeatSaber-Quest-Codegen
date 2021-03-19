@@ -53,25 +53,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
-    // Offset: 0x1B2F6F4
-    Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable_NEW();
+    // Offset: 0x1B3514C
+    Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
     // public System.Void set_LookupTable(Org.BouncyCastle.Math.EC.ECLookupTable value)
-    // Offset: 0x1B2F6FC
-    void set_LookupTable_NEW(Org::BouncyCastle::Math::EC::ECLookupTable* value);
+    // Offset: 0x1B35154
+    void set_LookupTable(Org::BouncyCastle::Math::EC::ECLookupTable* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Offset()
-    // Offset: 0x1B2F704
-    Org::BouncyCastle::Math::EC::ECPoint* get_Offset_NEW();
+    // Offset: 0x1B3515C
+    Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
     // public System.Void set_Offset(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x1B2F70C
-    void set_Offset_NEW(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Offset: 0x1B35164
+    void set_Offset(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x1B2F714
-    int get_Width_NEW();
+    // Offset: 0x1B3516C
+    int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x1B2F71C
-    void set_Width_NEW(int value);
+    // Offset: 0x1B35174
+    void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x1B2F724
+    // Offset: 0x1B3517C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

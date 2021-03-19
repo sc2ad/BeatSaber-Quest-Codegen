@@ -39,28 +39,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SystemFn
     SystemFn() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14FA7D8
+    // Offset: 0x14FE1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::SystemFn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Utils::SystemFn*, creationType>(object, method)));
     }
     // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    // Offset: 0x14F7AFC
-    ::Il2CppObject* Invoke_NEW(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x14FB50C
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    ::Il2CppObject* Invoke_NEW(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
     template<class ...TParams>
-    ::Il2CppObject* Invoke_NEW(Valve::VR::CVRSystem* system, TParams&&... args) {
-      return Invoke_NEW(system, {args...});
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, TParams&&... args) {
+      return Invoke(system, {args...});
     }
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14FA7E8
-    System::IAsyncResult* BeginInvoke_NEW(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x14FE1F8
+    System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14FA818
-    ::Il2CppObject* EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x14FE228
+    ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // SteamVR_Utils/SystemFn
   #pragma pack(pop)
 }

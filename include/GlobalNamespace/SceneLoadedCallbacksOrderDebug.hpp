@@ -31,22 +31,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SceneLoadedCallbacksOrderDebug
     SceneLoadedCallbacksOrderDebug() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x112C820
+    // Offset: 0x112F230
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x112C88C
+    // Offset: 0x112F29C
     void OnEnable();
     // protected System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x112C95C
+    // Offset: 0x112F36C
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void Start()
-    // Offset: 0x112CA24
+    // Offset: 0x112F434
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x112CA90
+    // Offset: 0x112F4A0
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x112CB60
+    // Offset: 0x112F570
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

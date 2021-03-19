@@ -19,7 +19,7 @@ namespace NUnit::Framework::Constraints {
     ConstraintOperator() noexcept {}
     // public System.Void Reduce(NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack stack)
     // Offset: 0xFFFFFFFF
-    void Reduce_NEW(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
+    void Reduce(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
   }; // NUnit.Framework.Constraints.ConstraintOperator
   #pragma pack(pop)
 }

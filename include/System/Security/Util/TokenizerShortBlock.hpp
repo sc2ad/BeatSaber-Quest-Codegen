@@ -32,7 +32,7 @@ namespace System::Security::Util {
     // Creating value type constructor for type: TokenizerShortBlock
     TokenizerShortBlock(::Array<int16_t>* m_block_ = {}, System::Security::Util::TokenizerShortBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // public System.Void .ctor()
-    // Offset: 0x19FEDF4
+    // Offset: 0x1A0184C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

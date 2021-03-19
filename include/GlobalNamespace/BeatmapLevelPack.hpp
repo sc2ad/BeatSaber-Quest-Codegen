@@ -70,32 +70,32 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
     // public System.String get_packID()
-    // Offset: 0x10762AC
-    ::Il2CppString* get_packID_NEW();
+    // Offset: 0x1077E70
+    ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x10762B4
-    ::Il2CppString* get_packName_NEW();
+    // Offset: 0x1077E78
+    ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x10762BC
-    ::Il2CppString* get_shortPackName_NEW();
+    // Offset: 0x1077E80
+    ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x10762C4
-    ::Il2CppString* get_collectionName_NEW();
+    // Offset: 0x1077E88
+    ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x10762CC
-    UnityEngine::Sprite* get_coverImage_NEW();
+    // Offset: 0x1077E90
+    UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x10762D4
-    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection_NEW();
+    // Offset: 0x1077E98
+    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor(System.String levelPackID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, IBeatmapLevelCollection levelCollection)
-    // Offset: 0x10762DC
+    // Offset: 0x1077EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPack* New_ctor(::Il2CppString* levelPackID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::IBeatmapLevelCollection* levelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelPack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPack*, creationType>(levelPackID, packName, shortPackName, coverImage, levelCollection)));
     }
     // static public BeatmapLevelPack CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering(IBeatmapLevelPack beatmapLevelPack, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1076330
+    // Offset: 0x1077EF4
     static GlobalNamespace::BeatmapLevelPack* CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
   }; // BeatmapLevelPack
   #pragma pack(pop)

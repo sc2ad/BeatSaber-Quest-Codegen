@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD28088
+    // [HeaderAttribute] Offset: 0xD285AC
     // private System.Single _fogTransitionDuration
     // Size: 0x4
     // Offset: 0x20
@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: evenCountOffset and: badgeStartPosition
     char __padding6[0x4] = {};
-    // [HeaderAttribute] Offset: 0xD28124
+    // [HeaderAttribute] Offset: 0xD28648
     // private UnityEngine.Transform _badgeStartPosition
     // Size: 0x8
     // Offset: 0x48
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
     float delayBetweenBadges;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xD281A0
+    // [HeaderAttribute] Offset: 0xD286C4
     // private UnityEngine.Transform[] _notesTransforms
     // Size: 0x8
     // Offset: 0x60
@@ -179,35 +179,35 @@ namespace GlobalNamespace {
     float delayBetweenNotes;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xD2823C
+    // [RangeAttribute] Offset: 0xD28760
     // private System.Single _randomness
     // Size: 0x4
     // Offset: 0x7C
     float randomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD2827C
+    // [SpaceAttribute] Offset: 0xD287A0
     // private BloomFogEnvironmentParams _resultsBloomFogParams
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::BloomFogEnvironmentParams* resultsBloomFogParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // [InjectAttribute] Offset: 0xD282B4
+    // [InjectAttribute] Offset: 0xD287D8
     // private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* avatarsFactory;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory*) == 0x8);
-    // [InjectAttribute] Offset: 0xD282C4
+    // [InjectAttribute] Offset: 0xD287E8
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x90
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD282D4
+    // [InjectAttribute] Offset: 0xD287F8
     // private readonly BloomFogParamsAnimator _bloomFogParamsAnimator
     // Size: 0x8
     // Offset: 0x98
@@ -243,31 +243,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF16D38
+    // Offset: 0xF32020
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF16DD0
-    void OnDestroy_NEW();
+    // Offset: 0xF320B8
+    void OnDestroy();
     // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
-    // Offset: 0xF12734
+    // Offset: 0xF2DA1C
     void PrespawnAvatars(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* activePlayers);
     // public System.Single StartAnimation(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData)
-    // Offset: 0xF135F0
+    // Offset: 0xF2E8D8
     float StartAnimation(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData);
     // public System.Void AnimateFog()
-    // Offset: 0xF13450
+    // Offset: 0xF2E738
     void AnimateFog();
     // private System.Collections.IEnumerator AnimationCoroutine(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData)
-    // Offset: 0xF16E68
+    // Offset: 0xF32150
     System::Collections::IEnumerator* AnimationCoroutine(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData);
     // private System.Void AnimateNotes()
-    // Offset: 0xF16EE4
+    // Offset: 0xF321CC
     void AnimateNotes();
     // private System.Void OnDrawGizmos()
-    // Offset: 0xF17290
+    // Offset: 0xF32578
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0xF17334
+    // Offset: 0xF3261C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EndLevelEarlyRpc
     EndLevelEarlyRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1213378
+    // Offset: 0x1215D88
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

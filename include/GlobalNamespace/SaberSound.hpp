@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     float downSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD2917C
+    // [TooltipAttribute] Offset: 0xD296A0
     // private System.Single _noSoundTopThresholdSqr
     // Size: 0x4
     // Offset: 0x44
@@ -96,13 +96,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFAE830
+    // Offset: 0xF6C55C
     void Start();
     // protected System.Void Update()
-    // Offset: 0xFAE868
+    // Offset: 0xF6C594
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xFAEA90
+    // Offset: 0xF6C7BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -63,10 +63,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: PlaymodeTestsControllerSettings
     PlaymodeTestsControllerSettings(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x1356C08
+    // Offset: 0x1359618
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
-    // Offset: 0x13566B4
+    // Offset: 0x13590C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

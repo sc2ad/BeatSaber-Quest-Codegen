@@ -23,10 +23,10 @@ namespace System::Threading {
     IThreadPoolWorkItem() noexcept {}
     // public System.Void ExecuteWorkItem()
     // Offset: 0xFFFFFFFF
-    void ExecuteWorkItem_NEW();
+    void ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
     // Offset: 0xFFFFFFFF
-    void MarkAborted_NEW(System::Threading::ThreadAbortException* tae);
+    void MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.IThreadPoolWorkItem
   #pragma pack(pop)
 }

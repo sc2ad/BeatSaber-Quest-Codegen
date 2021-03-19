@@ -36,14 +36,14 @@ namespace GlobalNamespace {
     // [] Offset: FFFFFFFF
     struct AverageValueData/*, public System::ValueType*/ {
       public:
-      // [CompilerGeneratedAttribute] Offset: 0xD3295C
+      // [CompilerGeneratedAttribute] Offset: 0xD32EA0
       // private System.Single <value>k__BackingField
       // Size: 0x4
       // Offset: 0x0
       float value;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      // [CompilerGeneratedAttribute] Offset: 0xD3296C
+      // [CompilerGeneratedAttribute] Offset: 0xD32EB0
       // private System.Single <time>k__BackingField
       // Size: 0x4
       // Offset: 0x4
@@ -57,19 +57,19 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Single get_value()
-      // Offset: 0xDDE270
+      // Offset: 0xDE0710
       float get_value();
       // private System.Void set_value(System.Single value)
-      // Offset: 0xDDE278
+      // Offset: 0xDE0718
       void set_value(float value);
       // public System.Single get_time()
-      // Offset: 0xDDE280
+      // Offset: 0xDE0720
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0xDDE288
+      // Offset: 0xDE0728
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
-      // Offset: 0xDDE290
+      // Offset: 0xDE0730
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time)
     }; // AveragingValueRecorder/AverageValueData
@@ -141,23 +141,23 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AveragingValueRecorder
     AveragingValueRecorder(float averageWindowDuration_ = {}, float historyValuesPerSecond_ = {}, int historyValuesCount_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::AveragingValueRecorder::AverageValueData>* averageWindowValues_ = {}, System::Collections::Generic::Queue_1<float>* historyValues_ = {}, float time_ = {}, float historyTime_ = {}, float averageValue_ = {}, float averageWindowValuesDuration_ = {}, float lastValue_ = {}) noexcept : averageWindowDuration{averageWindowDuration_}, historyValuesPerSecond{historyValuesPerSecond_}, historyValuesCount{historyValuesCount_}, averageWindowValues{averageWindowValues_}, historyValues{historyValues_}, time{time_}, historyTime{historyTime_}, averageValue{averageValue_}, averageWindowValuesDuration{averageWindowValuesDuration_}, lastValue{lastValue_} {}
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
-    // Offset: 0x1006BD0
+    // Offset: 0x1009BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AveragingValueRecorder* New_ctor(float averageWindowDuration, float historyWindowDuration, float historyValuesPerSecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AveragingValueRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AveragingValueRecorder*, creationType>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond)));
     }
     // public System.Void Update(System.Single value, System.Single deltaTime)
-    // Offset: 0x1006CDC
+    // Offset: 0x1009CD0
     void Update(float value, float deltaTime);
     // public System.Single GetAverageValue()
-    // Offset: 0x1006F10
+    // Offset: 0x1009F04
     float GetAverageValue();
     // public System.Single GetLastValue()
-    // Offset: 0x1006F18
+    // Offset: 0x1009F0C
     float GetLastValue();
     // public System.Collections.Generic.Queue`1<System.Single> GetHistoryValues()
-    // Offset: 0x1006F20
+    // Offset: 0x1009F14
     System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
   #pragma pack(pop)

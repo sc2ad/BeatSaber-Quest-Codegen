@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class OculusDeeplinkManager : public ::Il2CppObject/*, public GlobalNamespace::IDeeplinkManager*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD1FB5C
+    // [CompilerGeneratedAttribute] Offset: 0xD20060
     // private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     // Size: 0x8
     // Offset: 0x10
@@ -69,37 +69,37 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);
     }
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x10D27D0
-    void add_didReceiveDeeplinkEvent_NEW(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // Offset: 0x10D5194
+    void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x10D2874
-    void remove_didReceiveDeeplinkEvent_NEW(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // Offset: 0x10D5238
+    void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x10D2918
-    GlobalNamespace::Deeplink* get_currentDeeplink_NEW();
+    // Offset: 0x10D52DC
+    GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void Init()
-    // Offset: 0x10D2920
+    // Offset: 0x10D52E4
     void Init();
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x10D299C
+    // Offset: 0x10D5360
     void OculusPlatformWasInitialized();
     // private System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1<System.String> message)
-    // Offset: 0x10D2A30
+    // Offset: 0x10D53F4
     void SetLaunchIntentChangedNotificationCallback(Oculus::Platform::Message_1<::Il2CppString*>* message);
     // private System.Void ProcessLaunchDetails(Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x10D29FC
+    // Offset: 0x10D53C0
     void ProcessLaunchDetails(Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Void UpdateDeeplinkMessage(System.String deeplinkMessage, System.UInt64 roomID)
-    // Offset: 0x10D2A7C
+    // Offset: 0x10D5440
     void UpdateDeeplinkMessage(::Il2CppString* deeplinkMessage, uint64_t roomID);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x10D2C74
+    // Offset: 0x10D5638
     bool IsAtLeastOneFieldPopulated(GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0x10D2C0C
+    // Offset: 0x10D55D0
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x10D2CF4
+    // Offset: 0x10D56B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

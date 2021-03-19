@@ -64,30 +64,30 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
     // public System.Single get_time()
-    // Offset: 0xF02758
-    float get_time_NEW();
+    // Offset: 0xF05F4C
+    float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0xF02760
+    // Offset: 0xF05F54
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0xF02768
+    // Offset: 0xF05F5C
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public BeatmapSaveData/NoteType get_type()
-    // Offset: 0xF02770
+    // Offset: 0xF05F64
     GlobalNamespace::BeatmapSaveData::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0xF02778
+    // Offset: 0xF05F6C
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, BeatmapSaveData/NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0xF02780
+    // Offset: 0xF05F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::BeatmapSaveData::NoteType type, GlobalNamespace::NoteCutDirection cutDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::NoteData*, creationType>(time, lineIndex, lineLayer, type, cutDirection)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xF027DC
-    void MoveTime_NEW(float offset);
+    // Offset: 0xF05FD0
+    void MoveTime(float offset);
   }; // BeatmapSaveData/NoteData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::NoteData), 32 + sizeof(GlobalNamespace::NoteCutDirection)> __GlobalNamespace_BeatmapSaveData_NoteDataSizeCheck;

@@ -63,31 +63,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single[] cachedGeometryManagedBuffer
     static void _set_cachedGeometryManagedBuffer(::Array<float>* value);
     // public System.Boolean GetConfigured()
-    // Offset: 0x1133AA8
+    // Offset: 0x11354B8
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1133B4C
+    // Offset: 0x113555C
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1133C28
+    // Offset: 0x1135638
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1133D28
+    // Offset: 0x1135738
     ::Array<UnityEngine::Vector3>* GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1134148
+    // Offset: 0x1135B58
     UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0x113424C
+    // Offset: 0x1135C5C
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0x11342F0
+    // Offset: 0x1135D00
     void SetVisible(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1134410
+    // Offset: 0x1135E20
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x11343A0
+    // Offset: 0x1135DB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

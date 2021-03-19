@@ -41,21 +41,21 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class Kernel : public ::Il2CppObject/*, public Zenject::IInitializable, public System::IDisposable, public Zenject::ITickable, public Zenject::ILateTickable, public Zenject::IFixedTickable, public Zenject::ILateDisposable*/ {
     public:
-    // [InjectLocalAttribute] Offset: 0xCF1300
+    // [InjectLocalAttribute] Offset: 0xCF173C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x10
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xCF1310
+    // [InjectLocalAttribute] Offset: 0xCF174C
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xCF1320
+    // [InjectLocalAttribute] Offset: 0xCF175C
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x20
@@ -89,25 +89,25 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);
     }
     // public System.Void Initialize()
-    // Offset: 0x150B5E0
-    void Initialize_NEW();
+    // Offset: 0x150EFF0
+    void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x150B5FC
-    void Dispose_NEW();
+    // Offset: 0x150F00C
+    void Dispose();
     // public System.Void LateDispose()
-    // Offset: 0x150B618
-    void LateDispose_NEW();
+    // Offset: 0x150F028
+    void LateDispose();
     // public System.Void Tick()
-    // Offset: 0x150B634
-    void Tick_NEW();
+    // Offset: 0x150F044
+    void Tick();
     // public System.Void LateTick()
-    // Offset: 0x150B6D0
-    void LateTick_NEW();
+    // Offset: 0x150F0E0
+    void LateTick();
     // public System.Void FixedTick()
-    // Offset: 0x150B76C
-    void FixedTick_NEW();
+    // Offset: 0x150F17C
+    void FixedTick();
     // public System.Void .ctor()
-    // Offset: 0x150B808
+    // Offset: 0x150F218
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

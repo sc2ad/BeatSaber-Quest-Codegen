@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RingRotationEffect
     RingRotationEffect(float rotationAngle_ = {}, float rotationStep_ = {}, float rotationFlexySpeed_ = {}, int rotationPropagationSpeed_ = {}, int progressPos_ = {}) noexcept : rotationAngle{rotationAngle_}, rotationStep{rotationStep_}, rotationFlexySpeed{rotationFlexySpeed_}, rotationPropagationSpeed{rotationPropagationSpeed_}, progressPos{progressPos_} {}
     // public System.Void .ctor()
-    // Offset: 0x1078428
+    // Offset: 0x107AD94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

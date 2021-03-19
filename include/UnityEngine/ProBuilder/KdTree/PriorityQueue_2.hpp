@@ -62,9 +62,9 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
-    int get_Count_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::get_Count_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    int get_Count() {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::get_Count");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // private System.Void ExpandCapacity()
@@ -76,16 +76,16 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // public System.Void Enqueue(TItem item, TPriority priority)
     // Offset: 0xFFFFFFFF
-    void Enqueue_NEW(TItem item, TPriority priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Enqueue_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item, priority)));
+    void Enqueue(TItem item, TPriority priority) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Enqueue");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item, priority)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item, priority);
     }
     // public TItem Dequeue()
     // Offset: 0xFFFFFFFF
-    TItem Dequeue_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Dequeue_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    TItem Dequeue() {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Dequeue");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
     }
     // private System.Void ReorderItem(System.Int32 index, System.Int32 direction)

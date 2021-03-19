@@ -75,34 +75,34 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser
     static void _set_PemCertParser(Org::BouncyCastle::X509::PemParser* value);
     // private Org.BouncyCastle.X509.X509Certificate ReadDerCertificate(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x1E2EA98
+    // Offset: 0x1E32574
     Org::BouncyCastle::X509::X509Certificate* ReadDerCertificate(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Certificate GetCertificate()
-    // Offset: 0x1E2EC9C
+    // Offset: 0x1E32778
     Org::BouncyCastle::X509::X509Certificate* GetCertificate();
     // private Org.BouncyCastle.X509.X509Certificate ReadPemCertificate(System.IO.Stream inStream)
-    // Offset: 0x1E2ED94
+    // Offset: 0x1E32870
     Org::BouncyCastle::X509::X509Certificate* ReadPemCertificate(System::IO::Stream* inStream);
     // protected Org.BouncyCastle.X509.X509Certificate CreateX509Certificate(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x1E2EE48
-    Org::BouncyCastle::X509::X509Certificate* CreateX509Certificate_NEW(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
+    // Offset: 0x1E32924
+    Org::BouncyCastle::X509::X509Certificate* CreateX509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.Byte[] input)
-    // Offset: 0x1E2EEA8
+    // Offset: 0x1E32984
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::Array<uint8_t>* input);
     // public System.Collections.ICollection ReadCertificates(System.Byte[] input)
-    // Offset: 0x1E2F1BC
+    // Offset: 0x1E32C98
     System::Collections::ICollection* ReadCertificates(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.IO.Stream inStream)
-    // Offset: 0x1E2EF20
+    // Offset: 0x1E329FC
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(System::IO::Stream* inStream);
     // public System.Collections.ICollection ReadCertificates(System.IO.Stream inStream)
-    // Offset: 0x1E2F234
+    // Offset: 0x1E32D10
     System::Collections::ICollection* ReadCertificates(System::IO::Stream* inStream);
     // static private System.Void .cctor()
-    // Offset: 0x1E2F354
+    // Offset: 0x1E32E30
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E2F3C8
+    // Offset: 0x1E32EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -35,43 +35,43 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Inertia::Body::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xD17DD0
+    // [TooltipAttribute] Offset: 0xD1823C
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD17E08
+    // [TooltipAttribute] Offset: 0xD18274
     // public RootMotion.FinalIK.Inertia/Body/EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* effectorLinks;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD17E40
+    // [TooltipAttribute] Offset: 0xD182AC
     // public System.Single speed
     // Size: 0x4
     // Offset: 0x20
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD17E78
+    // [TooltipAttribute] Offset: 0xD182E4
     // public System.Single acceleration
     // Size: 0x4
     // Offset: 0x24
     float acceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD17EB0
-    // [RangeAttribute] Offset: 0xD17EB0
+    // [TooltipAttribute] Offset: 0xD1831C
+    // [RangeAttribute] Offset: 0xD1831C
     // public System.Single matchVelocity
     // Size: 0x4
     // Offset: 0x28
     float matchVelocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD17F04
+    // [TooltipAttribute] Offset: 0xD18370
     // public System.Single gravity
     // Size: 0x4
     // Offset: 0x2C
@@ -111,13 +111,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Body
     Body(UnityEngine::Transform* transform_ = {}, ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* effectorLinks_ = {}, float speed_ = {}, float acceleration_ = {}, float matchVelocity_ = {}, float gravity_ = {}, UnityEngine::Vector3 delta_ = {}, UnityEngine::Vector3 lazyPoint_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 lastPosition_ = {}, bool firstUpdate_ = {}) noexcept : transform{transform_}, effectorLinks{effectorLinks_}, speed{speed_}, acceleration{acceleration_}, matchVelocity{matchVelocity_}, gravity{gravity_}, delta{delta_}, lazyPoint{lazyPoint_}, direction{direction_}, lastPosition{lastPosition_}, firstUpdate{firstUpdate_} {}
     // public System.Void Reset()
-    // Offset: 0x1BF20DC
+    // Offset: 0x1BF7B34
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
-    // Offset: 0x1BF2274
+    // Offset: 0x1BF7CCC
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x1BF25F4
+    // Offset: 0x1BF804C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

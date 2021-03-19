@@ -23,7 +23,7 @@ namespace UnityEngine::Timeline {
     INotificationOptionProvider() noexcept {}
     // public UnityEngine.Timeline.NotificationFlags get_flags()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::NotificationFlags get_flags_NEW();
+    UnityEngine::Timeline::NotificationFlags get_flags();
   }; // UnityEngine.Timeline.INotificationOptionProvider
   #pragma pack(pop)
 }

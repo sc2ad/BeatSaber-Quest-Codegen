@@ -106,61 +106,61 @@ namespace Org::BouncyCastle::X509 {
     // Creating value type constructor for type: X509Certificate
     X509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::Array<uint8_t>* sigAlgParams_ = {}, Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints_ = {}, ::Array<bool>* keyUsage_ = {}, ::Il2CppObject* cacheLock_ = {}, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, basicConstraints{basicConstraints_}, keyUsage{keyUsage_}, cacheLock{cacheLock_}, publicKeyValue{publicKeyValue_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x1E2D338
+    // Offset: 0x1E30E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(c)));
     }
     // public System.Int32 get_Version()
-    // Offset: 0x1E2DB08
-    int get_Version_NEW();
+    // Offset: 0x1E315E4
+    int get_Version();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
-    // Offset: 0x1E2DB24
-    Org::BouncyCastle::Math::BigInteger* get_SerialNumber_NEW();
+    // Offset: 0x1E31600
+    Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_IssuerDN()
-    // Offset: 0x1E2DB50
-    Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN_NEW();
+    // Offset: 0x1E3162C
+    Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_SubjectDN()
-    // Offset: 0x1E2DB6C
-    Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN_NEW();
+    // Offset: 0x1E31648
+    Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN();
     // public System.DateTime get_NotBefore()
-    // Offset: 0x1E2DB88
-    System::DateTime get_NotBefore_NEW();
+    // Offset: 0x1E31664
+    System::DateTime get_NotBefore();
     // public System.DateTime get_NotAfter()
-    // Offset: 0x1E2DBB4
-    System::DateTime get_NotAfter_NEW();
+    // Offset: 0x1E31690
+    System::DateTime get_NotAfter();
     // public System.Byte[] GetSignature()
-    // Offset: 0x1E2DBE0
-    ::Array<uint8_t>* GetSignature_NEW();
+    // Offset: 0x1E316BC
+    ::Array<uint8_t>* GetSignature();
     // public System.String get_SigAlgName()
-    // Offset: 0x1E2DBFC
-    ::Il2CppString* get_SigAlgName_NEW();
+    // Offset: 0x1E316D8
+    ::Il2CppString* get_SigAlgName();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter GetPublicKey()
-    // Offset: 0x1E2DC54
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey_NEW();
+    // Offset: 0x1E31730
+    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
     // public System.Byte[] GetEncoded()
-    // Offset: 0x1E2DCEC
-    ::Array<uint8_t>* GetEncoded_NEW();
+    // Offset: 0x1E317C8
+    ::Array<uint8_t>* GetEncoded();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1E2DC04
+    // Offset: 0x1E316E0
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
-    // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions_NEW()
+    // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1E2DD08
+    // Offset: 0x1E317E4
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object other)
+    // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1E2DE30
+    // Offset: 0x1E3190C
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1E2DE98
+    // Offset: 0x1E31974
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.X509.X509Certificate
   #pragma pack(pop)

@@ -19,8 +19,8 @@ namespace UnityEngine {
   // [] Offset: FFFFFFFF
   class WaitForSecondsRealtime : public UnityEngine::CustomYieldInstruction {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xCABE44
-    // [CompilerGeneratedAttribute] Offset: 0xCABE44
+    // [CompilerGeneratedAttribute] Offset: 0xCAD294
+    // [DebuggerBrowsableAttribute] Offset: 0xCAD294
     // private System.Single <waitTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -36,22 +36,22 @@ namespace UnityEngine {
     // Creating value type constructor for type: WaitForSecondsRealtime
     WaitForSecondsRealtime(float waitTime_ = {}, float m_WaitUntilTime_ = {}) noexcept : waitTime{waitTime_}, m_WaitUntilTime{m_WaitUntilTime_} {}
     // public System.Single get_waitTime()
-    // Offset: 0x2185D58
+    // Offset: 0x2187840
     float get_waitTime();
     // public System.Void set_waitTime(System.Single value)
-    // Offset: 0x2185D60
+    // Offset: 0x2187848
     void set_waitTime(float value);
     // public System.Void .ctor(System.Single time)
-    // Offset: 0x2185DC8
+    // Offset: 0x21878B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitForSecondsRealtime* New_ctor(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitForSecondsRealtime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitForSecondsRealtime*, creationType>(time)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x2185D68
+    // Offset: 0x2187850
     // Implemented from: UnityEngine.CustomYieldInstruction
-    // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting_NEW()
+    // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
   }; // UnityEngine.WaitForSecondsRealtime
   #pragma pack(pop)

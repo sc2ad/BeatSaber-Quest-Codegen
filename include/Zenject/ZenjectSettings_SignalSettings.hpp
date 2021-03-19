@@ -56,29 +56,29 @@ namespace Zenject {
     // Set static field: static public Zenject.ZenjectSettings/SignalSettings Default
     static void _set_Default(Zenject::ZenjectSettings::SignalSettings* value);
     // public System.Void .ctor(Zenject.SignalDefaultSyncModes defaultSyncMode, Zenject.SignalMissingHandlerResponses missingHandlerDefaultResponse, System.Boolean requireStrictUnsubscribe, System.Int32 defaultAsyncTickPriority)
-    // Offset: 0x21481D0
+    // Offset: 0x2149CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int defaultAsyncTickPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority)));
     }
     // public System.Int32 get_DefaultAsyncTickPriority()
-    // Offset: 0x2148260
+    // Offset: 0x2149D48
     int get_DefaultAsyncTickPriority();
     // public Zenject.SignalDefaultSyncModes get_DefaultSyncMode()
-    // Offset: 0x2148268
+    // Offset: 0x2149D50
     Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerDefaultResponse()
-    // Offset: 0x2148270
+    // Offset: 0x2149D58
     Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
     // public System.Boolean get_RequireStrictUnsubscribe()
-    // Offset: 0x2148278
+    // Offset: 0x2149D60
     bool get_RequireStrictUnsubscribe();
     // static private System.Void .cctor()
-    // Offset: 0x2148280
+    // Offset: 0x2149D68
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2148224
+    // Offset: 0x2149D0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

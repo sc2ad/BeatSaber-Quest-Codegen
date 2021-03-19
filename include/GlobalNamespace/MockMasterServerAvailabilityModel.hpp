@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockMasterServerAvailabilityModel : public ::Il2CppObject/*, public GlobalNamespace::IMasterServerAvailabilityModel*/ {
     public:
-    // [InjectAttribute] Offset: 0xD271FC
+    // [InjectAttribute] Offset: 0xD27720
     // private readonly MultiplayerMockSettings _mockSettings
     // Size: 0x8
     // Offset: 0x10
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
       return mockSettings;
     }
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x102E748
-    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync_NEW(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0x1031230
+    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x102E7C8
+    // Offset: 0x10312B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

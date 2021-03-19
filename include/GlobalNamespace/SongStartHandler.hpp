@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     float startTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD05ED0
+    // [CompilerGeneratedAttribute] Offset: 0xD0632C
     // private System.Action`1<System.Single> setSongStartSyncTimeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -102,44 +102,44 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kFixedStartDelay
     static void _set_kFixedStartDelay(float value);
     // public System.Single get_songStartSyncTime()
-    // Offset: 0x15C903C
+    // Offset: 0x15CDA4C
     float get_songStartSyncTime();
     // public System.Void add_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x15C9044
+    // Offset: 0x15CDA54
     void add_setSongStartSyncTimeEvent(System::Action_1<float>* value);
     // public System.Void remove_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x15C90E8
+    // Offset: 0x15CDAF8
     void remove_setSongStartSyncTimeEvent(System::Action_1<float>* value);
-    // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager)
-    // Offset: 0x15C918C
+    // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
+    // Offset: 0x15CDB9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SongStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager) {
+    static SongStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongStartHandler::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SongStartHandler*, creationType>(multiplayerSessionManager, gameplayRpcManager)));
+      return THROW_UNLESS((::il2cpp_utils::New<SongStartHandler*, creationType>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel)));
     }
     // public System.Void GetLevelStartTimeOffset()
-    // Offset: 0x15C9214
+    // Offset: 0x15CDC34
     void GetLevelStartTimeOffset();
     // public System.Void Dispose()
-    // Offset: 0x15C9724
-    void Dispose_NEW();
+    // Offset: 0x15CE144
+    void Dispose();
     // public System.Void ForceStart(System.String sessionGameId)
-    // Offset: 0x15C9958
+    // Offset: 0x15CE378
     void ForceStart(::Il2CppString* sessionGameId);
     // private System.Void StartSong()
-    // Offset: 0x15C9F74
+    // Offset: 0x15CE994
     void StartSong();
     // private System.Void HandleSetGameplaySongReady(System.String user)
-    // Offset: 0x15CA234
+    // Offset: 0x15CEC54
     void HandleSetGameplaySongReady(::Il2CppString* user);
     // private System.Void HandleGetGameplaySongReady(System.String user)
-    // Offset: 0x15CA4F4
+    // Offset: 0x15CEF14
     void HandleGetGameplaySongReady(::Il2CppString* user);
     // private System.Void HandleSetSongStartTime(System.String user, System.Single time)
-    // Offset: 0x15CA5A8
+    // Offset: 0x15CEFC8
     void HandleSetSongStartTime(::Il2CppString* user, float time);
     // private System.Void Log(System.String message)
-    // Offset: 0x15CA628
+    // Offset: 0x15CF048
     void Log(::Il2CppString* message);
   }; // SongStartHandler
   #pragma pack(pop)

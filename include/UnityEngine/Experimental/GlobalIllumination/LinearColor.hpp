@@ -53,10 +53,10 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Convert(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x19CA9B8
+    // Offset: 0x19CC410
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(UnityEngine::Color color, float intensity);
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Black()
-    // Offset: 0x19CBF4C
+    // Offset: 0x19CD9A4
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
   }; // UnityEngine.Experimental.GlobalIllumination.LinearColor
   #pragma pack(pop)

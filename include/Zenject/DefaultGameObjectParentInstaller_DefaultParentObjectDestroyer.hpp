@@ -45,15 +45,15 @@ namespace Zenject {
       return gameObject;
     }
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x12A7E0C
+    // Offset: 0x12AA81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, creationType>(gameObject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x12A7E38
-    void Dispose_NEW();
+    // Offset: 0x12AA848
+    void Dispose();
   }; // Zenject.DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer
   #pragma pack(pop)
   static check_size<sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer), 16 + sizeof(UnityEngine::GameObject*)> __Zenject_DefaultGameObjectParentInstaller_DefaultParentObjectDestroyerSizeCheck;

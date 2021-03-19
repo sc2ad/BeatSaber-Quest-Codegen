@@ -81,25 +81,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_maxPartySize()
-    // Offset: 0xF240F8
-    int get_maxPartySize_NEW();
+    // Offset: 0xF3F3E0
+    int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0xF24100
-    int get_discoveryPort_NEW();
+    // Offset: 0xF3F3E8
+    int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0xF24108
-    int get_partyPort_NEW();
+    // Offset: 0xF3F3F0
+    int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0xF24110
-    int get_multiplayerPort_NEW();
+    // Offset: 0xF3F3F8
+    int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0xF24118
-    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint_NEW();
+    // Offset: 0xF3F400
+    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0xF24190
-    ::Il2CppString* get_masterServerStatusUrl_NEW();
+    // Offset: 0xF3F478
+    ::Il2CppString* get_masterServerStatusUrl();
     // public System.Void .ctor()
-    // Offset: 0xF24198
+    // Offset: 0xF3F480
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

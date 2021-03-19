@@ -53,30 +53,30 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.MessageDictionary methodDictionary)
-    // Offset: 0x18AF74C
+    // Offset: 0x18B016C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageDictionary::DictionaryEnumerator* New_ctor(System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageDictionary::DictionaryEnumerator*, creationType>(methodDictionary)));
     }
     // public System.Object get_Current()
-    // Offset: 0x18AF8A8
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x18B02C8
+    ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x18AFA88
-    bool MoveNext_NEW();
+    // Offset: 0x18B04A8
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x18AFC4C
-    void Reset_NEW();
+    // Offset: 0x18B066C
+    void Reset();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x18AF914
-    System::Collections::DictionaryEntry get_Entry_NEW();
+    // Offset: 0x18B0334
+    System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x18AFD08
-    ::Il2CppObject* get_Key_NEW();
+    // Offset: 0x18B0728
+    ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x18AFD0C
-    ::Il2CppObject* get_Value_NEW();
+    // Offset: 0x18B072C
+    ::Il2CppObject* get_Value();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary/DictionaryEnumerator
   #pragma pack(pop)
   static check_size<sizeof(MessageDictionary::DictionaryEnumerator), 32 + sizeof(int)> __System_Runtime_Remoting_Messaging_MessageDictionary_DictionaryEnumeratorSizeCheck;

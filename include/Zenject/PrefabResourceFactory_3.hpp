@@ -26,7 +26,7 @@ namespace Zenject {
   template<typename P1, typename P2, typename T>
   class PrefabResourceFactory_3 : public ::Il2CppObject/*, public Zenject::IFactory_4<::Il2CppString*, P1, P2, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xCF0BA0
+    // [InjectAttribute] Offset: 0xCF0FDC
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -52,9 +52,9 @@ namespace Zenject {
     }
     // public T Create(System.String prefabResourceName, P1 param, P2 param2)
     // Offset: 0xFFFFFFFF
-    T Create_NEW(::Il2CppString* prefabResourceName, P1 param, P2 param2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_3::Create_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefabResourceName, param, param2)));
+    T Create(::Il2CppString* prefabResourceName, P1 param, P2 param2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_3::Create");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(prefabResourceName, param, param2)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName, param, param2);
     }
     // public System.Void .ctor()

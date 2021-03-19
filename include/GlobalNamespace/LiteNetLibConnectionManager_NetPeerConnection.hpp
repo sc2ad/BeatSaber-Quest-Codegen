@@ -74,39 +74,39 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);
     }
     // public System.String get_userId()
-    // Offset: 0x1217D98
-    ::Il2CppString* get_userId_NEW();
+    // Offset: 0x121A7A8
+    ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1217DA0
-    ::Il2CppString* get_userName_NEW();
+    // Offset: 0x121A7B0
+    ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1217DA8
-    bool get_isConnectionOwner_NEW();
+    // Offset: 0x121A7B8
+    bool get_isConnectionOwner();
     // public System.Void .ctor(LiteNetLib.NetPeer netPeer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1217264
+    // Offset: 0x1219C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnection* New_ctor(LiteNetLib::NetPeer* netPeer, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnection*, creationType>(netPeer, userId, userName, isConnectionOwner)));
     }
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1217DB0
-    void Send_NEW(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
+    // Offset: 0x121A7C0
+    void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Boolean Equals(LiteNetLibConnectionManager/NetPeerConnection other)
-    // Offset: 0x1217DCC
-    bool Equals_NEW(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
+    // Offset: 0x121A7DC
+    bool Equals(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
     // public System.Void Disconnect()
-    // Offset: 0x1216880
-    void Disconnect_NEW();
+    // Offset: 0x1219290
+    void Disconnect();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1217DF8
+    // Offset: 0x121A808
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1217F14
+    // Offset: 0x121A924
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // LiteNetLibConnectionManager/NetPeerConnection
   #pragma pack(pop)

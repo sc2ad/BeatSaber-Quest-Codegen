@@ -36,18 +36,18 @@ namespace Zenject {
     KeyedFactory_4() noexcept {}
     // public TBase Create(TKey key, TParam1 param1, TParam2 param2)
     // Offset: 0xFFFFFFFF
-    TBase Create_NEW(TKey key, TParam1 param1, TParam2 param2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_4::Create_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, param1, param2)));
+    TBase Create(TKey key, TParam1 param1, TParam2 param2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_4::Create");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(key, param1, param2)));
       return ::il2cpp_utils::RunMethodThrow<TBase, false>(this, ___internal__method, key, param1, param2);
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.KeyedFactoryBase`2
-    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes_NEW()
+    // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_4::get_ProvidedTypes");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()

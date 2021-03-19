@@ -61,7 +61,7 @@ namespace System::Net {
     // Creating value type constructor for type: ReadBufferState
     ReadBufferState(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}, int InitialCount_ = {}, System::Net::HttpStreamAsyncResult* Ares_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, InitialCount{InitialCount_}, Ares{Ares_} {}
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
-    // Offset: 0x14C3CE4
+    // Offset: 0x14C86F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream::ReadBufferState* New_ctor(::Array<uint8_t>* buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::ReadBufferState::.ctor");

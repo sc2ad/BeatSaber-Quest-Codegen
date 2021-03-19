@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerCountToDistance
     PlayerCountToDistance(int playerCount_ = {}, float distance_ = {}) noexcept : playerCount{playerCount_}, distance{distance_} {}
     // public System.Int32 get_playerCount()
-    // Offset: 0xEFEE74
+    // Offset: 0xF02668
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0xEFEE7C
+    // Offset: 0xF02670
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0xEFEE84
+    // Offset: 0xF02678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

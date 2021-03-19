@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_collectionName()
-    // Offset: 0xF9B234
-    ::Il2CppString* get_collectionName_NEW();
+    // Offset: 0xFBF39C
+    ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0xF9B240
-    UnityEngine::Sprite* get_coverImage_NEW();
+    // Offset: 0xFBF3A8
+    UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0xF9B248
-    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection_NEW();
+    // Offset: 0xFBF3B0
+    GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xF9B250
+    // Offset: 0xFBF3B8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

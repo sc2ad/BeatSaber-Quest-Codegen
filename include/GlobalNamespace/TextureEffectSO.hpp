@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextureEffectSO
     TextureEffectSO() noexcept {}
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1CE518C
-    void Render_NEW(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
+    // Offset: 0x1CEDC5C
+    void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x1CDA424
+    // Offset: 0x1CE2E7C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

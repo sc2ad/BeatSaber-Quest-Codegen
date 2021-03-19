@@ -20,10 +20,10 @@ namespace Org::BouncyCastle::Math::Field {
     IPolynomial() noexcept {}
     // public System.Int32 get_Degree()
     // Offset: 0xFFFFFFFF
-    int get_Degree_NEW();
+    int get_Degree();
     // public System.Int32[] GetExponentsPresent()
     // Offset: 0xFFFFFFFF
-    ::Array<int>* GetExponentsPresent_NEW();
+    ::Array<int>* GetExponentsPresent();
   }; // Org.BouncyCastle.Math.Field.IPolynomial
   #pragma pack(pop)
 }

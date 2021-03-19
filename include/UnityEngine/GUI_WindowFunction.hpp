@@ -33,21 +33,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: WindowFunction
     WindowFunction() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19040C8
+    // Offset: 0x1904AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUI::WindowFunction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUI::WindowFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUI::WindowFunction*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 id)
-    // Offset: 0x1903BFC
-    void Invoke_NEW(int id);
+    // Offset: 0x190461C
+    void Invoke(int id);
     // public System.IAsyncResult BeginInvoke(System.Int32 id, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19040D8
-    System::IAsyncResult* BeginInvoke_NEW(int id, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1904AF8
+    System::IAsyncResult* BeginInvoke(int id, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1904164
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x1904B84
+    void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUI/WindowFunction
   #pragma pack(pop)
 }

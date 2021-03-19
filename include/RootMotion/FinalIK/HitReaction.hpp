@@ -38,14 +38,14 @@ namespace RootMotion::FinalIK {
     class HitPointEffector;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
-    // [TooltipAttribute] Offset: 0xD14F8C
+    // [TooltipAttribute] Offset: 0xD153F8
     // public RootMotion.FinalIK.HitReaction/HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD14FC4
+    // [TooltipAttribute] Offset: 0xD15430
     // public RootMotion.FinalIK.HitReaction/HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -55,18 +55,18 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HitReaction
     HitReaction(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
     // public System.Boolean get_inProgress()
-    // Offset: 0x1A62B90
+    // Offset: 0x1A665E8
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1A62E80
+    // Offset: 0x1A668D8
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1A62C60
+    // Offset: 0x1A666B8
     // Implemented from: RootMotion.FinalIK.OffsetModifier
-    // Base method: System.Void OffsetModifier::OnModifyOffset_NEW()
+    // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1A631EC
+    // Offset: 0x1A66C44
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

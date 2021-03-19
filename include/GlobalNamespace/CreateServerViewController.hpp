@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     GlobalNamespace::CreateServerFormController* createServerFormController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreateServerFormController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2EF68
+    // [InjectAttribute] Offset: 0xD2F49C
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2EF78
+    // [CompilerGeneratedAttribute] Offset: 0xD2F4AC
     // private System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -83,33 +83,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreateServerViewController
     CreateServerViewController(UnityEngine::UI::Button* createServerButton_ = {}, UnityEngine::UI::Button* cancelCreateServerButton_ = {}, GlobalNamespace::CreateServerFormController* createServerFormController_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : createServerButton{createServerButton_}, cancelCreateServerButton{cancelCreateServerButton_}, createServerFormController{createServerFormController_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> value)
-    // Offset: 0xFD82FC
+    // Offset: 0x1016488
     void add_didFinishEvent(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> value)
-    // Offset: 0xFD83A0
+    // Offset: 0x101652C
     void remove_didFinishEvent(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0xFD8444
+    // Offset: 0x10165D0
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0xFD844C
+    // Offset: 0x10165D8
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private UnifiedNetworkPlayerModel/CreatePartyConfig CreatePartyConfig()
-    // Offset: 0xFD8594
+    // Offset: 0x1016720
     GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* CreatePartyConfig();
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0xFD87E0
+    // Offset: 0x101696C
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0xFD8854
+    // Offset: 0x10169E0
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFD8498
+    // Offset: 0x1016624
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFD87D8
+    // Offset: 0x1016964
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

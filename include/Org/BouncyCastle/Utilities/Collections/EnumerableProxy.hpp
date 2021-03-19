@@ -43,15 +43,15 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return inner;
     }
     // public System.Void .ctor(System.Collections.IEnumerable inner)
-    // Offset: 0x126F214
+    // Offset: 0x1271C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableProxy* New_ctor(System::Collections::IEnumerable* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::EnumerableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableProxy*, creationType>(inner)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x126F2B0
-    System::Collections::IEnumerator* GetEnumerator_NEW();
+    // Offset: 0x1271CC0
+    System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EnumerableProxy
   #pragma pack(pop)
   static check_size<sizeof(EnumerableProxy), 16 + sizeof(System::Collections::IEnumerable*)> __Org_BouncyCastle_Utilities_Collections_EnumerableProxySizeCheck;

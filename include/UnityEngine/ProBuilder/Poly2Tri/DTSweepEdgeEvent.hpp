@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: DTSweepEdgeEvent
     DTSweepEdgeEvent(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge_ = {}, bool Right_ = {}) noexcept : ConstrainedEdge{ConstrainedEdge_}, Right{Right_} {}
     // public System.Void .ctor()
-    // Offset: 0x2128270
+    // Offset: 0x2129D58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

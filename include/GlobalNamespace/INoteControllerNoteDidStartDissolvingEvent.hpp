@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     INoteControllerNoteDidStartDissolvingEvent() noexcept {}
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteController noteController, System.Single duration)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidStartDissolving_NEW(GlobalNamespace::NoteController* noteController, float duration);
+    void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteController* noteController, float duration);
   }; // INoteControllerNoteDidStartDissolvingEvent
   #pragma pack(pop)
 }

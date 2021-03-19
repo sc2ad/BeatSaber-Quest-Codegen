@@ -39,16 +39,16 @@ namespace NUnit::Framework::Constraints {
       return comparer;
     }
     // public System.Void .ctor(System.Collections.IComparer comparer)
-    // Offset: 0x159D4D0
+    // Offset: 0x15A1EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComparisonAdapter::ComparerAdapter* New_ctor(System::Collections::IComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComparisonAdapter::ComparerAdapter*, creationType>(comparer)));
     }
     // public override System.Int32 Compare(System.Object expected, System.Object actual)
-    // Offset: 0x159D4FC
+    // Offset: 0x15A1F0C
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
-    // Base method: System.Int32 ComparisonAdapter::Compare_NEW(System.Object expected, System.Object actual)
+    // Base method: System.Int32 ComparisonAdapter::Compare(System.Object expected, System.Object actual)
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.ComparisonAdapter/ComparerAdapter
   #pragma pack(pop)

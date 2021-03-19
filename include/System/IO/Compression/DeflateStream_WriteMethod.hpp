@@ -33,21 +33,21 @@ namespace System::IO::Compression {
     // Creating value type constructor for type: WriteMethod
     WriteMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CEC0C
+    // Offset: 0x16D262C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStream::WriteMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStream::WriteMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStream::WriteMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x16CF5DC
-    void Invoke_NEW(::Array<uint8_t>* array, int offset, int count);
+    // Offset: 0x16D2FFC
+    void Invoke(::Array<uint8_t>* array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CEC1C
-    System::IAsyncResult* BeginInvoke_NEW(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x16D263C
+    System::IAsyncResult* BeginInvoke(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16CEF38
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x16D2958
+    void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/WriteMethod
   #pragma pack(pop)
 }

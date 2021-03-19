@@ -41,7 +41,7 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: TypeInfo
     TypeInfo(System::Collections::Hashtable* Attributes_ = {}, System::Collections::Hashtable* Elements_ = {}) noexcept : Attributes{Attributes_}, Elements{Elements_} {}
     // public System.Void .ctor()
-    // Offset: 0x14548B0
+    // Offset: 0x14592C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

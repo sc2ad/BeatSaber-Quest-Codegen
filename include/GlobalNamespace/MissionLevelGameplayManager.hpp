@@ -117,49 +117,49 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25444
+    // [InjectAttribute] Offset: 0xD25968
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25454
+    // [InjectAttribute] Offset: 0xD25978
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25464
+    // [InjectAttribute] Offset: 0xD25988
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25474
+    // [InjectAttribute] Offset: 0xD25998
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25484
+    // [InjectAttribute] Offset: 0xD259A8
     // private readonly MissionLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MissionLevelGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelGameplayManager::InitData*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25494
+    // [CompilerGeneratedAttribute] Offset: 0xD259B8
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* levelFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD254A4
+    // [CompilerGeneratedAttribute] Offset: 0xD259C8
     // private System.Action levelFinishedEvent
     // Size: 0x8
     // Offset: 0x50
@@ -181,46 +181,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1025EF4
-    void add_levelFailedEvent_NEW(System::Action* value);
+    // Offset: 0x10289DC
+    void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x1025F98
-    void remove_levelFailedEvent_NEW(System::Action* value);
+    // Offset: 0x1028A80
+    void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x102603C
-    void add_levelFinishedEvent_NEW(System::Action* value);
+    // Offset: 0x1028B24
+    void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x10260E0
-    void remove_levelFinishedEvent_NEW(System::Action* value);
+    // Offset: 0x1028BC8
+    void remove_levelFinishedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1026184
+    // Offset: 0x1028C6C
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x102618C
+    // Offset: 0x1028C74
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1026228
+    // Offset: 0x1028D10
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x1026580
+    // Offset: 0x1029068
     void HandleGameEnergyDidReach0();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0x10265CC
+    // Offset: 0x10290B4
     void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x10265FC
+    // Offset: 0x10290E4
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x102662C
+    // Offset: 0x1029114
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x10266A8
+    // Offset: 0x1029190
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x10266C0
+    // Offset: 0x10291A8
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x10266D8
+    // Offset: 0x10291C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

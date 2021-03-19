@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class InMultiplayerRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerRichPresenceData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD22324
+    // [CompilerGeneratedAttribute] Offset: 0xD22868
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* localizedDescription;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD22334
+    // [CompilerGeneratedAttribute] Offset: 0xD22878
     // private System.String <multiplayerLobbyCode>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IMultiplayerRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerRichPresenceData*>(this);
     }
-    // [LocalizationKeyAttribute] Offset: 0xD22344
+    // [LocalizationKeyAttribute] Offset: 0xD22888
     // static field const value: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kInMultiplayerLobbyRichPresenceLocalizationKey = "IN_MULTIPLAYER_LOBBY_PRESENCE";
     // Get static field: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
@@ -54,25 +54,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
     static void _set_kInMultiplayerLobbyRichPresenceLocalizationKey(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0xFF43C0
-    ::Il2CppString* get_apiName_NEW();
+    // Offset: 0xFF62D4
+    ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0xFF4408
-    ::Il2CppString* get_localizedDescription_NEW();
+    // Offset: 0xFF631C
+    ::Il2CppString* get_localizedDescription();
     // protected System.Void set_localizedDescription(System.String value)
-    // Offset: 0xFF4410
+    // Offset: 0xFF6324
     void set_localizedDescription(::Il2CppString* value);
     // public System.String get_multiplayerLobbyCode()
-    // Offset: 0xFF4418
-    ::Il2CppString* get_multiplayerLobbyCode_NEW();
+    // Offset: 0xFF632C
+    ::Il2CppString* get_multiplayerLobbyCode();
     // public System.Void set_multiplayerLobbyCode(System.String value)
-    // Offset: 0xFF4420
-    void set_multiplayerLobbyCode_NEW(::Il2CppString* value);
+    // Offset: 0xFF6334
+    void set_multiplayerLobbyCode(::Il2CppString* value);
     // public System.Boolean get_isJoinable()
-    // Offset: 0xFF4428
-    bool get_isJoinable_NEW();
+    // Offset: 0xFF633C
+    bool get_isJoinable();
     // public System.Void .ctor(System.String multiplayerLobbyCode)
-    // Offset: 0xFF4438
+    // Offset: 0xFF634C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InMultiplayerRichPresenceData* New_ctor(::Il2CppString* multiplayerLobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::InMultiplayerRichPresenceData::.ctor");

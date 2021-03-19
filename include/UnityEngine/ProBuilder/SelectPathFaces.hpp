@@ -60,19 +60,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Int32> s_cachedFacesIndex
     static void _set_s_cachedFacesIndex(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static public System.Collections.Generic.List`1<System.Int32> GetPath(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start, System.Int32 end)
-    // Offset: 0x13654F8
+    // Offset: 0x1367F08
     static System::Collections::Generic::List_1<int>* GetPath(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start, int end);
     // static private System.Int32[] Dijkstra(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start)
-    // Offset: 0x13658C8
+    // Offset: 0x13682D8
     static ::Array<int>* Dijkstra(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start);
     // static private System.Single GetWeight(System.Int32 face1, System.Int32 face2, UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1365F70
+    // Offset: 0x1368980
     static float GetWeight(int face1, int face2, UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Collections.Generic.List`1<System.Int32> GetMinimalPath(System.Int32[] predecessors, System.Int32 start, System.Int32 end)
-    // Offset: 0x13657B4
+    // Offset: 0x13681C4
     static System::Collections::Generic::List_1<int>* GetMinimalPath(::Array<int>* predecessors, int start, int end);
     // static private System.Void .cctor()
-    // Offset: 0x13663D8
+    // Offset: 0x1368DE8
     static void _cctor();
   }; // UnityEngine.ProBuilder.SelectPathFaces
   #pragma pack(pop)

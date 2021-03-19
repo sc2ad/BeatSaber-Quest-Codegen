@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(float beatsPerMinute_ = {}, int noteLinesCount_ = {}, float noteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}, float jumpOffsetY_ = {}) noexcept : beatsPerMinute{beatsPerMinute_}, noteLinesCount{noteLinesCount_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_}, jumpOffsetY{jumpOffsetY_} {}
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY)
-    // Offset: 0xF00620
+    // Offset: 0xF03E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, float jumpOffsetY) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnController::InitData::.ctor");

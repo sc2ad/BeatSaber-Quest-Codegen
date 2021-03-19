@@ -221,40 +221,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kEndFadeLength
     static void _set_kEndFadeLength(float value);
     // public ILazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x10C21E0
+    // Offset: 0x10C4BA4
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Void set_volumeMultiplier(System.Single value)
-    // Offset: 0x10C21E8
+    // Offset: 0x10C4BAC
     void set_volumeMultiplier(float value);
     // public System.Single get_volumeMultiplier()
-    // Offset: 0x10C21F0
+    // Offset: 0x10C4BB4
     float get_volumeMultiplier();
     // public System.Single get_time()
-    // Offset: 0x10C21F8
+    // Offset: 0x10C4BBC
     float get_time();
     // protected System.Void Awake()
-    // Offset: 0x10C2220
+    // Offset: 0x10C4BE4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10C22A0
+    // Offset: 0x10C4C64
     void Start();
     // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
-    // Offset: 0x10C22C0
+    // Offset: 0x10C4C84
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
     // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
-    // Offset: 0x10C2444
+    // Offset: 0x10C4E08
     void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
     // protected System.Void LateUpdate()
-    // Offset: 0x10C2534
+    // Offset: 0x10C4EF8
     void LateUpdate();
     // public System.Void StopPlayingAndFinish()
-    // Offset: 0x10C2760
+    // Offset: 0x10C5124
     void StopPlayingAndFinish();
     // public System.Void NoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x10C28FC
+    // Offset: 0x10C52C0
     void NoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x10C2B30
+    // Offset: 0x10C54F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

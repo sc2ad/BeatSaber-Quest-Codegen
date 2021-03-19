@@ -31,21 +31,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD09AC0
+    // [DescriptionAttribute] Offset: 0xD09F1C
     // static field const value: static public Oculus.Platform.ChallengeCreationType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static Oculus::Platform::ChallengeCreationType _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static void _set_Unknown(Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0xD09AF8
+    // [DescriptionAttribute] Offset: 0xD09F54
     // static field const value: static public Oculus.Platform.ChallengeCreationType UserCreated
     static constexpr const int UserCreated = 1;
     // Get static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static Oculus::Platform::ChallengeCreationType _get_UserCreated();
     // Set static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static void _set_UserCreated(Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0xD09B30
+    // [DescriptionAttribute] Offset: 0xD09F8C
     // static field const value: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static constexpr const int DeveloperCreated = 2;
     // Get static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated

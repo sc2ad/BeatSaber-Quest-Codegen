@@ -56,19 +56,19 @@ namespace Mono::Http {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache
     static void _set_cache(System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Net::HttpWebRequest*, Mono::Http::NtlmSession*>* value);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1429850
-    System::Net::Authorization* Authenticate_NEW(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x142E260
+    System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1429FA8
-    System::Net::Authorization* PreAuthenticate_NEW(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    // Offset: 0x142E9B8
+    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x1429FB0
-    ::Il2CppString* get_AuthenticationType_NEW();
+    // Offset: 0x142E9C0
+    ::Il2CppString* get_AuthenticationType();
     // static private System.Void .cctor()
-    // Offset: 0x142A000
+    // Offset: 0x142EA10
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1429FF8
+    // Offset: 0x142EA08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

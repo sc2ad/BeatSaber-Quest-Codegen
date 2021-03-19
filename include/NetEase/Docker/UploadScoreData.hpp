@@ -19,40 +19,40 @@ namespace NetEase::Docker {
   // [] Offset: FFFFFFFF
   struct UploadScoreData/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0E9DC
-    // [DebuggerBrowsableAttribute] Offset: 0xD0E9DC
+    // [CompilerGeneratedAttribute] Offset: 0xD0EE48
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EE48
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0EA18
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EA18
+    // [CompilerGeneratedAttribute] Offset: 0xD0EE84
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EE84
     // private System.Int32 <Difficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x8
     int Difficulty;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD0EA54
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EA54
+    // [CompilerGeneratedAttribute] Offset: 0xD0EEC0
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EEC0
     // private System.Int32 <Score>k__BackingField
     // Size: 0x4
     // Offset: 0xC
     int Score;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EA90
-    // [CompilerGeneratedAttribute] Offset: 0xD0EA90
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EEFC
+    // [CompilerGeneratedAttribute] Offset: 0xD0EEFC
     // private System.Int64 <TimeStamp>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     int64_t TimeStamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EACC
-    // [CompilerGeneratedAttribute] Offset: 0xD0EACC
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EF38
+    // [CompilerGeneratedAttribute] Offset: 0xD0EF38
     // private System.Boolean <PlayedUntilEnd>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -61,32 +61,32 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PlayedUntilEnd and: AccuracyPercentage
     char __padding4[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD0EB08
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EB08
+    // [CompilerGeneratedAttribute] Offset: 0xD0EF74
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EF74
     // private System.Single <AccuracyPercentage>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     float AccuracyPercentage;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD0EB44
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EB44
+    // [CompilerGeneratedAttribute] Offset: 0xD0EFB0
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EFB0
     // private System.Int32 <NoOfHits>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     int NoOfHits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EB80
-    // [CompilerGeneratedAttribute] Offset: 0xD0EB80
+    // [DebuggerBrowsableAttribute] Offset: 0xD0EFEC
+    // [CompilerGeneratedAttribute] Offset: 0xD0EFEC
     // private System.Int32 <NoOfMisses>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     int NoOfMisses;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD0EBBC
-    // [DebuggerBrowsableAttribute] Offset: 0xD0EBBC
+    // [CompilerGeneratedAttribute] Offset: 0xD0F028
+    // [DebuggerBrowsableAttribute] Offset: 0xD0F028
     // private System.Int32 <NoOfBombsHit>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -100,10 +100,10 @@ namespace NetEase::Docker {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void set_Track(System.String value)
-    // Offset: 0xE17B4C
+    // Offset: 0xE1C0E8
     void set_Track(::Il2CppString* value);
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0xE17B54
+    // Offset: 0xE1C0F0
     void set_Score(int value);
   }; // NetEase.Docker.UploadScoreData
   #pragma pack(pop)

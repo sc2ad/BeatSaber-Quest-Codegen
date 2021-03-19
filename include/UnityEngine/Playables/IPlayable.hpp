@@ -23,7 +23,7 @@ namespace UnityEngine::Playables {
     IPlayable() noexcept {}
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::PlayableHandle GetHandle_NEW();
+    UnityEngine::Playables::PlayableHandle GetHandle();
   }; // UnityEngine.Playables.IPlayable
   #pragma pack(pop)
 }

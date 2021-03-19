@@ -33,16 +33,16 @@ namespace UnityEngine {
   // [] Offset: FFFFFFFF
   class Logger : public ::Il2CppObject/*, public UnityEngine::ILogger*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xCAB84C
-    // [CompilerGeneratedAttribute] Offset: 0xCAB84C
+    // [CompilerGeneratedAttribute] Offset: 0xCACC9C
+    // [DebuggerBrowsableAttribute] Offset: 0xCACC9C
     // private UnityEngine.ILogHandler <logHandler>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::ILogHandler* logHandler;
     // Field size check
     static_assert(sizeof(UnityEngine::ILogHandler*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xCAB888
-    // [CompilerGeneratedAttribute] Offset: 0xCAB888
+    // [DebuggerBrowsableAttribute] Offset: 0xCACCD8
+    // [CompilerGeneratedAttribute] Offset: 0xCACCD8
     // private System.Boolean <logEnabled>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -51,8 +51,8 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: logEnabled and: filterLogType
     char __padding1[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xCAB8C4
-    // [CompilerGeneratedAttribute] Offset: 0xCAB8C4
+    // [DebuggerBrowsableAttribute] Offset: 0xCACD14
+    // [CompilerGeneratedAttribute] Offset: 0xCACD14
     // private UnityEngine.LogType <filterLogType>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -66,65 +66,65 @@ namespace UnityEngine {
       return *reinterpret_cast<UnityEngine::ILogger*>(this);
     }
     // public System.Void .ctor(UnityEngine.ILogHandler logHandler)
-    // Offset: 0x19C7820
+    // Offset: 0x19C9278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Logger* New_ctor(UnityEngine::ILogHandler* logHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(logHandler)));
     }
     // public UnityEngine.ILogHandler get_logHandler()
-    // Offset: 0x19D0510
-    UnityEngine::ILogHandler* get_logHandler_NEW();
+    // Offset: 0x19D1F68
+    UnityEngine::ILogHandler* get_logHandler();
     // public System.Void set_logHandler(UnityEngine.ILogHandler value)
-    // Offset: 0x19D0518
-    void set_logHandler_NEW(UnityEngine::ILogHandler* value);
+    // Offset: 0x19D1F70
+    void set_logHandler(UnityEngine::ILogHandler* value);
     // public System.Boolean get_logEnabled()
-    // Offset: 0x19D0520
-    bool get_logEnabled_NEW();
+    // Offset: 0x19D1F78
+    bool get_logEnabled();
     // public System.Void set_logEnabled(System.Boolean value)
-    // Offset: 0x19D0528
-    void set_logEnabled_NEW(bool value);
+    // Offset: 0x19D1F80
+    void set_logEnabled(bool value);
     // public UnityEngine.LogType get_filterLogType()
-    // Offset: 0x19D0534
-    UnityEngine::LogType get_filterLogType_NEW();
+    // Offset: 0x19D1F8C
+    UnityEngine::LogType get_filterLogType();
     // public System.Void set_filterLogType(UnityEngine.LogType value)
-    // Offset: 0x19D053C
-    void set_filterLogType_NEW(UnityEngine::LogType value);
+    // Offset: 0x19D1F94
+    void set_filterLogType(UnityEngine::LogType value);
     // public System.Boolean IsLogTypeAllowed(UnityEngine.LogType logType)
-    // Offset: 0x19D0544
-    bool IsLogTypeAllowed_NEW(UnityEngine::LogType logType);
+    // Offset: 0x19D1F9C
+    bool IsLogTypeAllowed(UnityEngine::LogType logType);
     // static private System.String GetString(System.Object message)
-    // Offset: 0x19D0580
+    // Offset: 0x19D1FD8
     static ::Il2CppString* GetString(::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message)
-    // Offset: 0x19D06B0
-    void Log_NEW(UnityEngine::LogType logType, ::Il2CppObject* message);
+    // Offset: 0x19D2108
+    void Log(UnityEngine::LogType logType, ::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
-    // Offset: 0x19D0824
-    void Log_NEW(UnityEngine::LogType logType, ::Il2CppObject* message, UnityEngine::Object* context);
+    // Offset: 0x19D227C
+    void Log(UnityEngine::LogType logType, ::Il2CppObject* message, UnityEngine::Object* context);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
-    // Offset: 0x19D09A8
-    void LogFormat_NEW(UnityEngine::LogType logType, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x19D2400
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
-    void LogFormat_NEW(UnityEngine::LogType logType, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
     template<class ...TParams>
-    void LogFormat_NEW(UnityEngine::LogType logType, ::Il2CppString* format, TParams&&... args) {
-      LogFormat_NEW(logType, format, {args...});
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, TParams&&... args) {
+      LogFormat(logType, format, {args...});
     }
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
-    // Offset: 0x19D0ABC
-    void LogFormat_NEW(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x19D2514
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
-    void LogFormat_NEW(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     template<class ...TParams>
-    void LogFormat_NEW(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
-      LogFormat_NEW(logType, context, format, {args...});
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
+      LogFormat(logType, context, format, {args...});
     }
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x19D0BD4
-    void LogException_NEW(System::Exception* exception, UnityEngine::Object* context);
+    // Offset: 0x19D262C
+    void LogException(System::Exception* exception, UnityEngine::Object* context);
   }; // UnityEngine.Logger
   #pragma pack(pop)
   static check_size<sizeof(Logger), 28 + sizeof(UnityEngine::LogType)> __UnityEngine_LoggerSizeCheck;

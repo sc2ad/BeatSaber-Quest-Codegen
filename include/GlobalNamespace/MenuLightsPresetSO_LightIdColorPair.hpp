@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* baseColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0xD323D4
+    // [RangeAttribute] Offset: 0xD32918
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x20
@@ -55,10 +55,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LightIdColorPair
     LightIdColorPair(int lightId_ = {}, GlobalNamespace::ColorSO* baseColor_ = {}, float intensity_ = {}) noexcept : lightId{lightId_}, baseColor{baseColor_}, intensity{intensity_} {}
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x1020D0C
+    // Offset: 0x10237F4
     UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0x102111C
+    // Offset: 0x1023C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

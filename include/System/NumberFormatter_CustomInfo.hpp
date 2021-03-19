@@ -124,16 +124,16 @@ namespace System {
     // Creating value type constructor for type: CustomInfo
     CustomInfo(bool UseGroup_ = {}, int DecimalDigits_ = {}, int DecimalPointPos_ = {}, int DecimalTailSharpDigits_ = {}, int IntegerDigits_ = {}, int IntegerHeadSharpDigits_ = {}, int IntegerHeadPos_ = {}, bool UseExponent_ = {}, int ExponentDigits_ = {}, int ExponentTailSharpDigits_ = {}, bool ExponentNegativeSignOnly_ = {}, int DividePlaces_ = {}, int Percents_ = {}, int Permilles_ = {}) noexcept : UseGroup{UseGroup_}, DecimalDigits{DecimalDigits_}, DecimalPointPos{DecimalPointPos_}, DecimalTailSharpDigits{DecimalTailSharpDigits_}, IntegerDigits{IntegerDigits_}, IntegerHeadSharpDigits{IntegerHeadSharpDigits_}, IntegerHeadPos{IntegerHeadPos_}, UseExponent{UseExponent_}, ExponentDigits{ExponentDigits_}, ExponentTailSharpDigits{ExponentTailSharpDigits_}, ExponentNegativeSignOnly{ExponentNegativeSignOnly_}, DividePlaces{DividePlaces_}, Percents{Percents_}, Permilles{Permilles_} {}
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x16A1248
+    // Offset: 0x16A3C68
     static void GetActiveSection(::Il2CppString* format, bool& positive, bool zero, int& offset, int& length);
     // static public System.NumberFormatter/CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x16A1534
+    // Offset: 0x16A3F54
     static System::NumberFormatter::CustomInfo* Parse(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x16A1D58
+    // Offset: 0x16A4778
     ::Il2CppString* Format(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x16A2710
+    // Offset: 0x16A5130
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

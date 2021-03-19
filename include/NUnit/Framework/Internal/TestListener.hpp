@@ -37,19 +37,19 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2096808
-    void TestStarted_NEW(NUnit::Framework::Interfaces::ITest* test);
+    // Offset: 0x209D2E4
+    void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x209680C
-    void TestFinished_NEW(NUnit::Framework::Interfaces::ITestResult* result);
+    // Offset: 0x209D2E8
+    void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x2096810
-    void TestOutput_NEW(NUnit::Framework::Interfaces::TestOutput* output);
+    // Offset: 0x209D2EC
+    void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x20957D8
+    // Offset: 0x209C2B4
     static NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // private System.Void .ctor()
-    // Offset: 0x2096814
+    // Offset: 0x209D2F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

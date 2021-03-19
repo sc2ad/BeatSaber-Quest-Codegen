@@ -39,17 +39,17 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(System.String replacement)
-    // Offset: 0x1A11C38
+    // Offset: 0x1A14690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoderReplacementFallback* New_ctor(::Il2CppString* replacement) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderReplacementFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderReplacementFallback*, creationType>(replacement)));
     }
     // public System.String get_DefaultString()
-    // Offset: 0x1A11E14
+    // Offset: 0x1A1486C
     ::Il2CppString* get_DefaultString();
     // public System.Void .ctor()
-    // Offset: 0x1A10B00
+    // Offset: 0x1A13558
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -59,24 +59,24 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderReplacementFallback*, creationType>()));
     }
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1A11E1C
+    // Offset: 0x1A14874
     // Implemented from: System.Text.DecoderFallback
-    // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer_NEW()
+    // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1A11EBC
+    // Offset: 0x1A14914
     // Implemented from: System.Text.DecoderFallback
-    // Base method: System.Int32 DecoderFallback::get_MaxCharCount_NEW()
+    // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1A11ED8
+    // Offset: 0x1A14930
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object value)
+    // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A11F68
+    // Offset: 0x1A149C0
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.DecoderReplacementFallback
   #pragma pack(pop)

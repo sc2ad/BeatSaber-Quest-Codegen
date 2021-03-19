@@ -58,7 +58,7 @@ namespace System::Collections::Generic {
     // Base method: System.Int32 EnumEqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ShortEnumEqualityComparer_1::GetHashCode");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(obj)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
   }; // System.Collections.Generic.ShortEnumEqualityComparer`1

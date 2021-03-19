@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD24FCC
+    // [SpaceAttribute] Offset: 0xD254F0
     // private UnityEngine.UI.Image _batteryLifeSegmentPrefab
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::UI::Image* batteryLifeSegmentPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD25004
+    // [SpaceAttribute] Offset: 0xD25528
     // private System.Single _batterySegmentSeparatorWidth
     // Size: 0x4
     // Offset: 0x30
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     float batterySegmentHorizontalPadding;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD2504C
+    // [InjectAttribute] Offset: 0xD25570
     // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF33E10
+    // Offset: 0xF20664
     void Start();
     // private System.Void Init()
-    // Offset: 0xF33F90
+    // Offset: 0xF207E4
     void Init();
     // protected System.Void OnDestroy()
-    // Offset: 0xF3494C
+    // Offset: 0xF211A0
     void OnDestroy();
     // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0xF34338
+    // Offset: 0xF20B8C
     void CreateUIForBatteryEnergyType(int batteryLives);
     // private System.Void RefreshEnergyUI(System.Single energy)
-    // Offset: 0xF34628
+    // Offset: 0xF20E7C
     void RefreshEnergyUI(float energy);
     // private System.Void HandleGameEnergyCounterDidInit()
-    // Offset: 0xF34AEC
+    // Offset: 0xF21340
     void HandleGameEnergyCounterDidInit();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0xF34AF0
+    // Offset: 0xF21344
     void HandleGameEnergyDidChange(float energy);
     // public System.Void .ctor()
-    // Offset: 0xF34AF4
+    // Offset: 0xF21348
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

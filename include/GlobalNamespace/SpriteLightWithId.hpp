@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD00CB8
+    // [SpaceAttribute] Offset: 0xD01114
     // private System.Boolean _hideIfAlphaOutOfRange
     // Size: 0x1
     // Offset: 0x38
@@ -45,21 +45,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideIfAlphaOutOfRange and: hideAlphaRangeMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xD00CF0
+    // [DrawIfAttribute] Offset: 0xD0114C
     // private System.Single _hideAlphaRangeMin
     // Size: 0x4
     // Offset: 0x3C
     float hideAlphaRangeMin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xD00D98
+    // [DrawIfAttribute] Offset: 0xD011F4
     // private System.Single _hideAlphaRangeMax
     // Size: 0x4
     // Offset: 0x40
     float hideAlphaRangeMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD00E40
+    // [SpaceAttribute] Offset: 0xD0129C
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x44
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0xD00E98
+    // [SpaceAttribute] Offset: 0xD012F4
     // private System.Boolean _setOnlyOnce
     // Size: 0x1
     // Offset: 0x4D
@@ -88,15 +88,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpriteLightWithId
     SpriteLightWithId(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, bool hideIfAlphaOutOfRange_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}, float intensity_ = {}, float minAlpha_ = {}, bool setColorOnly_ = {}, bool setOnlyOnce_ = {}) noexcept : spriteRenderer{spriteRenderer_}, hideIfAlphaOutOfRange{hideIfAlphaOutOfRange_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_}, intensity{intensity_}, minAlpha{minAlpha_}, setColorOnly{setColorOnly_}, setOnlyOnce{setOnlyOnce_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CE4FF0
+    // Offset: 0x1CEDAC0
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CE500C
+    // Offset: 0x1CEDADC
     // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet_NEW(UnityEngine.Color color)
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CE5168
+    // Offset: 0x1CEDC38
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

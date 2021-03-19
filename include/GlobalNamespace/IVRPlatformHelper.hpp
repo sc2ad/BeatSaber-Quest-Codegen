@@ -50,76 +50,76 @@ namespace GlobalNamespace {
     IVRPlatformHelper() noexcept {}
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_inputFocusWasCapturedEvent_NEW(System::Action* value);
+    void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_inputFocusWasCapturedEvent_NEW(System::Action* value);
+    void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_inputFocusWasReleasedEvent_NEW(System::Action* value);
+    void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_inputFocusWasReleasedEvent_NEW(System::Action* value);
+    void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_vrFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_vrFocusWasCapturedEvent_NEW(System::Action* value);
+    void add_vrFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_vrFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_vrFocusWasCapturedEvent_NEW(System::Action* value);
+    void remove_vrFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_vrFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_vrFocusWasReleasedEvent_NEW(System::Action* value);
+    void add_vrFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_vrFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_vrFocusWasReleasedEvent_NEW(System::Action* value);
+    void remove_vrFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_hmdUnmountedEvent_NEW(System::Action* value);
+    void add_hmdUnmountedEvent(System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_hmdUnmountedEvent_NEW(System::Action* value);
+    void remove_hmdUnmountedEvent(System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_hmdMountedEvent_NEW(System::Action* value);
+    void add_hmdMountedEvent(System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_hmdMountedEvent_NEW(System::Action* value);
+    void remove_hmdMountedEvent(System::Action* value);
     // public System.Void add_joystickWasCenteredThisFrameEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_joystickWasCenteredThisFrameEvent_NEW(System::Action* value);
+    void add_joystickWasCenteredThisFrameEvent(System::Action* value);
     // public System.Void remove_joystickWasCenteredThisFrameEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_joystickWasCenteredThisFrameEvent_NEW(System::Action* value);
+    void remove_joystickWasCenteredThisFrameEvent(System::Action* value);
     // public System.Void add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
     // Offset: 0xFFFFFFFF
-    void add_joystickWasNotCenteredThisFrameEvent_NEW(System::Action_1<UnityEngine::Vector2>* value);
+    void add_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
     // public System.Void remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
     // Offset: 0xFFFFFFFF
-    void remove_joystickWasNotCenteredThisFrameEvent_NEW(System::Action_1<UnityEngine::Vector2>* value);
+    void remove_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
     // public System.Boolean get_hasInputFocus()
     // Offset: 0xFFFFFFFF
-    bool get_hasInputFocus_NEW();
+    bool get_hasInputFocus();
     // public System.Boolean get_isAlwaysWireless()
     // Offset: 0xFFFFFFFF
-    bool get_isAlwaysWireless_NEW();
+    bool get_isAlwaysWireless();
     // public VRPlatformSDK get_vrPlatformSDK()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::VRPlatformSDK get_vrPlatformSDK_NEW();
+    GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
     // public XRDeviceModel get_currentXRDeviceModel()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::XRDeviceModel get_currentXRDeviceModel_NEW();
+    GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     // Offset: 0xFFFFFFFF
-    void TriggerHapticPulse_NEW(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
+    void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
     // Offset: 0xFFFFFFFF
-    void StopHaptics_NEW(UnityEngine::XR::XRNode node);
+    void StopHaptics(UnityEngine::XR::XRNode node);
     // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
     // Offset: 0xFFFFFFFF
-    void AdjustControllerTransform_NEW(UnityEngine::XR::XRNode node, UnityEngine::Transform* transform, UnityEngine::Vector3 position, UnityEngine::Vector3 rotation);
+    void AdjustControllerTransform(UnityEngine::XR::XRNode node, UnityEngine::Transform* transform, UnityEngine::Vector3 position, UnityEngine::Vector3 rotation);
     // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
     // Offset: 0xFFFFFFFF
-    bool GetNodePose_NEW(UnityEngine::XR::XRNode nodeType, int idx, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
+    bool GetNodePose(UnityEngine::XR::XRNode nodeType, int idx, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
   }; // IVRPlatformHelper
   #pragma pack(pop)
 }

@@ -30,10 +30,10 @@ namespace UnityEngine::Playables {
     IPlayableAsset() noexcept {}
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::Playable CreatePlayable_NEW(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
+    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
     // public System.Double get_duration()
     // Offset: 0xFFFFFFFF
-    double get_duration_NEW();
+    double get_duration();
   }; // UnityEngine.Playables.IPlayableAsset
   #pragma pack(pop)
 }

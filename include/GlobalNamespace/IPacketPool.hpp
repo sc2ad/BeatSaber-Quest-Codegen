@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     IPacketPool() noexcept {}
     // public System.Void Release(System.Object t)
     // Offset: 0xFFFFFFFF
-    void Release_NEW(::Il2CppObject* t);
+    void Release(::Il2CppObject* t);
   }; // IPacketPool
   #pragma pack(pop)
 }

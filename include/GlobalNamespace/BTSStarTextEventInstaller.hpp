@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BTSStarTextEventInstaller
     BTSStarTextEventInstaller(GlobalNamespace::BTSStarTextEffectController* btsStarTextEffectController_ = {}) noexcept : btsStarTextEffectController{btsStarTextEffectController_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1009DFC
+    // Offset: 0x100CDF0
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1009E7C
+    // Offset: 0x100CE70
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

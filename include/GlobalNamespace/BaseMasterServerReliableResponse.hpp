@@ -33,14 +33,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerReliableResponse : public ::Il2CppObject/*, public MasterServer::IMasterServerReliableResponse*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD05B20
+    // [CompilerGeneratedAttribute] Offset: 0xD05F7C
     // private System.UInt32 <requestId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     uint requestId;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD05B30
+    // [CompilerGeneratedAttribute] Offset: 0xD05F8C
     // private System.UInt32 <responseId>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -54,43 +54,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<MasterServer::IMasterServerReliableResponse*>(this);
     }
     // public System.UInt32 get_requestId()
-    // Offset: 0x12095B4
-    uint get_requestId_NEW();
+    // Offset: 0x120BFC4
+    uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x12095BC
+    // Offset: 0x120BFCC
     void set_requestId(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x12095C4
-    uint get_responseId_NEW();
+    // Offset: 0x120BFD4
+    uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x12095CC
+    // Offset: 0x120BFDC
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x12095D4
-    uint8_t get_resultCode_NEW();
+    // Offset: 0x120BFE4
+    uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x12095DC
-    ::Il2CppString* get_resultCodeString_NEW();
+    // Offset: 0x120BFEC
+    ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1209624
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x120C034
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1209668
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x120C078
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
-    void Release_NEW();
+    void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x12096B0
-    MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId_NEW(uint requestId);
+    // Offset: 0x120C0C0
+    MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x12096B8
-    MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId_NEW(uint responseId);
+    // Offset: 0x120C0C8
+    MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // private MasterServer.IMasterServerReliableResponse MasterServer.IMasterServerReliableResponse.WithRequestAndResponseId(System.UInt32 requestId, System.UInt32 responseId)
-    // Offset: 0x12096C0
-    MasterServer::IMasterServerReliableResponse* MasterServer_IMasterServerReliableResponse_WithRequestAndResponseId_NEW(uint requestId, uint responseId);
+    // Offset: 0x120C0D0
+    MasterServer::IMasterServerReliableResponse* MasterServer_IMasterServerReliableResponse_WithRequestAndResponseId(uint requestId, uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x12096C8
+    // Offset: 0x120C0D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

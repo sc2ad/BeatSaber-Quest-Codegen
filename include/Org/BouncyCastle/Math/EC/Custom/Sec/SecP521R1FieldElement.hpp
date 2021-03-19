@@ -47,107 +47,107 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
     static void _set_Q(Org::BouncyCastle::Math::BigInteger* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1C43A00
+    // Offset: 0x1C4B458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecP521R1FieldElement* New_ctor(Org::BouncyCastle::Math::BigInteger* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP521R1FieldElement*, creationType>(x)));
     }
     // protected internal System.Void .ctor(System.UInt32[] x)
-    // Offset: 0x1C44028
+    // Offset: 0x1C4BA80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecP521R1FieldElement* New_ctor(::Array<uint>* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP521R1FieldElement*, creationType>(x)));
     }
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1FieldElement other)
-    // Offset: 0x1C45D28
-    bool Equals_NEW(Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1FieldElement* other);
+    // Offset: 0x1C4D780
+    bool Equals(Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1FieldElement* other);
     // static private System.Void .cctor()
-    // Offset: 0x1C45E20
+    // Offset: 0x1C4D878
     static void _cctor();
     // public override System.Boolean get_IsZero()
-    // Offset: 0x1C45398
+    // Offset: 0x1C4CDF0
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: System.Boolean ECFieldElement::get_IsZero_NEW()
+    // Base method: System.Boolean ECFieldElement::get_IsZero()
     bool get_IsZero();
     // public override System.Boolean get_IsOne()
-    // Offset: 0x1C453A8
+    // Offset: 0x1C4CE00
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: System.Boolean ECFieldElement::get_IsOne_NEW()
+    // Base method: System.Boolean ECFieldElement::get_IsOne()
     bool get_IsOne();
     // public override System.Boolean TestBitZero()
-    // Offset: 0x1C453B8
+    // Offset: 0x1C4CE10
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: System.Boolean ECFieldElement::TestBitZero_NEW()
+    // Base method: System.Boolean ECFieldElement::TestBitZero()
     bool TestBitZero();
     // public override Org.BouncyCastle.Math.BigInteger ToBigInteger()
-    // Offset: 0x1C453E0
+    // Offset: 0x1C4CE38
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.BigInteger ECFieldElement::ToBigInteger_NEW()
+    // Base method: Org.BouncyCastle.Math.BigInteger ECFieldElement::ToBigInteger()
     Org::BouncyCastle::Math::BigInteger* ToBigInteger();
     // public override System.Int32 get_FieldSize()
-    // Offset: 0x1C453F0
+    // Offset: 0x1C4CE48
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: System.Int32 ECFieldElement::get_FieldSize_NEW()
+    // Base method: System.Int32 ECFieldElement::get_FieldSize()
     int get_FieldSize();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Add(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1C45464
+    // Offset: 0x1C4CEBC
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Add_NEW(Org.BouncyCastle.Math.EC.ECFieldElement b)
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Add(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Add(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement AddOne()
-    // Offset: 0x1C45558
+    // Offset: 0x1C4CFB0
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::AddOne_NEW()
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::AddOne()
     Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Subtract(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1C45600
+    // Offset: 0x1C4D058
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Subtract_NEW(Org.BouncyCastle.Math.EC.ECFieldElement b)
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Subtract(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Multiply(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1C456F4
+    // Offset: 0x1C4D14C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Multiply_NEW(Org.BouncyCastle.Math.EC.ECFieldElement b)
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Multiply(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Divide(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1C457E8
+    // Offset: 0x1C4D240
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Divide_NEW(Org.BouncyCastle.Math.EC.ECFieldElement b)
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Divide(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Divide(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Negate()
-    // Offset: 0x1C458E4
+    // Offset: 0x1C4D33C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Negate_NEW()
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Negate()
     Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Square()
-    // Offset: 0x1C4598C
+    // Offset: 0x1C4D3E4
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Square_NEW()
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Square()
     Org::BouncyCastle::Math::EC::ECFieldElement* Square();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Invert()
-    // Offset: 0x1C45A34
+    // Offset: 0x1C4D48C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Invert_NEW()
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Invert()
     Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Sqrt()
-    // Offset: 0x1C45ADC
+    // Offset: 0x1C4D534
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Sqrt_NEW()
+    // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Sqrt()
     Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1C45BF0
+    // Offset: 0x1C4D648
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Boolean ECFieldElement::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Boolean Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
-    // Offset: 0x1C45C8C
+    // Offset: 0x1C4D6E4
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
-    // Base method: System.Boolean ECFieldElement::Equals_NEW(Org.BouncyCastle.Math.EC.ECFieldElement other)
+    // Base method: System.Boolean ECFieldElement::Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
     bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C45D5C
+    // Offset: 0x1C4D7B4
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();

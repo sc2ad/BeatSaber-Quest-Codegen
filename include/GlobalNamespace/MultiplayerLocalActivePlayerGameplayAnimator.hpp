@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
-    // [SpaceAttribute] Offset: 0xD26C7C
+    // [SpaceAttribute] Offset: 0xD271A0
     // private CoreGameHUDController _coreGameHUDController
     // Size: 0x8
     // Offset: 0x68
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPositionHUDController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26CC4
+    // [InjectAttribute] Offset: 0xD271E8
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x78
@@ -72,34 +72,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLocalActivePlayerGameplayAnimator
     MultiplayerLocalActivePlayerGameplayAnimator(GlobalNamespace::CoreGameHUDController* coreGameHUDController_ = {}, GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher_ = {}, Tweening::FloatTween* fadeOutHUDTween_ = {}, bool initialized_ = {}) noexcept : coreGameHUDController{coreGameHUDController_}, multiplayerPositionHUDController{multiplayerPositionHUDController_}, levelEndActionsPublisher{levelEndActionsPublisher_}, fadeOutHUDTween{fadeOutHUDTween_}, initialized{initialized_} {}
     // private System.Void InitializeIfNeeded()
-    // Offset: 0xF4BBD0
+    // Offset: 0xF4F368
     void InitializeIfNeeded();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0xF4BE58
+    // Offset: 0xF4F5F0
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0xF4C078
+    // Offset: 0xF4F810
     void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <InitializeIfNeeded>b__6_0(System.Single f)
-    // Offset: 0xF4C0B0
+    // Offset: 0xF4F848
     void $InitializeIfNeeded$b__6_0(float f);
     // protected override System.Void OnDestroy()
-    // Offset: 0xF4BAC8
+    // Offset: 0xF4F260
     // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy_NEW()
+    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0xF4BC94
+    // Offset: 0xF4F42C
     // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged_NEW(MultiplayerController/State state)
+    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0xF4BF80
+    // Offset: 0xF4F718
     // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected_NEW(System.Boolean isLeading)
+    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // public System.Void .ctor()
-    // Offset: 0xF4C09C
+    // Offset: 0xF4F834
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

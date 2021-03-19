@@ -41,7 +41,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: EnumConverter
     EnumConverter(System::ComponentModel::TypeConverter::StandardValuesCollection* values_ = {}, System::Type* type_ = {}) noexcept : values{values_}, type{type_} {}
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x16C6FD0
+    // Offset: 0x16CA9F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumConverter* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EnumConverter::.ctor");

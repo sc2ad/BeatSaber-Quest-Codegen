@@ -56,19 +56,19 @@ namespace UnityEngine::Events {
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
-    // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl_NEW(System.String name, System.Object targetObj)
+    // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_4::FindMethod_Impl");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FindMethod_Impl", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(name, targetObj)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "FindMethod_Impl", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(name, targetObj)));
       return ::il2cpp_utils::RunMethodThrow<System::Reflection::MethodInfo*, false>(this, ___internal__method, name, targetObj);
     }
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
-    // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate_NEW(System.Object target, System.Reflection.MethodInfo theFunction)
+    // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_4::GetDelegate");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetDelegate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(target, theFunction)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetDelegate", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(target, theFunction)));
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Events::BaseInvokableCall*, false>(this, ___internal__method, target, theFunction);
     }
   }; // UnityEngine.Events.UnityEvent`4

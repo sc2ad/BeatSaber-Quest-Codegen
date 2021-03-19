@@ -33,21 +33,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerLocalPlayerDisconnectHelper : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xD2719C
+    // [InjectAttribute] Offset: 0xD276C0
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD271AC
+    // [InjectAttribute] Offset: 0xD276D0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD271BC
+    // [InjectAttribute] Offset: 0xD276E0
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x20
@@ -69,13 +69,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kEndGameLabel
     static void _set_kEndGameLabel(::Il2CppString* value);
     // public System.Void Disconnect()
-    // Offset: 0xF4CFC0
+    // Offset: 0xF50758
     void Disconnect();
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0xF4E5F4
+    // Offset: 0xF51D8C
     ::Il2CppString* ResolveDisconnectButtonString();
     // public System.Void .ctor()
-    // Offset: 0xF51D5C
+    // Offset: 0xF554F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

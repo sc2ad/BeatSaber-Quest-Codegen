@@ -40,7 +40,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LanguagePackInfo
     LanguagePackInfo(::Il2CppString* EnglishName_ = {}, ::Il2CppString* NativeName_ = {}, ::Il2CppString* Tag_ = {}) noexcept : EnglishName{EnglishName_}, NativeName{NativeName_}, Tag{Tag_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138C468
+    // Offset: 0x138EE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguagePackInfo* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LanguagePackInfo::.ctor");

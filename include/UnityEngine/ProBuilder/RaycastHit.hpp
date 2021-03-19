@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: RaycastHit
     RaycastHit(float distance_ = {}, UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, int face_ = {}) noexcept : distance{distance_}, point{point_}, normal{normal_}, face{face_} {}
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
-    // Offset: 0x13643F4
+    // Offset: 0x1366E04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RaycastHit* New_ctor(float distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int face) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::RaycastHit::.ctor");

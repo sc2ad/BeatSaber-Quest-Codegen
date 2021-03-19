@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2A610
+    // [SpaceAttribute] Offset: 0xD2AB34
     // private MockScoreSyncStateManager _mockScoreSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A668
+    // [InjectAttribute] Offset: 0xD2AB8C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A678
+    // [InjectAttribute] Offset: 0xD2AB9C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x48
@@ -78,12 +78,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerCoreInstaller
     MultiplayerCoreInstaller(GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings_ = {}, GlobalNamespace::MockScoreSyncStateManager* mockScoreSyncStateManagerPrefab_ = {}, GlobalNamespace::ScoreSyncStateManager* scoreSyncStateManagerPrefab_ = {}, GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : multiplayerMockSettings{multiplayerMockSettings_}, mockScoreSyncStateManagerPrefab{mockScoreSyncStateManagerPrefab_}, scoreSyncStateManagerPrefab{scoreSyncStateManagerPrefab_}, multiplayerBadgesModel{multiplayerBadgesModel_}, sceneSetupData{sceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1046C30
+    // Offset: 0x10487A0
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x104719C
+    // Offset: 0x1048D0C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

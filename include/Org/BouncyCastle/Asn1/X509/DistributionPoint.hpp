@@ -63,27 +63,27 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: DistributionPoint
     DistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons_ = {}, Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer_ = {}) noexcept : distributionPoint{distributionPoint_}, reasons{reasons_}, cRLIssuer{cRLIssuer_} {}
     // static public Org.BouncyCastle.Asn1.X509.DistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x1862A20
+    // Offset: 0x1864440
     static Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18636A4
+    // Offset: 0x18650C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::DistributionPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistributionPoint*, creationType>(seq)));
     }
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1863B48
+    // Offset: 0x1865568
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18638F8
+    // Offset: 0x1865318
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x18639C8
+    // Offset: 0x18653E8
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.DistributionPoint
   #pragma pack(pop)

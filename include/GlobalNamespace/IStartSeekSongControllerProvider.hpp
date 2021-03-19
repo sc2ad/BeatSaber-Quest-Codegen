@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     IStartSeekSongControllerProvider() noexcept {}
     // public IStartSeekSongController get_songController()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IStartSeekSongController* get_songController_NEW();
+    GlobalNamespace::IStartSeekSongController* get_songController();
   }; // IStartSeekSongControllerProvider
   #pragma pack(pop)
 }

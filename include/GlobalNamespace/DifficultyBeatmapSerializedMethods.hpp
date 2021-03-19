@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DifficultyBeatmapSerializedMethods
     DifficultyBeatmapSerializedMethods() noexcept {}
     // static public System.String SerializedName(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFDDB1C
+    // Offset: 0x101BCA8
     static ::Il2CppString* SerializedName(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // DifficultyBeatmapSerializedMethods
   #pragma pack(pop)

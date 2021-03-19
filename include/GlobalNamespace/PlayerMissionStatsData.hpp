@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerMissionStatsData
     PlayerMissionStatsData(::Il2CppString* missionId_ = {}, bool cleared_ = {}) noexcept : missionId{missionId_}, cleared{cleared_} {}
     // public System.String get_missionId()
-    // Offset: 0xF66878
+    // Offset: 0xF6A038
     ::Il2CppString* get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0xF66880
+    // Offset: 0xF6A040
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0xF66888
+    // Offset: 0xF6A048
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0xF62470
+    // Offset: 0xF65C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerMissionStatsData::.ctor");

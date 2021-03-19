@@ -44,35 +44,35 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD2D338
+    // [InjectAttribute] Offset: 0xD2D85C
     // private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2D348
+    // [InjectAttribute] Offset: 0xD2D86C
     // private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyCenterStageManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2D358
+    // [InjectAttribute] Offset: 0xD2D87C
     // private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2D368
+    // [InjectAttribute] Offset: 0xD2D88C
     // private readonly MenuEnvironmentManager _menuEnvironmentManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MenuEnvironmentManager* menuEnvironmentManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuEnvironmentManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2D378
+    // [CompilerGeneratedAttribute] Offset: 0xD2D89C
     // private System.Boolean <lobbyActivated>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -84,19 +84,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_lobbyActivated()
-    // Offset: 0xF493EC
+    // Offset: 0xF4CB84
     bool get_lobbyActivated();
     // private System.Void set_lobbyActivated(System.Boolean value)
-    // Offset: 0xF493F4
+    // Offset: 0xF4CB8C
     void set_lobbyActivated(bool value);
     // public System.Void ActivateMultiplayerLobby()
-    // Offset: 0xF49400
+    // Offset: 0xF4CB98
     void ActivateMultiplayerLobby();
     // public System.Void DeactivateMultiplayerLobby()
-    // Offset: 0xF4949C
+    // Offset: 0xF4CC34
     void DeactivateMultiplayerLobby();
     // public System.Void .ctor()
-    // Offset: 0xF49510
+    // Offset: 0xF4CCA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

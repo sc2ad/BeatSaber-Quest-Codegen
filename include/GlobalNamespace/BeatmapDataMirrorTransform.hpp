@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataMirrorTransform
     BeatmapDataMirrorTransform() noexcept {}
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x106D4B4
+    // Offset: 0x106F024
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private System.Void MirrorTransformBeatmapObject(BeatmapObjectData beatmapObjectData, System.Int32 beatmapLineCount)
-    // Offset: 0x106DEA4
+    // Offset: 0x106FA14
     static void MirrorTransformBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, int beatmapLineCount);
     // public System.Void .ctor()
-    // Offset: 0x106DEC0
+    // Offset: 0x106FA30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -17,24 +17,24 @@ namespace NUnit::Framework::Interfaces {
   // [] Offset: FFFFFFFF
   class TestOutput : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD10178
-    // [CompilerGeneratedAttribute] Offset: 0xD10178
+    // [DebuggerBrowsableAttribute] Offset: 0xD105E4
+    // [CompilerGeneratedAttribute] Offset: 0xD105E4
     // private System.String <Text>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD101B4
-    // [DebuggerBrowsableAttribute] Offset: 0xD101B4
+    // [CompilerGeneratedAttribute] Offset: 0xD10620
+    // [DebuggerBrowsableAttribute] Offset: 0xD10620
     // private System.String <Stream>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Stream;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD101F0
-    // [DebuggerBrowsableAttribute] Offset: 0xD101F0
+    // [CompilerGeneratedAttribute] Offset: 0xD1065C
+    // [DebuggerBrowsableAttribute] Offset: 0xD1065C
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -44,31 +44,31 @@ namespace NUnit::Framework::Interfaces {
     // Creating value type constructor for type: TestOutput
     TestOutput(::Il2CppString* Text_ = {}, ::Il2CppString* Stream_ = {}, ::Il2CppString* TestName_ = {}) noexcept : Text{Text_}, Stream{Stream_}, TestName{TestName_} {}
     // public System.Void .ctor(System.String text, System.String stream, System.String testName)
-    // Offset: 0x15A9928
+    // Offset: 0x15AE338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestOutput* New_ctor(::Il2CppString* text, ::Il2CppString* stream, ::Il2CppString* testName) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TestOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestOutput*, creationType>(text, stream, testName)));
     }
     // public System.String get_Text()
-    // Offset: 0x15A99BC
+    // Offset: 0x15AE3CC
     ::Il2CppString* get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x15A99C4
+    // Offset: 0x15AE3D4
     void set_Text(::Il2CppString* value);
     // public System.String get_Stream()
-    // Offset: 0x15A99CC
+    // Offset: 0x15AE3DC
     ::Il2CppString* get_Stream();
     // private System.Void set_Stream(System.String value)
-    // Offset: 0x15A99D4
+    // Offset: 0x15AE3E4
     void set_Stream(::Il2CppString* value);
     // private System.Void set_TestName(System.String value)
-    // Offset: 0x15A99DC
+    // Offset: 0x15AE3EC
     void set_TestName(::Il2CppString* value);
     // public override System.String ToString()
-    // Offset: 0x15A9968
+    // Offset: 0x15AE378
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Interfaces.TestOutput
   #pragma pack(pop)

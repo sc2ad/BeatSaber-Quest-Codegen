@@ -20,12 +20,12 @@ namespace System::Net::Http::Headers {
   // [] Offset: FFFFFFFF
   class RangeItemHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCF7870
+    // [CompilerGeneratedAttribute] Offset: 0xCF7CBC
     // private System.Nullable`1<System.Int64> <From>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
     System::Nullable_1<int64_t> From;
-    // [CompilerGeneratedAttribute] Offset: 0xCF7880
+    // [CompilerGeneratedAttribute] Offset: 0xCF7CCC
     // private System.Nullable`1<System.Int64> <To>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x20
@@ -37,41 +37,41 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor(System.Nullable`1<System.Int64> from, System.Nullable`1<System.Int64> to)
-    // Offset: 0x13E1410
+    // Offset: 0x13E4E20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeItemHeaderValue* New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeItemHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeItemHeaderValue*, creationType>(from, to)));
     }
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x13E16BC
+    // Offset: 0x13E50CC
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x13E16C8
+    // Offset: 0x13E50D8
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x13E16D0
+    // Offset: 0x13E50E0
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x13E16DC
+    // Offset: 0x13E50EC
     void set_To(System::Nullable_1<int64_t> value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x13E16E4
-    ::Il2CppObject* System_ICloneable_Clone_NEW();
+    // Offset: 0x13E50F4
+    ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x13E16EC
+    // Offset: 0x13E50FC
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13E17E0
+    // Offset: 0x13E51F0
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x13E1868
+    // Offset: 0x13E5278
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.RangeItemHeaderValue
   // WARNING Not writing size check since size may be invalid!

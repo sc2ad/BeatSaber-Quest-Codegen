@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     IBeatEffectDidFinishEvent() noexcept {}
     // public System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
     // Offset: 0xFFFFFFFF
-    void HandleBeatEffectDidFinish_NEW(GlobalNamespace::BeatEffect* beatEffect);
+    void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);
   }; // IBeatEffectDidFinishEvent
   #pragma pack(pop)
 }

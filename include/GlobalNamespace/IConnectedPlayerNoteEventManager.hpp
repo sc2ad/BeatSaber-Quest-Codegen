@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     IConnectedPlayerNoteEventManager() noexcept {}
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_connectedPlayerNoteWasCutEvent_NEW(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+    void add_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_connectedPlayerNoteWasCutEvent_NEW(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+    void remove_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_connectedPlayerNoteWasMissedEvent_NEW(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+    void add_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_connectedPlayerNoteWasMissedEvent_NEW(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+    void remove_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
   }; // IConnectedPlayerNoteEventManager
   #pragma pack(pop)
 }

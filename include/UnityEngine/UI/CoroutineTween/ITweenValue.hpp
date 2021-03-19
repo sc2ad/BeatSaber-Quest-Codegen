@@ -16,16 +16,16 @@ namespace UnityEngine::UI::CoroutineTween {
     ITweenValue() noexcept {}
     // public System.Void TweenValue(System.Single floatPercentage)
     // Offset: 0xFFFFFFFF
-    void TweenValue_NEW(float floatPercentage);
+    void TweenValue(float floatPercentage);
     // public System.Boolean get_ignoreTimeScale()
     // Offset: 0xFFFFFFFF
-    bool get_ignoreTimeScale_NEW();
+    bool get_ignoreTimeScale();
     // public System.Single get_duration()
     // Offset: 0xFFFFFFFF
-    float get_duration_NEW();
+    float get_duration();
     // public System.Boolean ValidTarget()
     // Offset: 0xFFFFFFFF
-    bool ValidTarget_NEW();
+    bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ITweenValue
   #pragma pack(pop)
 }

@@ -26,14 +26,14 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class RunnableContext : public Zenject::Context {
     public:
-    // [TooltipAttribute] Offset: 0xCF0DEC
+    // [TooltipAttribute] Offset: 0xCF1228
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
     bool autoRun;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCF0E38
+    // [CompilerGeneratedAttribute] Offset: 0xCF1274
     // private System.Boolean <Initialized>k__BackingField
     // Size: 0x1
     // Offset: 0x41
@@ -47,16 +47,16 @@ namespace Zenject {
     // Set static field: static private System.Boolean _staticAutoRun
     static void _set__staticAutoRun(bool value);
     // public System.Boolean get_Initialized()
-    // Offset: 0x1512C50
+    // Offset: 0x1516660
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x1512C58
+    // Offset: 0x1516668
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0x1512C64
+    // Offset: 0x1516674
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x1512D10
+    // Offset: 0x1516720
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFF
@@ -67,12 +67,12 @@ namespace Zenject {
     static T CreateComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, Zenject::RunnableContext*>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::RunnableContext::CreateComponent");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "RunnableContext", "CreateComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("Zenject", "RunnableContext", "CreateComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x1512D88
+    // Offset: 0x1516798
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -86,7 +86,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1512D98
+    // Offset: 0x15167A8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

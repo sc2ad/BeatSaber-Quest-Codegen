@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: EncryptionException
     EncryptionException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x124F3D4
+    // Offset: 0x1251DE4
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

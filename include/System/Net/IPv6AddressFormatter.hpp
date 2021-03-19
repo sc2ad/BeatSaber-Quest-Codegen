@@ -44,23 +44,23 @@ namespace System::Net {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0xDEC6B8
+    // Offset: 0xDEEC54
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IPv6AddressFormatter(::Array<uint16_t>* addr, int64_t scopeId)
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0x1494BB4
+    // Offset: 0x14995C4
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0xDEC6C0
+    // Offset: 0xDEEC5C
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0xDEC6C8
+    // Offset: 0xDEEC64
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0xDEC6D0
+    // Offset: 0xDEEC6C
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0xDEC6D8
+    // Offset: 0xDEEC74
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

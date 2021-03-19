@@ -44,16 +44,16 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return f;
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement f)
-    // Offset: 0x1872D5C
+    // Offset: 0x187477C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldElement* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* f) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldElement*, creationType>(f)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1873ABC
+    // Offset: 0x18754DC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X9.X9FieldElement
   #pragma pack(pop)

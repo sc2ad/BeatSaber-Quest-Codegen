@@ -16,7 +16,7 @@ namespace GlobalNamespace {
     IRefreshable() noexcept {}
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFF
-    void Refresh_NEW();
+    void Refresh();
   }; // IRefreshable
   #pragma pack(pop)
 }

@@ -37,13 +37,13 @@ namespace Mono::Security::Interface {
     ICertificateValidator() noexcept {}
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
     // Offset: 0xFFFFFFFF
-    Mono::Security::Interface::MonoTlsSettings* get_Settings_NEW();
+    Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
     // Offset: 0xFFFFFFFF
-    bool SelectClientCertificate_NEW(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers, System::Security::Cryptography::X509Certificates::X509Certificate*& clientCertificate);
+    bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers, System::Security::Cryptography::X509Certificates::X509Certificate*& clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
     // Offset: 0xFFFFFFFF
-    Mono::Security::Interface::ValidationResult* ValidateCertificate_NEW(::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
+    Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
   }; // Mono.Security.Interface.ICertificateValidator
   #pragma pack(pop)
 }

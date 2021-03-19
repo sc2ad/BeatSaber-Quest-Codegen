@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithAssetDetails
     MessageWithAssetDetails() noexcept {}
     // protected Oculus.Platform.Models.AssetDetails GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x138349C
+    // Offset: 0x1385EAC
     Oculus::Platform::Models::AssetDetails* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1380870
+    // Offset: 0x1383280
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,9 +41,9 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAssetDetails*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AssetDetails GetAssetDetails()
-    // Offset: 0x1383458
+    // Offset: 0x1385E68
     // Implemented from: Oculus.Platform.Message
-    // Base method: Oculus.Platform.Models.AssetDetails Message::GetAssetDetails_NEW()
+    // Base method: Oculus.Platform.Models.AssetDetails Message::GetAssetDetails()
     Oculus::Platform::Models::AssetDetails* GetAssetDetails();
   }; // Oculus.Platform.MessageWithAssetDetails
 }

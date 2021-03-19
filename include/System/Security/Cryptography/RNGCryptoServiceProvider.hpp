@@ -38,25 +38,25 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Object _lock
     static void _set__lock(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x19624E4
+    // Offset: 0x1963F04
     static void _cctor();
     // private System.Void Check()
-    // Offset: 0x19625E4
+    // Offset: 0x1964004
     void Check();
     // static private System.Boolean RngOpen()
-    // Offset: 0x1962558
+    // Offset: 0x1963F78
     static bool RngOpen();
     // static private System.IntPtr RngInitialize(System.Byte[] seed)
-    // Offset: 0x19625E0
+    // Offset: 0x1964000
     static System::IntPtr RngInitialize(::Array<uint8_t>* seed);
     // static private System.IntPtr RngGetBytes(System.IntPtr handle, System.Byte[] data)
-    // Offset: 0x1962688
+    // Offset: 0x19640A8
     static System::IntPtr RngGetBytes(System::IntPtr handle, ::Array<uint8_t>* data);
     // static private System.Void RngClose(System.IntPtr handle)
-    // Offset: 0x196268C
+    // Offset: 0x19640AC
     static void RngClose(System::IntPtr handle);
     // public System.Void .ctor()
-    // Offset: 0x196255C
+    // Offset: 0x1963F7C
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -66,19 +66,19 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<RNGCryptoServiceProvider*, creationType>()));
     }
     // public override System.Void GetBytes(System.Byte[] data)
-    // Offset: 0x1962690
+    // Offset: 0x19640B0
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
-    // Base method: System.Void RandomNumberGenerator::GetBytes_NEW(System.Byte[] data)
+    // Base method: System.Void RandomNumberGenerator::GetBytes(System.Byte[] data)
     void GetBytes(::Array<uint8_t>* data);
     // protected override System.Void Finalize()
-    // Offset: 0x1962834
+    // Offset: 0x1964254
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize_NEW()
+    // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1962904
+    // Offset: 0x1964324
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
-    // Base method: System.Void RandomNumberGenerator::Dispose_NEW(System.Boolean disposing)
+    // Base method: System.Void RandomNumberGenerator::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.RNGCryptoServiceProvider
   #pragma pack(pop)

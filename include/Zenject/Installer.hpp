@@ -22,7 +22,7 @@ namespace Zenject {
     // Creating value type constructor for type: Installer
     Installer() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x147B244
+    // Offset: 0x147FC54
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::.ctor()
     // Base method: System.Void Object::.ctor()

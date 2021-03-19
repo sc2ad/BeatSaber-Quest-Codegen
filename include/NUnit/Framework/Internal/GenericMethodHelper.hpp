@@ -29,32 +29,32 @@ namespace NUnit::Framework::Internal {
   // [] Offset: FFFFFFFF
   class GenericMethodHelper : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0F7A0
-    // [DebuggerBrowsableAttribute] Offset: 0xD0F7A0
+    // [CompilerGeneratedAttribute] Offset: 0xD0FC0C
+    // [DebuggerBrowsableAttribute] Offset: 0xD0FC0C
     // private System.Reflection.MethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::MethodInfo* Method;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0F7DC
-    // [DebuggerBrowsableAttribute] Offset: 0xD0F7DC
+    // [CompilerGeneratedAttribute] Offset: 0xD0FC48
+    // [DebuggerBrowsableAttribute] Offset: 0xD0FC48
     // private System.Type[] <TypeParms>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Array<System::Type*>* TypeParms;
     // Field size check
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0F818
-    // [CompilerGeneratedAttribute] Offset: 0xD0F818
+    // [DebuggerBrowsableAttribute] Offset: 0xD0FC84
+    // [CompilerGeneratedAttribute] Offset: 0xD0FC84
     // private System.Type[] <TypeArgs>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<System::Type*>* TypeArgs;
     // Field size check
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0F854
-    // [CompilerGeneratedAttribute] Offset: 0xD0F854
+    // [DebuggerBrowsableAttribute] Offset: 0xD0FCC0
+    // [CompilerGeneratedAttribute] Offset: 0xD0FCC0
     // private System.Type[] <ParmTypes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -64,47 +64,47 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: GenericMethodHelper
     GenericMethodHelper(System::Reflection::MethodInfo* Method_ = {}, ::Array<System::Type*>* TypeParms_ = {}, ::Array<System::Type*>* TypeArgs_ = {}, ::Array<System::Type*>* ParmTypes_ = {}) noexcept : Method{Method_}, TypeParms{TypeParms_}, TypeArgs{TypeArgs_}, ParmTypes{ParmTypes_} {}
     // public System.Void .ctor(System.Reflection.MethodInfo method)
-    // Offset: 0x208FE78
+    // Offset: 0x2096954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericMethodHelper* New_ctor(System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::GenericMethodHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericMethodHelper*, creationType>(method)));
     }
     // private System.Reflection.MethodInfo get_Method()
-    // Offset: 0x2090020
+    // Offset: 0x2096AFC
     System::Reflection::MethodInfo* get_Method();
     // private System.Void set_Method(System.Reflection.MethodInfo value)
-    // Offset: 0x2090028
+    // Offset: 0x2096B04
     void set_Method(System::Reflection::MethodInfo* value);
     // private System.Type[] get_TypeParms()
-    // Offset: 0x2090030
+    // Offset: 0x2096B0C
     ::Array<System::Type*>* get_TypeParms();
     // private System.Void set_TypeParms(System.Type[] value)
-    // Offset: 0x2090038
+    // Offset: 0x2096B14
     void set_TypeParms(::Array<System::Type*>* value);
     // private System.Type[] get_TypeArgs()
-    // Offset: 0x2090040
+    // Offset: 0x2096B1C
     ::Array<System::Type*>* get_TypeArgs();
     // private System.Void set_TypeArgs(System.Type[] value)
-    // Offset: 0x2090048
+    // Offset: 0x2096B24
     void set_TypeArgs(::Array<System::Type*>* value);
     // private System.Type[] get_ParmTypes()
-    // Offset: 0x2090050
+    // Offset: 0x2096B2C
     ::Array<System::Type*>* get_ParmTypes();
     // private System.Void set_ParmTypes(System.Type[] value)
-    // Offset: 0x2090058
+    // Offset: 0x2096B34
     void set_ParmTypes(::Array<System::Type*>* value);
     // public System.Type[] GetTypeArguments(System.Object[] argList)
-    // Offset: 0x2090060
+    // Offset: 0x2096B3C
     ::Array<System::Type*>* GetTypeArguments(::Array<::Il2CppObject*>* argList);
     // private System.Void TryApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x2090164
+    // Offset: 0x2096C40
     void TryApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Void ApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x209031C
+    // Offset: 0x2096DF8
     void ApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Boolean IsAssignableToGenericType(System.Type givenType, System.Type genericType)
-    // Offset: 0x2090420
+    // Offset: 0x2096EFC
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
   #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: DropdownEvent
     DropdownEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1750958
+    // Offset: 0x1754378
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

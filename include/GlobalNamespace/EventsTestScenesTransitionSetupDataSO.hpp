@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EventsTestScenesTransitionSetupDataSO
     EventsTestScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* eventsTestSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}) noexcept : environmentInfo{environmentInfo_}, eventsTestSceneInfo{eventsTestSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_} {}
     // public System.Void Init()
-    // Offset: 0xF2A434
+    // Offset: 0xF16D84
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xF2A5FC
+    // Offset: 0xF16F4C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

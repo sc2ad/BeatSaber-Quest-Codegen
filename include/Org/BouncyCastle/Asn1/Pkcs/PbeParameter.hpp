@@ -52,25 +52,25 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: PbeParameter
     PbeParameter(Org::BouncyCastle::Asn1::Asn1OctetString* salt_ = {}, Org::BouncyCastle::Asn1::DerInteger* iterationCount_ = {}) noexcept : salt{salt_}, iterationCount{iterationCount_} {}
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeParameter GetInstance(System.Object obj)
-    // Offset: 0x16027E4
+    // Offset: 0x1607204
     static Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1602964
+    // Offset: 0x1607384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PbeParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParameter*, creationType>(seq)));
     }
     // public System.Byte[] GetSalt()
-    // Offset: 0x1602A64
+    // Offset: 0x1607484
     ::Array<uint8_t>* GetSalt();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1602A84
+    // Offset: 0x16074A4
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1602AA0
+    // Offset: 0x16074C0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.Pkcs.PbeParameter
   #pragma pack(pop)

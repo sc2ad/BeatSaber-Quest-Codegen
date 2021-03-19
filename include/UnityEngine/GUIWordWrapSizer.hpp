@@ -51,21 +51,21 @@ namespace UnityEngine {
     // Creating value type constructor for type: GUIWordWrapSizer
     GUIWordWrapSizer(UnityEngine::GUIContent* m_Content_ = {}, float m_ForcedMinHeight_ = {}, float m_ForcedMaxHeight_ = {}) noexcept : m_Content{m_Content_}, m_ForcedMinHeight{m_ForcedMinHeight_}, m_ForcedMaxHeight{m_ForcedMaxHeight_} {}
     // public System.Void .ctor(UnityEngine.GUIStyle style, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x190B880
+    // Offset: 0x190C2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIWordWrapSizer* New_ctor(UnityEngine::GUIStyle* style, UnityEngine::GUIContent* content, ::Array<UnityEngine::GUILayoutOption*>* options) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIWordWrapSizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIWordWrapSizer*, creationType>(style, content, options)));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x1910790
+    // Offset: 0x19111B0
     // Implemented from: UnityEngine.GUILayoutEntry
-    // Base method: System.Void GUILayoutEntry::CalcWidth_NEW()
+    // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void CalcHeight()
-    // Offset: 0x1910854
+    // Offset: 0x1911274
     // Implemented from: UnityEngine.GUILayoutEntry
-    // Base method: System.Void GUILayoutEntry::CalcHeight_NEW()
+    // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
   }; // UnityEngine.GUIWordWrapSizer
   #pragma pack(pop)

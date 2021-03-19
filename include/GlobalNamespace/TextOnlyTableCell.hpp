@@ -60,26 +60,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextOnlyTableCell
     TextOnlyTableCell(UnityEngine::Color selectedHighlightColor_ = {}, TMPro::TextMeshProUGUI* text_ = {}, HMUI::ImageView* bgImage_ = {}, HMUI::ImageView* highlightImage_ = {}) noexcept : selectedHighlightColor{selectedHighlightColor_}, text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
     // public System.String get_text()
-    // Offset: 0x101EDD8
+    // Offset: 0xFE5648
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x101EDF4
+    // Offset: 0xFE5664
     void set_text(::Il2CppString* value);
     // private System.Void RefreshVisuals()
-    // Offset: 0x101EE14
+    // Offset: 0xFE5684
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x101EE10
+    // Offset: 0xFE5680
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x101EEDC
+    // Offset: 0xFE574C
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x101EEE0
+    // Offset: 0xFE5750
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

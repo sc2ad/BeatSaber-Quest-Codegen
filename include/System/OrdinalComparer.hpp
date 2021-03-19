@@ -32,36 +32,36 @@ namespace System {
       return ignoreCase;
     }
     // System.Void .ctor(System.Boolean ignoreCase)
-    // Offset: 0x1AB9BF4
+    // Offset: 0x1ABF64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrdinalComparer* New_ctor(bool ignoreCase) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::OrdinalComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrdinalComparer*, creationType>(ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x1AB9C74
+    // Offset: 0x1ABF6CC
     // Implemented from: System.StringComparer
-    // Base method: System.Int32 StringComparer::Compare_NEW(System.String x, System.String y)
+    // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1AB9CCC
+    // Offset: 0x1ABF724
     // Implemented from: System.StringComparer
-    // Base method: System.Boolean StringComparer::Equals_NEW(System.String x, System.String y)
+    // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1AB9D4C
+    // Offset: 0x1ABF7A4
     // Implemented from: System.StringComparer
-    // Base method: System.Int32 StringComparer::GetHashCode_NEW(System.String obj)
+    // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::Il2CppString* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1AB9E04
+    // Offset: 0x1ABF85C
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AB9E9C
+    // Offset: 0x1ABF8F4
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.OrdinalComparer
   #pragma pack(pop)

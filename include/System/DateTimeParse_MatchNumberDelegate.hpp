@@ -35,21 +35,21 @@ namespace System {
     // Creating value type constructor for type: MatchNumberDelegate
     MatchNumberDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1998824
+    // Offset: 0x199A244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeParse::MatchNumberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeParse::MatchNumberDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeParse::MatchNumberDelegate*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref System.__DTString str, System.Int32 digitLen, out System.Int32 result)
-    // Offset: 0x1997DE4
-    bool Invoke_NEW(System::__DTString& str, int digitLen, int& result);
+    // Offset: 0x1999804
+    bool Invoke(System::__DTString& str, int digitLen, int& result);
     // public System.IAsyncResult BeginInvoke(ref System.__DTString str, System.Int32 digitLen, out System.Int32 result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1998834
-    System::IAsyncResult* BeginInvoke_NEW(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x199A254
+    System::IAsyncResult* BeginInvoke(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.__DTString str, out System.Int32 result, System.IAsyncResult __result)
-    // Offset: 0x1998900
-    bool EndInvoke_NEW(System::__DTString& str, int& result, System::IAsyncResult* __result);
+    // Offset: 0x199A320
+    bool EndInvoke(System::__DTString& str, int& result, System::IAsyncResult* __result);
   }; // System.DateTimeParse/MatchNumberDelegate
   #pragma pack(pop)
 }

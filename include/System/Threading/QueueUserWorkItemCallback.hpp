@@ -63,23 +63,23 @@ namespace System::Threading {
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(System::Threading::ContextCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x16FC3E4
+    // Offset: 0x16FFE04
     static void _cctor();
     // System.Void .ctor(System.Threading.WaitCallback waitCallback, System.Object stateObj, System.Boolean compressStack, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x16FC45C
+    // Offset: 0x16FFE7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QueueUserWorkItemCallback* New_ctor(System::Threading::WaitCallback* waitCallback, ::Il2CppObject* stateObj, bool compressStack, System::Threading::StackCrawlMark& stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::QueueUserWorkItemCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QueueUserWorkItemCallback*, creationType>(waitCallback, stateObj, compressStack, stackMark)));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x16FC51C
-    void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem_NEW();
+    // Offset: 0x16FFF3C
+    void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x16FC5F4
-    void System_Threading_IThreadPoolWorkItem_MarkAborted_NEW(System::Threading::ThreadAbortException* tae);
+    // Offset: 0x1700014
+    void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
     // static private System.Void WaitCallback_Context(System.Object state)
-    // Offset: 0x16FC5F8
+    // Offset: 0x1700018
     static void WaitCallback_Context(::Il2CppObject* state);
   }; // System.Threading.QueueUserWorkItemCallback
   #pragma pack(pop)

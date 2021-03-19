@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     IAnalyticsModel() noexcept {}
     // public System.Boolean get_supportsOpenDataPrivacyPage()
     // Offset: 0xFFFFFFFF
-    bool get_supportsOpenDataPrivacyPage_NEW();
+    bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
     // Offset: 0xFFFFFFFF
-    void OpenDataPrivacyPage_NEW();
+    void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
     // Offset: 0xFFFFFFFF
-    void LogEvent_NEW(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
+    void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
   }; // IAnalyticsModel
   #pragma pack(pop)
 }

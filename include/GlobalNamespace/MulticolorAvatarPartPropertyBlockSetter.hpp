@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* colorDataList;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1F42C
+    // [SpaceAttribute] Offset: 0xD1F930
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1F464
+    // [SpaceAttribute] Offset: 0xD1F968
     // private System.Boolean _editInPlayMode
     // Size: 0x1
     // Offset: 0x28
@@ -98,16 +98,16 @@ namespace GlobalNamespace {
     MulticolorAvatarPartPropertyBlockSetter(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* colorDataList_ = {}, UnityEngine::Renderer* renderer_ = {}, bool editInPlayMode_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}, ::Array<UnityEngine::Vector4>* rimLightColors_ = {}, ::Array<UnityEngine::Color>* boostColors_ = {}, bool highlighted_ = {}, int uvSegment_ = {}) noexcept : colorDataList{colorDataList_}, renderer{renderer_}, editInPlayMode{editInPlayMode_}, colors{colors_}, rimLightColors{rimLightColors_}, boostColors{boostColors_}, highlighted{highlighted_}, uvSegment{uvSegment_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD1F49C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD1F9A0
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // protected System.Void OnValidate()
-    // Offset: 0x103793C
+    // Offset: 0x1039424
     void OnValidate();
     // public System.Void SetColors(params UnityEngine.Color[] colors)
-    // Offset: 0x1037AB4
+    // Offset: 0x103959C
     void SetColors(::Array<UnityEngine::Color>* colors);
     // Creating initializer_list -> params proxy for: System.Void SetColors(params UnityEngine.Color[] colors)
     void SetColors(std::initializer_list<UnityEngine::Color> colors);
@@ -117,13 +117,13 @@ namespace GlobalNamespace {
       SetColors({colors...});
     }
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x1037E40
+    // Offset: 0x1039928
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x1037CD4
+    // Offset: 0x10397BC
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1037E50
+    // Offset: 0x1039938
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

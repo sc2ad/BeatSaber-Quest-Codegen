@@ -31,21 +31,21 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class InteractionObject::InteractionEvent : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD16FA4
+    // [TooltipAttribute] Offset: 0xD17410
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD16FDC
+    // [TooltipAttribute] Offset: 0xD17448
     // public System.Boolean pause
     // Size: 0x1
     // Offset: 0x14
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xD17014
+    // [TooltipAttribute] Offset: 0xD17480
     // public System.Boolean pickUp
     // Size: 0x1
     // Offset: 0x15
@@ -54,21 +54,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
     char __padding2[0x2] = {};
-    // [TooltipAttribute] Offset: 0xD1704C
+    // [TooltipAttribute] Offset: 0xD174B8
     // public RootMotion.FinalIK.InteractionObject/AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* animations;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD17084
+    // [TooltipAttribute] Offset: 0xD174F0
     // public RootMotion.FinalIK.InteractionObject/Message[] messages
     // Size: 0x8
     // Offset: 0x20
     ::Array<RootMotion::FinalIK::InteractionObject::Message*>* messages;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::Message*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD170BC
+    // [TooltipAttribute] Offset: 0xD17528
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
     // Offset: 0x28
@@ -78,10 +78,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: InteractionEvent
     InteractionEvent(float time_ = {}, bool pause_ = {}, bool pickUp_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* animations_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::Message*>* messages_ = {}, UnityEngine::Events::UnityEvent* unityEvent_ = {}) noexcept : time{time_}, pause{pause_}, pickUp{pickUp_}, animations{animations_}, messages{messages_}, unityEvent{unityEvent_} {}
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x1BF5048
+    // Offset: 0x1BFAAA0
     void Activate(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1BF709C
+    // Offset: 0x1BFCAF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -63,26 +63,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
-    // Offset: 0x1C52CFC
+    // Offset: 0x1C5A754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor(Org::BouncyCastle::Crypto::IRsa* rsa) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>(rsa)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x1C52D28
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
+    // Offset: 0x1C5A780
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1C52F50
-    int GetInputBlockSize_NEW();
+    // Offset: 0x1C5A9A8
+    int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1C53004
-    int GetOutputBlockSize_NEW();
+    // Offset: 0x1C5AA5C
+    int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1C530B8
-    ::Array<uint8_t>* ProcessBlock_NEW(::Array<uint8_t>* inBuf, int inOff, int inLen);
+    // Offset: 0x1C5AB10
+    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBuf, int inOff, int inLen);
     // public System.Void .ctor()
-    // Offset: 0x1C52C88
+    // Offset: 0x1C5A6E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

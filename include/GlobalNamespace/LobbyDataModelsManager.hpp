@@ -30,28 +30,28 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LobbyDataModelsManager : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xD2127C
+    // [InjectAttribute] Offset: 0xD217B0
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2128C
+    // [InjectAttribute] Offset: 0xD217C0
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2129C
+    // [InjectAttribute] Offset: 0xD217D0
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD212AC
+    // [InjectAttribute] Offset: 0xD217E0
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x28
@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LobbyDataModelsManager
     LobbyDataModelsManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, lobbyGameStateController{lobbyGameStateController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_} {}
     // public System.Void Activate()
-    // Offset: 0x109EFA8
+    // Offset: 0x10A194C
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x109F1B8
+    // Offset: 0x10A1B5C
     void Deactivate();
     // public System.Void .ctor()
-    // Offset: 0x109F354
+    // Offset: 0x10A1CF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xD249E8
+    // [SpaceAttribute] Offset: 0xD24F0C
     // private System.Single _transitionSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* movementData;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD24A30
+    // [SpaceAttribute] Offset: 0xD24F54
     // private UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x28
     ::Array<UnityEngine::Transform*>* transforms;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD24A68
+    // [InjectAttribute] Offset: 0xD24F8C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -101,25 +101,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10370E4
+    // Offset: 0x1038BCC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10373E0
+    // Offset: 0x1038EC8
     void OnDestroy();
     // protected System.Void FixedUpdate()
-    // Offset: 0x10374E0
+    // Offset: 0x1038FC8
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1037660
+    // Offset: 0x1039148
     void LateUpdate();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x103774C
+    // Offset: 0x1039234
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void SetLocalPositionOffsetsForAllObjects(UnityEngine.Vector3 localPositionOffset)
-    // Offset: 0x10372A8
+    // Offset: 0x1038D90
     void SetLocalPositionOffsetsForAllObjects(UnityEngine::Vector3 localPositionOffset);
     // public System.Void .ctor()
-    // Offset: 0x10377A4
+    // Offset: 0x103928C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

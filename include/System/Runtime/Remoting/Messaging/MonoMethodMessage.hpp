@@ -166,97 +166,97 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static System.String UriKey
     static void _set_UriKey(::Il2CppString* value);
     // System.Void InitMessage(System.Reflection.MonoMethod method, System.Object[] out_args)
-    // Offset: 0x18B273C
+    // Offset: 0x18B315C
     void InitMessage(System::Reflection::MonoMethod* method, ::Array<::Il2CppObject*>* out_args);
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Object[] out_args)
-    // Offset: 0x18B29B8
+    // Offset: 0x18B33D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMethodMessage* New_ctor(System::Reflection::MethodBase* method, ::Array<::Il2CppObject*>* out_args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(method, out_args)));
     }
     // System.Void .ctor(System.Reflection.MethodInfo minfo, System.Object[] in_args, System.Object[] out_args)
-    // Offset: 0x18B2A88
+    // Offset: 0x18B34A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMethodMessage* New_ctor(System::Reflection::MethodInfo* minfo, ::Array<::Il2CppObject*>* in_args, ::Array<::Il2CppObject*>* out_args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(minfo, in_args, out_args)));
     }
     // static private System.Reflection.MethodInfo GetMethodInfo(System.Type type, System.String methodName)
-    // Offset: 0x18B2BD0
+    // Offset: 0x18B35F0
     static System::Reflection::MethodInfo* GetMethodInfo(System::Type* type, ::Il2CppString* methodName);
     // public System.Void .ctor(System.Type type, System.String methodName, System.Object[] in_args)
-    // Offset: 0x18B2CB0
+    // Offset: 0x18B36D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoMethodMessage* New_ctor(System::Type* type, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* in_args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(type, methodName, in_args)));
     }
     // public System.Collections.IDictionary get_Properties()
-    // Offset: 0x18B2D48
-    System::Collections::IDictionary* get_Properties_NEW();
+    // Offset: 0x18B3768
+    System::Collections::IDictionary* get_Properties();
     // public System.Int32 get_ArgCount()
-    // Offset: 0x18B2DB4
-    int get_ArgCount_NEW();
+    // Offset: 0x18B37D4
+    int get_ArgCount();
     // public System.Object[] get_Args()
-    // Offset: 0x18B2E80
-    ::Array<::Il2CppObject*>* get_Args_NEW();
+    // Offset: 0x18B38A0
+    ::Array<::Il2CppObject*>* get_Args();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
-    // Offset: 0x18B2E88
-    System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext_NEW();
+    // Offset: 0x18B38A8
+    System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // public System.Void set_LogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext value)
-    // Offset: 0x18B2E90
+    // Offset: 0x18B38B0
     void set_LogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
     // public System.Reflection.MethodBase get_MethodBase()
-    // Offset: 0x18B2E98
-    System::Reflection::MethodBase* get_MethodBase_NEW();
+    // Offset: 0x18B38B8
+    System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
-    // Offset: 0x18B2EA0
-    ::Il2CppString* get_MethodName_NEW();
+    // Offset: 0x18B38C0
+    ::Il2CppString* get_MethodName();
     // public System.Object get_MethodSignature()
-    // Offset: 0x18B2F28
-    ::Il2CppObject* get_MethodSignature_NEW();
+    // Offset: 0x18B3948
+    ::Il2CppObject* get_MethodSignature();
     // public System.String get_TypeName()
-    // Offset: 0x18B3054
-    ::Il2CppString* get_TypeName_NEW();
+    // Offset: 0x18B3A74
+    ::Il2CppString* get_TypeName();
     // public System.String get_Uri()
-    // Offset: 0x18B30F0
-    ::Il2CppString* get_Uri_NEW();
+    // Offset: 0x18B3B10
+    ::Il2CppString* get_Uri();
     // public System.Void set_Uri(System.String value)
-    // Offset: 0x18B30F8
-    void set_Uri_NEW(::Il2CppString* value);
+    // Offset: 0x18B3B18
+    void set_Uri(::Il2CppString* value);
     // public System.Object GetArg(System.Int32 arg_num)
-    // Offset: 0x18B3100
-    ::Il2CppObject* GetArg_NEW(int arg_num);
+    // Offset: 0x18B3B20
+    ::Il2CppObject* GetArg(int arg_num);
     // public System.Exception get_Exception()
-    // Offset: 0x18B313C
-    System::Exception* get_Exception_NEW();
+    // Offset: 0x18B3B5C
+    System::Exception* get_Exception();
     // public System.Int32 get_OutArgCount()
-    // Offset: 0x18B3144
-    int get_OutArgCount_NEW();
+    // Offset: 0x18B3B64
+    int get_OutArgCount();
     // public System.Object[] get_OutArgs()
-    // Offset: 0x18B31BC
-    ::Array<::Il2CppObject*>* get_OutArgs_NEW();
+    // Offset: 0x18B3BDC
+    ::Array<::Il2CppObject*>* get_OutArgs();
     // public System.Object get_ReturnValue()
-    // Offset: 0x18B32FC
-    ::Il2CppObject* get_ReturnValue_NEW();
+    // Offset: 0x18B3D1C
+    ::Il2CppObject* get_ReturnValue();
     // private System.Runtime.Remoting.Identity System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity()
-    // Offset: 0x18B3304
-    System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity_NEW();
+    // Offset: 0x18B3D24
+    System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
     // private System.Void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(System.Runtime.Remoting.Identity value)
-    // Offset: 0x18B330C
-    void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity_NEW(System::Runtime::Remoting::Identity* value);
+    // Offset: 0x18B3D2C
+    void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity* value);
     // public System.Runtime.Remoting.Messaging.AsyncResult get_AsyncResult()
-    // Offset: 0x18B3314
+    // Offset: 0x18B3D34
     System::Runtime::Remoting::Messaging::AsyncResult* get_AsyncResult();
     // System.Runtime.Remoting.Messaging.CallType get_CallType()
-    // Offset: 0x18B2DF8
+    // Offset: 0x18B3818
     System::Runtime::Remoting::Messaging::CallType get_CallType();
     // public System.Boolean NeedsOutProcessing(out System.Int32 outCount)
-    // Offset: 0x18B33B0
+    // Offset: 0x18B3DD0
     bool NeedsOutProcessing(int& outCount);
     // static private System.Void .cctor()
-    // Offset: 0x18B344C
+    // Offset: 0x18B3E6C
     static void _cctor();
   }; // System.Runtime.Remoting.Messaging.MonoMethodMessage
   #pragma pack(pop)

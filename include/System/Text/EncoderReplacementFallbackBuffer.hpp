@@ -47,41 +47,41 @@ namespace System::Text {
     // Creating value type constructor for type: EncoderReplacementFallbackBuffer
     EncoderReplacementFallbackBuffer(::Il2CppString* strDefault_ = {}, int fallbackCount_ = {}, int fallbackIndex_ = {}) noexcept : strDefault{strDefault_}, fallbackCount{fallbackCount_}, fallbackIndex{fallbackIndex_} {}
     // public System.Void .ctor(System.Text.EncoderReplacementFallback fallback)
-    // Offset: 0x1AFEA8C
+    // Offset: 0x1B044E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallbackBuffer* New_ctor(System::Text::EncoderReplacementFallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallbackBuffer*, creationType>(fallback)));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1AFEBA8
+    // Offset: 0x1B04600
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Boolean EncoderFallbackBuffer::Fallback_NEW(System.Char charUnknown, System.Int32 index)
+    // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1AFED18
+    // Offset: 0x1B04770
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Boolean EncoderFallbackBuffer::Fallback_NEW(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
+    // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1AFEFF8
+    // Offset: 0x1B04A50
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Char EncoderFallbackBuffer::GetNextChar_NEW()
+    // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1AFF044
+    // Offset: 0x1B04A9C
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious_NEW()
+    // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1AFF074
+    // Offset: 0x1B04ACC
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining_NEW()
+    // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public override System.Void Reset()
-    // Offset: 0x1AFF080
+    // Offset: 0x1B04AD8
     // Implemented from: System.Text.EncoderFallbackBuffer
-    // Base method: System.Void EncoderFallbackBuffer::Reset_NEW()
+    // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Text.EncoderReplacementFallbackBuffer
   #pragma pack(pop)

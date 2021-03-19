@@ -49,15 +49,15 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x154008C
+    // Offset: 0x1543A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerApplicationSpecificParser* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerApplicationSpecificParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecificParser*, creationType>(tag, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x15400C8
-    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object_NEW();
+    // Offset: 0x1543AD8
+    Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerApplicationSpecificParser
   #pragma pack(pop)
   static check_size<sizeof(BerApplicationSpecificParser), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*)> __Org_BouncyCastle_Asn1_BerApplicationSpecificParserSizeCheck;

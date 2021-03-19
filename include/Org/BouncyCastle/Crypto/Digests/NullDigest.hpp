@@ -43,28 +43,28 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return bOut;
     }
     // public System.String get_AlgorithmName()
-    // Offset: 0x1AF7A84
-    ::Il2CppString* get_AlgorithmName_NEW();
+    // Offset: 0x1AFD4DC
+    ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1AF7ACC
-    int GetByteLength_NEW();
+    // Offset: 0x1AFD524
+    int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1AF7AD4
-    int GetDigestSize_NEW();
+    // Offset: 0x1AFD52C
+    int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1AF7AFC
-    void Update_NEW(uint8_t b);
+    // Offset: 0x1AFD554
+    void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1AF7B20
-    void BlockUpdate_NEW(::Array<uint8_t>* inBytes, int inOff, int len);
+    // Offset: 0x1AFD578
+    void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1AF7B44
-    int DoFinal_NEW(::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1AFD59C
+    int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1AF7BD0
-    void Reset_NEW();
+    // Offset: 0x1AFD628
+    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1AF7BF8
+    // Offset: 0x1AFD650
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

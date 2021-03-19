@@ -79,43 +79,43 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // static private System.Int32[] GenerateWorkingKey(System.Byte[] userKey)
-    // Offset: 0x1711AC0
+    // Offset: 0x17154E0
     static ::Array<int>* GenerateWorkingKey(::Array<uint8_t>* userKey);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1711C44
-    void Init_NEW(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x1715664
+    void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1711EF4
-    int GetMacSize_NEW();
+    // Offset: 0x1715914
+    int GetMacSize();
     // private System.Int32 gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x1711EFC
+    // Offset: 0x171591C
     int gost28147_mainStep(int n1, int key);
     // private System.Void gost28147MacFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1711FF0
+    // Offset: 0x1715A10
     void gost28147MacFunc(::Array<int>* workingKey, ::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1711BC4
+    // Offset: 0x17155E4
     static int bytesToint(::Array<uint8_t>* input, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x17120E0
+    // Offset: 0x1715B00
     static void intTobytes(int num, ::Array<uint8_t>* output, int outOff);
     // static private System.Byte[] CM5func(System.Byte[] buf, System.Int32 bufOff, System.Byte[] mac)
-    // Offset: 0x171216C
+    // Offset: 0x1715B8C
     static ::Array<uint8_t>* CM5func(::Array<uint8_t>* buf, int bufOff, ::Array<uint8_t>* mac);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1712260
-    void Update_NEW(uint8_t input);
+    // Offset: 0x1715C80
+    void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1712388
-    void BlockUpdate_NEW(::Array<uint8_t>* input, int inOff, int len);
+    // Offset: 0x1715DA8
+    void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1712598
-    int DoFinal_NEW(::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1715FB8
+    int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1711EB0
-    void Reset_NEW();
+    // Offset: 0x17158D0
+    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1711A0C
+    // Offset: 0x171542C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

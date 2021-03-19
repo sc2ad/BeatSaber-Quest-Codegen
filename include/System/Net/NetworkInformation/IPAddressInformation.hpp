@@ -28,9 +28,9 @@ namespace System::Net::NetworkInformation {
     IPAddressInformation() noexcept {}
     // public System.Net.IPAddress get_Address()
     // Offset: 0xFFFFFFFF
-    System::Net::IPAddress* get_Address_NEW();
+    System::Net::IPAddress* get_Address();
     // protected System.Void .ctor()
-    // Offset: 0x1325EA4
+    // Offset: 0x13288B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

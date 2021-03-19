@@ -175,37 +175,37 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISaberMovementDataProcessor*>(this);
     }
     // public System.Single get_beforeCutRating()
-    // Offset: 0xF67DA0
-    float get_beforeCutRating_NEW();
+    // Offset: 0xF6C8CC
+    float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0xF67DA8
-    float get_afterCutRating_NEW();
+    // Offset: 0xF6C8D4
+    float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0xF67DB0
-    void RegisterDidChangeReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    // Offset: 0xF6C8DC
+    void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0xF67E18
-    void RegisterDidFinishReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    // Offset: 0xF6C944
+    void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0xF67E80
-    void UnregisterDidChangeReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    // Offset: 0xF6C9AC
+    void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0xF67EE8
-    void UnregisterDidFinishReceiver_NEW(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    // Offset: 0xF6CA14
+    void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform)
-    // Offset: 0xF67F50
+    // Offset: 0xF6CA7C
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0xF6807C
-    void ProcessNewData_NEW(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
+    // Offset: 0xF6CBA8
+    void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // private System.Void Finish()
-    // Offset: 0xF68578
+    // Offset: 0xF6D0A4
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0xF686C0
+    // Offset: 0xF6D1EC
     void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0xF689A4
+    // Offset: 0xF6D4D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

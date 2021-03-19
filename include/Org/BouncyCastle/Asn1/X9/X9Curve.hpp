@@ -66,29 +66,29 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: X9Curve
     X9Curve(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, ::Array<uint8_t>* seed_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* fieldIdentifier_ = {}) noexcept : curve{curve_}, seed{seed_}, fieldIdentifier{fieldIdentifier_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, System.Byte[] seed)
-    // Offset: 0x1872248
+    // Offset: 0x1873C68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9Curve* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, ::Array<uint8_t>* seed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9Curve*, creationType>(curve, seed)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X9.X9FieldID fieldID, Org.BouncyCastle.Math.BigInteger order, Org.BouncyCastle.Math.BigInteger cofactor, Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18723C8
+    // Offset: 0x1873DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9Curve* New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, Org::BouncyCastle::Math::BigInteger* order, Org::BouncyCastle::Math::BigInteger* cofactor, Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9Curve*, creationType>(fieldID, order, cofactor, seq)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
-    // Offset: 0x1872AD4
+    // Offset: 0x18744F4
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // public System.Byte[] GetSeed()
-    // Offset: 0x1872ADC
+    // Offset: 0x18744FC
     ::Array<uint8_t>* GetSeed();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1872B48
+    // Offset: 0x1874568
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X9.X9Curve
   #pragma pack(pop)

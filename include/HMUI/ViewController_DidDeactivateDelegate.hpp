@@ -33,21 +33,21 @@ namespace HMUI {
     // Creating value type constructor for type: DidDeactivateDelegate
     DidDeactivateDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x211A878
+    // Offset: 0x211E360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController::DidDeactivateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewController::DidDeactivateDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController::DidDeactivateDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x211A888
-    void Invoke_NEW(bool removedFromHierarchy, bool screenSystemDisabling);
+    // Offset: 0x211E370
+    void Invoke(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.IAsyncResult BeginInvoke(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x211AB18
-    System::IAsyncResult* BeginInvoke_NEW(bool removedFromHierarchy, bool screenSystemDisabling, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x211E600
+    System::IAsyncResult* BeginInvoke(bool removedFromHierarchy, bool screenSystemDisabling, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x211ABC4
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x211E6AC
+    void EndInvoke(System::IAsyncResult* result);
   }; // HMUI.ViewController/DidDeactivateDelegate
   #pragma pack(pop)
 }

@@ -64,145 +64,145 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: NetDataReader
     NetDataReader(::Array<uint8_t>* data_ = {}, int position_ = {}, int dataSize_ = {}, int offset_ = {}) noexcept : data{data_}, position{position_}, dataSize{dataSize_}, offset{offset_} {}
     // public System.Byte[] get_RawData()
-    // Offset: 0x19FA0D8
+    // Offset: 0x19FCB30
     ::Array<uint8_t>* get_RawData();
     // public System.Int32 get_RawDataSize()
-    // Offset: 0x19FA0E0
+    // Offset: 0x19FCB38
     int get_RawDataSize();
     // public System.Int32 get_UserDataOffset()
-    // Offset: 0x19FA0E8
+    // Offset: 0x19FCB40
     int get_UserDataOffset();
     // public System.Int32 get_UserDataSize()
-    // Offset: 0x19FA0F0
+    // Offset: 0x19FCB48
     int get_UserDataSize();
     // public System.Boolean get_IsNull()
-    // Offset: 0x19F0454
+    // Offset: 0x19F2EAC
     bool get_IsNull();
     // public System.Int32 get_Position()
-    // Offset: 0x19FA0FC
+    // Offset: 0x19FCB54
     int get_Position();
     // public System.Boolean get_EndOfData()
-    // Offset: 0x19FA104
+    // Offset: 0x19FCB5C
     bool get_EndOfData();
     // public System.Int32 get_AvailableBytes()
-    // Offset: 0x19FA114
+    // Offset: 0x19FCB6C
     int get_AvailableBytes();
     // public System.Void SkipBytes(System.Int32 count)
-    // Offset: 0x19FA120
+    // Offset: 0x19FCB78
     void SkipBytes(int count);
     // public System.Void SetSource(LiteNetLib.Utils.NetDataWriter dataWriter)
-    // Offset: 0x19FA130
+    // Offset: 0x19FCB88
     void SetSource(LiteNetLib::Utils::NetDataWriter* dataWriter);
     // public System.Void SetSource(System.Byte[] source)
-    // Offset: 0x19FA15C
+    // Offset: 0x19FCBB4
     void SetSource(::Array<uint8_t>* source);
     // public System.Void SetSource(System.Byte[] source, System.Int32 offset)
-    // Offset: 0x19FA184
+    // Offset: 0x19FCBDC
     void SetSource(::Array<uint8_t>* source, int offset);
     // public System.Void SetSource(System.Byte[] source, System.Int32 offset, System.Int32 maxSize)
-    // Offset: 0x19ECB30
+    // Offset: 0x19EF588
     void SetSource(::Array<uint8_t>* source, int offset, int maxSize);
     // public System.Void .ctor(System.Byte[] source)
-    // Offset: 0x19FA1AC
+    // Offset: 0x19FCC04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::Array<uint8_t>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source)));
     }
     // public System.Void .ctor(System.Byte[] source, System.Int32 offset)
-    // Offset: 0x19FA1F0
+    // Offset: 0x19FCC48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::Array<uint8_t>* source, int offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source, offset)));
     }
     // public System.Void .ctor(System.Byte[] source, System.Int32 offset, System.Int32 maxSize)
-    // Offset: 0x19EE0AC
+    // Offset: 0x19F0B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::Array<uint8_t>* source, int offset, int maxSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source, offset, maxSize)));
     }
     // public System.Net.IPEndPoint GetNetEndPoint()
-    // Offset: 0x19FA240
+    // Offset: 0x19FCC98
     System::Net::IPEndPoint* GetNetEndPoint();
     // public System.Byte GetByte()
-    // Offset: 0x19FA440
+    // Offset: 0x19FCE98
     uint8_t GetByte();
     // public System.SByte GetSByte()
-    // Offset: 0x19FA48C
+    // Offset: 0x19FCEE4
     int8_t GetSByte();
     // public System.Boolean[] GetBoolArray()
-    // Offset: 0x19FA4D8
+    // Offset: 0x19FCF30
     ::Array<bool>* GetBoolArray();
     // public System.UInt16[] GetUShortArray()
-    // Offset: 0x19FA5B8
+    // Offset: 0x19FD010
     ::Array<uint16_t>* GetUShortArray();
     // public System.Int16[] GetShortArray()
-    // Offset: 0x19FA694
+    // Offset: 0x19FD0EC
     ::Array<int16_t>* GetShortArray();
     // public System.Int64[] GetLongArray()
-    // Offset: 0x19FA770
+    // Offset: 0x19FD1C8
     ::Array<int64_t>* GetLongArray();
     // public System.UInt64[] GetULongArray()
-    // Offset: 0x19FA84C
+    // Offset: 0x19FD2A4
     ::Array<uint64_t>* GetULongArray();
     // public System.Int32[] GetIntArray()
-    // Offset: 0x19FA928
+    // Offset: 0x19FD380
     ::Array<int>* GetIntArray();
     // public System.UInt32[] GetUIntArray()
-    // Offset: 0x19FAA04
+    // Offset: 0x19FD45C
     ::Array<uint>* GetUIntArray();
     // public System.Single[] GetFloatArray()
-    // Offset: 0x19FAAE0
+    // Offset: 0x19FD538
     ::Array<float>* GetFloatArray();
     // public System.Double[] GetDoubleArray()
-    // Offset: 0x19FABBC
+    // Offset: 0x19FD614
     ::Array<double>* GetDoubleArray();
     // public System.String[] GetStringArray()
-    // Offset: 0x19FAC98
+    // Offset: 0x19FD6F0
     ::Array<::Il2CppString*>* GetStringArray();
     // public System.String[] GetStringArray(System.Int32 maxStringLength)
-    // Offset: 0x19FADC4
+    // Offset: 0x19FD81C
     ::Array<::Il2CppString*>* GetStringArray(int maxStringLength);
     // public System.Boolean GetBool()
-    // Offset: 0x19FAF00
+    // Offset: 0x19FD958
     bool GetBool();
     // public System.Char GetChar()
-    // Offset: 0x19FAF54
+    // Offset: 0x19FD9AC
     ::Il2CppChar GetChar();
     // public System.UInt16 GetUShort()
-    // Offset: 0x19FAFE0
+    // Offset: 0x19FDA38
     uint16_t GetUShort();
     // public System.Int16 GetShort()
-    // Offset: 0x19FB06C
+    // Offset: 0x19FDAC4
     int16_t GetShort();
     // public System.Int64 GetLong()
-    // Offset: 0x19FB0F8
+    // Offset: 0x19FDB50
     int64_t GetLong();
     // public System.UInt64 GetULong()
-    // Offset: 0x19FB184
+    // Offset: 0x19FDBDC
     uint64_t GetULong();
     // public System.Int32 GetInt()
-    // Offset: 0x19FA3B4
+    // Offset: 0x19FCE0C
     int GetInt();
     // public System.UInt32 GetUInt()
-    // Offset: 0x19FB210
+    // Offset: 0x19FDC68
     uint GetUInt();
     // public System.Single GetFloat()
-    // Offset: 0x19FB29C
+    // Offset: 0x19FDCF4
     float GetFloat();
     // public System.Double GetDouble()
-    // Offset: 0x19FB328
+    // Offset: 0x19FDD80
     double GetDouble();
     // public System.String GetString(System.Int32 maxLength)
-    // Offset: 0x19FA2C8
+    // Offset: 0x19FCD20
     ::Il2CppString* GetString(int maxLength);
     // public System.String GetString()
-    // Offset: 0x19E7C58
+    // Offset: 0x19EA6B0
     ::Il2CppString* GetString();
     // public System.ArraySegment`1<System.Byte> GetRemainingBytesSegment()
-    // Offset: 0x19FB3B4
+    // Offset: 0x19FDE0C
     System::ArraySegment_1<uint8_t> GetRemainingBytesSegment();
     // public T Get()
     // Offset: 0xFFFFFFFF
@@ -210,117 +210,117 @@ namespace LiteNetLib::Utils {
     T Get() {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::Get");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes()));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method);
     }
     // public System.Byte[] GetRemainingBytes()
-    // Offset: 0x19FB438
+    // Offset: 0x19FDE90
     ::Array<uint8_t>* GetRemainingBytes();
     // public System.Void GetBytes(System.Byte[] destination, System.Int32 start, System.Int32 count)
-    // Offset: 0x19FB4C8
+    // Offset: 0x19FDF20
     void GetBytes(::Array<uint8_t>* destination, int start, int count);
     // public System.Void GetBytes(System.Byte[] destination, System.Int32 count)
-    // Offset: 0x19FB514
+    // Offset: 0x19FDF6C
     void GetBytes(::Array<uint8_t>* destination, int count);
     // public System.SByte[] GetSBytesWithLength()
-    // Offset: 0x19FB560
+    // Offset: 0x19FDFB8
     ::Array<int8_t>* GetSBytesWithLength();
     // public System.Byte[] GetBytesWithLength()
-    // Offset: 0x19FB600
+    // Offset: 0x19FE058
     ::Array<uint8_t>* GetBytesWithLength();
     // public System.Byte PeekByte()
-    // Offset: 0x19FB6A0
+    // Offset: 0x19FE0F8
     uint8_t PeekByte();
     // public System.SByte PeekSByte()
-    // Offset: 0x19FB6E0
+    // Offset: 0x19FE138
     int8_t PeekSByte();
     // public System.Boolean PeekBool()
-    // Offset: 0x19FB720
+    // Offset: 0x19FE178
     bool PeekBool();
     // public System.Char PeekChar()
-    // Offset: 0x19FB768
+    // Offset: 0x19FE1C0
     ::Il2CppChar PeekChar();
     // public System.UInt16 PeekUShort()
-    // Offset: 0x19FB7DC
+    // Offset: 0x19FE234
     uint16_t PeekUShort();
     // public System.Int16 PeekShort()
-    // Offset: 0x19FB850
+    // Offset: 0x19FE2A8
     int16_t PeekShort();
     // public System.Int64 PeekLong()
-    // Offset: 0x19FB8C4
+    // Offset: 0x19FE31C
     int64_t PeekLong();
     // public System.UInt64 PeekULong()
-    // Offset: 0x19FB938
+    // Offset: 0x19FE390
     uint64_t PeekULong();
     // public System.Int32 PeekInt()
-    // Offset: 0x19FB9AC
+    // Offset: 0x19FE404
     int PeekInt();
     // public System.UInt32 PeekUInt()
-    // Offset: 0x19FBA20
+    // Offset: 0x19FE478
     uint PeekUInt();
     // public System.Single PeekFloat()
-    // Offset: 0x19FBA94
+    // Offset: 0x19FE4EC
     float PeekFloat();
     // public System.Double PeekDouble()
-    // Offset: 0x19FBB08
+    // Offset: 0x19FE560
     double PeekDouble();
     // public System.String PeekString(System.Int32 maxLength)
-    // Offset: 0x19FBB7C
+    // Offset: 0x19FE5D4
     ::Il2CppString* PeekString(int maxLength);
     // public System.String PeekString()
-    // Offset: 0x19FBC9C
+    // Offset: 0x19FE6F4
     ::Il2CppString* PeekString();
     // public System.Boolean TryGetByte(out System.Byte result)
-    // Offset: 0x19FBD78
+    // Offset: 0x19FE7D0
     bool TryGetByte(uint8_t& result);
     // public System.Boolean TryGetSByte(out System.SByte result)
-    // Offset: 0x19FBDC0
+    // Offset: 0x19FE818
     bool TryGetSByte(int8_t& result);
     // public System.Boolean TryGetBool(out System.Boolean result)
-    // Offset: 0x19FBE08
+    // Offset: 0x19FE860
     bool TryGetBool(bool& result);
     // public System.Boolean TryGetChar(out System.Char result)
-    // Offset: 0x19FBE50
+    // Offset: 0x19FE8A8
     bool TryGetChar(::Il2CppChar& result);
     // public System.Boolean TryGetShort(out System.Int16 result)
-    // Offset: 0x19FBE98
+    // Offset: 0x19FE8F0
     bool TryGetShort(int16_t& result);
     // public System.Boolean TryGetUShort(out System.UInt16 result)
-    // Offset: 0x19FBEE0
+    // Offset: 0x19FE938
     bool TryGetUShort(uint16_t& result);
     // public System.Boolean TryGetInt(out System.Int32 result)
-    // Offset: 0x19FBF28
+    // Offset: 0x19FE980
     bool TryGetInt(int& result);
     // public System.Boolean TryGetUInt(out System.UInt32 result)
-    // Offset: 0x19FBF70
+    // Offset: 0x19FE9C8
     bool TryGetUInt(uint& result);
     // public System.Boolean TryGetLong(out System.Int64 result)
-    // Offset: 0x19FBFB8
+    // Offset: 0x19FEA10
     bool TryGetLong(int64_t& result);
     // public System.Boolean TryGetULong(out System.UInt64 result)
-    // Offset: 0x19FC000
+    // Offset: 0x19FEA58
     bool TryGetULong(uint64_t& result);
     // public System.Boolean TryGetFloat(out System.Single result)
-    // Offset: 0x19FC048
+    // Offset: 0x19FEAA0
     bool TryGetFloat(float& result);
     // public System.Boolean TryGetDouble(out System.Double result)
-    // Offset: 0x19FC08C
+    // Offset: 0x19FEAE4
     bool TryGetDouble(double& result);
     // public System.Boolean TryGetString(out System.String result)
-    // Offset: 0x19FC0D0
+    // Offset: 0x19FEB28
     bool TryGetString(::Il2CppString*& result);
     // public System.Boolean TryGetStringArray(out System.String[] result)
-    // Offset: 0x19FC138
+    // Offset: 0x19FEB90
     bool TryGetStringArray(::Array<::Il2CppString*>*& result);
     // public System.Boolean TryGetBytesWithLength(out System.Byte[] result)
-    // Offset: 0x19FC230
+    // Offset: 0x19FEC88
     bool TryGetBytesWithLength(::Array<uint8_t>*& result);
     // public System.Void Clear()
-    // Offset: 0x19F4E34
+    // Offset: 0x19F788C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x19ECA38
+    // Offset: 0x19EF490
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

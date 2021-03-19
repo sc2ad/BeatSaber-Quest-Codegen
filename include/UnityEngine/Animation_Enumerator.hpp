@@ -40,21 +40,21 @@ namespace UnityEngine {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(UnityEngine.Animation outer)
-    // Offset: 0x213F9A0
+    // Offset: 0x2141488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Animation::Enumerator* New_ctor(UnityEngine::Animation* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animation::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Animation::Enumerator*, creationType>(outer)));
     }
     // public System.Object get_Current()
-    // Offset: 0x213FAA4
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x214158C
+    ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x213FAFC
-    bool MoveNext_NEW();
+    // Offset: 0x21415E4
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x213FB68
-    void Reset_NEW();
+    // Offset: 0x2141650
+    void Reset();
   }; // UnityEngine.Animation/Enumerator
   #pragma pack(pop)
   static check_size<sizeof(Animation::Enumerator), 24 + sizeof(int)> __UnityEngine_Animation_EnumeratorSizeCheck;

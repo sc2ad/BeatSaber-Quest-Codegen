@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BeatmapDataSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [HideInInspector] Offset: 0xD200B4
+    // [HideInInspector] Offset: 0xD205E8
     // public System.String _jsonData
     // Size: 0x8
     // Offset: 0x18
@@ -78,22 +78,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapData get_beatmapData()
-    // Offset: 0x106EA90
+    // Offset: 0x1070600
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void set_beatmapData(BeatmapData value)
-    // Offset: 0x106EB04
+    // Offset: 0x1070674
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x106EB0C
+    // Offset: 0x107067C
     void SetJsonData(::Il2CppString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x106EB14
+    // Offset: 0x1070684
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);
     // public System.Void Load()
-    // Offset: 0x106EAC0
+    // Offset: 0x1070630
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x106EB28
+    // Offset: 0x1070698
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

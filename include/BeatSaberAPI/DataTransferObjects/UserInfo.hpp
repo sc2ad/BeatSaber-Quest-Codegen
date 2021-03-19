@@ -32,7 +32,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: UserInfo
     UserInfo(::Il2CppString* platformUserId_ = {}, ::Il2CppString* publicPlatformDisplayName_ = {}) noexcept : platformUserId{platformUserId_}, publicPlatformDisplayName{publicPlatformDisplayName_} {}
     // public System.Void .ctor()
-    // Offset: 0x10653DC
+    // Offset: 0x1066F4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

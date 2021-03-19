@@ -24,7 +24,7 @@ namespace NUnit::Compatibility {
     // Creating value type constructor for type: TypeExtensions
     TypeExtensions() noexcept {}
     // static public System.Type GetTypeInfo(System.Type type)
-    // Offset: 0x15988A4
+    // Offset: 0x159D2B4
     static System::Type* GetTypeInfo(System::Type* type);
   }; // NUnit.Compatibility.TypeExtensions
   #pragma pack(pop)

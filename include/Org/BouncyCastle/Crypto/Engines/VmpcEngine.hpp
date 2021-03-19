@@ -67,19 +67,19 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x170A830
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x170E250
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x170A9AC
-    void InitKey_NEW(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
+    // Offset: 0x170E3CC
+    void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x170ABD8
-    void ProcessBytes_NEW(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x170E5F8
+    void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x170ADB8
-    void Reset_NEW();
+    // Offset: 0x170E7D8
+    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x170ADC8
+    // Offset: 0x170E7E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

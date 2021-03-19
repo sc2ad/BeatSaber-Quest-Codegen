@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardData
     LeaderboardData(::Il2CppString* leaderboardId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores_ = {}) noexcept : leaderboardId{leaderboardId_}, scores{scores_} {}
     // public System.Void .ctor()
-    // Offset: 0x10AB7E8
+    // Offset: 0x10AE18C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

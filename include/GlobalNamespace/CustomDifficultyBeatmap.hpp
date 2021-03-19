@@ -81,28 +81,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
     // public IBeatmapLevel get_level()
-    // Offset: 0xFD9D6C
-    GlobalNamespace::IBeatmapLevel* get_level_NEW();
+    // Offset: 0x1017EF8
+    GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0xFD9D74
-    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet_NEW();
+    // Offset: 0x1017F00
+    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xFD9D7C
-    GlobalNamespace::BeatmapDifficulty get_difficulty_NEW();
+    // Offset: 0x1017F08
+    GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0xFD9D84
-    int get_difficultyRank_NEW();
+    // Offset: 0x1017F10
+    int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xFD9D8C
-    float get_noteJumpMovementSpeed_NEW();
+    // Offset: 0x1017F18
+    float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xFD9D94
-    float get_noteJumpStartBeatOffset_NEW();
+    // Offset: 0x1017F20
+    float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0xFD9D9C
-    GlobalNamespace::BeatmapData* get_beatmapData_NEW();
+    // Offset: 0x1017F28
+    GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor(IBeatmapLevel level, IDifficultyBeatmapSet parentDifficultyBeatmapSet, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapData beatmapData)
-    // Offset: 0xFD9DA4
+    // Offset: 0x1017F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomDifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapData* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomDifficultyBeatmap::.ctor");

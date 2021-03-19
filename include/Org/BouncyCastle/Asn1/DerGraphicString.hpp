@@ -40,31 +40,31 @@ namespace Org::BouncyCastle::Asn1 {
       return mString;
     }
     // public System.Void .ctor(System.Byte[] encoding)
-    // Offset: 0x15414CC
+    // Offset: 0x1544EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerGraphicString* New_ctor(::Array<uint8_t>* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGraphicString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGraphicString*, creationType>(encoding)));
     }
     // public override System.String GetString()
-    // Offset: 0x154F1AC
+    // Offset: 0x1552BBC
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
-    // Base method: System.String DerStringBase::GetString_NEW()
+    // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x154F1B8
+    // Offset: 0x1552BC8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Void Asn1Object::Encode_NEW(Org.BouncyCastle.Asn1.DerOutputStream derOut)
+    // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x154F1DC
+    // Offset: 0x1552BEC
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x154F248
+    // Offset: 0x1552C58
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
-    // Base method: System.Boolean Asn1Object::Asn1Equals_NEW(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
+    // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerGraphicString
   #pragma pack(pop)

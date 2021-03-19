@@ -30,10 +30,10 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     IRemoteTestResultDataFactory() noexcept {}
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0xFFFFFFFF
-    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult_NEW(NUnit::Framework::Interfaces::ITestResult* result);
+    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest_NEW(NUnit::Framework::Interfaces::ITest* test);
+    UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
   #pragma pack(pop)
 }

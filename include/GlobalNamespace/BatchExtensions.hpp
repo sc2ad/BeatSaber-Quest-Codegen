@@ -42,8 +42,8 @@ namespace GlobalNamespace {
     template<class T>
     static System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>* Batch(System::Collections::Generic::IEnumerable_1<T>* enumerable, int batchSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BatchExtensions::Batch");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "BatchExtensions", "Batch", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable, batchSize)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "BatchExtensions", "Batch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable, batchSize)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, enumerable, batchSize);
     }
   }; // BatchExtensions

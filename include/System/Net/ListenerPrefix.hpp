@@ -67,44 +67,44 @@ namespace System::Net {
     // Creating value type constructor for type: ListenerPrefix
     ListenerPrefix(::Il2CppString* original_ = {}, ::Il2CppString* host_ = {}, uint16_t port_ = {}, ::Il2CppString* path_ = {}, bool secure_ = {}, System::Net::HttpListener* Listener_ = {}) noexcept : original{original_}, host{host_}, port{port_}, path{path_}, secure{secure_}, Listener{Listener_} {}
     // public System.Void .ctor(System.String prefix)
-    // Offset: 0x1495D88
+    // Offset: 0x149A798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerPrefix* New_ctor(::Il2CppString* prefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerPrefix*, creationType>(prefix)));
     }
     // public System.Boolean get_Secure()
-    // Offset: 0x149609C
+    // Offset: 0x149AAAC
     bool get_Secure();
     // public System.String get_Host()
-    // Offset: 0x14960A4
+    // Offset: 0x149AAB4
     ::Il2CppString* get_Host();
     // public System.Int32 get_Port()
-    // Offset: 0x14960AC
+    // Offset: 0x149AABC
     int get_Port();
     // public System.String get_Path()
-    // Offset: 0x14960B4
+    // Offset: 0x149AAC4
     ::Il2CppString* get_Path();
     // private System.Void Parse(System.String uri)
-    // Offset: 0x1495DBC
+    // Offset: 0x149A7CC
     void Parse(::Il2CppString* uri);
     // static public System.Void CheckUri(System.String uri)
-    // Offset: 0x1488A18
+    // Offset: 0x148D428
     static void CheckUri(::Il2CppString* uri);
     // public override System.String ToString()
-    // Offset: 0x1496094
+    // Offset: 0x149AAA4
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x14960BC
+    // Offset: 0x149AACC
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object o)
+    // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1496150
+    // Offset: 0x149AB60
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.ListenerPrefix
   #pragma pack(pop)

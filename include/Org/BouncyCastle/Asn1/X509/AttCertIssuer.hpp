@@ -54,26 +54,26 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
     // static public Org.BouncyCastle.Asn1.X509.AttCertIssuer GetInstance(System.Object obj)
-    // Offset: 0x1860428
+    // Offset: 0x1861E48
     static Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.GeneralNames names)
-    // Offset: 0x18607C4
+    // Offset: 0x18621E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttCertIssuer* New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames* names) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttCertIssuer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttCertIssuer*, creationType>(names)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.V2Form v2Form)
-    // Offset: 0x186073C
+    // Offset: 0x186215C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttCertIssuer* New_ctor(Org::BouncyCastle::Asn1::X509::V2Form* v2Form) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttCertIssuer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttCertIssuer*, creationType>(v2Form)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18608CC
+    // Offset: 0x18622EC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.AttCertIssuer
   #pragma pack(pop)

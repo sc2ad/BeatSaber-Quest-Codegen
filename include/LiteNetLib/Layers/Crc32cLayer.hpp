@@ -29,7 +29,7 @@ namespace LiteNetLib::Layers {
     // Creating value type constructor for type: Crc32cLayer
     Crc32cLayer() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19EBE14
+    // Offset: 0x19EE86C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,14 +38,14 @@ namespace LiteNetLib::Layers {
       return THROW_UNLESS((::il2cpp_utils::New<Crc32cLayer*, creationType>()));
     }
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x19EBE6C
+    // Offset: 0x19EE8C4
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
-    // Base method: System.Void PacketLayerBase::ProcessInboundPacket_NEW(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
+    // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x19EC4CC
+    // Offset: 0x19EEF24
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
-    // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket_NEW(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
+    // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
   }; // LiteNetLib.Layers.Crc32cLayer
   #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace Zenject {
     IPrefabProvider() noexcept {}
     // public UnityEngine.Object GetPrefab()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* GetPrefab_NEW();
+    UnityEngine::Object* GetPrefab();
   }; // Zenject.IPrefabProvider
   #pragma pack(pop)
 }

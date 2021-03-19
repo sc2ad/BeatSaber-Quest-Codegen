@@ -91,7 +91,7 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     static_assert(sizeof(ToggleWithCallbacks::SelectionState) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD03D08
+    // [CompilerGeneratedAttribute] Offset: 0xD04164
     // private System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x120
@@ -101,21 +101,21 @@ namespace HMUI {
     // Creating value type constructor for type: ToggleWithCallbacks
     ToggleWithCallbacks(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent_ = {}) noexcept : stateDidChangeEvent{stateDidChangeEvent_} {}
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x1201F70
+    // Offset: 0x1204980
     void add_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x1202228
+    // Offset: 0x1204C38
     void remove_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public HMUI.ToggleWithCallbacks/SelectionState get_selectionState()
-    // Offset: 0x12022D8
+    // Offset: 0x1204CE8
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x1206490
+    // Offset: 0x1208EA0
     // Implemented from: UnityEngine.UI.Selectable
-    // Base method: System.Void Selectable::DoStateTransition_NEW(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
+    // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x120651C
+    // Offset: 0x1208F2C
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()

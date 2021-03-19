@@ -60,30 +60,30 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
     // public System.Single get_time()
-    // Offset: 0xF027EC
-    float get_time_NEW();
+    // Offset: 0xF05FE0
+    float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0xF027F4
+    // Offset: 0xF05FE8
     int get_lineIndex();
     // public ObstacleType get_type()
-    // Offset: 0xF027FC
+    // Offset: 0xF05FF0
     GlobalNamespace::ObstacleType get_type();
     // public System.Single get_duration()
-    // Offset: 0xF02804
+    // Offset: 0xF05FF8
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0xF0280C
+    // Offset: 0xF06000
     int get_width();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType type, System.Single duration, System.Int32 width)
-    // Offset: 0xF02814
+    // Offset: 0xF06008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType type, float duration, int width) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::ObstacleData*, creationType>(time, lineIndex, type, duration, width)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xF0286C
-    void MoveTime_NEW(float offset);
+    // Offset: 0xF06060
+    void MoveTime(float offset);
   }; // BeatmapSaveData/ObstacleData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::ObstacleData), 32 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_ObstacleDataSizeCheck;

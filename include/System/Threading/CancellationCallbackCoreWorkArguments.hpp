@@ -48,7 +48,7 @@ namespace System::Threading {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0xDF5818
+    // Offset: 0xDF7DB4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex)
   }; // System.Threading.CancellationCallbackCoreWorkArguments

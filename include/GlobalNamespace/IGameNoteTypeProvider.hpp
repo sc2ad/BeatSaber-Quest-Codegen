@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     IGameNoteTypeProvider() noexcept {}
     // public GameNoteController/GameNoteType get_gameNoteType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType_NEW();
+    GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
   }; // IGameNoteTypeProvider
   #pragma pack(pop)
 }

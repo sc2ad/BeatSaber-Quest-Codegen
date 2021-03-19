@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     IBeatmapLevelData() noexcept {}
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0xFFFFFFFF
-    UnityEngine::AudioClip* get_audioClip_NEW();
+    UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
     // Offset: 0xFFFFFFFF
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets_NEW();
+    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
   }; // IBeatmapLevelData
   #pragma pack(pop)
 }

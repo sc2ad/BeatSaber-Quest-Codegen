@@ -51,28 +51,28 @@ namespace MasterServer {
     // Creating value type constructor for type: ConnectToMatchmakingRequest
     ConnectToMatchmakingRequest(GlobalNamespace::GameplayServerConfiguration configuration_ = {}, ::Il2CppString* secret_ = {}) noexcept : configuration{configuration_}, secret{secret_} {}
     // static public PacketPool`1<MasterServer.ConnectToMatchmakingRequest> get_pool()
-    // Offset: 0x1284D24
+    // Offset: 0x1287734
     static GlobalNamespace::PacketPool_1<MasterServer::ConnectToMatchmakingRequest*>* get_pool();
     // public MasterServer.ConnectToMatchmakingRequest Init(System.String userId, System.String userName, GameplayServerConfiguration configuration, System.String secret)
-    // Offset: 0x1284D6C
+    // Offset: 0x128777C
     MasterServer::ConnectToMatchmakingRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1284D84
+    // Offset: 0x1287794
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1284DD0
+    // Offset: 0x12877E0
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1284E38
+    // Offset: 0x1287848
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1284EA0
+    // Offset: 0x12878B0
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()

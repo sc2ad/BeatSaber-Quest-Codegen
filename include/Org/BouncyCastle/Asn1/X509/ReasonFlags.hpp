@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: ReasonFlags
     ReasonFlags() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString reasons)
-    // Offset: 0x1863830
+    // Offset: 0x1865250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReasonFlags* New_ctor(Org::BouncyCastle::Asn1::DerBitString* reasons) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::ReasonFlags::.ctor");

@@ -17,28 +17,28 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   struct OVRSkeletonRenderer::SkeletonRendererData/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCE3C04
+    // [CompilerGeneratedAttribute] Offset: 0xCE4040
     // private System.Single <RootScale>k__BackingField
     // Size: 0x4
     // Offset: 0x0
     float RootScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCE3C14
+    // [CompilerGeneratedAttribute] Offset: 0xCE4050
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x4
     bool IsDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCE3C24
+    // [CompilerGeneratedAttribute] Offset: 0xCE4060
     // private System.Boolean <IsDataHighConfidence>k__BackingField
     // Size: 0x1
     // Offset: 0x5
     bool IsDataHighConfidence;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xCE3C34
+    // [CompilerGeneratedAttribute] Offset: 0xCE4070
     // private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     // Size: 0x1
     // Offset: 0x6
@@ -52,28 +52,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Single get_RootScale()
-    // Offset: 0xE0A4B4
+    // Offset: 0xE0DA50
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0xE0A4BC
+    // Offset: 0xE0DA58
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xE0A4C4
+    // Offset: 0xE0DA60
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xE0A4CC
+    // Offset: 0xE0DA68
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xE0A4D8
+    // Offset: 0xE0DA74
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xE0A4E0
+    // Offset: 0xE0DA7C
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xE0A4EC
+    // Offset: 0xE0DA88
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xE0A4F4
+    // Offset: 0xE0DA90
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
   #pragma pack(pop)

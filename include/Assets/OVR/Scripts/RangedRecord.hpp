@@ -40,7 +40,7 @@ namespace Assets::OVR::Scripts {
     // Creating value type constructor for type: RangedRecord
     RangedRecord(float value_ = {}, float min_ = {}, float max_ = {}) noexcept : value{value_}, min{min_}, max{max_} {}
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
-    // Offset: 0x13EAAD4
+    // Offset: 0x13EE4E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::RangedRecord::.ctor");

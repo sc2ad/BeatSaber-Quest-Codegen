@@ -34,22 +34,22 @@ namespace Priority_Queue {
     }
     // public System.Void Resize(System.Int32 maxNodes)
     // Offset: 0xFFFFFFFF
-    void Resize_NEW(int maxNodes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::Resize_NEW");
+    void Resize(int maxNodes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::Resize");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(maxNodes)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, maxNodes);
     }
     // public System.Int32 get_MaxSize()
     // Offset: 0xFFFFFFFF
-    int get_MaxSize_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::get_MaxSize_NEW");
+    int get_MaxSize() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::get_MaxSize");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_MaxSize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void ResetNode(TItem node)
     // Offset: 0xFFFFFFFF
-    void ResetNode_NEW(TItem node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::ResetNode_NEW");
+    void ResetNode(TItem node) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::ResetNode");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ResetNode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(node)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }

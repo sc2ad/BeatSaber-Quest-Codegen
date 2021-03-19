@@ -173,48 +173,48 @@ namespace System::IO {
     // Offset: 0xFFFFFFFF
     static ::Il2CppString* NormalizeSearchPattern(::Il2CppString* searchPattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::NormalizeSearchPattern");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "NormalizeSearchPattern", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(searchPattern))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "NormalizeSearchPattern", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(searchPattern))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, searchPattern);
     }
     // static private System.String GetNormalizedSearchCriteria(System.String fullSearchString, System.String fullPathMod)
     // Offset: 0xFFFFFFFF
     static ::Il2CppString* GetNormalizedSearchCriteria(::Il2CppString* fullSearchString, ::Il2CppString* fullPathMod) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::GetNormalizedSearchCriteria");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetNormalizedSearchCriteria", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(fullSearchString, fullPathMod))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetNormalizedSearchCriteria", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(fullSearchString, fullPathMod))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, fullSearchString, fullPathMod);
     }
     // static private System.String GetFullSearchString(System.String fullPath, System.String searchPattern)
     // Offset: 0xFFFFFFFF
     static ::Il2CppString* GetFullSearchString(::Il2CppString* fullPath, ::Il2CppString* searchPattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::GetFullSearchString");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetFullSearchString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(fullPath, searchPattern))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetFullSearchString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(fullPath, searchPattern))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, fullPath, searchPattern);
     }
     // protected override System.IO.Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.IO.Iterator`1<TSource> Iterator_1::Clone_NEW()
+    // Base method: System.IO.Iterator`1<TSource> Iterator_1::Clone()
     System::IO::Iterator_1<TSource>* Clone() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::Clone");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clone", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Clone", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<System::IO::Iterator_1<TSource>*, false>(this, ___internal__method);
     }
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.Void Iterator_1::Dispose_NEW(System.Boolean disposing)
+    // Base method: System.Void Iterator_1::Dispose(System.Boolean disposing)
     void Dispose(bool disposing) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::Dispose");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(disposing)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(disposing)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, disposing);
     }
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IO.Iterator`1
-    // Base method: System.Boolean Iterator_1::MoveNext_NEW()
+    // Base method: System.Boolean Iterator_1::MoveNext()
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEnumerableIterator_1::MoveNext");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
   }; // System.IO.FileSystemEnumerableIterator`1

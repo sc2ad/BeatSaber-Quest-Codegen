@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerAcknowledgeMessage : public GlobalNamespace::BaseMasterServerResponse/*, public MasterServer::IMasterServerAcknowledgeMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD05B00
+    // [CompilerGeneratedAttribute] Offset: 0xD05F5C
     // private System.Boolean <messageHandled>k__BackingField
     // Size: 0x1
     // Offset: 0x14
@@ -46,36 +46,36 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // public System.Boolean get_messageHandled()
-    // Offset: 0x1209424
-    bool get_messageHandled_NEW();
+    // Offset: 0x120BE34
+    bool get_messageHandled();
     // private System.Void set_messageHandled(System.Boolean value)
-    // Offset: 0x120942C
+    // Offset: 0x120BE3C
     void set_messageHandled(bool value);
     // public BaseMasterServerAcknowledgeMessage Init(System.Boolean messageHandled)
-    // Offset: 0x1209438
+    // Offset: 0x120BE48
     GlobalNamespace::BaseMasterServerAcknowledgeMessage* Init(bool messageHandled);
     // public override System.Byte get_resultCode()
-    // Offset: 0x12093BC
+    // Offset: 0x120BDCC
     // Implemented from: BaseMasterServerResponse
-    // Base method: System.Byte BaseMasterServerResponse::get_resultCode_NEW()
+    // Base method: System.Byte BaseMasterServerResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x12093C4
+    // Offset: 0x120BDD4
     // Implemented from: BaseMasterServerResponse
-    // Base method: System.String BaseMasterServerResponse::get_resultCodeString_NEW()
+    // Base method: System.String BaseMasterServerResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1209444
+    // Offset: 0x120BE54
     // Implemented from: BaseMasterServerResponse
-    // Base method: System.Void BaseMasterServerResponse::Serialize_NEW(LiteNetLib.Utils.NetDataWriter writer)
+    // Base method: System.Void BaseMasterServerResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12094AC
+    // Offset: 0x120BEBC
     // Implemented from: BaseMasterServerResponse
-    // Base method: System.Void BaseMasterServerResponse::Deserialize_NEW(LiteNetLib.Utils.NetDataReader reader)
+    // Base method: System.Void BaseMasterServerResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void .ctor()
-    // Offset: 0x120952C
+    // Offset: 0x120BF3C
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::.ctor()
     // Base method: System.Void Object::.ctor()

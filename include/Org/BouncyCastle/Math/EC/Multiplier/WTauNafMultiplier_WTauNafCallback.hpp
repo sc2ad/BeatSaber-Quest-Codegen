@@ -52,15 +52,15 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
-    // Offset: 0x1B33010
+    // Offset: 0x1B38A68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WTauNafMultiplier::WTauNafCallback* New_ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WTauNafMultiplier::WTauNafCallback*, creationType>(p, a)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1B330B0
-    Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute_NEW(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
+    // Offset: 0x1B38B08
+    Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier/WTauNafCallback
   #pragma pack(pop)
   static check_size<sizeof(WTauNafMultiplier::WTauNafCallback), 24 + sizeof(int8_t)> __Org_BouncyCastle_Math_EC_Multiplier_WTauNafMultiplier_WTauNafCallbackSizeCheck;

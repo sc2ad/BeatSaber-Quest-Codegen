@@ -26,16 +26,16 @@ namespace MasterServer {
     }
     // public System.UInt32 get_responseId()
     // Offset: 0xFFFFFFFF
-    uint get_responseId_NEW();
+    uint get_responseId();
     // public System.Byte get_resultCode()
     // Offset: 0xFFFFFFFF
-    uint8_t get_resultCode_NEW();
+    uint8_t get_resultCode();
     // public System.String get_resultCodeString()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_resultCodeString_NEW();
+    ::Il2CppString* get_resultCodeString();
     // public MasterServer.IMasterServerResponse WithResponseId(System.UInt32 responseId)
     // Offset: 0xFFFFFFFF
-    MasterServer::IMasterServerResponse* WithResponseId_NEW(uint responseId);
+    MasterServer::IMasterServerResponse* WithResponseId(uint responseId);
   }; // MasterServer.IMasterServerResponse
   #pragma pack(pop)
 }

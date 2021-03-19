@@ -48,34 +48,34 @@ namespace LiteNetLib {
     // Set static field: static private readonly System.Collections.Generic.List`1<System.String> IpList
     static void _set_IpList(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // static public System.Net.IPEndPoint MakeEndPoint(System.String hostStr, System.Int32 port)
-    // Offset: 0x19ECFF4
+    // Offset: 0x19EFA4C
     static System::Net::IPEndPoint* MakeEndPoint(::Il2CppString* hostStr, int port);
     // static public System.Net.IPAddress ResolveAddress(System.String hostStr)
-    // Offset: 0x19F3080
+    // Offset: 0x19F5AD8
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr);
     // static private System.Net.IPAddress ResolveAddress(System.String hostStr, System.Net.Sockets.AddressFamily addressFamily)
-    // Offset: 0x19F7C5C
+    // Offset: 0x19FA6B4
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr, System::Net::Sockets::AddressFamily addressFamily);
     // static private System.Net.IPAddress[] ResolveAddresses(System.String hostStr)
-    // Offset: 0x19F7D30
+    // Offset: 0x19FA788
     static ::Array<System::Net::IPAddress*>* ResolveAddresses(::Il2CppString* hostStr);
     // static public System.Collections.Generic.List`1<System.String> GetLocalIpList(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x19F7D54
+    // Offset: 0x19FA7AC
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLocalIpList(LiteNetLib::LocalAddrType addrType);
     // static public System.Void GetLocalIpList(System.Collections.Generic.IList`1<System.String> targetList, LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x19F7DE8
+    // Offset: 0x19FA840
     static void GetLocalIpList(System::Collections::Generic::IList_1<::Il2CppString*>* targetList, LiteNetLib::LocalAddrType addrType);
     // static public System.String GetLocalIp(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x19ED1BC
+    // Offset: 0x19EFC14
     static ::Il2CppString* GetLocalIp(LiteNetLib::LocalAddrType addrType);
     // static System.Void PrintInterfaceInfos()
-    // Offset: 0x19F85DC
+    // Offset: 0x19FB034
     static void PrintInterfaceInfos();
     // static System.Int32 RelativeSequenceNumber(System.Int32 number, System.Int32 expected)
-    // Offset: 0x19F68FC
+    // Offset: 0x19F9354
     static int RelativeSequenceNumber(int number, int expected);
     // static private System.Void .cctor()
-    // Offset: 0x19F89B0
+    // Offset: 0x19FB408
     static void _cctor();
   }; // LiteNetLib.NetUtils
   #pragma pack(pop)

@@ -48,26 +48,26 @@ namespace System::Security::Util {
     // Creating value type constructor for type: Parser
     Parser(System::Security::SecurityDocument* doc_ = {}, System::Security::Util::Tokenizer* t_ = {}) noexcept : doc{doc_}, t{t_} {}
     // System.Security.SecurityElement GetTopElement()
-    // Offset: 0x19632DC
+    // Offset: 0x1964CFC
     System::Security::SecurityElement* GetTopElement();
     // private System.Void GetRequiredSizes(System.Security.Util.TokenizerStream stream, ref System.Int32 index)
-    // Offset: 0x1975F6C
+    // Offset: 0x197798C
     void GetRequiredSizes(System::Security::Util::TokenizerStream* stream, int& index);
     // private System.Int32 DetermineFormat(System.Security.Util.TokenizerStream stream)
-    // Offset: 0x197657C
+    // Offset: 0x1977F9C
     int DetermineFormat(System::Security::Util::TokenizerStream* stream);
     // private System.Void ParseContents()
-    // Offset: 0x197676C
+    // Offset: 0x197818C
     void ParseContents();
     // private System.Void .ctor(System.Security.Util.Tokenizer t)
-    // Offset: 0x1976A58
+    // Offset: 0x1978478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(System::Security::Util::Tokenizer* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(t)));
     }
     // System.Void .ctor(System.String input)
-    // Offset: 0x1963268
+    // Offset: 0x1964C88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(::Il2CppString* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");

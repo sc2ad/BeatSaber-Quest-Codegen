@@ -29,22 +29,22 @@ namespace System {
     }
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DisplayName_NEW();
+    ::Il2CppString* get_DisplayName();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x20D58F8
-    bool Equals_NEW(System::TypeName* other);
+    // Offset: 0x20DB3D4
+    bool Equals(System::TypeName* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20D59E4
+    // Offset: 0x20DB4C0
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x20D5A10
+    // Offset: 0x20DB4EC
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object other)
+    // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // protected System.Void .ctor()
-    // Offset: 0x20D470C
+    // Offset: 0x20DA1E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

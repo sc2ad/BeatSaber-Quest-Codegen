@@ -84,21 +84,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NullAllowed
     NullAllowed(GlobalNamespace::NullAllowed::Context context_ = {}, ::Il2CppString* propertyName_ = {}, ::Il2CppObject* ifNotValue_ = {}) noexcept : context{context_}, propertyName{propertyName_}, ifNotValue{ifNotValue_} {}
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0x218C2A0
+    // Offset: 0x218CD88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(context)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
-    // Offset: 0x218C2CC
+    // Offset: 0x218CDB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(propertyName, ifNotValue)));
     }
     // public System.Void .ctor()
-    // Offset: 0x218C278
+    // Offset: 0x218CD60
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

@@ -28,10 +28,10 @@ namespace System::Threading {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x16E2CB8
-    int Compare_NEW(::Il2CppObject* x, ::Il2CppObject* y);
+    // Offset: 0x16E66D8
+    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x16E1FB0
+    // Offset: 0x16E59D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

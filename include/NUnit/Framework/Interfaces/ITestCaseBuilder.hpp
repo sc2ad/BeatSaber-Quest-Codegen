@@ -28,10 +28,10 @@ namespace NUnit::Framework::Interfaces {
     ITestCaseBuilder() noexcept {}
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
     // Offset: 0xFFFFFFFF
-    bool CanBuildFrom_NEW(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
+    bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
     // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Internal::Test* BuildFrom_NEW(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
+    NUnit::Framework::Internal::Test* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Interfaces.ITestCaseBuilder
   #pragma pack(pop)
 }

@@ -23,13 +23,13 @@ namespace GlobalNamespace {
     IStartSeekSongController() noexcept {}
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
     // Offset: 0xFFFFFFFF
-    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong_NEW();
+    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // public System.Void StartSong(System.Single offsetTime)
     // Offset: 0xFFFFFFFF
-    void StartSong_NEW(float offsetTime);
+    void StartSong(float offsetTime);
     // public System.Void SeekTo(System.Single songTime)
     // Offset: 0xFFFFFFFF
-    void SeekTo_NEW(float songTime);
+    void SeekTo(float songTime);
   }; // IStartSeekSongController
   #pragma pack(pop)
 }

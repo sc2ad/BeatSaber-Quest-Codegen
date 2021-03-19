@@ -41,7 +41,7 @@ namespace Zenject {
     // Creating value type constructor for type: LateDisposableInfo
     LateDisposableInfo(Zenject::ILateDisposable* LateDisposable_ = {}, int Priority_ = {}) noexcept : LateDisposable{LateDisposable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0x146D774
+    // Offset: 0x1472184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::LateDisposableInfo::.ctor");

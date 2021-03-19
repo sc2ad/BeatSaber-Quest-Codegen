@@ -57,16 +57,16 @@ namespace Org::BouncyCastle::Crypto::Agreement {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18749D0
-    void Init_NEW(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x18763F0
+    void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x1874AD8
-    int GetFieldSize_NEW();
+    // Offset: 0x18764F8
+    int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x1874B20
-    Org::BouncyCastle::Math::BigInteger* CalculateAgreement_NEW(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
+    // Offset: 0x1876540
+    Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
     // public System.Void .ctor()
-    // Offset: 0x1874D84
+    // Offset: 0x18767A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

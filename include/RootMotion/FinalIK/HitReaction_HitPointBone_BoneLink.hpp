@@ -33,15 +33,15 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class HitReaction::HitPointBone::BoneLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD18910
+    // [TooltipAttribute] Offset: 0xD18D7C
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD18948
-    // [RangeAttribute] Offset: 0xD18948
+    // [TooltipAttribute] Offset: 0xD18DB4
+    // [RangeAttribute] Offset: 0xD18DB4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -63,13 +63,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: BoneLink
     BoneLink(UnityEngine::Transform* bone_ = {}, float weight_ = {}, UnityEngine::Quaternion lastValue_ = {}, UnityEngine::Quaternion current_ = {}) noexcept : bone{bone_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x1A635C8
+    // Offset: 0x1A67020
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1A63360
+    // Offset: 0x1A66DB8
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1A63738
+    // Offset: 0x1A67190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

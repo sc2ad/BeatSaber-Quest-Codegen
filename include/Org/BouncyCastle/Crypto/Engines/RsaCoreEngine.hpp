@@ -63,28 +63,28 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IRsa*>(this);
     }
     // private System.Void CheckInitialised()
-    // Offset: 0x1C534DC
+    // Offset: 0x1C5AF34
     void CheckInitialised();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1C53560
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x1C5AFB8
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1C53684
-    int GetInputBlockSize_NEW();
+    // Offset: 0x1C5B0DC
+    int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1C536CC
-    int GetOutputBlockSize_NEW();
+    // Offset: 0x1C5B124
+    int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1C53714
-    Org::BouncyCastle::Math::BigInteger* ConvertInput_NEW(::Array<uint8_t>* inBuf, int inOff, int inLen);
+    // Offset: 0x1C5B16C
+    Org::BouncyCastle::Math::BigInteger* ConvertInput(::Array<uint8_t>* inBuf, int inOff, int inLen);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
-    // Offset: 0x1C53828
-    ::Array<uint8_t>* ConvertOutput_NEW(Org::BouncyCastle::Math::BigInteger* result);
+    // Offset: 0x1C5B280
+    ::Array<uint8_t>* ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
-    // Offset: 0x1C538FC
-    Org::BouncyCastle::Math::BigInteger* ProcessBlock_NEW(Org::BouncyCastle::Math::BigInteger* input);
+    // Offset: 0x1C5B354
+    Org::BouncyCastle::Math::BigInteger* ProcessBlock(Org::BouncyCastle::Math::BigInteger* input);
     // public System.Void .ctor()
-    // Offset: 0x1C52CF4
+    // Offset: 0x1C5A74C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

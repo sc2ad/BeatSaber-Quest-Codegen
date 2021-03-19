@@ -33,14 +33,14 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::InteractionTrigger::Range::Interaction
     class Interaction;
-    // [HideInInspector] Offset: 0xD17740
+    // [HideInInspector] Offset: 0xD17BAC
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [HideInInspector] Offset: 0xD17778
+    // [HideInInspector] Offset: 0xD17BE4
     // public System.Boolean show
     // Size: 0x1
     // Offset: 0x18
@@ -49,21 +49,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: show and: characterPosition
     char __padding1[0x7] = {};
-    // [TooltipAttribute] Offset: 0xD177B0
+    // [TooltipAttribute] Offset: 0xD17C1C
     // public RootMotion.FinalIK.InteractionTrigger/CharacterPosition characterPosition
     // Size: 0x8
     // Offset: 0x20
     RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD177E8
+    // [TooltipAttribute] Offset: 0xD17C54
     // public RootMotion.FinalIK.InteractionTrigger/CameraPosition cameraPosition
     // Size: 0x8
     // Offset: 0x28
     RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD17820
+    // [TooltipAttribute] Offset: 0xD17C8C
     // public RootMotion.FinalIK.InteractionTrigger/Range/Interaction[] interactions
     // Size: 0x8
     // Offset: 0x30
@@ -73,10 +73,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Range
     Range(::Il2CppString* name_ = {}, bool show_ = {}, RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition_ = {}, RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition_ = {}, ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* interactions_ = {}) noexcept : name{name_}, show{show_}, characterPosition{characterPosition_}, cameraPosition{cameraPosition_}, interactions{interactions_} {}
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
-    // Offset: 0x1916C94
+    // Offset: 0x19176B4
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, float& maxError);
     // public System.Void .ctor()
-    // Offset: 0x1917AF0
+    // Offset: 0x1918510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

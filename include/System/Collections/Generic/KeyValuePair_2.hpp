@@ -60,7 +60,7 @@ namespace System::Collections::Generic {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::ToString");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
   }; // System.Collections.Generic.KeyValuePair`2

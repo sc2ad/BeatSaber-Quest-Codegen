@@ -43,16 +43,16 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: ArgumentFragment
     ArgumentFragment(int index_ = {}, int maxStringLength_ = {}) noexcept : index{index_}, maxStringLength{maxStringLength_} {}
     // public System.Void .ctor(System.Int32 index, System.Int32 maxStringLength)
-    // Offset: 0x2097590
+    // Offset: 0x209E06C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::ArgumentFragment* New_ctor(int index, int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ArgumentFragment*, creationType>(index, maxStringLength)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x2098100
+    // Offset: 0x209EBDC
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-    // Base method: System.String NameFragment::GetText_NEW(System.Reflection.MethodInfo method, System.Object[] args)
+    // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestNameGenerator/ArgumentFragment
   #pragma pack(pop)

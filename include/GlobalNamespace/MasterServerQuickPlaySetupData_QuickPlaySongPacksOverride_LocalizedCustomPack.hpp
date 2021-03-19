@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedCustomPack
     LocalizedCustomPack(::Il2CppString* serializedName_ = {}, int order_ = {}, ::Array<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>* localizedNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* packIds_ = {}) noexcept : serializedName{serializedName_}, order{order_}, localizedNames{localizedNames_}, packIds{packIds_} {}
     // public System.Void .ctor()
-    // Offset: 0x10B9218
+    // Offset: 0x10BBBDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

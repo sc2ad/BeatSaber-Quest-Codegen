@@ -72,13 +72,13 @@ namespace Mono::Unity {
     // Set static field: static private Mono.Unity.UnityTls/unitytls_interface_struct marshalledInterface
     static void _set_marshalledInterface(Mono::Unity::UnityTls::unitytls_interface_struct* value);
     // static private System.IntPtr GetUnityTlsInterface()
-    // Offset: 0x143700C
+    // Offset: 0x143BA1C
     static System::IntPtr GetUnityTlsInterface();
     // static public System.Boolean get_IsSupported()
-    // Offset: 0x1435420
+    // Offset: 0x1439E30
     static bool get_IsSupported();
     // static public Mono.Unity.UnityTls/unitytls_interface_struct get_NativeInterface()
-    // Offset: 0x1436360
+    // Offset: 0x143AD70
     static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
   }; // Mono.Unity.UnityTls
   #pragma pack(pop)

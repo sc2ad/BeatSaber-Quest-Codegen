@@ -41,43 +41,43 @@ namespace GlobalNamespace {
     IBeatmapObjectCallbackController() noexcept {}
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
     // Offset: 0xFFFFFFFF
-    void add_beatmapEventDidTriggerEvent_NEW(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
+    void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
     // Offset: 0xFFFFFFFF
-    void remove_beatmapEventDidTriggerEvent_NEW(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
+    void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void add_callbacksForThisFrameWereProcessedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_callbacksForThisFrameWereProcessedEvent_NEW(System::Action* value);
+    void add_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // public System.Void remove_callbacksForThisFrameWereProcessedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_callbacksForThisFrameWereProcessedEvent_NEW(System::Action* value);
+    void remove_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // public BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallback callback, System.Single aheadTime)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback_NEW(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
+    GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackData callbackData)
     // Offset: 0xFFFFFFFF
-    void RemoveBeatmapObjectCallback_NEW(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
+    void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
     // public BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapEventCallback callback, System.Single aheadTime)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback_NEW(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
+    GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapEventCallbackData callbackData)
     // Offset: 0xFFFFFFFF
-    void RemoveBeatmapEventCallback_NEW(GlobalNamespace::BeatmapEventCallbackData* callbackData);
+    void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapEventCallbackData* callbackData);
     // public System.Void SendBeatmapEventDidTriggerEvent(BeatmapEventData beatmapEventData)
     // Offset: 0xFFFFFFFF
-    void SendBeatmapEventDidTriggerEvent_NEW(GlobalNamespace::BeatmapEventData* beatmapEventData);
+    void SendBeatmapEventDidTriggerEvent(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void SetNewBeatmapData(IReadonlyBeatmapData beatmapData)
     // Offset: 0xFFFFFFFF
-    void SetNewBeatmapData_NEW(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    void SetNewBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public System.Void Pause()
     // Offset: 0xFFFFFFFF
-    void Pause_NEW();
+    void Pause();
     // public System.Void Resume()
     // Offset: 0xFFFFFFFF
-    void Resume_NEW();
+    void Resume();
     // public System.Boolean get_isPaused()
     // Offset: 0xFFFFFFFF
-    bool get_isPaused_NEW();
+    bool get_isPaused();
   }; // IBeatmapObjectCallbackController
   #pragma pack(pop)
 }

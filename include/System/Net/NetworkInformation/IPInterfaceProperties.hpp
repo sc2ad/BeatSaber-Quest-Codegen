@@ -30,12 +30,12 @@ namespace System::Net::NetworkInformation {
     IPInterfaceProperties() noexcept {}
     // public System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
     // Offset: 0xFFFFFFFF
-    System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses_NEW();
+    System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
     // public System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
     // Offset: 0xFFFFFFFF
-    System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses_NEW();
+    System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // protected System.Void .ctor()
-    // Offset: 0x13260D8
+    // Offset: 0x1328AE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

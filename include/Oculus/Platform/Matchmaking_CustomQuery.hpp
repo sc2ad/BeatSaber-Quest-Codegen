@@ -72,7 +72,7 @@ namespace Oculus::Platform {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-      // Offset: 0xDE62BC
+      // Offset: 0xDE7858
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Matchmaking::CustomQuery::Criterion::.ctor");
@@ -98,10 +98,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: CustomQuery
     CustomQuery(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* data_ = {}, ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* criteria_ = {}) noexcept : data{data_}, criteria{criteria_} {}
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0x137CE2C
+    // Offset: 0x137F83C
     System::IntPtr ToUnmanaged();
     // public System.Void .ctor()
-    // Offset: 0x137E308
+    // Offset: 0x1380D18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

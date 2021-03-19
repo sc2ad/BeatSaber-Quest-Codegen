@@ -33,21 +33,21 @@ namespace UnityEngine::Assertions {
     public:
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
-    // [ObsoleteAttribute] Offset: 0xCAD124
+    // [ObsoleteAttribute] Offset: 0xCAE574
     // Get static field: static public System.Boolean raiseExceptions
     static bool _get_raiseExceptions();
     // Set static field: static public System.Boolean raiseExceptions
     static void _set_raiseExceptions(bool value);
     // static private System.Void Fail(System.String message, System.String userMessage)
-    // Offset: 0x19BEB78
+    // Offset: 0x19C0598
     static void Fail(::Il2CppString* message, ::Il2CppString* userMessage);
     // static public System.Void AreEqual(T expected, T actual, System.String message)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AreEqual(T expected, T actual, ::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::_Assert::AreEqual");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(expected, actual, message)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(expected, actual, message)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, expected, actual, message);
     }
     // static public System.Void AreEqual(T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1<T> comparer)
@@ -55,18 +55,18 @@ namespace UnityEngine::Assertions {
     template<class T>
     static void AreEqual(T expected, T actual, ::Il2CppString* message, System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::_Assert::AreEqual");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(expected, actual, message, comparer)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(expected, actual, message, comparer)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, expected, actual, message, comparer);
     }
     // static public System.Void AreEqual(UnityEngine.Object expected, UnityEngine.Object actual, System.String message)
-    // Offset: 0x19BEDE8
+    // Offset: 0x19C0808
     static void AreEqual(UnityEngine::Object* expected, UnityEngine::Object* actual, ::Il2CppString* message);
     // static public System.Void AreEqual(System.Int32 expected, System.Int32 actual)
-    // Offset: 0x19BF080
+    // Offset: 0x19C0AA0
     static void AreEqual(int expected, int actual);
     // static private System.Void .cctor()
-    // Offset: 0x19BF11C
+    // Offset: 0x19C0B3C
     static void _cctor();
   }; // UnityEngine.Assertions.Assert
   #pragma pack(pop)

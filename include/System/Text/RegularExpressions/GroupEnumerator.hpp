@@ -47,24 +47,24 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Text.RegularExpressions.GroupCollection rgc)
-    // Offset: 0x16B49D8
+    // Offset: 0x16B73F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupEnumerator* New_ctor(System::Text::RegularExpressions::GroupCollection* rgc) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::GroupEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupEnumerator*, creationType>(rgc)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x16B4A4C
-    bool MoveNext_NEW();
+    // Offset: 0x16B746C
+    bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x16B4A9C
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x16B74BC
+    ::Il2CppObject* get_Current();
     // public System.Text.RegularExpressions.Capture get_Capture()
-    // Offset: 0x16B4AA0
+    // Offset: 0x16B74C0
     System::Text::RegularExpressions::Capture* get_Capture();
     // public System.Void Reset()
-    // Offset: 0x16B4B5C
-    void Reset_NEW();
+    // Offset: 0x16B757C
+    void Reset();
   }; // System.Text.RegularExpressions.GroupEnumerator
   #pragma pack(pop)
   static check_size<sizeof(GroupEnumerator), 24 + sizeof(int)> __System_Text_RegularExpressions_GroupEnumeratorSizeCheck;

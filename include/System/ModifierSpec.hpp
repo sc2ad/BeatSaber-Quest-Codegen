@@ -28,10 +28,10 @@ namespace System {
     ModifierSpec() noexcept {}
     // public System.Type Resolve(System.Type type)
     // Offset: 0xFFFFFFFF
-    System::Type* Resolve_NEW(System::Type* type);
+    System::Type* Resolve(System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
-    System::Text::StringBuilder* Append_NEW(System::Text::StringBuilder* sb);
+    System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
   }; // System.ModifierSpec
   #pragma pack(pop)
 }

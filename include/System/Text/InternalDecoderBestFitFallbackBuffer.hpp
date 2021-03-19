@@ -61,37 +61,37 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x1B054A0
+    // Offset: 0x1B0AEF8
     static ::Il2CppObject* get_InternalSyncObject();
     // public System.Void .ctor(System.Text.InternalDecoderBestFitFallback fallback)
-    // Offset: 0x1B052C8
+    // Offset: 0x1B0AD20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalDecoderBestFitFallbackBuffer* New_ctor(System::Text::InternalDecoderBestFitFallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalDecoderBestFitFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalDecoderBestFitFallbackBuffer*, creationType>(fallback)));
     }
     // private System.Char TryBestFit(System.Byte[] bytesCheck)
-    // Offset: 0x1B0557C
+    // Offset: 0x1B0AFD4
     ::Il2CppChar TryBestFit(::Array<uint8_t>* bytesCheck);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1B05530
+    // Offset: 0x1B0AF88
     // Implemented from: System.Text.DecoderFallbackBuffer
-    // Base method: System.Boolean DecoderFallbackBuffer::Fallback_NEW(System.Byte[] bytesUnknown, System.Int32 index)
+    // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1B056C8
+    // Offset: 0x1B0B120
     // Implemented from: System.Text.DecoderFallbackBuffer
-    // Base method: System.Char DecoderFallbackBuffer::GetNextChar_NEW()
+    // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x1B05708
+    // Offset: 0x1B0B160
     // Implemented from: System.Text.DecoderFallbackBuffer
-    // Base method: System.Void DecoderFallbackBuffer::Reset_NEW()
+    // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1B05718
+    // Offset: 0x1B0B170
     // Implemented from: System.Text.DecoderFallbackBuffer
-    // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback_NEW(System.Byte[] bytes, System.Byte* pBytes)
+    // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
   }; // System.Text.InternalDecoderBestFitFallbackBuffer
   #pragma pack(pop)

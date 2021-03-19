@@ -52,7 +52,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Creating value type constructor for type: PointAccum
     PointAccum(::Array<int>* x_ = {}, ::Array<int>* y_ = {}, ::Array<int>* z_ = {}, ::Array<int>* u_ = {}, ::Array<int>* v_ = {}) noexcept : x{x_}, y{y_}, z{z_}, u{u_}, v{v_} {}
     // public System.Void .ctor()
-    // Offset: 0x1B39794
+    // Offset: 0x1B3F1EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

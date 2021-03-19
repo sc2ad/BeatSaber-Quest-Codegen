@@ -32,14 +32,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class GameScenesManager::ScenesStackData : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCF5474
+    // [CompilerGeneratedAttribute] Offset: 0xCF58B0
     // private System.Collections.Generic.List`1<System.String> <sceneNames>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<::Il2CppString*>* sceneNames;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF5484
+    // [CompilerGeneratedAttribute] Offset: 0xCF58C0
     // private Zenject.DiContainer <container>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -49,26 +49,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ScenesStackData
     ScenesStackData(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames_ = {}, Zenject::DiContainer* container_ = {}) noexcept : sceneNames{sceneNames_}, container{container_} {}
     // public System.Collections.Generic.List`1<System.String> get_sceneNames()
-    // Offset: 0x1124004
+    // Offset: 0x1126A14
     System::Collections::Generic::List_1<::Il2CppString*>* get_sceneNames();
     // private System.Void set_sceneNames(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x112400C
+    // Offset: 0x1126A1C
     void set_sceneNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public Zenject.DiContainer get_container()
-    // Offset: 0x1124014
+    // Offset: 0x1126A24
     Zenject::DiContainer* get_container();
     // private System.Void set_container(Zenject.DiContainer value)
-    // Offset: 0x112401C
+    // Offset: 0x1126A2C
     void set_container(Zenject::DiContainer* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0x1121520
+    // Offset: 0x1123F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::ScenesStackData* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameScenesManager::ScenesStackData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::ScenesStackData*, creationType>(sceneNames)));
     }
     // public System.Void SetDiContainer(Zenject.DiContainer container)
-    // Offset: 0x1122B04
+    // Offset: 0x1125520
     void SetDiContainer(Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
   #pragma pack(pop)

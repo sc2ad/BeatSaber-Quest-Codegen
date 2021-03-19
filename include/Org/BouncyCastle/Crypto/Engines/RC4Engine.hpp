@@ -61,22 +61,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int32 STATE_LENGTH
     static void _set_STATE_LENGTH(int value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BAE980
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x1BB33D8
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BAEC6C
-    void ProcessBytes_NEW(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1BB36C4
+    void ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BAEE5C
-    void Reset_NEW();
+    // Offset: 0x1BB38B4
+    void Reset();
     // private System.Void SetKey(System.Byte[] keyBytes)
-    // Offset: 0x1BAEAA0
+    // Offset: 0x1BB34F8
     void SetKey(::Array<uint8_t>* keyBytes);
     // static private System.Void .cctor()
-    // Offset: 0x1BAEE64
+    // Offset: 0x1BB38BC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BAEEB8
+    // Offset: 0x1BB3910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,13 +22,13 @@ namespace Mono::Net {
     // Creating value type constructor for type: CFUrl
     CFUrl() noexcept {}
     // static private System.IntPtr CFURLCreateWithString(System.IntPtr allocator, System.IntPtr str, System.IntPtr baseURL)
-    // Offset: 0x142E2E4
+    // Offset: 0x1432CF4
     static System::IntPtr CFURLCreateWithString(System::IntPtr allocator, System::IntPtr str, System::IntPtr baseURL);
     // static public Mono.Net.CFUrl Create(System.String absolute)
-    // Offset: 0x142B4E4
+    // Offset: 0x142FEF4
     static Mono::Net::CFUrl* Create(::Il2CppString* absolute);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x142E294
+    // Offset: 0x1432CA4
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

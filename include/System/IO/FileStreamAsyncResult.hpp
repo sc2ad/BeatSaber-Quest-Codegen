@@ -98,27 +98,27 @@ namespace System::IO {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x17A60C4
+    // Offset: 0x17A8AE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStreamAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStreamAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x17A7AF8
+    // Offset: 0x17AA518
     static void CBWrapper(System::IAsyncResult* ares);
     // public System.Object get_AsyncState()
-    // Offset: 0x17A7B94
-    ::Il2CppObject* get_AsyncState_NEW();
+    // Offset: 0x17AA5B4
+    ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x17A7B9C
-    bool get_CompletedSynchronously_NEW();
+    // Offset: 0x17AA5BC
+    bool get_CompletedSynchronously();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x17A7BA4
-    System::Threading::WaitHandle* get_AsyncWaitHandle_NEW();
+    // Offset: 0x17AA5C4
+    System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x17A7BAC
-    bool get_IsCompleted_NEW();
+    // Offset: 0x17AA5CC
+    bool get_IsCompleted();
   }; // System.IO.FileStreamAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(FileStreamAsyncResult), 64 + sizeof(System::AsyncCallback*)> __System_IO_FileStreamAsyncResultSizeCheck;

@@ -37,22 +37,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xD181A4
+    // [TooltipAttribute] Offset: 0xD18610
     // public UnityEngine.Transform[] raycastFrom
     // Size: 0x8
     // Offset: 0x10
     ::Array<UnityEngine::Transform*>* raycastFrom;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD181DC
+    // [TooltipAttribute] Offset: 0xD18648
     // public UnityEngine.Transform raycastTo
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Transform* raycastTo;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD18214
-    // [RangeAttribute] Offset: 0xD18214
+    // [TooltipAttribute] Offset: 0xD18680
+    // [RangeAttribute] Offset: 0xD18680
     // public System.Single raycastRadius
     // Size: 0x4
     // Offset: 0x20
@@ -61,28 +61,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: raycastRadius and: effectors
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0xD18268
+    // [TooltipAttribute] Offset: 0xD186D4
     // public RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink[] effectors
     // Size: 0x8
     // Offset: 0x28
     ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* effectors;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD182A0
+    // [TooltipAttribute] Offset: 0xD1870C
     // public System.Single smoothTimeIn
     // Size: 0x4
     // Offset: 0x30
     float smoothTimeIn;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD182D8
+    // [TooltipAttribute] Offset: 0xD18744
     // public System.Single smoothTimeOut
     // Size: 0x4
     // Offset: 0x34
     float smoothTimeOut;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD18310
+    // [TooltipAttribute] Offset: 0xD1877C
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x38
@@ -110,16 +110,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Avoider
     Avoider(::Array<UnityEngine::Transform*>* raycastFrom_ = {}, UnityEngine::Transform* raycastTo_ = {}, float raycastRadius_ = {}, ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* effectors_ = {}, float smoothTimeIn_ = {}, float smoothTimeOut_ = {}, UnityEngine::LayerMask layers_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 offsetTarget_ = {}, UnityEngine::Vector3 offsetV_ = {}) noexcept : raycastFrom{raycastFrom_}, raycastTo{raycastTo_}, raycastRadius{raycastRadius_}, effectors{effectors_}, smoothTimeIn{smoothTimeIn_}, smoothTimeOut{smoothTimeOut_}, layers{layers_}, offset{offset_}, offsetTarget{offsetTarget_}, offsetV{offsetV_} {}
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x191A174
+    // Offset: 0x191AB94
     void Solve(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
-    // Offset: 0x191A380
+    // Offset: 0x191ADA0
     UnityEngine::Vector3 GetOffsetTarget(RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
     // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x191A518
+    // Offset: 0x191AF38
     UnityEngine::Vector3 Raycast(UnityEngine::Vector3 from, UnityEngine::Vector3 to);
     // public System.Void .ctor()
-    // Offset: 0x191A78C
+    // Offset: 0x191B1AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

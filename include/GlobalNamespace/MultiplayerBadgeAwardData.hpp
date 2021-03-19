@@ -78,30 +78,30 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IComparable*>(this);
     }
     // public IConnectedPlayer get_awardedPlayer()
-    // Offset: 0x103881C
+    // Offset: 0x103A304
     GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x1038824
+    // Offset: 0x103A30C
     ::Il2CppString* get_titleLocalizationKey();
     // public System.String get_title()
-    // Offset: 0x1038840
+    // Offset: 0x103A328
     ::Il2CppString* get_title();
     // public System.String get_subtitle()
-    // Offset: 0x1038848
+    // Offset: 0x103A330
     ::Il2CppString* get_subtitle();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x1038850
+    // Offset: 0x103A338
     UnityEngine::Sprite* get_icon();
     // public System.Void .ctor(IConnectedPlayer awardedPlayer, System.Single weight, System.String title, System.String subtitle, MultiplayerBadgeDataSO badgeData)
-    // Offset: 0x1038858
+    // Offset: 0x103A340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgeAwardData* New_ctor(GlobalNamespace::IConnectedPlayer* awardedPlayer, float weight, ::Il2CppString* title, ::Il2CppString* subtitle, GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgeAwardData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeAwardData*, creationType>(awardedPlayer, weight, title, subtitle, badgeData)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x10388C4
-    int CompareTo_NEW(::Il2CppObject* obj);
+    // Offset: 0x103A3AC
+    int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerBadgeAwardData
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerBadgeAwardData), 56 + sizeof(GlobalNamespace::MultiplayerBadgeDataSO*)> __GlobalNamespace_MultiplayerBadgeAwardDataSizeCheck;

@@ -45,17 +45,17 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: ValidationResult
     ValidationResult(bool trusted_ = {}, bool user_denied_ = {}, int error_code_ = {}, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors_ = {}) noexcept : trusted{trusted_}, user_denied{user_denied_}, error_code{error_code_}, policy_errors{policy_errors_} {}
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
-    // Offset: 0x1B91F08
+    // Offset: 0x1B95960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::ValidationResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationResult*, creationType>(trusted, user_denied, error_code, policy_errors)));
     }
     // public System.Boolean get_Trusted()
-    // Offset: 0x1B91F64
+    // Offset: 0x1B959BC
     bool get_Trusted();
     // public System.Boolean get_UserDenied()
-    // Offset: 0x1B91F6C
+    // Offset: 0x1B959C4
     bool get_UserDenied();
   }; // Mono.Security.Interface.ValidationResult
   // WARNING Not writing size check since size may be invalid!

@@ -80,14 +80,14 @@ namespace System {
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* Box(System::Nullable_1<T> o) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Box");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o))));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
     }
     // static private System.Nullable`1<T> Unbox(System.Object o)
     // Offset: 0xFFFFFFFF
     static System::Nullable_1<T> Unbox(::Il2CppObject* o) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Unbox");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Unbox", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Unbox", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o))));
       return ::il2cpp_utils::RunMethodThrow<System::Nullable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
     }
     // public override System.Boolean Equals(System.Object other)
@@ -96,7 +96,7 @@ namespace System {
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::Equals");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(other)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
     // public override System.Int32 GetHashCode()
@@ -105,7 +105,7 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::GetHashCode");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // public override System.String ToString()
@@ -114,7 +114,7 @@ namespace System {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::ToString");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
   }; // System.Nullable`1

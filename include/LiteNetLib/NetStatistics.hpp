@@ -50,51 +50,51 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NetStatistics
     NetStatistics(int64_t packetsSent_ = {}, int64_t packetsReceived_ = {}, int64_t bytesSent_ = {}, int64_t bytesReceived_ = {}, int64_t packetLoss_ = {}) noexcept : packetsSent{packetsSent_}, packetsReceived{packetsReceived_}, bytesSent{bytesSent_}, bytesReceived{bytesReceived_}, packetLoss{packetLoss_} {}
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x19F78E8
+    // Offset: 0x19FA340
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x19F78F4
+    // Offset: 0x19FA34C
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x19F7900
+    // Offset: 0x19FA358
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x19F790C
+    // Offset: 0x19FA364
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x19F7918
+    // Offset: 0x19FA370
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x19F7924
+    // Offset: 0x19FA37C
     int64_t get_PacketLossPercent();
     // public System.Void Reset()
-    // Offset: 0x19F7974
+    // Offset: 0x19FA3CC
     void Reset();
     // public System.Void IncrementPacketsSent()
-    // Offset: 0x19EFB30
+    // Offset: 0x19F2588
     void IncrementPacketsSent();
     // public System.Void IncrementPacketsReceived()
-    // Offset: 0x19F1BAC
+    // Offset: 0x19F4604
     void IncrementPacketsReceived();
     // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x19EFB3C
+    // Offset: 0x19F2594
     void AddBytesSent(int64_t bytesSent);
     // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x19F1BB8
+    // Offset: 0x19F4610
     void AddBytesReceived(int64_t bytesReceived);
     // public System.Void IncrementPacketLoss()
-    // Offset: 0x19F79DC
+    // Offset: 0x19FA434
     void IncrementPacketLoss();
     // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x19F79E8
+    // Offset: 0x19FA440
     void AddPacketLoss(int64_t packetLoss);
     // public override System.String ToString()
-    // Offset: 0x19F79F4
+    // Offset: 0x19FA44C
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x19EF1B4
+    // Offset: 0x19F1C0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

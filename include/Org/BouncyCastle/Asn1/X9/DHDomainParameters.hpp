@@ -73,37 +73,37 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: DHDomainParameters
     DHDomainParameters(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* j_ = {}, Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms_ = {}) noexcept : p{p_}, g{g_}, q{q_}, j{j_}, validationParms{validationParms_} {}
     // static public Org.BouncyCastle.Asn1.X9.DHDomainParameters GetInstance(System.Object obj)
-    // Offset: 0x186CE88
+    // Offset: 0x186E8A8
     static Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186D008
+    // Offset: 0x186EA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHDomainParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::DHDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHDomainParameters*, creationType>(seq)));
     }
     // static private Org.BouncyCastle.Asn1.Asn1Encodable GetNext(System.Collections.IEnumerator e)
-    // Offset: 0x186D1E8
+    // Offset: 0x186EC08
     static Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(System::Collections::IEnumerator* e);
     // public Org.BouncyCastle.Asn1.DerInteger get_P()
-    // Offset: 0x186D4C4
+    // Offset: 0x186EEE4
     Org::BouncyCastle::Asn1::DerInteger* get_P();
     // public Org.BouncyCastle.Asn1.DerInteger get_G()
-    // Offset: 0x186D4CC
+    // Offset: 0x186EEEC
     Org::BouncyCastle::Asn1::DerInteger* get_G();
     // public Org.BouncyCastle.Asn1.DerInteger get_Q()
-    // Offset: 0x186D4D4
+    // Offset: 0x186EEF4
     Org::BouncyCastle::Asn1::DerInteger* get_Q();
     // public Org.BouncyCastle.Asn1.DerInteger get_J()
-    // Offset: 0x186D4DC
+    // Offset: 0x186EEFC
     Org::BouncyCastle::Asn1::DerInteger* get_J();
     // public Org.BouncyCastle.Asn1.X9.DHValidationParms get_ValidationParms()
-    // Offset: 0x186D4E4
+    // Offset: 0x186EF04
     Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x186D4EC
+    // Offset: 0x186EF0C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X9.DHDomainParameters
   #pragma pack(pop)

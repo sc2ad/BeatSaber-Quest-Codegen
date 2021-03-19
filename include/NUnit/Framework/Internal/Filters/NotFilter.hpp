@@ -28,8 +28,8 @@ namespace NUnit::Framework::Internal::Filters {
   // [] Offset: FFFFFFFF
   class NotFilter : public NUnit::Framework::Internal::TestFilter {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD1013C
-    // [DebuggerBrowsableAttribute] Offset: 0xD1013C
+    // [CompilerGeneratedAttribute] Offset: 0xD105A8
+    // [DebuggerBrowsableAttribute] Offset: 0xD105A8
     // private NUnit.Framework.Internal.TestFilter <BaseFilter>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -43,37 +43,37 @@ namespace NUnit::Framework::Internal::Filters {
       return BaseFilter;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestFilter baseFilter)
-    // Offset: 0x15B40B4
+    // Offset: 0x15B8AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotFilter* New_ctor(NUnit::Framework::Internal::TestFilter* baseFilter) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::NotFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NotFilter*, creationType>(baseFilter)));
     }
     // public NUnit.Framework.Internal.TestFilter get_BaseFilter()
-    // Offset: 0x15B4130
+    // Offset: 0x15B8B40
     NUnit::Framework::Internal::TestFilter* get_BaseFilter();
     // private System.Void set_BaseFilter(NUnit.Framework.Internal.TestFilter value)
-    // Offset: 0x15B4138
+    // Offset: 0x15B8B48
     void set_BaseFilter(NUnit::Framework::Internal::TestFilter* value);
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x15B4140
+    // Offset: 0x15B8B50
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: System.Boolean TestFilter::Pass_NEW(NUnit.Framework.Interfaces.ITest test)
+    // Base method: System.Boolean TestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x15B41A0
+    // Offset: 0x15B8BB0
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: System.Boolean TestFilter::Match_NEW(NUnit.Framework.Interfaces.ITest test)
+    // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x15B41D0
+    // Offset: 0x15B8BE0
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: System.Boolean TestFilter::IsExplicitMatch_NEW(NUnit.Framework.Interfaces.ITest test)
+    // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x15B41D8
+    // Offset: 0x15B8BE8
     // Implemented from: NUnit.Framework.Internal.TestFilter
-    // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml_NEW(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
+    // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.Filters.NotFilter
   #pragma pack(pop)

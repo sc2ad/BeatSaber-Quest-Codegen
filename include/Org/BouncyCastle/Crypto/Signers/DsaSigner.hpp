@@ -71,22 +71,22 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1165FD8
-    void Init_NEW(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x11689E8
+    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x11661EC
-    Org::BouncyCastle::Math::BigInteger* get_Order_NEW();
+    // Offset: 0x1168BFC
+    Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x1166214
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature_NEW(::Array<uint8_t>* message);
+    // Offset: 0x1168C24
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x11668F8
-    Org::BouncyCastle::Math::BigInteger* CalculateE_NEW(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
+    // Offset: 0x1169308
+    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
-    // Offset: 0x1166B18
-    Org::BouncyCastle::Security::SecureRandom* InitSecureRandom_NEW(bool needed, Org::BouncyCastle::Security::SecureRandom* provided);
+    // Offset: 0x1169528
+    Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, Org::BouncyCastle::Security::SecureRandom* provided);
     // public System.Void .ctor()
-    // Offset: 0x1165F60
+    // Offset: 0x1168970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

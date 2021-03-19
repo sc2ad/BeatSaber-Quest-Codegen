@@ -17,14 +17,14 @@ namespace Priority_Queue {
   // [] Offset: FFFFFFFF
   class FastPriorityQueueNode : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD31D00
+    // [CompilerGeneratedAttribute] Offset: 0xD32244
     // private System.Single <Priority>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     float Priority;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD31D10
+    // [CompilerGeneratedAttribute] Offset: 0xD32254
     // private System.Int32 <QueueIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -34,19 +34,19 @@ namespace Priority_Queue {
     // Creating value type constructor for type: FastPriorityQueueNode
     FastPriorityQueueNode(float Priority_ = {}, int QueueIndex_ = {}) noexcept : Priority{Priority_}, QueueIndex{QueueIndex_} {}
     // public System.Single get_Priority()
-    // Offset: 0xF9D99C
+    // Offset: 0xFC1B04
     float get_Priority();
     // protected internal System.Void set_Priority(System.Single value)
-    // Offset: 0xF9D9A4
+    // Offset: 0xFC1B0C
     void set_Priority(float value);
     // public System.Int32 get_QueueIndex()
-    // Offset: 0xF9D9AC
+    // Offset: 0xFC1B14
     int get_QueueIndex();
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0xF9D9B4
+    // Offset: 0xFC1B1C
     void set_QueueIndex(int value);
     // public System.Void .ctor()
-    // Offset: 0xF9D9BC
+    // Offset: 0xFC1B24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

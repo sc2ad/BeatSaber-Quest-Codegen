@@ -95,49 +95,49 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerBase
     OVRControllerBase(GlobalNamespace::OVRInput::Controller controllerType_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* buttonMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* touchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* nearTouchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* axis1DMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* axis2DMap_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 previousState_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 currentState_ = {}, bool shouldApplyDeadzone_ = {}) noexcept : controllerType{controllerType_}, buttonMap{buttonMap_}, touchMap{touchMap_}, nearTouchMap{nearTouchMap_}, axis1DMap{axis1DMap_}, axis2DMap{axis2DMap_}, previousState{previousState_}, currentState{currentState_}, shouldApplyDeadzone{shouldApplyDeadzone_} {}
     // public OVRInput/Controller Update()
-    // Offset: 0x1743D5C
-    GlobalNamespace::OVRInput::Controller Update_NEW();
+    // Offset: 0x174777C
+    GlobalNamespace::OVRInput::Controller Update();
     // private OVRPlugin/ControllerState4 GetOpenVRControllerState(OVRInput/Controller controllerType)
-    // Offset: 0x1744230
+    // Offset: 0x1747C50
     GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(GlobalNamespace::OVRInput::Controller controllerType);
     // public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0x174476C
-    void SetControllerVibration_NEW(float frequency, float amplitude);
+    // Offset: 0x174818C
+    void SetControllerVibration(float frequency, float amplitude);
     // public System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x17447F0
-    uint8_t GetBatteryPercentRemaining_NEW();
+    // Offset: 0x1748210
+    uint8_t GetBatteryPercentRemaining();
     // public System.Void ConfigureButtonMap()
     // Offset: 0xFFFFFFFF
-    void ConfigureButtonMap_NEW();
+    void ConfigureButtonMap();
     // public System.Void ConfigureTouchMap()
     // Offset: 0xFFFFFFFF
-    void ConfigureTouchMap_NEW();
+    void ConfigureTouchMap();
     // public System.Void ConfigureNearTouchMap()
     // Offset: 0xFFFFFFFF
-    void ConfigureNearTouchMap_NEW();
+    void ConfigureNearTouchMap();
     // public System.Void ConfigureAxis1DMap()
     // Offset: 0xFFFFFFFF
-    void ConfigureAxis1DMap_NEW();
+    void ConfigureAxis1DMap();
     // public System.Void ConfigureAxis2DMap()
     // Offset: 0xFFFFFFFF
-    void ConfigureAxis2DMap_NEW();
+    void ConfigureAxis2DMap();
     // public OVRInput/RawButton ResolveToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x174123C
+    // Offset: 0x1744C5C
     GlobalNamespace::OVRInput::RawButton ResolveToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public OVRInput/RawTouch ResolveToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x17418F8
+    // Offset: 0x1745318
     GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public OVRInput/RawNearTouch ResolveToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0x174202C
+    // Offset: 0x1745A4C
     GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public OVRInput/RawAxis1D ResolveToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x1742A7C
+    // Offset: 0x174649C
     GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public OVRInput/RawAxis2D ResolveToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x1742FC4
+    // Offset: 0x17469E4
     GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x1743BF4
+    // Offset: 0x1747614
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

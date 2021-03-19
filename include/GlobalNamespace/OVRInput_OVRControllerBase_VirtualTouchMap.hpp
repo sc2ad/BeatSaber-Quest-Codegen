@@ -102,10 +102,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VirtualTouchMap
     VirtualTouchMap(GlobalNamespace::OVRInput::RawTouch None_ = {}, GlobalNamespace::OVRInput::RawTouch One_ = {}, GlobalNamespace::OVRInput::RawTouch Two_ = {}, GlobalNamespace::OVRInput::RawTouch Three_ = {}, GlobalNamespace::OVRInput::RawTouch Four_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad_ = {}) noexcept : None{None_}, One{One_}, Two{Two_}, Three{Three_}, Four{Four_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryThumbRest{PrimaryThumbRest_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryThumbRest{SecondaryThumbRest_}, SecondaryTouchpad{SecondaryTouchpad_} {}
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x1744A0C
+    // Offset: 0x174842C
     GlobalNamespace::OVRInput::RawTouch ToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x1743D3C
+    // Offset: 0x174775C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

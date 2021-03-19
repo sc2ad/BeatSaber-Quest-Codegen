@@ -55,58 +55,58 @@ namespace Mono::Security::Interface {
     }
     // public System.Void AuthenticateAsClient(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Security.Authentication.SslProtocols enabledSslProtocols, System.Boolean checkCertificateRevocation)
     // Offset: 0xFFFFFFFF
-    void AuthenticateAsClient_NEW(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
+    void AuthenticateAsClient(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
     // public System.Void AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Boolean clientCertificateRequired, System.Security.Authentication.SslProtocols enabledSslProtocols, System.Boolean checkCertificateRevocation)
     // Offset: 0xFFFFFFFF
-    void AuthenticateAsServer_NEW(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, bool clientCertificateRequired, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
+    void AuthenticateAsServer(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, bool clientCertificateRequired, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    int Read_NEW(::Array<uint8_t>* buffer, int offset, int count);
+    int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void Write_NEW(::Array<uint8_t>* buffer, int offset, int count);
+    void Write(::Array<uint8_t>* buffer, int offset, int count);
     // public System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginRead_NEW(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0xFFFFFFFF
-    int EndRead_NEW(System::IAsyncResult* asyncResult);
+    int EndRead(System::IAsyncResult* asyncResult);
     // public System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginWrite_NEW(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public System.Void EndWrite(System.IAsyncResult asyncResult)
     // Offset: 0xFFFFFFFF
-    void EndWrite_NEW(System::IAsyncResult* asyncResult);
+    void EndWrite(System::IAsyncResult* asyncResult);
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
-    bool get_IsAuthenticated_NEW();
+    bool get_IsAuthenticated();
     // public System.Boolean get_CanRead()
     // Offset: 0xFFFFFFFF
-    bool get_CanRead_NEW();
+    bool get_CanRead();
     // public System.Boolean get_CanWrite()
     // Offset: 0xFFFFFFFF
-    bool get_CanWrite_NEW();
+    bool get_CanWrite();
     // public System.Int64 get_Length()
     // Offset: 0xFFFFFFFF
-    int64_t get_Length_NEW();
+    int64_t get_Length();
     // public System.Int64 get_Position()
     // Offset: 0xFFFFFFFF
-    int64_t get_Position_NEW();
+    int64_t get_Position();
     // public System.Void SetLength(System.Int64 value)
     // Offset: 0xFFFFFFFF
-    void SetLength_NEW(int64_t value);
+    void SetLength(int64_t value);
     // public System.Net.Security.AuthenticatedStream get_AuthenticatedStream()
     // Offset: 0xFFFFFFFF
-    System::Net::Security::AuthenticatedStream* get_AuthenticatedStream_NEW();
+    System::Net::Security::AuthenticatedStream* get_AuthenticatedStream();
     // public System.Int32 get_ReadTimeout()
     // Offset: 0xFFFFFFFF
-    int get_ReadTimeout_NEW();
+    int get_ReadTimeout();
     // public System.Int32 get_WriteTimeout()
     // Offset: 0xFFFFFFFF
-    int get_WriteTimeout_NEW();
+    int get_WriteTimeout();
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_InternalLocalCertificate()
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::X509Certificates::X509Certificate* get_InternalLocalCertificate_NEW();
+    System::Security::Cryptography::X509Certificates::X509Certificate* get_InternalLocalCertificate();
   }; // Mono.Security.Interface.IMonoSslStream
   #pragma pack(pop)
 }

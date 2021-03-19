@@ -41,7 +41,7 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0xDDD2D4
+    // Offset: 0xDDF880
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
   }; // TMPro.CaretInfo

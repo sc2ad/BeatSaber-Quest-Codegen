@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     float outerCapsuleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD255B4
+    // [SpaceAttribute] Offset: 0xD25AD8
     // private UnityEngine.Vector3 _innerSphereOffset
     // Size: 0xC
     // Offset: 0x34
@@ -70,35 +70,35 @@ namespace GlobalNamespace {
     float innerSphereRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xD255FC
+    // [SpaceAttribute] Offset: 0xD25B20
     // private UnityEngine.LayerMask _layersToColliderWith
     // Size: 0x4
     // Offset: 0x44
     UnityEngine::LayerMask layersToColliderWith;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // [InjectAttribute] Offset: 0xD25634
+    // [InjectAttribute] Offset: 0xD25B58
     // private readonly BTSCharacterSpawnController _characterSpawnController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BTSCharacterSpawnController* characterSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25644
+    // [InjectAttribute] Offset: 0xD25B68
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25654
+    // [InjectAttribute] Offset: 0xD25B78
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25664
+    // [InjectAttribute] Offset: 0xD25B88
     // private readonly GameplayCoreSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x60
@@ -166,22 +166,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x20E2860
+    // Offset: 0x20E833C
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x20E28A0
+    // Offset: 0x20E837C
     void LateUpdate();
     // protected System.Void OnDestroy()
-    // Offset: 0x20E3DF4
+    // Offset: 0x20E98D0
     void OnDestroy();
     // private System.String GetBar(System.Single songTime)
-    // Offset: 0x20E3BF0
+    // Offset: 0x20E96CC
     ::Il2CppString* GetBar(float songTime);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x20E4338
+    // Offset: 0x20E9E14
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x20E4624
+    // Offset: 0x20EA100
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

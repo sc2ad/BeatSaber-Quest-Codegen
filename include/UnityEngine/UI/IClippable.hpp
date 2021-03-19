@@ -29,22 +29,22 @@ namespace UnityEngine::UI {
     IClippable() noexcept {}
     // public UnityEngine.GameObject get_gameObject()
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* get_gameObject_NEW();
+    UnityEngine::GameObject* get_gameObject();
     // public System.Void RecalculateClipping()
     // Offset: 0xFFFFFFFF
-    void RecalculateClipping_NEW();
+    void RecalculateClipping();
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0xFFFFFFFF
-    UnityEngine::RectTransform* get_rectTransform_NEW();
+    UnityEngine::RectTransform* get_rectTransform();
     // public System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     // Offset: 0xFFFFFFFF
-    void Cull_NEW(UnityEngine::Rect clipRect, bool validRect);
+    void Cull(UnityEngine::Rect clipRect, bool validRect);
     // public System.Void SetClipRect(UnityEngine.Rect value, System.Boolean validRect)
     // Offset: 0xFFFFFFFF
-    void SetClipRect_NEW(UnityEngine::Rect value, bool validRect);
+    void SetClipRect(UnityEngine::Rect value, bool validRect);
     // public System.Void SetClipSoftness(UnityEngine.Vector2 clipSoftness)
     // Offset: 0xFFFFFFFF
-    void SetClipSoftness_NEW(UnityEngine::Vector2 clipSoftness);
+    void SetClipSoftness(UnityEngine::Vector2 clipSoftness);
   }; // UnityEngine.UI.IClippable
   #pragma pack(pop)
 }

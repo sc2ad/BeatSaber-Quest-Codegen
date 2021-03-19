@@ -52,28 +52,28 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* ProcessBytes(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1AEA5FC
+    // Offset: 0x1AF0054
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public System.Byte[] DoFinal()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* DoFinal();
     // public System.Byte[] DoFinal(System.Byte[] input)
-    // Offset: 0x1AEA6FC
-    ::Array<uint8_t>* DoFinal_NEW(::Array<uint8_t>* input);
+    // Offset: 0x1AF0154
+    ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input);
     // public System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1AEA724
+    // Offset: 0x1AF017C
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
     void Reset();
     // static private System.Void .cctor()
-    // Offset: 0x1AEA7F8
+    // Offset: 0x1AF0250
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1AEA85C
+    // Offset: 0x1AF02B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,21 +30,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerBigAvatarInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xD27730
+    // [InjectAttribute] Offset: 0xD27C54
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27740
+    // [InjectAttribute] Offset: 0xD27C64
     // private readonly SaberManager/InitData _saberManagerInitData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SaberManager::InitData* saberManagerInitData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27750
+    // [InjectAttribute] Offset: 0xD27C74
     // private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
     // Size: 0x8
     // Offset: 0x30
@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBigAvatarInstaller
     MultiplayerBigAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::SaberManager::InitData* saberManagerInitData_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playerSpecificSettings_ = {}) noexcept : connectedPlayer{connectedPlayer_}, saberManagerInitData{saberManagerInitData_}, playerSpecificSettings{playerSpecificSettings_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x103BED8
+    // Offset: 0x103D9C0
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x103C0C0
+    // Offset: 0x103DBA8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

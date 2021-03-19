@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     ISaberMovementDataProcessor() noexcept {}
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
     // Offset: 0xFFFFFFFF
-    void ProcessNewData_NEW(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
+    void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
   }; // ISaberMovementDataProcessor
   #pragma pack(pop)
 }

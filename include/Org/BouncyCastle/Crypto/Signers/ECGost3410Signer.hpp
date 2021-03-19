@@ -71,19 +71,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x11675CC
-    void Init_NEW(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x1169FDC
+    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x1167760
-    Org::BouncyCastle::Math::BigInteger* get_Order_NEW();
+    // Offset: 0x116A170
+    Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x1167788
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature_NEW(::Array<uint8_t>* message);
+    // Offset: 0x116A198
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1167CA8
-    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier_NEW();
+    // Offset: 0x116A6B8
+    Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x1167D04
+    // Offset: 0x116A714
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

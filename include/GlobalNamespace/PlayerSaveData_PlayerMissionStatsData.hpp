@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerMissionStatsData
     PlayerMissionStatsData(::Il2CppString* missionId_ = {}, bool cleared_ = {}) noexcept : missionId{missionId_}, cleared{cleared_} {}
     // public System.Void .ctor()
-    // Offset: 0xF6386C
+    // Offset: 0xF67024
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

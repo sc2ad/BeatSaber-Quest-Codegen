@@ -45,19 +45,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0x1124410
+    // Offset: 0x1126E20
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0x1124418
+    // Offset: 0x1126E28
     void set_CancelHandler(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0x1124420
+    // Offset: 0x1126E30
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0x1124428
-    void Cancel_NEW();
+    // Offset: 0x1126E38
+    void Cancel();
     // public System.Void .ctor()
-    // Offset: 0x11247D8
+    // Offset: 0x11271E8
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

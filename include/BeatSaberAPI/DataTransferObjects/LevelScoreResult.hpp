@@ -234,7 +234,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: LevelScoreResult
     LevelScoreResult(::Il2CppString* leaderboardId_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : leaderboardId{leaderboardId_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // public System.Void .ctor()
-    // Offset: 0x10653AC
+    // Offset: 0x1066F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

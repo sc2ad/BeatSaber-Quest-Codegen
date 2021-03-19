@@ -54,21 +54,21 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>* resizeData;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD279D0
+    // [InjectAttribute] Offset: 0xD27EF4
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD279E0
+    // [InjectAttribute] Offset: 0xD27F04
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD279F0
+    // [CompilerGeneratedAttribute] Offset: 0xD27F14
     // private System.Action resizingDidFinishEvent
     // Size: 0x8
     // Offset: 0x38
@@ -98,34 +98,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isResizingFinished()
-    // Offset: 0x1047698
+    // Offset: 0x1049208
     bool get_isResizingFinished();
     // public System.Void add_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x10476A0
+    // Offset: 0x1049210
     void add_resizingDidFinishEvent(System::Action* value);
     // public System.Void remove_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x1047744
+    // Offset: 0x10492B4
     void remove_resizingDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x10477E8
+    // Offset: 0x1049358
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1047954
+    // Offset: 0x10494C4
     void OnDestroy();
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
-    // Offset: 0x1047924
+    // Offset: 0x1049494
     void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x104793C
+    // Offset: 0x10494AC
     void HandleSpawnCenterDistanceWasFound(float distance);
     // private System.Void TryResize()
-    // Offset: 0x1047AA8
+    // Offset: 0x1049618
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0x1047AC0
+    // Offset: 0x1049630
     void Resize();
     // public System.Void .ctor()
-    // Offset: 0x1047DB8
+    // Offset: 0x1049928
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

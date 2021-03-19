@@ -25,10 +25,10 @@ namespace MasterServer {
     }
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userId_NEW();
+    ::Il2CppString* get_userId();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName_NEW();
+    ::Il2CppString* get_userName();
   }; // MasterServer.IUserClientToServerMessage
   #pragma pack(pop)
 }

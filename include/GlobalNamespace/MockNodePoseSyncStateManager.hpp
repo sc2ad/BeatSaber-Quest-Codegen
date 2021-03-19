@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MockNodePoseSyncStateManager : public ::Il2CppObject/*, public GlobalNamespace::INodePoseSyncStateManager*/ {
     public:
-    // [InjectAttribute] Offset: 0xD273BC
+    // [InjectAttribute] Offset: 0xD278E0
     // private MultiplayerMockSettings _mockSettings
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::MultiplayerMockSettings* mockSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xD273CC
+    // [InjectAttribute] Offset: 0xD278F0
     // private IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
@@ -63,34 +63,34 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
     // public System.Single get_syncTime()
-    // Offset: 0x1033280
-    float get_syncTime_NEW();
+    // Offset: 0x1034D68
+    float get_syncTime();
     // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x1033334
-    int get_connectedPlayerCount_NEW();
+    // Offset: 0x1034E1C
+    int get_connectedPlayerCount();
     // public LocalMultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> get_localState()
-    // Offset: 0x103333C
-    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_localState_NEW();
+    // Offset: 0x1034E24
+    GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_localState();
     // private System.Void Init()
-    // Offset: 0x1033344
+    // Offset: 0x1034E2C
     void Init();
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncStateForPlayer(IConnectedPlayer player)
-    // Offset: 0x1033454
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer_NEW(GlobalNamespace::IConnectedPlayer* player);
+    // Offset: 0x1034F3C
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncState(System.Int32 i)
-    // Offset: 0x103345C
-    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncState_NEW(int i);
+    // Offset: 0x1034F44
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncState(int i);
     // public System.Void ClearBufferedStates()
-    // Offset: 0x1033464
-    void ClearBufferedStates_NEW();
+    // Offset: 0x1034F4C
+    void ClearBufferedStates();
     // private PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x10334BC
+    // Offset: 0x1034FA4
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // private PoseSerializable Smooth(PoseSerializable a, PoseSerializable b, System.Single smooth)
-    // Offset: 0x1033504
+    // Offset: 0x1034FEC
     GlobalNamespace::PoseSerializable Smooth(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float smooth);
     // public System.Void .ctor()
-    // Offset: 0x103354C
+    // Offset: 0x1035034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

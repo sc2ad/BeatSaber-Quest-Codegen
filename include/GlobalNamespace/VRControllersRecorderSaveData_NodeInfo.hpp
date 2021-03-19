@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NodeInfo
     NodeInfo(UnityEngine::XR::XRNode nodeType_ = {}, int nodeIdx_ = {}) noexcept : nodeType{nodeType_}, nodeIdx{nodeIdx_} {}
     // public System.Void .ctor()
-    // Offset: 0x108B9C0
+    // Offset: 0x108E32C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

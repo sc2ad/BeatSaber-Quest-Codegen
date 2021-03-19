@@ -39,8 +39,8 @@ namespace GlobalNamespace {
     template<class T>
     static void SetCapacity(System::Collections::Generic::HashSet_1<T>* hs, int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HashSetExtensions::SetCapacity");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "HashSetExtensions", "SetCapacity", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(hs, capacity)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "HashSetExtensions", "SetCapacity", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(hs, capacity)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, hs, capacity);
     }
     // static public System.Collections.Generic.HashSet`1<T> GetHashSet(System.Int32 capacity)
@@ -48,8 +48,8 @@ namespace GlobalNamespace {
     template<class T>
     static System::Collections::Generic::HashSet_1<T>* GetHashSet(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HashSetExtensions::GetHashSet");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "HashSetExtensions", "GetHashSet", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(capacity)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "HashSetExtensions", "GetHashSet", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(capacity)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::HashSet_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, capacity);
     }
   }; // HashSetExtensions

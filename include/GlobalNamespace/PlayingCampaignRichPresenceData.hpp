@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class PlayingCampaignRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD22384
+    // [CompilerGeneratedAttribute] Offset: 0xD228C8
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0xD22394
+    // [LocalizationKeyAttribute] Offset: 0xD228D8
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_CAMPAIGN_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static void _set_kPlayingCampaignRichPresenceLocalizationKey(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0xF9AB5C
-    ::Il2CppString* get_apiName_NEW();
+    // Offset: 0xFBECC4
+    ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0xF9ABA4
-    ::Il2CppString* get_localizedDescription_NEW();
+    // Offset: 0xFBED0C
+    ::Il2CppString* get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0xF9ABAC
+    // Offset: 0xFBED14
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xF9ABB4
+    // Offset: 0xFBED1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,14 +33,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class InstantMenuButtonTrigger : public ::Il2CppObject/*, public Zenject::ITickable, public GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    // [InjectAttribute] Offset: 0xD25734
+    // [InjectAttribute] Offset: 0xD25C58
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD25744
+    // [CompilerGeneratedAttribute] Offset: 0xD25C68
     // private System.Action menuButtonTriggeredEvent
     // Size: 0x8
     // Offset: 0x18
@@ -58,16 +58,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xFF4B18
-    void add_menuButtonTriggeredEvent_NEW(System::Action* value);
+    // Offset: 0xFF6A2C
+    void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xFF4BBC
-    void remove_menuButtonTriggeredEvent_NEW(System::Action* value);
+    // Offset: 0xFF6AD0
+    void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0xFF4C60
-    void Tick_NEW();
+    // Offset: 0xFF6B74
+    void Tick();
     // public System.Void .ctor()
-    // Offset: 0xFF4CAC
+    // Offset: 0xFF6BC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

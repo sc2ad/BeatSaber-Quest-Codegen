@@ -79,28 +79,28 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x122C850
+    // Offset: 0x122F260
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x122C870
+    // Offset: 0x122F280
     void OnDisable();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x122C898
+    // Offset: 0x122F2A8
     void OnApplicationFocus(bool hasFocus);
     // public System.Void ShowText(System.String text)
-    // Offset: 0x122C8C0
+    // Offset: 0x122F2D0
     void ShowText(::Il2CppString* text);
     // private System.Collections.IEnumerator ShowTextCoroutine()
-    // Offset: 0x122C928
+    // Offset: 0x122F338
     System::Collections::IEnumerator* ShowTextCoroutine();
     // public System.Void HideText()
-    // Offset: 0x122C9C4
+    // Offset: 0x122F3D4
     void HideText();
     // private System.Collections.IEnumerator HideTextCoroutine()
-    // Offset: 0x122CA44
+    // Offset: 0x122F454
     System::Collections::IEnumerator* HideTextCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x122CAE0
+    // Offset: 0x122F4F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

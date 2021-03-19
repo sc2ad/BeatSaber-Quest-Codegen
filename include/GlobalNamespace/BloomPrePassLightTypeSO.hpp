@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x1CDA934
+    // Offset: 0x1CE338C
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x1CDA93C
+    // Offset: 0x1CE3394
     UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x1CDA944
+    // Offset: 0x1CE339C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

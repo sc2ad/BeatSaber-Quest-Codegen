@@ -16,7 +16,7 @@ namespace Zenject {
     ILateDisposable() noexcept {}
     // public System.Void LateDispose()
     // Offset: 0xFFFFFFFF
-    void LateDispose_NEW();
+    void LateDispose();
   }; // Zenject.ILateDisposable
   #pragma pack(pop)
 }

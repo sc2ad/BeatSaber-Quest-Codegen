@@ -25,7 +25,7 @@ namespace UnityEngine {
     IExposedPropertyTable() noexcept {}
     // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* GetReferenceValue_NEW(UnityEngine::PropertyName id, bool& idValid);
+    UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);
   }; // UnityEngine.IExposedPropertyTable
   #pragma pack(pop)
 }

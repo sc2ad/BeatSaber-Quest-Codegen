@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     }
     // public T Obtain()
     // Offset: 0xFFFFFFFF
-    T Obtain_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Obtain_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    T Obtain() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Obtain");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Release(T t)
     // Offset: 0xFFFFFFFF
-    void Release_NEW(T t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Release_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
+    void Release(T t) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Release");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(t)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, t);
     }
     // public System.Void Clear()
@@ -87,18 +87,18 @@ namespace GlobalNamespace {
     }
     // private System.Void IPacketPool.Release(System.Object o)
     // Offset: 0xFFFFFFFF
-    void IPacketPool_Release_NEW(::Il2CppObject* o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::IPacketPool.Release_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "IPacketPool.Release", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o)));
+    void IPacketPool_Release(::Il2CppObject* o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::IPacketPool.Release");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "IPacketPool.Release", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(o)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, o);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::GetHashCode");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void .ctor()

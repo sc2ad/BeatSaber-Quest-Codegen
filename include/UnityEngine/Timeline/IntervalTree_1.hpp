@@ -83,7 +83,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::IntervalTreeNode>* m_Nodes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::IntervalTreeNode>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCEA7A4
+    // [CompilerGeneratedAttribute] Offset: 0xCEABE0
     // private System.Boolean <dirty>k__BackingField
     // Size: 0x1
     // Offset: 0x0

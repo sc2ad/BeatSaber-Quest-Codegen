@@ -47,8 +47,8 @@ namespace GlobalNamespace {
     template<class T>
     static System::Threading::Tasks::Task_1<T>* WithCancellation(System::Threading::Tasks::Task_1<T>* task, System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::WithCancellation");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "TaskExtensions", "WithCancellation", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(task, cancellationToken)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "TaskExtensions", "WithCancellation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(task, cancellationToken)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, task, cancellationToken);
     }
     // static private System.Void WaitForTask(System.Threading.Tasks.Task`1<T> task, System.Threading.Tasks.TaskCompletionSource`1<T> tcs)
@@ -56,8 +56,8 @@ namespace GlobalNamespace {
     template<class T>
     static void WaitForTask(System::Threading::Tasks::Task_1<T>* task, System::Threading::Tasks::TaskCompletionSource_1<T>* tcs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::WaitForTask");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "TaskExtensions", "WaitForTask", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(task, tcs)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "TaskExtensions", "WaitForTask", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(task, tcs)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, task, tcs);
     }
   }; // TaskExtensions

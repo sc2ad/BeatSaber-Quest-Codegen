@@ -19,10 +19,10 @@ namespace System::Xml {
     IXmlNamespaceResolver() noexcept {}
     // public System.String LookupNamespace(System.String prefix)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* LookupNamespace_NEW(::Il2CppString* prefix);
+    ::Il2CppString* LookupNamespace(::Il2CppString* prefix);
     // public System.String LookupPrefix(System.String namespaceName)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* LookupPrefix_NEW(::Il2CppString* namespaceName);
+    ::Il2CppString* LookupPrefix(::Il2CppString* namespaceName);
   }; // System.Xml.IXmlNamespaceResolver
   #pragma pack(pop)
 }

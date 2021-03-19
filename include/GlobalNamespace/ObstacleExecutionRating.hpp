@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ObstacleExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_ObstacleExecutionRating_RatingSizeCheck;
     static_assert(sizeof(ObstacleExecutionRating::Rating) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD21A64
+    // [CompilerGeneratedAttribute] Offset: 0xD21F98
     // private ObstacleExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -79,13 +79,13 @@ namespace GlobalNamespace {
       return rating;
     }
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x10CAE88
+    // Offset: 0x10CD84C
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void set_rating(ObstacleExecutionRating/Rating value)
-    // Offset: 0x10CAE90
+    // Offset: 0x10CD854
     void set_rating(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x10CAE98
+    // Offset: 0x10CD85C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleExecutionRating::.ctor");

@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x107661C
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks_NEW();
+    // Offset: 0x10781E0
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x107664C
+    // Offset: 0x1078210
     void LoadAllBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x10767A0
+    // Offset: 0x1078364
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

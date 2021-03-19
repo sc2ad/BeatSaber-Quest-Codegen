@@ -68,22 +68,22 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner
     static void _set_m_MonoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // static public UnityEngine.MonoBehaviour get_monoBehaviourCoroutineRunner()
-    // Offset: 0x13425D8
+    // Offset: 0x1344FE8
     static UnityEngine::MonoBehaviour* get_monoBehaviourCoroutineRunner();
     // static public System.Void set_monoBehaviourCoroutineRunner(UnityEngine.MonoBehaviour value)
-    // Offset: 0x13426A4
+    // Offset: 0x13450B4
     static void set_monoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x13426F8
+    // Offset: 0x1345108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x1342F74
+    // Offset: 0x1345984
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
-    // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork_NEW()
+    // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CoroutineTestWorkItem
   #pragma pack(pop)

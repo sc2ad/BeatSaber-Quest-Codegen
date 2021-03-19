@@ -53,7 +53,7 @@ namespace TMPro {
     // Creating value type constructor for type: MaskingMaterial
     MaskingMaterial(UnityEngine::Material* baseMaterial_ = {}, UnityEngine::Material* stencilMaterial_ = {}, int count_ = {}, int stencilID_ = {}) noexcept : baseMaterial{baseMaterial_}, stencilMaterial{stencilMaterial_}, count{count_}, stencilID{stencilID_} {}
     // public System.Void .ctor()
-    // Offset: 0xFB113C
+    // Offset: 0xF9E848
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

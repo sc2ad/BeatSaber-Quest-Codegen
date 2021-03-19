@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Math::Field {
     }
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial_NEW();
+    Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
   }; // Org.BouncyCastle.Math.Field.IPolynomialExtensionField
   #pragma pack(pop)
 }

@@ -28,21 +28,21 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class DisconnectedPlayer : public ::Il2CppObject/*, public GlobalNamespace::IConnectedPlayer*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD05960
+    // [CompilerGeneratedAttribute] Offset: 0xD05DBC
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD05970
+    // [CompilerGeneratedAttribute] Offset: 0xD05DCC
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD05980
+    // [CompilerGeneratedAttribute] Offset: 0xD05DDC
     // private readonly System.Int32 <sortIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: sortIndex and: multiplayerAvatarData
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD05990
+    // [CompilerGeneratedAttribute] Offset: 0xD05DEC
     // private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
     // Size: 0x70
     // Offset: 0x28
@@ -65,52 +65,52 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);
     }
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x1211124
-    float get_offsetSyncTime_NEW();
+    // Offset: 0x1213B34
+    float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x121112C
+    // Offset: 0x1213B3C
     bool get_isFailed();
     // public System.Boolean get_isMe()
-    // Offset: 0x1211134
-    bool get_isMe_NEW();
+    // Offset: 0x1213B44
+    bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x121113C
-    ::Il2CppString* get_userId_NEW();
+    // Offset: 0x1213B4C
+    ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x1211144
+    // Offset: 0x1213B54
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x121114C
-    ::Il2CppString* get_userName_NEW();
+    // Offset: 0x1213B5C
+    ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1211154
+    // Offset: 0x1213B64
     void set_userName(::Il2CppString* value);
     // public System.Single get_currentLatency()
-    // Offset: 0x121115C
-    float get_currentLatency_NEW();
+    // Offset: 0x1213B6C
+    float get_currentLatency();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1211164
-    bool get_isConnected_NEW();
+    // Offset: 0x1213B74
+    bool get_isConnected();
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0x121116C
-    GlobalNamespace::DisconnectedReason get_disconnectedReason_NEW();
+    // Offset: 0x1213B7C
+    GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1211174
-    bool get_isConnectionOwner_NEW();
+    // Offset: 0x1213B84
+    bool get_isConnectionOwner();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x121117C
-    int get_sortIndex_NEW();
+    // Offset: 0x1213B8C
+    int get_sortIndex();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x1211184
-    GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData_NEW();
+    // Offset: 0x1213B94
+    GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean get_isKicked()
-    // Offset: 0x1211194
-    bool get_isKicked_NEW();
+    // Offset: 0x1213BA4
+    bool get_isKicked();
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x121119C
-    bool HasState_NEW(::Il2CppString* state);
+    // Offset: 0x1213BAC
+    bool HasState(::Il2CppString* state);
     // public System.Void .ctor(System.String userId, System.String userName, System.Int32 sortIndex)
-    // Offset: 0x12111A4
+    // Offset: 0x1213BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectedPlayer* New_ctor(::Il2CppString* userId, ::Il2CppString* userName, int sortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisconnectedPlayer::.ctor");

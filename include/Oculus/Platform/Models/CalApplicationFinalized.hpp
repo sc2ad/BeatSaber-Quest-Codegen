@@ -25,12 +25,12 @@ namespace Oculus::Platform::Models {
     int CountdownMS;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Padding between fields: CountdownMS and: ID
+    // Padding between fields: CountdownMS and: _ID
     char __padding0[0x4] = {};
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x18
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // public readonly System.String LaunchDetails
@@ -40,9 +40,9 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CalApplicationFinalized
-    CalApplicationFinalized(int CountdownMS_ = {}, uint64_t ID_ = {}, ::Il2CppString* LaunchDetails_ = {}) noexcept : CountdownMS{CountdownMS_}, ID{ID_}, LaunchDetails{LaunchDetails_} {}
+    CalApplicationFinalized(int CountdownMS_ = {}, uint64_t _ID_ = {}, ::Il2CppString* LaunchDetails_ = {}) noexcept : CountdownMS{CountdownMS_}, _ID{_ID_}, LaunchDetails{LaunchDetails_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1384074
+    // Offset: 0x1386A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalApplicationFinalized* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CalApplicationFinalized::.ctor");

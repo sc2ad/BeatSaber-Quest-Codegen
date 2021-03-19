@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AlphabetScrollInfo
     AlphabetScrollInfo() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1118E98
+    // Offset: 0x111B85C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

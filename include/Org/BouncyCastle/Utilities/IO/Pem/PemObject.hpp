@@ -45,20 +45,20 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Creating value type constructor for type: PemObject
     PemObject(::Il2CppString* type_ = {}, System::Collections::IList* headers_ = {}, ::Array<uint8_t>* content_ = {}) noexcept : type{type_}, headers{headers_}, content{content_} {}
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
-    // Offset: 0x1E2B8A8
+    // Offset: 0x1E2F384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::Array<uint8_t>* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemObject*, creationType>(type, headers, content)));
     }
     // public System.String get_Type()
-    // Offset: 0x1E2B9A4
+    // Offset: 0x1E2F480
     ::Il2CppString* get_Type();
     // public System.Collections.IList get_Headers()
-    // Offset: 0x1E2B9AC
+    // Offset: 0x1E2F488
     System::Collections::IList* get_Headers();
     // public System.Byte[] get_Content()
-    // Offset: 0x1E2B9B4
+    // Offset: 0x1E2F490
     ::Array<uint8_t>* get_Content();
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemObject
   #pragma pack(pop)

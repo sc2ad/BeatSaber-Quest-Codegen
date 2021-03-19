@@ -56,108 +56,108 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
     // public System.Void .ctor(IUnifiedNetworkPlayerModel unifiedNetworkPlayerModel, GameplayServerConfiguration configuration, System.String secret)
-    // Offset: 0x1019BD4
+    // Offset: 0xFE0444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StubMatchmakingServer* New_ctor(GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StubMatchmakingServer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StubMatchmakingServer*, creationType>(unifiedNetworkPlayerModel, configuration, secret)));
     }
     // public System.String get_userId()
-    // Offset: 0x1019C20
-    ::Il2CppString* get_userId_NEW();
+    // Offset: 0xFE0490
+    ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x1019C70
-    ::Il2CppString* get_userName_NEW();
+    // Offset: 0xFE04E0
+    ::Il2CppString* get_userName();
     // public System.Boolean get_isMe()
-    // Offset: 0x1019CC0
-    bool get_isMe_NEW();
+    // Offset: 0xFE0530
+    bool get_isMe();
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x1019CC8
-    int get_currentPartySize_NEW();
+    // Offset: 0xFE0538
+    int get_currentPartySize();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1019D7C
-    int get_maxPartySize_NEW();
+    // Offset: 0xFE05EC
+    int get_maxPartySize();
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x1019E30
-    bool get_isMyPartyOwner_NEW();
+    // Offset: 0xFE06A0
+    bool get_isMyPartyOwner();
     // public System.Boolean get_isOpenParty()
-    // Offset: 0x1019E38
-    bool get_isOpenParty_NEW();
+    // Offset: 0xFE06A8
+    bool get_isOpenParty();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1019E40
-    bool get_isConnected_NEW();
+    // Offset: 0xFE06B0
+    bool get_isConnected();
     // public System.Boolean get_isPlayer()
-    // Offset: 0x1019E48
-    bool get_isPlayer_NEW();
+    // Offset: 0xFE06B8
+    bool get_isPlayer();
     // public System.Boolean get_isDedicatedServer()
-    // Offset: 0x1019E50
-    bool get_isDedicatedServer_NEW();
+    // Offset: 0xFE06C0
+    bool get_isDedicatedServer();
     // public System.Boolean get_isSpectating()
-    // Offset: 0x1019E58
-    bool get_isSpectating_NEW();
+    // Offset: 0xFE06C8
+    bool get_isSpectating();
     // public BeatmapDifficultyMask get_difficulties()
-    // Offset: 0x1019E60
-    GlobalNamespace::BeatmapDifficultyMask get_difficulties_NEW();
+    // Offset: 0xFE06D0
+    GlobalNamespace::BeatmapDifficultyMask get_difficulties();
     // public GameplayModifierMask get_modifiers()
-    // Offset: 0x1019E68
-    GlobalNamespace::GameplayModifierMask get_modifiers_NEW();
+    // Offset: 0xFE06D8
+    GlobalNamespace::GameplayModifierMask get_modifiers();
     // public SongPackMask get_songPacks()
-    // Offset: 0x1019E70
-    GlobalNamespace::SongPackMask get_songPacks_NEW();
+    // Offset: 0xFE06E0
+    GlobalNamespace::SongPackMask get_songPacks();
     // public System.Boolean get_canJoin()
-    // Offset: 0x1019E7C
-    bool get_canJoin_NEW();
+    // Offset: 0xFE06EC
+    bool get_canJoin();
     // public System.Void Join()
-    // Offset: 0x1019E84
-    void Join_NEW();
+    // Offset: 0xFE06F4
+    void Join();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x1019F84
-    bool get_requiresPassword_NEW();
+    // Offset: 0xFE07F4
+    bool get_requiresPassword();
     // public System.Void Join(System.String password)
-    // Offset: 0x1019F8C
-    void Join_NEW(::Il2CppString* password);
+    // Offset: 0xFE07FC
+    void Join(::Il2CppString* password);
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x1019F90
-    bool get_isWaitingOnJoin_NEW();
+    // Offset: 0xFE0800
+    bool get_isWaitingOnJoin();
     // public System.Boolean get_canInvite()
-    // Offset: 0x1019F98
-    bool get_canInvite_NEW();
+    // Offset: 0xFE0808
+    bool get_canInvite();
     // public System.Void Invite()
-    // Offset: 0x1019FA0
-    void Invite_NEW();
+    // Offset: 0xFE0810
+    void Invite();
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x101A000
-    bool get_isWaitingOnInvite_NEW();
+    // Offset: 0xFE0870
+    bool get_isWaitingOnInvite();
     // public System.Boolean get_canKick()
-    // Offset: 0x101A008
-    bool get_canKick_NEW();
+    // Offset: 0xFE0878
+    bool get_canKick();
     // public System.Void Kick()
-    // Offset: 0x101A010
-    void Kick_NEW();
+    // Offset: 0xFE0880
+    void Kick();
     // public System.Boolean get_canLeave()
-    // Offset: 0x101A070
-    bool get_canLeave_NEW();
+    // Offset: 0xFE08E0
+    bool get_canLeave();
     // public System.Void Leave()
-    // Offset: 0x101A078
-    void Leave_NEW();
+    // Offset: 0xFE08E8
+    void Leave();
     // public System.Boolean get_canBlock()
-    // Offset: 0x101A12C
-    bool get_canBlock_NEW();
+    // Offset: 0xFE099C
+    bool get_canBlock();
     // public System.Void Block()
-    // Offset: 0x101A134
-    void Block_NEW();
+    // Offset: 0xFE09A4
+    void Block();
     // public System.Boolean get_canUnblock()
-    // Offset: 0x101A194
-    bool get_canUnblock_NEW();
+    // Offset: 0xFE0A04
+    bool get_canUnblock();
     // public System.Void Unblock()
-    // Offset: 0x101A19C
-    void Unblock_NEW();
+    // Offset: 0xFE0A0C
+    void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x101A1FC
-    void SendJoinResponse_NEW(bool accept);
+    // Offset: 0xFE0A6C
+    void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x101A25C
-    void SendInviteResponse_NEW(bool accept);
+    // Offset: 0xFE0ACC
+    void SendInviteResponse(bool accept);
   }; // StubMatchmakingServer
   #pragma pack(pop)
   static check_size<sizeof(StubMatchmakingServer), 48 + sizeof(::Il2CppString*)> __GlobalNamespace_StubMatchmakingServerSizeCheck;

@@ -48,24 +48,24 @@ namespace System::Security::Cryptography::X509Certificates {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
-    // Offset: 0x16B15D8
+    // Offset: 0x16B3FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509EnhancedKeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509EnhancedKeyUsageExtension*, creationType>(encodedEnhancedKeyUsages, critical)));
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x16B169C
+    // Offset: 0x16B40BC
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x16B1908
+    // Offset: 0x16B4328
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x16B1AAC
+    // Offset: 0x16B44CC
     // Implemented from: System.Security.Cryptography.AsnEncodedData
-    // Base method: System.String AsnEncodedData::ToString_NEW(System.Boolean multiLine)
+    // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
   #pragma pack(pop)

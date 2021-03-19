@@ -28,10 +28,10 @@ namespace Mono::Math::Prime {
     // Creating value type constructor for type: PrimalityTests
     PrimalityTests() noexcept {}
     // static private System.Int32 GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1B88658
+    // Offset: 0x1B8C0B0
     static int GetSPPRounds(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // static public System.Boolean RabinMillerTest(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1B8880C
+    // Offset: 0x1B8C264
     static bool RabinMillerTest(Mono::Math::BigInteger* n, Mono::Math::Prime::ConfidenceFactor confidence);
   }; // Mono.Math.Prime.PrimalityTests
   #pragma pack(pop)

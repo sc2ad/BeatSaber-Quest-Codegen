@@ -19,14 +19,14 @@ namespace UnityEngine::Timeline {
   // [] Offset: FFFFFFFF
   class TimelineAsset::EditorSettings : public ::Il2CppObject {
     public:
-    // [HideInInspector] Offset: 0xCEA9D0
+    // [HideInInspector] Offset: 0xCEAE0C
     // private System.Single m_Framerate
     // Size: 0x4
     // Offset: 0x10
     float m_Framerate;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xCEAA08
+    // [HideInInspector] Offset: 0xCEAE44
     // private System.Boolean m_ScenePreview
     // Size: 0x1
     // Offset: 0x14
@@ -48,22 +48,22 @@ namespace UnityEngine::Timeline {
     // Set static field: static readonly System.Single kDefaultFps
     static void _set_kDefaultFps(float value);
     // public System.Single get_fps()
-    // Offset: 0x20E5810
+    // Offset: 0x20EB2EC
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x20E5818
+    // Offset: 0x20EB2F4
     void set_fps(float value);
     // public System.Boolean get_scenePreview()
-    // Offset: 0x20E5840
+    // Offset: 0x20EB31C
     bool get_scenePreview();
     // public System.Void set_scenePreview(System.Boolean value)
-    // Offset: 0x20E5848
+    // Offset: 0x20EB324
     void set_scenePreview(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x20E58D4
+    // Offset: 0x20EB3B0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x20E5854
+    // Offset: 0x20EB330
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

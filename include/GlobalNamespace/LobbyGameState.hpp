@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class LobbyGameState : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD212BC
+    // [CompilerGeneratedAttribute] Offset: 0xD217F0
     // private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x10
@@ -43,22 +43,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LobbyGameState
     LobbyGameState(System::Action_1<GlobalNamespace::MultiplayerGameState>* gameStateDidChangeEvent_ = {}, GlobalNamespace::MultiplayerGameState gameState_ = {}) noexcept : gameStateDidChangeEvent{gameStateDidChangeEvent_}, gameState{gameState_} {}
     // public MultiplayerGameState get_gameState()
-    // Offset: 0x109F35C
+    // Offset: 0x10A1D00
     GlobalNamespace::MultiplayerGameState get_gameState();
     // public System.Void add_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x109F364
+    // Offset: 0x10A1D08
     void add_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x109F408
+    // Offset: 0x10A1DAC
     void remove_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void SetGameState(MultiplayerGameState newGameState)
-    // Offset: 0x109F4AC
+    // Offset: 0x10A1E50
     void SetGameState(GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
-    // Offset: 0x109F530
+    // Offset: 0x10A1ED4
     void SetGameStateWithoutNotification(GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void .ctor()
-    // Offset: 0x109F538
+    // Offset: 0x10A1EDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

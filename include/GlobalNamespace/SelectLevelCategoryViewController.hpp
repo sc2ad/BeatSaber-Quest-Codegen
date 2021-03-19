@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     HMUI::IconSegmentedControl* levelFilterCategoryIconSegmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::IconSegmentedControl*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2E628
+    // [CompilerGeneratedAttribute] Offset: 0xD2EB5C
     // private System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> didSelectLevelCategoryEvent
     // Size: 0x8
     // Offset: 0x80
@@ -144,32 +144,32 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SelectLevelCategoryViewController
     SelectLevelCategoryViewController(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>* allLevelCategoryInfos_ = {}, HMUI::IconSegmentedControl* levelFilterCategoryIconSegmentedControl_ = {}, System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* didSelectLevelCategoryEvent_ = {}, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory prevSelectedLevelCategory_ = {}, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>* levelCategoryInfos_ = {}) noexcept : allLevelCategoryInfos{allLevelCategoryInfos_}, levelFilterCategoryIconSegmentedControl{levelFilterCategoryIconSegmentedControl_}, didSelectLevelCategoryEvent{didSelectLevelCategoryEvent_}, prevSelectedLevelCategory{prevSelectedLevelCategory_}, levelCategoryInfos{levelCategoryInfos_} {}
     // public System.Void add_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0xF6FB0C
+    // Offset: 0xF74638
     void add_didSelectLevelCategoryEvent(System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public System.Void remove_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0xF6FBB0
+    // Offset: 0xF746DC
     void remove_didSelectLevelCategoryEvent(System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0xF6FC54
+    // Offset: 0xF74780
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void Setup(SelectLevelCategoryViewController/LevelCategory selectedCategory, SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories)
-    // Offset: 0xF6FCB8
+    // Offset: 0xF747E4
     void Setup(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory selectedCategory, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories);
     // private System.Void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 index)
-    // Offset: 0xF700BC
+    // Offset: 0xF74BE8
     void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int index);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF6FF64
+    // Offset: 0xF74A90
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate_NEW(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF70010
+    // Offset: 0xF74B3C
     // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate_NEW(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF70178
+    // Offset: 0xF74CA4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -22,7 +22,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: BaseNumberConverter
     BaseNumberConverter() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x16C5690
+    // Offset: 0x16C90B0
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

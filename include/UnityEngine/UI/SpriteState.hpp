@@ -36,7 +36,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_PressedSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCDA8C8
+    // [FormerlySerializedAsAttribute] Offset: 0xCDBD04
     // private UnityEngine.Sprite m_SelectedSprite
     // Size: 0x8
     // Offset: 0x10
@@ -60,32 +60,32 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::SpriteState>*>(this);
     }
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0xE146CC
+    // Offset: 0xE18C68
     UnityEngine::Sprite* get_highlightedSprite();
     // public System.Void set_highlightedSprite(UnityEngine.Sprite value)
-    // Offset: 0xE146D4
+    // Offset: 0xE18C70
     void set_highlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0xE146DC
+    // Offset: 0xE18C78
     UnityEngine::Sprite* get_pressedSprite();
     // public System.Void set_pressedSprite(UnityEngine.Sprite value)
-    // Offset: 0xE146E4
+    // Offset: 0xE18C80
     void set_pressedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0xE146EC
+    // Offset: 0xE18C88
     UnityEngine::Sprite* get_selectedSprite();
     // public System.Void set_selectedSprite(UnityEngine.Sprite value)
-    // Offset: 0xE146F4
+    // Offset: 0xE18C90
     void set_selectedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0xE146FC
+    // Offset: 0xE18C98
     UnityEngine::Sprite* get_disabledSprite();
     // public System.Void set_disabledSprite(UnityEngine.Sprite value)
-    // Offset: 0xE14704
+    // Offset: 0xE18CA0
     void set_disabledSprite(UnityEngine::Sprite* value);
     // public System.Boolean Equals(UnityEngine.UI.SpriteState other)
-    // Offset: 0xE1470C
-    bool Equals_NEW(UnityEngine::UI::SpriteState other);
+    // Offset: 0xE18CA8
+    bool Equals(UnityEngine::UI::SpriteState other);
   }; // UnityEngine.UI.SpriteState
   #pragma pack(pop)
   static check_size<sizeof(SpriteState), 24 + sizeof(UnityEngine::Sprite*)> __UnityEngine_UI_SpriteStateSizeCheck;

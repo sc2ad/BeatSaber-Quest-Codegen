@@ -55,9 +55,9 @@ namespace Zenject {
     }
     // public TContract Create()
     // Offset: 0xFFFFFFFF
-    TContract Create_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryProviderWrapper_1::Create_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    TContract Create() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryProviderWrapper_1::Create");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method);
     }
   }; // Zenject.FactoryProviderWrapper`1

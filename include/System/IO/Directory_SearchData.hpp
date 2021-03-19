@@ -42,7 +42,7 @@ namespace System::IO {
     // Creating value type constructor for type: SearchData
     SearchData(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, System::IO::SearchOption searchOption_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, searchOption{searchOption_} {}
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x179E750
+    // Offset: 0x17A1170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Directory::SearchData* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, System::IO::SearchOption searchOption) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Directory::SearchData::.ctor");

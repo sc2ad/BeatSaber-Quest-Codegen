@@ -309,13 +309,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 parseRecordIdCount
     static void _set_parseRecordIdCount(int value);
     // System.Void Init()
-    // Offset: 0x145F46C
+    // Offset: 0x1463E7C
     void Init();
     // static private System.Void .cctor()
-    // Offset: 0x1465D70
+    // Offset: 0x146A780
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x145F3C4
+    // Offset: 0x1463DD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

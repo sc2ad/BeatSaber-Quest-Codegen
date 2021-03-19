@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     IDeeplinkManager() noexcept {}
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
     // Offset: 0xFFFFFFFF
-    void add_didReceiveDeeplinkEvent_NEW(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
     // Offset: 0xFFFFFFFF
-    void remove_didReceiveDeeplinkEvent_NEW(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public Deeplink get_currentDeeplink()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::Deeplink* get_currentDeeplink_NEW();
+    GlobalNamespace::Deeplink* get_currentDeeplink();
   }; // IDeeplinkManager
   #pragma pack(pop)
 }

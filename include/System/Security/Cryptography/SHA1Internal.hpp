@@ -52,31 +52,31 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: SHA1Internal
     SHA1Internal(::Array<uint>* H_ = {}, uint64_t count_ = {}, ::Array<uint8_t>* ProcessingBuffer_ = {}, int ProcessingBufferCount_ = {}, ::Array<uint>* buff_ = {}) noexcept : H{H_}, count{count_}, ProcessingBuffer{ProcessingBuffer_}, ProcessingBufferCount{ProcessingBufferCount_}, buff{buff_} {}
     // public System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x196864C
+    // Offset: 0x196A06C
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // public System.Byte[] HashFinal()
-    // Offset: 0x1968770
+    // Offset: 0x196A190
     ::Array<uint8_t>* HashFinal();
     // public System.Void Initialize()
-    // Offset: 0x196887C
+    // Offset: 0x196A29C
     void Initialize();
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.UInt32 inputOffset)
-    // Offset: 0x1968940
+    // Offset: 0x196A360
     void ProcessBlock(::Array<uint8_t>* inputBuffer, uint inputOffset);
     // static private System.Void InitialiseBuff(System.UInt32[] buff, System.Byte[] input, System.UInt32 inputOffset)
-    // Offset: 0x196901C
+    // Offset: 0x196AA3C
     static void InitialiseBuff(::Array<uint>* buff, ::Array<uint8_t>* input, uint inputOffset);
     // static private System.Void FillBuff(System.UInt32[] buff)
-    // Offset: 0x1969704
+    // Offset: 0x196B124
     static void FillBuff(::Array<uint>* buff);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1968E64
+    // Offset: 0x196A884
     void ProcessFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x1969944
+    // Offset: 0x196B364
     void AddLength(uint64_t length, ::Array<uint8_t>* buffer, int position);
     // public System.Void .ctor()
-    // Offset: 0x1968514
+    // Offset: 0x1969F34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

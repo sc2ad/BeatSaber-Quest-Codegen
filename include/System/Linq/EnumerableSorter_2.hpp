@@ -75,19 +75,19 @@ namespace System::Linq {
     // override System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.EnumerableSorter`1
-    // Base method: System.Void EnumerableSorter_1::ComputeKeys_NEW(TElement[] elements, System.Int32 count)
+    // Base method: System.Void EnumerableSorter_1::ComputeKeys(TElement[] elements, System.Int32 count)
     void ComputeKeys(::Array<TElement>* elements, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::ComputeKeys");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(elements, count)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(elements, count)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, elements, count);
     }
     // override System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.EnumerableSorter`1
-    // Base method: System.Int32 EnumerableSorter_1::CompareKeys_NEW(System.Int32 index1, System.Int32 index2)
+    // Base method: System.Int32 EnumerableSorter_1::CompareKeys(System.Int32 index1, System.Int32 index2)
     int CompareKeys(int index1, int index2) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::CompareKeys");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CompareKeys", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index1, index2)));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CompareKeys", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(index1, index2)));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, index1, index2);
     }
   }; // System.Linq.EnumerableSorter`2

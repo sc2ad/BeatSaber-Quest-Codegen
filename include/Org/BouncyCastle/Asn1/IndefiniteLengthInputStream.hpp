@@ -40,16 +40,16 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: IndefiniteLengthInputStream
     IndefiniteLengthInputStream(int lookAhead_ = {}, bool eofOn00_ = {}) noexcept : lookAhead{lookAhead_}, eofOn00{eofOn00_} {}
     // System.Void SetEofOn00(System.Boolean eofOn00)
-    // Offset: 0x15FD9E0
+    // Offset: 0x1602400
     void SetEofOn00(bool eofOn00);
     // private System.Boolean CheckForEof()
-    // Offset: 0x15FD920
+    // Offset: 0x1602340
     bool CheckForEof();
     // private System.Int32 RequireByte()
-    // Offset: 0x15FD890
+    // Offset: 0x16022B0
     int RequireByte();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x15FD800
+    // Offset: 0x1602220
     // Implemented from: Org.BouncyCastle.Asn1.LimitedInputStream
     // Base method: System.Void LimitedInputStream::.ctor(System.IO.Stream inStream, System.Int32 limit)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,14 +58,14 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<IndefiniteLengthInputStream*, creationType>(inStream, limit)));
     }
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x15FD9F4
+    // Offset: 0x1602414
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x15FDB34
+    // Offset: 0x1602554
     // Implemented from: System.IO.Stream
-    // Base method: System.Int32 Stream::ReadByte_NEW()
+    // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
   }; // Org.BouncyCastle.Asn1.IndefiniteLengthInputStream
   #pragma pack(pop)

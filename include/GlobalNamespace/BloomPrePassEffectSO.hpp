@@ -63,25 +63,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x1CDA398
-    GlobalNamespace::TextureEffectSO* get_textureEffect_NEW();
+    // Offset: 0x1CE2DF0
+    GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x1CDA39C
-    int get_textureWidth_NEW();
+    // Offset: 0x1CE2DF4
+    int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x1CDA3A4
-    int get_textureHeight_NEW();
+    // Offset: 0x1CE2DFC
+    int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x1CDA3AC
-    UnityEngine::Vector2 get_fov_NEW();
+    // Offset: 0x1CE2E04
+    UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x1CDA3B4
-    float get_linesWidth_NEW();
+    // Offset: 0x1CE2E0C
+    float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0x1CDA3BC
-    GlobalNamespace::ToneMapping get_toneMapping_NEW();
+    // Offset: 0x1CE2E14
+    GlobalNamespace::ToneMapping get_toneMapping();
     // protected System.Void .ctor()
-    // Offset: 0x1CDA3C4
+    // Offset: 0x1CE2E1C
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

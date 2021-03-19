@@ -20,15 +20,15 @@ namespace GlobalNamespace {
     ILazyCopyHashSet_1() noexcept {}
     // public System.Void Add(T listener)
     // Offset: 0xFFFFFFFF
-    void Add_NEW(T listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Add_NEW");
+    void Add(T listener) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Add");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(listener)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, listener);
     }
     // public System.Void Remove(T listener)
     // Offset: 0xFFFFFFFF
-    void Remove_NEW(T listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Remove_NEW");
+    void Remove(T listener) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Remove");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(listener)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, listener);
     }

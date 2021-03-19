@@ -45,23 +45,23 @@ namespace System::Reflection {
     // Creating value type constructor for type: RuntimeAssembly
     RuntimeAssembly() noexcept {}
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1ACD5F4
+    // Offset: 0x1AD304C
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName an, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1ACD68C
+    // Offset: 0x1AD30E4
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1ACD544
+    // Offset: 0x1AD2F9C
     // Implemented from: System.Reflection.Assembly
-    // Base method: System.Void Assembly::GetObjectData_NEW(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Base method: System.Void Assembly::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.AssemblyName GetName(System.Boolean copiedName)
-    // Offset: 0x1ACD6C0
+    // Offset: 0x1AD3118
     // Implemented from: System.Reflection.Assembly
-    // Base method: System.Reflection.AssemblyName Assembly::GetName_NEW(System.Boolean copiedName)
+    // Base method: System.Reflection.AssemblyName Assembly::GetName(System.Boolean copiedName)
     System::Reflection::AssemblyName* GetName(bool copiedName);
     // protected System.Void .ctor()
-    // Offset: 0x1AC7DD4
+    // Offset: 0x1ACD82C
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::.ctor()
     // Base method: System.Void Object::.ctor()

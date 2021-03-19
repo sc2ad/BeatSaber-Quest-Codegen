@@ -72,39 +72,39 @@ namespace System::Text {
     EncoderFallbackBuffer(::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, System::Text::EncoderNLS* encoder_ = {}, bool setEncoder_ = {}, bool bUsedEncoder_ = {}, bool bFallingBack_ = {}, int iRecursionCount_ = {}) noexcept : charStart{charStart_}, charEnd{charEnd_}, encoder{encoder_}, setEncoder{setEncoder_}, bUsedEncoder{bUsedEncoder_}, bFallingBack{bFallingBack_}, iRecursionCount{iRecursionCount_} {}
     // public System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    bool Fallback_NEW(::Il2CppChar charUnknown, int index);
+    bool Fallback(::Il2CppChar charUnknown, int index);
     // public System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    bool Fallback_NEW(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
+    bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public System.Char GetNextChar()
     // Offset: 0xFFFFFFFF
-    ::Il2CppChar GetNextChar_NEW();
+    ::Il2CppChar GetNextChar();
     // public System.Boolean MovePrevious()
     // Offset: 0xFFFFFFFF
-    bool MovePrevious_NEW();
+    bool MovePrevious();
     // public System.Int32 get_Remaining()
     // Offset: 0xFFFFFFFF
-    int get_Remaining_NEW();
+    int get_Remaining();
     // public System.Void Reset()
-    // Offset: 0x1A13280
-    void Reset_NEW();
+    // Offset: 0x1A15CD8
+    void Reset();
     // System.Void InternalReset()
-    // Offset: 0x1A132B4
+    // Offset: 0x1A15D0C
     void InternalReset();
     // System.Void InternalInitialize(System.Char* charStart, System.Char* charEnd, System.Text.EncoderNLS encoder, System.Boolean setEncoder)
-    // Offset: 0x1A0F570
+    // Offset: 0x1A11FC8
     void InternalInitialize(::Il2CppChar* charStart, ::Il2CppChar* charEnd, System::Text::EncoderNLS* encoder, bool setEncoder);
     // System.Char InternalGetNextChar()
-    // Offset: 0x1A0F58C
+    // Offset: 0x1A11FE4
     ::Il2CppChar InternalGetNextChar();
     // System.Boolean InternalFallback(System.Char ch, ref System.Char* chars)
-    // Offset: 0x1A132CC
-    bool InternalFallback_NEW(::Il2CppChar ch, ::Il2CppChar*& chars);
+    // Offset: 0x1A15D24
+    bool InternalFallback(::Il2CppChar ch, ::Il2CppChar*& chars);
     // System.Void ThrowLastCharRecursive(System.Int32 charRecursive)
-    // Offset: 0x1A1349C
+    // Offset: 0x1A15EF4
     void ThrowLastCharRecursive(int charRecursive);
     // protected System.Void .ctor()
-    // Offset: 0x1A12BE4
+    // Offset: 0x1A1563C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

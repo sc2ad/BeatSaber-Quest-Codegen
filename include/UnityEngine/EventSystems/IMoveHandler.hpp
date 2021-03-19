@@ -29,7 +29,7 @@ namespace UnityEngine::EventSystems {
     }
     // public System.Void OnMove(UnityEngine.EventSystems.AxisEventData eventData)
     // Offset: 0xFFFFFFFF
-    void OnMove_NEW(UnityEngine::EventSystems::AxisEventData* eventData);
+    void OnMove(UnityEngine::EventSystems::AxisEventData* eventData);
   }; // UnityEngine.EventSystems.IMoveHandler
   #pragma pack(pop)
 }

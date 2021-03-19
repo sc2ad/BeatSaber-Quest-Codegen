@@ -39,13 +39,13 @@ namespace System {
     // Set static field: static public readonly System.Empty Value
     static void _set_Value(System::Empty* value);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16485D0
-    void GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    // Offset: 0x164BFF0
+    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
-    // Offset: 0x1648664
+    // Offset: 0x164C084
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1648578
+    // Offset: 0x164BF98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,9 +54,9 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<Empty*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1648580
+    // Offset: 0x164BFA0
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Empty
   #pragma pack(pop)

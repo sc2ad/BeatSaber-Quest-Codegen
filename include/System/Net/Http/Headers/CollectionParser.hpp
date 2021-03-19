@@ -42,15 +42,15 @@ namespace System::Net::Http::Headers {
     template<class T>
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Net::Http::Headers::ElementTryParser_1<T>* parser, System::Collections::Generic::List_1<T>*& result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::CollectionParser::TryParse");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionParser", "TryParse", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(input, minimalCount, parser, result)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionParser", "TryParse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(input, minimalCount, parser, result)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, input, minimalCount, parser, result);
     }
     // static public System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.String> result)
-    // Offset: 0x13D7890
+    // Offset: 0x13DB2A0
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<::Il2CppString*>*& result);
     // static private System.Boolean TryParseStringElement(System.Net.Http.Headers.Lexer lexer, out System.String parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x13D7930
+    // Offset: 0x13DB340
     static bool TryParseStringElement(System::Net::Http::Headers::Lexer* lexer, ::Il2CppString*& parsedValue, System::Net::Http::Headers::Token& t);
   }; // System.Net.Http.Headers.CollectionParser
   #pragma pack(pop)

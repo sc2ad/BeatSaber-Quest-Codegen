@@ -50,35 +50,35 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: SubjectPublicKeyInfo
     SubjectPublicKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID_ = {}, Org::BouncyCastle::Asn1::DerBitString* keyData_ = {}) noexcept : algID{algID_}, keyData{keyData_} {}
     // static public Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x1866C1C
+    // Offset: 0x186863C
     static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Byte[] publicKey)
-    // Offset: 0x1866E2C
+    // Offset: 0x186884C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubjectPublicKeyInfo*, creationType>(algID, publicKey)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1866CC0
+    // Offset: 0x18686E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubjectPublicKeyInfo*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_AlgorithmID()
-    // Offset: 0x1866EAC
+    // Offset: 0x18688CC
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
     // public Org.BouncyCastle.Asn1.Asn1Object ParsePublicKey()
-    // Offset: 0x1866EB4
+    // Offset: 0x18688D4
     Org::BouncyCastle::Asn1::Asn1Object* ParsePublicKey();
     // public Org.BouncyCastle.Asn1.DerBitString get_PublicKeyData()
-    // Offset: 0x1866EE0
+    // Offset: 0x1868900
     Org::BouncyCastle::Asn1::DerBitString* get_PublicKeyData();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1866EE8
+    // Offset: 0x1868908
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
-    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object_NEW()
+    // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo
   #pragma pack(pop)

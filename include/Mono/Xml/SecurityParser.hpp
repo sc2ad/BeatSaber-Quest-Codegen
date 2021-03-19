@@ -60,34 +60,34 @@ namespace Mono::Xml {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
     // public System.Void LoadXml(System.String xml)
-    // Offset: 0x18DB6C8
+    // Offset: 0x18DD0E8
     void LoadXml(::Il2CppString* xml);
     // public System.Security.SecurityElement ToXml()
-    // Offset: 0x18EC1B4
+    // Offset: 0x18EDBD4
     System::Security::SecurityElement* ToXml();
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x18EC1BC
-    void OnStartParsing_NEW(Mono::Xml::SmallXmlParser* parser);
+    // Offset: 0x18EDBDC
+    void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x18EC1C0
-    void OnProcessingInstruction_NEW(::Il2CppString* name, ::Il2CppString* text);
+    // Offset: 0x18EDBE0
+    void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
     // public System.Void OnIgnorableWhitespace(System.String s)
-    // Offset: 0x18EC1C4
-    void OnIgnorableWhitespace_NEW(::Il2CppString* s);
+    // Offset: 0x18EDBE4
+    void OnIgnorableWhitespace(::Il2CppString* s);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x18EC1C8
-    void OnStartElement_NEW(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
+    // Offset: 0x18EDBE8
+    void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0x18EC46C
-    void OnEndElement_NEW(::Il2CppString* name);
+    // Offset: 0x18EDE8C
+    void OnEndElement(::Il2CppString* name);
     // public System.Void OnChars(System.String ch)
-    // Offset: 0x18EC4EC
-    void OnChars_NEW(::Il2CppString* ch);
+    // Offset: 0x18EDF0C
+    void OnChars(::Il2CppString* ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x18EC57C
-    void OnEndParsing_NEW(Mono::Xml::SmallXmlParser* parser);
+    // Offset: 0x18EDF9C
+    void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void .ctor()
-    // Offset: 0x18DB660
+    // Offset: 0x18DD080
     // Implemented from: Mono.Xml.SmallXmlParser
     // Base method: System.Void SmallXmlParser::.ctor()
     // Base method: System.Void Object::.ctor()

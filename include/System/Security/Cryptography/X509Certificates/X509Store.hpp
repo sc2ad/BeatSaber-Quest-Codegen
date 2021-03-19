@@ -80,29 +80,29 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x16AECF8
+    // Offset: 0x16B1718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(storeName, storeLocation)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x16AE9BC
+    // Offset: 0x16B13DC
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x16B2FC4
+    // Offset: 0x16B59E4
     Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x16B2FE0
+    // Offset: 0x16B5A00
     Mono::Security::X509::X509Store* get_Store();
     // public System.Void Close()
-    // Offset: 0x16AE6EC
+    // Offset: 0x16B110C
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x16B2FE8
-    void Dispose_NEW();
+    // Offset: 0x16B5A08
+    void Dispose();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x16AEE34
+    // Offset: 0x16B1854
     void Open(System::Security::Cryptography::X509Certificates::OpenFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509Store
   #pragma pack(pop)

@@ -65,25 +65,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 fadeMaterialColorID
     static void _set_fadeMaterialColorID(int value);
     // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x12CD958
+    // Offset: 0x12CF368
     static void Start(UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // static public System.Void View(UnityEngine.Color newColor, System.Single duration)
-    // Offset: 0x12CDA1C
+    // Offset: 0x12CF42C
     static void View(UnityEngine::Color newColor, float duration);
     // public System.Void OnStartFade(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x12CDAE4
+    // Offset: 0x12CF4F4
     void OnStartFade(UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // private System.Void OnEnable()
-    // Offset: 0x12CDB4C
+    // Offset: 0x12CF55C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x12CDD0C
+    // Offset: 0x12CF71C
     void OnDisable();
     // private System.Void OnPostRender()
-    // Offset: 0x12CDDD0
+    // Offset: 0x12CF7E0
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0x12CE0F8
+    // Offset: 0x12CFB08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Fade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12CE1A0
+    // Offset: 0x12CFBB0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

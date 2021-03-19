@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CloudStorageMetadataList
     CloudStorageMetadataList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x13852A8
+    // Offset: 0x1387CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageMetadataList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageMetadataList::.ctor");

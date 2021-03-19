@@ -30,14 +30,14 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class ShoulderRotator : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xD15728
+    // [TooltipAttribute] Offset: 0xD15B94
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD15760
+    // [TooltipAttribute] Offset: 0xD15BCC
     // public System.Single offset
     // Size: 0x4
     // Offset: 0x1C
@@ -61,22 +61,22 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1921008
+    // Offset: 0x1921A28
     void Start();
     // private System.Void RotateShoulders()
-    // Offset: 0x19210DC
+    // Offset: 0x1921AFC
     void RotateShoulders();
     // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x19211C8
+    // Offset: 0x1921BE8
     void RotateShoulder(RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
     // private RootMotion.FinalIK.IKMapping/BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1921610
+    // Offset: 0x1922030
     RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(RootMotion::FinalIK::FullBodyBipedChain chain);
     // private System.Void OnDestroy()
-    // Offset: 0x1921648
+    // Offset: 0x1922068
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1921740
+    // Offset: 0x1922160
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

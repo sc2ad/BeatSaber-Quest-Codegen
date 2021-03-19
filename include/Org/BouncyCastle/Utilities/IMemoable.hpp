@@ -16,10 +16,10 @@ namespace Org::BouncyCastle::Utilities {
     IMemoable() noexcept {}
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Utilities::IMemoable* Copy_NEW();
+    Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
     // Offset: 0xFFFFFFFF
-    void Reset_NEW(Org::BouncyCastle::Utilities::IMemoable* other);
+    void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Utilities.IMemoable
   #pragma pack(pop)
 }

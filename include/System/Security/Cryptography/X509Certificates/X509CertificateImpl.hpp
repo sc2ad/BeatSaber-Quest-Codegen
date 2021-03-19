@@ -44,66 +44,66 @@ namespace System::Security::Cryptography::X509Certificates {
     }
     // public System.Boolean get_IsValid()
     // Offset: 0xFFFFFFFF
-    bool get_IsValid_NEW();
+    bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x1970C78
+    // Offset: 0x1972698
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone_NEW();
+    System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
     // public System.String GetIssuerName(System.Boolean legacyV1Mode)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetIssuerName_NEW(bool legacyV1Mode);
+    ::Il2CppString* GetIssuerName(bool legacyV1Mode);
     // public System.String GetSubjectName(System.Boolean legacyV1Mode)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetSubjectName_NEW(bool legacyV1Mode);
+    ::Il2CppString* GetSubjectName(bool legacyV1Mode);
     // public System.Byte[] GetRawCertData()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetRawCertData_NEW();
+    ::Array<uint8_t>* GetRawCertData();
     // public System.DateTime GetValidFrom()
     // Offset: 0xFFFFFFFF
-    System::DateTime GetValidFrom_NEW();
+    System::DateTime GetValidFrom();
     // public System.DateTime GetValidUntil()
     // Offset: 0xFFFFFFFF
-    System::DateTime GetValidUntil_NEW();
+    System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x19703AC
+    // Offset: 0x1971DCC
     ::Array<uint8_t>* GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetCertHash_NEW(bool lazy);
+    ::Array<uint8_t>* GetCertHash(bool lazy);
     // public System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
     // Offset: 0xFFFFFFFF
-    bool Equals_NEW(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, bool& result);
+    bool Equals(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, bool& result);
     // public System.Byte[] GetSerialNumber()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetSerialNumber_NEW();
+    ::Array<uint8_t>* GetSerialNumber();
     // public System.String ToString(System.Boolean full)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString_NEW(bool full);
+    ::Il2CppString* ToString(bool full);
     // public System.Void Dispose()
-    // Offset: 0x1970BF8
-    void Dispose_NEW();
+    // Offset: 0x1972618
+    void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1970F58
-    void Dispose_NEW(bool disposing);
+    // Offset: 0x1972978
+    void Dispose(bool disposing);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1970D5C
+    // Offset: 0x197277C
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1970DC8
+    // Offset: 0x19727E8
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // protected override System.Void Finalize()
-    // Offset: 0x1970F60
+    // Offset: 0x1972980
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize_NEW()
+    // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x1970FD8
+    // Offset: 0x19729F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

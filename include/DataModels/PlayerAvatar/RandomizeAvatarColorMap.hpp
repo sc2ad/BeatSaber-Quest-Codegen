@@ -17,7 +17,7 @@ namespace DataModels::PlayerAvatar {
   // [] Offset: FFFFFFFF
   class RandomizeAvatarColorMap : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD31C60
+    // [CompilerGeneratedAttribute] Offset: 0xD321A4
     // private readonly System.Int32 <totalIndices>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -26,7 +26,7 @@ namespace DataModels::PlayerAvatar {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: totalIndices and: colorIndices
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD31C70
+    // [CompilerGeneratedAttribute] Offset: 0xD321B4
     // private readonly System.Int32[] <colorIndices>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -36,13 +36,13 @@ namespace DataModels::PlayerAvatar {
     // Creating value type constructor for type: RandomizeAvatarColorMap
     RandomizeAvatarColorMap(int totalIndices_ = {}, ::Array<int>* colorIndices_ = {}) noexcept : totalIndices{totalIndices_}, colorIndices{colorIndices_} {}
     // public System.Int32 get_totalIndices()
-    // Offset: 0xFDC8AC
+    // Offset: 0x101AA38
     int get_totalIndices();
     // public System.Int32[] get_colorIndices()
-    // Offset: 0xFDC8B4
+    // Offset: 0x101AA40
     ::Array<int>* get_colorIndices();
     // public System.Void .ctor(System.Int32 headTopPrimaryColorIndex, System.Int32 headTopSecondaryColorIndex, System.Int32 glassesColorIndex, System.Int32 facialHairColorIndex, System.Int32 handsColorIndex, System.Int32 clothesPrimaryColorIndex, System.Int32 clothesSecondaryColorIndex, System.Int32 clothesDetailColorIndex)
-    // Offset: 0xFDC2B4
+    // Offset: 0x101A440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("DataModels::PlayerAvatar::RandomizeAvatarColorMap::.ctor");

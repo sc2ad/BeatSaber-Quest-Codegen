@@ -17,10 +17,10 @@ namespace NUnit::Framework::Constraints {
     EqualityAdapter() noexcept {}
     // public System.Boolean AreEqual(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
-    bool AreEqual_NEW(::Il2CppObject* x, ::Il2CppObject* y);
+    bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean CanCompare(System.Object x, System.Object y)
-    // Offset: 0x15A059C
-    bool CanCompare_NEW(::Il2CppObject* x, ::Il2CppObject* y);
+    // Offset: 0x15A4FAC
+    bool CanCompare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // NUnit.Framework.Constraints.EqualityAdapter
   #pragma pack(pop)
 }

@@ -34,21 +34,21 @@ namespace UnityEngine::UI {
   // [] Offset: FFFFFFFF
   class FontData : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xCD93F8
+    // [FormerlySerializedAsAttribute] Offset: 0xCDA834
     // private UnityEngine.Font m_Font
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Font* m_Font;
     // Field size check
     static_assert(sizeof(UnityEngine::Font*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCD9444
+    // [FormerlySerializedAsAttribute] Offset: 0xCDA880
     // private System.Int32 m_FontSize
     // Size: 0x4
     // Offset: 0x18
     int m_FontSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xCD9490
+    // [FormerlySerializedAsAttribute] Offset: 0xCDA8CC
     // private UnityEngine.FontStyle m_FontStyle
     // Size: 0x4
     // Offset: 0x1C
@@ -75,7 +75,7 @@ namespace UnityEngine::UI {
     int m_MaxSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xCD950C
+    // [FormerlySerializedAsAttribute] Offset: 0xCDA948
     // private UnityEngine.TextAnchor m_Alignment
     // Size: 0x4
     // Offset: 0x2C
@@ -88,7 +88,7 @@ namespace UnityEngine::UI {
     bool m_AlignByGeometry;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xCD9568
+    // [FormerlySerializedAsAttribute] Offset: 0xCDA9A4
     // private System.Boolean m_RichText
     // Size: 0x1
     // Offset: 0x31
@@ -122,88 +122,88 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // static public UnityEngine.UI.FontData get_defaultFontData()
-    // Offset: 0x1750C60
+    // Offset: 0x1754680
     static UnityEngine::UI::FontData* get_defaultFontData();
     // public UnityEngine.Font get_font()
-    // Offset: 0x1750D00
+    // Offset: 0x1754720
     UnityEngine::Font* get_font();
     // public System.Void set_font(UnityEngine.Font value)
-    // Offset: 0x1750D08
+    // Offset: 0x1754728
     void set_font(UnityEngine::Font* value);
     // public System.Int32 get_fontSize()
-    // Offset: 0x1750D10
+    // Offset: 0x1754730
     int get_fontSize();
     // public System.Void set_fontSize(System.Int32 value)
-    // Offset: 0x1750D18
+    // Offset: 0x1754738
     void set_fontSize(int value);
     // public UnityEngine.FontStyle get_fontStyle()
-    // Offset: 0x1750D20
+    // Offset: 0x1754740
     UnityEngine::FontStyle get_fontStyle();
     // public System.Void set_fontStyle(UnityEngine.FontStyle value)
-    // Offset: 0x1750D28
+    // Offset: 0x1754748
     void set_fontStyle(UnityEngine::FontStyle value);
     // public System.Boolean get_bestFit()
-    // Offset: 0x1750D30
+    // Offset: 0x1754750
     bool get_bestFit();
     // public System.Void set_bestFit(System.Boolean value)
-    // Offset: 0x1750D38
+    // Offset: 0x1754758
     void set_bestFit(bool value);
     // public System.Int32 get_minSize()
-    // Offset: 0x1750D44
+    // Offset: 0x1754764
     int get_minSize();
     // public System.Void set_minSize(System.Int32 value)
-    // Offset: 0x1750D4C
+    // Offset: 0x175476C
     void set_minSize(int value);
     // public System.Int32 get_maxSize()
-    // Offset: 0x1750D54
+    // Offset: 0x1754774
     int get_maxSize();
     // public System.Void set_maxSize(System.Int32 value)
-    // Offset: 0x1750D5C
+    // Offset: 0x175477C
     void set_maxSize(int value);
     // public UnityEngine.TextAnchor get_alignment()
-    // Offset: 0x1750D64
+    // Offset: 0x1754784
     UnityEngine::TextAnchor get_alignment();
     // public System.Void set_alignment(UnityEngine.TextAnchor value)
-    // Offset: 0x1750D6C
+    // Offset: 0x175478C
     void set_alignment(UnityEngine::TextAnchor value);
     // public System.Boolean get_alignByGeometry()
-    // Offset: 0x1750D74
+    // Offset: 0x1754794
     bool get_alignByGeometry();
     // public System.Void set_alignByGeometry(System.Boolean value)
-    // Offset: 0x1750D7C
+    // Offset: 0x175479C
     void set_alignByGeometry(bool value);
     // public System.Boolean get_richText()
-    // Offset: 0x1750D88
+    // Offset: 0x17547A8
     bool get_richText();
     // public System.Void set_richText(System.Boolean value)
-    // Offset: 0x1750D90
+    // Offset: 0x17547B0
     void set_richText(bool value);
     // public UnityEngine.HorizontalWrapMode get_horizontalOverflow()
-    // Offset: 0x1750D9C
+    // Offset: 0x17547BC
     UnityEngine::HorizontalWrapMode get_horizontalOverflow();
     // public System.Void set_horizontalOverflow(UnityEngine.HorizontalWrapMode value)
-    // Offset: 0x1750DA4
+    // Offset: 0x17547C4
     void set_horizontalOverflow(UnityEngine::HorizontalWrapMode value);
     // public UnityEngine.VerticalWrapMode get_verticalOverflow()
-    // Offset: 0x1750DAC
+    // Offset: 0x17547CC
     UnityEngine::VerticalWrapMode get_verticalOverflow();
     // public System.Void set_verticalOverflow(UnityEngine.VerticalWrapMode value)
-    // Offset: 0x1750DB4
+    // Offset: 0x17547D4
     void set_verticalOverflow(UnityEngine::VerticalWrapMode value);
     // public System.Single get_lineSpacing()
-    // Offset: 0x1750DBC
+    // Offset: 0x17547DC
     float get_lineSpacing();
     // public System.Void set_lineSpacing(System.Single value)
-    // Offset: 0x1750DC4
+    // Offset: 0x17547E4
     void set_lineSpacing(float value);
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x1750DCC
-    void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_NEW();
+    // Offset: 0x17547EC
+    void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x1750DD0
-    void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_NEW();
+    // Offset: 0x17547F0
+    void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x1750CF8
+    // Offset: 0x1754718
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

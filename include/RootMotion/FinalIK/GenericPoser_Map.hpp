@@ -57,20 +57,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Map
     Map(UnityEngine::Transform* bone_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : bone{bone_}, target{target_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_} {}
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
-    // Offset: 0x1A57FC8
+    // Offset: 0x1A5BA20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPoser::Map* New_ctor(UnityEngine::Transform* bone, UnityEngine::Transform* target) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GenericPoser::Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser::Map*, creationType>(bone, target)));
     }
     // public System.Void StoreDefaultState()
-    // Offset: 0x1A583CC
+    // Offset: 0x1A5BE24
     void StoreDefaultState();
     // public System.Void FixTransform()
-    // Offset: 0x1A58380
+    // Offset: 0x1A5BDD8
     void FixTransform();
     // public System.Void Update(System.Single localRotationWeight, System.Single localPositionWeight)
-    // Offset: 0x1A58178
+    // Offset: 0x1A5BBD0
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/Map
   #pragma pack(pop)

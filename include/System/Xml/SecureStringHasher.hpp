@@ -47,19 +47,19 @@ namespace System::Xml {
     // Set static field: static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate hashCodeDelegate
     static void _set_hashCodeDelegate(System::Xml::SecureStringHasher::HashCodeOfStringDelegate* value);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x17887C8
-    bool Equals_NEW(::Il2CppString* x, ::Il2CppString* y);
+    // Offset: 0x178B1E8
+    bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x17887E0
-    int GetHashCode_NEW(::Il2CppString* key);
+    // Offset: 0x178B200
+    int GetHashCode(::Il2CppString* key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x1788DE0
+    // Offset: 0x178B800
     static int GetHashCodeOfString(::Il2CppString* key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x1788878
+    // Offset: 0x178B298
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x1788798
+    // Offset: 0x178B1B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

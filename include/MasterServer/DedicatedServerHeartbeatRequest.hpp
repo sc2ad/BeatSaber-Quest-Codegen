@@ -36,14 +36,14 @@ namespace MasterServer {
   // [] Offset: FFFFFFFF
   class DedicatedServerHeartbeatRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IDedicatedServerClientToServerMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD06060
+    // [CompilerGeneratedAttribute] Offset: 0xD064BC
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD06070
+    // [CompilerGeneratedAttribute] Offset: 0xD064CC
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -79,34 +79,34 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatRequest> get_pool()
-    // Offset: 0x12855D4
+    // Offset: 0x1287FE4
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerHeartbeatRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x128561C
-    ::Il2CppString* get_dedicatedServerId_NEW();
+    // Offset: 0x128802C
+    ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1285624
+    // Offset: 0x1288034
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x128562C
-    int64_t get_dedicatedServerCreationTime_NEW();
+    // Offset: 0x128803C
+    int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1285634
+    // Offset: 0x1288044
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerHeartbeatRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Int32 cpuUtilization, System.Int32 occupiedServerSlots, System.Int32 unoccupiedServerSlots)
-    // Offset: 0x128563C
+    // Offset: 0x128804C
     MasterServer::DedicatedServerHeartbeatRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, int cpuUtilization, int occupiedServerSlots, int unoccupiedServerSlots);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x128564C
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x128805C
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12856C0
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x12880D0
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1285738
-    void Release_NEW();
+    // Offset: 0x1288148
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x1285794
+    // Offset: 0x12881A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

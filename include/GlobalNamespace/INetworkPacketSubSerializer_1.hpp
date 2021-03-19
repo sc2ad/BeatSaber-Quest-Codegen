@@ -36,22 +36,22 @@ namespace GlobalNamespace {
     INetworkPacketSubSerializer_1() noexcept {}
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader, System.Int32 length, TData data)
     // Offset: 0xFFFFFFFF
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::Deserialize_NEW");
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::Deserialize");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader, length, data)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, length, data);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::Serialize_NEW");
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::Serialize");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(writer, packet)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer, packet);
     }
     // public System.Boolean HandlesType(System.Type type)
     // Offset: 0xFFFFFFFF
-    bool HandlesType_NEW(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::HandlesType_NEW");
+    bool HandlesType(System::Type* type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::HandlesType");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "HandlesType", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(type)));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, type);
     }

@@ -66,19 +66,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerResultsData
     MultiplayerResultsData(::Il2CppString* gameId_ = {}, GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData_ = {}) noexcept : gameId{gameId_}, localPlayerResultData{localPlayerResultData_}, otherPlayersData{otherPlayersData_}, allPlayersSortedData{allPlayersSortedData_} {}
     // public System.String get_gameId()
-    // Offset: 0xF168F4
+    // Offset: 0xF31BDC
     ::Il2CppString* get_gameId();
     // public MultiplayerPlayerResultsData get_localPlayerResultData()
-    // Offset: 0xF168FC
+    // Offset: 0xF31BE4
     GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_otherPlayersData()
-    // Offset: 0xF16904
+    // Offset: 0xF31BEC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_allPlayersSortedData()
-    // Offset: 0xF1690C
+    // Offset: 0xF31BF4
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
     // public System.Void .ctor(System.String gameId, LevelCompletionResults localPlayerResultData, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersResultData, MultiplayerBadgesProvider badgesProvider, IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0xF16914
+    // Offset: 0xF31BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsData* New_ctor(::Il2CppString* gameId, GlobalNamespace::LevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsData::.ctor");

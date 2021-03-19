@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* offLightsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD26DB4
+    // [SpaceAttribute] Offset: 0xD272D8
     // private CoreGameHUDController _coreGameHUDController
     // Size: 0x8
     // Offset: 0x28
@@ -77,14 +77,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPositionHUDController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD26DFC
+    // [SpaceAttribute] Offset: 0xD27320
     // private LightsAnimator[] _lightsAnimators
     // Size: 0x8
     // Offset: 0x38
     ::Array<GlobalNamespace::LightsAnimator*>* lightsAnimators;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightsAnimator*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD26E34
+    // [SpaceAttribute] Offset: 0xD27358
     // private UnityEngine.Vector3 _leftGeometryStartPosition
     // Size: 0xC
     // Offset: 0x40
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* rightGeometryTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26EBC
+    // [InjectAttribute] Offset: 0xD273E0
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x80
@@ -151,28 +151,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xF4ED88
+    // Offset: 0xF52520
     void OnDestroy();
     // public System.Void SetBeforeIntroValues()
-    // Offset: 0xF3F054
+    // Offset: 0xF427EC
     void SetBeforeIntroValues();
     // public System.Collections.IEnumerator AnimateCoroutine(System.Single animationDurationMultiplier, System.Int32 order)
-    // Offset: 0xF4060C
+    // Offset: 0xF43DA4
     System::Collections::IEnumerator* AnimateCoroutine(float animationDurationMultiplier, int order);
     // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0xF3F64C
+    // Offset: 0xF42DE4
     void TransitionToAfterIntroAnimationState();
     // private System.Void <AnimateCoroutine>b__17_0(UnityEngine.Vector3 val)
-    // Offset: 0xF4EF4C
+    // Offset: 0xF526E4
     void $AnimateCoroutine$b__17_0(UnityEngine::Vector3 val);
     // private System.Void <AnimateCoroutine>b__17_1(UnityEngine.Vector3 val)
-    // Offset: 0xF4EF68
+    // Offset: 0xF52700
     void $AnimateCoroutine$b__17_1(UnityEngine::Vector3 val);
     // private System.Void <AnimateCoroutine>b__17_2(System.Single f)
-    // Offset: 0xF4EF84
+    // Offset: 0xF5271C
     void $AnimateCoroutine$b__17_2(float f);
     // public System.Void .ctor()
-    // Offset: 0xF4EE4C
+    // Offset: 0xF525E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

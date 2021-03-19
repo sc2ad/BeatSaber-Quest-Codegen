@@ -16,7 +16,7 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: HashCodeHelper
     HashCodeHelper() noexcept {}
     // static public System.Int32 Combine(System.Int32 hash1, System.Int32 hash2)
-    // Offset: 0x2173E5C
+    // Offset: 0x2175944
     static int Combine(int hash1, int hash2);
   }; // UnityEngine.XR.HashCodeHelper
   #pragma pack(pop)

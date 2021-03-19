@@ -40,21 +40,21 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: GetRaycastNonAllocCallback
     GetRaycastNonAllocCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18386EC
+    // Offset: 0x183A10C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::GetRaycastNonAllocCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::GetRaycastNonAllocCallback*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(UnityEngine.Ray r, UnityEngine.RaycastHit[] results, System.Single f, System.Int32 i)
-    // Offset: 0x18386FC
-    int Invoke_NEW(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit>* results, float f, int i);
+    // Offset: 0x183A11C
+    int Invoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit>* results, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, UnityEngine.RaycastHit[] results, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1838A74
-    System::IAsyncResult* BeginInvoke_NEW(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit>* results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x183A494
+    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit>* results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1838B4C
-    int EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x183A56C
+    int EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/GetRaycastNonAllocCallback
   #pragma pack(pop)
 }

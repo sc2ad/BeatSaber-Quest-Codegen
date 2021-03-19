@@ -78,26 +78,26 @@ namespace OnlineServices::API {
     // Creating value type constructor for type: HTTPAdminLeaderboardsHelper
     HTTPAdminLeaderboardsHelper(::Il2CppString* secret_ = {}, System::UriBuilder* uriBuilder_ = {}) noexcept : secret{secret_}, uriBuilder{uriBuilder_} {}
     // public System.Void .ctor(System.String uri, System.String secret)
-    // Offset: 0x10DC9D0
+    // Offset: 0x10DF394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper* New_ctor(::Il2CppString* uri, ::Il2CppString* secret) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPAdminLeaderboardsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper*, creationType>(uri, secret)));
     }
     // public System.Threading.Tasks.Task`1<System.String> ServerStatus(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10DCA50
+    // Offset: 0x10DF414
     System::Threading::Tasks::Task_1<::Il2CppString*>* ServerStatus(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.HTTPAdminLeaderboardsHelper/LeaderboardsInfoResultDto> LeaderboardsExist(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10DCB74
+    // Offset: 0x10DF538
     System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* LeaderboardsExist(::Array<::Il2CppString*>* leaderboardIds, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> CreateOrUpdateLeaderboards(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10DCC88
+    // Offset: 0x10DF64C
     System::Threading::Tasks::Task_1<bool>* CreateOrUpdateLeaderboards(::Array<::Il2CppString*>* leaderboardIds, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10DCD9C
+    // Offset: 0x10DF760
     System::Threading::Tasks::Task_1<::Il2CppString*>* SendWebRequestAsync(::Il2CppString* uri, ::Il2CppString* method, ::Il2CppString* bodyData, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10DCED4
+    // Offset: 0x10DF898
     System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper
   #pragma pack(pop)

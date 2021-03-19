@@ -27,79 +27,79 @@ namespace System::Threading {
     // Creating value type constructor for type: Interlocked
     Interlocked() noexcept {}
     // static public System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand)
-    // Offset: 0x16F735C
+    // Offset: 0x16FAD7C
     static int CompareExchange(int& location1, int value, int comparand);
     // static System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand, ref System.Boolean succeeded)
-    // Offset: 0x16F9A3C
+    // Offset: 0x16FD45C
     static int CompareExchange(int& location1, int value, int comparand, bool& succeeded);
     // static public System.Object CompareExchange(ref System.Object location1, System.Object value, System.Object comparand)
-    // Offset: 0x16F9A40
+    // Offset: 0x16FD460
     static ::Il2CppObject* CompareExchange(::Il2CppObject*& location1, ::Il2CppObject* value, ::Il2CppObject* comparand);
     // static public System.Single CompareExchange(ref System.Single location1, System.Single value, System.Single comparand)
-    // Offset: 0x16F9A44
+    // Offset: 0x16FD464
     static float CompareExchange(float& location1, float value, float comparand);
     // static public System.Int32 Decrement(ref System.Int32 location)
-    // Offset: 0x16F9A48
+    // Offset: 0x16FD468
     static int Decrement(int& location);
     // static public System.Int32 Increment(ref System.Int32 location)
-    // Offset: 0x16F9A4C
+    // Offset: 0x16FD46C
     static int Increment(int& location);
     // static public System.Int64 Increment(ref System.Int64 location)
-    // Offset: 0x16F9A50
+    // Offset: 0x16FD470
     static int64_t Increment(int64_t& location);
     // static public System.Int32 Exchange(ref System.Int32 location1, System.Int32 value)
-    // Offset: 0x16F54F4
+    // Offset: 0x16F8F14
     static int Exchange(int& location1, int value);
     // static public System.Object Exchange(ref System.Object location1, System.Object value)
-    // Offset: 0x16F9A54
+    // Offset: 0x16FD474
     static ::Il2CppObject* Exchange(::Il2CppObject*& location1, ::Il2CppObject* value);
     // static public System.Single Exchange(ref System.Single location1, System.Single value)
-    // Offset: 0x16F9A58
+    // Offset: 0x16FD478
     static float Exchange(float& location1, float value);
     // static public System.Int64 CompareExchange(ref System.Int64 location1, System.Int64 value, System.Int64 comparand)
-    // Offset: 0x16F9A5C
+    // Offset: 0x16FD47C
     static int64_t CompareExchange(int64_t& location1, int64_t value, int64_t comparand);
     // static public System.IntPtr CompareExchange(ref System.IntPtr location1, System.IntPtr value, System.IntPtr comparand)
-    // Offset: 0x16F9A60
+    // Offset: 0x16FD480
     static System::IntPtr CompareExchange(System::IntPtr& location1, System::IntPtr value, System::IntPtr comparand);
     // static public System.Double CompareExchange(ref System.Double location1, System.Double value, System.Double comparand)
-    // Offset: 0x16F9A64
+    // Offset: 0x16FD484
     static double CompareExchange(double& location1, double value, double comparand);
     // static public T CompareExchange(ref T location1, T value, T comparand)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T CompareExchange(T& location1, T value, T comparand) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Interlocked::CompareExchange");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "CompareExchange", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location1, value, comparand)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "CompareExchange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location1, value, comparand)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location1, value, comparand);
     }
     // static public System.Int64 Exchange(ref System.Int64 location1, System.Int64 value)
-    // Offset: 0x16F9A68
+    // Offset: 0x16FD488
     static int64_t Exchange(int64_t& location1, int64_t value);
     // static public System.IntPtr Exchange(ref System.IntPtr location1, System.IntPtr value)
-    // Offset: 0x16F9A6C
+    // Offset: 0x16FD48C
     static System::IntPtr Exchange(System::IntPtr& location1, System::IntPtr value);
     // static public System.Double Exchange(ref System.Double location1, System.Double value)
-    // Offset: 0x16F9A70
+    // Offset: 0x16FD490
     static double Exchange(double& location1, double value);
     // static public T Exchange(ref T location1, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Exchange(T& location1, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Interlocked::Exchange");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "Exchange", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location1, value)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("System.Threading", "Interlocked", "Exchange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(location1, value)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location1, value);
     }
     // static public System.Int64 Read(ref System.Int64 location)
-    // Offset: 0x16F9A74
+    // Offset: 0x16FD494
     static int64_t Read(int64_t& location);
     // static public System.Int32 Add(ref System.Int32 location1, System.Int32 value)
-    // Offset: 0x16F9A78
+    // Offset: 0x16FD498
     static int Add(int& location1, int value);
     // static public System.Int64 Add(ref System.Int64 location1, System.Int64 value)
-    // Offset: 0x16F9A7C
+    // Offset: 0x16FD49C
     static int64_t Add(int64_t& location1, int64_t value);
   }; // System.Threading.Interlocked
   #pragma pack(pop)

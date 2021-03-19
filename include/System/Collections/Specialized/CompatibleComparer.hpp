@@ -55,29 +55,29 @@ namespace System::Collections::Specialized {
     // Set static field: static private System.Collections.IHashCodeProvider defaultHashProvider
     static void _set_defaultHashProvider(System::Collections::IHashCodeProvider* value);
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x16C077C
+    // Offset: 0x16C419C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x16C07B4
-    bool Equals_NEW(::Il2CppObject* a, ::Il2CppObject* b);
+    // Offset: 0x16C41D4
+    bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x16C09C0
-    int GetHashCode_NEW(::Il2CppObject* obj);
+    // Offset: 0x16C43E0
+    int GetHashCode(::Il2CppObject* obj);
     // public System.Collections.IComparer get_Comparer()
-    // Offset: 0x16C0AD8
+    // Offset: 0x16C44F8
     System::Collections::IComparer* get_Comparer();
     // public System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x16C0AE0
+    // Offset: 0x16C4500
     System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // static public System.Collections.IComparer get_DefaultComparer()
-    // Offset: 0x16C0AE8
+    // Offset: 0x16C4508
     static System::Collections::IComparer* get_DefaultComparer();
     // static public System.Collections.IHashCodeProvider get_DefaultHashCodeProvider()
-    // Offset: 0x16C0BBC
+    // Offset: 0x16C45DC
     static System::Collections::IHashCodeProvider* get_DefaultHashCodeProvider();
   }; // System.Collections.Specialized.CompatibleComparer
   #pragma pack(pop)

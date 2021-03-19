@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: scenesTransitionSetupData
     char __padding9[0x7] = {};
-    // [SpaceAttribute] Offset: 0xD31668
+    // [SpaceAttribute] Offset: 0xD31B9C
     // private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x68
@@ -123,12 +123,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1015B38
+    // Offset: 0xFDC3A0
     // Implemented from: Zenject.NoTransitionInstaller
-    // Base method: System.Void NoTransitionInstaller::InstallBindings_NEW(Zenject.DiContainer container)
+    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x10161A4
+    // Offset: 0xFDCA04
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

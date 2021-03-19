@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: KeyframeSerializable
     KeyframeSerializable(::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>* transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
     // public System.Void .ctor()
-    // Offset: 0x20E14A0
+    // Offset: 0x20E6F7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

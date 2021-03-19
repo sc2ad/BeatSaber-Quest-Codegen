@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // protected System.Void .ctor()
-    // Offset: 0xF20750
+    // Offset: 0xF3BA38
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

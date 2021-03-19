@@ -33,30 +33,30 @@ namespace System::Text {
     DecoderFallbackBuffer(uint8_t* byteStart_ = {}, ::Il2CppChar* charEnd_ = {}) noexcept : byteStart{byteStart_}, charEnd{charEnd_} {}
     // public System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    bool Fallback_NEW(::Array<uint8_t>* bytesUnknown, int index);
+    bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public System.Char GetNextChar()
     // Offset: 0xFFFFFFFF
-    ::Il2CppChar GetNextChar_NEW();
+    ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x1A10C7C
-    void Reset_NEW();
+    // Offset: 0x1A136D4
+    void Reset();
     // System.Void InternalReset()
-    // Offset: 0x1A0FEB4
+    // Offset: 0x1A1290C
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x1A0FBF4
+    // Offset: 0x1A1264C
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
-    // Offset: 0x1A10CB0
-    bool InternalFallback_NEW(::Array<uint8_t>* bytes, uint8_t* pBytes, ::Il2CppChar*& chars);
+    // Offset: 0x1A13708
+    bool InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes, ::Il2CppChar*& chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1A10E5C
-    int InternalFallback_NEW(::Array<uint8_t>* bytes, uint8_t* pBytes);
+    // Offset: 0x1A138B4
+    int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x1A10FF0
+    // Offset: 0x1A13A48
     void ThrowLastBytesRecursive(::Array<uint8_t>* bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x1A10A64
+    // Offset: 0x1A134BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

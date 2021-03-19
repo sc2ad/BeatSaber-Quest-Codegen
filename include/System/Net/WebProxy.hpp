@@ -127,85 +127,85 @@ namespace System::Net {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Void .ctor(System.Uri Address, System.Boolean BypassOnLocal, System.String[] BypassList, System.Net.ICredentials Credentials)
-    // Offset: 0x1411854
+    // Offset: 0x1415264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::Array<::Il2CppString*>* BypassList, System::Net::ICredentials* Credentials) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(Address, BypassOnLocal, BypassList, Credentials)));
     }
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1411B44
-    System::Net::ICredentials* get_Credentials_NEW();
+    // Offset: 0x1415554
+    System::Net::ICredentials* get_Credentials();
     // public System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x1411B4C
+    // Offset: 0x141555C
     bool get_UseDefaultCredentials();
     // public System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x1411BD0
+    // Offset: 0x14155E0
     void set_UseDefaultCredentials(bool value);
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x1411C58
-    System::Uri* GetProxy_NEW(System::Uri* destination);
+    // Offset: 0x1415668
+    System::Uri* GetProxy(System::Uri* destination);
     // private System.Void UpdateRegExList(System.Boolean canThrow)
-    // Offset: 0x141190C
+    // Offset: 0x141531C
     void UpdateRegExList(bool canThrow);
     // private System.Boolean IsMatchInBypassList(System.Uri input)
-    // Offset: 0x1412078
+    // Offset: 0x1415A88
     bool IsMatchInBypassList(System::Uri* input);
     // private System.Boolean IsLocal(System.Uri host)
-    // Offset: 0x1412210
+    // Offset: 0x1415C20
     bool IsLocal(System::Uri* host);
     // private System.Boolean IsLocalInProxyHash(System.Uri host)
-    // Offset: 0x1412380
+    // Offset: 0x1415D90
     bool IsLocalInProxyHash(System::Uri* host);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x1412488
-    bool IsBypassed_NEW(System::Uri* host);
+    // Offset: 0x1415E98
+    bool IsBypassed(System::Uri* host);
     // private System.Boolean IsBypassedManual(System.Uri host)
-    // Offset: 0x1411F94
+    // Offset: 0x14159A4
     bool IsBypassedManual(System::Uri* host);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x141269C
+    // Offset: 0x14160AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1412960
-    void System_Runtime_Serialization_ISerializable_GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
+    // Offset: 0x1416370
+    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x141296C
-    void GetObjectData_NEW(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
+    // Offset: 0x141637C
+    void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // System.Net.AutoWebProxyScriptEngine get_ScriptEngine()
-    // Offset: 0x1412A68
+    // Offset: 0x1416478
     System::Net::AutoWebProxyScriptEngine* get_ScriptEngine();
     // static public System.Net.IWebProxy CreateDefaultProxy()
-    // Offset: 0x1412A70
+    // Offset: 0x1416480
     static System::Net::IWebProxy* CreateDefaultProxy();
     // System.Void .ctor(System.Boolean enableAutoproxy)
-    // Offset: 0x1412AD8
+    // Offset: 0x14164E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(bool enableAutoproxy) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(enableAutoproxy)));
     }
     // System.Void UnsafeUpdateFromRegistry()
-    // Offset: 0x1412954
+    // Offset: 0x1416364
     void UnsafeUpdateFromRegistry();
     // private System.Boolean GetProxyAuto(System.Uri destination, out System.Uri proxyUri)
-    // Offset: 0x1411DF8
+    // Offset: 0x1415808
     bool GetProxyAuto(System::Uri* destination, System::Uri*& proxyUri);
     // private System.Boolean IsBypassedAuto(System.Uri destination, out System.Boolean isBypassed)
-    // Offset: 0x141257C
+    // Offset: 0x1415F8C
     bool IsBypassedAuto(System::Uri* destination, bool& isBypassed);
     // static private System.Boolean AreAllBypassed(System.Collections.Generic.IEnumerable`1<System.String> proxies, System.Boolean checkFirstOnly)
-    // Offset: 0x1412B10
+    // Offset: 0x1416520
     static bool AreAllBypassed(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* proxies, bool checkFirstOnly);
     // static private System.Uri ProxyUri(System.String proxyName)
-    // Offset: 0x1412D7C
+    // Offset: 0x141678C
     static System::Uri* ProxyUri(::Il2CppString* proxyName);
     // public System.Void .ctor()
-    // Offset: 0x1411840
+    // Offset: 0x1415250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

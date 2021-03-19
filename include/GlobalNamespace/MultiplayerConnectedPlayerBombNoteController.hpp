@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerConnectedPlayerBombNoteController
     MultiplayerConnectedPlayerBombNoteController() noexcept {}
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity)
-    // Offset: 0x103D36C
+    // Offset: 0x103EE54
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity);
     // public System.Void .ctor()
-    // Offset: 0x103E358
+    // Offset: 0x103FE40
     // Implemented from: MultiplayerConnectedPlayerNoteController
     // Base method: System.Void MultiplayerConnectedPlayerNoteController::.ctor()
     // Base method: System.Void NoteController::.ctor()

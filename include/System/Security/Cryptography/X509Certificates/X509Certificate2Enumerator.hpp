@@ -45,27 +45,27 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection)
-    // Offset: 0x16A8B18
+    // Offset: 0x16AB538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2Enumerator* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2Enumerator*, creationType>(collection)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Current()
-    // Offset: 0x16A8C9C
+    // Offset: 0x16AB6BC
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16A8D90
+    // Offset: 0x16AB7B0
     bool MoveNext();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16A8E40
-    ::Il2CppObject* System_Collections_IEnumerator_get_Current_NEW();
+    // Offset: 0x16AB860
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x16A8EF4
-    bool System_Collections_IEnumerator_MoveNext_NEW();
+    // Offset: 0x16AB914
+    bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16A8FA4
-    void System_Collections_IEnumerator_Reset_NEW();
+    // Offset: 0x16AB9C4
+    void System_Collections_IEnumerator_Reset();
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
   #pragma pack(pop)
   static check_size<sizeof(X509Certificate2Enumerator), 16 + sizeof(System::Collections::IEnumerator*)> __System_Security_Cryptography_X509Certificates_X509Certificate2EnumeratorSizeCheck;

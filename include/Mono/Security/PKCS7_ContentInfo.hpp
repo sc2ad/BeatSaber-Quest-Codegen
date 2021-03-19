@@ -41,46 +41,46 @@ namespace Mono::Security {
     // Creating value type constructor for type: ContentInfo
     ContentInfo(::Il2CppString* contentType_ = {}, Mono::Security::ASN1* content_ = {}) noexcept : contentType{contentType_}, content{content_} {}
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1B91FEC
+    // Offset: 0x1B95A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(oid)));
     }
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1B92014
+    // Offset: 0x1B95A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::Array<uint8_t>* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(data)));
     }
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B92084
+    // Offset: 0x1B95ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(asn1)));
     }
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x1B92220
+    // Offset: 0x1B95C78
     Mono::Security::ASN1* get_ASN1();
     // public Mono.Security.ASN1 get_Content()
-    // Offset: 0x1B922E0
+    // Offset: 0x1B95D38
     Mono::Security::ASN1* get_Content();
     // public System.Void set_Content(Mono.Security.ASN1 value)
-    // Offset: 0x1B922E8
+    // Offset: 0x1B95D40
     void set_Content(Mono::Security::ASN1* value);
     // public System.String get_ContentType()
-    // Offset: 0x1B922F0
+    // Offset: 0x1B95D48
     ::Il2CppString* get_ContentType();
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x1B922F8
+    // Offset: 0x1B95D50
     void set_ContentType(::Il2CppString* value);
     // Mono.Security.ASN1 GetASN1()
-    // Offset: 0x1B92224
+    // Offset: 0x1B95C7C
     Mono::Security::ASN1* GetASN1();
     // public System.Void .ctor()
-    // Offset: 0x1B91F74
+    // Offset: 0x1B959CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

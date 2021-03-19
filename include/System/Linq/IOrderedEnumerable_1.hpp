@@ -41,10 +41,10 @@ namespace System::Linq {
     // public System.Linq.IOrderedEnumerable`1<TElement> CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     // Offset: 0xFFFFFFFF
     template<class TKey>
-    System::Linq::IOrderedEnumerable_1<TElement>* CreateOrderedEnumerable_NEW(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IOrderedEnumerable_1::CreateOrderedEnumerable_NEW");
-      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateOrderedEnumerable", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::il2cpp_utils::ExtractTypes(keySelector, comparer, descending)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}));
+    System::Linq::IOrderedEnumerable_1<TElement>* CreateOrderedEnumerable(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IOrderedEnumerable_1::CreateOrderedEnumerable");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateOrderedEnumerable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::il2cpp_utils::ExtractTypes(keySelector, comparer, descending)));
+      auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Linq::IOrderedEnumerable_1<TElement>*, false>(this, ___generic__method, keySelector, comparer, descending);
     }
   }; // System.Linq.IOrderedEnumerable`1

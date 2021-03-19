@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ActionNoArgs
     ActionNoArgs(GlobalNamespace::SteamVR_Events::Event* event_ = {}, UnityEngine::Events::UnityAction* action_ = {}) noexcept : event{event_}, action{action_} {}
     // public System.Void .ctor(SteamVR_Events/Event _event, UnityEngine.Events.UnityAction action)
-    // Offset: 0x12CB1EC
+    // Offset: 0x12CCBFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::ActionNoArgs* New_ctor(GlobalNamespace::SteamVR_Events::Event* _event, UnityEngine::Events::UnityAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::ActionNoArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::ActionNoArgs*, creationType>(_event, action)));
     }
     // public override System.Void Enable(System.Boolean enabled)
-    // Offset: 0x12CBBA8
+    // Offset: 0x12CD5B8
     // Implemented from: SteamVR_Events/Action
-    // Base method: System.Void Action::Enable_NEW(System.Boolean enabled)
+    // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled);
   }; // SteamVR_Events/ActionNoArgs
   #pragma pack(pop)

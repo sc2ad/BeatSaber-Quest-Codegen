@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     IPreCompCallback() noexcept {}
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute_NEW(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
+    Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
   #pragma pack(pop)
 }

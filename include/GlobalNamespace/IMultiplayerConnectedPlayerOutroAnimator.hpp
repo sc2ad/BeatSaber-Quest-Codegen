@@ -16,7 +16,7 @@ namespace GlobalNamespace {
     IMultiplayerConnectedPlayerOutroAnimator() noexcept {}
     // public System.Void Animate()
     // Offset: 0xFFFFFFFF
-    void Animate_NEW();
+    void Animate();
   }; // IMultiplayerConnectedPlayerOutroAnimator
   #pragma pack(pop)
 }

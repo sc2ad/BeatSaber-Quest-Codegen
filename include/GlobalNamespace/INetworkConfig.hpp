@@ -26,22 +26,22 @@ namespace GlobalNamespace {
     INetworkConfig() noexcept {}
     // public System.Int32 get_maxPartySize()
     // Offset: 0xFFFFFFFF
-    int get_maxPartySize_NEW();
+    int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
     // Offset: 0xFFFFFFFF
-    int get_discoveryPort_NEW();
+    int get_discoveryPort();
     // public System.Int32 get_partyPort()
     // Offset: 0xFFFFFFFF
-    int get_partyPort_NEW();
+    int get_partyPort();
     // public System.Int32 get_multiplayerPort()
     // Offset: 0xFFFFFFFF
-    int get_multiplayerPort_NEW();
+    int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint_NEW();
+    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_masterServerStatusUrl_NEW();
+    ::Il2CppString* get_masterServerStatusUrl();
   }; // INetworkConfig
   #pragma pack(pop)
 }

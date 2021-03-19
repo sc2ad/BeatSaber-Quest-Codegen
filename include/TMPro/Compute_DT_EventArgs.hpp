@@ -42,14 +42,14 @@ namespace TMPro {
     // Creating value type constructor for type: Compute_DT_EventArgs
     Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes EventType_ = {}, float ProgressPercentage_ = {}, ::Array<UnityEngine::Color>* Colors_ = {}) noexcept : EventType{EventType_}, ProgressPercentage{ProgressPercentage_}, Colors{Colors_} {}
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
-    // Offset: 0xF7C958
+    // Offset: 0xF80484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, progress)));
     }
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
-    // Offset: 0xF7C994
+    // Offset: 0xF804C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::Array<UnityEngine::Color>* colors) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");

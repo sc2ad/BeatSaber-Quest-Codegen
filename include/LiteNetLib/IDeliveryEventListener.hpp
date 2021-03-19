@@ -26,7 +26,7 @@ namespace LiteNetLib {
     IDeliveryEventListener() noexcept {}
     // public System.Void OnMessageDelivered(LiteNetLib.NetPeer peer, System.Object userData)
     // Offset: 0xFFFFFFFF
-    void OnMessageDelivered_NEW(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
+    void OnMessageDelivered(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
   }; // LiteNetLib.IDeliveryEventListener
   #pragma pack(pop)
 }

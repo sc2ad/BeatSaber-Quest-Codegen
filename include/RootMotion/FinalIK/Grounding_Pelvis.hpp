@@ -21,14 +21,14 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class Grounding::Pelvis : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD158E0
+    // [CompilerGeneratedAttribute] Offset: 0xD15D4C
     // private UnityEngine.Vector3 <IKOffset>k__BackingField
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 IKOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xD158F0
+    // [CompilerGeneratedAttribute] Offset: 0xD15D5C
     // private System.Single <heightOffset>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -70,31 +70,31 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Pelvis
     Pelvis(UnityEngine::Vector3 IKOffset_ = {}, float heightOffset_ = {}, RootMotion::FinalIK::Grounding* grounding_ = {}, UnityEngine::Vector3 lastRootPosition_ = {}, float damperF_ = {}, bool initiated_ = {}, float lastTime_ = {}) noexcept : IKOffset{IKOffset_}, heightOffset{heightOffset_}, grounding{grounding_}, lastRootPosition{lastRootPosition_}, damperF{damperF_}, initiated{initiated_}, lastTime{lastTime_} {}
     // public UnityEngine.Vector3 get_IKOffset()
-    // Offset: 0x1A623E8
+    // Offset: 0x1A65E40
     UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
-    // Offset: 0x1A623F4
+    // Offset: 0x1A65E4C
     void set_IKOffset(UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
-    // Offset: 0x1A62400
+    // Offset: 0x1A65E58
     float get_heightOffset();
     // private System.Void set_heightOffset(System.Single value)
-    // Offset: 0x1A62408
+    // Offset: 0x1A65E60
     void set_heightOffset(float value);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
-    // Offset: 0x1A5FF4C
+    // Offset: 0x1A639A4
     void Initiate(RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
-    // Offset: 0x1A60AB4
+    // Offset: 0x1A6450C
     void Reset();
     // public System.Void OnEnable()
-    // Offset: 0x1A62410
+    // Offset: 0x1A65E68
     void OnEnable();
     // public System.Void Process(System.Single lowestOffset, System.Single highestOffset, System.Boolean isGrounded)
-    // Offset: 0x1A60848
+    // Offset: 0x1A642A0
     void Process(float lowestOffset, float highestOffset, bool isGrounded);
     // public System.Void .ctor()
-    // Offset: 0x1A5FE60
+    // Offset: 0x1A638B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

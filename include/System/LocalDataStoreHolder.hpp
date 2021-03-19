@@ -37,19 +37,19 @@ namespace System {
       return m_Store;
     }
     // public System.Void .ctor(System.LocalDataStore store)
-    // Offset: 0x169681C
+    // Offset: 0x169923C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreHolder* New_ctor(System::LocalDataStore* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreHolder*, creationType>(store)));
     }
     // public System.LocalDataStore get_Store()
-    // Offset: 0x16968B8
+    // Offset: 0x16992D8
     System::LocalDataStore* get_Store();
     // protected override System.Void Finalize()
-    // Offset: 0x1696848
+    // Offset: 0x1699268
     // Implemented from: System.Object
-    // Base method: System.Void Object::Finalize_NEW()
+    // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.LocalDataStoreHolder
   #pragma pack(pop)

@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Creating value type constructor for type: DuplicateNodeError
     DuplicateNodeError() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x218BCBC
+    // Offset: 0x218C7A4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()

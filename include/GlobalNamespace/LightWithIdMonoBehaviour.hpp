@@ -36,12 +36,12 @@ namespace GlobalNamespace {
     // private System.Int32 _ID
     // Size: 0x4
     // Offset: 0x18
-    int ID;
+    int _ID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Padding between fields: ID and: lightManager
+    // Padding between fields: _ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xD009DC
+    // [InjectAttribute] Offset: 0xD00E38
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LightWithIdMonoBehaviour
-    LightWithIdMonoBehaviour(int ID_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, bool isRegistered_ = {}) noexcept : ID{ID_}, lightManager{lightManager_}, isRegistered{isRegistered_} {}
+    LightWithIdMonoBehaviour(int _ID_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, bool isRegistered_ = {}) noexcept : _ID{_ID_}, lightManager{lightManager_}, isRegistered{isRegistered_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILightWithId
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
@@ -63,34 +63,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_lightId()
-    // Offset: 0x1CE0AFC
-    int get_lightId_NEW();
+    // Offset: 0x1CE9554
+    int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1CE0B04
-    bool get_isRegistered_NEW();
+    // Offset: 0x1CE955C
+    bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1CE0B0C
-    void __SetIsRegistered_NEW();
+    // Offset: 0x1CE9564
+    void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1CE0B18
-    void __SetIsUnRegistered_NEW();
+    // Offset: 0x1CE9570
+    void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
     void ColorWasSet(UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1CE0B20
-    void OnEnable_NEW();
+    // Offset: 0x1CE9578
+    void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1CE0BB8
-    void Start_NEW();
+    // Offset: 0x1CE9610
+    void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1CE0BBC
-    void OnDisable_NEW();
+    // Offset: 0x1CE9614
+    void OnDisable();
     // private System.Void RegisterLight()
-    // Offset: 0x1CE0B24
+    // Offset: 0x1CE957C
     void RegisterLight();
     // protected System.Void .ctor()
-    // Offset: 0x1CD98F8
+    // Offset: 0x1CE2350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

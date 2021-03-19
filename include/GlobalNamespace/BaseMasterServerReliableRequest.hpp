@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class BaseMasterServerReliableRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerReliableRequest*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD05B10
+    // [CompilerGeneratedAttribute] Offset: 0xD05F6C
     // private System.UInt32 <requestId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,25 +46,25 @@ namespace GlobalNamespace {
       return requestId;
     }
     // public System.UInt32 get_requestId()
-    // Offset: 0x120953C
-    uint get_requestId_NEW();
+    // Offset: 0x120BF4C
+    uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x1209544
+    // Offset: 0x120BF54
     void set_requestId(uint value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x120954C
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x120BF5C
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1209570
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x120BF80
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
-    void Release_NEW();
+    void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x12095A4
-    MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId_NEW(uint requestId);
+    // Offset: 0x120BFB4
+    MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x12095AC
+    // Offset: 0x120BFBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

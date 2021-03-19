@@ -23,43 +23,43 @@ namespace GlobalNamespace {
     ISyncStateDeltaSerializable_1() noexcept {}
     // public SyncStateId get_baseId()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::SyncStateId get_baseId_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_baseId_NEW");
+    GlobalNamespace::SyncStateId get_baseId() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_baseId");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_baseId", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::SyncStateId, false>(this, ___internal__method);
     }
     // public System.Void set_baseId(SyncStateId value)
     // Offset: 0xFFFFFFFF
-    void set_baseId_NEW(GlobalNamespace::SyncStateId value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_baseId_NEW");
+    void set_baseId(GlobalNamespace::SyncStateId value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_baseId");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_baseId", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Int32 get_timeOffsetMs()
     // Offset: 0xFFFFFFFF
-    int get_timeOffsetMs_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_timeOffsetMs_NEW");
+    int get_timeOffsetMs() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_timeOffsetMs");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_timeOffsetMs", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void set_timeOffsetMs(System.Int32 value)
     // Offset: 0xFFFFFFFF
-    void set_timeOffsetMs_NEW(int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_timeOffsetMs_NEW");
+    void set_timeOffsetMs(int value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_timeOffsetMs");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_timeOffsetMs", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public T get_delta()
     // Offset: 0xFFFFFFFF
-    T get_delta_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_delta_NEW");
+    T get_delta() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_delta");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "get_delta", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_delta(T value)
     // Offset: 0xFFFFFFFF
-    void set_delta_NEW(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_delta_NEW");
+    void set_delta(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_delta");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "set_delta", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }

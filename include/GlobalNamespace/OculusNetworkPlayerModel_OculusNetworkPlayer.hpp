@@ -93,42 +93,42 @@ namespace GlobalNamespace {
     Oculus::Platform::Models::Room* room;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3241C
+    // [CompilerGeneratedAttribute] Offset: 0xD32960
     // private System.Boolean <isPlayer>k__BackingField
     // Size: 0x1
     // Offset: 0x48
     bool isPlayer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD3242C
+    // [CompilerGeneratedAttribute] Offset: 0xD32970
     // private System.Boolean <isSpectating>k__BackingField
     // Size: 0x1
     // Offset: 0x49
     bool isSpectating;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD3243C
+    // [CompilerGeneratedAttribute] Offset: 0xD32980
     // private System.Boolean <isDedicatedServer>k__BackingField
     // Size: 0x1
     // Offset: 0x4A
     bool isDedicatedServer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD3244C
+    // [CompilerGeneratedAttribute] Offset: 0xD32990
     // private System.Boolean <isConnected>k__BackingField
     // Size: 0x1
     // Offset: 0x4B
     bool isConnected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD3245C
+    // [CompilerGeneratedAttribute] Offset: 0xD329A0
     // private System.Boolean <isWaitingOnJoin>k__BackingField
     // Size: 0x1
     // Offset: 0x4C
     bool isWaitingOnJoin;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD3246C
+    // [CompilerGeneratedAttribute] Offset: 0xD329B0
     // private System.Boolean <isWaitingOnInvite>k__BackingField
     // Size: 0x1
     // Offset: 0x4D
@@ -142,140 +142,140 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
     // public System.UInt64 get_id()
-    // Offset: 0x10D64B0
+    // Offset: 0x10D8E74
     uint64_t get_id();
     // public System.String get_userId()
-    // Offset: 0x10D64B8
-    ::Il2CppString* get_userId_NEW();
+    // Offset: 0x10D8E7C
+    ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x10D64C0
-    ::Il2CppString* get_userName_NEW();
+    // Offset: 0x10D8E84
+    ::Il2CppString* get_userName();
     // public System.Boolean get_isMe()
-    // Offset: 0x10D64C8
-    bool get_isMe_NEW();
+    // Offset: 0x10D8E8C
+    bool get_isMe();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x10D3650
+    // Offset: 0x10D6014
     bool get_isPartyOwner();
     // public System.Boolean get_isRoomOwner()
-    // Offset: 0x10D64D0
+    // Offset: 0x10D8E94
     bool get_isRoomOwner();
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x10D656C
-    int get_currentPartySize_NEW();
+    // Offset: 0x10D8F30
+    int get_currentPartySize();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x10D6638
-    int get_maxPartySize_NEW();
+    // Offset: 0x10D8FFC
+    int get_maxPartySize();
     // public BeatmapDifficultyMask get_difficulties()
-    // Offset: 0x10D66F0
-    GlobalNamespace::BeatmapDifficultyMask get_difficulties_NEW();
+    // Offset: 0x10D90B4
+    GlobalNamespace::BeatmapDifficultyMask get_difficulties();
     // public GameplayModifierMask get_modifiers()
-    // Offset: 0x10D6794
-    GlobalNamespace::GameplayModifierMask get_modifiers_NEW();
+    // Offset: 0x10D9158
+    GlobalNamespace::GameplayModifierMask get_modifiers();
     // public SongPackMask get_songPacks()
-    // Offset: 0x10D6838
-    GlobalNamespace::SongPackMask get_songPacks_NEW();
+    // Offset: 0x10D91FC
+    GlobalNamespace::SongPackMask get_songPacks();
     // public System.Void .ctor(OculusNetworkPlayerModel playerModel, System.UInt64 id, System.String userName, System.Boolean isMe)
-    // Offset: 0x10D4944
+    // Offset: 0x10D7308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::OculusNetworkPlayer* New_ctor(GlobalNamespace::OculusNetworkPlayerModel* playerModel, uint64_t id, ::Il2CppString* userName, bool isMe) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::OculusNetworkPlayer*, creationType>(playerModel, id, userName, isMe)));
     }
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x10D68E0
-    bool get_isMyPartyOwner_NEW();
+    // Offset: 0x10D92A4
+    bool get_isMyPartyOwner();
     // public System.Boolean get_isOpenParty()
-    // Offset: 0x10D695C
-    bool get_isOpenParty_NEW();
+    // Offset: 0x10D9320
+    bool get_isOpenParty();
     // public System.Boolean get_isPlayer()
-    // Offset: 0x10D697C
-    bool get_isPlayer_NEW();
+    // Offset: 0x10D9340
+    bool get_isPlayer();
     // public System.Void set_isPlayer(System.Boolean value)
-    // Offset: 0x10D6984
+    // Offset: 0x10D9348
     void set_isPlayer(bool value);
     // public System.Boolean get_isSpectating()
-    // Offset: 0x10D6990
-    bool get_isSpectating_NEW();
+    // Offset: 0x10D9354
+    bool get_isSpectating();
     // public System.Void set_isSpectating(System.Boolean value)
-    // Offset: 0x10D6998
+    // Offset: 0x10D935C
     void set_isSpectating(bool value);
     // public System.Boolean get_isDedicatedServer()
-    // Offset: 0x10D69A4
-    bool get_isDedicatedServer_NEW();
+    // Offset: 0x10D9368
+    bool get_isDedicatedServer();
     // public System.Void set_isDedicatedServer(System.Boolean value)
-    // Offset: 0x10D69AC
+    // Offset: 0x10D9370
     void set_isDedicatedServer(bool value);
     // public System.Boolean get_isConnected()
-    // Offset: 0x10D69B8
-    bool get_isConnected_NEW();
+    // Offset: 0x10D937C
+    bool get_isConnected();
     // public System.Void set_isConnected(System.Boolean value)
-    // Offset: 0x10D69C0
+    // Offset: 0x10D9384
     void set_isConnected(bool value);
     // public System.Boolean get_canJoin()
-    // Offset: 0x10D69CC
-    bool get_canJoin_NEW();
+    // Offset: 0x10D9390
+    bool get_canJoin();
     // public System.Void Join()
-    // Offset: 0x10D69EC
-    void Join_NEW();
+    // Offset: 0x10D93B0
+    void Join();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x10D6AD0
-    bool get_requiresPassword_NEW();
+    // Offset: 0x10D9494
+    bool get_requiresPassword();
     // public System.Void Join(System.String password)
-    // Offset: 0x10D6AD8
-    void Join_NEW(::Il2CppString* password);
+    // Offset: 0x10D949C
+    void Join(::Il2CppString* password);
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x10D6ADC
-    bool get_isWaitingOnJoin_NEW();
+    // Offset: 0x10D94A0
+    bool get_isWaitingOnJoin();
     // private System.Void set_isWaitingOnJoin(System.Boolean value)
-    // Offset: 0x10D6AE4
+    // Offset: 0x10D94A8
     void set_isWaitingOnJoin(bool value);
     // public System.Boolean get_canInvite()
-    // Offset: 0x10D6AF0
-    bool get_canInvite_NEW();
+    // Offset: 0x10D94B4
+    bool get_canInvite();
     // public System.Void Invite()
-    // Offset: 0x10D6B70
-    void Invite_NEW();
+    // Offset: 0x10D9534
+    void Invite();
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x10D6BDC
-    bool get_isWaitingOnInvite_NEW();
+    // Offset: 0x10D95A0
+    bool get_isWaitingOnInvite();
     // public System.Void set_isWaitingOnInvite(System.Boolean value)
-    // Offset: 0x10D6BE4
+    // Offset: 0x10D95A8
     void set_isWaitingOnInvite(bool value);
     // public System.Boolean get_canKick()
-    // Offset: 0x10D6BF0
-    bool get_canKick_NEW();
+    // Offset: 0x10D95B4
+    bool get_canKick();
     // public System.Void Kick()
-    // Offset: 0x10D6C6C
-    void Kick_NEW();
+    // Offset: 0x10D9630
+    void Kick();
     // public System.Boolean get_canLeave()
-    // Offset: 0x10D6D88
-    bool get_canLeave_NEW();
+    // Offset: 0x10D974C
+    bool get_canLeave();
     // public System.Void Leave()
-    // Offset: 0x10D6E24
-    void Leave_NEW();
+    // Offset: 0x10D97E8
+    void Leave();
     // public System.Boolean get_canBlock()
-    // Offset: 0x10D6E48
-    bool get_canBlock_NEW();
+    // Offset: 0x10D980C
+    bool get_canBlock();
     // public System.Void Block()
-    // Offset: 0x10D6E50
-    void Block_NEW();
+    // Offset: 0x10D9814
+    void Block();
     // public System.Boolean get_canUnblock()
-    // Offset: 0x10D6E54
-    bool get_canUnblock_NEW();
+    // Offset: 0x10D9818
+    bool get_canUnblock();
     // public System.Void Unblock()
-    // Offset: 0x10D6E5C
-    void Unblock_NEW();
+    // Offset: 0x10D9820
+    void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x10D6E60
-    void SendJoinResponse_NEW(bool accept);
+    // Offset: 0x10D9824
+    void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x10D6EC0
-    void SendInviteResponse_NEW(bool accept);
+    // Offset: 0x10D9884
+    void SendInviteResponse(bool accept);
     // public System.Boolean SameRoomAs(OculusNetworkPlayerModel/OculusNetworkPlayer other)
-    // Offset: 0x10D50F4
+    // Offset: 0x10D7AB8
     bool SameRoomAs(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* other);
     // private System.Void <Join>b__53_0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x10D6ECC
+    // Offset: 0x10D9890
     void $Join$b__53_0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);
   }; // OculusNetworkPlayerModel/OculusNetworkPlayer
   #pragma pack(pop)

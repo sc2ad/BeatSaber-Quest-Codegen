@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeSO* healthWarningColorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD31380
+    // [InjectAttribute] Offset: 0xD318B4
     // private HealthWarningSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
@@ -44,12 +44,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningSceneSetup
     HealthWarningSceneSetup(GlobalNamespace::ColorSchemeSO* healthWarningColorScheme_ = {}, GlobalNamespace::HealthWarningSceneSetupData* sceneSetupData_ = {}) noexcept : healthWarningColorScheme{healthWarningColorScheme_}, sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xFED114
+    // Offset: 0xFEF028
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFED304
+    // Offset: 0xFEF218
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

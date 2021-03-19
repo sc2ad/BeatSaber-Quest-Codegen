@@ -45,20 +45,20 @@ namespace GlobalNamespace {
       return trie;
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
-    // Offset: 0x15C582C
+    // Offset: 0x15CA23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* wordList) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter*, creationType>(wordList)));
     }
     // public System.Boolean IsProfane(System.String word)
-    // Offset: 0x15C5EDC
+    // Offset: 0x15CA8EC
     bool IsProfane(::Il2CppString* word);
     // static private System.Collections.Generic.IEnumerable`1<System.Char> GetLookalikeLetters(System.Char c)
-    // Offset: 0x15C60D0
+    // Offset: 0x15CAAE0
     static System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
     // static private System.Char GetLeetEquivalent(System.Char c)
-    // Offset: 0x15C6188
+    // Offset: 0x15CAB98
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
   #pragma pack(pop)

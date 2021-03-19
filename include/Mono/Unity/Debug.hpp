@@ -25,10 +25,10 @@ namespace Mono::Unity {
     // Creating value type constructor for type: Debug
     Debug() noexcept {}
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/unitytls_errorstate errorState, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x1436E08
+    // Offset: 0x143B818
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/unitytls_errorstate errorState, Mono.Unity.UnityTls/unitytls_x509verify_result verifyResult, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x1436EE0
+    // Offset: 0x143B8F0
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
   }; // Mono.Unity.Debug
   #pragma pack(pop)

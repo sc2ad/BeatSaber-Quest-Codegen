@@ -30,7 +30,7 @@ namespace RootMotion::FinalIK {
   // [] Offset: FFFFFFFF
   class InteractionTrigger::CharacterPosition : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD1743C
+    // [TooltipAttribute] Offset: 0xD178A8
     // public System.Boolean use
     // Size: 0x1
     // Offset: 0x10
@@ -39,44 +39,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use and: offset
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xD17474
+    // [TooltipAttribute] Offset: 0xD178E0
     // public UnityEngine.Vector2 offset
     // Size: 0x8
     // Offset: 0x14
     UnityEngine::Vector2 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [TooltipAttribute] Offset: 0xD174AC
-    // [RangeAttribute] Offset: 0xD174AC
+    // [TooltipAttribute] Offset: 0xD17918
+    // [RangeAttribute] Offset: 0xD17918
     // public System.Single angleOffset
     // Size: 0x4
     // Offset: 0x1C
     float angleOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD17508
-    // [RangeAttribute] Offset: 0xD17508
+    // [TooltipAttribute] Offset: 0xD17974
+    // [RangeAttribute] Offset: 0xD17974
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x20
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD17560
+    // [TooltipAttribute] Offset: 0xD179CC
     // public System.Single radius
     // Size: 0x4
     // Offset: 0x24
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD17598
+    // [TooltipAttribute] Offset: 0xD17A04
     // public System.Boolean orbit
     // Size: 0x1
     // Offset: 0x28
     bool orbit;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xD175D0
+    // [TooltipAttribute] Offset: 0xD17A3C
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x29
@@ -86,16 +86,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: CharacterPosition
     CharacterPosition(bool use_ = {}, UnityEngine::Vector2 offset_ = {}, float angleOffset_ = {}, float maxAngle_ = {}, float radius_ = {}, bool orbit_ = {}, bool fixYAxis_ = {}) noexcept : use{use_}, offset{offset_}, angleOffset{angleOffset_}, maxAngle{maxAngle_}, radius{radius_}, orbit{orbit_}, fixYAxis{fixYAxis_} {}
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x191732C
+    // Offset: 0x1917D4C
     UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x1917368
+    // Offset: 0x1917D88
     UnityEngine::Vector3 get_direction3D();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1917460
+    // Offset: 0x1917E80
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()
-    // Offset: 0x1917ADC
+    // Offset: 0x19184FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

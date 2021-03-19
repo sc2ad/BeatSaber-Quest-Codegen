@@ -112,32 +112,32 @@ namespace NUnit::Framework::Internal {
     System::Security::Principal::IPrincipal* currentPrincipal;
     // Field size check
     static_assert(sizeof(System::Security::Principal::IPrincipal*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0FB60
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FB60
+    // [CompilerGeneratedAttribute] Offset: 0xD0FFCC
+    // [DebuggerBrowsableAttribute] Offset: 0xD0FFCC
     // private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     NUnit::Framework::Internal::Test* CurrentTest;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FB9C
-    // [CompilerGeneratedAttribute] Offset: 0xD0FB9C
+    // [DebuggerBrowsableAttribute] Offset: 0xD10008
+    // [CompilerGeneratedAttribute] Offset: 0xD10008
     // private System.IO.TextWriter <OutWriter>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FBD8
-    // [CompilerGeneratedAttribute] Offset: 0xD0FBD8
+    // [DebuggerBrowsableAttribute] Offset: 0xD10044
+    // [CompilerGeneratedAttribute] Offset: 0xD10044
     // private System.Object <TestObject>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     ::Il2CppObject* TestObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0FC14
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FC14
+    // [CompilerGeneratedAttribute] Offset: 0xD10080
+    // [DebuggerBrowsableAttribute] Offset: 0xD10080
     // private System.Int32 <TestCaseTimeout>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -146,24 +146,24 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: UpstreamActions
     char __padding10[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FC50
-    // [CompilerGeneratedAttribute] Offset: 0xD0FC50
+    // [DebuggerBrowsableAttribute] Offset: 0xD100BC
+    // [CompilerGeneratedAttribute] Offset: 0xD100BC
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* UpstreamActions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0FC8C
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FC8C
+    // [CompilerGeneratedAttribute] Offset: 0xD100F8
+    // [DebuggerBrowsableAttribute] Offset: 0xD100F8
     // private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
     // Size: 0x8
     // Offset: 0x78
     NUnit::Framework::Constraints::ValueFormatter* CurrentValueFormatter;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0FCC8
-    // [DebuggerBrowsableAttribute] Offset: 0xD0FCC8
+    // [CompilerGeneratedAttribute] Offset: 0xD10134
+    // [DebuggerBrowsableAttribute] Offset: 0xD10134
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Size: 0x1
     // Offset: 0x80
@@ -183,58 +183,58 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.String CONTEXT_KEY
     static void _set_CONTEXT_KEY(::Il2CppString* value);
     // static public NUnit.Framework.Internal.ITestExecutionContext get_CurrentContext()
-    // Offset: 0x2095834
+    // Offset: 0x209C310
     static NUnit::Framework::Internal::ITestExecutionContext* get_CurrentContext();
     // static public NUnit.Framework.Internal.TestExecutionContext GetTestExecutionContext()
-    // Offset: 0x20958E0
+    // Offset: 0x209C3BC
     static NUnit::Framework::Internal::TestExecutionContext* GetTestExecutionContext();
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x2095988
-    NUnit::Framework::Internal::Test* get_CurrentTest_NEW();
+    // Offset: 0x209C464
+    NUnit::Framework::Internal::Test* get_CurrentTest();
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x2095990
-    NUnit::Framework::Internal::TestResult* get_CurrentResult_NEW();
+    // Offset: 0x209C46C
+    NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x2095998
-    void set_CurrentResult_NEW(NUnit::Framework::Internal::TestResult* value);
+    // Offset: 0x209C474
+    void set_CurrentResult(NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x20959AC
-    System::IO::TextWriter* get_OutWriter_NEW();
+    // Offset: 0x209C488
+    System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x20959B4
+    // Offset: 0x209C490
     void set_OutWriter(System::IO::TextWriter* value);
     // public System.Object get_TestObject()
-    // Offset: 0x20959BC
-    ::Il2CppObject* get_TestObject_NEW();
+    // Offset: 0x209C498
+    ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x20959C4
-    void set_TestObject_NEW(::Il2CppObject* value);
+    // Offset: 0x209C4A0
+    void set_TestObject(::Il2CppObject* value);
     // NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x20959CC
+    // Offset: 0x209C4A8
     NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x20959D4
-    void set_TestCaseTimeout_NEW(int value);
+    // Offset: 0x209C4B0
+    void set_TestCaseTimeout(int value);
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x20959DC
+    // Offset: 0x209C4B8
     void set_UpstreamActions(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x20959E4
-    NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter_NEW();
+    // Offset: 0x209C4C0
+    NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // private System.Void set_CurrentValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x20959EC
+    // Offset: 0x209C4C8
     void set_CurrentValueFormatter(NUnit::Framework::Constraints::ValueFormatter* value);
     // public System.Void set_IsSingleThreaded(System.Boolean value)
-    // Offset: 0x20959F4
-    void set_IsSingleThreaded_NEW(bool value);
+    // Offset: 0x209C4D0
+    void set_IsSingleThreaded(bool value);
     // public System.Void IncrementAssertCount()
-    // Offset: 0x2095A00
-    void IncrementAssertCount_NEW();
+    // Offset: 0x209C4DC
+    void IncrementAssertCount();
     // static private System.Void .cctor()
-    // Offset: 0x2095A14
+    // Offset: 0x209C4F0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2095678
+    // Offset: 0x209C154
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Void LongLivedMarshalByRefObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -245,7 +245,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestExecutionContext*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x2095A0C
+    // Offset: 0x209C4E8
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();

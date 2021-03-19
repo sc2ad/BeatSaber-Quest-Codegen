@@ -53,10 +53,10 @@ namespace UnityEngine {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void SendMessage(System.String name)
-      // Offset: 0xE17B98
+      // Offset: 0xE1C134
       void SendMessage(::Il2CppString* name);
       // static public System.Boolean Compare(UnityEngine.SendMouseEvents/HitInfo lhs, UnityEngine.SendMouseEvents/HitInfo rhs)
-      // Offset: 0x2184D74
+      // Offset: 0x218685C
       static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);
     }; // UnityEngine.SendMouseEvents/HitInfo
     #pragma pack(pop)
@@ -85,16 +85,16 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Camera[] m_Cameras
     static void _set_m_Cameras(::Array<UnityEngine::Camera*>* value);
     // static private System.Void SetMouseMoved()
-    // Offset: 0x2183D7C
+    // Offset: 0x2185864
     static void SetMouseMoved();
     // static private System.Void DoSendMouseEvents(System.Int32 skipRTCameras)
-    // Offset: 0x2183DE8
+    // Offset: 0x21858D0
     static void DoSendMouseEvents(int skipRTCameras);
     // static private System.Void SendEvents(System.Int32 i, UnityEngine.SendMouseEvents/HitInfo hit)
-    // Offset: 0x21847E4
+    // Offset: 0x21862CC
     static void SendEvents(int i, UnityEngine::SendMouseEvents::HitInfo hit);
     // static private System.Void .cctor()
-    // Offset: 0x2184E40
+    // Offset: 0x2186928
     static void _cctor();
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)

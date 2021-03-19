@@ -58,24 +58,24 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Object state, System.Boolean completedSynchronously)
-    // Offset: 0x16DD048
+    // Offset: 0x16E0A68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskToApm::TaskWrapperAsyncResult*, creationType>(task, state, completedSynchronously)));
     }
     // private System.Object System.IAsyncResult.get_AsyncState()
-    // Offset: 0x16DD260
-    ::Il2CppObject* System_IAsyncResult_get_AsyncState_NEW();
+    // Offset: 0x16E0C80
+    ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x16DD268
-    bool System_IAsyncResult_get_CompletedSynchronously_NEW();
+    // Offset: 0x16E0C88
+    bool System_IAsyncResult_get_CompletedSynchronously();
     // private System.Boolean System.IAsyncResult.get_IsCompleted()
-    // Offset: 0x16DD270
-    bool System_IAsyncResult_get_IsCompleted_NEW();
+    // Offset: 0x16E0C90
+    bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x16DD28C
-    System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle_NEW();
+    // Offset: 0x16E0CAC
+    System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
   }; // System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(TaskToApm::TaskWrapperAsyncResult), 32 + sizeof(bool)> __System_Threading_Tasks_TaskToApm_TaskWrapperAsyncResultSizeCheck;

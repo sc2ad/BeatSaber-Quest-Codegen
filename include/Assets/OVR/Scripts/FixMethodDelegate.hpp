@@ -36,21 +36,21 @@ namespace Assets::OVR::Scripts {
     // Creating value type constructor for type: FixMethodDelegate
     FixMethodDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13EA504
+    // Offset: 0x13EDF14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixMethodDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::FixMethodDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixMethodDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex)
-    // Offset: 0x13EA514
-    void Invoke_NEW(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex);
+    // Offset: 0x13EDF24
+    void Invoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13EA964
-    System::IAsyncResult* BeginInvoke_NEW(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x13EE374
+    System::IAsyncResult* BeginInvoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13EAA24
-    void EndInvoke_NEW(System::IAsyncResult* result);
+    // Offset: 0x13EE434
+    void EndInvoke(System::IAsyncResult* result);
   }; // Assets.OVR.Scripts.FixMethodDelegate
   #pragma pack(pop)
 }

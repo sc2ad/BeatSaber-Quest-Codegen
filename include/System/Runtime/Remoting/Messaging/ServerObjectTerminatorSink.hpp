@@ -45,18 +45,18 @@ namespace System::Runtime::Remoting::Messaging {
       return nextSink;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
-    // Offset: 0x18B4484
+    // Offset: 0x18B4EA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerObjectTerminatorSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerObjectTerminatorSink*, creationType>(nextSink)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x18B44B0
-    System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage_NEW(System::Runtime::Remoting::Messaging::IMessage* msg);
+    // Offset: 0x18B4ED0
+    System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x18B4618
-    System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage_NEW(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+    // Offset: 0x18B5038
+    System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink
   #pragma pack(pop)
   static check_size<sizeof(ServerObjectTerminatorSink), 16 + sizeof(System::Runtime::Remoting::Messaging::IMessageSink*)> __System_Runtime_Remoting_Messaging_ServerObjectTerminatorSinkSizeCheck;

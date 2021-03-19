@@ -52,24 +52,24 @@ namespace System {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Array array)
-    // Offset: 0x161D1D0
+    // Offset: 0x1621BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x161DBB4
-    bool MoveNext_NEW();
+    // Offset: 0x16225D4
+    bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x161DBDC
-    void Reset_NEW();
+    // Offset: 0x16225FC
+    void Reset();
     // public System.Object Clone()
-    // Offset: 0x161DBE8
-    ::Il2CppObject* Clone_NEW();
+    // Offset: 0x1622608
+    ::Il2CppObject* Clone();
     // public System.Object get_Current()
-    // Offset: 0x161DBF0
-    ::Il2CppObject* get_Current_NEW();
+    // Offset: 0x1622610
+    ::Il2CppObject* get_Current();
   }; // System.Array/ArrayEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Array::ArrayEnumerator), 28 + sizeof(int)> __System_Array_ArrayEnumeratorSizeCheck;

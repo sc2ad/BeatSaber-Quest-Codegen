@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AchievementIdData
     AchievementIdData(int trophyId_ = {}, GlobalNamespace::AchievementSO* achievement_ = {}) noexcept : trophyId{trophyId_}, achievement{achievement_} {}
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0xF575A0
+    // Offset: 0xF5AD38
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0xF573D0
+    // Offset: 0xF5AB68
     ::Il2CppString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0xF575A8
+    // Offset: 0xF5AD40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

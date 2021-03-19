@@ -51,10 +51,10 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: ProcessThreadTimes
     ProcessThreadTimes(int64_t create_ = {}, int64_t exit_ = {}, int64_t kernel_ = {}, int64_t user_ = {}) noexcept : create{create_}, exit{exit_}, kernel{kernel_}, user{user_} {}
     // public System.TimeSpan get_TotalProcessorTime()
-    // Offset: 0x16CA4E0
+    // Offset: 0x16CDF00
     System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
-    // Offset: 0x16CA2CC
+    // Offset: 0x16CDCEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

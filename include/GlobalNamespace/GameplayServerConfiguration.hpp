@@ -77,28 +77,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerConfiguration>*>(this);
     }
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
-    // Offset: 0xDE0E5C
+    // Offset: 0xDE23F8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GameplayServerConfiguration(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks)
     // public System.Boolean Equals(GameplayServerConfiguration other)
-    // Offset: 0xDE0E74
-    bool Equals_NEW(GlobalNamespace::GameplayServerConfiguration other);
+    // Offset: 0xDE2410
+    bool Equals(GlobalNamespace::GameplayServerConfiguration other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDE0EE0
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0xDE247C
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public GameplayServerConfiguration CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDE0EE8
-    GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0xDE2484
+    GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public GameplayServerConfiguration Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1213848
+    // Offset: 0x1216258
     static GlobalNamespace::GameplayServerConfiguration Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDE0E6C
+    // Offset: 0xDE2408
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDE0EAC
+    // Offset: 0xDE2448
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -107,10 +107,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayServerConfiguration), 8 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_GameplayServerConfigurationSizeCheck;
   static_assert(sizeof(GameplayServerConfiguration) == 0x18);
   // static public System.Boolean op_Equality(GameplayServerConfiguration l, GameplayServerConfiguration r)
-  // Offset: 0x12138B0
+  // Offset: 0x12162C0
   bool operator ==(const GlobalNamespace::GameplayServerConfiguration& l, const GlobalNamespace::GameplayServerConfiguration& r);
   // static public System.Boolean op_Inequality(GameplayServerConfiguration l, GameplayServerConfiguration r)
-  // Offset: 0x12138F0
+  // Offset: 0x1216300
   bool operator !=(const GlobalNamespace::GameplayServerConfiguration& l, const GlobalNamespace::GameplayServerConfiguration& r);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");

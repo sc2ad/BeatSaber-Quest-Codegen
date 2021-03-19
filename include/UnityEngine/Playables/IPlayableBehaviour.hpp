@@ -28,28 +28,28 @@ namespace UnityEngine::Playables {
     IPlayableBehaviour() noexcept {}
     // public System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnGraphStart_NEW(UnityEngine::Playables::Playable playable);
+    void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public System.Void OnGraphStop(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnGraphStop_NEW(UnityEngine::Playables::Playable playable);
+    void OnGraphStop(UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableCreate(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnPlayableCreate_NEW(UnityEngine::Playables::Playable playable);
+    void OnPlayableCreate(UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnPlayableDestroy_NEW(UnityEngine::Playables::Playable playable);
+    void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     // Offset: 0xFFFFFFFF
-    void OnBehaviourPlay_NEW(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     // Offset: 0xFFFFFFFF
-    void OnBehaviourPause_NEW(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     // Offset: 0xFFFFFFFF
-    void PrepareFrame_NEW(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     // Offset: 0xFFFFFFFF
-    void ProcessFrame_NEW(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
   }; // UnityEngine.Playables.IPlayableBehaviour
   #pragma pack(pop)
 }

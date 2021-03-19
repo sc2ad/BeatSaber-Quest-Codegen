@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class CreditsScenesTransitionSetupDataSO : public GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD31798
+    // [CompilerGeneratedAttribute] Offset: 0xD31CCC
     // private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     // Size: 0x8
     // Offset: 0x30
@@ -37,16 +37,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreditsScenesTransitionSetupDataSO
     CreditsScenesTransitionSetupDataSO(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent_ = {}) noexcept : didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0xFD9350
+    // Offset: 0x10174DC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0xFD93F4
+    // Offset: 0x1017580
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void Finish()
-    // Offset: 0xFD8F40
+    // Offset: 0x10170CC
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0xFD9498
+    // Offset: 0x1017624
     // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()

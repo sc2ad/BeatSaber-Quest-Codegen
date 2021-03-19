@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MaterialPairs
     MaterialPairs(int materialIndex_ = {}, UnityEngine::Material* defaultMaterial_ = {}, UnityEngine::Material* alternativeMaterial_ = {}) noexcept : materialIndex{materialIndex_}, defaultMaterial{defaultMaterial_}, alternativeMaterial{alternativeMaterial_} {}
     // public System.Void .ctor()
-    // Offset: 0x100738C
+    // Offset: 0x100A380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,18 +52,18 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
-    // Offset: 0x170081C
+    // Offset: 0x170423C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompletionActionInvoker* New_ctor(System::Threading::Tasks::ITaskCompletionAction* action, System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::CompletionActionInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompletionActionInvoker*, creationType>(action, completingTask)));
     }
     // public System.Void ExecuteWorkItem()
-    // Offset: 0x1700854
-    void ExecuteWorkItem_NEW();
+    // Offset: 0x1704274
+    void ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x170090C
-    void MarkAborted_NEW(System::Threading::ThreadAbortException* tae);
+    // Offset: 0x170432C
+    void MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.CompletionActionInvoker
   #pragma pack(pop)
   static check_size<sizeof(CompletionActionInvoker), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_CompletionActionInvokerSizeCheck;

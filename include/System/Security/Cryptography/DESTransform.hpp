@@ -87,37 +87,37 @@ namespace System::Security::Cryptography {
     // Set static field: static readonly System.UInt32[] fpTab
     static void _set_fpTab(::Array<uint>* value);
     // System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x17DA04C
+    // Offset: 0x17DDA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DESTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::DESTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DESTransform*, creationType>(symmAlgo, encryption, key, iv)));
     }
     // private System.UInt32 CipherFunct(System.UInt32 r, System.Int32 n)
-    // Offset: 0x17DAA04
+    // Offset: 0x17DE424
     uint CipherFunct(uint r, int n);
     // static System.Void Permutation(System.Byte[] input, System.Byte[] output, System.UInt32[] permTab, System.Boolean preSwap)
-    // Offset: 0x17DAC4C
+    // Offset: 0x17DE66C
     static void Permutation(::Array<uint8_t>* input, ::Array<uint8_t>* output, ::Array<uint>* permTab, bool preSwap);
     // static private System.Void BSwap(System.Byte[] byteBuff)
-    // Offset: 0x17DAF9C
+    // Offset: 0x17DE9BC
     static void BSwap(::Array<uint8_t>* byteBuff);
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x17DA604
+    // Offset: 0x17DE024
     void SetKey(::Array<uint8_t>* key);
     // public System.Void ProcessBlock(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x17DB020
+    // Offset: 0x17DEA40
     void ProcessBlock(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x17DA510
+    // Offset: 0x17DDF30
     static ::Array<uint8_t>* GetStrongKey();
     // static private System.Void .cctor()
-    // Offset: 0x17DB48C
+    // Offset: 0x17DEEAC
     static void _cctor();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x17DB3D8
+    // Offset: 0x17DEDF8
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
-    // Base method: System.Void SymmetricTransform::ECB_NEW(System.Byte[] input, System.Byte[] output)
+    // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
   }; // System.Security.Cryptography.DESTransform
   #pragma pack(pop)

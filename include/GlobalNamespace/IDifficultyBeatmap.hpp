@@ -29,25 +29,25 @@ namespace GlobalNamespace {
     IDifficultyBeatmap() noexcept {}
     // public IBeatmapLevel get_level()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IBeatmapLevel* get_level_NEW();
+    GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet_NEW();
+    GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapDifficulty get_difficulty_NEW();
+    GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
     // Offset: 0xFFFFFFFF
-    int get_difficultyRank_NEW();
+    int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
     // Offset: 0xFFFFFFFF
-    float get_noteJumpMovementSpeed_NEW();
+    float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
     // Offset: 0xFFFFFFFF
-    float get_noteJumpStartBeatOffset_NEW();
+    float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapData* get_beatmapData_NEW();
+    GlobalNamespace::BeatmapData* get_beatmapData();
   }; // IDifficultyBeatmap
   #pragma pack(pop)
 }

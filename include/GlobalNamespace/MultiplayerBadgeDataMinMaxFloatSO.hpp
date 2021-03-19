@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MultiplayerBadgeDataMinMaxFloatSO : public GlobalNamespace::MultiplayerBadgeDataSO {
     public:
-    // [SpaceAttribute] Offset: 0xD260A4
+    // [SpaceAttribute] Offset: 0xD265C8
     // private MultiplayerBadgeMinMax _minMax
     // Size: 0x4
     // Offset: 0x30
@@ -59,18 +59,18 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     float GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // private MultiplayerBadgeAwardData CalculateMax(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, System.Single randomMultiplier)
-    // Offset: 0x1038E74
+    // Offset: 0x103A95C
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, float randomMultiplier);
     // private MultiplayerBadgeAwardData CalculateMin(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, System.Single randomMultiplier)
-    // Offset: 0x10392F8
+    // Offset: 0x103ADE0
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, float randomMultiplier);
     // public override MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
-    // Offset: 0x1038E60
+    // Offset: 0x103A948
     // Implemented from: MultiplayerBadgeDataSO
-    // Base method: MultiplayerBadgeAwardData MultiplayerBadgeDataSO::CalculateBadgeData_NEW(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
+    // Base method: MultiplayerBadgeAwardData MultiplayerBadgeDataSO::CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x1038E50
+    // Offset: 0x103A938
     // Implemented from: MultiplayerBadgeDataSO
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

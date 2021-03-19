@@ -35,23 +35,23 @@ namespace Zenject {
     }
     // public TValue Spawn()
     // Offset: 0xFFFFFFFF
-    TValue Spawn_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Spawn_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    TValue Spawn() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Spawn");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
     // protected System.Void Reinitialize(TValue item)
     // Offset: 0xFFFFFFFF
-    void Reinitialize_NEW(TValue item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Reinitialize_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
+    void Reinitialize(TValue item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Reinitialize");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(item)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // private TValue Zenject.IFactory<TValue>.Create()
     // Offset: 0xFFFFFFFF
-    TValue Zenject_IFactory$TValue$_Create_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Zenject.IFactory<TValue>.Create_NEW");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IFactory<TValue>.Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+    TValue Zenject_IFactory$TValue$_Create() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Zenject.IFactory<TValue>.Create");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IFactory<TValue>.Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
     // public System.Void .ctor()

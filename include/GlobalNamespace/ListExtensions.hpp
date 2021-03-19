@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ListExtensions
     ListExtensions() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD30EB0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD313E4
     // Get static field: static private readonly System.Random _random
     static System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
@@ -46,8 +46,8 @@ namespace GlobalNamespace {
     template<class T>
     static int IndexOf(System::Collections::Generic::IReadOnlyList_1<T>* self, T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListExtensions::IndexOf");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ListExtensions", "IndexOf", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(self, item)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ListExtensions", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(self, item)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, self, item);
     }
     // static public System.Void ShuffleInPlace(System.Collections.Generic.IList`1<T> list)
@@ -55,12 +55,12 @@ namespace GlobalNamespace {
     template<class T>
     static void ShuffleInPlace(System::Collections::Generic::IList_1<T>* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListExtensions::ShuffleInPlace");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ListExtensions", "ShuffleInPlace", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "ListExtensions", "ShuffleInPlace", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list);
     }
     // static private System.Void .cctor()
-    // Offset: 0x109E74C
+    // Offset: 0x10A10F0
     static void _cctor();
   }; // ListExtensions
   #pragma pack(pop)

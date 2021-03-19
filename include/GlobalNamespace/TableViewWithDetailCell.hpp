@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     char ___base_padding[0x6] = {};
     // Nested type: GlobalNamespace::TableViewWithDetailCell::IDataSource
     class IDataSource;
-    // [CompilerGeneratedAttribute] Offset: 0xD01E60
+    // [CompilerGeneratedAttribute] Offset: 0xD022BC
     // private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
     // Size: 0x8
     // Offset: 0xA8
     System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* didSelectContentCellEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD01E70
+    // [CompilerGeneratedAttribute] Offset: 0xD022CC
     // private System.Action`2<TableViewWithDetailCell,System.Int32> didDeselectContentCellEvent
     // Size: 0x8
     // Offset: 0xB0
@@ -74,47 +74,47 @@ namespace GlobalNamespace {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
     }
     // public System.Void add_didSelectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x211BC74
+    // Offset: 0x211F75C
     void add_didSelectContentCellEvent(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Void remove_didSelectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x211BD18
+    // Offset: 0x211F800
     void remove_didSelectContentCellEvent(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Void add_didDeselectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x211BDBC
+    // Offset: 0x211F8A4
     void add_didDeselectContentCellEvent(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Void remove_didDeselectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x211BE60
+    // Offset: 0x211F948
     void remove_didDeselectContentCellEvent(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public TableViewWithDetailCell/IDataSource get_dataSource()
-    // Offset: 0x211BF04
+    // Offset: 0x211F9EC
     GlobalNamespace::TableViewWithDetailCell::IDataSource* get_dataSource();
     // public System.Void set_dataSource(TableViewWithDetailCell/IDataSource value)
-    // Offset: 0x211BF0C
+    // Offset: 0x211F9F4
     void set_dataSource(GlobalNamespace::TableViewWithDetailCell::IDataSource* value);
     // public System.Single CellSize()
-    // Offset: 0x211BF30
-    float CellSize_NEW();
+    // Offset: 0x211FA18
+    float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x211BFE0
-    int NumberOfCells_NEW();
+    // Offset: 0x211FAC8
+    int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x211C0A4
-    HMUI::TableCell* CellForIdx_NEW(HMUI::TableView* tableView, int idx);
+    // Offset: 0x211FB8C
+    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void ReloadData(System.Int32 currentNewIndex)
-    // Offset: 0x211C2F4
+    // Offset: 0x211FDDC
     void ReloadData(int currentNewIndex);
     // public override System.Void ReloadData()
-    // Offset: 0x211C2C0
+    // Offset: 0x211FDA8
     // Implemented from: HMUI.TableView
-    // Base method: System.Void TableView::ReloadData_NEW()
+    // Base method: System.Void TableView::ReloadData()
     void ReloadData();
     // protected override System.Void DidSelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x211C33C
+    // Offset: 0x211FE24
     // Implemented from: HMUI.TableView
-    // Base method: System.Void TableView::DidSelectCellWithIdx_NEW(System.Int32 idx)
+    // Base method: System.Void TableView::DidSelectCellWithIdx(System.Int32 idx)
     void DidSelectCellWithIdx(int idx);
     // public System.Void .ctor()
-    // Offset: 0x211C47C
+    // Offset: 0x211FF64
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

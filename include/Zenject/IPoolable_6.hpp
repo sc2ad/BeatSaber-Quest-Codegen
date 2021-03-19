@@ -20,15 +20,15 @@ namespace Zenject {
     IPoolable_6() noexcept {}
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
-    void OnDespawned_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IPoolable_6::OnDespawned_NEW");
+    void OnDespawned() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IPoolable_6::OnDespawned");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6)
     // Offset: 0xFFFFFFFF
-    void OnSpawned_NEW(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IPoolable_6::OnSpawned_NEW");
+    void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IPoolable_6::OnSpawned");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnSpawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, p4, p5, p6)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, p4, p5, p6);
     }

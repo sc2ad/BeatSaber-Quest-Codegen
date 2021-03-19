@@ -19,22 +19,22 @@ namespace Mono::Xml {
     IAttrList() noexcept {}
     // public System.Int32 get_Length()
     // Offset: 0xFFFFFFFF
-    int get_Length_NEW();
+    int get_Length();
     // public System.String GetName(System.Int32 i)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetName_NEW(int i);
+    ::Il2CppString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetValue_NEW(int i);
+    ::Il2CppString* GetValue(int i);
     // public System.String GetValue(System.String name)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetValue_NEW(::Il2CppString* name);
+    ::Il2CppString* GetValue(::Il2CppString* name);
     // public System.String[] get_Names()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* get_Names_NEW();
+    ::Array<::Il2CppString*>* get_Names();
     // public System.String[] get_Values()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* get_Values_NEW();
+    ::Array<::Il2CppString*>* get_Values();
   }; // Mono.Xml.SmallXmlParser/IAttrList
   #pragma pack(pop)
 }

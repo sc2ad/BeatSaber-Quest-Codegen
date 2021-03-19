@@ -56,37 +56,37 @@ namespace System::Threading {
     // Set static field: static private System.Threading.Timer/Scheduler instance
     static void _set_instance(System::Threading::Timer::Scheduler* value);
     // static private System.Void .cctor()
-    // Offset: 0x16E1DCC
+    // Offset: 0x16E57EC
     static void _cctor();
     // static public System.Threading.Timer/Scheduler get_Instance()
-    // Offset: 0x16E1F48
+    // Offset: 0x16E5968
     static System::Threading::Timer::Scheduler* get_Instance();
     // public System.Void Remove(System.Threading.Timer timer)
-    // Offset: 0x16E1AD8
+    // Offset: 0x16E54F8
     void Remove(System::Threading::Timer* timer);
     // public System.Void Change(System.Threading.Timer timer, System.Int64 new_next_run)
-    // Offset: 0x16E1B88
+    // Offset: 0x16E55A8
     void Change(System::Threading::Timer* timer, int64_t new_next_run);
     // private System.Int32 FindByDueTime(System.Int64 nr)
-    // Offset: 0x16E2148
+    // Offset: 0x16E5B68
     int FindByDueTime(int64_t nr);
     // private System.Void Add(System.Threading.Timer timer)
-    // Offset: 0x16E2018
+    // Offset: 0x16E5A38
     void Add(System::Threading::Timer* timer);
     // private System.Int32 InternalRemove(System.Threading.Timer timer)
-    // Offset: 0x16E1FB8
+    // Offset: 0x16E59D8
     int InternalRemove(System::Threading::Timer* timer);
     // static private System.Void TimerCB(System.Object o)
-    // Offset: 0x16E22A4
+    // Offset: 0x16E5CC4
     static void TimerCB(::Il2CppObject* o);
     // private System.Void SchedulerThread()
-    // Offset: 0x16E26AC
+    // Offset: 0x16E60CC
     void SchedulerThread();
     // private System.Void ShrinkIfNeeded(System.Collections.Generic.List`1<System.Threading.Timer> list, System.Int32 initial)
-    // Offset: 0x16E2C0C
+    // Offset: 0x16E662C
     void ShrinkIfNeeded(System::Collections::Generic::List_1<System::Threading::Timer*>* list, int initial);
     // private System.Void .ctor()
-    // Offset: 0x16E1E2C
+    // Offset: 0x16E584C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

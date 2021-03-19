@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EssentialHelpers
     EssentialHelpers() noexcept {}
     // static public System.Double get_CurrentTimeStamp()
-    // Offset: 0x111E3F0
+    // Offset: 0x1120E0C
     static double get_CurrentTimeStamp();
     // static public System.Void SafeDestroy(UnityEngine.Object obj)
-    // Offset: 0x111E4B4
+    // Offset: 0x1120ED0
     static void SafeDestroy(UnityEngine::Object* obj);
     // static public T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
@@ -42,8 +42,8 @@ namespace GlobalNamespace {
     static T GetOrAddComponent(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EssentialHelpers::GetOrAddComponent");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "EssentialHelpers", "GetOrAddComponent", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod("", "EssentialHelpers", "GetOrAddComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, go);
     }
   }; // EssentialHelpers

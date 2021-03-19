@@ -30,10 +30,10 @@ namespace System::ComponentModel {
     ISynchronizeInvoke() noexcept {}
     // public System.Boolean get_InvokeRequired()
     // Offset: 0xFFFFFFFF
-    bool get_InvokeRequired_NEW();
+    bool get_InvokeRequired();
     // public System.IAsyncResult BeginInvoke(System.Delegate method, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke_NEW(System::Delegate* method, ::Array<::Il2CppObject*>* args);
+    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::Array<::Il2CppObject*>* args);
   }; // System.ComponentModel.ISynchronizeInvoke
   #pragma pack(pop)
 }

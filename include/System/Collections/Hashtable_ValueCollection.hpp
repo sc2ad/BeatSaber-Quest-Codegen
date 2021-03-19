@@ -50,21 +50,21 @@ namespace System::Collections {
       return hashtable;
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1813118
+    // Offset: 0x1814B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::ValueCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::ValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::ValueCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1813144
-    void CopyTo_NEW(System::Array* array, int arrayIndex);
+    // Offset: 0x1814B64
+    void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x18132CC
-    System::Collections::IEnumerator* GetEnumerator_NEW();
+    // Offset: 0x1814CEC
+    System::Collections::IEnumerator* GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x1813334
-    int get_Count_NEW();
+    // Offset: 0x1814D54
+    int get_Count();
   }; // System.Collections.Hashtable/ValueCollection
   #pragma pack(pop)
   static check_size<sizeof(Hashtable::ValueCollection), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_ValueCollectionSizeCheck;

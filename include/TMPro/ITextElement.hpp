@@ -28,13 +28,13 @@ namespace TMPro {
     ITextElement() noexcept {}
     // public UnityEngine.Material get_sharedMaterial()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Material* get_sharedMaterial_NEW();
+    UnityEngine::Material* get_sharedMaterial();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
     // Offset: 0xFFFFFFFF
-    void Rebuild_NEW(UnityEngine::UI::CanvasUpdate update);
+    void Rebuild(UnityEngine::UI::CanvasUpdate update);
     // public System.Int32 GetInstanceID()
     // Offset: 0xFFFFFFFF
-    int GetInstanceID_NEW();
+    int GetInstanceID();
   }; // TMPro.ITextElement
   #pragma pack(pop)
 }

@@ -119,32 +119,32 @@ namespace MasterServer {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BaseClientMessageHandler
     BaseClientMessageHandler(GlobalNamespace::MasterServerEndPoint* endPoint_ = {}, System::Threading::Tasks::Task* authenticationTask_ = {}, System::Security::Authentication::AuthenticationException* authenticationException_ = {}, bool disposed_ = {}) noexcept : endPoint{endPoint_}, authenticationTask{authenticationTask_}, authenticationException{authenticationException_}, disposed{disposed_} {}
-    // [ThreadStaticAttribute] Offset: 0xD05F60
+    // [ThreadStaticAttribute] Offset: 0xD063BC
     // Get static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static LiteNetLib::Utils::NetDataWriter* _get__authenticationDataWriter();
     // Set static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static void _set__authenticationDataWriter(LiteNetLib::Utils::NetDataWriter* value);
     // public MasterServerEndPoint get_endPoint()
-    // Offset: 0x12188CC
+    // Offset: 0x121B2DC
     GlobalNamespace::MasterServerEndPoint* get_endPoint();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x12188D4
+    // Offset: 0x121B2E4
     bool get_isAuthenticated();
     // public System.Boolean get_isAuthenticating()
-    // Offset: 0x121895C
+    // Offset: 0x121B36C
     bool get_isAuthenticating();
     // public System.Boolean get_hasAuthenticationFailed()
-    // Offset: 0x12189C4
+    // Offset: 0x121B3D4
     bool get_hasAuthenticationFailed();
     // protected System.Void .ctor(MasterServer.MessageHandler/IMessageSender sender, PacketEncryptionLayer encryptionLayer, MasterServerEndPoint endPoint, MasterServer.IAnalyticsManager analytics)
-    // Offset: 0x12189D4
+    // Offset: 0x121B3E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseClientMessageHandler* New_ctor(MasterServer::MessageHandler::IMessageSender* sender, GlobalNamespace::PacketEncryptionLayer* encryptionLayer, GlobalNamespace::MasterServerEndPoint* endPoint, MasterServer::IAnalyticsManager* analytics) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientMessageHandler*, creationType>(sender, encryptionLayer, endPoint, analytics)));
     }
     // protected System.Void SendAuthenticatedRequest(MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1218A70
+    // Offset: 0x121B480
     void SendAuthenticatedRequest(MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task`1<T> SendAuthenticatedRequestAsync(MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -152,15 +152,15 @@ namespace MasterServer {
     System::Threading::Tasks::Task_1<T>* SendAuthenticatedRequestAsync(MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
       static_assert(std::is_base_of_v<MasterServer::IMasterServerReliableResponse, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SendAuthenticatedRequestAsync", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message, cancellationToken)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "SendAuthenticatedRequestAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message, cancellationToken)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, message, cancellationToken);
     }
     // protected System.Threading.Tasks.Task SendAuthenticatedRequestAsync(MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1218B3C
+    // Offset: 0x121B54C
     System::Threading::Tasks::Task* SendAuthenticatedRequestAsync(MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task OnSendFailed(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1218C40
+    // Offset: 0x121B650
     System::Threading::Tasks::Task* OnSendFailed(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<T> OnSendFailedAwaitResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -168,54 +168,54 @@ namespace MasterServer {
     System::Threading::Tasks::Task_1<T>* OnSendFailedAwaitResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
       static_assert(std::is_base_of_v<MasterServer::IMasterServerReliableResponse, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::OnSendFailedAwaitResponse");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnSendFailedAwaitResponse", std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(protocolVersion, remoteEndPoint, message, cancellationToken)));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "OnSendFailedAwaitResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(protocolVersion, remoteEndPoint, message, cancellationToken)));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // private System.Threading.Tasks.Task ReauthenticateWithMasterServer()
-    // Offset: 0x1218D68
+    // Offset: 0x121B778
     System::Threading::Tasks::Task* ReauthenticateWithMasterServer();
     // protected System.Void UnauthenticateWithMasterServer()
-    // Offset: 0x1218E58
+    // Offset: 0x121B868
     void UnauthenticateWithMasterServer();
     // private System.Threading.Tasks.Task AuthenticateWithMasterServerAsync()
-    // Offset: 0x1218EC4
+    // Offset: 0x121B8D4
     System::Threading::Tasks::Task* AuthenticateWithMasterServerAsync();
     // protected System.Void AuthenticateWithMasterServer()
-    // Offset: 0x1219080
+    // Offset: 0x121BA90
     void AuthenticateWithMasterServer();
     // private System.Threading.Tasks.Task AuthenticateWithMasterServerAsyncInternalVerbose()
-    // Offset: 0x1219140
+    // Offset: 0x121BB50
     System::Threading::Tasks::Task* AuthenticateWithMasterServerAsyncInternalVerbose();
     // private System.Threading.Tasks.Task AuthenticateWithMasterServerAsyncInternal()
-    // Offset: 0x1218F80
+    // Offset: 0x121B990
     System::Threading::Tasks::Task* AuthenticateWithMasterServerAsyncInternal();
     // protected System.Threading.Tasks.Task`1<MasterServer.IMasterServerAuthenticateRequest> GetAuthenticationRequest()
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerAuthenticateRequest*>* GetAuthenticationRequest();
     // private System.Threading.Tasks.Task`1<System.Boolean> VerifySignature(System.Byte[] clientRandom, System.Byte[] serverRandom, System.Byte[] serverKey, System.Byte[] signature, System.Byte[][] certData)
-    // Offset: 0x1219274
+    // Offset: 0x121BC84
     System::Threading::Tasks::Task_1<bool>* VerifySignature(::Array<uint8_t>* clientRandom, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* serverKey, ::Array<uint8_t>* signature, ::Array<::Array<uint8_t>*>* certData);
     // protected System.Void ValidateCertificateChain(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     // Offset: 0xFFFFFFFF
     void ValidateCertificateChain(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x121937C
+    // Offset: 0x121BD8C
     void HandshakeLog(::Il2CppString* message);
     // public override System.Void Dispose()
-    // Offset: 0x1218A04
+    // Offset: 0x121B414
     // Implemented from: MasterServer.MessageHandler
-    // Base method: System.Void MessageHandler::Dispose_NEW()
+    // Base method: System.Void MessageHandler::Dispose()
     void Dispose();
     // protected override System.Boolean ShouldHandleHandshakeMessage(MasterServer.IHandshakeMessage packet, MasterServer.MessageHandler/MessageOrigin origin)
-    // Offset: 0x1218A14
+    // Offset: 0x121B424
     // Implemented from: MasterServer.MessageHandler
-    // Base method: System.Boolean MessageHandler::ShouldHandleHandshakeMessage_NEW(MasterServer.IHandshakeMessage packet, MasterServer.MessageHandler/MessageOrigin origin)
+    // Base method: System.Boolean MessageHandler::ShouldHandleHandshakeMessage(MasterServer.IHandshakeMessage packet, MasterServer.MessageHandler/MessageOrigin origin)
     bool ShouldHandleHandshakeMessage(MasterServer::IHandshakeMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected override System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x1219230
+    // Offset: 0x121BC40
     // Implemented from: MasterServer.MessageHandler
-    // Base method: System.Boolean MessageHandler::ShouldHandleMessageFromEndPoint_NEW(System.Net.IPEndPoint endPoint)
+    // Base method: System.Boolean MessageHandler::ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* endPoint);
   }; // MasterServer.BaseClientMessageHandler
   #pragma pack(pop)

@@ -25,13 +25,13 @@ namespace GlobalNamespace {
     }
     // public System.String get_packID()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_packID_NEW();
+    ::Il2CppString* get_packID();
     // public System.String get_packName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_packName_NEW();
+    ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_shortPackName_NEW();
+    ::Il2CppString* get_shortPackName();
   }; // IBeatmapLevelPack
   #pragma pack(pop)
 }

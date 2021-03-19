@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_missionHelpId()
-    // Offset: 0x1024804
+    // Offset: 0x10272EC
     ::Il2CppString* get_missionHelpId();
     // public System.Void .ctor()
-    // Offset: 0x102480C
+    // Offset: 0x10272F4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

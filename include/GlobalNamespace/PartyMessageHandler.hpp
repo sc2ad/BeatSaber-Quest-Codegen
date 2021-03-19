@@ -104,14 +104,14 @@ namespace GlobalNamespace {
     GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ConnectedPlayerManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD05E40
+    // [CompilerGeneratedAttribute] Offset: 0xD0629C
     // private PartyMessageHandler/ServerStatusUpdatedDelegate serverStatusUpdatedEvent
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate* serverStatusUpdatedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD05E50
+    // [CompilerGeneratedAttribute] Offset: 0xD062AC
     // private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
     // Size: 0x8
     // Offset: 0x28
@@ -125,38 +125,38 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x15C2B5C
+    // Offset: 0x15C756C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler* New_ctor(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler*, creationType>(connectedPlayerManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x15C2DC8
-    void Dispose_NEW();
+    // Offset: 0x15C77D8
+    void Dispose();
     // public System.Void add_serverStatusUpdatedEvent(PartyMessageHandler/ServerStatusUpdatedDelegate value)
-    // Offset: 0x15C2DF0
+    // Offset: 0x15C7800
     void add_serverStatusUpdatedEvent(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate* value);
     // public System.Void remove_serverStatusUpdatedEvent(PartyMessageHandler/ServerStatusUpdatedDelegate value)
-    // Offset: 0x15C2E94
+    // Offset: 0x15C78A4
     void remove_serverStatusUpdatedEvent(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate* value);
     // public System.Void SetServerStatus(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x15C2F38
+    // Offset: 0x15C7948
     void SetServerStatus(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // private System.Void HandleServerStatusUpdate(PartyMessageHandler/ServerStatusUpdateMessage packet)
-    // Offset: 0x15C303C
+    // Offset: 0x15C7A4C
     void HandleServerStatusUpdate(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* packet);
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x15C372C
+    // Offset: 0x15C813C
     void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x15C37D0
+    // Offset: 0x15C81E0
     void remove_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void ConnectToMasterServer(System.Net.IPEndPoint endPoint, System.String serverName, System.String password, System.String secret, System.String userId, System.String userName, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x15C3874
+    // Offset: 0x15C8284
     void ConnectToMasterServer(System::Net::IPEndPoint* endPoint, ::Il2CppString* serverName, ::Il2CppString* password, ::Il2CppString* secret, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x15C39AC
+    // Offset: 0x15C83BC
     void HandleConnectToMasterServer(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
   }; // PartyMessageHandler
   #pragma pack(pop)

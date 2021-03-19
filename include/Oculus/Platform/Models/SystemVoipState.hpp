@@ -38,7 +38,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: SystemVoipState
     SystemVoipState(Oculus::Platform::VoipMuteState MicrophoneMuted_ = {}, Oculus::Platform::SystemVoipStatus Status_ = {}) noexcept : MicrophoneMuted{MicrophoneMuted_}, Status{Status_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138B750
+    // Offset: 0x138E160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemVoipState* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SystemVoipState::.ctor");

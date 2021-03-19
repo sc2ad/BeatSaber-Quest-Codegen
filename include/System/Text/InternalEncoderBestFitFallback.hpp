@@ -47,31 +47,31 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1AFF1F0
+    // Offset: 0x1B04C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalEncoderBestFitFallback* New_ctor(System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalEncoderBestFitFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalEncoderBestFitFallback*, creationType>(encoding)));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1B05720
+    // Offset: 0x1B0B178
     // Implemented from: System.Text.EncoderFallback
-    // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer_NEW()
+    // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1B05874
+    // Offset: 0x1B0B2CC
     // Implemented from: System.Text.EncoderFallback
-    // Base method: System.Int32 EncoderFallback::get_MaxCharCount_NEW()
+    // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1B0587C
+    // Offset: 0x1B0B2D4
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object value)
+    // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B05950
+    // Offset: 0x1B0B3A8
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.InternalEncoderBestFitFallback
   #pragma pack(pop)

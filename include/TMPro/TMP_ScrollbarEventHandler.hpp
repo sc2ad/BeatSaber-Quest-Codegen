@@ -57,16 +57,16 @@ namespace TMPro {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xFB5F50
-    void OnPointerClick_NEW(UnityEngine::EventSystems::PointerEventData* eventData);
+    // Offset: 0xFA365C
+    void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFB5FBC
-    void OnSelect_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
+    // Offset: 0xFA36C8
+    void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFB6038
-    void OnDeselect_NEW(UnityEngine::EventSystems::BaseEventData* eventData);
+    // Offset: 0xFA3744
+    void OnDeselect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xFB60B0
+    // Offset: 0xFA37BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

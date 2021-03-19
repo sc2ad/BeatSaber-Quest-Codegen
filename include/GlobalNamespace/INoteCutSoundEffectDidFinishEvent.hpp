@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     INoteCutSoundEffectDidFinishEvent() noexcept {}
     // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
     // Offset: 0xFFFFFFFF
-    void HandleNoteCutSoundEffectDidFinish_NEW(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
+    void HandleNoteCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
   }; // INoteCutSoundEffectDidFinishEvent
   #pragma pack(pop)
 }

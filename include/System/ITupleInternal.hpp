@@ -26,7 +26,7 @@ namespace System {
     ITupleInternal() noexcept {}
     // public System.String ToString(System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString_NEW(System::Text::StringBuilder* sb);
+    ::Il2CppString* ToString(System::Text::StringBuilder* sb);
   }; // System.ITupleInternal
   #pragma pack(pop)
 }

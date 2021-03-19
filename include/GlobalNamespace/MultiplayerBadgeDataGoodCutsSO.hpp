@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBadgeDataGoodCutsSO
     MultiplayerBadgeDataGoodCutsSO() noexcept {}
     // protected override System.Int32 GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x1038DE4
+    // Offset: 0x103A8CC
     // Implemented from: MultiplayerBadgeDataMinMaxIntSO
-    // Base method: System.Int32 MultiplayerBadgeDataMinMaxIntSO::GetValue_NEW(MultiplayerPlayerResultsData result)
+    // Base method: System.Int32 MultiplayerBadgeDataMinMaxIntSO::GetValue(MultiplayerPlayerResultsData result)
     int GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // public System.Void .ctor()
-    // Offset: 0x1038E08
+    // Offset: 0x103A8F0
     // Implemented from: MultiplayerBadgeDataMinMaxIntSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxIntSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()

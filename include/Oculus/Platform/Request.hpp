@@ -25,7 +25,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Message::Callback* callback;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Message::Callback*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0B1C0
+    // [CompilerGeneratedAttribute] Offset: 0xD0B61C
     // private System.UInt64 <RequestID>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -35,26 +35,26 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Request
     Request(Oculus::Platform::Message::Callback* callback_ = {}, uint64_t RequestID_ = {}) noexcept : callback{callback_}, RequestID{RequestID_} {}
     // public System.Void .ctor(System.UInt64 requestID)
-    // Offset: 0x13792F0
+    // Offset: 0x137BD00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Request* New_ctor(uint64_t requestID) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Request*, creationType>(requestID)));
     }
     // public System.UInt64 get_RequestID()
-    // Offset: 0x138F6F8
+    // Offset: 0x1392108
     uint64_t get_RequestID();
     // public System.Void set_RequestID(System.UInt64 value)
-    // Offset: 0x138F700
+    // Offset: 0x1392110
     void set_RequestID(uint64_t value);
     // public Oculus.Platform.Request OnComplete(Oculus.Platform.Message/Callback callback)
-    // Offset: 0x138F708
+    // Offset: 0x1392118
     Oculus::Platform::Request* OnComplete(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x138F784
-    void HandleMessage_NEW(Oculus::Platform::Message* msg);
+    // Offset: 0x1392194
+    void HandleMessage(Oculus::Platform::Message* msg);
     // static public System.Void RunCallbacks(System.UInt32 limit)
-    // Offset: 0x1378364
+    // Offset: 0x137AD74
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
   #pragma pack(pop)

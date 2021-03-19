@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorScheme
     ColorScheme(::Il2CppString* colorSchemeId_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color environmentColor0_ = {}, UnityEngine::Color environmentColor1_ = {}, UnityEngine::Color obstaclesColor_ = {}) noexcept : colorSchemeId{colorSchemeId_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, obstaclesColor{obstaclesColor_} {}
     // public System.Void .ctor(System.String colorSchemeId, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color obstaclesColor)
-    // Offset: 0xF6387C
+    // Offset: 0xF67034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorScheme* New_ctor(::Il2CppString* colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorScheme::.ctor");

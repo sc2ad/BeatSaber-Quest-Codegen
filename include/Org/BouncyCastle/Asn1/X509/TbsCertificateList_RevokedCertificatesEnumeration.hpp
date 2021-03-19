@@ -50,15 +50,15 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return en;
     }
     // System.Void .ctor(System.Collections.IEnumerable en)
-    // Offset: 0x1867498
+    // Offset: 0x1868EB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration* New_ctor(System::Collections::IEnumerable* en) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration*, creationType>(en)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x18674D4
-    System::Collections::IEnumerator* GetEnumerator_NEW();
+    // Offset: 0x1868EF4
+    System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/RevokedCertificatesEnumeration
   #pragma pack(pop)
   static check_size<sizeof(TbsCertificateList::RevokedCertificatesEnumeration), 16 + sizeof(System::Collections::IEnumerable*)> __Org_BouncyCastle_Asn1_X509_TbsCertificateList_RevokedCertificatesEnumerationSizeCheck;

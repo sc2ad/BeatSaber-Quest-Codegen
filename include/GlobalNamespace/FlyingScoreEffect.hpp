@@ -111,27 +111,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
     // public System.Void InitAndPresent(in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0xF30074
+    // Offset: 0xF1C8C8
     void InitAndPresent(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0xF303A0
-    void HandleSaberSwingRatingCounterDidChange_NEW(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
+    // Offset: 0xF1CBF4
+    void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0xF302CC
+    // Offset: 0xF1CB20
     ::Il2CppString* GetScoreText(int score);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0xF30440
-    void HandleSaberSwingRatingCounterDidFinish_NEW(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
+    // Offset: 0xF1CC94
+    void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0xF30444
+    // Offset: 0xF1CC98
     void UnregisterCallbacksIfNeeded();
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xF302F4
+    // Offset: 0xF1CB48
     // Implemented from: FlyingObjectEffect
-    // Base method: System.Void FlyingObjectEffect::ManualUpdate_NEW(System.Single t)
+    // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xF30590
+    // Offset: 0xF1CDE4
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -57,7 +57,7 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x28
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
@@ -66,7 +66,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C270
+    // [ObsoleteAttribute] Offset: 0xD0C6CC
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -85,7 +85,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* ParticipantsOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C2A8
+    // [ObsoleteAttribute] Offset: 0xD0C704
     // public readonly Oculus.Platform.Models.UserList Participants
     // Size: 0x8
     // Offset: 0x50
@@ -111,9 +111,9 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::ChallengeVisibility) == 0x4);
     // Creating value type constructor for type: Challenge
-    Challenge(Oculus::Platform::ChallengeCreationType CreationType_ = {}, ::Il2CppString* Description_ = {}, System::DateTime EndDate_ = {}, uint64_t ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::Leaderboard* Leaderboard_ = {}, Oculus::Platform::Models::UserList* ParticipantsOptional_ = {}, Oculus::Platform::Models::UserList* Participants_ = {}, System::DateTime StartDate_ = {}, ::Il2CppString* Title_ = {}, Oculus::Platform::ChallengeVisibility Visibility_ = {}) noexcept : CreationType{CreationType_}, Description{Description_}, EndDate{EndDate_}, ID{ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, Leaderboard{Leaderboard_}, ParticipantsOptional{ParticipantsOptional_}, Participants{Participants_}, StartDate{StartDate_}, Title{Title_}, Visibility{Visibility_} {}
+    Challenge(Oculus::Platform::ChallengeCreationType CreationType_ = {}, ::Il2CppString* Description_ = {}, System::DateTime EndDate_ = {}, uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::Leaderboard* Leaderboard_ = {}, Oculus::Platform::Models::UserList* ParticipantsOptional_ = {}, Oculus::Platform::Models::UserList* Participants_ = {}, System::DateTime StartDate_ = {}, ::Il2CppString* Title_ = {}, Oculus::Platform::ChallengeVisibility Visibility_ = {}) noexcept : CreationType{CreationType_}, Description{Description_}, EndDate{EndDate_}, _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, Leaderboard{Leaderboard_}, ParticipantsOptional{ParticipantsOptional_}, Participants{Participants_}, StartDate{StartDate_}, Title{Title_}, Visibility{Visibility_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1384674
+    // Offset: 0x1387084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Challenge* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Challenge::.ctor");

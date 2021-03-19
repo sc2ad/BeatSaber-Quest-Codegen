@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
     IClipper() noexcept {}
     // public System.Void PerformClipping()
     // Offset: 0xFFFFFFFF
-    void PerformClipping_NEW();
+    void PerformClipping();
   }; // UnityEngine.UI.IClipper
   #pragma pack(pop)
 }

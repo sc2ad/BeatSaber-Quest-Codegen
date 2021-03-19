@@ -22,13 +22,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Creating value type constructor for type: EditModeTestCallbacks
     EditModeTestCallbacks() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xD44FA4
+    // [CompilerGeneratedAttribute] Offset: 0xD47508
     // Get static field: static private System.Action <RestoringTestContext>k__BackingField
     static System::Action* _get_$RestoringTestContext$k__BackingField();
     // Set static field: static private System.Action <RestoringTestContext>k__BackingField
     static void _set_$RestoringTestContext$k__BackingField(System::Action* value);
     // static public System.Action get_RestoringTestContext()
-    // Offset: 0x1344144
+    // Offset: 0x1346B54
     static System::Action* get_RestoringTestContext();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.EditModeTestCallbacks
   #pragma pack(pop)

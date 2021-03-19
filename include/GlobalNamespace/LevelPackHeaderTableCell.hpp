@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* backgroundImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2B35C
+    // [SpaceAttribute] Offset: 0xD2B880
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x60
@@ -67,23 +67,23 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelPackHeaderTableCell
     LevelPackHeaderTableCell(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::Color highlightBackgroundColor_ = {}, UnityEngine::Color selectedBackgroundColor_ = {}, UnityEngine::Color selectedAndHighlightedBackgroundColor_ = {}) noexcept : nameText{nameText_}, backgroundImage{backgroundImage_}, highlightBackgroundColor{highlightBackgroundColor_}, selectedBackgroundColor{selectedBackgroundColor_}, selectedAndHighlightedBackgroundColor{selectedAndHighlightedBackgroundColor_} {}
     // public System.Void SetData(System.String headerText)
-    // Offset: 0x109179C
+    // Offset: 0x1094108
     void SetData(::Il2CppString* headerText);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1099324
+    // Offset: 0x109BCC8
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1099320
+    // Offset: 0x109BCC4
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x10993CC
+    // Offset: 0x109BD70
     // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange_NEW(HMUI.SelectableCell/TransitionType transitionType)
+    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x10993D0
+    // Offset: 0x109BD74
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

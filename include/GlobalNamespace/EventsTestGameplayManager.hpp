@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EventsTestGameplayManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xD25424
+    // [InjectAttribute] Offset: 0xD25948
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF29594
+    // Offset: 0xF15EE4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xF29828
+    // Offset: 0xF16178
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF29BD4
+    // Offset: 0xF16524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -45,20 +45,20 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xE17078
+    // Offset: 0xE1B614
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem)
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xE17080
+    // Offset: 0xE1B61C
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0xE17088
+    // Offset: 0xE1B624
     void set_rotation(UnityEngine::Vector3 value);
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x217FF4C
+    // Offset: 0x2181A34
     static void set_position_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x217FFF4
+    // Offset: 0x2181ADC
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule
   #pragma pack(pop)

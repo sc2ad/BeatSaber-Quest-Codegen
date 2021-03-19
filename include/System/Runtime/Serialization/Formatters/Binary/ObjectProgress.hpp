@@ -164,19 +164,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 opRecordIdCount
     static void _set_opRecordIdCount(int value);
     // System.Void Init()
-    // Offset: 0x145F3CC
+    // Offset: 0x1463DDC
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0x145F4C8
+    // Offset: 0x1463ED8
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
-    // Offset: 0x145F4D8
+    // Offset: 0x1463EE8
     bool GetNext(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& outBinaryTypeEnum, ::Il2CppObject*& outTypeInformation);
     // static private System.Void .cctor()
-    // Offset: 0x145F5FC
+    // Offset: 0x146400C
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x145F354
+    // Offset: 0x1463D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

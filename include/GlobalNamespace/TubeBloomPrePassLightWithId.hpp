@@ -54,15 +54,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TubeBloomPrePassLightWithId
     TubeBloomPrePassLightWithId(GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, bool setOnlyOnce_ = {}, bool setColorOnly_ = {}) noexcept : tubeBloomPrePassLight{tubeBloomPrePassLight_}, setOnlyOnce{setOnlyOnce_}, setColorOnly{setColorOnly_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CE6A40
+    // Offset: 0x1CEF51C
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CE6A60
+    // Offset: 0x1CEF53C
     // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet_NEW(UnityEngine.Color color)
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CE6AC4
+    // Offset: 0x1CEF5A0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

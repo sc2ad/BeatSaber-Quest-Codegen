@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     float maxElementLength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD28EC4
+    // [CompilerGeneratedAttribute] Offset: 0xD293E8
     // private UnityEngine.Color <color>k__BackingField
     // Size: 0x10
     // Offset: 0x48
@@ -162,46 +162,46 @@ namespace GlobalNamespace {
     BlocksBlade(UnityEngine::Mesh* elementMesh_ = {}, UnityEngine::Material* material_ = {}, int numberOfElements_ = {}, float radius_ = {}, float length_ = {}, float minVelocity_ = {}, float maxVelocity_ = {}, float elementWidth_ = {}, float minElementLength_ = {}, float maxElementLength_ = {}, UnityEngine::Color color_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* elements_ = {}, ::Array<UnityEngine::Vector4>* positions_ = {}, ::Array<UnityEngine::Vector4>* sizes_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}, ::Array<UnityEngine::Matrix4x4>* matrices_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, int layer_ = {}) noexcept : elementMesh{elementMesh_}, material{material_}, numberOfElements{numberOfElements_}, radius{radius_}, length{length_}, minVelocity{minVelocity_}, maxVelocity{maxVelocity_}, elementWidth{elementWidth_}, minElementLength{minElementLength_}, maxElementLength{maxElementLength_}, color{color_}, elements{elements_}, positions{positions_}, sizes{sizes_}, colors{colors_}, matrices{matrices_}, materialPropertyBlock{materialPropertyBlock_}, layer{layer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD28ED4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD293F8
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
     static void _set__positionPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD28EE4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD29408
     // Get static field: static private readonly System.Int32 _sizePropertyID
     static int _get__sizePropertyID();
     // Set static field: static private readonly System.Int32 _sizePropertyID
     static void _set__sizePropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD28EF4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD29418
     // Get static field: static private readonly System.Int32 _colorPropertyID
     static int _get__colorPropertyID();
     // Set static field: static private readonly System.Int32 _colorPropertyID
     static void _set__colorPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD28F04
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD29428
     // Get static field: static private readonly System.Int32 _zClipPropertyID
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
     static void _set__zClipPropertyID(int value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xF04344
+    // Offset: 0xF07B38
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xF04350
+    // Offset: 0xF07B44
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0xF0435C
+    // Offset: 0xF07B50
     void Start();
     // protected System.Void Update()
-    // Offset: 0xF046F4
+    // Offset: 0xF07EE8
     void Update();
     // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0xF04514
+    // Offset: 0xF07D08
     void SetUpElement(GlobalNamespace::BlocksBlade::Element* element, float velocity, UnityEngine::Color color);
     // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0xF04AE0
+    // Offset: 0xF082D4
     UnityEngine::Vector2 RandomPointOnCircle(float radius);
     // public System.Void .ctor()
-    // Offset: 0xF04BA0
+    // Offset: 0xF08394
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -214,7 +214,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF04BD8
+    // Offset: 0xF083CC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

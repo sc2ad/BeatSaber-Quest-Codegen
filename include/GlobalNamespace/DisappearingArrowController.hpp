@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DisappearingArrowController
     DisappearingArrowController(GlobalNamespace::GameNoteController* gameNoteController_ = {}) noexcept : gameNoteController{gameNoteController_} {}
     // protected GameNoteController get_gameNoteController()
-    // Offset: 0xFDED54
+    // Offset: 0x101CEE0
     GlobalNamespace::GameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0xFDED5C
+    // Offset: 0x101CEE8
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

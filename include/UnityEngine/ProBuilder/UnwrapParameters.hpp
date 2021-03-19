@@ -19,35 +19,35 @@ namespace UnityEngine::ProBuilder {
   // [] Offset: FFFFFFFF
   class UnwrapParameters : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xD439F8
-    // [RangeAttribute] Offset: 0xD439F8
-    // [FormerlySerializedAsAttribute] Offset: 0xD439F8
+    // [TooltipAttribute] Offset: 0xD45F5C
+    // [RangeAttribute] Offset: 0xD45F5C
+    // [FormerlySerializedAsAttribute] Offset: 0xD45F5C
     // private System.Single m_HardAngle
     // Size: 0x4
     // Offset: 0x10
     float m_HardAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD43A84
-    // [RangeAttribute] Offset: 0xD43A84
-    // [FormerlySerializedAsAttribute] Offset: 0xD43A84
+    // [TooltipAttribute] Offset: 0xD45FE8
+    // [RangeAttribute] Offset: 0xD45FE8
+    // [FormerlySerializedAsAttribute] Offset: 0xD45FE8
     // private System.Single m_PackMargin
     // Size: 0x4
     // Offset: 0x14
     float m_PackMargin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD43B10
-    // [RangeAttribute] Offset: 0xD43B10
-    // [FormerlySerializedAsAttribute] Offset: 0xD43B10
+    // [TooltipAttribute] Offset: 0xD46074
+    // [RangeAttribute] Offset: 0xD46074
+    // [FormerlySerializedAsAttribute] Offset: 0xD46074
     // private System.Single m_AngleError
     // Size: 0x4
     // Offset: 0x18
     float m_AngleError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xD43B9C
-    // [FormerlySerializedAsAttribute] Offset: 0xD43B9C
+    // [RangeAttribute] Offset: 0xD46100
+    // [FormerlySerializedAsAttribute] Offset: 0xD46100
     // private System.Single m_AreaError
     // Size: 0x4
     // Offset: 0x1C
@@ -81,41 +81,41 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Single k_AreaError
     static void _set_k_AreaError(float value);
     // public System.Single get_hardAngle()
-    // Offset: 0x20A6240
+    // Offset: 0x20ACD1C
     float get_hardAngle();
     // public System.Void set_hardAngle(System.Single value)
-    // Offset: 0x20A6248
+    // Offset: 0x20ACD24
     void set_hardAngle(float value);
     // public System.Single get_packMargin()
-    // Offset: 0x20A6250
+    // Offset: 0x20ACD2C
     float get_packMargin();
     // public System.Void set_packMargin(System.Single value)
-    // Offset: 0x20A6258
+    // Offset: 0x20ACD34
     void set_packMargin(float value);
     // public System.Single get_angleError()
-    // Offset: 0x20A6260
+    // Offset: 0x20ACD3C
     float get_angleError();
     // public System.Void set_angleError(System.Single value)
-    // Offset: 0x20A6268
+    // Offset: 0x20ACD44
     void set_angleError(float value);
     // public System.Single get_areaError()
-    // Offset: 0x20A6270
+    // Offset: 0x20ACD4C
     float get_areaError();
     // public System.Void set_areaError(System.Single value)
-    // Offset: 0x20A6278
+    // Offset: 0x20ACD54
     void set_areaError(float value);
     // public System.Void .ctor(UnityEngine.ProBuilder.UnwrapParameters other)
-    // Offset: 0x20A62D4
+    // Offset: 0x20ACDB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnwrapParameters* New_ctor(UnityEngine::ProBuilder::UnwrapParameters* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::UnwrapParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>(other)));
     }
     // public System.Void Reset()
-    // Offset: 0x20A62C4
+    // Offset: 0x20ACDA0
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x20A6280
+    // Offset: 0x20ACD5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -124,9 +124,9 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x20A6398
+    // Offset: 0x20ACE74
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.UnwrapParameters
   #pragma pack(pop)

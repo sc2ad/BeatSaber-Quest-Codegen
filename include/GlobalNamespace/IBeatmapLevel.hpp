@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     }
     // public IBeatmapLevelData get_beatmapLevelData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData_NEW();
+    GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
   }; // IBeatmapLevel
   #pragma pack(pop)
 }

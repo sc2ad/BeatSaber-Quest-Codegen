@@ -51,13 +51,13 @@ namespace System::IO {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0xDF5164
+    // Offset: 0xDF7700
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0xDF516C
+    // Offset: 0xDF7708
     void set_Name(::Il2CppString* value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0xDF5174
+    // Offset: 0xDF7710
     void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)

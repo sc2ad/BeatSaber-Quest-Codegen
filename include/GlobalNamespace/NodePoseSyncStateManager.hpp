@@ -42,49 +42,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
     // protected IPacketPool`1<NodePoseSyncStateNetSerializable> get_serializablePool()
-    // Offset: 0x10BE520
+    // Offset: 0x10C0EE4
     GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();
     // protected IPacketPool`1<NodePoseSyncStateDeltaNetSerializable> get_deltaSerializablePool()
-    // Offset: 0x10BE588
+    // Offset: 0x10C0F4C
     GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
     // protected PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x10BE600
+    // Offset: 0x10C0FC4
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // protected PoseSerializable Smooth(PoseSerializable a, PoseSerializable b, System.Single smooth)
-    // Offset: 0x10BE648
+    // Offset: 0x10C100C
     GlobalNamespace::PoseSerializable Smooth(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float smooth);
     // protected override System.Single get_deltaUpdateFrequency()
-    // Offset: 0x10BE4F8
+    // Offset: 0x10C0EBC
     // Implemented from: MultiplayerSyncStateManager`5
-    // Base method: System.Single MultiplayerSyncStateManager_5::get_deltaUpdateFrequency_NEW()
+    // Base method: System.Single MultiplayerSyncStateManager_5::get_deltaUpdateFrequency()
     float get_deltaUpdateFrequency();
     // protected override System.Single get_fullStateUpdateFrequency()
-    // Offset: 0x10BE504
+    // Offset: 0x10C0EC8
     // Implemented from: MultiplayerSyncStateManager`5
-    // Base method: System.Single MultiplayerSyncStateManager_5::get_fullStateUpdateFrequency_NEW()
+    // Base method: System.Single MultiplayerSyncStateManager_5::get_fullStateUpdateFrequency()
     float get_fullStateUpdateFrequency();
     // protected override System.Int32 get_localBufferSize()
-    // Offset: 0x10BE510
+    // Offset: 0x10C0ED4
     // Implemented from: MultiplayerSyncStateManager`5
-    // Base method: System.Int32 MultiplayerSyncStateManager_5::get_localBufferSize_NEW()
+    // Base method: System.Int32 MultiplayerSyncStateManager_5::get_localBufferSize()
     int get_localBufferSize();
     // protected override System.Int32 get_remoteBufferSize()
-    // Offset: 0x10BE518
+    // Offset: 0x10C0EDC
     // Implemented from: MultiplayerSyncStateManager`5
-    // Base method: System.Int32 MultiplayerSyncStateManager_5::get_remoteBufferSize_NEW()
+    // Base method: System.Int32 MultiplayerSyncStateManager_5::get_remoteBufferSize()
     int get_remoteBufferSize();
     // protected override MultiplayerSessionManager/MessageType get_messageType()
-    // Offset: 0x10BE5F0
+    // Offset: 0x10C0FB4
     // Implemented from: MultiplayerSyncStateManager`5
-    // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_messageType_NEW()
+    // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_messageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
     // protected override MultiplayerSessionManager/MessageType get_deltaMessageType()
-    // Offset: 0x10BE5F8
+    // Offset: 0x10C0FBC
     // Implemented from: MultiplayerSyncStateManager`5
-    // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_deltaMessageType_NEW()
+    // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_deltaMessageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
     // public System.Void .ctor()
-    // Offset: 0x10BE690
+    // Offset: 0x10C1054
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Void MultiplayerSyncStateManager_5::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

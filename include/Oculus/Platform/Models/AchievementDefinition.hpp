@@ -52,7 +52,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AchievementDefinition
     AchievementDefinition(Oculus::Platform::AchievementType Type_ = {}, ::Il2CppString* Name_ = {}, uint BitfieldLength_ = {}, uint64_t Target_ = {}) noexcept : Type{Type_}, Name{Name_}, BitfieldLength{BitfieldLength_}, Target{Target_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138C2E4
+    // Offset: 0x138ECF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementDefinition* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementDefinition::.ctor");

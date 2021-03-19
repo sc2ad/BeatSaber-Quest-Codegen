@@ -106,25 +106,25 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x148C8E4
+    // Offset: 0x14912F4
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x148C8EC
+    // Offset: 0x14912FC
     void Complete();
     // public System.Object get_AsyncState()
-    // Offset: 0x148C9B8
-    ::Il2CppObject* get_AsyncState_NEW();
+    // Offset: 0x14913C8
+    ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x148C9C0
-    System::Threading::WaitHandle* get_AsyncWaitHandle_NEW();
+    // Offset: 0x14913D0
+    System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x148CAB0
-    bool get_CompletedSynchronously_NEW();
+    // Offset: 0x14914C0
+    bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x148CAC4
-    bool get_IsCompleted_NEW();
+    // Offset: 0x14914D4
+    bool get_IsCompleted();
     // public System.Void .ctor()
-    // Offset: 0x148CB58
+    // Offset: 0x1491568
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

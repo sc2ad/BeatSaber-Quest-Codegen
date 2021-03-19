@@ -49,7 +49,7 @@ namespace Zenject {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0xE15414
+    // Offset: 0xE199B0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
   }; // Zenject.TypeValuePair

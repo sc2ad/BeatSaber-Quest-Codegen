@@ -66,16 +66,16 @@ namespace LiteNetLib {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void Init(LiteNetLib.NetPacket packet)
-      // Offset: 0xDFD9D0
+      // Offset: 0xDFFF6C
       void Init(LiteNetLib::NetPacket* packet);
       // public System.Void TrySend(System.Int64 currentTime, LiteNetLib.NetPeer peer)
-      // Offset: 0xDFD9DC
+      // Offset: 0xDFFF78
       void TrySend(int64_t currentTime, LiteNetLib::NetPeer* peer);
       // public System.Boolean Clear(LiteNetLib.NetPeer peer)
-      // Offset: 0xDFD9E4
+      // Offset: 0xDFFF80
       bool Clear(LiteNetLib::NetPeer* peer);
       // public override System.String ToString()
-      // Offset: 0xDFD9C8
+      // Offset: 0xDFFF64
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -172,24 +172,24 @@ namespace LiteNetLib {
     // Set static field: static private System.Int32 BitsInByte
     static void _set_BitsInByte(int value);
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean ordered, System.Byte id)
-    // Offset: 0x19F5318
+    // Offset: 0x19F7D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReliableChannel* New_ctor(LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::ReliableChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReliableChannel*, creationType>(peer, ordered, id)));
     }
     // private System.Void ProcessAck(LiteNetLib.NetPacket packet)
-    // Offset: 0x19F8A24
+    // Offset: 0x19FB47C
     void ProcessAck(LiteNetLib::NetPacket* packet);
     // public override System.Void SendNextPackets()
-    // Offset: 0x19F8DA8
+    // Offset: 0x19FB800
     // Implemented from: LiteNetLib.BaseChannel
-    // Base method: System.Void BaseChannel::SendNextPackets_NEW()
+    // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x19F926C
+    // Offset: 0x19FBCC4
     // Implemented from: LiteNetLib.BaseChannel
-    // Base method: System.Boolean BaseChannel::ProcessPacket_NEW(LiteNetLib.NetPacket packet)
+    // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.ReliableChannel
   #pragma pack(pop)

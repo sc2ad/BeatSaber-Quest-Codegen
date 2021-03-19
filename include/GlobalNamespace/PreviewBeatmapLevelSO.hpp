@@ -179,66 +179,66 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_levelID()
-    // Offset: 0xF9CBDC
-    ::Il2CppString* get_levelID_NEW();
+    // Offset: 0xFC0D44
+    ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0xF9CBE4
-    ::Il2CppString* get_songName_NEW();
+    // Offset: 0xFC0D4C
+    ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0xF9CBEC
-    ::Il2CppString* get_songSubName_NEW();
+    // Offset: 0xFC0D54
+    ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0xF9CBF4
-    ::Il2CppString* get_songAuthorName_NEW();
+    // Offset: 0xFC0D5C
+    ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0xF9CBFC
-    ::Il2CppString* get_levelAuthorName_NEW();
+    // Offset: 0xFC0D64
+    ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0xF9CC04
-    float get_beatsPerMinute_NEW();
+    // Offset: 0xFC0D6C
+    float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0xF9CC0C
-    float get_songTimeOffset_NEW();
+    // Offset: 0xFC0D74
+    float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0xF9CC14
-    float get_songDuration_NEW();
+    // Offset: 0xFC0D7C
+    float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0xF9CC1C
-    float get_shuffle_NEW();
+    // Offset: 0xFC0D84
+    float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0xF9CC24
-    float get_shufflePeriod_NEW();
+    // Offset: 0xFC0D8C
+    float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0xF9CC2C
-    float get_previewStartTime_NEW();
+    // Offset: 0xFC0D94
+    float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0xF9CC34
-    float get_previewDuration_NEW();
+    // Offset: 0xFC0D9C
+    float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0xF9CC3C
-    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo_NEW();
+    // Offset: 0xFC0DA4
+    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0xF9CC44
-    GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo_NEW();
+    // Offset: 0xFC0DAC
+    GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0xF9CC4C
-    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets_NEW();
+    // Offset: 0xFC0DB4
+    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // private System.Void InitData()
-    // Offset: 0xF9CC98
+    // Offset: 0xFC0E00
     void InitData();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF9CDD4
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync_NEW(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0xFC0F3C
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF9CEF8
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync_NEW(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0xFC1060
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // protected override System.Void OnEnable()
-    // Offset: 0xF9CC68
+    // Offset: 0xFC0DD0
     // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable_NEW()
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xF9D01C
+    // Offset: 0xFC1184
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

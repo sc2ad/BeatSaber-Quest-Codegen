@@ -48,13 +48,13 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x21482FC
+    // Offset: 0x2149DE4
     void Construct(Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x2148368
+    // Offset: 0x2149E50
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x214845C
+    // Offset: 0x2149F44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

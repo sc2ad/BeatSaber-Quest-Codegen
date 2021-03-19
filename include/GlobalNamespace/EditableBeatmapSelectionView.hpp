@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class EditableBeatmapSelectionView : public GlobalNamespace::BeatmapSelectionView {
     public:
-    // [SpaceAttribute] Offset: 0xD3013C
+    // [SpaceAttribute] Offset: 0xD30670
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x28
@@ -76,24 +76,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EditableBeatmapSelectionView
     EditableBeatmapSelectionView(UnityEngine::UI::Button* editButton_ = {}, UnityEngine::UI::Button* clearButton_ = {}, bool showClearButton_ = {}, UnityEngine::CanvasGroup* levelBarCanvasGroup_ = {}, bool interactable_ = {}) noexcept : editButton{editButton_}, clearButton{clearButton_}, showClearButton{showClearButton_}, levelBarCanvasGroup{levelBarCanvasGroup_}, interactable{interactable_} {}
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0xFE28D8
+    // Offset: 0x1020A64
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0xFE28E0
+    // Offset: 0x1020A6C
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0xFE28E8
+    // Offset: 0x1020A74
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0xFD1CFC
+    // Offset: 0x100FE88
     void set_interactable(bool value);
     // public override System.Void SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xFE28F0
+    // Offset: 0x1020A7C
     // Implemented from: BeatmapSelectionView
-    // Base method: System.Void BeatmapSelectionView::SetBeatmap_NEW(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
+    // Base method: System.Void BeatmapSelectionView::SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
     void SetBeatmap(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // public System.Void .ctor()
-    // Offset: 0xFE294C
+    // Offset: 0x1020AD8
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

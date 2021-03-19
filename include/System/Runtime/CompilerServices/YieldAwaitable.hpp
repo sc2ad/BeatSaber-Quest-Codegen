@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter GetAwaiter()
-    // Offset: 0xDE4718
+    // Offset: 0xDE5CB4
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.YieldAwaitable
   #pragma pack(pop)

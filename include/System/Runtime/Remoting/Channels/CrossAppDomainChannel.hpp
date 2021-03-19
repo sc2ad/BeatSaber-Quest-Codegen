@@ -43,28 +43,28 @@ namespace System::Runtime::Remoting::Channels {
     // Set static field: static private System.Object s_lock
     static void _set_s_lock(::Il2CppObject* value);
     // static System.Void RegisterCrossAppDomainChannel()
-    // Offset: 0x13087C8
+    // Offset: 0x130A1D8
     static void RegisterCrossAppDomainChannel();
     // public System.String get_ChannelName()
-    // Offset: 0x13088DC
-    ::Il2CppString* get_ChannelName_NEW();
+    // Offset: 0x130A2EC
+    ::Il2CppString* get_ChannelName();
     // public System.Int32 get_ChannelPriority()
-    // Offset: 0x1308924
-    int get_ChannelPriority_NEW();
+    // Offset: 0x130A334
+    int get_ChannelPriority();
     // public System.Object get_ChannelData()
-    // Offset: 0x130892C
-    ::Il2CppObject* get_ChannelData_NEW();
+    // Offset: 0x130A33C
+    ::Il2CppObject* get_ChannelData();
     // public System.Void StartListening(System.Object data)
-    // Offset: 0x1308A3C
-    void StartListening_NEW(::Il2CppObject* data);
+    // Offset: 0x130A44C
+    void StartListening(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object data, out System.String uri)
-    // Offset: 0x1308A40
-    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink_NEW(::Il2CppString* url, ::Il2CppObject* data, ::Il2CppString*& uri);
+    // Offset: 0x130A450
+    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* data, ::Il2CppString*& uri);
     // static private System.Void .cctor()
-    // Offset: 0x1308E28
+    // Offset: 0x130A838
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13088D4
+    // Offset: 0x130A2E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

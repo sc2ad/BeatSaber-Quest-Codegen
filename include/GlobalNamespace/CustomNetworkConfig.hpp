@@ -26,42 +26,42 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class CustomNetworkConfig : public ::Il2CppObject/*, public GlobalNamespace::INetworkConfig*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD058E0
+    // [CompilerGeneratedAttribute] Offset: 0xD05D3C
     // private System.Int32 <maxPartySize>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int maxPartySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD058F0
+    // [CompilerGeneratedAttribute] Offset: 0xD05D4C
     // private System.Int32 <discoveryPort>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int discoveryPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD05900
+    // [CompilerGeneratedAttribute] Offset: 0xD05D5C
     // private System.Int32 <partyPort>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     int partyPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD05910
+    // [CompilerGeneratedAttribute] Offset: 0xD05D6C
     // private System.Int32 <multiplayerPort>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int multiplayerPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD05920
+    // [CompilerGeneratedAttribute] Offset: 0xD05D7C
     // private MasterServerEndPoint <masterServerEndPoint>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MasterServerEndPoint* masterServerEndPoint;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerEndPoint*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD05930
+    // [CompilerGeneratedAttribute] Offset: 0xD05D8C
     // private System.String <masterServerStatusUrl>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -75,43 +75,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkConfig*>(this);
     }
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1210018
-    int get_maxPartySize_NEW();
+    // Offset: 0x1212A28
+    int get_maxPartySize();
     // private System.Void set_maxPartySize(System.Int32 value)
-    // Offset: 0x1210020
+    // Offset: 0x1212A30
     void set_maxPartySize(int value);
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x1210028
-    int get_discoveryPort_NEW();
+    // Offset: 0x1212A38
+    int get_discoveryPort();
     // private System.Void set_discoveryPort(System.Int32 value)
-    // Offset: 0x1210030
+    // Offset: 0x1212A40
     void set_discoveryPort(int value);
     // public System.Int32 get_partyPort()
-    // Offset: 0x1210038
-    int get_partyPort_NEW();
+    // Offset: 0x1212A48
+    int get_partyPort();
     // private System.Void set_partyPort(System.Int32 value)
-    // Offset: 0x1210040
+    // Offset: 0x1212A50
     void set_partyPort(int value);
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x1210048
-    int get_multiplayerPort_NEW();
+    // Offset: 0x1212A58
+    int get_multiplayerPort();
     // private System.Void set_multiplayerPort(System.Int32 value)
-    // Offset: 0x1210050
+    // Offset: 0x1212A60
     void set_multiplayerPort(int value);
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x1210058
-    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint_NEW();
+    // Offset: 0x1212A68
+    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // private System.Void set_masterServerEndPoint(MasterServerEndPoint value)
-    // Offset: 0x1210060
+    // Offset: 0x1212A70
     void set_masterServerEndPoint(GlobalNamespace::MasterServerEndPoint* value);
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0x1210068
-    ::Il2CppString* get_masterServerStatusUrl_NEW();
+    // Offset: 0x1212A78
+    ::Il2CppString* get_masterServerStatusUrl();
     // private System.Void set_masterServerStatusUrl(System.String value)
-    // Offset: 0x1210070
+    // Offset: 0x1212A80
     void set_masterServerStatusUrl(::Il2CppString* value);
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port)
-    // Offset: 0x1210078
+    // Offset: 0x1212A88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNetworkConfig* New_ctor(GlobalNamespace::INetworkConfig* fromNetworkConfig, ::Il2CppString* customServerHostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomNetworkConfig::.ctor");

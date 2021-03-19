@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     INoteControllerNoteDidFinishJumpEvent() noexcept {}
     // public System.Void HandleNoteControllerNoteDidFinishJump(NoteController noteController)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidFinishJump_NEW(GlobalNamespace::NoteController* noteController);
+    void HandleNoteControllerNoteDidFinishJump(GlobalNamespace::NoteController* noteController);
   }; // INoteControllerNoteDidFinishJumpEvent
   #pragma pack(pop)
 }

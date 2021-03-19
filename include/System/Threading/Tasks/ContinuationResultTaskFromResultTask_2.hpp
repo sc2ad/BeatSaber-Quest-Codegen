@@ -47,7 +47,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Task_1::InnerInvoke()
     void InnerInvoke() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationResultTaskFromResultTask_2::InnerInvoke");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InnerInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "InnerInvoke", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // System.Threading.Tasks.ContinuationResultTaskFromResultTask`2

@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: AbstractFpFieldElement
     AbstractFpFieldElement() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1B1A2C0
+    // Offset: 0x1B1FD18
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
     // Base method: System.Void Object::.ctor()

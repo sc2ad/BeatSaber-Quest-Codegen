@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::OpenSsl {
     IPasswordFinder() noexcept {}
     // public System.Char[] GetPassword()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppChar>* GetPassword_NEW();
+    ::Array<::Il2CppChar>* GetPassword();
   }; // Org.BouncyCastle.OpenSsl.IPasswordFinder
   #pragma pack(pop)
 }

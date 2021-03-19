@@ -57,24 +57,24 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: ConstructedOctetStream
     ConstructedOctetStream(Org::BouncyCastle::Asn1::Asn1StreamParser* parser_ = {}, bool first_ = {}, System::IO::Stream* currentStream_ = {}) noexcept : parser{parser_}, first{first_}, currentStream{currentStream_} {}
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x15464C0
+    // Offset: 0x1549ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructedOctetStream* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::ConstructedOctetStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructedOctetStream*, creationType>(parser)));
     }
     // private Org.BouncyCastle.Asn1.Asn1OctetStringParser GetNextParser()
-    // Offset: 0x154869C
+    // Offset: 0x154C0AC
     Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x15484B0
+    // Offset: 0x154BEC0
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x15487B4
+    // Offset: 0x154C1C4
     // Implemented from: System.IO.Stream
-    // Base method: System.Int32 Stream::ReadByte_NEW()
+    // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
   }; // Org.BouncyCastle.Asn1.ConstructedOctetStream
   #pragma pack(pop)

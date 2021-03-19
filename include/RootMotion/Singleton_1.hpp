@@ -37,14 +37,14 @@ namespace RootMotion {
     // Offset: 0xFFFFFFFF
     static T get_instance() {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::get_instance");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), "get_instance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), "get_instance", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // protected System.Void Awake()
     // Offset: 0xFFFFFFFF
-    void Awake_NEW() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::Awake_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
+    void Awake() {
+      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::Awake");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes()));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
@@ -66,7 +66,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.cctor()
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::.cctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes())));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
   }; // RootMotion.Singleton`1

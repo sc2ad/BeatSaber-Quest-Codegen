@@ -16,7 +16,7 @@ namespace GlobalNamespace {
     ITimeProvider() noexcept {}
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
-    float get_time_NEW();
+    float get_time();
   }; // ITimeProvider
   #pragma pack(pop)
 }

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetGameplaySongReadyRpc
     SetGameplaySongReadyRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1213528
+    // Offset: 0x1215F38
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

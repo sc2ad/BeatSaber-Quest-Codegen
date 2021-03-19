@@ -165,63 +165,63 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Fill), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_FillSizeCheck;
     static_assert(sizeof(AutoUnwrapSettings::Fill) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41990
+    // [FormerlySerializedAsAttribute] Offset: 0xD43EF4
     // private System.Boolean m_UseWorldSpace
     // Size: 0x1
     // Offset: 0x0
     bool m_UseWorldSpace;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xD419DC
+    // [FormerlySerializedAsAttribute] Offset: 0xD43F40
     // private System.Boolean m_FlipU
     // Size: 0x1
     // Offset: 0x1
     bool m_FlipU;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41A28
+    // [FormerlySerializedAsAttribute] Offset: 0xD43F8C
     // private System.Boolean m_FlipV
     // Size: 0x1
     // Offset: 0x2
     bool m_FlipV;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41A74
+    // [FormerlySerializedAsAttribute] Offset: 0xD43FD8
     // private System.Boolean m_SwapUV
     // Size: 0x1
     // Offset: 0x3
     bool m_SwapUV;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41AC0
+    // [FormerlySerializedAsAttribute] Offset: 0xD44024
     // private UnityEngine.ProBuilder.AutoUnwrapSettings/Fill m_Fill
     // Size: 0x4
     // Offset: 0x4
     UnityEngine::ProBuilder::AutoUnwrapSettings::Fill m_Fill;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41B0C
+    // [FormerlySerializedAsAttribute] Offset: 0xD44070
     // private UnityEngine.Vector2 m_Scale
     // Size: 0x8
     // Offset: 0x8
     UnityEngine::Vector2 m_Scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41B58
+    // [FormerlySerializedAsAttribute] Offset: 0xD440BC
     // private UnityEngine.Vector2 m_Offset
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Vector2 m_Offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41BA4
+    // [FormerlySerializedAsAttribute] Offset: 0xD44108
     // private System.Single m_Rotation
     // Size: 0x4
     // Offset: 0x18
     float m_Rotation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD41BF0
+    // [FormerlySerializedAsAttribute] Offset: 0xD44154
     // private UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor m_Anchor
     // Size: 0x4
     // Offset: 0x1C
@@ -235,80 +235,80 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_defaultAutoUnwrapSettings()
-    // Offset: 0x1D80CBC
+    // Offset: 0x1D87798
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_defaultAutoUnwrapSettings();
     // public System.Boolean get_useWorldSpace()
-    // Offset: 0xE075A8
+    // Offset: 0xE0AB44
     bool get_useWorldSpace();
     // public System.Void set_useWorldSpace(System.Boolean value)
-    // Offset: 0xE075B0
+    // Offset: 0xE0AB4C
     void set_useWorldSpace(bool value);
     // public System.Boolean get_flipU()
-    // Offset: 0xE075BC
+    // Offset: 0xE0AB58
     bool get_flipU();
     // public System.Void set_flipU(System.Boolean value)
-    // Offset: 0xE075C4
+    // Offset: 0xE0AB60
     void set_flipU(bool value);
     // public System.Boolean get_flipV()
-    // Offset: 0xE075D0
+    // Offset: 0xE0AB6C
     bool get_flipV();
     // public System.Void set_flipV(System.Boolean value)
-    // Offset: 0xE075D8
+    // Offset: 0xE0AB74
     void set_flipV(bool value);
     // public System.Boolean get_swapUV()
-    // Offset: 0xE075E4
+    // Offset: 0xE0AB80
     bool get_swapUV();
     // public System.Void set_swapUV(System.Boolean value)
-    // Offset: 0xE075EC
+    // Offset: 0xE0AB88
     void set_swapUV(bool value);
     // public UnityEngine.ProBuilder.AutoUnwrapSettings/Fill get_fill()
-    // Offset: 0xE075F8
+    // Offset: 0xE0AB94
     UnityEngine::ProBuilder::AutoUnwrapSettings::Fill get_fill();
     // public System.Void set_fill(UnityEngine.ProBuilder.AutoUnwrapSettings/Fill value)
-    // Offset: 0xE07600
+    // Offset: 0xE0AB9C
     void set_fill(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill value);
     // public UnityEngine.Vector2 get_scale()
-    // Offset: 0xE07608
+    // Offset: 0xE0ABA4
     UnityEngine::Vector2 get_scale();
     // public System.Void set_scale(UnityEngine.Vector2 value)
-    // Offset: 0xE07610
+    // Offset: 0xE0ABAC
     void set_scale(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_offset()
-    // Offset: 0xE07618
+    // Offset: 0xE0ABB4
     UnityEngine::Vector2 get_offset();
     // public System.Void set_offset(UnityEngine.Vector2 value)
-    // Offset: 0xE07620
+    // Offset: 0xE0ABBC
     void set_offset(UnityEngine::Vector2 value);
     // public System.Single get_rotation()
-    // Offset: 0xE07628
+    // Offset: 0xE0ABC4
     float get_rotation();
     // public System.Void set_rotation(System.Single value)
-    // Offset: 0xE07630
+    // Offset: 0xE0ABCC
     void set_rotation(float value);
     // public UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor get_anchor()
-    // Offset: 0xE07638
+    // Offset: 0xE0ABD4
     UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor get_anchor();
     // public System.Void set_anchor(UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor value)
-    // Offset: 0xE07640
+    // Offset: 0xE0ABDC
     void set_anchor(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor value);
     // public System.Void .ctor(UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
-    // Offset: 0xE07648
+    // Offset: 0xE0ABE4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: is copy constructor.  AutoUnwrapSettings(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings)
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_tile()
-    // Offset: 0x1D80E78
+    // Offset: 0x1D87954
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_tile();
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_fit()
-    // Offset: 0x1D80EB4
+    // Offset: 0x1D87990
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_fit();
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_stretch()
-    // Offset: 0x1D80EF4
+    // Offset: 0x1D879D0
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch();
     // public System.Void Reset()
-    // Offset: 0xE076A4
+    // Offset: 0xE0AC40
     void Reset();
     // public override System.String ToString()
-    // Offset: 0xE076AC
+    // Offset: 0xE0AC48
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

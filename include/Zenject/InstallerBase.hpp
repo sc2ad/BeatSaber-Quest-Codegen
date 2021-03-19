@@ -26,7 +26,7 @@ namespace Zenject {
   // [] Offset: FFFFFFFF
   class InstallerBase : public ::Il2CppObject/*, public Zenject::IInstaller*/ {
     public:
-    // [InjectAttribute] Offset: 0xCF1030
+    // [InjectAttribute] Offset: 0xCF146C
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -44,16 +44,16 @@ namespace Zenject {
       return container;
     }
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x147B254
+    // Offset: 0x147FC64
     Zenject::DiContainer* get_Container();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x147B25C
-    bool get_IsEnabled_NEW();
+    // Offset: 0x147FC6C
+    bool get_IsEnabled();
     // public System.Void InstallBindings()
     // Offset: 0xFFFFFFFF
-    void InstallBindings_NEW();
+    void InstallBindings();
     // protected System.Void .ctor()
-    // Offset: 0x147B24C
+    // Offset: 0x147FC5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

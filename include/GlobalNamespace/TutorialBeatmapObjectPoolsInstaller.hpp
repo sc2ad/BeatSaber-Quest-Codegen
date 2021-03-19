@@ -59,12 +59,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialBeatmapObjectPoolsInstaller
     TutorialBeatmapObjectPoolsInstaller(GlobalNamespace::TutorialNoteController* basicNotePrefab_ = {}, GlobalNamespace::BombNoteController* bombNotePrefab_ = {}, GlobalNamespace::ObstacleController* obstaclePrefab_ = {}, GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab_ = {}) noexcept : basicNotePrefab{basicNotePrefab_}, bombNotePrefab{bombNotePrefab_}, obstaclePrefab{obstaclePrefab_}, noteLineConnectionControllerPrefab{noteLineConnectionControllerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x107AEB8
+    // Offset: 0x107D824
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x107AFF8
+    // Offset: 0x107D964
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -36,14 +36,14 @@ namespace MasterServer {
   // [] Offset: FFFFFFFF
   class BroadcastServerHeartbeatRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IUserClientToServerMessage*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD060E0
+    // [CompilerGeneratedAttribute] Offset: 0xD0653C
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD060F0
+    // [CompilerGeneratedAttribute] Offset: 0xD0654C
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -73,34 +73,34 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatRequest> get_pool()
-    // Offset: 0x1283B20
+    // Offset: 0x1286530
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x1283B68
-    ::Il2CppString* get_userId_NEW();
+    // Offset: 0x1286578
+    ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x1283B70
+    // Offset: 0x1286580
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x1283B78
-    ::Il2CppString* get_userName_NEW();
+    // Offset: 0x1286588
+    ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1283B80
+    // Offset: 0x1286590
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerHeartbeatRequest Init(System.String userId, System.String userName, System.String secret, System.Int32 currentPlayerCount)
-    // Offset: 0x1283B88
+    // Offset: 0x1286598
     MasterServer::BroadcastServerHeartbeatRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1283B98
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer);
+    // Offset: 0x12865A8
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1283BFC
-    void Deserialize_NEW(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x128660C
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1283C64
-    void Release_NEW();
+    // Offset: 0x1286674
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x1283CC0
+    // Offset: 0x12866D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

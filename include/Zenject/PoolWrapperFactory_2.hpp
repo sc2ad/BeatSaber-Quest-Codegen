@@ -57,9 +57,9 @@ namespace Zenject {
     }
     // public TValue Create(TParam1 arg)
     // Offset: 0xFFFFFFFF
-    TValue Create_NEW(TParam1 arg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_2::Create_NEW");
-      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg)));
+    TValue Create(TParam1 arg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_2::Create");
+      auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(arg)));
       return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, arg);
     }
   }; // Zenject.PoolWrapperFactory`2

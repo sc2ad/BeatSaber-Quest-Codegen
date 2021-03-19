@@ -29,15 +29,15 @@ namespace LiteNetLib::Utils {
     INetImmutableSerializable_1() noexcept {}
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
-    void Serialize_NEW(LiteNetLib::Utils::NetDataWriter* writer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::Serialize_NEW");
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::Serialize");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(writer)));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer);
     }
     // public T CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
-    T CreateFromSerializedData_NEW(LiteNetLib::Utils::NetDataReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::CreateFromSerializedData_NEW");
+    T CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::CreateFromSerializedData");
       auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, "CreateFromSerializedData", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(reader)));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, reader);
     }

@@ -105,58 +105,58 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static readonly System.Int32 RED_ROUNDS
     static void _set_RED_ROUNDS(int value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1B9FF58
-    void Init_NEW(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // Offset: 0x1BA49B0
+    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BA00E8
-    ::Il2CppString* get_AlgorithmName_NEW();
+    // Offset: 0x1BA4B40
+    ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1BA0130
-    bool get_IsPartialBlockOkay_NEW();
+    // Offset: 0x1BA4B88
+    bool get_IsPartialBlockOkay();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BA0138
-    int ProcessBlock_NEW(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1BA4B90
+    int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BA028C
-    void Reset_NEW();
+    // Offset: 0x1BA4CE4
+    void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1BA0290
-    int GetBlockSize_NEW();
+    // Offset: 0x1BA4CE8
+    int GetBlockSize();
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1BA0298
-    void SetKey_NEW(::Array<uint8_t>* key);
+    // Offset: 0x1BA4CF0
+    void SetKey(::Array<uint8_t>* key);
     // System.Int32 EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1BA3E18
-    int EncryptBlock_NEW(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
+    // Offset: 0x1BA8870
+    int EncryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // System.Int32 DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1BA4174
-    int DecryptBlock_NEW(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
+    // Offset: 0x1BA8BCC
+    int DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // static System.UInt32 F1(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1BA44EC
+    // Offset: 0x1BA8F44
     static uint F1(uint D, uint Kmi, int Kri);
     // static System.UInt32 F2(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1BA460C
+    // Offset: 0x1BA9064
     static uint F2(uint D, uint Kmi, int Kri);
     // static System.UInt32 F3(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1BA472C
+    // Offset: 0x1BA9184
     static uint F3(uint D, uint Kmi, int Kri);
     // System.Void CAST_Encipher(System.UInt32 L0, System.UInt32 R0, System.UInt32[] result)
-    // Offset: 0x1BA3F24
+    // Offset: 0x1BA897C
     void CAST_Encipher(uint L0, uint R0, ::Array<uint>* result);
     // System.Void CAST_Decipher(System.UInt32 L16, System.UInt32 R16, System.UInt32[] result)
-    // Offset: 0x1BA4280
+    // Offset: 0x1BA8CD8
     void CAST_Decipher(uint L16, uint R16, ::Array<uint>* result);
     // static System.Void Bits32ToInts(System.UInt32 inData, System.Int32[] b, System.Int32 offset)
-    // Offset: 0x1BA3D88
+    // Offset: 0x1BA87E0
     static void Bits32ToInts(uint inData, ::Array<int>* b, int offset);
     // static System.UInt32 IntsTo32bits(System.Int32[] b, System.Int32 i)
-    // Offset: 0x1BA3D04
+    // Offset: 0x1BA875C
     static uint IntsTo32bits(::Array<int>* b, int i);
     // static private System.Void .cctor()
-    // Offset: 0x1BA484C
+    // Offset: 0x1BA92A4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B9FEB0
+    // Offset: 0x1BA4908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

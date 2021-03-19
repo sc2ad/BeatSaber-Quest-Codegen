@@ -59,41 +59,41 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);
     }
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x1290A80
+    // Offset: 0x1293490
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x1296878
+    // Offset: 0x1299288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerEndPoint* New_ctor(::Il2CppString* hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerEndPoint*, creationType>(hostName, port)));
     }
     // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x12968B4
+    // Offset: 0x12992C4
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* GetEndPointAsync();
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x1296960
+    // Offset: 0x1299370
     System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x12969F8
+    // Offset: 0x1299408
     System::Net::IPEndPoint* GetEndPointInternal();
     // public System.Boolean Equals(MasterServerEndPoint other)
-    // Offset: 0x129527C
-    bool Equals_NEW(GlobalNamespace::MasterServerEndPoint* other);
+    // Offset: 0x1297C8C
+    bool Equals(GlobalNamespace::MasterServerEndPoint* other);
     // public override System.String ToString()
-    // Offset: 0x1296ABC
+    // Offset: 0x12994CC
     // Implemented from: System.Object
-    // Base method: System.String Object::ToString_NEW()
+    // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1296B44
+    // Offset: 0x1299554
     // Implemented from: System.Object
-    // Base method: System.Boolean Object::Equals_NEW(System.Object obj)
+    // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1296BF4
+    // Offset: 0x1299604
     // Implemented from: System.Object
-    // Base method: System.Int32 Object::GetHashCode_NEW()
+    // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // MasterServerEndPoint
   #pragma pack(pop)

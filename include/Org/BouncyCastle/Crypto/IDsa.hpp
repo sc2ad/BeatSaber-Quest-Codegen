@@ -33,10 +33,10 @@ namespace Org::BouncyCastle::Crypto {
     IDsa() noexcept {}
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init_NEW(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
     // Offset: 0xFFFFFFFF
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature_NEW(::Array<uint8_t>* message);
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
   }; // Org.BouncyCastle.Crypto.IDsa
   #pragma pack(pop)
 }

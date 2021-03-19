@@ -33,14 +33,14 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     static void OnSpawned(TParam1 p1, TParam2 p2, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableStaticMemoryPool_3::OnSpawned");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, value))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(p1, p2, value))));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, p1, p2, value);
     }
     // static private System.Void OnDespawned(TValue value)
     // Offset: 0xFFFFFFFF
     static void OnDespawned(TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableStaticMemoryPool_3::OnDespawned");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value))));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::il2cpp_utils::ExtractTypes(value))));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
     }
     // public System.Void .ctor()

@@ -67,14 +67,14 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2D668
+    // [InjectAttribute] Offset: 0xD2DB8C
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2D678
+    // [CompilerGeneratedAttribute] Offset: 0xD2DB9C
     // private System.Action`1<System.Single> valueDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -98,28 +98,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF6637C
+    // Offset: 0xF69B3C
     void add_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF66420
+    // Offset: 0xF69BE0
     void remove_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_value()
-    // Offset: 0xF664C4
+    // Offset: 0xF69C84
     float get_value();
     // protected System.Void Awake()
-    // Offset: 0xF664CC
+    // Offset: 0xF69C8C
     void Awake();
     // public System.Void Init(System.Single playerHeight)
-    // Offset: 0xF6657C
+    // Offset: 0xF69D3C
     void Init(float playerHeight);
     // private System.Void AutoSetHeight()
-    // Offset: 0xF66620
+    // Offset: 0xF69DE0
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0xF66584
+    // Offset: 0xF69D44
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0xF66744
+    // Offset: 0xF69F04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

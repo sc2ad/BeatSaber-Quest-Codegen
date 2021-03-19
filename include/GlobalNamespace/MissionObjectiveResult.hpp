@@ -24,14 +24,14 @@ namespace GlobalNamespace {
   // [] Offset: FFFFFFFF
   class MissionObjectiveResult : public ::Il2CppObject {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD2108C
+    // [CompilerGeneratedAttribute] Offset: 0xD215C0
     // private MissionObjective <missionObjective>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::MissionObjective* missionObjective;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjective*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2109C
+    // [CompilerGeneratedAttribute] Offset: 0xD215D0
     // private System.Boolean <cleared>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cleared and: value
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD210AC
+    // [CompilerGeneratedAttribute] Offset: 0xD215E0
     // private System.Int32 <value>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -50,25 +50,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionObjectiveResult
     MissionObjectiveResult(GlobalNamespace::MissionObjective* missionObjective_ = {}, bool cleared_ = {}, int value_ = {}) noexcept : missionObjective{missionObjective_}, cleared{cleared_}, value{value_} {}
     // public MissionObjective get_missionObjective()
-    // Offset: 0x102B804
+    // Offset: 0x102E2EC
     GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
-    // Offset: 0x102B80C
+    // Offset: 0x102E2F4
     void set_missionObjective(GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
-    // Offset: 0x102B814
+    // Offset: 0x102E2FC
     bool get_cleared();
     // private System.Void set_cleared(System.Boolean value)
-    // Offset: 0x102B81C
+    // Offset: 0x102E304
     void set_cleared(bool value);
     // public System.Int32 get_value()
-    // Offset: 0x102B828
+    // Offset: 0x102E310
     int get_value();
     // private System.Void set_value(System.Int32 value)
-    // Offset: 0x102B830
+    // Offset: 0x102E318
     void set_value(int value);
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
-    // Offset: 0x102B260
+    // Offset: 0x102DD48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveResult* New_ctor(GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveResult::.ctor");

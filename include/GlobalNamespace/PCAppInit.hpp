@@ -73,27 +73,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PCAppInit
     PCAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, ::Il2CppString* goStraightToMenuCommandArgument_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, goStraightToMenuCommandArgument{goStraightToMenuCommandArgument_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xF56E4C
+    // Offset: 0xF5A5E4
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup_NEW()
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xF56ED0
+    // Offset: 0xF5A668
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup_NEW()
+    // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xF56F1C
+    // Offset: 0xF5A6B4
     // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene_NEW()
+    // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xF56F6C
+    // Offset: 0xF5A704
     // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings_NEW()
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF5703C
+    // Offset: 0xF5A7D4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

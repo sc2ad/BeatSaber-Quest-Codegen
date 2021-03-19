@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool useTestAudioClips_ = {}, bool ignoreBadCuts_ = {}) noexcept : useTestAudioClips{useTestAudioClips_}, ignoreBadCuts{ignoreBadCuts_} {}
     // public System.Void .ctor(System.Boolean useTestAudioClips, System.Boolean ignoreBadCuts)
-    // Offset: 0x10C3650
+    // Offset: 0x10C6014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutSoundEffectManager::InitData::.ctor");

@@ -97,7 +97,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: MatEntry
     MatEntry(UnityEngine::Material* baseMat_ = {}, UnityEngine::Material* customMat_ = {}, int count_ = {}, int stencilId_ = {}, UnityEngine::Rendering::StencilOp operation_ = {}, UnityEngine::Rendering::CompareFunction compareFunction_ = {}, int readMask_ = {}, int writeMask_ = {}, bool useAlphaClip_ = {}, UnityEngine::Rendering::ColorWriteMask colorMask_ = {}) noexcept : baseMat{baseMat_}, customMat{customMat_}, count{count_}, stencilId{stencilId_}, operation{operation_}, compareFunction{compareFunction_}, readMask{readMask_}, writeMask{writeMask_}, useAlphaClip{useAlphaClip_}, colorMask{colorMask_} {}
     // public System.Void .ctor()
-    // Offset: 0x2133DA0
+    // Offset: 0x2134888
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

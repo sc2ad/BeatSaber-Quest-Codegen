@@ -22,17 +22,17 @@ namespace Oculus::Platform::Models {
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
-    uint64_t ID;
+    uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: PartyID
-    PartyID(uint64_t ID_ = {}) noexcept : ID{ID_} {}
+    PartyID(uint64_t _ID_ = {}) noexcept : _ID{_ID_} {}
     // Creating conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept {
-      return ID;
+      return _ID;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1389598
+    // Offset: 0x138BFA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyID* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PartyID::.ctor");
