@@ -55,15 +55,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RectangleFakeGlowLightWithId
     RectangleFakeGlowLightWithId(float minAlpha_ = {}, float alphaMul_ = {}, GlobalNamespace::RectangleFakeGlow* rectangleFakeGlow_ = {}) noexcept : minAlpha{minAlpha_}, alphaMul{alphaMul_}, rectangleFakeGlow{rectangleFakeGlow_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0xFC8A70
+    // Offset: 0xF88324
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xFC8A90
+    // Offset: 0xF88344
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xFC8ABC
+    // Offset: 0xF88370
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

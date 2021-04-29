@@ -88,52 +88,52 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.Match _empty
     static void _set__empty(System::Text::RegularExpressions::Match* value);
     // static public System.Text.RegularExpressions.Match get_Empty()
-    // Offset: 0x16B7588
+    // Offset: 0x16BA978
     static System::Text::RegularExpressions::Match* get_Empty();
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
-    // Offset: 0x16B75F0
+    // Offset: 0x16BA9E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Match* New_ctor(System::Text::RegularExpressions::Regex* regex, int capcount, ::Il2CppString* text, int begpos, int len, int startpos) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Match::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Match*, creationType>(regex, capcount, text, begpos, len, startpos)));
     }
     // System.Void Reset(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart)
-    // Offset: 0x16B774C
+    // Offset: 0x16BAB3C
     void Reset(System::Text::RegularExpressions::Regex* regex, ::Il2CppString* text, int textbeg, int textend, int textstart);
     // public System.Text.RegularExpressions.GroupCollection get_Groups()
-    // Offset: 0x16B77B4
+    // Offset: 0x16BABA4
     System::Text::RegularExpressions::GroupCollection* get_Groups();
     // public System.Text.RegularExpressions.Match NextMatch()
-    // Offset: 0x16B7824
+    // Offset: 0x16BAC14
     System::Text::RegularExpressions::Match* NextMatch();
     // System.Void AddMatch(System.Int32 cap, System.Int32 start, System.Int32 len)
-    // Offset: 0x16B7B1C
+    // Offset: 0x16BAF0C
     void AddMatch(int cap, int start, int len);
     // System.Void BalanceMatch(System.Int32 cap)
-    // Offset: 0x16B7D7C
+    // Offset: 0x16BB16C
     void BalanceMatch(int cap);
     // System.Void RemoveMatch(System.Int32 cap)
-    // Offset: 0x16B7E60
+    // Offset: 0x16BB250
     void RemoveMatch(int cap);
     // System.Boolean IsMatched(System.Int32 cap)
-    // Offset: 0x16B7EA4
+    // Offset: 0x16BB294
     bool IsMatched(int cap);
     // System.Int32 MatchIndex(System.Int32 cap)
-    // Offset: 0x16B7F40
+    // Offset: 0x16BB330
     int MatchIndex(int cap);
     // System.Int32 MatchLength(System.Int32 cap)
-    // Offset: 0x16B7FD8
+    // Offset: 0x16BB3C8
     int MatchLength(int cap);
     // System.Void Tidy(System.Int32 textpos)
-    // Offset: 0x16B8070
+    // Offset: 0x16BB460
     void Tidy(int textpos);
     // static private System.Void .cctor()
-    // Offset: 0x16B8204
+    // Offset: 0x16BB5F4
     // Implemented from: System.Text.RegularExpressions.Group
     // Base method: System.Void Group::.cctor()
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x16B8298
+    // Offset: 0x16BB688
     // Implemented from: System.Text.RegularExpressions.Group
     // Base method: System.Void Group::.ctor()
     // Base method: System.Void Capture::.ctor()

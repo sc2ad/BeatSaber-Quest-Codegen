@@ -21,13 +21,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseLeaderboardModel
     NetEaseLeaderboardModel() noexcept {}
     // private System.Void Start()
-    // Offset: 0xF3D1B0
+    // Offset: 0xFEA81C
     void Start();
     // private System.Void Update()
-    // Offset: 0xF3D1B4
+    // Offset: 0xFEA820
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF3D1B8
+    // Offset: 0xFEA824
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

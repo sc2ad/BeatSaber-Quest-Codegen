@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleTextTableCell
     SimpleTextTableCell(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
     // public System.Void set_text(System.String value)
-    // Offset: 0x211F5D0
+    // Offset: 0x215462C
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x211F5EC
+    // Offset: 0x2154648
     ::Il2CppString* get_text();
     // public System.Void .ctor()
-    // Offset: 0x211F608
+    // Offset: 0x2154664
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

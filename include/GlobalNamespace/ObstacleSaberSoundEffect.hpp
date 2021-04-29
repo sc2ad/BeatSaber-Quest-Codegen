@@ -75,22 +75,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmooth
     static void _set_kSmooth(float value);
     // protected System.Void Awake()
-    // Offset: 0x10CD8A0
+    // Offset: 0x10BC6B4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10CDADC
+    // Offset: 0x10BC8F0
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x10CDD40
+    // Offset: 0x10BCB54
     void LateUpdate();
     // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
-    // Offset: 0x10CDF1C
+    // Offset: 0x10BCD30
     void HandleSparkleEffectDidStart(GlobalNamespace::SaberType saberType);
     // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
-    // Offset: 0x10CE054
+    // Offset: 0x10BCE68
     void HandleSparkleEffecDidEnd(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x10CE068
+    // Offset: 0x10BCE7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

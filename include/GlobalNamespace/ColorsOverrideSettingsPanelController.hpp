@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* editColorSchemeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2AFF4
+    // [SpaceAttribute] Offset: 0xD40A14
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x48
@@ -134,40 +134,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x1013714
+    // Offset: 0x1063DF4
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x101371C
+    // Offset: 0x1063DFC
     void SetData(GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1013A60
+    // Offset: 0x1064000
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0x1013D98
+    // Offset: 0x10641F8
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1013DBC
+    // Offset: 0x106421C
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1013F40
+    // Offset: 0x10643A0
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1013F98
+    // Offset: 0x10643F8
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x10140AC
+    // Offset: 0x106450C
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x1014140
+    // Offset: 0x1064588
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x101419C
+    // Offset: 0x10645E4
     void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__18_0()
-    // Offset: 0x10141BC
+    // Offset: 0x1064604
     void $HandleOverrideColorsToggleValueChanged$b__18_0();
     // public System.Void .ctor()
-    // Offset: 0x10141B4
+    // Offset: 0x10645FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

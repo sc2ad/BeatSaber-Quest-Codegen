@@ -40,7 +40,7 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: UnobservedTaskExceptionEventArgs
     UnobservedTaskExceptionEventArgs(System::AggregateException* m_exception_ = {}, bool m_observed_ = {}) noexcept : m_exception{m_exception_}, m_observed{m_observed_} {}
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x16DE9C8
+    // Offset: 0x16DFDB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");

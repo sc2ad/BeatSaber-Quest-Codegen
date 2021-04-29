@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* parentContainerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2BC98
+    // [InjectAttribute] Offset: 0xD416B8
     // private readonly VRUIControls.VRInputModule _vrInputModule
     // Size: 0x8
     // Offset: 0x38
@@ -91,40 +91,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kKeyboardTopOffset
     static void _set_kKeyboardTopOffset(float value);
     // public HMUI.UIKeyboard get_keyboard()
-    // Offset: 0x1083790
+    // Offset: 0xFAF1C4
     HMUI::UIKeyboard* get_keyboard();
     // protected System.Void Start()
-    // Offset: 0x1083798
+    // Offset: 0xFAF1CC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x108382C
+    // Offset: 0xFAF260
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10838B8
+    // Offset: 0xFAF2EC
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1083944
+    // Offset: 0xFAF378
     void OnDestroy();
     // public System.Void OpenKeyboardFor(HMUI.InputFieldView input)
-    // Offset: 0x1083A1C
+    // Offset: 0xFAF450
     void OpenKeyboardFor(HMUI::InputFieldView* input);
     // public System.Void CloseKeyboard()
-    // Offset: 0x1083CB0
+    // Offset: 0xFAF6E4
     void CloseKeyboard();
     // private System.Void TransferKeyboardTo(HMUI.InputFieldView nextInput)
-    // Offset: 0x1083D58
+    // Offset: 0xFAF78C
     void TransferKeyboardTo(HMUI::InputFieldView* nextInput);
     // private System.Boolean ShouldCloseKeyboard(UnityEngine.GameObject root)
-    // Offset: 0x1083DFC
+    // Offset: 0xFAF830
     bool ShouldCloseKeyboard(UnityEngine::GameObject* root);
     // private System.Void ProcessMousePress(UnityEngine.GameObject currentOverGo)
-    // Offset: 0x1083E60
+    // Offset: 0xFAF894
     void ProcessMousePress(UnityEngine::GameObject* currentOverGo);
     // private System.Void HandleKeyboardOkButton()
-    // Offset: 0x1083FF8
+    // Offset: 0xFAFA2C
     void HandleKeyboardOkButton();
     // public System.Void .ctor()
-    // Offset: 0x108417C
+    // Offset: 0xFAFBB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

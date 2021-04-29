@@ -79,46 +79,46 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialNoteController
     TutorialNoteController(GlobalNamespace::BoxCuttableBySaber* cuttableBySaberCore_ = {}, GlobalNamespace::BoxCuttableBySaber* cuttableBySaberBeforeNote_ = {}, UnityEngine::GameObject* wrapperGO_ = {}, bool beforeNoteCutWasOk_ = {}, bool hidden_ = {}, float cutAngleTolerance_ = {}) noexcept : cuttableBySaberCore{cuttableBySaberCore_}, cuttableBySaberBeforeNote{cuttableBySaberBeforeNote_}, wrapperGO{wrapperGO_}, beforeNoteCutWasOk{beforeNoteCutWasOk_}, hidden{hidden_}, cutAngleTolerance{cutAngleTolerance_} {}
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single cutDirectionAngleOffset, System.Single cutAngleTolerance, System.Single uniformScale)
-    // Offset: 0x107CD64
+    // Offset: 0xFA8704
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float cutDirectionAngleOffset, float cutAngleTolerance, float uniformScale);
     // private System.Void HandleBeforeNoteWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x107EFF4
+    // Offset: 0xFAA994
     void HandleBeforeNoteWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCoreWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x107F0E4
+    // Offset: 0xFAAA84
     void HandleCoreWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x107ED18
+    // Offset: 0xFAA6B8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0x107ED5C
+    // Offset: 0xFAA6FC
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x107ED64
+    // Offset: 0xFAA704
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // protected override System.Void Awake()
-    // Offset: 0x107ED74
+    // Offset: 0xFAA714
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x107EE48
+    // Offset: 0xFAA7E8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x107EF9C
+    // Offset: 0xFAA93C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // public System.Void .ctor()
-    // Offset: 0x107F3D4
+    // Offset: 0xFAAD74
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

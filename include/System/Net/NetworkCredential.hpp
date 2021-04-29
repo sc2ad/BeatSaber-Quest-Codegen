@@ -55,48 +55,48 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::ICredentials*>(this);
     }
     // public System.Void .ctor(System.String userName, System.String password)
-    // Offset: 0x149C868
+    // Offset: 0x14A85C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkCredential* New_ctor(::Il2CppString* userName, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkCredential*, creationType>(userName, password)));
     }
     // public System.Void .ctor(System.String userName, System.String password, System.String domain)
-    // Offset: 0x149C8D8
+    // Offset: 0x14A8630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkCredential* New_ctor(::Il2CppString* userName, ::Il2CppString* password, ::Il2CppString* domain) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkCredential*, creationType>(userName, password, domain)));
     }
     // public System.String get_UserName()
-    // Offset: 0x149CAC4
+    // Offset: 0x14A881C
     ::Il2CppString* get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0x149C9B8
+    // Offset: 0x14A8710
     void set_UserName(::Il2CppString* value);
     // public System.String get_Password()
-    // Offset: 0x149CACC
+    // Offset: 0x14A8824
     ::Il2CppString* get_Password();
     // public System.Void set_Password(System.String value)
-    // Offset: 0x149CA28
+    // Offset: 0x14A8780
     void set_Password(::Il2CppString* value);
     // public System.String get_Domain()
-    // Offset: 0x149CAE4
+    // Offset: 0x14A883C
     ::Il2CppString* get_Domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x149CA54
+    // Offset: 0x14A87AC
     void set_Domain(::Il2CppString* value);
     // System.String InternalGetUserName()
-    // Offset: 0x149CAEC
+    // Offset: 0x14A8844
     ::Il2CppString* InternalGetUserName();
     // System.String InternalGetPassword()
-    // Offset: 0x149CAD8
+    // Offset: 0x14A8830
     ::Il2CppString* InternalGetPassword();
     // System.String InternalGetDomain()
-    // Offset: 0x149CAF4
+    // Offset: 0x14A884C
     ::Il2CppString* InternalGetDomain();
     // public System.Net.NetworkCredential GetCredential(System.Uri uri, System.String authType)
-    // Offset: 0x149CAFC
+    // Offset: 0x14A8854
     System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);
   }; // System.Net.NetworkCredential
   #pragma pack(pop)

@@ -101,16 +101,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: BipedIKSolvers
     BipedIKSolvers(RootMotion::FinalIK::IKSolverLimb* leftFoot_ = {}, RootMotion::FinalIK::IKSolverLimb* rightFoot_ = {}, RootMotion::FinalIK::IKSolverLimb* leftHand_ = {}, RootMotion::FinalIK::IKSolverLimb* rightHand_ = {}, RootMotion::FinalIK::IKSolverFABRIK* spine_ = {}, RootMotion::FinalIK::IKSolverLookAt* lookAt_ = {}, RootMotion::FinalIK::IKSolverAim* aim_ = {}, RootMotion::FinalIK::Constraints* pelvis_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb*>* limbs_ = {}, ::Array<RootMotion::FinalIK::IKSolver*>* ikSolvers_ = {}) noexcept : leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftHand{leftHand_}, rightHand{rightHand_}, spine{spine_}, lookAt{lookAt_}, aim{aim_}, pelvis{pelvis_}, limbs{limbs_}, ikSolvers{ikSolvers_} {}
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
-    // Offset: 0x1AB3BE0
+    // Offset: 0x1AEDC14
     ::Array<RootMotion::FinalIK::IKSolverLimb*>* get_limbs();
     // public RootMotion.FinalIK.IKSolver[] get_ikSolvers()
-    // Offset: 0x1AB47F8
+    // Offset: 0x1AEE82C
     ::Array<RootMotion::FinalIK::IKSolver*>* get_ikSolvers();
     // public System.Void AssignReferences(RootMotion.BipedReferences references)
-    // Offset: 0x1AB3F9C
+    // Offset: 0x1AEDFD0
     void AssignReferences(RootMotion::BipedReferences* references);
     // public System.Void .ctor()
-    // Offset: 0x1AB46B0
+    // Offset: 0x1AEE6E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

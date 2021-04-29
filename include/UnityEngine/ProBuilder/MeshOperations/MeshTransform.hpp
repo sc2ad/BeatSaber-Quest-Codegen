@@ -30,16 +30,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: MeshTransform
     MeshTransform() noexcept {}
     // static System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 firstVertexIndex)
-    // Offset: 0x1574F00
+    // Offset: 0x1593E84
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::PivotLocation pivotType, int firstVertexIndex);
     // static public System.Void CenterPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x1574FB4
+    // Offset: 0x1593F38
     static void CenterPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
     // static public System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x1575364
+    // Offset: 0x15942E8
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Vector3 worldPosition);
     // static public System.Void FreezeScaleTransform(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x157554C
+    // Offset: 0x15944D0
     static void FreezeScaleTransform(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshTransform
   #pragma pack(pop)

@@ -38,25 +38,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
-    // Offset: 0x116220C
+    // Offset: 0x118F484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaKeyParameters*, creationType>(isPrivate, parameters)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.DsaParameters get_Parameters()
-    // Offset: 0x116223C
+    // Offset: 0x118F4B4
     Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters other)
-    // Offset: 0x11622F4
+    // Offset: 0x118F56C
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1162244
+    // Offset: 0x118F4BC
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x116234C
+    // Offset: 0x118F5C4
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

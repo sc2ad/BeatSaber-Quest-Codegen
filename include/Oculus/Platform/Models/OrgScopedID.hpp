@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
       return _ID;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138BA70
+    // Offset: 0x13AB720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrgScopedID* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::OrgScopedID::.ctor");

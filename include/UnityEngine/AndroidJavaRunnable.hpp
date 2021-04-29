@@ -30,20 +30,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: AndroidJavaRunnable
     AndroidJavaRunnable() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x211BE4C
+    // Offset: 0x214A410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaRunnable* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaRunnable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaRunnable*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x211BE5C
+    // Offset: 0x214A420
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x211C068
+    // Offset: 0x214A62C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x211C094
+    // Offset: 0x214A658
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AndroidJavaRunnable
   #pragma pack(pop)

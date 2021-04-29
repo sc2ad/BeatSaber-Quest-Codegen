@@ -38,14 +38,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x1216950
+    // Offset: 0x123460C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayServerFiniteStateMachine*, creationType>(multiplayerSessionManager, configuration, beatmapProvider)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1216958
+    // Offset: 0x1234614
     void Dispose();
   }; // GameplayServerFiniteStateMachine
   #pragma pack(pop)

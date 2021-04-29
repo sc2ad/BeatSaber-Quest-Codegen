@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerModeSettings
     MultiplayerModeSettings(int createServerPlayersCount_ = {}, GlobalNamespace::BeatmapDifficultyMask quickPlayBeatmapDifficulty_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}) noexcept : createServerPlayersCount{createServerPlayersCount_}, quickPlayBeatmapDifficulty{quickPlayBeatmapDifficulty_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_} {}
     // public System.Void .ctor()
-    // Offset: 0xF2BE20
+    // Offset: 0x1006174
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

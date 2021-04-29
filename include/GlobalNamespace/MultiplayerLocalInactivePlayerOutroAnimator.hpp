@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* offLightsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27600
+    // [SpaceAttribute] Offset: 0xD3D030
     // private MultiplayerLocalPlayerOutroAudio _outroAudio
     // Size: 0x8
     // Offset: 0x20
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::LightsAnimator*>* lightsAnimators;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightsAnimator*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27648
+    // [InjectAttribute] Offset: 0xD3D078
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x30
@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF5481C
+    // Offset: 0x1000368
     void Start();
     // public System.Void Animate()
-    // Offset: 0xF548C4
+    // Offset: 0x1000410
     void Animate();
     // public System.Void PlayOutroMusicSample(System.Single maxDuration, System.Single volume)
-    // Offset: 0xF54960
+    // Offset: 0x10004AC
     void PlayOutroMusicSample(float maxDuration, float volume);
     // public System.Void .ctor()
-    // Offset: 0xF54998
+    // Offset: 0x10004E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

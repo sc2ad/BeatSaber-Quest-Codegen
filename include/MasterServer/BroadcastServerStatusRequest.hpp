@@ -45,14 +45,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD0651C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B494
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0652C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B4A4
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -130,40 +130,40 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.BroadcastServerStatusRequest> get_pool()
-    // Offset: 0x128696C
+    // Offset: 0x12A5628
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerStatusRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x12869B4
+    // Offset: 0x12A5670
     ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x12869BC
+    // Offset: 0x12A5678
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x12869C4
+    // Offset: 0x12A5680
     ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x12869CC
+    // Offset: 0x12A5688
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerStatusRequest Init(System.String serverName, System.String userId, System.String userName, System.String secret, System.String password, System.Byte[] random, System.Byte[] publicKey, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, GameplayServerConfiguration configuration)
-    // Offset: 0x1286C58
+    // Offset: 0x12A5914
     MasterServer::BroadcastServerStatusRequest* Init(::Il2CppString* serverName, ::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* password, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, int currentPlayerCount, int maxPlayerCount, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, GlobalNamespace::GameplayServerConfiguration configuration);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12869D4
+    // Offset: 0x12A5690
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1286AC8
+    // Offset: 0x12A5784
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1286BDC
+    // Offset: 0x12A5898
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1286CE4
+    // Offset: 0x12A59A0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

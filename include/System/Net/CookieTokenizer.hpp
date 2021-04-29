@@ -45,14 +45,14 @@ namespace System::Net {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // System.Void .ctor(System.String name, System.Net.CookieToken token)
-      // Offset: 0xDEF938
+      // Offset: 0xE04DB4
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token)
       // System.Net.CookieToken get_Token()
-      // Offset: 0xDEF944
+      // Offset: 0xE04DC0
       System::Net::CookieToken get_Token();
       // System.Boolean IsEqualTo(System.String value)
-      // Offset: 0xDEF94C
+      // Offset: 0xE04DC8
       bool IsEqualTo(::Il2CppString* value);
     }; // System.Net.CookieTokenizer/RecognizedAttribute
     #pragma pack(pop)
@@ -135,62 +135,62 @@ namespace System::Net {
     // Set static field: static private System.Net.CookieTokenizer/RecognizedAttribute[] RecognizedServerAttributes
     static void _set_RecognizedServerAttributes(::Array<System::Net::CookieTokenizer::RecognizedAttribute>* value);
     // System.Void .ctor(System.String tokenStream)
-    // Offset: 0x14D0698
+    // Offset: 0x14EE54C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieTokenizer* New_ctor(::Il2CppString* tokenStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieTokenizer*, creationType>(tokenStream)));
     }
     // System.Boolean get_EndOfCookie()
-    // Offset: 0x14D07E8
+    // Offset: 0x14EE69C
     bool get_EndOfCookie();
     // System.Void set_EndOfCookie(System.Boolean value)
-    // Offset: 0x14D07F0
+    // Offset: 0x14EE6A4
     void set_EndOfCookie(bool value);
     // System.Boolean get_Eof()
-    // Offset: 0x14D07D8
+    // Offset: 0x14EE68C
     bool get_Eof();
     // System.String get_Name()
-    // Offset: 0x14D07FC
+    // Offset: 0x14EE6B0
     ::Il2CppString* get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x14D0804
+    // Offset: 0x14EE6B8
     void set_Name(::Il2CppString* value);
     // System.Boolean get_Quoted()
-    // Offset: 0x14D080C
+    // Offset: 0x14EE6C0
     bool get_Quoted();
     // System.Void set_Quoted(System.Boolean value)
-    // Offset: 0x14D0814
+    // Offset: 0x14EE6C8
     void set_Quoted(bool value);
     // System.Net.CookieToken get_Token()
-    // Offset: 0x14D0820
+    // Offset: 0x14EE6D4
     System::Net::CookieToken get_Token();
     // System.Void set_Token(System.Net.CookieToken value)
-    // Offset: 0x14D0828
+    // Offset: 0x14EE6DC
     void set_Token(System::Net::CookieToken value);
     // System.String get_Value()
-    // Offset: 0x14D0830
+    // Offset: 0x14EE6E4
     ::Il2CppString* get_Value();
     // System.Void set_Value(System.String value)
-    // Offset: 0x14D0838
+    // Offset: 0x14EE6EC
     void set_Value(::Il2CppString* value);
     // System.String Extract()
-    // Offset: 0x14D0840
+    // Offset: 0x14EE6F4
     ::Il2CppString* Extract();
     // System.Net.CookieToken FindNext(System.Boolean ignoreComma, System.Boolean ignoreEquals)
-    // Offset: 0x14D08D0
+    // Offset: 0x14EE784
     System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
     // System.Net.CookieToken Next(System.Boolean first, System.Boolean parseResponseCookies)
-    // Offset: 0x14D06D4
+    // Offset: 0x14EE588
     System::Net::CookieToken Next(bool first, bool parseResponseCookies);
     // System.Void Reset()
-    // Offset: 0x14D0B8C
+    // Offset: 0x14EEA40
     void Reset();
     // System.Net.CookieToken TokenFromName(System.Boolean parseResponseCookies)
-    // Offset: 0x14D0C04
+    // Offset: 0x14EEAB8
     System::Net::CookieToken TokenFromName(bool parseResponseCookies);
     // static private System.Void .cctor()
-    // Offset: 0x14D0E34
+    // Offset: 0x14EECE8
     static void _cctor();
   }; // System.Net.CookieTokenizer
   #pragma pack(pop)

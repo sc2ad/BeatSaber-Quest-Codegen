@@ -80,13 +80,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Creating value type constructor for type: RuntimeTestRunnerFilter
     RuntimeTestRunnerFilter(::Array<::Il2CppString*>* assemblyNames_ = {}, ::Array<::Il2CppString*>* groupNames_ = {}, ::Array<::Il2CppString*>* categoryNames_ = {}, ::Array<::Il2CppString*>* testNames_ = {}, bool synchronousOnly_ = {}) noexcept : assemblyNames{assemblyNames_}, groupNames{groupNames_}, categoryNames{categoryNames_}, testNames{testNames_}, synchronousOnly{synchronousOnly_} {}
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x1357384
+    // Offset: 0x1377034
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
-    // Offset: 0x1357734
+    // Offset: 0x13773E4
     static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::Array<::Il2CppString*>* values, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder);
     // public System.Void .ctor()
-    // Offset: 0x1357B88
+    // Offset: 0x1377838
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

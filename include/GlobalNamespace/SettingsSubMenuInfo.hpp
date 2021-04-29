@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xD2EEF4
+    // [LocalizationKeyAttribute] Offset: 0xD44A0C
     // private System.String _menuName
     // Size: 0x8
     // Offset: 0x18
@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SettingsSubMenuInfo
     SettingsSubMenuInfo(HMUI::ViewController* viewController_ = {}, ::Il2CppString* menuName_ = {}) noexcept : viewController{viewController_}, menuName{menuName_} {}
     // public HMUI.ViewController get_viewController()
-    // Offset: 0xF77A00
+    // Offset: 0x105C8A4
     HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
-    // Offset: 0xF77A08
+    // Offset: 0x105C8AC
     ::Il2CppString* get_localizedMenuName();
     // public System.Void .ctor()
-    // Offset: 0xF77A14
+    // Offset: 0x105C8B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

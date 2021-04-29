@@ -42,7 +42,7 @@ namespace UnityEngine::SceneManagement {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0xDFDB28
+    // Offset: 0xE11268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SceneManagement::LoadSceneParameters::.ctor");

@@ -174,37 +174,37 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISaberMovementDataProcessor*>(this);
     }
     // public System.Single get_beforeCutRating()
-    // Offset: 0xF6C8CC
+    // Offset: 0x1051524
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0xF6C8D4
+    // Offset: 0x105152C
     float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0xF6C8DC
+    // Offset: 0x1051534
     void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0xF6C944
+    // Offset: 0x105159C
     void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0xF6C9AC
+    // Offset: 0x1051604
     void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0xF6CA14
+    // Offset: 0x105166C
     void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform)
-    // Offset: 0xF6CA7C
+    // Offset: 0x10516D4
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0xF6CBA8
+    // Offset: 0x10517FC
     void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // private System.Void Finish()
-    // Offset: 0xF6D0A4
+    // Offset: 0x1051CF8
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0xF6D1EC
+    // Offset: 0x1051E40
     void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0xF6D4D0
+    // Offset: 0x1052124
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

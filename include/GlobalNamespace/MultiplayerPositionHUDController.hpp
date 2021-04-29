@@ -65,21 +65,21 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* firstPlayerAnimationGo;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xD257C8
+    // [InjectAttribute] Offset: 0xD3B1F8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD257D8
+    // [InjectAttribute] Offset: 0xD3B208
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD257E8
+    // [InjectAttribute] Offset: 0xD3B218
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x48
@@ -97,16 +97,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0xF316E4
+    // Offset: 0xFFDB94
     void set_alpha(float value);
     // protected System.Void Start()
-    // Offset: 0xF31700
+    // Offset: 0x100B9DC
     void Start();
     // protected System.Void Update()
-    // Offset: 0xF3184C
+    // Offset: 0x100BB28
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF31A00
+    // Offset: 0x100BCDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

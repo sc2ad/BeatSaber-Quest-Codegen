@@ -73,7 +73,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_TextElement_Legacy
     TMP_TextElement_Legacy(int id_ = {}, float x_ = {}, float y_ = {}, float width_ = {}, float height_ = {}, float xOffset_ = {}, float yOffset_ = {}, float xAdvance_ = {}, float scale_ = {}) noexcept : id{id_}, x{x_}, y{y_}, width{width_}, height{height_}, xOffset{xOffset_}, yOffset{yOffset_}, xAdvance{xAdvance_}, scale{scale_} {}
     // public System.Void .ctor()
-    // Offset: 0x12DF114
+    // Offset: 0x12FEDC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

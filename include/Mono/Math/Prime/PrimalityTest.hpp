@@ -40,20 +40,20 @@ namespace Mono::Math::Prime {
     // Creating value type constructor for type: PrimalityTest
     PrimalityTest() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B8B818
+    // Offset: 0x1B958B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimalityTest* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::Prime::PrimalityTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimalityTest*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1B8BBC8
+    // Offset: 0x1B95C60
     bool Invoke(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // public System.IAsyncResult BeginInvoke(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B8BFE8
+    // Offset: 0x1B96080
     System::IAsyncResult* BeginInvoke(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B8C084
+    // Offset: 0x1B9611C
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Math.Prime.PrimalityTest
   #pragma pack(pop)

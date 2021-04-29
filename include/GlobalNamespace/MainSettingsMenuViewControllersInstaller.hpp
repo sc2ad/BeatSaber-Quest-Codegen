@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainSettingsMenuViewControllersInstaller
     MainSettingsMenuViewControllersInstaller(GlobalNamespace::MainSettingsMenuViewController* defaultSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* oculusPCSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* questSettingsMenuViewController_ = {}, GlobalNamespace::MainSettingsMenuViewController* psvrSettingsMenuViewController_ = {}, GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab_ = {}) noexcept : defaultSettingsMenuViewController{defaultSettingsMenuViewController_}, oculusPCSettingsMenuViewController{oculusPCSettingsMenuViewController_}, questSettingsMenuViewController{questSettingsMenuViewController_}, psvrSettingsMenuViewController{psvrSettingsMenuViewController_}, tabBarViewControllerPrefab{tabBarViewControllerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x10B90AC
+    // Offset: 0xF3BD08
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10B9150
+    // Offset: 0xF3BDAC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

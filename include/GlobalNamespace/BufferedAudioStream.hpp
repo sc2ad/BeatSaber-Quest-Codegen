@@ -90,20 +90,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single playbackDelayTimeSeconds
     static void _set_playbackDelayTimeSeconds(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audio)
-    // Offset: 0x1C90254
+    // Offset: 0x1CA0038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAudioStream* New_ctor(UnityEngine::AudioSource* audio) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()
-    // Offset: 0x1C90364
+    // Offset: 0x1CA0148
     void Update();
     // private System.Void Stop()
-    // Offset: 0x1C90314
+    // Offset: 0x1CA00F8
     void Stop();
     // public System.Void AddData(System.Single[] samples)
-    // Offset: 0x1C9053C
+    // Offset: 0x1CA0320
     void AddData(::Array<float>* samples);
   }; // BufferedAudioStream
   #pragma pack(pop)

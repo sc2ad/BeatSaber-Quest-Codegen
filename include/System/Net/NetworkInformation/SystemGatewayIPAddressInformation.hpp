@@ -45,14 +45,14 @@ namespace System::Net::NetworkInformation {
       return address;
     }
     // System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x132BE24
+    // Offset: 0x134BAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemGatewayIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::SystemGatewayIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemGatewayIPAddressInformation*, creationType>(address)));
     }
     // static System.Net.NetworkInformation.GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System.Net.NetworkInformation.IPAddressCollection addresses)
-    // Offset: 0x1329078
+    // Offset: 0x1348D28
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
   #pragma pack(pop)

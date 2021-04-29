@@ -114,19 +114,19 @@ namespace System::Net {
     // Creating value type constructor for type: TimerNode
     TimerNode(System::Net::TimerThread::TimerNode::TimerState m_TimerState_ = {}, System::Net::TimerThread::Callback* m_Callback_ = {}, ::Il2CppObject* m_Context_ = {}, ::Il2CppObject* m_QueueLock_ = {}, System::Net::TimerThread::TimerNode* next_ = {}, System::Net::TimerThread::TimerNode* prev_ = {}) noexcept : m_TimerState{m_TimerState_}, m_Callback{m_Callback_}, m_Context{m_Context_}, m_QueueLock{m_QueueLock_}, next{next_}, prev{prev_} {}
     // System.Net.TimerThread/TimerNode get_Next()
-    // Offset: 0x1406CB8
+    // Offset: 0x1425B38
     System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/TimerNode value)
-    // Offset: 0x1406CC0
+    // Offset: 0x1425B40
     void set_Next(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/TimerNode get_Prev()
-    // Offset: 0x1406CC8
+    // Offset: 0x1425B48
     System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/TimerNode value)
-    // Offset: 0x1406CD0
+    // Offset: 0x1425B50
     void set_Prev(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x1406C7C
+    // Offset: 0x1425AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -135,7 +135,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x1406CD8
+    // Offset: 0x1425B58
     // Implemented from: System.Net.TimerThread/Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

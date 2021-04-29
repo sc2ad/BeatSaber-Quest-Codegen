@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBPM and: beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0xD2AC4C
+    // [SpaceAttribute] Offset: 0xD4066C
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2ACA4
+    // [InjectAttribute] Offset: 0xD406C4
     // private readonly TutorialSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x48
@@ -79,12 +79,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialInstaller
     TutorialInstaller(UnityEngine::AudioClip* audioClip_ = {}, float songBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::TutorialSceneSetupData* sceneSetupData_ = {}) noexcept : audioClip{audioClip_}, songBPM{songBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x107E188
+    // Offset: 0xFA9B28
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x107EA84
+    // Offset: 0xFAA424
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

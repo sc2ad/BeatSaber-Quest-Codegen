@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_positiveBadges()
-    // Offset: 0x103C0FC
+    // Offset: 0xFC0F4C
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* get_positiveBadges();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_negativeBadges()
-    // Offset: 0x103C104
+    // Offset: 0xFC0F54
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* get_negativeBadges();
     // public System.Void .ctor()
-    // Offset: 0x103C10C
+    // Offset: 0xFC0F5C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

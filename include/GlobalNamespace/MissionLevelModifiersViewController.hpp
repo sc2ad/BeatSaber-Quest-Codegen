@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2F034
+    // [SpaceAttribute] Offset: 0xD44B4C
     // private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
     // Size: 0x8
     // Offset: 0x78
@@ -75,18 +75,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionLevelModifiersViewController
     MissionLevelModifiersViewController(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList_ = {}, UnityEngine::GameObject* modifiersPanel_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, gameplayModifierInfoListItemsList{gameplayModifierInfoListItemsList_}, modifiersPanel{modifiersPanel_}, titleText{titleText_}, gameplayModifiers{gameplayModifiers_} {}
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x102958C
+    // Offset: 0xF45674
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void RefreshContent()
-    // Offset: 0x10295C8
+    // Offset: 0xF456B0
     void RefreshContent();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1029714
+    // Offset: 0xF457FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1029720
+    // Offset: 0xF45808
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

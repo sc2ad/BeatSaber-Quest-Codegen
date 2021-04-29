@@ -37,21 +37,21 @@ namespace GlobalNamespace {
       return password;
     }
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x2164458
+    // Offset: 0x218E884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Array<uint8_t>* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Void .ctor(System.String password)
-    // Offset: 0x2162F68
+    // Offset: 0x218D394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Char[] GetPassword()
-    // Offset: 0x2164520
+    // Offset: 0x218E94C
     ::Array<::Il2CppChar>* GetPassword();
   }; // X509CertificateUtility/PasswordFinder
   #pragma pack(pop)

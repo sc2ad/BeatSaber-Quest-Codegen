@@ -50,13 +50,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxNetworkInterface
     LinuxNetworkInterface(::Il2CppString* iface_path_ = {}, ::Il2CppString* iface_operstate_path_ = {}, ::Il2CppString* iface_flags_path_ = {}) noexcept : iface_path{iface_path_}, iface_operstate_path{iface_operstate_path_}, iface_flags_path{iface_flags_path_} {}
     // System.String get_IfacePath()
-    // Offset: 0x13292D4
+    // Offset: 0x1348F84
     ::Il2CppString* get_IfacePath();
     // static System.String ReadLine(System.String path)
-    // Offset: 0x132970C
+    // Offset: 0x13493BC
     static ::Il2CppString* ReadLine(::Il2CppString* path);
     // System.Void .ctor(System.String name)
-    // Offset: 0x13292DC
+    // Offset: 0x1348F8C
     // Implemented from: System.Net.NetworkInformation.UnixNetworkInterface
     // Base method: System.Void UnixNetworkInterface::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,12 +65,12 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<LinuxNetworkInterface*, creationType>(name)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1329414
+    // Offset: 0x13490C4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1329490
+    // Offset: 0x1349140
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();

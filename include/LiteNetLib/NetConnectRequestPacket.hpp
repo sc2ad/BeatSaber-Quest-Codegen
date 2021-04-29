@@ -72,20 +72,20 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 HeaderSize
     static void _set_HeaderSize(int value);
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
-    // Offset: 0x19F0868
+    // Offset: 0x1A2CCA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::Array<uint8_t>* targetAddress, LiteNetLib::Utils::NetDataReader* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectRequestPacket*, creationType>(connectionTime, connectionNumber, targetAddress, data)));
     }
     // static public System.Int32 GetProtocolId(LiteNetLib.NetPacket packet)
-    // Offset: 0x19F08B8
+    // Offset: 0x1A2CCF4
     static int GetProtocolId(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetConnectRequestPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x19F0930
+    // Offset: 0x1A2CD6C
     static LiteNetLib::NetConnectRequestPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(LiteNetLib.Utils.NetDataWriter connectData, System.Net.SocketAddress addressBytes, System.Int64 connectId)
-    // Offset: 0x19F0B48
+    // Offset: 0x1A2CF84
     static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
   #pragma pack(pop)

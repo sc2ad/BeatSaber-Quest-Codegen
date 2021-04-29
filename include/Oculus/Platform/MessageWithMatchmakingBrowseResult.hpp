@@ -31,10 +31,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithMatchmakingBrowseResult
     MessageWithMatchmakingBrowseResult() noexcept {}
     // protected Oculus.Platform.Models.MatchmakingBrowseResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x138A198
+    // Offset: 0x13A9E48
     Oculus::Platform::Models::MatchmakingBrowseResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1383AC0
+    // Offset: 0x13A3770
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -44,12 +44,12 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithMatchmakingBrowseResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.MatchmakingEnqueueResult GetMatchmakingEnqueueResult()
-    // Offset: 0x138A0F8
+    // Offset: 0x13A9DA8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingEnqueueResult Message::GetMatchmakingEnqueueResult()
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetMatchmakingEnqueueResult();
     // public override Oculus.Platform.Models.RoomList GetRoomList()
-    // Offset: 0x138A148
+    // Offset: 0x13A9DF8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.RoomList Message::GetRoomList()
     Oculus::Platform::Models::RoomList* GetRoomList();

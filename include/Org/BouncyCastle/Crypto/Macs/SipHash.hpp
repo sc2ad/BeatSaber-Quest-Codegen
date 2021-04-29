@@ -98,44 +98,44 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // public System.Void .ctor(System.Int32 c, System.Int32 d)
-    // Offset: 0x1718A4C
+    // Offset: 0x1719E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor(int c, int d) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>(c, d)));
     }
     // public System.Int32 GetMacSize()
-    // Offset: 0x1718A88
+    // Offset: 0x1719E78
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1718A90
+    // Offset: 0x1719E80
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1718BD4
+    // Offset: 0x1719FC4
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1718C24
+    // Offset: 0x171A014
     void BlockUpdate(::Array<uint8_t>* input, int offset, int length);
     // public System.Int64 DoFinal()
-    // Offset: 0x1718DF4
+    // Offset: 0x171A1E4
     int64_t DoFinal();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1718E94
+    // Offset: 0x171A284
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1718EDC
+    // Offset: 0x171A2CC
     void Reset();
     // protected System.Void ProcessMessageWord()
-    // Offset: 0x1718F40
+    // Offset: 0x171A330
     void ProcessMessageWord();
     // protected System.Void ApplySipRounds(System.Int32 n)
-    // Offset: 0x1718F98
+    // Offset: 0x171A388
     void ApplySipRounds(int n);
     // static protected System.Int64 RotateLeft(System.Int64 x, System.Int32 n)
-    // Offset: 0x1718FE4
+    // Offset: 0x171A3D4
     static int64_t RotateLeft(int64_t x, int n);
     // public System.Void .ctor()
-    // Offset: 0x1718A18
+    // Offset: 0x1719E08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

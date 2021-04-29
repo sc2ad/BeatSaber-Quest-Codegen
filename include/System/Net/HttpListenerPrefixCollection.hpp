@@ -58,38 +58,38 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);
     }
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x148AC84
+    // Offset: 0x14969DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Int32 get_Count()
-    // Offset: 0x148CA40
+    // Offset: 0x1498798
     int get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x148D334
+    // Offset: 0x149908C
     bool get_IsReadOnly();
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x148D33C
+    // Offset: 0x1499094
     void Add(::Il2CppString* uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x148D71C
+    // Offset: 0x1499474
     void Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x148D7C8
+    // Offset: 0x1499520
     bool Contains(::Il2CppString* uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x148D83C
+    // Offset: 0x1499594
     void CopyTo(::Array<::Il2CppString*>* array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x148D8B8
+    // Offset: 0x1499610
     System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x148D944
+    // Offset: 0x149969C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x148D9D0
+    // Offset: 0x1499728
     bool Remove(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)

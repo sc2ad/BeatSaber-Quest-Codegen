@@ -51,22 +51,22 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NetPacketPool
     NetPacketPool(::Array<LiteNetLib::NetPacket*>* pool_ = {}, System::Threading::ReaderWriterLockSlim* lock_ = {}, int count_ = {}) noexcept : pool{pool_}, lock{lock_}, count{count_} {}
     // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x19F5D40
+    // Offset: 0x1A3217C
     LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::Array<uint8_t>* data, int start, int length);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x19F3D04
+    // Offset: 0x1A30140
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property, int size);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property)
-    // Offset: 0x19F47A0
+    // Offset: 0x1A30BDC
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property);
     // public LiteNetLib.NetPacket GetPacket(System.Int32 size)
-    // Offset: 0x19F23E0
+    // Offset: 0x1A2E81C
     LiteNetLib::NetPacket* GetPacket(int size);
     // public System.Void Recycle(LiteNetLib.NetPacket packet)
-    // Offset: 0x19F2260
+    // Offset: 0x1A2E69C
     void Recycle(LiteNetLib::NetPacket* packet);
     // public System.Void .ctor()
-    // Offset: 0x19F1B88
+    // Offset: 0x1A2DFC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

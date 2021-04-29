@@ -42,26 +42,26 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x13FAAF4
+    // Offset: 0x1419974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRIOBuffer* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRIOBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRIOBuffer*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EIOBufferError Open(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer)
-    // Offset: 0x13FABFC
+    // Offset: 0x1419A7C
     OVR::OpenVR::EIOBufferError Open(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, uint64_t& pulBuffer);
     // public OVR.OpenVR.EIOBufferError Close(System.UInt64 ulBuffer)
-    // Offset: 0x13FAC1C
+    // Offset: 0x1419A9C
     OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
     // public OVR.OpenVR.EIOBufferError Read(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, ref System.UInt32 punRead)
-    // Offset: 0x13FAC38
+    // Offset: 0x1419AB8
     OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead);
     // public OVR.OpenVR.EIOBufferError Write(System.UInt64 ulBuffer, System.IntPtr pSrc, System.UInt32 unBytes)
-    // Offset: 0x13FAC58
+    // Offset: 0x1419AD8
     OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, System::IntPtr pSrc, uint unBytes);
     // public System.UInt64 PropertyContainer(System.UInt64 ulBuffer)
-    // Offset: 0x13FAC74
+    // Offset: 0x1419AF4
     uint64_t PropertyContainer(uint64_t ulBuffer);
   }; // OVR.OpenVR.CVRIOBuffer
   #pragma pack(pop)

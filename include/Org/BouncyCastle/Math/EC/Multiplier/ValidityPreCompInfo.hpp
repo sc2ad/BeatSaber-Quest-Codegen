@@ -47,28 +47,28 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // System.Boolean HasFailed()
-    // Offset: 0x1B35AA0
+    // Offset: 0x1B53EF4
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x1B35AA8
+    // Offset: 0x1B53EFC
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x1B35AB4
+    // Offset: 0x1B53F08
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x1B35ABC
+    // Offset: 0x1B53F10
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x1B35AC8
+    // Offset: 0x1B53F1C
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x1B35AD0
+    // Offset: 0x1B53F24
     void ReportOrderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x1B35ADC
+    // Offset: 0x1B53F30
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B35B38
+    // Offset: 0x1B53F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

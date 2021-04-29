@@ -33,17 +33,17 @@ namespace System::Security {
     // Creating value type constructor for type: SecurityAttribute
     SecurityAttribute(::Il2CppString* name_ = {}, ::Il2CppString* value_ = {}) noexcept : name{name_}, value{value_} {}
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x197682C
+    // Offset: 0x1971344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement::SecurityAttribute*, creationType>(name, value)));
     }
     // public System.String get_Name()
-    // Offset: 0x19776B4
+    // Offset: 0x19721CC
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x19776BC
+    // Offset: 0x19721D4
     ::Il2CppString* get_Value();
   }; // System.Security.SecurityElement/SecurityAttribute
   #pragma pack(pop)

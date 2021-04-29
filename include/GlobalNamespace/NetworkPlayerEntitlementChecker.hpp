@@ -65,21 +65,21 @@ namespace GlobalNamespace {
     struct $GetCanPlayLevelAsync$d__18;
     // Nested type: GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__20
     struct $GetEntitlementStatus$d__20;
-    // [InjectAttribute] Offset: 0xD21D18
+    // [InjectAttribute] Offset: 0xD37690
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD21D28
+    // [InjectAttribute] Offset: 0xD376A0
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMenuRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD21D38
+    // [InjectAttribute] Offset: 0xD376B0
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x28
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*>*>* cachedTasks;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*>*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD21D48
+    // [CompilerGeneratedAttribute] Offset: 0xD376C0
     // private System.Action didInvalidateDataEvent
     // Size: 0x8
     // Offset: 0x38
@@ -104,52 +104,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0xF3F4FC
+    // Offset: 0xFECB68
     void add_didInvalidateDataEvent(System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0xF3F5A0
+    // Offset: 0xFECC0C
     void remove_didInvalidateDataEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0xF3F644
+    // Offset: 0xFECCB0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF3FA0C
+    // Offset: 0xFED078
     void OnDestroy();
     // private System.Void InvalidateData()
-    // Offset: 0xF3FE20
+    // Offset: 0xFED48C
     void InvalidateData();
     // private System.Void HandleDataInvalidated()
-    // Offset: 0xF3FE34
+    // Offset: 0xFED4A0
     void HandleDataInvalidated();
     // private System.Void HandleLevelEntitlementStatusesInvalidated(System.String userId)
-    // Offset: 0xF3FF04
+    // Offset: 0xFED570
     void HandleLevelEntitlementStatusesInvalidated(::Il2CppString* userId);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0xF40074
+    // Offset: 0xFED770
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerConnected(IConnectedPlayer player)
-    // Offset: 0xF402BC
+    // Offset: 0xFED9B4
     void HandlePlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0xF402D0
+    // Offset: 0xFED9C8
     void HandleGetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId);
     // private System.Void HandleSetIsEntitledToLevel(System.String userId, System.String levelId, EntitlementsStatus status)
-    // Offset: 0xF40394
+    // Offset: 0xFEDA8C
     void HandleSetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId, GlobalNamespace::EntitlementsStatus status);
     // public System.Threading.Tasks.Task`1<EntitlementsStatus> GetPlayerLevelEntitlementsAsync(IConnectedPlayer player, System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0xF404E8
+    // Offset: 0xFEDC60
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetPlayerLevelEntitlementsAsync(GlobalNamespace::IConnectedPlayer* player, ::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<System.Boolean> GetCanPlayLevelAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0xF40610
+    // Offset: 0xFEDD88
     System::Threading::Tasks::Task_1<bool>* GetCanPlayLevelAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetTcsTaskCanPlayerPlayLevel(IConnectedPlayer player, System.String levelId, System.Threading.CancellationToken token, out System.Boolean rpcRequired)
-    // Offset: 0xF40730
+    // Offset: 0xFEDEA8
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetTcsTaskCanPlayerPlayLevel(GlobalNamespace::IConnectedPlayer* player, ::Il2CppString* levelId, System::Threading::CancellationToken token, bool& rpcRequired);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
-    // Offset: 0xF40980
+    // Offset: 0xFEE1D0
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::Il2CppString* levelId);
     // public System.Void .ctor()
-    // Offset: 0xF40AA4
+    // Offset: 0xFEE2F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

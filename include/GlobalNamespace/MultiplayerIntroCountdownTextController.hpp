@@ -36,28 +36,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetText(System.String text)
-    // Offset: 0xF44ED8
+    // Offset: 0x107CF60
     void SetText(::Il2CppString* text);
     // public System.Void SetDistances(System.Single distance)
-    // Offset: 0xF44534
+    // Offset: 0x107C5BC
     void SetDistances(float distance);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0xF43EFC
+    // Offset: 0x107BF84
     void set_hide(bool value);
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0xF44344
+    // Offset: 0x107C3CC
     void set_fontSize(float value);
     // public System.Single get_fontSize()
-    // Offset: 0xF43F34
+    // Offset: 0x107BFBC
     float get_fontSize();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0xF443D8
+    // Offset: 0x107C460
     void set_alpha(float value);
     // public System.Single get_alpha()
-    // Offset: 0xF43F78
+    // Offset: 0x107C000
     float get_alpha();
     // public System.Void .ctor()
-    // Offset: 0xF45100
+    // Offset: 0x107D188
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

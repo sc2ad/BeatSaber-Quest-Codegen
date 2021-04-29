@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockLocalMultiplayerPoseSyncState
     MockLocalMultiplayerPoseSyncState(float deltaUpdateFrequency_ = {}, GlobalNamespace::LocalStateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* stateBuffer_ = {}) noexcept : deltaUpdateFrequency{deltaUpdateFrequency_}, stateBuffer{stateBuffer_} {}
     // protected StateBuffer`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> get_stateBuffer()
-    // Offset: 0x1030DC8
+    // Offset: 0xFB5CA4
     GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_stateBuffer();
     // public PoseSerializable GetState(NodePoseSyncState/NodePose type, System.Single time)
-    // Offset: 0x1030DD0
+    // Offset: 0xFB5CAC
     GlobalNamespace::PoseSerializable GetState(GlobalNamespace::NodePoseSyncState_NodePose type, float time);
     // public System.Void SetState(NodePoseSyncState/NodePose type, PoseSerializable state)
-    // Offset: 0x1030E50
+    // Offset: 0xFB5D2C
     void SetState(GlobalNamespace::NodePoseSyncState_NodePose type, GlobalNamespace::PoseSerializable state);
     // public System.Void .ctor(IConnectedPlayer player, System.Single fullStateUpdateFrequency, System.Single deltaUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> interpolator, StateBuffer`3/SmoothingDelegate<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> smoother)
-    // Offset: 0x1031154
+    // Offset: 0xFB6030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockLocalMultiplayerPoseSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float fullStateUpdateFrequency, float deltaUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::SmoothingDelegate* smoother) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockLocalMultiplayerPoseSyncState::.ctor");

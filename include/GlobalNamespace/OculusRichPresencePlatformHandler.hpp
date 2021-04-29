@@ -32,13 +32,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x10DEC70
+    // Offset: 0x10CCC1C
     void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x10DEFD8
+    // Offset: 0x10CCF84
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x10DEFE0
+    // Offset: 0x10CCF8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,21 +30,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD0BA54
+    // [DescriptionAttribute] Offset: 0xD209F4
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static Oculus::Platform::RoomMembershipLockStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static void _set_Unknown(Oculus::Platform::RoomMembershipLockStatus value);
-    // [DescriptionAttribute] Offset: 0xD0BA8C
+    // [DescriptionAttribute] Offset: 0xD20A2C
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static constexpr const int Lock = 1;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static Oculus::Platform::RoomMembershipLockStatus _get_Lock();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static void _set_Lock(Oculus::Platform::RoomMembershipLockStatus value);
-    // [DescriptionAttribute] Offset: 0xD0BAC4
+    // [DescriptionAttribute] Offset: 0xD20A64
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unlock
     static constexpr const int Unlock = 2;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unlock

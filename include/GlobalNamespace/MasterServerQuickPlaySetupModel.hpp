@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
-    // [InjectAttribute] Offset: 0xD21650
+    // [InjectAttribute] Offset: 0xD36FC8
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -104,25 +104,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kQuickPlayOverrideSetupJson
     static void _set_kQuickPlayOverrideSetupJson(::Il2CppString* value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10BBC60
+    // Offset: 0xF3E974
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x10BBE58
+    // Offset: 0xF3EB6C
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x10BBDE0
+    // Offset: 0xF3EAF4
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x10BBE5C
+    // Offset: 0xF3EB70
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x10BBCD4
+    // Offset: 0xF3E9E8
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x10BBF5C
+    // Offset: 0xF3EC70
     bool IsUrlValid(::Il2CppString* url);
     // public System.Void .ctor()
-    // Offset: 0x10BBFC8
+    // Offset: 0xF3ECDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

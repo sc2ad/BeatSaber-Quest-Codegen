@@ -74,22 +74,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerConnectedPacket> get_pool()
-    // Offset: 0x120F95C
+    // Offset: 0x122D618
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12126F8
+    // Offset: 0x12303B4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121275C
+    // Offset: 0x1230418
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1211954
+    // Offset: 0x122F610
     void Release();
     // public ConnectedPlayerManager/PlayerConnectedPacket Init(System.Byte connectionId, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x121247C
+    // Offset: 0x1230138
     GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* Init(uint8_t connectionId, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x12127C8
+    // Offset: 0x1230484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -37,42 +37,42 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory
     class Factory;
-    // [InjectAttribute] Offset: 0xD2692C
+    // [InjectAttribute] Offset: 0xD3C35C
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2693C
+    // [InjectAttribute] Offset: 0xD3C36C
     // private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2694C
+    // [InjectAttribute] Offset: 0xD3C37C
     // private readonly IMultiplayerConnectedPlayerOutroAnimator _outroAnimator
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMultiplayerConnectedPlayerOutroAnimator* outroAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerConnectedPlayerOutroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2695C
+    // [InjectAttribute] Offset: 0xD3C38C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2696C
+    // [InjectAttribute] Offset: 0xD3C39C
     // private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* scoreDiffText;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2697C
+    // [InjectAttribute] Offset: 0xD3C3AC
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x40
@@ -84,28 +84,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
-    // Offset: 0x10408E4
+    // Offset: 0xFC5734
     GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();
     // public IMultiplayerConnectedPlayerOutroAnimator get_outroAnimator()
-    // Offset: 0x10408EC
+    // Offset: 0xFC573C
     GlobalNamespace::IMultiplayerConnectedPlayerOutroAnimator* get_outroAnimator();
     // public MultiplayerConnectedPlayerScoreDiffText get_scoreDiffText()
-    // Offset: 0x10408F4
+    // Offset: 0xFC5744
     GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* get_scoreDiffText();
     // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x10408FC
+    // Offset: 0xFC574C
     void SetSongStartSyncTime(float songStartSyncTime);
     // public System.Void PauseSpawning()
-    // Offset: 0x1040A3C
+    // Offset: 0xFC5768
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0x1040AF0
+    // Offset: 0xFC581C
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0x1040BA4
+    // Offset: 0xFC58D0
     void __ForceStopSong();
     // public System.Void .ctor()
-    // Offset: 0x1040BF8
+    // Offset: 0xFC5914
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

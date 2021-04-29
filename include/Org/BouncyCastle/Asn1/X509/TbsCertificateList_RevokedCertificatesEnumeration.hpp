@@ -49,14 +49,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return en;
     }
     // System.Void .ctor(System.Collections.IEnumerable en)
-    // Offset: 0x1868EB8
+    // Offset: 0x185A35C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration* New_ctor(System::Collections::IEnumerable* en) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration*, creationType>(en)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1868EF4
+    // Offset: 0x185A398
     System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/RevokedCertificatesEnumeration
   #pragma pack(pop)

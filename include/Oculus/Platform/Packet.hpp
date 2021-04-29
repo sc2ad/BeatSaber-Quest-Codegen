@@ -46,29 +46,29 @@ namespace Oculus::Platform {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.IntPtr packetHandle)
-    // Offset: 0x13903A4
+    // Offset: 0x13B0054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Packet* New_ctor(System::IntPtr packetHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Packet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Packet*, creationType>(packetHandle)));
     }
     // public System.UInt64 ReadBytes(System.Byte[] destination)
-    // Offset: 0x1391654
+    // Offset: 0x13B1304
     uint64_t ReadBytes(::Array<uint8_t>* destination);
     // public System.UInt64 get_SenderID()
-    // Offset: 0x13917A8
+    // Offset: 0x13B1458
     uint64_t get_SenderID();
     // public System.UInt64 get_Size()
-    // Offset: 0x1391814
+    // Offset: 0x13B14C4
     uint64_t get_Size();
     // public Oculus.Platform.SendPolicy get_Policy()
-    // Offset: 0x139181C
+    // Offset: 0x13B14CC
     Oculus::Platform::SendPolicy get_Policy();
     // public System.Void Dispose()
-    // Offset: 0x13918F0
+    // Offset: 0x13B15A0
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1391888
+    // Offset: 0x13B1538
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

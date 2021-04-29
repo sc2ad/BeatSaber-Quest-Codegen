@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: InvalidCipherTextException
     InvalidCipherTextException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1712A4C
+    // Offset: 0x1713E3C
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidCipherTextException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1712A54
+    // Offset: 0x1713E44
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

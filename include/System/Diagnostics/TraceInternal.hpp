@@ -37,7 +37,7 @@ namespace System::Diagnostics {
     static bool _get_useGlobalLock();
     // Set static field: static private System.Boolean useGlobalLock
     static void _set_useGlobalLock(bool value);
-    // [ThreadStaticAttribute] Offset: 0xCA245C
+    // [ThreadStaticAttribute] Offset: 0xCB35A4
     // Get static field: static private System.Int32 indentLevel
     static int _get_indentLevel();
     // Set static field: static private System.Int32 indentLevel
@@ -51,31 +51,31 @@ namespace System::Diagnostics {
     // Set static field: static readonly System.Object critSec
     static void _set_critSec(::Il2CppObject* value);
     // static public System.Diagnostics.TraceListenerCollection get_Listeners()
-    // Offset: 0x16CED84
+    // Offset: 0x16D1174
     static System::Diagnostics::TraceListenerCollection* get_Listeners();
     // static public System.Boolean get_AutoFlush()
-    // Offset: 0x16CF210
+    // Offset: 0x16D1600
     static bool get_AutoFlush();
     // static public System.Boolean get_UseGlobalLock()
-    // Offset: 0x16CF280
+    // Offset: 0x16D1670
     static bool get_UseGlobalLock();
     // static public System.Int32 get_IndentLevel()
-    // Offset: 0x16CF2F0
+    // Offset: 0x16D16E0
     static int get_IndentLevel();
     // static public System.Int32 get_IndentSize()
-    // Offset: 0x16CF358
+    // Offset: 0x16D1748
     static int get_IndentSize();
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x16CC314
+    // Offset: 0x16CE704
     static void Assert_(bool condition);
     // static public System.Void Fail(System.String message)
-    // Offset: 0x16CF3C8
+    // Offset: 0x16D17B8
     static void Fail(::Il2CppString* message);
     // static private System.Void InitializeSettings()
-    // Offset: 0x16CEFAC
+    // Offset: 0x16D139C
     static void InitializeSettings();
     // static private System.Void .cctor()
-    // Offset: 0x16CFB60
+    // Offset: 0x16D1F50
     static void _cctor();
   }; // System.Diagnostics.TraceInternal
   #pragma pack(pop)

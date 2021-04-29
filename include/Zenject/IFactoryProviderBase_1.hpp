@@ -42,14 +42,14 @@ namespace Zenject {
   template<typename TContract>
   class IFactoryProviderBase_1 : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xCF16CC
+    // [CompilerGeneratedAttribute] Offset: 0xD0485C
     // private System.Guid <FactoryId>k__BackingField
     // Size: 0x10
     // Offset: 0x0
     System::Guid FactoryId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xCF16DC
+    // [CompilerGeneratedAttribute] Offset: 0xD0486C
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x0
@@ -122,7 +122,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::GetAllInstancesWithInjectSplit");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractType(buffer)})));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, injectAction, buffer);
     }
   }; // Zenject.IFactoryProviderBase`1

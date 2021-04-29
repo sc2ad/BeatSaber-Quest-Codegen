@@ -38,14 +38,14 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SystemFn
     SystemFn() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14FE1E8
+    // Offset: 0x151D09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::SystemFn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Utils::SystemFn*, creationType>(object, method)));
     }
     // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    // Offset: 0x14FB50C
+    // Offset: 0x151A3C0
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
@@ -55,10 +55,10 @@ namespace GlobalNamespace {
       return Invoke(system, {args...});
     }
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14FE1F8
+    // Offset: 0x151D0AC
     System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14FE228
+    // Offset: 0x151D0DC
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // SteamVR_Utils/SystemFn
   #pragma pack(pop)

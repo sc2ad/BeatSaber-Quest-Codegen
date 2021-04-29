@@ -17,7 +17,7 @@ namespace Unity {
     // Creating value type constructor for type: ThrowStub
     ThrowStub() noexcept {}
     // static public System.Void ThrowNotSupportedException()
-    // Offset: 0x20E4C58
+    // Offset: 0x20F740C
     static void ThrowNotSupportedException();
   }; // Unity.ThrowStub
   #pragma pack(pop)

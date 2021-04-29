@@ -42,20 +42,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetRelativeNoteOffsetCallback
     GetRelativeNoteOffsetCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1069348
+    // Offset: 0x10A98D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*, creationType>(object, method)));
     }
     // public UnityEngine.Vector2 Invoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1068CC0
+    // Offset: 0x10A9248
     UnityEngine::Vector2 Invoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.IAsyncResult BeginInvoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1069358
+    // Offset: 0x10A98E0
     System::IAsyncResult* BeginInvoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Vector2 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1069400
+    // Offset: 0x10A9988
     UnityEngine::Vector2 EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback
   #pragma pack(pop)

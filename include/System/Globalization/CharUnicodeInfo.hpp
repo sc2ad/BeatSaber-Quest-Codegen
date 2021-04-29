@@ -44,31 +44,31 @@ namespace System::Globalization {
     // Set static field: static private System.UInt16[] s_pDigitValues
     static void _set_s_pDigitValues(::Array<uint16_t>* value);
     // static System.Int32 InternalConvertToUtf32(System.String s, System.Int32 index)
-    // Offset: 0x1656038
+    // Offset: 0x165EE98
     static int InternalConvertToUtf32(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0x165610C
+    // Offset: 0x165EF6C
     static bool IsWhiteSpace(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0x1656288
+    // Offset: 0x165F0E8
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
-    // Offset: 0x16562FC
+    // Offset: 0x165F15C
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0x165619C
+    // Offset: 0x165EFFC
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppString* s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
-    // Offset: 0x1656360
+    // Offset: 0x165F1C0
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
-    // Offset: 0x1656450
+    // Offset: 0x165F2B0
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
-    // Offset: 0x16563D0
+    // Offset: 0x165F230
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::Il2CppString* value, int index);
     // static private System.Void .cctor()
-    // Offset: 0x1656544
+    // Offset: 0x165F3A4
     static void _cctor();
   }; // System.Globalization.CharUnicodeInfo
   #pragma pack(pop)

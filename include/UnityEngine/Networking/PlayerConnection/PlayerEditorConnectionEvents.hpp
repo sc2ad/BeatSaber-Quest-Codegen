@@ -76,16 +76,16 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: PlayerEditorConnectionEvents
     PlayerEditorConnectionEvents(System::Collections::Generic::List_1<UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*>* messageTypeSubscribers_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* connectionEvent_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* disconnectionEvent_ = {}) noexcept : messageTypeSubscribers{messageTypeSubscribers_}, connectionEvent{connectionEvent_}, disconnectionEvent{disconnectionEvent_} {}
     // public System.Void InvokeMessageIdSubscribers(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0x1A7AA48
+    // Offset: 0x1AB5A7C
     void InvokeMessageIdSubscribers(System::Guid messageId, ::Array<uint8_t>* data, int playerId);
     // public UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> AddAndCreate(System.Guid messageId)
-    // Offset: 0x1A79CF4
+    // Offset: 0x1AB4D28
     UnityEngine::Events::UnityEvent_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(System::Guid messageId);
     // public System.Void UnregisterManagedCallback(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x1A79FE0
+    // Offset: 0x1AB5014
     void UnregisterManagedCallback(System::Guid messageId, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void .ctor()
-    // Offset: 0x1A7AFB0
+    // Offset: 0x1AB5FE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

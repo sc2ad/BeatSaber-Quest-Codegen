@@ -24,7 +24,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: TimeSpanSeconds
     TimeSpanSeconds() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.TimeSpan result)
-    // Offset: 0x13E3354
+    // Offset: 0x14021D4
     static bool TryParse(::Il2CppString* input, System::TimeSpan& result);
   }; // System.Net.Http.Headers.Parser/TimeSpanSeconds
   #pragma pack(pop)

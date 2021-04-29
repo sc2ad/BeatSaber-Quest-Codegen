@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxPlayers
     static void _set_kMaxPlayers(int value);
     // public CreateServerFormData get_formData()
-    // Offset: 0x1016350
+    // Offset: 0x1066798
     GlobalNamespace::CreateServerFormData get_formData();
     // public System.Void Setup(System.Int32 selectedNumberOfPlayers, System.Boolean netDiscoverable)
-    // Offset: 0x101643C
+    // Offset: 0x1066884
     void Setup(int selectedNumberOfPlayers, bool netDiscoverable);
     // public System.Void .ctor()
-    // Offset: 0x1016480
+    // Offset: 0x10668C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

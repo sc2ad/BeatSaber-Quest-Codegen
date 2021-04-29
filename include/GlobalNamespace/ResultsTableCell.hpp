@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ResultsTableCell
     ResultsTableCell(UnityEngine::GameObject* border_ = {}, TMPro::TextMeshProUGUI* orderText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* rankText_ = {}) noexcept : border{border_}, orderText{orderText_}, nameText{nameText_}, scoreText{scoreText_}, rankText{rankText_} {}
     // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xFC9518
+    // Offset: 0xF88DCC
     void SetData(int order, GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xFC9838
+    // Offset: 0xF890EC
     // Implemented from: TableCellWithSeparator
     // Base method: System.Void TableCellWithSeparator::.ctor()
     // Base method: System.Void TableCell::.ctor()

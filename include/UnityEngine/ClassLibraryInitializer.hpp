@@ -15,7 +15,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ClassLibraryInitializer
     ClassLibraryInitializer() noexcept {}
     // static private System.Void Init()
-    // Offset: 0x19C4EF0
+    // Offset: 0x1A05020
     static void Init();
   }; // UnityEngine.ClassLibraryInitializer
   #pragma pack(pop)

@@ -33,16 +33,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAnalyticsModel*>(this);
     }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0x10C0EA4
+    // Offset: 0xFF1FC4
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0x10C0EAC
+    // Offset: 0xFF1FCC
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x10C0EB0
+    // Offset: 0xFF1FD0
     void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
+    // public System.Void LogClick(System.String clickType, System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
+    // Offset: 0xFF1FD4
+    void LogClick(::Il2CppString* clickType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* clickData);
+    // public System.Void LogImpression(System.String impressionType, System.Collections.Generic.Dictionary`2<System.String,System.String> impressionData)
+    // Offset: 0xFF1FD8
+    void LogImpression(::Il2CppString* impressionType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* impressionData);
+    // public System.Void LogExposure(System.String exposureType, System.Collections.Generic.Dictionary`2<System.String,System.String> exposureData)
+    // Offset: 0xFF1FDC
+    void LogExposure(::Il2CppString* exposureType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* exposureData);
     // public System.Void .ctor()
-    // Offset: 0x10C0EB4
+    // Offset: 0xFF1FE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

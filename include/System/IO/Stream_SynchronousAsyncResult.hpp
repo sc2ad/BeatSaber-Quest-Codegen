@@ -91,46 +91,46 @@ namespace System::IO {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Int32 bytesRead, System.Object asyncStateObject)
-    // Offset: 0x17B19CC
+    // Offset: 0x17D0164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(int bytesRead, ::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(bytesRead, asyncStateObject)));
     }
     // System.Void .ctor(System.Object asyncStateObject)
-    // Offset: 0x17B1B00
+    // Offset: 0x17D0298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(asyncStateObject)));
     }
     // System.Void .ctor(System.Exception ex, System.Object asyncStateObject, System.Boolean isWrite)
-    // Offset: 0x17B1A08
+    // Offset: 0x17D01A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(System::Exception* ex, ::Il2CppObject* asyncStateObject, bool isWrite) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(ex, asyncStateObject, isWrite)));
     }
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x17B29B8
+    // Offset: 0x17D1150
     bool get_IsCompleted();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x17B29C0
+    // Offset: 0x17D1158
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
-    // Offset: 0x17B2AB0
+    // Offset: 0x17D1248
     ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x17B2AB8
+    // Offset: 0x17D1250
     bool get_CompletedSynchronously();
     // System.Void ThrowIfError()
-    // Offset: 0x17B2AC0
+    // Offset: 0x17D1258
     void ThrowIfError();
     // static System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x17B1A5C
+    // Offset: 0x17D01F4
     static int EndRead(System::IAsyncResult* asyncResult);
     // static System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x17B1B34
+    // Offset: 0x17D02CC
     static void EndWrite(System::IAsyncResult* asyncResult);
   }; // System.IO.Stream/SynchronousAsyncResult
   #pragma pack(pop)

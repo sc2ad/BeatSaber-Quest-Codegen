@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LaunchUnblockFlowResult
     LaunchUnblockFlowResult(bool DidCancel_ = {}, bool DidUnblock_ = {}) noexcept : DidCancel{DidCancel_}, DidUnblock{DidUnblock_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13890BC
+    // Offset: 0x13A8D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchUnblockFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchUnblockFlowResult::.ctor");

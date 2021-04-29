@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass14_0;
     // Nested type: GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14
     class $UploadScoresCoroutine$d__14;
-    // [CompilerGeneratedAttribute] Offset: 0xD20438
+    // [CompilerGeneratedAttribute] Offset: 0xD35D98
     // private System.Action allScoresDidUploadEvent
     // Size: 0x8
     // Offset: 0x18
@@ -99,34 +99,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kScoresToUploadFileName
     static void _set_kScoresToUploadFileName(::Il2CppString* value);
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0xFF875C
+    // Offset: 0x1119CDC
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0xFF8800
+    // Offset: 0x1119D80
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0xFF88A4
+    // Offset: 0x1119E24
     void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::Il2CppString* playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0xFF8950
+    // Offset: 0x1119ED0
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0xFF88E0
+    // Offset: 0x1119E60
     System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0xFF8980
+    // Offset: 0x1119F00
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0xFF8B58
+    // Offset: 0x111A0D8
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0xFF8C64
+    // Offset: 0x111A1E4
     void AddScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0xFF8DC8
+    // Offset: 0x111A348
     bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0xFF8D38
+    // Offset: 0x111A2B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

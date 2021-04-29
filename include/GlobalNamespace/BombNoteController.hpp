@@ -59,51 +59,51 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BombNoteController
     BombNoteController(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, UnityEngine::GameObject* wrapperGO_ = {}, bool hidden_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, wrapperGO{wrapperGO_}, hidden{hidden_} {}
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity)
-    // Offset: 0xF098FC
+    // Offset: 0xF30F70
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity);
     // private System.Void HandleDidPassHalfJump()
-    // Offset: 0xF09BC8
+    // Offset: 0xF3123C
     void HandleDidPassHalfJump();
     // private System.Void HandleWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xF09BEC
+    // Offset: 0xF31260
     void HandleWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xF098A0
+    // Offset: 0xF30F14
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0xF098E4
+    // Offset: 0xF30F58
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0xF098EC
+    // Offset: 0xF30F60
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // protected override System.Void Awake()
-    // Offset: 0xF099CC
+    // Offset: 0xF31040
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0xF09AA8
+    // Offset: 0xF3111C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0xF09B88
+    // Offset: 0xF311FC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0xF09DA8
+    // Offset: 0xF3141C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartDissolving()
     void NoteDidStartDissolving();
     // public System.Void .ctor()
-    // Offset: 0xF09DCC
+    // Offset: 0xF31440
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

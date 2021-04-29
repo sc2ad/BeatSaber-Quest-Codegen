@@ -42,17 +42,17 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x16DD760
+    // Offset: 0x16DEB50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise* New_ctor(::Array<System::Threading::Tasks::Task*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x16DD8F0
+    // Offset: 0x16DECE0
     void Invoke(System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x16DDBF4
+    // Offset: 0x16DEFE4
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();

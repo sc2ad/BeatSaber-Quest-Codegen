@@ -53,32 +53,32 @@ namespace System::Runtime::CompilerServices {
       return m_task;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xDE5C64
+    // Offset: 0xDFC0E4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDE5C6C
+    // Offset: 0xDFC0EC
     bool get_IsCompleted();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDE5C88
+    // Offset: 0xDFC108
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xDE5C98
+    // Offset: 0xDFC118
     void UnsafeOnCompleted(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0xDE5CA8
+    // Offset: 0xDFC128
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x1300A14
+    // Offset: 0x13206C4
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x1301078
+    // Offset: 0x1320D28
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x13010E8
+    // Offset: 0x1320D98
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x130092C
+    // Offset: 0x13205DC
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
   }; // System.Runtime.CompilerServices.TaskAwaiter
   #pragma pack(pop)

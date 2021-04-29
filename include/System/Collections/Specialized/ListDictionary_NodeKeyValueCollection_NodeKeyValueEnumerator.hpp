@@ -59,20 +59,20 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x16C620C
+    // Offset: 0x16C85FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Object get_Current()
-    // Offset: 0x16C6268
+    // Offset: 0x16C8658
     ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16C6308
+    // Offset: 0x16C86F8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16C63D0
+    // Offset: 0x16C87C0
     void Reset();
   }; // System.Collections.Specialized.ListDictionary/NodeKeyValueCollection/NodeKeyValueEnumerator
   #pragma pack(pop)

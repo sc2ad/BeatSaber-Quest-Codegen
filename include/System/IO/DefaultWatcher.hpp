@@ -64,37 +64,37 @@ namespace System::IO {
     // Set static field: static private System.String[] NoStringsArray
     static void _set_NoStringsArray(::Array<::Il2CppString*>* value);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x16D4700
+    // Offset: 0x16D6AF0
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x16D47D8
+    // Offset: 0x16D6BC8
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x16D4FE0
+    // Offset: 0x16D73D0
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // private System.Void Monitor()
-    // Offset: 0x16D5258
+    // Offset: 0x16D7648
     void Monitor();
     // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
-    // Offset: 0x16D4ECC
+    // Offset: 0x16D72BC
     bool UpdateDataAndDispatch(System::IO::DefaultWatcherData* data, bool dispatch);
     // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
-    // Offset: 0x16D5BE0
+    // Offset: 0x16D7FD0
     static void DispatchEvents(System::IO::FileSystemWatcher* fsw, System::IO::FileAction action, ::Il2CppString* filename);
     // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
-    // Offset: 0x16D5994
+    // Offset: 0x16D7D84
     void DoFiles(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
-    // Offset: 0x16D5ECC
+    // Offset: 0x16D82BC
     void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::Array<::Il2CppString*>* files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
-    // Offset: 0x16D6EF0
+    // Offset: 0x16D92E0
     static System::IO::FileData* CreateFileData(::Il2CppString* directory, ::Il2CppString* filename);
     // static private System.Void .cctor()
-    // Offset: 0x16D6FD0
+    // Offset: 0x16D93C0
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x16D46F8
+    // Offset: 0x16D6AE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

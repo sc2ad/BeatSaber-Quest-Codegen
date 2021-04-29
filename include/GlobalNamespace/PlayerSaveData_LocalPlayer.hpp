@@ -58,20 +58,26 @@ namespace GlobalNamespace {
     bool agreedToEula;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // public System.Boolean agreedToMultiplayerDisclaimer
+    // public System.Boolean didSelectLanguage
     // Size: 0x1
     // Offset: 0x23
+    bool didSelectLanguage;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // public System.Boolean agreedToMultiplayerDisclaimer
+    // Size: 0x1
+    // Offset: 0x24
     bool agreedToMultiplayerDisclaimer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // public System.Boolean avatarCreated
     // Size: 0x1
-    // Offset: 0x24
+    // Offset: 0x25
     bool avatarCreated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: avatarCreated and: lastSelectedBeatmapDifficulty
-    char __padding6[0x3] = {};
+    char __padding7[0x2] = {};
     // public BeatmapDifficulty lastSelectedBeatmapDifficulty
     // Size: 0x4
     // Offset: 0x28
@@ -79,7 +85,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: lastSelectedBeatmapDifficulty and: lastSelectedBeatmapCharacteristicName
-    char __padding7[0x4] = {};
+    char __padding8[0x4] = {};
     // public System.String lastSelectedBeatmapCharacteristicName
     // Size: 0x8
     // Offset: 0x30
@@ -153,9 +159,9 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*) == 0x8);
     // Creating value type constructor for type: LocalPlayer
-    LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, bool shouldShow360Warning_ = {}, bool agreedToEula_ = {}, bool agreedToMultiplayerDisclaimer_ = {}, bool avatarCreated_ = {}, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty_ = {}, ::Il2CppString* lastSelectedBeatmapCharacteristicName_ = {}, GlobalNamespace::PlayerSaveData::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveData::PracticeSettings* practiceSettings_ = {}, GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveData::ColorSchemesSettings* colorSchemesSettings_ = {}, GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* favoritesLevelIds_ = {}, GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, shouldShow360Warning{shouldShow360Warning_}, agreedToEula{agreedToEula_}, agreedToMultiplayerDisclaimer{agreedToMultiplayerDisclaimer_}, avatarCreated{avatarCreated_}, lastSelectedBeatmapDifficulty{lastSelectedBeatmapDifficulty_}, lastSelectedBeatmapCharacteristicName{lastSelectedBeatmapCharacteristicName_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, colorSchemesSettings{colorSchemesSettings_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, favoritesLevelIds{favoritesLevelIds_}, multiplayerModeSettings{multiplayerModeSettings_} {}
+    LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, bool shouldShow360Warning_ = {}, bool agreedToEula_ = {}, bool didSelectLanguage_ = {}, bool agreedToMultiplayerDisclaimer_ = {}, bool avatarCreated_ = {}, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty_ = {}, ::Il2CppString* lastSelectedBeatmapCharacteristicName_ = {}, GlobalNamespace::PlayerSaveData::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveData::PracticeSettings* practiceSettings_ = {}, GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveData::ColorSchemesSettings* colorSchemesSettings_ = {}, GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* favoritesLevelIds_ = {}, GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, shouldShow360Warning{shouldShow360Warning_}, agreedToEula{agreedToEula_}, didSelectLanguage{didSelectLanguage_}, agreedToMultiplayerDisclaimer{agreedToMultiplayerDisclaimer_}, avatarCreated{avatarCreated_}, lastSelectedBeatmapDifficulty{lastSelectedBeatmapDifficulty_}, lastSelectedBeatmapCharacteristicName{lastSelectedBeatmapCharacteristicName_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, colorSchemesSettings{colorSchemesSettings_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, favoritesLevelIds{favoritesLevelIds_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void .ctor()
-    // Offset: 0xF66EEC
+    // Offset: 0xF78834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -50,20 +50,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MovementHistoryRecorder
     MovementHistoryRecorder(GlobalNamespace::AveragingValueRecorder* averagingValueRecorer_ = {}, float increaseSpeed_ = {}, float decreaseSpeed_ = {}, float accum_ = {}) noexcept : averagingValueRecorer{averagingValueRecorer_}, increaseSpeed{increaseSpeed_}, decreaseSpeed{decreaseSpeed_}, accum{accum_} {}
     // public AveragingValueRecorder get_averagingValueRecorer()
-    // Offset: 0x10392A8
+    // Offset: 0xFBE0F8
     GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyValuesPerSecond, System.Single increaseSpeed, System.Single decreaseSpeed)
-    // Offset: 0x10392B0
+    // Offset: 0xFBE100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementHistoryRecorder* New_ctor(float averageWindowDuration, float historyValuesPerSecond, float increaseSpeed, float decreaseSpeed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MovementHistoryRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovementHistoryRecorder*, creationType>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed)));
     }
     // public System.Void AddMovement(System.Single distance)
-    // Offset: 0x103934C
+    // Offset: 0xFBE19C
     void AddMovement(float distance);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x10393E8
+    // Offset: 0xFBE238
     void ManualUpdate(float deltaTime);
   }; // MovementHistoryRecorder
   #pragma pack(pop)

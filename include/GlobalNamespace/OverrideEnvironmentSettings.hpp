@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OverrideEnvironmentSettings
     OverrideEnvironmentSettings(bool overrideEnvironments_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>* data_ = {}) noexcept : overrideEnvironments{overrideEnvironments_}, data{data_} {}
     // public System.Void SetEnvironmentInfoForType(EnvironmentTypeSO environmentType, EnvironmentInfoSO environmentInfo)
-    // Offset: 0x10E7128
+    // Offset: 0xF14E3C
     void SetEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO* environmentType, GlobalNamespace::EnvironmentInfoSO* environmentInfo);
     // public EnvironmentInfoSO GetOverrideEnvironmentInfoForType(EnvironmentTypeSO environmentType)
-    // Offset: 0x10E7198
+    // Offset: 0xF14EAC
     GlobalNamespace::EnvironmentInfoSO* GetOverrideEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x10E7218
+    // Offset: 0xF14F2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

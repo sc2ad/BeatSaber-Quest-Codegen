@@ -79,13 +79,13 @@ namespace GlobalNamespace {
     static int _get_longStringLength();
     // Set static field: static public System.Int32 longStringLength
     static void _set_longStringLength(int value);
-    // [ThreadStaticAttribute] Offset: 0xCFF678
+    // [ThreadStaticAttribute] Offset: 0xD13D1C
     // Get static field: static private System.Char[] _tempBuffer
     static ::Array<::Il2CppChar>* _get__tempBuffer();
     // Set static field: static private System.Char[] _tempBuffer
     static void _set__tempBuffer(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String packId)
-    // Offset: 0xE180BC
+    // Offset: 0xE2B5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     BloomFilter(::Il2CppString* packId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilter::.ctor");
@@ -93,69 +93,69 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packId);
     }
     // public System.Void .ctor(System.UInt64 top, System.UInt64 bottom)
-    // Offset: 0xE180C4
+    // Offset: 0xE2B5AC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BloomFilter(uint64_t top, uint64_t bottom)
     // static public BloomFilter get_all()
-    // Offset: 0x2109ACC
+    // Offset: 0x21380E8
     static GlobalNamespace::BloomFilter get_all();
     // static private System.UInt32 MurmurHash2(System.String key)
-    // Offset: 0x2109930
+    // Offset: 0x2137F4C
     static uint MurmurHash2(::Il2CppString* key);
     // public System.Boolean Contains(BloomFilter other)
-    // Offset: 0xE180CC
+    // Offset: 0xE2B5B4
     bool Contains(GlobalNamespace::BloomFilter other);
     // public System.Int32 DifferenceFrom(BloomFilter other)
-    // Offset: 0xE180E8
+    // Offset: 0xE2B5D0
     int DifferenceFrom(GlobalNamespace::BloomFilter other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE18138
+    // Offset: 0xE2B620
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public BloomFilter CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE18140
+    // Offset: 0xE2B628
     GlobalNamespace::BloomFilter CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public BloomFilter Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2109C04
+    // Offset: 0x2138220
     static GlobalNamespace::BloomFilter Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.String ToShortString()
-    // Offset: 0xE18150
+    // Offset: 0xE2B638
     ::Il2CppString* ToShortString();
     // public System.Byte[] ToBytes()
-    // Offset: 0xE18158
+    // Offset: 0xE2B640
     ::Array<uint8_t>* ToBytes();
     // public System.Boolean Equals(BloomFilter other)
-    // Offset: 0xE18160
+    // Offset: 0xE2B648
     bool Equals(GlobalNamespace::BloomFilter other);
     // static public System.Boolean TryParse(System.String stringSerializedMask, out BloomFilter bloomFilter)
-    // Offset: 0x210A144
+    // Offset: 0x2138760
     static bool TryParse(::Il2CppString* stringSerializedMask, GlobalNamespace::BloomFilter& bloomFilter);
     // static public System.Boolean TryParse(System.String stringSerializedMask, System.Int32 offset, System.Int32 length, out BloomFilter bloomFilter)
-    // Offset: 0x210A164
+    // Offset: 0x2138780
     static bool TryParse(::Il2CppString* stringSerializedMask, int offset, int length, GlobalNamespace::BloomFilter& bloomFilter);
     // static public BloomFilter FromBytes(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x210A3B0
+    // Offset: 0x21389CC
     static GlobalNamespace::BloomFilter FromBytes(::Array<uint8_t>* bytes, int offset);
     // static private System.UInt32 GetHexDigit(System.Char c)
-    // Offset: 0x210A2F0
+    // Offset: 0x213890C
     static uint GetHexDigit(::Il2CppChar c);
     // static private System.UInt32 GetBase64Digit(System.Char c)
-    // Offset: 0x210A340
+    // Offset: 0x213895C
     static uint GetBase64Digit(::Il2CppChar c);
     // static private System.Char GetBase64Char(System.UInt64 digit)
-    // Offset: 0x2109F74
+    // Offset: 0x2138590
     static ::Il2CppChar GetBase64Char(uint64_t digit);
     // public override System.String ToString()
-    // Offset: 0xE18148
+    // Offset: 0xE2B630
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE18184
+    // Offset: 0xE2B66C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE1818C
+    // Offset: 0xE2B674
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -164,16 +164,16 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomFilter), 8 + sizeof(uint64_t)> __GlobalNamespace_BloomFilterSizeCheck;
   static_assert(sizeof(BloomFilter) == 0x10);
   // static public BloomFilter op_BitwiseOr(BloomFilter a, BloomFilter b)
-  // Offset: 0x2109AD8
+  // Offset: 0x21380F4
   GlobalNamespace::BloomFilter operator|(const GlobalNamespace::BloomFilter& a, const GlobalNamespace::BloomFilter& b);
   // static public BloomFilter op_BitwiseAnd(BloomFilter a, BloomFilter b)
-  // Offset: 0x2109AE4
+  // Offset: 0x2138100
   GlobalNamespace::BloomFilter operator&(const GlobalNamespace::BloomFilter& a, const GlobalNamespace::BloomFilter& b);
   // static public System.Boolean op_Equality(BloomFilter a, BloomFilter b)
-  // Offset: 0x2109AF0
+  // Offset: 0x213810C
   bool operator ==(const GlobalNamespace::BloomFilter& a, const GlobalNamespace::BloomFilter& b);
   // static public System.Boolean op_Inequality(BloomFilter a, BloomFilter b)
-  // Offset: 0x2109B08
+  // Offset: 0x2138124
   bool operator !=(const GlobalNamespace::BloomFilter& a, const GlobalNamespace::BloomFilter& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilter, "", "BloomFilter");

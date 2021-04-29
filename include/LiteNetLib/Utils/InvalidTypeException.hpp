@@ -21,7 +21,7 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: InvalidTypeException
     InvalidTypeException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x19FCB28
+    // Offset: 0x1A38F64
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

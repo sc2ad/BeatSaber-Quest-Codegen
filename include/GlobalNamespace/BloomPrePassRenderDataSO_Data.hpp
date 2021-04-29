@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Data
     Data(UnityEngine::RenderTexture* bloomPrePassRenderTexture_ = {}, UnityEngine::Vector2 textureToScreenRatio_ = {}, UnityEngine::Matrix4x4 viewMatrix_ = {}, UnityEngine::Matrix4x4 projectionMatrix_ = {}, float stereoCameraEyeOffset_ = {}, GlobalNamespace::ToneMapping toneMapping_ = {}) noexcept : bloomPrePassRenderTexture{bloomPrePassRenderTexture_}, textureToScreenRatio{textureToScreenRatio_}, viewMatrix{viewMatrix_}, projectionMatrix{projectionMatrix_}, stereoCameraEyeOffset{stereoCameraEyeOffset_}, toneMapping{toneMapping_} {}
     // public System.Void .ctor()
-    // Offset: 0x1CE0638
+    // Offset: 0x1D0B1B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

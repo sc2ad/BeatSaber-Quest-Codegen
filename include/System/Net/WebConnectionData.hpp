@@ -96,26 +96,26 @@ namespace System::Net {
     // Creating value type constructor for type: WebConnectionData
     WebConnectionData(System::Net::HttpWebRequest* request_ = {}, int StatusCode_ = {}, ::Il2CppString* StatusDescription_ = {}, System::Net::WebHeaderCollection* Headers_ = {}, System::Version* Version_ = {}, System::Version* ProxyVersion_ = {}, System::IO::Stream* stream_ = {}, ::Array<::Il2CppString*>* Challenge_ = {}, System::Net::ReadState readState_ = {}) noexcept : request{request_}, StatusCode{StatusCode_}, StatusDescription{StatusDescription_}, Headers{Headers_}, Version{Version_}, ProxyVersion{ProxyVersion_}, stream{stream_}, Challenge{Challenge_}, readState{readState_} {}
     // public System.Void .ctor(System.Net.HttpWebRequest request)
-    // Offset: 0x140C060
+    // Offset: 0x142AEE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionData* New_ctor(System::Net::HttpWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>(request)));
     }
     // public System.Net.HttpWebRequest get_request()
-    // Offset: 0x140E828
+    // Offset: 0x142D6A8
     System::Net::HttpWebRequest* get_request();
     // public System.Void set_request(System.Net.HttpWebRequest value)
-    // Offset: 0x140E830
+    // Offset: 0x142D6B0
     void set_request(System::Net::HttpWebRequest* value);
     // public System.Net.ReadState get_ReadState()
-    // Offset: 0x140E838
+    // Offset: 0x142D6B8
     System::Net::ReadState get_ReadState();
     // public System.Void set_ReadState(System.Net.ReadState value)
-    // Offset: 0x140B444
+    // Offset: 0x142A2C4
     void set_ReadState(System::Net::ReadState value);
     // public System.Void .ctor()
-    // Offset: 0x14083B8
+    // Offset: 0x1427238
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

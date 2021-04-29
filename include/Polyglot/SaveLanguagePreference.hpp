@@ -35,13 +35,13 @@ namespace Polyglot {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Start()
-    // Offset: 0x20FC648
+    // Offset: 0x212AC64
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x20FC69C
+    // Offset: 0x212ACB8
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x20FC6D0
+    // Offset: 0x212ACEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

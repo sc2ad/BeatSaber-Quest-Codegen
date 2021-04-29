@@ -45,16 +45,16 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary oids
     static void _set_oids(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x124D814
+    // Offset: 0x126C4D0
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(Org.BouncyCastle.Asn1.DerObjectIdentifier id)
-    // Offset: 0x12512A8
+    // Offset: 0x126FF64
     static Org::BouncyCastle::Crypto::IDigest* GetDigest(Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(System.String algorithm)
-    // Offset: 0x1251318
+    // Offset: 0x126FFD4
     static Org::BouncyCastle::Crypto::IDigest* GetDigest(::Il2CppString* algorithm);
     // static public System.Byte[] DoFinal(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1251CA4
+    // Offset: 0x1270960
     static ::Array<uint8_t>* DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
   }; // Org.BouncyCastle.Security.DigestUtilities
   #pragma pack(pop)

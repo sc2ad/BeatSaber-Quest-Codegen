@@ -107,19 +107,19 @@ namespace GlobalNamespace {
         return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
       }
       // public ILazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> get_didFinishEvent()
-      // Offset: 0xF00510
+      // Offset: 0xF27B84
       GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* get_didFinishEvent();
       // public System.Void Set(in NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, ISaberSwingRatingCounter swingRatingCounter)
-      // Offset: 0xF00188
+      // Offset: 0xF277FC
       void Set(GlobalNamespace::NoteCutInfo& noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
       // private System.Void Reinitialize()
-      // Offset: 0xF00518
+      // Offset: 0xF27B8C
       void Reinitialize();
       // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-      // Offset: 0xF00520
+      // Offset: 0xF27B94
       void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
       // public System.Void .ctor()
-      // Offset: 0xF0076C
+      // Offset: 0xF27DE0
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -131,35 +131,35 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler), 40 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorder_CutScoreHandlerSizeCheck;
     static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler) == 0x30);
-    // [InjectAttribute] Offset: 0xD22C18
+    // [InjectAttribute] Offset: 0xD385B0
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD22C28
+    // [InjectAttribute] Offset: 0xD385C0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD22C38
+    // [InjectAttribute] Offset: 0xD385D0
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xD22C48
+    // [InjectAttribute] Offset: 0xD385E0
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD22C58
+    // [InjectAttribute] Offset: 0xD385F0
     // private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool _cutScoreHandlerPool
     // Size: 0x8
     // Offset: 0x38
@@ -193,31 +193,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0xEFF720
+    // Offset: 0xF26D94
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0xEFF728
+    // Offset: 0xF26D9C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xEFF9A0
+    // Offset: 0xF27014
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xEFFC2C
+    // Offset: 0xF272A0
     void Update();
     // public System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0xEFFE48
+    // Offset: 0xF274BC
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0xEFFF28
+    // Offset: 0xF2759C
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0xF0026C
+    // Offset: 0xF278E0
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0xF00354
+    // Offset: 0xF279C8
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0xF00448
+    // Offset: 0xF27ABC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

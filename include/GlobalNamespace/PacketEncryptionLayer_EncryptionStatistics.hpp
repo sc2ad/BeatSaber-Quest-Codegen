@@ -69,55 +69,55 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EncryptionStatistics
     EncryptionStatistics(int64_t packetsReceivedPlaintext_ = {}, int64_t packetsReceivedEncrypted_ = {}, int64_t packetsReceivedRejected_ = {}, int64_t packetsSentPlaintext_ = {}, int64_t packetsSentEncrypted_ = {}, int64_t packetsSentRejected_ = {}, int64_t encryptionProcessingTime_ = {}, int64_t decryptionProcessingTime_ = {}) noexcept : packetsReceivedPlaintext{packetsReceivedPlaintext_}, packetsReceivedEncrypted{packetsReceivedEncrypted_}, packetsReceivedRejected{packetsReceivedRejected_}, packetsSentPlaintext{packetsSentPlaintext_}, packetsSentEncrypted{packetsSentEncrypted_}, packetsSentRejected{packetsSentRejected_}, encryptionProcessingTime{encryptionProcessingTime_}, decryptionProcessingTime{decryptionProcessingTime_} {}
     // public System.Int64 get_packetsReceivedPlaintext()
-    // Offset: 0x15C7150
+    // Offset: 0x15E50D4
     int64_t get_packetsReceivedPlaintext();
     // public System.Int64 get_packetsReceivedEncrypted()
-    // Offset: 0x15C715C
+    // Offset: 0x15E50E0
     int64_t get_packetsReceivedEncrypted();
     // public System.Int64 get_packetsReceivedRejected()
-    // Offset: 0x15C7168
+    // Offset: 0x15E50EC
     int64_t get_packetsReceivedRejected();
     // public System.Int64 get_packetsSentPlaintext()
-    // Offset: 0x15C7174
+    // Offset: 0x15E50F8
     int64_t get_packetsSentPlaintext();
     // public System.Int64 get_packetsSentEncrypted()
-    // Offset: 0x15C7180
+    // Offset: 0x15E5104
     int64_t get_packetsSentEncrypted();
     // public System.Int64 get_packetsSentRejected()
-    // Offset: 0x15C718C
+    // Offset: 0x15E5110
     int64_t get_packetsSentRejected();
     // public System.Int64 get_encryptionProcessingTime()
-    // Offset: 0x15C7198
+    // Offset: 0x15E511C
     int64_t get_encryptionProcessingTime();
     // public System.Int64 get_decryptionProcessingTime()
-    // Offset: 0x15C7224
+    // Offset: 0x15E51A8
     int64_t get_decryptionProcessingTime();
     // public System.Void IncrementPacketsReceivedPlaintext()
-    // Offset: 0x15C37B8
+    // Offset: 0x15E173C
     void IncrementPacketsReceivedPlaintext();
     // public System.Void IncrementPacketsReceivedEncrypted()
-    // Offset: 0x15C37A0
+    // Offset: 0x15E1724
     void IncrementPacketsReceivedEncrypted();
     // public System.Void IncrementPacketsReceivedRejected()
-    // Offset: 0x15C37C4
+    // Offset: 0x15E1748
     void IncrementPacketsReceivedRejected();
     // public System.Void IncrementPacketsSentPlaintext()
-    // Offset: 0x15C4128
+    // Offset: 0x15E20AC
     void IncrementPacketsSentPlaintext();
     // public System.Void IncrementPacketsSentEncrypted()
-    // Offset: 0x15C4110
+    // Offset: 0x15E2094
     void IncrementPacketsSentEncrypted();
     // public System.Void IncrementPacketsSentRejected()
-    // Offset: 0x15C4134
+    // Offset: 0x15E20B8
     void IncrementPacketsSentRejected();
     // public System.Void AddEncryptionProcessingTime(System.Int64 time)
-    // Offset: 0x15C411C
+    // Offset: 0x15E20A0
     void AddEncryptionProcessingTime(int64_t time);
     // public System.Void AddDecryptionProcessingTime(System.Int64 time)
-    // Offset: 0x15C37AC
+    // Offset: 0x15E1730
     void AddDecryptionProcessingTime(int64_t time);
     // public System.Void .ctor()
-    // Offset: 0x15C32D8
+    // Offset: 0x15E125C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

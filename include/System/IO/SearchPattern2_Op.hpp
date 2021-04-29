@@ -43,7 +43,7 @@ namespace System::IO {
     // Creating value type constructor for type: Op
     Op(System::IO::SearchPattern2::OpCode Code_ = {}, ::Il2CppString* Argument_ = {}, System::IO::SearchPattern2::Op* Next_ = {}) noexcept : Code{Code_}, Argument{Argument_}, Next{Next_} {}
     // public System.Void .ctor(System.IO.SearchPattern2/OpCode code)
-    // Offset: 0x16D8E00
+    // Offset: 0x16DB1F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::Op::.ctor");

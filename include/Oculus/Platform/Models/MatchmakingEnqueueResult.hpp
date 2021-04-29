@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C774
+    // [ObsoleteAttribute] Offset: 0xD21714
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
     // Size: 0x8
     // Offset: 0x18
@@ -81,7 +81,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingEnqueueResult
     MatchmakingEnqueueResult(Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional_ = {}, Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshot_ = {}, uint AverageWait_ = {}, uint MatchesInLastHourCount_ = {}, uint MaxExpectedWait_ = {}, ::Il2CppString* Pool_ = {}, uint RecentMatchPercentage_ = {}, ::Il2CppString* RequestHash_ = {}) noexcept : AdminSnapshotOptional{AdminSnapshotOptional_}, AdminSnapshot{AdminSnapshot_}, AverageWait{AverageWait_}, MatchesInLastHourCount{MatchesInLastHourCount_}, MaxExpectedWait{MaxExpectedWait_}, Pool{Pool_}, RecentMatchPercentage{RecentMatchPercentage_}, RequestHash{RequestHash_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138A3F4
+    // Offset: 0x13AA0A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueueResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueueResult::.ctor");

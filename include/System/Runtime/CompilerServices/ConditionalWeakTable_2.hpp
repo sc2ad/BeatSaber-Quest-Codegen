@@ -184,7 +184,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::TryGetValue");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, value);
     }
     // public TValue GetValue(TKey key, System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<TKey,TValue> createValueCallback)

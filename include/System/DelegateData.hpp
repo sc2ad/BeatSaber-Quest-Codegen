@@ -44,7 +44,7 @@ namespace System {
     // Creating value type constructor for type: DelegateData
     DelegateData(System::Type* target_type_ = {}, ::Il2CppString* method_name_ = {}, bool curried_first_arg_ = {}) noexcept : target_type{target_type_}, method_name{method_name_}, curried_first_arg{curried_first_arg_} {}
     // public System.Void .ctor()
-    // Offset: 0x19A2430
+    // Offset: 0x19E358C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

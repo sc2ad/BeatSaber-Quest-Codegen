@@ -41,17 +41,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: LimitedInputStream
     LimitedInputStream(System::IO::Stream* in_ = {}, int limit_ = {}) noexcept : in{in_}, limit{limit_} {}
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x1602274
+    // Offset: 0x16201F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LimitedInputStream* New_ctor(System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LimitedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LimitedInputStream*, creationType>(inStream, limit)));
     }
     // System.Int32 get_Limit()
-    // Offset: 0x1602D3C
+    // Offset: 0x1620CC0
     int get_Limit();
     // protected System.Void SetParentEofDetect(System.Boolean on)
-    // Offset: 0x1602D44
+    // Offset: 0x1620CC8
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
   #pragma pack(pop)

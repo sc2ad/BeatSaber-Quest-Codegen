@@ -74,26 +74,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleDialogPromptViewController
     SimpleDialogPromptViewController(TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* messageText_ = {}, ::Array<UnityEngine::UI::Button*>* buttons_ = {}, ::Array<TMPro::TextMeshProUGUI*>* buttonTexts_ = {}, System::Action_1<int>* didFinishAction_ = {}) noexcept : titleText{titleText_}, messageText{messageText_}, buttons{buttons_}, buttonTexts{buttonTexts_}, didFinishAction{didFinishAction_} {}
     // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0xF792CC
+    // Offset: 0x105DDE4
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* buttonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0xF794A0
+    // Offset: 0x105DFB8
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* firstButtonText, ::Il2CppString* secondButtonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.String thirdButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0xF792DC
+    // Offset: 0x105DDF4
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* firstButtonText, ::Il2CppString* secondButtonText, ::Il2CppString* thirdButtonText, System::Action_1<int>* didFinishAction);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF79190
+    // Offset: 0x105DCA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF792C0
+    // Offset: 0x105DDD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0xF794AC
+    // Offset: 0x105DFC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

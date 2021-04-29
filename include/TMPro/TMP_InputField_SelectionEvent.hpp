@@ -22,7 +22,7 @@ namespace TMPro {
     // Creating value type constructor for type: SelectionEvent
     SelectionEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF9DBE4
+    // Offset: 0x10288A0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

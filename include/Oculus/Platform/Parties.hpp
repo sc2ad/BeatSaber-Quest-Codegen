@@ -32,10 +32,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Parties
     Parties() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Party> GetCurrent()
-    // Offset: 0x1391988
+    // Offset: 0x13B1638
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* GetCurrent();
     // static public System.Void SetPartyUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.PartyUpdateNotification> callback)
-    // Offset: 0x1391A94
+    // Offset: 0x13B1744
     static void SetPartyUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback* callback);
   }; // Oculus.Platform.Parties
   #pragma pack(pop)

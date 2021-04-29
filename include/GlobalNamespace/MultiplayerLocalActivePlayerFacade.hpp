@@ -62,56 +62,56 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::GameObject*>* activeOnlyGameObjects;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27120
+    // [InjectAttribute] Offset: 0xD3CB50
     // private readonly IStartSeekSongController _songController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IStartSeekSongController* songController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IStartSeekSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27130
+    // [InjectAttribute] Offset: 0xD3CB60
     // private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27140
+    // [InjectAttribute] Offset: 0xD3CB70
     // private readonly MultiplayerLocalActivePlayerOutroAnimator _outroAnimator
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLocalActivePlayerOutroAnimator* outroAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalActivePlayerOutroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27150
+    // [InjectAttribute] Offset: 0xD3CB80
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27160
+    // [InjectAttribute] Offset: 0xD3CB90
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27170
+    // [InjectAttribute] Offset: 0xD3CBA0
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD27180
+    // [CompilerGeneratedAttribute] Offset: 0xD3CBB0
     // private System.Action`1<LevelCompletionResults> playerDidFinishEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<GlobalNamespace::LevelCompletionResults*>* playerDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelCompletionResults*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD27190
+    // [CompilerGeneratedAttribute] Offset: 0xD3CBC0
     // private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
     // Size: 0x8
     // Offset: 0x58
@@ -135,46 +135,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MultiplayerLocalActivePlayerIntroAnimator get_introAnimator()
-    // Offset: 0xF4EC58
+    // Offset: 0x1086AA0
     GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* get_introAnimator();
     // public MultiplayerLocalActivePlayerOutroAnimator get_outroAnimator()
-    // Offset: 0xF4EC60
+    // Offset: 0x1086AA8
     GlobalNamespace::MultiplayerLocalActivePlayerOutroAnimator* get_outroAnimator();
     // public IStartSeekSongController get_songController()
-    // Offset: 0xF4EC68
+    // Offset: 0x1086AB0
     GlobalNamespace::IStartSeekSongController* get_songController();
     // public System.Void add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0xF4EC70
+    // Offset: 0x1086AB8
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0xF4ED14
+    // Offset: 0x1086B5C
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0xF4EDB8
+    // Offset: 0x1086C00
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0xF4EE5C
+    // Offset: 0x1086CA4
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void ReportPlayerDidFinish(LevelCompletionResults results)
-    // Offset: 0xF4EF00
+    // Offset: 0x1086D48
     void ReportPlayerDidFinish(GlobalNamespace::LevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0xF4EF74
+    // Offset: 0x1086DBC
     void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void DisablePlayer()
-    // Offset: 0xF4EFE8
+    // Offset: 0x1086E30
     void DisablePlayer();
     // public System.Void PauseSpawning()
-    // Offset: 0xF4F058
+    // Offset: 0x107915C
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0xF4F10C
+    // Offset: 0x10786D4
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0xF4F1C0
+    // Offset: 0x1086EA0
     void __ForceStopSong();
     // public System.Void .ctor()
-    // Offset: 0xF4F208
+    // Offset: 0x1086EE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider
     class Avoider;
-    // [TooltipAttribute] Offset: 0xD15904
+    // [TooltipAttribute] Offset: 0xD29FF0
     // public RootMotion.FinalIK.PenetrationAvoidance/Avoider[] avoiders
     // Size: 0x8
     // Offset: 0x30
@@ -37,12 +37,12 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: PenetrationAvoidance
     PenetrationAvoidance(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders_ = {}) noexcept : avoiders{avoiders_} {}
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x191AB10
+    // Offset: 0x1904984
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x191AD90
+    // Offset: 0x1904C04
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

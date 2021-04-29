@@ -22,10 +22,10 @@ namespace System::Net {
     // Creating value type constructor for type: HttpStatusDescription
     HttpStatusDescription() noexcept {}
     // static System.String Get(System.Net.HttpStatusCode code)
-    // Offset: 0x14912F0
+    // Offset: 0x149D048
     static ::Il2CppString* Get(System::Net::HttpStatusCode code);
     // static System.String Get(System.Int32 code)
-    // Offset: 0x1489AEC
+    // Offset: 0x1495844
     static ::Il2CppString* Get(int code);
   }; // System.Net.HttpStatusDescription
   #pragma pack(pop)

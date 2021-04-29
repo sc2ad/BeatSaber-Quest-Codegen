@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/SystemRegion ovrp_GetSystemRegion()
-    // Offset: 0x1562E3C
+    // Offset: 0x1581DC0
     static GlobalNamespace::OVRPlugin::SystemRegion ovrp_GetSystemRegion();
     // static private System.Void .cctor()
-    // Offset: 0x1562EB0
+    // Offset: 0x1581E34
     static void _cctor();
   }; // OVRPlugin/OVRP_1_5_0
   #pragma pack(pop)

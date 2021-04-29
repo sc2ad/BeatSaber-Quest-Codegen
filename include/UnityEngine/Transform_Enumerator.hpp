@@ -39,20 +39,20 @@ namespace UnityEngine {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(UnityEngine.Transform outer)
-    // Offset: 0x1989DE0
+    // Offset: 0x19CAF3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform::Enumerator*, creationType>(outer)));
     }
     // public System.Object get_Current()
-    // Offset: 0x1989E64
+    // Offset: 0x19CAFC0
     ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1989EBC
+    // Offset: 0x19CB018
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1989F28
+    // Offset: 0x19CB084
     void Reset();
   }; // UnityEngine.Transform/Enumerator
   #pragma pack(pop)

@@ -100,25 +100,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MouseLook
     MouseLook(float xSensitivity_ = {}, float ySensitivity_ = {}, bool clampVerticalRotation_ = {}, float minimumX_ = {}, float maximumX_ = {}, bool smooth_ = {}, float smoothTime_ = {}, bool lockCursor_ = {}, UnityEngine::Quaternion characterTargetRot_ = {}, UnityEngine::Quaternion cameraTargetRot_ = {}, bool cursorIsLocked_ = {}) noexcept : xSensitivity{xSensitivity_}, ySensitivity{ySensitivity_}, clampVerticalRotation{clampVerticalRotation_}, minimumX{minimumX_}, maximumX{maximumX_}, smooth{smooth_}, smoothTime{smoothTime_}, lockCursor{lockCursor_}, characterTargetRot{characterTargetRot_}, cameraTargetRot{cameraTargetRot_}, cursorIsLocked{cursorIsLocked_} {}
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x1038500
+    // Offset: 0xFBD350
     void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x1038598
+    // Offset: 0xFBD3E8
     void LookRotation(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0x1038948
+    // Offset: 0xFBD798
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0x1038938
+    // Offset: 0xFBD788
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0x103897C
+    // Offset: 0xFBD7CC
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0x1038870
+    // Offset: 0xFBD6C0
     UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q);
     // public System.Void .ctor()
-    // Offset: 0x10389F8
+    // Offset: 0xFBD848
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

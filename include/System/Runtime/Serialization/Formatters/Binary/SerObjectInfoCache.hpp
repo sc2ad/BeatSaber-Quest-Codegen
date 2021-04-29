@@ -69,14 +69,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: SerObjectInfoCache
     SerObjectInfoCache(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}, ::Array<System::Reflection::MemberInfo*>* memberInfos_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Type*>* memberTypes_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_}, memberInfos{memberInfos_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x146B324
+    // Offset: 0x147707C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoCache*, creationType>(typeName, assemblyName, hasTypeForwardedFrom)));
     }
     // System.Void .ctor(System.Type type)
-    // Offset: 0x146AFE8
+    // Offset: 0x1476D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");

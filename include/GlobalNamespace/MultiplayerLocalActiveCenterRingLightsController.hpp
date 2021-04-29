@@ -46,21 +46,21 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::Transform*>* horizontalLines;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27010
+    // [InjectAttribute] Offset: 0xD3CA40
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27020
+    // [InjectAttribute] Offset: 0xD3CA50
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27030
+    // [InjectAttribute] Offset: 0xD3CA60
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x38
@@ -84,25 +84,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF4CCBC
+    // Offset: 0x1084B04
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF4CE8C
+    // Offset: 0x1084CD4
     void OnDestroy();
     // private System.Void TryResize()
-    // Offset: 0xF4CFE4
+    // Offset: 0x1084E2C
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0xF4CFFC
+    // Offset: 0x1084E44
     void Resize();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0xF4CE74
+    // Offset: 0x1084CBC
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single constructEdgeDistanceFromCenter)
-    // Offset: 0xF4CE5C
+    // Offset: 0x1084CA4
     void HandleEdgeDistanceFromCenterWasCalculated(float constructEdgeDistanceFromCenter);
     // public System.Void .ctor()
-    // Offset: 0xF4D36C
+    // Offset: 0x10851B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

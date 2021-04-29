@@ -67,7 +67,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: UserAuthenticationData
     UserAuthenticationData(BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform_ = {}, BeatSaberAPI::DataTransferObjects::PlatformEnviroment platformEnviroment_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* bsAuthToken_ = {}, ::Il2CppString* gameBuildVersion_ = {}, ::Il2CppString* publicUserDisplayName_ = {}) noexcept : userPlatform{userPlatform_}, platformEnviroment{platformEnviroment_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, bsAuthToken{bsAuthToken_}, gameBuildVersion{gameBuildVersion_}, publicUserDisplayName{publicUserDisplayName_} {}
     // public System.Void .ctor()
-    // Offset: 0x1066F3C
+    // Offset: 0x10A74C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

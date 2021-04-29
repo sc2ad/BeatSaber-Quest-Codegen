@@ -52,25 +52,25 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
     static void _set_s_sendOrPostCallbackRunAction(System::Threading::SendOrPostCallback* value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xDE5CBC
+    // Offset: 0xDFC13C
     bool get_IsCompleted();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xDE5CC4
+    // Offset: 0xDFC144
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xDE5CC8
+    // Offset: 0xDFC148
     void UnsafeOnCompleted(System::Action* continuation);
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x1301488
+    // Offset: 0x1321138
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x13017C4
+    // Offset: 0x1321474
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0xDE5CCC
+    // Offset: 0xDFC14C
     void GetResult();
     // static private System.Void .cctor()
-    // Offset: 0x1301834
+    // Offset: 0x13214E4
     static void _cctor();
   }; // System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter
   #pragma pack(pop)

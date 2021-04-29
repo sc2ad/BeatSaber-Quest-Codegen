@@ -129,14 +129,14 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     bool TryGetSerializedState(TStateTable& state, float& time, GlobalNamespace::SyncStateId& id) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::TryGetSerializedState");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId&>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, state, time, id);
     }
     // public System.Boolean TryGetSerializedStateDelta(out TStateTable delta, out System.Single timeOffset, out SyncStateId baseId)
     // Offset: 0xFFFFFFFF
     bool TryGetSerializedStateDelta(TStateTable& delta, float& timeOffset, GlobalNamespace::SyncStateId& baseId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::TryGetSerializedStateDelta");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId&>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, delta, timeOffset, baseId);
     }
     // public System.Void SetTime(System.Single time)

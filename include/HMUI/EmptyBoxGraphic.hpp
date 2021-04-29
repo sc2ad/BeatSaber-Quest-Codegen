@@ -36,15 +36,15 @@ namespace HMUI {
     // Creating value type constructor for type: EmptyBoxGraphic
     EmptyBoxGraphic(float depth_ = {}) noexcept : depth{depth_} {}
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x12266A4
+    // Offset: 0x1244360
     void OnDrawGizmosSelected();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x12262E4
+    // Offset: 0x1243FA0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x1226910
+    // Offset: 0x12445CC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

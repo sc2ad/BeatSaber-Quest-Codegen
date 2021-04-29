@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rotationSpeedMultiplier and: beatmapObjectCallbackController
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0xD24AE4
+    // [InjectAttribute] Offset: 0xD3A514
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -90,19 +90,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
-    // Offset: 0x109FC24
+    // Offset: 0x10CF038
     void Start();
     // protected System.Void Update()
-    // Offset: 0x109FD48
+    // Offset: 0x10CF15C
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x109FE60
+    // Offset: 0x10CF274
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x109FF60
+    // Offset: 0x10CF374
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x10A00A4
+    // Offset: 0x10CF4B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

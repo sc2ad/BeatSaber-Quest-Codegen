@@ -39,20 +39,20 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: GetRayIntersectionAllNonAllocCallback
     GetRayIntersectionAllNonAllocCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1839C80
+    // Offset: 0x1829008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i)
-    // Offset: 0x1839C90
+    // Offset: 0x1829018
     int Invoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x183A008
+    // Offset: 0x1829390
     System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x183A0E0
+    // Offset: 0x1829468
     int EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/GetRayIntersectionAllNonAllocCallback
   #pragma pack(pop)

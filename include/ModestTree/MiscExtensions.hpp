@@ -41,7 +41,7 @@ namespace ModestTree {
     // Creating value type constructor for type: MiscExtensions
     MiscExtensions() noexcept {}
     // static public System.String Fmt(System.String s, params System.Object[] args)
-    // Offset: 0x129B554
+    // Offset: 0x12BA210
     static ::Il2CppString* Fmt(::Il2CppString* s, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Fmt(System.String s, params System.Object[] args)
     static ::Il2CppString* Fmt(::Il2CppString* s, std::initializer_list<::Il2CppObject*> args);
@@ -60,7 +60,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list, item);
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
-    // Offset: 0x129C5F0
+    // Offset: 0x12BB2AC
     static ::Il2CppString* Join(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, ::Il2CppString* separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFF

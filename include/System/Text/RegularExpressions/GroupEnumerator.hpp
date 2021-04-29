@@ -46,23 +46,23 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Text.RegularExpressions.GroupCollection rgc)
-    // Offset: 0x16B73F8
+    // Offset: 0x16BA7E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupEnumerator* New_ctor(System::Text::RegularExpressions::GroupCollection* rgc) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::GroupEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupEnumerator*, creationType>(rgc)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x16B746C
+    // Offset: 0x16BA85C
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x16B74BC
+    // Offset: 0x16BA8AC
     ::Il2CppObject* get_Current();
     // public System.Text.RegularExpressions.Capture get_Capture()
-    // Offset: 0x16B74C0
+    // Offset: 0x16BA8B0
     System::Text::RegularExpressions::Capture* get_Capture();
     // public System.Void Reset()
-    // Offset: 0x16B757C
+    // Offset: 0x16BA96C
     void Reset();
   }; // System.Text.RegularExpressions.GroupEnumerator
   #pragma pack(pop)

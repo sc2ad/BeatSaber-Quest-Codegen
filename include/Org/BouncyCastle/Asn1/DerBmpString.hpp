@@ -39,24 +39,24 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // System.Void .ctor(System.Char[] str)
-    // Offset: 0x1544740
+    // Offset: 0x15636C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBmpString* New_ctor(::Array<::Il2CppChar>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBmpString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBmpString*, creationType>(str)));
     }
     // public override System.String GetString()
-    // Offset: 0x155081C
+    // Offset: 0x156F7A0
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1550824
+    // Offset: 0x156F7A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x15508D8
+    // Offset: 0x156F85C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

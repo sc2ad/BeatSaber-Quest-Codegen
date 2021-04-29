@@ -68,19 +68,19 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BACBEC
+    // Offset: 0x1BB6C84
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1BACE1C
+    // Offset: 0x1BB6EB4
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1BACE5C
+    // Offset: 0x1BB6EF4
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1BACE9C
+    // Offset: 0x1BB6F34
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
     // public System.Void .ctor()
-    // Offset: 0x1BAD378
+    // Offset: 0x1BB7410
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

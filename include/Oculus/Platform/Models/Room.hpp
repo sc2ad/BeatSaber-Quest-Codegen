@@ -73,7 +73,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C8F4
+    // [ObsoleteAttribute] Offset: 0xD21894
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -108,7 +108,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::MatchmakingEnqueuedUserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C92C
+    // [ObsoleteAttribute] Offset: 0xD218CC
     // public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
     // Size: 0x8
     // Offset: 0x58
@@ -135,7 +135,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* OwnerOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C964
+    // [ObsoleteAttribute] Offset: 0xD21904
     // public readonly Oculus.Platform.Models.User Owner
     // Size: 0x8
     // Offset: 0x78
@@ -148,7 +148,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::TeamList* TeamsOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::TeamList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C99C
+    // [ObsoleteAttribute] Offset: 0xD2193C
     // public readonly Oculus.Platform.Models.TeamList Teams
     // Size: 0x8
     // Offset: 0x88
@@ -169,7 +169,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD0C9D4
+    // [ObsoleteAttribute] Offset: 0xD21974
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0xA0
@@ -185,7 +185,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Room
     Room(uint64_t ApplicationID_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* DataStore_ = {}, ::Il2CppString* Description_ = {}, uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, bool IsMembershipLocked_ = {}, Oculus::Platform::RoomJoinPolicy JoinPolicy_ = {}, Oculus::Platform::RoomJoinability Joinability_ = {}, Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsersOptional_ = {}, Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsers_ = {}, uint MaxUsers_ = {}, ::Il2CppString* Name_ = {}, Oculus::Platform::Models::User* OwnerOptional_ = {}, Oculus::Platform::Models::User* Owner_ = {}, Oculus::Platform::Models::TeamList* TeamsOptional_ = {}, Oculus::Platform::Models::TeamList* Teams_ = {}, Oculus::Platform::RoomType Type_ = {}, Oculus::Platform::Models::UserList* UsersOptional_ = {}, Oculus::Platform::Models::UserList* Users_ = {}, uint Version_ = {}) noexcept : ApplicationID{ApplicationID_}, DataStore{DataStore_}, Description{Description_}, _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, IsMembershipLocked{IsMembershipLocked_}, JoinPolicy{JoinPolicy_}, Joinability{Joinability_}, MatchedUsersOptional{MatchedUsersOptional_}, MatchedUsers{MatchedUsers_}, MaxUsers{MaxUsers_}, Name{Name_}, OwnerOptional{OwnerOptional_}, Owner{Owner_}, TeamsOptional{TeamsOptional_}, Teams{Teams_}, Type{Type_}, UsersOptional{UsersOptional_}, Users{Users_}, Version{Version_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138A7E4
+    // Offset: 0x13AA494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Room* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Room::.ctor");

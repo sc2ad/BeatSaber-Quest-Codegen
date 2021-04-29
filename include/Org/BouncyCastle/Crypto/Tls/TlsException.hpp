@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Creating value type constructor for type: TlsException
     TlsException() noexcept {}
     // public System.Void .ctor(System.String message, System.Exception cause)
-    // Offset: 0x1174480
+    // Offset: 0x11A16F8
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message, System.Exception cause)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception cause)

@@ -38,14 +38,14 @@ namespace System::Runtime::Remoting::Messaging {
       return m_ctx;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0xDFB2F8
+    // Offset: 0xE0DBA0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx)
     // public System.Boolean get_IsNull()
-    // Offset: 0xDFB300
+    // Offset: 0xE0DBA8
     bool get_IsNull();
     // public System.Object GetData(System.String name)
-    // Offset: 0xDFB310
+    // Offset: 0xE0DBB8
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader
   #pragma pack(pop)

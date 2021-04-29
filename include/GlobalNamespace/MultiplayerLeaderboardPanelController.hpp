@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* items;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD256F8
+    // [InjectAttribute] Offset: 0xD3B128
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF45888
+    // Offset: 0x107D908
     void Start();
     // protected System.Void Update()
-    // Offset: 0xF4592C
+    // Offset: 0x107D9AC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF45EC0
+    // Offset: 0x107DF40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

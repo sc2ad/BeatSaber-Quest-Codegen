@@ -36,14 +36,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD0657C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B4F4
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0658C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B504
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -71,37 +71,37 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // public System.String get_userId()
-    // Offset: 0x121E42C
+    // Offset: 0x123C0E8
     ::Il2CppString* get_userId();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x121E434
+    // Offset: 0x123C0F0
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x121E43C
+    // Offset: 0x123C0F8
     ::Il2CppString* get_userName();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x121E444
+    // Offset: 0x123C100
     void set_userName(::Il2CppString* value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x121E44C
+    // Offset: 0x123C108
     MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121E490
+    // Offset: 0x123C14C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121E504
+    // Offset: 0x123C1C0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121E57C
+    // Offset: 0x123C238
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // protected System.Void .ctor()
-    // Offset: 0x121E5A8
+    // Offset: 0x123C264
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

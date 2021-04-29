@@ -368,7 +368,7 @@ namespace System {
     // Set static field: static private System.String DateDataField
     static void _set_DateDataField(::Il2CppString* value);
     // public System.Void .ctor(System.Int64 ticks)
-    // Offset: 0xDF8F88
+    // Offset: 0xE0CCEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int64_t ticks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -376,11 +376,11 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks);
     }
     // private System.Void .ctor(System.UInt64 dateData)
-    // Offset: 0xDF8F90
+    // Offset: 0xE0CCF4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DateTime(uint64_t dateData)
     // public System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind)
-    // Offset: 0xDF8F98
+    // Offset: 0xE0CCFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int64_t ticks, System::DateTimeKind kind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -388,7 +388,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks, kind);
     }
     // System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind, System.Boolean isAmbiguousDst)
-    // Offset: 0xDF8FA0
+    // Offset: 0xE0CD04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -396,7 +396,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks, kind, isAmbiguousDst);
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0xDF8FAC
+    // Offset: 0xE0CD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -404,7 +404,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day);
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.DateTimeKind kind)
-    // Offset: 0xDF8FB4
+    // Offset: 0xE0CD18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day, int hour, int minute, int second, System::DateTimeKind kind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -412,7 +412,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day, hour, minute, second, kind);
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
-    // Offset: 0xDF8FBC
+    // Offset: 0xE0CD20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -420,7 +420,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day, hour, minute, second, millisecond);
     }
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.DateTimeKind kind)
-    // Offset: 0xDF8FC4
+    // Offset: 0xE0CD28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTimeKind kind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -428,7 +428,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day, hour, minute, second, millisecond, kind);
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDF8FD4
+    // Offset: 0xE0CD38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DateTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
@@ -436,221 +436,224 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
     }
     // System.Int64 get_InternalTicks()
-    // Offset: 0xDF8FDC
+    // Offset: 0xE0CD40
     int64_t get_InternalTicks();
     // private System.UInt64 get_InternalKind()
-    // Offset: 0xDF8FE8
+    // Offset: 0xE0CD4C
     uint64_t get_InternalKind();
     // public System.DateTime Add(System.TimeSpan value)
-    // Offset: 0xDF8FF4
+    // Offset: 0xE0CD58
     System::DateTime Add(System::TimeSpan value);
     // private System.DateTime Add(System.Double value, System.Int32 scale)
-    // Offset: 0xDF8FFC
+    // Offset: 0xE0CD60
     System::DateTime Add(double value, int scale);
     // public System.DateTime AddDays(System.Double value)
-    // Offset: 0xDF9004
+    // Offset: 0xE0CD68
     System::DateTime AddDays(double value);
     // public System.DateTime AddMilliseconds(System.Double value)
-    // Offset: 0xDF9014
+    // Offset: 0xE0CD78
     System::DateTime AddMilliseconds(double value);
     // public System.DateTime AddMonths(System.Int32 months)
-    // Offset: 0xDF9020
+    // Offset: 0xE0CD84
     System::DateTime AddMonths(int months);
     // public System.DateTime AddSeconds(System.Double value)
-    // Offset: 0xDF9028
+    // Offset: 0xE0CD8C
     System::DateTime AddSeconds(double value);
     // public System.DateTime AddTicks(System.Int64 value)
-    // Offset: 0xDF9034
+    // Offset: 0xE0CD98
     System::DateTime AddTicks(int64_t value);
     // public System.DateTime AddYears(System.Int32 value)
-    // Offset: 0xDF903C
+    // Offset: 0xE0CDA0
     System::DateTime AddYears(int value);
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0xDF9044
+    // Offset: 0xE0CDA8
     int CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.DateTime value)
-    // Offset: 0xDF904C
+    // Offset: 0xE0CDB0
     int CompareTo(System::DateTime value);
     // static private System.Int64 DateToTicks(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x18280F0
+    // Offset: 0x17FD860
     static int64_t DateToTicks(int year, int month, int day);
     // static private System.Int64 TimeToTicks(System.Int32 hour, System.Int32 minute, System.Int32 second)
-    // Offset: 0x1828408
+    // Offset: 0x17FDB78
     static int64_t TimeToTicks(int hour, int minute, int second);
     // static public System.Int32 DaysInMonth(System.Int32 year, System.Int32 month)
-    // Offset: 0x1829330
+    // Offset: 0x17FEAA0
     static int DaysInMonth(int year, int month);
     // public System.Boolean Equals(System.DateTime value)
-    // Offset: 0xDF9070
+    // Offset: 0xE0CDD4
     bool Equals(System::DateTime value);
     // static public System.DateTime FromBinary(System.Int64 dateData)
-    // Offset: 0x1829804
+    // Offset: 0x17FEF74
     static System::DateTime FromBinary(int64_t dateData);
     // static System.DateTime FromBinaryRaw(System.Int64 dateData)
-    // Offset: 0x1829A0C
+    // Offset: 0x17FF17C
     static System::DateTime FromBinaryRaw(int64_t dateData);
     // static public System.DateTime FromFileTime(System.Int64 fileTime)
-    // Offset: 0x1829AC8
+    // Offset: 0x17FF238
     static System::DateTime FromFileTime(int64_t fileTime);
     // static public System.DateTime FromFileTimeUtc(System.Int64 fileTime)
-    // Offset: 0x1829B4C
+    // Offset: 0x17FF2BC
     static System::DateTime FromFileTimeUtc(int64_t fileTime);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDF9084
+    // Offset: 0xE0CDE8
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static public System.DateTime SpecifyKind(System.DateTime value, System.DateTimeKind kind)
-    // Offset: 0x1829CF8
+    // Offset: 0x17FF468
     static System::DateTime SpecifyKind(System::DateTime value, System::DateTimeKind kind);
     // System.Int64 ToBinaryRaw()
-    // Offset: 0xDF908C
+    // Offset: 0xE0CDF0
     int64_t ToBinaryRaw();
     // public System.DateTime get_Date()
-    // Offset: 0xDF9094
+    // Offset: 0xE0CDF8
     System::DateTime get_Date();
     // private System.Int32 GetDatePart(System.Int32 part)
-    // Offset: 0xDF90D0
+    // Offset: 0xE0CE34
     int GetDatePart(int part);
     // public System.Int32 get_Day()
-    // Offset: 0xDF90D8
+    // Offset: 0xE0CE3C
     int get_Day();
     // public System.DayOfWeek get_DayOfWeek()
-    // Offset: 0xDF90E4
+    // Offset: 0xE0CE48
     System::DayOfWeek get_DayOfWeek();
     // public System.Int32 get_Hour()
-    // Offset: 0xDF9140
+    // Offset: 0xE0CEA4
     int get_Hour();
     // public System.DateTimeKind get_Kind()
-    // Offset: 0xDF917C
+    // Offset: 0xE0CEE0
     System::DateTimeKind get_Kind();
+    // public System.Int32 get_Millisecond()
+    // Offset: 0xE0CF04
+    int get_Millisecond();
     // public System.Int32 get_Minute()
-    // Offset: 0xDF91A0
+    // Offset: 0xE0CF4C
     int get_Minute();
     // public System.Int32 get_Month()
-    // Offset: 0xDF91DC
+    // Offset: 0xE0CF88
     int get_Month();
     // static public System.DateTime get_Now()
-    // Offset: 0x1829E50
+    // Offset: 0x17FF608
     static System::DateTime get_Now();
     // static public System.DateTime get_UtcNow()
-    // Offset: 0x1829F78
+    // Offset: 0x17FF730
     static System::DateTime get_UtcNow();
     // static System.Int64 GetSystemTimeAsFileTime()
-    // Offset: 0x1829FF8
+    // Offset: 0x17FF7B0
     static int64_t GetSystemTimeAsFileTime();
     // public System.Int32 get_Second()
-    // Offset: 0xDF91E8
+    // Offset: 0xE0CF94
     int get_Second();
     // public System.Int64 get_Ticks()
-    // Offset: 0xDF9224
+    // Offset: 0xE0CFD0
     int64_t get_Ticks();
     // public System.TimeSpan get_TimeOfDay()
-    // Offset: 0xDF9230
+    // Offset: 0xE0CFDC
     System::TimeSpan get_TimeOfDay();
     // public System.Int32 get_Year()
-    // Offset: 0xDF9264
+    // Offset: 0xE0D010
     int get_Year();
     // static public System.Boolean IsLeapYear(System.Int32 year)
-    // Offset: 0x182966C
+    // Offset: 0x17FEDDC
     static bool IsLeapYear(int year);
     // static public System.DateTime Parse(System.String s, System.IFormatProvider provider)
-    // Offset: 0x1824E74
+    // Offset: 0x17FA5E4
     static System::DateTime Parse(::Il2CppString* s, System::IFormatProvider* provider);
     // static public System.DateTime ParseExact(System.String s, System.String format, System.IFormatProvider provider)
-    // Offset: 0x182A074
+    // Offset: 0x17FF82C
     static System::DateTime ParseExact(::Il2CppString* s, ::Il2CppString* format, System::IFormatProvider* provider);
     // static public System.DateTime ParseExact(System.String s, System.String format, System.IFormatProvider provider, System.Globalization.DateTimeStyles style)
-    // Offset: 0x182A12C
+    // Offset: 0x17FF8E4
     static System::DateTime ParseExact(::Il2CppString* s, ::Il2CppString* format, System::IFormatProvider* provider, System::Globalization::DateTimeStyles style);
     // public System.TimeSpan Subtract(System.DateTime value)
-    // Offset: 0xDF9270
+    // Offset: 0xE0D01C
     System::TimeSpan Subtract(System::DateTime value);
     // public System.DateTime ToLocalTime()
-    // Offset: 0xDF9284
+    // Offset: 0xE0D030
     System::DateTime ToLocalTime();
     // System.DateTime ToLocalTime(System.Boolean throwOnOverflow)
-    // Offset: 0xDF9290
+    // Offset: 0xE0D03C
     System::DateTime ToLocalTime(bool throwOnOverflow);
     // public System.String ToString(System.String format)
-    // Offset: 0xDF92A4
+    // Offset: 0xE0D050
     ::Il2CppString* ToString(::Il2CppString* format);
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0xDF92AC
+    // Offset: 0xE0D058
     ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
-    // Offset: 0xDF92B4
+    // Offset: 0xE0D060
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.DateTime ToUniversalTime()
-    // Offset: 0xDF92BC
+    // Offset: 0xE0D068
     System::DateTime ToUniversalTime();
     // static public System.Boolean TryParse(System.String s, System.IFormatProvider provider, System.Globalization.DateTimeStyles styles, out System.DateTime result)
-    // Offset: 0x182A704
+    // Offset: 0x17FFEBC
     static bool TryParse(::Il2CppString* s, System::IFormatProvider* provider, System::Globalization::DateTimeStyles styles, System::DateTime& result);
     // public System.TypeCode GetTypeCode()
-    // Offset: 0xDF92CC
+    // Offset: 0xE0D078
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0xDF92D4
+    // Offset: 0xE0D080
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0xDF92E0
+    // Offset: 0xE0D08C
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0xDF92EC
+    // Offset: 0xE0D098
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0xDF92F8
+    // Offset: 0xE0D0A4
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0xDF9304
+    // Offset: 0xE0D0B0
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0xDF9310
+    // Offset: 0xE0D0BC
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0xDF931C
+    // Offset: 0xE0D0C8
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0xDF9328
+    // Offset: 0xE0D0D4
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0xDF9334
+    // Offset: 0xE0D0E0
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0xDF9340
+    // Offset: 0xE0D0EC
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0xDF934C
+    // Offset: 0xE0D0F8
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0xDF9358
+    // Offset: 0xE0D104
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0xDF9364
+    // Offset: 0xE0D110
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0xDF9370
+    // Offset: 0xE0D11C
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0xDF9378
+    // Offset: 0xE0D124
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
     // static System.Boolean TryCreate(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, out System.DateTime result)
-    // Offset: 0x182B704
+    // Offset: 0x1800EBC
     static bool TryCreate(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTime& result);
     // static private System.Void .cctor()
-    // Offset: 0x182B93C
+    // Offset: 0x18010F4
     static void _cctor();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0xDF9068
+    // Offset: 0xE0CDCC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDF9130
+    // Offset: 0xE0CE94
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xDF929C
+    // Offset: 0xE0D048
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -659,31 +662,31 @@ namespace System {
   static check_size<sizeof(DateTime), 0 + sizeof(uint64_t)> __System_DateTimeSizeCheck;
   static_assert(sizeof(DateTime) == 0x8);
   // static public System.DateTime op_Addition(System.DateTime d, System.TimeSpan t)
-  // Offset: 0x182A7E0
+  // Offset: 0x17FFF98
   System::DateTime operator+(const System::DateTime& d, const System::TimeSpan& t);
   // static public System.DateTime op_Subtraction(System.DateTime d, System.TimeSpan t)
-  // Offset: 0x182A8C0
+  // Offset: 0x1800078
   System::DateTime operator-(const System::DateTime& d, const System::TimeSpan& t);
   // static public System.TimeSpan op_Subtraction(System.DateTime d1, System.DateTime d2)
-  // Offset: 0x182A998
+  // Offset: 0x1800150
   System::TimeSpan operator-(const System::DateTime& d1, const System::DateTime& d2);
   // static public System.Boolean op_Equality(System.DateTime d1, System.DateTime d2)
-  // Offset: 0x182A9A8
+  // Offset: 0x1800160
   bool operator ==(const System::DateTime& d1, const System::DateTime& d2);
   // static public System.Boolean op_Inequality(System.DateTime d1, System.DateTime d2)
-  // Offset: 0x182A9B8
+  // Offset: 0x1800170
   bool operator !=(const System::DateTime& d1, const System::DateTime& d2);
   // static public System.Boolean op_LessThan(System.DateTime t1, System.DateTime t2)
-  // Offset: 0x182A9C8
+  // Offset: 0x1800180
   bool operator <(const System::DateTime& t1, const System::DateTime& t2);
   // static public System.Boolean op_LessThanOrEqual(System.DateTime t1, System.DateTime t2)
-  // Offset: 0x182A9DC
+  // Offset: 0x1800194
   bool operator <=(const System::DateTime& t1, const System::DateTime& t2);
   // static public System.Boolean op_GreaterThan(System.DateTime t1, System.DateTime t2)
-  // Offset: 0x182A9F0
+  // Offset: 0x18001A8
   bool operator >(const System::DateTime& t1, const System::DateTime& t2);
   // static public System.Boolean op_GreaterThanOrEqual(System.DateTime t1, System.DateTime t2)
-  // Offset: 0x182AA04
+  // Offset: 0x18001BC
   bool operator >=(const System::DateTime& t1, const System::DateTime& t2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DateTime, "System", "DateTime");

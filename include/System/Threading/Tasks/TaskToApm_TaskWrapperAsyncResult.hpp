@@ -57,23 +57,23 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Object state, System.Boolean completedSynchronously)
-    // Offset: 0x16E0A68
+    // Offset: 0x16E1E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskToApm::TaskWrapperAsyncResult*, creationType>(task, state, completedSynchronously)));
     }
     // private System.Object System.IAsyncResult.get_AsyncState()
-    // Offset: 0x16E0C80
+    // Offset: 0x16E2070
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x16E0C88
+    // Offset: 0x16E2078
     bool System_IAsyncResult_get_CompletedSynchronously();
     // private System.Boolean System.IAsyncResult.get_IsCompleted()
-    // Offset: 0x16E0C90
+    // Offset: 0x16E2080
     bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x16E0CAC
+    // Offset: 0x16E209C
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
   }; // System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult
   #pragma pack(pop)

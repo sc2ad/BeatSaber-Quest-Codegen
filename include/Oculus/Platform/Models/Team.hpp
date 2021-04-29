@@ -52,7 +52,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Team
     Team(Oculus::Platform::Models::UserList* AssignedUsers_ = {}, int MaxUsers_ = {}, int MinUsers_ = {}, ::Il2CppString* Name_ = {}) noexcept : AssignedUsers{AssignedUsers_}, MaxUsers{MaxUsers_}, MinUsers{MinUsers_}, Name{Name_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1390094
+    // Offset: 0x13AFD44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Team* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Team::.ctor");

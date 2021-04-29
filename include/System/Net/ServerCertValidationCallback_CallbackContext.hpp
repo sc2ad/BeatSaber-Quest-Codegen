@@ -62,7 +62,7 @@ namespace System::Net {
     // Creating value type constructor for type: CallbackContext
     CallbackContext(::Il2CppObject* request_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* certificate_ = {}, System::Security::Cryptography::X509Certificates::X509Chain* chain_ = {}, System::Net::Security::SslPolicyErrors sslPolicyErrors_ = {}, bool result_ = {}) noexcept : request{request_}, certificate{certificate_}, chain{chain_}, sslPolicyErrors{sslPolicyErrors_}, result{result_} {}
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x13316E0
+    // Offset: 0x1351390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::CallbackContext::.ctor");

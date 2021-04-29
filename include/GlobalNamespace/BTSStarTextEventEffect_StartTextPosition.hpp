@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StartTextPosition
     StartTextPosition(int id_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : id{id_}, transform{transform_} {}
     // public System.Int32 get_id()
-    // Offset: 0x100CDD8
+    // Offset: 0x1025A14
     int get_id();
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x100CDE0
+    // Offset: 0x1025A1C
     UnityEngine::Transform* get_transform();
     // public System.Void .ctor()
-    // Offset: 0x100CDE8
+    // Offset: 0x1025A24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarSaveData
     AvatarSaveData(::Il2CppString* headTopId_ = {}, ::Il2CppString* glassesId_ = {}, ::Il2CppString* facialHairId_ = {}, ::Il2CppString* handsId_ = {}, ::Il2CppString* clothesId_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* mouthId_ = {}, ::Il2CppString* eyesId_ = {}, UnityEngine::Color headTopPrimaryColor_ = {}, UnityEngine::Color headTopSecondaryColor_ = {}, UnityEngine::Color glassesColor_ = {}, UnityEngine::Color facialHairColor_ = {}, UnityEngine::Color handsColor_ = {}, UnityEngine::Color clothesPrimaryColor_ = {}, UnityEngine::Color clothesSecondaryColor_ = {}, UnityEngine::Color clothesDetailColor_ = {}) noexcept : headTopId{headTopId_}, glassesId{glassesId_}, facialHairId{facialHairId_}, handsId{handsId_}, clothesId{clothesId_}, skinColorId{skinColorId_}, mouthId{mouthId_}, eyesId{eyesId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesColor{glassesColor_}, facialHairColor{facialHairColor_}, handsColor{handsColor_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_} {}
     // public System.Void .ctor()
-    // Offset: 0x1003FA4
+    // Offset: 0x101CC0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

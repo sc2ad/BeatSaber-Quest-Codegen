@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BoolSO* overrideAudioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2DC3C
+    // [SpaceAttribute] Offset: 0xD436E4
     // private UnityEngine.CanvasGroup _setupCanvasGroup
     // Size: 0x8
     // Offset: 0x80
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     GlobalNamespace::VisualMetronome* visualMetronome;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VisualMetronome*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2DCA4
+    // [SpaceAttribute] Offset: 0xD4374C
     // private System.Single _disabledAlpha
     // Size: 0x4
     // Offset: 0xA0
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: disabledAlpha and: songPreviewPlayer
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0xD2DCDC
+    // [InjectAttribute] Offset: 0xD43784
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xA8
@@ -110,31 +110,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioLatencyViewController
     AudioLatencyViewController(GlobalNamespace::FloatSO* audioLatency_ = {}, GlobalNamespace::BoolSO* overrideAudioLatency_ = {}, UnityEngine::CanvasGroup* setupCanvasGroup_ = {}, UnityEngine::UI::Toggle* overrideAudioLatencyToggle_ = {}, HMUI::RangeValuesTextSlider* slider_ = {}, GlobalNamespace::VisualMetronome* visualMetronome_ = {}, float disabledAlpha_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : audioLatency{audioLatency_}, overrideAudioLatency{overrideAudioLatency_}, setupCanvasGroup{setupCanvasGroup_}, overrideAudioLatencyToggle{overrideAudioLatencyToggle_}, slider{slider_}, visualMetronome{visualMetronome_}, disabledAlpha{disabledAlpha_}, songPreviewPlayer{songPreviewPlayer_}, toggleBinder{toggleBinder_} {}
     // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1001E64
+    // Offset: 0x101AACC
     void SliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleOverrideAudioLatencyToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1001EE0
+    // Offset: 0x101AB48
     void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
     // private System.Void RefreshVisuals(System.Boolean overrideAudioLatencyIsEnabled)
-    // Offset: 0x1001C5C
+    // Offset: 0x101A8C4
     void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1001A6C
+    // Offset: 0x101A6D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1001D58
+    // Offset: 0x101A9C0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1001D7C
+    // Offset: 0x101A9E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1001F58
+    // Offset: 0x101ABC0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

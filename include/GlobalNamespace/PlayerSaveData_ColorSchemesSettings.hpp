@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSchemesSettings
     ColorSchemesSettings(bool overrideDefaultColors_ = {}, ::Il2CppString* selectedColorSchemeId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes_ = {}) noexcept : overrideDefaultColors{overrideDefaultColors_}, selectedColorSchemeId{selectedColorSchemeId_}, colorSchemes{colorSchemes_} {}
     // public System.Void .ctor(System.Boolean overrideDefaultColors, System.String selectedColorSchemeId, System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes)
-    // Offset: 0xF670E8
+    // Offset: 0xF78A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::Il2CppString* selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorSchemesSettings::.ctor");

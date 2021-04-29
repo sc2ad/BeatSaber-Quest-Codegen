@@ -69,20 +69,20 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_MaxStringLength
     static void _set_k_MaxStringLength(int value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x13553F4
+    // Offset: 0x13750A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRenderer* New_ctor(NUnit::Framework::Interfaces::ITestResult* testResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer*, creationType>(testResults)));
     }
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1356974
+    // Offset: 0x1376624
     void GetFailedTests(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
-    // Offset: 0x135547C
+    // Offset: 0x137512C
     void ShowResults();
     // public System.Void Draw()
-    // Offset: 0x13554A8
+    // Offset: 0x1375158
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
   #pragma pack(pop)

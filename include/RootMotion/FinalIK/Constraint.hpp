@@ -38,13 +38,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Constraint
     Constraint(UnityEngine::Transform* transform_ = {}, float weight_ = {}) noexcept : transform{transform_}, weight{weight_} {}
     // public System.Boolean get_isValid()
-    // Offset: 0x1AB4DF8
+    // Offset: 0x1AEEE2C
     bool get_isValid();
     // public System.Void UpdateConstraint()
     // Offset: 0xFFFFFFFF
     void UpdateConstraint();
     // protected System.Void .ctor()
-    // Offset: 0x1AB4E68
+    // Offset: 0x1AEEE9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

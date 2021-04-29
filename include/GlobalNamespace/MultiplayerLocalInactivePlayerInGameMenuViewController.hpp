@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* globalCanvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD25EF0
+    // [SpaceAttribute] Offset: 0xD3B920
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -103,49 +103,49 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD25F38
+    // [SpaceAttribute] Offset: 0xD3B968
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD25F70
+    // [SpaceAttribute] Offset: 0xD3B9A0
     // private UnityEngine.GameObject _dontOwnSongGameObject
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::GameObject* dontOwnSongGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD25FA8
+    // [SpaceAttribute] Offset: 0xD3B9D8
     // private UnityEngine.GameObject _detailsGameObject
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::GameObject* detailsGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25FE0
+    // [InjectAttribute] Offset: 0xD3BA10
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25FF0
+    // [InjectAttribute] Offset: 0xD3BA20
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26000
+    // [InjectAttribute] Offset: 0xD3BA30
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26010
+    // [InjectAttribute] Offset: 0xD3BA40
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
@@ -175,40 +175,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0xF53960
+    // Offset: 0xFFF0E0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF53A8C
+    // Offset: 0xFFF20C
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0xF53B40
+    // Offset: 0xFFF2C0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF53C88
+    // Offset: 0xFFF4DC
     void OnDestroy();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0xF53DB8
+    // Offset: 0xFFF60C
     void DisconnectButtonPressed();
     // private System.Void DetailsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0xF53DF8
+    // Offset: 0xFFF64C
     void DetailsToggleValueChanged(bool isOn);
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0xF53E18
+    // Offset: 0xFFF66C
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0xF53ED4
+    // Offset: 0xFFF940
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__22_0()
-    // Offset: 0xF540D0
+    // Offset: 0xFFFB3C
     void $HandleDisconnectPromptViewDidViewFinish$b__22_0();
     // private System.Void <HandleStateChanged>b__23_0(System.Single val)
-    // Offset: 0xF540F0
+    // Offset: 0xFFFB5C
     void $HandleStateChanged$b__23_0(float val);
     // private System.Void <HandleStateChanged>b__23_1()
-    // Offset: 0xF5410C
+    // Offset: 0xFFFB78
     void $HandleStateChanged$b__23_1();
     // public System.Void .ctor()
-    // Offset: 0xF54048
+    // Offset: 0xFFFAB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

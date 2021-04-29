@@ -49,29 +49,29 @@ namespace NUnit::Framework::Internal::Builders {
     // Creating value type constructor for type: NamespaceTreeBuilder
     NamespaceTreeBuilder(System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>* namespaceSuites_ = {}, NUnit::Framework::Internal::TestSuite* rootSuite_ = {}) noexcept : namespaceSuites{namespaceSuites_}, rootSuite{rootSuite_} {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite rootSuite)
-    // Offset: 0x159F6A4
+    // Offset: 0x15BE628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceTreeBuilder* New_ctor(NUnit::Framework::Internal::TestSuite* rootSuite) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceTreeBuilder*, creationType>(rootSuite)));
     }
     // public NUnit.Framework.Internal.TestSuite get_RootSuite()
-    // Offset: 0x159F9D0
+    // Offset: 0x15BE954
     NUnit::Framework::Internal::TestSuite* get_RootSuite();
     // public System.Void Add(System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x159F728
+    // Offset: 0x15BE6AC
     void Add(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void Add(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x15B2F24
+    // Offset: 0x15D1EA8
     void Add(NUnit::Framework::Internal::TestSuite* fixture);
     // static private System.String GetNamespaceForFixture(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x15B2FF4
+    // Offset: 0x15D1F78
     static ::Il2CppString* GetNamespaceForFixture(NUnit::Framework::Internal::TestSuite* fixture);
     // private NUnit.Framework.Internal.TestSuite BuildFromNameSpace(System.String ns)
-    // Offset: 0x15B3100
+    // Offset: 0x15D2084
     NUnit::Framework::Internal::TestSuite* BuildFromNameSpace(::Il2CppString* ns);
     // private System.Void AddSetUpFixture(NUnit.Framework.Internal.TestSuite newSetupFixture, NUnit.Framework.Internal.TestSuite containingSuite, System.String ns)
-    // Offset: 0x15B32B8
+    // Offset: 0x15D223C
     void AddSetUpFixture(NUnit::Framework::Internal::TestSuite* newSetupFixture, NUnit::Framework::Internal::TestSuite* containingSuite, ::Il2CppString* ns);
   }; // NUnit.Framework.Internal.Builders.NamespaceTreeBuilder
   #pragma pack(pop)

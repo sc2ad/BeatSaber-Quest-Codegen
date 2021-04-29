@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(UnityEngine::AudioClip* audioClip_ = {}, float previewStartTime_ = {}, float previewDuration_ = {}) noexcept : audioClip{audioClip_}, previewStartTime{previewStartTime_}, previewDuration{previewDuration_} {}
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single previewStartTime, System.Single previewDuration)
-    // Offset: 0xF524D8
+    // Offset: 0x1000278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalPlayerOutroAudio::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float previewStartTime, float previewDuration) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalPlayerOutroAudio::InitData::.ctor");

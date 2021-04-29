@@ -30,12 +30,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TypeSerializationBinder
     TypeSerializationBinder() noexcept {}
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x108D420
+    // Offset: 0x1672FFC
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // public System.Void .ctor()
-    // Offset: 0x108C860
+    // Offset: 0x167243C
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Void SerializationBinder::.ctor()
     // Base method: System.Void Object::.ctor()

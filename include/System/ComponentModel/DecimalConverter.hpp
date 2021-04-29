@@ -21,7 +21,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: DecimalConverter
     DecimalConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16C99B8
+    // Offset: 0x16CBDA8
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

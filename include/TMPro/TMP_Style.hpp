@@ -57,34 +57,34 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Style
     TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::Array<int>* m_OpeningTagArray_ = {}, ::Array<int>* m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
     // public System.String get_name()
-    // Offset: 0xFA68D4
+    // Offset: 0x1031590
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0xFA68DC
+    // Offset: 0x1031598
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0xFA6918
+    // Offset: 0x10315D4
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0xFA6920
+    // Offset: 0x10315DC
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0xFA6934
+    // Offset: 0x10315F0
     ::Il2CppString* get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0xFA693C
+    // Offset: 0x10315F8
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0xFA6944
+    // Offset: 0x1031600
     ::Array<int>* get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0xFA694C
+    // Offset: 0x1031608
     ::Array<int>* get_styleClosingTagArray();
     // public System.Void RefreshStyle()
-    // Offset: 0xFA6954
+    // Offset: 0x1031610
     void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0xFA6AC4
+    // Offset: 0x1031780
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

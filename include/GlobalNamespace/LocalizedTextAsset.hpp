@@ -27,6 +27,8 @@ namespace GlobalNamespace {
     class TextInfo;
     // Nested type: GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
+    // Nested type: GlobalNamespace::LocalizedTextAsset::$$c
+    class $$c;
     // private LocalizedTextAsset/TextInfo[] _textInfos
     // Size: 0x8
     // Offset: 0x18
@@ -44,13 +46,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x10B5958
+    // Offset: 0x10E42D8
     ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x10B5960
+    // Offset: 0x10E42E0
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x10B5A70
+    // Offset: 0x10E45E0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

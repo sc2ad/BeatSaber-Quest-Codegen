@@ -101,34 +101,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x18A5540
+    // Offset: 0x18852E0
     System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x18A55B8
+    // Offset: 0x1885358
     System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.Void Activate()
-    // Offset: 0x18A55C0
+    // Offset: 0x1885360
     void Activate();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x18A55CC
+    // Offset: 0x188536C
     System::TimeSpan get_RenewOnCallTime();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x18A55D4
+    // Offset: 0x1885374
     System::TimeSpan Renew(System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x18A5670
+    // Offset: 0x1885410
     void Unregister(System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x18A5780
+    // Offset: 0x1885520
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x18A58CC
+    // Offset: 0x188566C
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x18A5B30
+    // Offset: 0x18858D0
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x18A53A8
+    // Offset: 0x1885148
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -21,10 +21,10 @@ namespace System::Net {
     // Set static field: static private System.String[] m_Strings
     static void _set_m_Strings(::Array<::Il2CppString*>* value);
     // static System.String ToString(System.Int32 position)
-    // Offset: 0x14074B8
+    // Offset: 0x1426338
     static ::Il2CppString* ToString(int position);
     // static private System.Void .cctor()
-    // Offset: 0x140754C
+    // Offset: 0x14263CC
     static void _cctor();
   }; // System.Net.UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID
   #pragma pack(pop)

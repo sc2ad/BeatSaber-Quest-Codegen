@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* elements;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2FFB8
+    // [CompilerGeneratedAttribute] Offset: 0xD45AD0
     // private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x78
@@ -53,18 +53,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PromoViewController
     PromoViewController(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* elements_ = {}, System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent_ = {}) noexcept : elements{elements_}, promoButtonWasPressedEvent{promoButtonWasPressedEvent_} {}
     // public System.Void add_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0xFC1EC0
+    // Offset: 0xF81788
     void add_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0xFC1F64
+    // Offset: 0xF8182C
     void remove_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFC2008
+    // Offset: 0xF818D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFC213C
+    // Offset: 0xF81A04
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -91,49 +91,49 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* emptyCustomSongListInfoPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2E894
+    // [InjectAttribute] Offset: 0xD4433C
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2E8A4
+    // [InjectAttribute] Offset: 0xD4434C
     // private readonly SelectLevelCategoryViewController _selectLevelCategoryViewController
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::SelectLevelCategoryViewController* selectLevelCategoryViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectLevelCategoryViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2E8B4
+    // [InjectAttribute] Offset: 0xD4435C
     // private readonly AnnotatedBeatmapLevelCollectionsViewController _annotatedBeatmapLevelCollectionsViewController
     // Size: 0x8
     // Offset: 0xB8
     GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* annotatedBeatmapLevelCollectionsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2E8C4
+    // [InjectAttribute] Offset: 0xD4436C
     // private readonly LevelSearchViewController _levelSearchViewController
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::LevelSearchViewController* levelSearchViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSearchViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2E8D4
+    // [InjectAttribute] Offset: 0xD4437C
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2E8E4
+    // [CompilerGeneratedAttribute] Offset: 0xD4438C
     // private System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> didSelectAnnotatedBeatmapLevelCollectionEvent
     // Size: 0x8
     // Offset: 0xD0
     System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectAnnotatedBeatmapLevelCollectionEvent;
     // Field size check
     static_assert(sizeof(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2E8F4
+    // [CompilerGeneratedAttribute] Offset: 0xD4439C
     // private System.Action`1<LevelFilteringNavigationController> didStartLoadingEvent
     // Size: 0x8
     // Offset: 0xD8
@@ -211,80 +211,80 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelFilteringNavigationController
     LevelFilteringNavigationController(UnityEngine::GameObject* emptyFavoritesListInfoPrefab_ = {}, UnityEngine::GameObject* emptyCustomSongListInfoPrefab_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SelectLevelCategoryViewController* selectLevelCategoryViewController_ = {}, GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* annotatedBeatmapLevelCollectionsViewController_ = {}, GlobalNamespace::LevelSearchViewController* levelSearchViewController_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel_ = {}, System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectAnnotatedBeatmapLevelCollectionEvent_ = {}, System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* didStartLoadingEvent_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, UnityEngine::GameObject* currentNoDataInfoPrefab_ = {}, ::Il2CppString* levelPackIdToBeSelectedAfterPresent_ = {}, bool hidePacksIfOneOrNone_ = {}, bool enableCustomLevels_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* ostBeatmapLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* musicPacksBeatmapLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* customLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* allBeatmapLevelPacks_ = {}) noexcept : emptyFavoritesListInfoPrefab{emptyFavoritesListInfoPrefab_}, emptyCustomSongListInfoPrefab{emptyCustomSongListInfoPrefab_}, playerDataModel{playerDataModel_}, selectLevelCategoryViewController{selectLevelCategoryViewController_}, annotatedBeatmapLevelCollectionsViewController{annotatedBeatmapLevelCollectionsViewController_}, levelSearchViewController{levelSearchViewController_}, beatmapLevelsModel{beatmapLevelsModel_}, didSelectAnnotatedBeatmapLevelCollectionEvent{didSelectAnnotatedBeatmapLevelCollectionEvent_}, didStartLoadingEvent{didStartLoadingEvent_}, cancellationTokenSource{cancellationTokenSource_}, currentNoDataInfoPrefab{currentNoDataInfoPrefab_}, levelPackIdToBeSelectedAfterPresent{levelPackIdToBeSelectedAfterPresent_}, hidePacksIfOneOrNone{hidePacksIfOneOrNone_}, enableCustomLevels{enableCustomLevels_}, songPackMask{songPackMask_}, enabledLevelCategories{enabledLevelCategories_}, ostBeatmapLevelPacks{ostBeatmapLevelPacks_}, musicPacksBeatmapLevelPacks{musicPacksBeatmapLevelPacks_}, customLevelPacks{customLevelPacks_}, allBeatmapLevelPacks{allBeatmapLevelPacks_} {}
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> value)
-    // Offset: 0x1096BD4
+    // Offset: 0x112209C
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> value)
-    // Offset: 0x1096C78
+    // Offset: 0x1122140
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void add_didStartLoadingEvent(System.Action`1<LevelFilteringNavigationController> value)
-    // Offset: 0x1096D1C
+    // Offset: 0x11221E4
     void add_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
     // public System.Void remove_didStartLoadingEvent(System.Action`1<LevelFilteringNavigationController> value)
-    // Offset: 0x1096DC0
+    // Offset: 0x1122288
     void remove_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
     // public IBeatmapLevelPack get_selectedBeatmapLevelPack()
-    // Offset: 0x1096E64
+    // Offset: 0x112232C
     GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();
     // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x1096EC4
+    // Offset: 0x112238C
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void Setup(SongPackMask songPackMask, IBeatmapLevelPack levelPackToBeSelectedAfterPresent, SelectLevelCategoryViewController/LevelCategory startLevelCategory, System.Boolean hidePacksIfOneOrNone, System.Boolean enableCustomLevels)
-    // Offset: 0x1096EE0
+    // Offset: 0x11223A8
     void Setup(GlobalNamespace::SongPackMask songPackMask, GlobalNamespace::IBeatmapLevelPack* levelPackToBeSelectedAfterPresent, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory startLevelCategory, bool hidePacksIfOneOrNone, bool enableCustomLevels);
     // private System.Void SetupBeatmapLevelPacks()
-    // Offset: 0x1097148
+    // Offset: 0x1122610
     void SetupBeatmapLevelPacks();
     // private System.Void LevelSearchViewControllerDidStartLoading(LevelSearchViewController obj)
-    // Offset: 0x10979F0
+    // Offset: 0x1122EB8
     void LevelSearchViewControllerDidStartLoading(GlobalNamespace::LevelSearchViewController* obj);
     // private System.Void LevelSearchViewControllerDidFilterBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, BeatmapCharacteristicSO preferredBeatmapCharacteristic)
-    // Offset: 0x1097E00
+    // Offset: 0x11232C8
     void LevelSearchViewControllerDidFilterBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, GlobalNamespace::BeatmapCharacteristicSO* preferredBeatmapCharacteristic);
     // private System.Void SelectLevelCategoryViewControllerDidSelectLevelCategory(SelectLevelCategoryViewController viewController, SelectLevelCategoryViewController/LevelCategory levelCategory)
-    // Offset: 0x1097E84
+    // Offset: 0x112334C
     void SelectLevelCategoryViewControllerDidSelectLevelCategory(GlobalNamespace::SelectLevelCategoryViewController* viewController, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory);
     // private System.Void UpdateSecondChildControllerContent(SelectLevelCategoryViewController/LevelCategory levelCategory)
-    // Offset: 0x1097408
+    // Offset: 0x11228D0
     void UpdateSecondChildControllerContent(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory);
     // private System.Void ShowPacksInSecondChildController(System.Collections.Generic.IReadOnlyList`1<IBeatmapLevelPack> beatmapLevelPacks)
-    // Offset: 0x1097E8C
+    // Offset: 0x1123354
     void ShowPacksInSecondChildController(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // private System.Void ReplaceSecondViewController(HMUI.ViewController viewController)
-    // Offset: 0x1098100
+    // Offset: 0x11235C8
     void ReplaceSecondViewController(HMUI::ViewController* viewController);
     // private System.Void HandlePlayerDataFavoriteLevelsSetDidChange()
-    // Offset: 0x1098274
+    // Offset: 0x112373C
     void HandlePlayerDataFavoriteLevelsSetDidChange();
     // private System.Void HandleIncreaseNumberOfGameplays()
-    // Offset: 0x10982D0
+    // Offset: 0x1123798
     void HandleIncreaseNumberOfGameplays();
     // private System.Void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x109833C
+    // Offset: 0x1123804
     void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // public System.Void SelectAnnotatedBeatmapLevelCollection(IBeatmapLevelPack levelPack)
-    // Offset: 0x10983BC
+    // Offset: 0x1123884
     void SelectAnnotatedBeatmapLevelCollection(GlobalNamespace::IBeatmapLevelPack* levelPack);
     // private System.Void UpdateCustomSongs()
-    // Offset: 0x10981B4
+    // Offset: 0x112367C
     void UpdateCustomSongs();
     // private System.Boolean <SetupBeatmapLevelPacks>b__29_0(IBeatmapLevelPack pack)
-    // Offset: 0x109879C
+    // Offset: 0x1123C64
     bool $SetupBeatmapLevelPacks$b__29_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Boolean <SetupBeatmapLevelPacks>b__29_1(IBeatmapLevelPack pack)
-    // Offset: 0x109887C
+    // Offset: 0x1123D44
     bool $SetupBeatmapLevelPacks$b__29_1(GlobalNamespace::IBeatmapLevelPack* pack);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10975B0
+    // Offset: 0x1122A78
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1097A54
+    // Offset: 0x1122F1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1098794
+    // Offset: 0x1123C5C
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

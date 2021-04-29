@@ -67,20 +67,20 @@ namespace System::Runtime::CompilerServices {
         return *reinterpret_cast<System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
       }
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0xDE59F0
+      // Offset: 0xDFBE70
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task* task, bool continueOnCapturedContext)
       // public System.Boolean get_IsCompleted()
-      // Offset: 0xDE5A00
+      // Offset: 0xDFBE80
       bool get_IsCompleted();
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0xDE5A1C
+      // Offset: 0xDFBE9C
       void OnCompleted(System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xDE5A30
+      // Offset: 0xDFBEB0
       void UnsafeOnCompleted(System::Action* continuation);
       // public System.Void GetResult()
-      // Offset: 0xDE5A44
+      // Offset: 0xDFBEC4
       void GetResult();
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
     #pragma pack(pop)
@@ -103,7 +103,7 @@ namespace System::Runtime::CompilerServices {
       return m_configuredTaskAwaiter;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0xDE599C
+    // Offset: 0xDFBE1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConfiguredTaskAwaitable(System::Threading::Tasks::Task* task, bool continueOnCapturedContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable::.ctor");
@@ -111,7 +111,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, task, continueOnCapturedContext);
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0xDE59A8
+    // Offset: 0xDFBE28
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
   #pragma pack(pop)

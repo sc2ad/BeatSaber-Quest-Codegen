@@ -282,7 +282,7 @@ namespace Org::BouncyCastle::Asn1::GM {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier sm2sign_with_blake2s256
     static void _set_sm2sign_with_blake2s256(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1557724
+    // Offset: 0x15766A8
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.GM.GMObjectIdentifiers
   #pragma pack(pop)

@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarSpritePartSO
     AvatarSpritePartSO() noexcept {}
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x100726C
+    // Offset: 0x101FEA8
     UnityEngine::Sprite* get_sprite();
     // public System.Void .ctor()
-    // Offset: 0x10072B0
+    // Offset: 0x101FEEC
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

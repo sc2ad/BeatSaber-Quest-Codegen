@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xD264C8
+    // [InjectAttribute] Offset: 0xD3BEF8
     // private GameEnergyCounter _energyCounter
     // Size: 0x8
     // Offset: 0x48
@@ -37,21 +37,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnergyMissionObjectiveChecker
     EnergyMissionObjectiveChecker(GlobalNamespace::GameEnergyCounter* energyCounter_ = {}) noexcept : energyCounter{energyCounter_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0x10210D8
+    // Offset: 0xF4D144
     void OnDestroy();
     // private System.Void HandleEnergyDidChange(System.Single energy)
-    // Offset: 0x10211B0
+    // Offset: 0xF4D2BC
     void HandleEnergyDidChange(float energy);
     // private System.Void CheckAndUpdateStatus()
-    // Offset: 0x10211E8
+    // Offset: 0xF4D2F4
     void CheckAndUpdateStatus();
     // protected override System.Void Init()
-    // Offset: 0x1021264
+    // Offset: 0xF4D370
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1021364
+    // Offset: 0xF4D50C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

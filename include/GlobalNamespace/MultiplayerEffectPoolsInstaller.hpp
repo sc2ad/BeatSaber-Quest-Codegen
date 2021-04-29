@@ -48,12 +48,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerEffectPoolsInstaller
     MultiplayerEffectPoolsInstaller(GlobalNamespace::BoolSO* noteDebrisHDConditionVariable_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : noteDebrisHDConditionVariable{noteDebrisHDConditionVariable_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1049150
+    // Offset: 0x107A358
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1049200
+    // Offset: 0x107A408
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

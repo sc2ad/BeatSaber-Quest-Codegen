@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1D778
+    // [SpaceAttribute] Offset: 0xD32EC4
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x28
@@ -75,28 +75,28 @@ namespace GlobalNamespace {
     // Set static field: static private BeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(GlobalNamespace::BeatmapEventType value);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0xF0ADF8
+    // Offset: 0xF3246C
     System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0xF0AD68
+    // Offset: 0xF323DC
     void DestroyCharactersAndStopAnimations();
     // public override System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xF0A640
+    // Offset: 0xF31CB4
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Setup(IDifficultyBeatmap difficultyBeatmap)
     void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0xF0AC14
+    // Offset: 0xF32288
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
     void Activate(bool immediately);
     // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0xF0ACC4
+    // Offset: 0xF32338
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
     void Deactivate(bool immediately);
     // public System.Void .ctor()
-    // Offset: 0xF0AF68
+    // Offset: 0xF325DC
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

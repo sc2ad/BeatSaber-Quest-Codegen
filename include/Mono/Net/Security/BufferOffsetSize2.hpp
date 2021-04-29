@@ -33,20 +33,20 @@ namespace Mono::Net::Security {
       return InitialSize;
     }
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x1434910
+    // Offset: 0x1451790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize2* New_ctor(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize2*, creationType>(size)));
     }
     // public System.Void Reset()
-    // Offset: 0x1434988
+    // Offset: 0x1451808
     void Reset();
     // public System.Void MakeRoom(System.Int32 size)
-    // Offset: 0x1434A14
+    // Offset: 0x1451894
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1434AD8
+    // Offset: 0x1451958
     void AppendData(::Array<uint8_t>* buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
   #pragma pack(pop)

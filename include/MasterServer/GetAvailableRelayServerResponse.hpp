@@ -96,14 +96,14 @@ namespace MasterServer {
     static_assert(sizeof(MasterServer::GetAvailableRelayServerResponse::Result) == 0x4);
     // Padding between fields: result and: dedicatedServerId
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD0641C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B394
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0642C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B3A4
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -143,53 +143,53 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.GetAvailableRelayServerResponse> get_pool()
-    // Offset: 0x12890C0
+    // Offset: 0x12A7D7C
     static GlobalNamespace::PacketPool_1<MasterServer::GetAvailableRelayServerResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12891A0
+    // Offset: 0x12A7E5C
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x12891A8
+    // Offset: 0x12A7E64
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x12891B0
+    // Offset: 0x12A7E6C
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x12891B8
+    // Offset: 0x12A7E74
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.GetAvailableRelayServerResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.GetAvailableRelayServerResponse/Result result)
-    // Offset: 0x12893E8
+    // Offset: 0x12A80A4
     MasterServer::GetAvailableRelayServerResponse* InitForFailure(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, MasterServer::GetAvailableRelayServerResponse::Result result);
     // public MasterServer.GetAvailableRelayServerResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, System.Int32 port, System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x12893F4
+    // Offset: 0x12A80B0
     MasterServer::GetAvailableRelayServerResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, int port, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
     // public override System.Byte get_resultCode()
-    // Offset: 0x1289108
+    // Offset: 0x12A7DC4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x1289110
+    // Offset: 0x12A7DCC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12891C0
+    // Offset: 0x12A7E7C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12892B0
+    // Offset: 0x12A7F6C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x128936C
+    // Offset: 0x12A8028
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1289454
+    // Offset: 0x12A8110
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

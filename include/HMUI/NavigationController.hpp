@@ -165,30 +165,30 @@ namespace HMUI {
     // Creating value type constructor for type: NavigationController
     NavigationController(HMUI::NavigationController::Orientation orientation_ = {}, bool reversedStacking_ = {}, HMUI::NavigationController::Alignment alignment_ = {}, float edgeSize_ = {}, float viewControllersSeparator_ = {}) noexcept : orientation{orientation_}, reversedStacking{reversedStacking_}, alignment{alignment_}, edgeSize{edgeSize_}, viewControllersSeparator{viewControllersSeparator_} {}
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x11F9D50
+    // Offset: 0x1217A0C
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x11F9E2C
+    // Offset: 0x1217AE8
     void PopViewController(System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x11F9E40
+    // Offset: 0x1217AFC
     void PopViewControllers(int numberOfViewControllersToPop, System::Action* finishedCallback, bool immediately);
     // private UnityEngine.Vector3 PositionVector(System.Single pos)
-    // Offset: 0x11F9CF4
+    // Offset: 0x12179B0
     UnityEngine::Vector3 PositionVector(float pos);
     // private System.Void SetupViewControllerRect(HMUI.ViewController viewController)
-    // Offset: 0x11F9C9C
+    // Offset: 0x1217958
     void SetupViewControllerRect(HMUI::ViewController* viewController);
     // private System.Single[] GetNewPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> fixedViewControllers, System.Single fixedEndPos)
-    // Offset: 0x11F981C
+    // Offset: 0x12174D8
     ::Array<float>* GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x11F96E8
+    // Offset: 0x12173A4
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x11FA0AC
+    // Offset: 0x1217D68
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

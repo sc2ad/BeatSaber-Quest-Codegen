@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshFilter* bodyMeshFilter;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshFilter*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1F828
+    // [SpaceAttribute] Offset: 0xD35148
     // private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
     // Size: 0x8
     // Offset: 0x58
@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* rightHandPropertyBlockSetter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1F8C0
+    // [InjectAttribute] Offset: 0xD351E0
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x90
@@ -177,31 +177,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x1008D14
+    // Offset: 0x1021950
     UnityEngine::Color get_lightColor();
     // protected System.Void Awake()
-    // Offset: 0x1008D20
+    // Offset: 0x102195C
     void Awake();
     // public System.Void UpdateAvatarVisual(AvatarData avatarData)
-    // Offset: 0x1008F5C
+    // Offset: 0x1021B98
     void UpdateAvatarVisual(GlobalNamespace::AvatarData* avatarData);
     // public System.Void SetLightColor(UnityEngine.Color color)
-    // Offset: 0x100971C
+    // Offset: 0x1022358
     void SetLightColor(UnityEngine::Color color);
     // private System.Void UpdateAvatarColors()
-    // Offset: 0x10093AC
+    // Offset: 0x1021FE8
     void UpdateAvatarColors();
     // public System.Void HighlightEditedPart(EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x1009728
+    // Offset: 0x1022364
     void HighlightEditedPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // public System.Void DisableEditedPartHighlight()
-    // Offset: 0x1009A54
+    // Offset: 0x1022690
     void DisableEditedPartHighlight();
     // private System.Void SetHandsHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x1009A88
+    // Offset: 0x10226C4
     void SetHandsHighlight(bool highlighted, int uvSegment);
     // public System.Void .ctor()
-    // Offset: 0x1009AD4
+    // Offset: 0x1022710
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

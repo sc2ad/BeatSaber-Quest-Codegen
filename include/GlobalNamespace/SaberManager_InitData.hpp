@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool oneSaberMode_ = {}, GlobalNamespace::SaberType oneSaberType_ = {}) noexcept : oneSaberMode{oneSaberMode_}, oneSaberType{oneSaberType_} {}
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0xFD1CFC
+    // Offset: 0x10504BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberManager::InitData::.ctor");

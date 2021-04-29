@@ -37,16 +37,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: TrigonometricBone
     TrigonometricBone(UnityEngine::Quaternion targetToLocalSpace_ = {}, UnityEngine::Vector3 defaultLocalBendNormal_ = {}) noexcept : targetToLocalSpace{targetToLocalSpace_}, defaultLocalBendNormal{defaultLocalBendNormal_} {}
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1A53F08
+    // Offset: 0x1A8EF3C
     void Initiate(UnityEngine::Vector3 childPosition, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1A54AC0
+    // Offset: 0x1A8FAF4
     UnityEngine::Quaternion GetRotation(UnityEngine::Vector3 direction, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x1A4EABC
+    // Offset: 0x1A89AF0
     UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x1A54B88
+    // Offset: 0x1A8FBBC
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()

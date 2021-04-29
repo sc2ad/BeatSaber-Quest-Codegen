@@ -214,7 +214,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifiers
     GameplayModifiers(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType energyType_ = {}, bool noFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType enabledObstacleType_ = {}, bool fastNotes_ = {}, bool strictAngles_ = {}, bool disappearingArrows_ = {}, bool noBombs_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed songSpeed_ = {}) noexcept : energyType{energyType_}, noFail{noFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_}, enabledObstacleType{enabledObstacleType_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, noBombs{noBombs_}, songSpeed{songSpeed_} {}
     // public System.Void .ctor()
-    // Offset: 0xF6A894
+    // Offset: 0xF7C800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

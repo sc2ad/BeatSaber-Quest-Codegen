@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: ThreefishCipher
     ThreefishCipher(::Array<uint64_t>* t_ = {}, ::Array<uint64_t>* kw_ = {}) noexcept : t{t_}, kw{kw_} {}
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1C6579C
+    // Offset: 0x1C3C50C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine::ThreefishCipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::.ctor");

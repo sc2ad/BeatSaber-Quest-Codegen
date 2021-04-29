@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool
     class Pool;
-    // [CompilerGeneratedAttribute] Offset: 0xD26F60
+    // [CompilerGeneratedAttribute] Offset: 0xD3C990
     // private System.Action`1<MultiplayerConnectedPlayerGameNoteController> gameNoteControllerDidInitEvent
     // Size: 0x8
     // Offset: 0x88
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IGameNoteTypeProvider*>(this);
     }
     // public System.Void add_gameNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x1040C50
+    // Offset: 0xFC596C
     void add_gameNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void remove_gameNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x1040CF4
+    // Offset: 0xFC5A10
     void remove_gameNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0x1040D98
+    // Offset: 0xFC5AB4
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, GameNoteController/GameNoteType gameNoteType, System.Single cutDirectionAngleOffset, System.Single uniformScale)
-    // Offset: 0x103F008
+    // Offset: 0xFC3E58
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, GlobalNamespace::GameNoteController_GameNoteType gameNoteType, float cutDirectionAngleOffset, float uniformScale);
     // public System.Void .ctor()
-    // Offset: 0x1040DA0
+    // Offset: 0xFC5ABC
     // Implemented from: MultiplayerConnectedPlayerNoteController
     // Base method: System.Void MultiplayerConnectedPlayerNoteController::.ctor()
     // Base method: System.Void NoteController::.ctor()

@@ -53,28 +53,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
     }
     // public System.Int32 get_lightId()
-    // Offset: 0x1CE9A34
+    // Offset: 0x1D145AC
     int get_lightId();
     // public System.Single get_intensity()
-    // Offset: 0x1CE9A3C
+    // Offset: 0x1D145B4
     float get_intensity();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CE9A44
+    // Offset: 0x1D145BC
     UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1CE9A50
+    // Offset: 0x1D145C8
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1CE9A58
+    // Offset: 0x1D145D0
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1CE9A64
+    // Offset: 0x1D145DC
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1CE9A6C
+    // Offset: 0x1D145E4
     void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1CE9A8C
+    // Offset: 0x1D14604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

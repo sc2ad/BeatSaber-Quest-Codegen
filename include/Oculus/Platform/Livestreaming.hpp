@@ -30,16 +30,16 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Livestreaming
     Livestreaming() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> GetStatus()
-    // Offset: 0x137EFDC
+    // Offset: 0x139EC8C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* GetStatus();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> PauseStream()
-    // Offset: 0x137F0E8
+    // Offset: 0x139ED98
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* PauseStream();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> ResumeStream()
-    // Offset: 0x137F1F4
+    // Offset: 0x139EEA4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* ResumeStream();
     // static public System.Void SetStatusUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.LivestreamingStatus> callback)
-    // Offset: 0x137F300
+    // Offset: 0x139EFB0
     static void SetStatusUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingStatus*>::Callback* callback);
   }; // Oculus.Platform.Livestreaming
   #pragma pack(pop)

@@ -38,14 +38,14 @@ namespace System::Xml {
       return rawWriter;
     }
     // System.Void .ctor(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0x1793BE0
+    // Offset: 0x17B1378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlRawWriterBase64Encoder* New_ctor(System::Xml::XmlRawWriter* rawWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlRawWriterBase64Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlRawWriterBase64Encoder*, creationType>(rawWriter)));
     }
     // override System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x179400C
+    // Offset: 0x17B17A4
     // Implemented from: System.Xml.Base64Encoder
     // Base method: System.Void Base64Encoder::WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);

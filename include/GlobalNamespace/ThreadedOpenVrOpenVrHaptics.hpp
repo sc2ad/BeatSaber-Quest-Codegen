@@ -60,7 +60,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0xE18B68
+      // Offset: 0xE2C060
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength)
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
@@ -100,19 +100,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);
     }
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x2121D34
+    // Offset: 0x214DDF4
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // private System.Void UpdateHaptics()
-    // Offset: 0x2121D68
+    // Offset: 0x214DE28
     void UpdateHaptics();
     // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x2121E30
+    // Offset: 0x214DEF0
     void UpdateHandHaptics(UnityEngine::XR::XRNode node);
     // public System.Void Destroy()
-    // Offset: 0x2121F74
+    // Offset: 0x214E034
     void Destroy();
     // public System.Void .ctor()
-    // Offset: 0x2121C74
+    // Offset: 0x214DD34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

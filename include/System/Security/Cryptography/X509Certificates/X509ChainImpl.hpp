@@ -59,18 +59,18 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x16AF85C
+    // Offset: 0x16B2C4C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16B0664
+    // Offset: 0x16B3A54
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x16B0668
+    // Offset: 0x16B3A58
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x16B06DC
+    // Offset: 0x16B3ACC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -190,7 +190,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: NetEvent
     NetEvent(LiteNetLib::NetEvent::EType Type_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}, ::Il2CppObject* UserData_ = {}, int Latency_ = {}, System::Net::Sockets::SocketError ErrorCode_ = {}, LiteNetLib::DisconnectReason DisconnectReason_ = {}, LiteNetLib::ConnectionRequest* ConnectionRequest_ = {}, LiteNetLib::DeliveryMethod DeliveryMethod_ = {}, LiteNetLib::NetPacketReader* DataReader_ = {}) noexcept : Type{Type_}, Peer{Peer_}, RemoteEndPoint{RemoteEndPoint_}, UserData{UserData_}, Latency{Latency_}, ErrorCode{ErrorCode_}, DisconnectReason{DisconnectReason_}, ConnectionRequest{ConnectionRequest_}, DeliveryMethod{DeliveryMethod_}, DataReader{DataReader_} {}
     // public System.Void .ctor(LiteNetLib.NetManager manager)
-    // Offset: 0x19F11C0
+    // Offset: 0x1A2D5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEvent* New_ctor(LiteNetLib::NetManager* manager) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetEvent::.ctor");

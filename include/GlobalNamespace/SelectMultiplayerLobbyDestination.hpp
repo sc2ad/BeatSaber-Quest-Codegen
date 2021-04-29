@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SelectMultiplayerLobbyDestination
     SelectMultiplayerLobbyDestination(::Il2CppString* serverName_ = {}, ::Il2CppString* lobbySecret_ = {}, ::Il2CppString* lobbyCode_ = {}) noexcept : serverName{serverName_}, lobbySecret{lobbySecret_}, lobbyCode{lobbyCode_} {}
     // public System.Void .ctor(System.UInt64 roomId)
-    // Offset: 0xF74F98
+    // Offset: 0x1059E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(roomId)));
     }
     // public System.Void .ctor(System.String lobbyCode)
-    // Offset: 0xF751AC
+    // Offset: 0x105A068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");

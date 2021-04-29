@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* activeLightsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD275B8
+    // [SpaceAttribute] Offset: 0xD3CFE8
     // private LightsAnimator[] _lightsAnimators
     // Size: 0x8
     // Offset: 0x20
@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Animate(System.Single animationDurationMultiplier, System.Int32 order)
-    // Offset: 0xF43D04
+    // Offset: 0x10002C0
     void Animate(float animationDurationMultiplier, int order);
     // public System.Void .ctor()
-    // Offset: 0xF54814
+    // Offset: 0x1000360
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

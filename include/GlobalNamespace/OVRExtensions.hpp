@@ -47,73 +47,73 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRExtensions
     OVRExtensions() noexcept {}
     // static public OVRPose ToTrackingSpacePose(UnityEngine.Transform transform, UnityEngine.Camera camera)
-    // Offset: 0x1140CB4
+    // Offset: 0x1158AFC
     static GlobalNamespace::OVRPose ToTrackingSpacePose(UnityEngine::Transform* transform, UnityEngine::Camera* camera);
     // static public OVRPose ToWorldSpacePose(OVRPose trackingSpacePose)
-    // Offset: 0x1138840
+    // Offset: 0x1150688
     static GlobalNamespace::OVRPose ToWorldSpacePose(GlobalNamespace::OVRPose trackingSpacePose);
     // static public OVRPose ToHeadSpacePose(UnityEngine.Transform transform, UnityEngine.Camera camera)
-    // Offset: 0x1140E20
+    // Offset: 0x1158C68
     static GlobalNamespace::OVRPose ToHeadSpacePose(UnityEngine::Transform* transform, UnityEngine::Camera* camera);
     // static public OVRPose ToOVRPose(UnityEngine.Transform t, System.Boolean isLocal)
-    // Offset: 0x1140EB8
+    // Offset: 0x1158D00
     static GlobalNamespace::OVRPose ToOVRPose(UnityEngine::Transform* t, bool isLocal);
     // static public System.Void FromOVRPose(UnityEngine.Transform t, OVRPose pose, System.Boolean isLocal)
-    // Offset: 0x1137088
+    // Offset: 0x114EED0
     static void FromOVRPose(UnityEngine::Transform* t, GlobalNamespace::OVRPose pose, bool isLocal);
     // static public OVRPose ToOVRPose(OVRPlugin/Posef p)
-    // Offset: 0x1138A0C
+    // Offset: 0x1150854
     static GlobalNamespace::OVRPose ToOVRPose(GlobalNamespace::OVRPlugin::Posef p);
     // static public OVRTracker/Frustum ToFrustum(OVRPlugin/Frustumf f)
-    // Offset: 0x1140F4C
+    // Offset: 0x1158D94
     static GlobalNamespace::OVRTracker::Frustum ToFrustum(GlobalNamespace::OVRPlugin::Frustumf f);
     // static public UnityEngine.Color FromColorf(OVRPlugin/Colorf c)
-    // Offset: 0x1140F60
+    // Offset: 0x1158DA8
     static UnityEngine::Color FromColorf(GlobalNamespace::OVRPlugin::Colorf c);
     // static public OVRPlugin/Colorf ToColorf(UnityEngine.Color c)
-    // Offset: 0x1140F64
+    // Offset: 0x1158DAC
     static GlobalNamespace::OVRPlugin::Colorf ToColorf(UnityEngine::Color c);
     // static public UnityEngine.Vector3 FromVector3f(OVRPlugin/Vector3f v)
-    // Offset: 0x1135C58
+    // Offset: 0x114DAA0
     static UnityEngine::Vector3 FromVector3f(GlobalNamespace::OVRPlugin::Vector3f v);
     // static public UnityEngine.Vector3 FromFlippedXVector3f(OVRPlugin/Vector3f v)
-    // Offset: 0x1140F68
+    // Offset: 0x1158DB0
     static UnityEngine::Vector3 FromFlippedXVector3f(GlobalNamespace::OVRPlugin::Vector3f v);
     // static public UnityEngine.Vector3 FromFlippedZVector3f(OVRPlugin/Vector3f v)
-    // Offset: 0x1135630
+    // Offset: 0x114D478
     static UnityEngine::Vector3 FromFlippedZVector3f(GlobalNamespace::OVRPlugin::Vector3f v);
     // static public OVRPlugin/Vector3f ToVector3f(UnityEngine.Vector3 v)
-    // Offset: 0x1140F70
+    // Offset: 0x1158DB8
     static GlobalNamespace::OVRPlugin::Vector3f ToVector3f(UnityEngine::Vector3 v);
     // static public OVRPlugin/Vector3f ToFlippedXVector3f(UnityEngine.Vector3 v)
-    // Offset: 0x1140F74
+    // Offset: 0x1158DBC
     static GlobalNamespace::OVRPlugin::Vector3f ToFlippedXVector3f(UnityEngine::Vector3 v);
     // static public OVRPlugin/Vector3f ToFlippedZVector3f(UnityEngine.Vector3 v)
-    // Offset: 0x1135730
+    // Offset: 0x114D578
     static GlobalNamespace::OVRPlugin::Vector3f ToFlippedZVector3f(UnityEngine::Vector3 v);
     // static public UnityEngine.Quaternion FromQuatf(OVRPlugin/Quatf q)
-    // Offset: 0x1140F7C
+    // Offset: 0x1158DC4
     static UnityEngine::Quaternion FromQuatf(GlobalNamespace::OVRPlugin::Quatf q);
     // static public UnityEngine.Quaternion FromFlippedXQuatf(OVRPlugin/Quatf q)
-    // Offset: 0x1140F80
+    // Offset: 0x1158DC8
     static UnityEngine::Quaternion FromFlippedXQuatf(GlobalNamespace::OVRPlugin::Quatf q);
     // static public UnityEngine.Quaternion FromFlippedZQuatf(OVRPlugin/Quatf q)
-    // Offset: 0x1140F8C
+    // Offset: 0x1158DD4
     static UnityEngine::Quaternion FromFlippedZQuatf(GlobalNamespace::OVRPlugin::Quatf q);
     // static public OVRPlugin/Quatf ToQuatf(UnityEngine.Quaternion q)
-    // Offset: 0x1140F98
+    // Offset: 0x1158DE0
     static GlobalNamespace::OVRPlugin::Quatf ToQuatf(UnityEngine::Quaternion q);
     // static public OVRPlugin/Quatf ToFlippedXQuatf(UnityEngine.Quaternion q)
-    // Offset: 0x1140F9C
+    // Offset: 0x1158DE4
     static GlobalNamespace::OVRPlugin::Quatf ToFlippedXQuatf(UnityEngine::Quaternion q);
     // static public OVRPlugin/Quatf ToFlippedZQuatf(UnityEngine.Quaternion q)
-    // Offset: 0x1140FA8
+    // Offset: 0x1158DF0
     static GlobalNamespace::OVRPlugin::Quatf ToFlippedZQuatf(UnityEngine::Quaternion q);
     // static public OVR.OpenVR.HmdMatrix34_t ConvertToHMDMatrix34(UnityEngine.Matrix4x4 m)
-    // Offset: 0x1140FB4
+    // Offset: 0x1158DFC
     static OVR::OpenVR::HmdMatrix34_t ConvertToHMDMatrix34(UnityEngine::Matrix4x4 m);
     // static public UnityEngine.Transform FindChildRecursive(UnityEngine.Transform parent, System.String name)
-    // Offset: 0x1141144
+    // Offset: 0x1158F8C
     static UnityEngine::Transform* FindChildRecursive(UnityEngine::Transform* parent, ::Il2CppString* name);
   }; // OVRExtensions
   #pragma pack(pop)

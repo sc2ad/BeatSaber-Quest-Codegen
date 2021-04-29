@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     struct TypeWrapper_1;
-    // [CompilerGeneratedAttribute] Offset: 0xD062EC
+    // [CompilerGeneratedAttribute] Offset: 0xD1B264
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -51,31 +51,31 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // public System.Single get_syncTime()
-    // Offset: 0x15CAF98
+    // Offset: 0x15E8F1C
     float get_syncTime();
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x15CAFA0
+    // Offset: 0x15E8F24
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15CAFA8
+    // Offset: 0x15E8F2C
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15CAFAC
+    // Offset: 0x15E8F30
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15CAFB0
+    // Offset: 0x15E8F34
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15CAFF8
+    // Offset: 0x15E8F7C
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x15CB040
+    // Offset: 0x15E8FC4
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x15CB160
+    // Offset: 0x15E90E4
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x15BF0CC
+    // Offset: 0x15DD050
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

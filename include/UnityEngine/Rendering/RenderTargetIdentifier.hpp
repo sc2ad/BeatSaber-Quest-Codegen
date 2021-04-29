@@ -89,7 +89,7 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
     }
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0xDFD868
+    // Offset: 0xE10FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -97,7 +97,7 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
     }
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0xDFD8D0
+    // Offset: 0xE11010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(int nameID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -105,7 +105,7 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, nameID);
     }
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0xDFD938
+    // Offset: 0xE11078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Texture* tex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -113,20 +113,20 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, tex);
     }
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0xDFD950
+    // Offset: 0xE11090
     bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.String ToString()
-    // Offset: 0xDFD940
+    // Offset: 0xE11080
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDFD948
+    // Offset: 0xE11088
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDFD988
+    // Offset: 0xE110C8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

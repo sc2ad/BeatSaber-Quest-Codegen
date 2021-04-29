@@ -40,31 +40,31 @@ namespace System::Net::Http::Headers {
       return expectContinue;
     }
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
-    // Offset: 0x13E01EC
+    // Offset: 0x13FF06C
     System::Net::Http::Headers::HttpHeaderValueCollection_1<::Il2CppString*>* get_Connection();
     // public System.Nullable`1<System.Boolean> get_ConnectionClose()
-    // Offset: 0x13E0248
+    // Offset: 0x13FF0C8
     System::Nullable_1<bool> get_ConnectionClose();
     // System.Boolean get_ConnectionKeepAlive()
-    // Offset: 0x13E03A0
+    // Offset: 0x13FF220
     bool get_ConnectionKeepAlive();
     // public System.Nullable`1<System.Boolean> get_ExpectContinue()
-    // Offset: 0x13E04B4
+    // Offset: 0x13FF334
     System::Nullable_1<bool> get_ExpectContinue();
     // public System.String get_Host()
-    // Offset: 0x13E065C
+    // Offset: 0x13FF4DC
     ::Il2CppString* get_Host();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> get_TransferEncoding()
-    // Offset: 0x13E0600
+    // Offset: 0x13FF480
     System::Net::Http::Headers::HttpHeaderValueCollection_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
     // public System.Nullable`1<System.Boolean> get_TransferEncodingChunked()
-    // Offset: 0x13E06B8
+    // Offset: 0x13FF538
     System::Nullable_1<bool> get_TransferEncodingChunked();
     // System.Void AddHeaders(System.Net.Http.Headers.HttpRequestHeaders headers)
-    // Offset: 0x13E0804
+    // Offset: 0x13FF684
     void AddHeaders(System::Net::Http::Headers::HttpRequestHeaders* headers);
     // System.Void .ctor()
-    // Offset: 0x13E017C
+    // Offset: 0x13FEFFC
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()

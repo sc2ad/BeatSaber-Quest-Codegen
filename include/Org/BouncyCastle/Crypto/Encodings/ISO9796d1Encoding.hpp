@@ -87,32 +87,32 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Set static field: static private readonly System.Byte[] inverse
     static void _set_inverse(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x17367C0
+    // Offset: 0x1736BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9796d1Encoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9796d1Encoding*, creationType>(cipher)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17367F0
+    // Offset: 0x1736BE0
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x17369A0
+    // Offset: 0x1736D90
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1736A74
+    // Offset: 0x1736E64
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1736B48
+    // Offset: 0x1736F38
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
     // private System.Byte[] EncodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1736B58
+    // Offset: 0x1736F48
     ::Array<uint8_t>* EncodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1736EBC
+    // Offset: 0x17372AC
     ::Array<uint8_t>* DecodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
     // static private System.Void .cctor()
-    // Offset: 0x1737390
+    // Offset: 0x1737780
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding
   #pragma pack(pop)

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD32588
+    // [CompilerGeneratedAttribute] Offset: 0xD481C0
     // private System.Single <maxVolume>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioSourceVolumeController
     AudioSourceVolumeController(UnityEngine::AudioSource* audioSource_ = {}, float maxVolume_ = {}, float volume_ = {}) noexcept : audioSource{audioSource_}, maxVolume{maxVolume_}, volume{volume_} {}
     // public System.Void set_volume(System.Single value)
-    // Offset: 0xFD2B14
+    // Offset: 0xF90CE4
     void set_volume(float value);
     // public System.Single get_volume()
-    // Offset: 0xFD2B48
+    // Offset: 0xF91544
     float get_volume();
     // public System.Single get_maxVolume()
-    // Offset: 0xFD2B50
+    // Offset: 0xF9154C
     float get_maxVolume();
     // public System.Void set_maxVolume(System.Single value)
-    // Offset: 0xFD2B58
+    // Offset: 0xF91554
     void set_maxVolume(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audioSource)
-    // Offset: 0xFD2B60
+    // Offset: 0xF90820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(UnityEngine::AudioSource* audioSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");

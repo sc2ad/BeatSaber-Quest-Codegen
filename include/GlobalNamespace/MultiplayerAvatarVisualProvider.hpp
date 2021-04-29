@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarVisualController* avatarVisualController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarVisualController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1F9F0
+    // [InjectAttribute] Offset: 0xD35310
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x103A1FC
+    // Offset: 0xFBF04C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x103A2FC
+    // Offset: 0xFBF14C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

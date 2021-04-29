@@ -64,38 +64,38 @@ namespace System {
       return *reinterpret_cast<System::IComparable_1<System::ValueTuple>*>(this);
     }
     // public System.Boolean Equals(System.ValueTuple other)
-    // Offset: 0xE11E70
+    // Offset: 0xE25010
     bool Equals(System::ValueTuple other);
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0xE11E78
+    // Offset: 0xE25018
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);
     // private System.Int32 System.IComparable.CompareTo(System.Object other)
-    // Offset: 0xE11EDC
+    // Offset: 0xE2507C
     int System_IComparable_CompareTo(::Il2CppObject* other);
     // public System.Int32 CompareTo(System.ValueTuple other)
-    // Offset: 0xE11EE4
+    // Offset: 0xE25084
     int CompareTo(System::ValueTuple other);
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0xE11EEC
+    // Offset: 0xE2508C
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0xE11EFC
+    // Offset: 0xE2509C
     int System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer* comparer);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x20E0C80
+    // Offset: 0x20F3434
     static int CombineHashCodes(int h1, int h2);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE11E0C
+    // Offset: 0xE24FAC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE11EF4
+    // Offset: 0xE25094
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xE11F04
+    // Offset: 0xE250A4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

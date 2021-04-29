@@ -35,7 +35,7 @@ namespace RootMotion {
     // Creating value type constructor for type: TQ
     TQ(UnityEngine::Vector3 t_ = {}, UnityEngine::Quaternion q_ = {}) noexcept : t{t_}, q{q_} {}
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
-    // Offset: 0x192C684
+    // Offset: 0x19164F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::TQ::.ctor");

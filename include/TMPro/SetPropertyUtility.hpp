@@ -34,7 +34,7 @@ namespace TMPro {
     // Creating value type constructor for type: SetPropertyUtility
     SetPropertyUtility() noexcept {}
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0xF8290C
+    // Offset: 0xFCBD88
     static bool SetColor(UnityEngine::Color& currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetEquatableStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF

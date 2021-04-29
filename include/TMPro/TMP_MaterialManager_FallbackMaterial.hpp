@@ -60,7 +60,7 @@ namespace TMPro {
     // Creating value type constructor for type: FallbackMaterial
     FallbackMaterial(int baseID_ = {}, UnityEngine::Material* baseMaterial_ = {}, int64_t fallbackID_ = {}, UnityEngine::Material* fallbackMaterial_ = {}, int count_ = {}) noexcept : baseID{baseID_}, baseMaterial{baseMaterial_}, fallbackID{fallbackID_}, fallbackMaterial{fallbackMaterial_}, count{count_} {}
     // public System.Void .ctor()
-    // Offset: 0xFA0288
+    // Offset: 0x102AF44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

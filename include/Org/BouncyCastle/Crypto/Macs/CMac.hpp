@@ -92,42 +92,42 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1712B50
+    // Offset: 0x1713F40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CMac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::CMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CMac*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 macSizeInBits)
-    // Offset: 0x1712C1C
+    // Offset: 0x171400C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CMac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int macSizeInBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::CMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CMac*, creationType>(cipher, macSizeInBits)));
     }
     // static private System.Int32 ShiftLeft(System.Byte[] block, System.Byte[] output)
-    // Offset: 0x1713164
+    // Offset: 0x1714554
     static int ShiftLeft(::Array<uint8_t>* block, ::Array<uint8_t>* output);
     // static private System.Byte[] DoubleLu(System.Byte[] input)
-    // Offset: 0x17131F8
+    // Offset: 0x17145E8
     static ::Array<uint8_t>* DoubleLu(::Array<uint8_t>* input);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x17132C0
+    // Offset: 0x17146B0
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x17135A0
+    // Offset: 0x1714990
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x17135A8
+    // Offset: 0x1714998
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x17136E0
+    // Offset: 0x1714AD0
     void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1713984
+    // Offset: 0x1714D74
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x17134D0
+    // Offset: 0x17148C0
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.CMac
   #pragma pack(pop)

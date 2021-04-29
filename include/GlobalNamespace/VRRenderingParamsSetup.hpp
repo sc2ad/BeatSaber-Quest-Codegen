@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::VRRenderingParamsSetup::SceneType) == 0x4);
     // Padding between fields: sceneType and: vrPlatformHelper
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xD0DF38
+    // [InjectAttribute] Offset: 0xD22624
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -112,10 +112,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x21028C4
+    // Offset: 0x2131EE0
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x2102BC4
+    // Offset: 0x21321E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

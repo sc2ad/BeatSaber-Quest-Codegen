@@ -22,7 +22,7 @@ namespace TMPro {
     // Creating value type constructor for type: OnChangeEvent
     OnChangeEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF9D660
+    // Offset: 0x102831C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

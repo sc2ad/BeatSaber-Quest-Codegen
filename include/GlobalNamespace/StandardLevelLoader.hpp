@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StandardLevelLoader
     StandardLevelLoader() noexcept {}
     // static public StandardLevelInfoSaveData LoadStandardLevelSaveData(System.String levelInfoFilenamePath)
-    // Offset: 0xFDC388
+    // Offset: 0xF9B274
     static GlobalNamespace::StandardLevelInfoSaveData* LoadStandardLevelSaveData(::Il2CppString* levelInfoFilenamePath);
   }; // StandardLevelLoader
   #pragma pack(pop)

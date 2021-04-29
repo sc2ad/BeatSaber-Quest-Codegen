@@ -15,10 +15,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BitMaskUtil
     BitMaskUtil() noexcept {}
     // static public System.UInt32 NumberOfSetBits(System.UInt64 i)
-    // Offset: 0x217A69C
+    // Offset: 0x21A4AC8
     static uint NumberOfSetBits(uint64_t i);
     // static public System.UInt32 NumberOfSetBits(System.UInt32 i)
-    // Offset: 0x217A05C
+    // Offset: 0x21A4488
     static uint NumberOfSetBits(uint i);
   }; // BitMaskUtil
   #pragma pack(pop)

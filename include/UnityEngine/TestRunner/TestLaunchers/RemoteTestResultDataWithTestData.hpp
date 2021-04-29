@@ -40,7 +40,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Creating value type constructor for type: RemoteTestResultDataWithTestData
     RemoteTestResultDataWithTestData(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* results_ = {}, ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* tests_ = {}) noexcept : results{results_}, tests{tests_} {}
     // public System.Void .ctor()
-    // Offset: 0x134E5E8
+    // Offset: 0x136E298
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

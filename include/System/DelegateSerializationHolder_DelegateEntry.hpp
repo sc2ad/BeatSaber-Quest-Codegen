@@ -75,14 +75,14 @@ namespace System {
     // Creating value type constructor for type: DelegateEntry
     DelegateEntry(::Il2CppString* type_ = {}, ::Il2CppString* assembly_ = {}, ::Il2CppObject* target_ = {}, ::Il2CppString* targetTypeAssembly_ = {}, ::Il2CppString* targetTypeName_ = {}, ::Il2CppString* methodName_ = {}, System::DelegateSerializationHolder::DelegateEntry* delegateEntry_ = {}) noexcept : type{type_}, assembly{assembly_}, target{target_}, targetTypeAssembly{targetTypeAssembly_}, targetTypeName{targetTypeName_}, methodName{methodName_}, delegateEntry{delegateEntry_} {}
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
-    // Offset: 0x19A3A34
+    // Offset: 0x19E4B90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::Il2CppString* targetLabel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::DelegateEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder::DelegateEntry*, creationType>(del, targetLabel)));
     }
     // public System.Delegate DeserializeDelegate(System.Runtime.Serialization.SerializationInfo info, System.Int32 index)
-    // Offset: 0x19A37C0
+    // Offset: 0x19E491C
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/DelegateEntry
   #pragma pack(pop)

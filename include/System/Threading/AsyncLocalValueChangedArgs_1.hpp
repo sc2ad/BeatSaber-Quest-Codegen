@@ -14,17 +14,17 @@ namespace System::Threading {
   template<typename T>
   struct AsyncLocalValueChangedArgs_1/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xC9AB50
+    // [CompilerGeneratedAttribute] Offset: 0xCACC98
     // private T <PreviousValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T PreviousValue;
-    // [CompilerGeneratedAttribute] Offset: 0xC9AB60
+    // [CompilerGeneratedAttribute] Offset: 0xCACCA8
     // private T <CurrentValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T CurrentValue;
-    // [CompilerGeneratedAttribute] Offset: 0xC9AB70
+    // [CompilerGeneratedAttribute] Offset: 0xCACCB8
     // private System.Boolean <ThreadContextChanged>k__BackingField
     // Size: 0x1
     // Offset: 0x0

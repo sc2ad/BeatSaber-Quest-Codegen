@@ -42,22 +42,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: WindowResolutionSettingsController
     WindowResolutionSettingsController(GlobalNamespace::Vector2IntSO* windowResolution_ = {}, ::Array<UnityEngine::Vector2Int>* windowResolutions_ = {}) noexcept : windowResolution{windowResolution_}, windowResolutions{windowResolutions_} {}
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x20EAED4
+    // Offset: 0x1679AE8
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x20EB158
+    // Offset: 0x1679D6C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x20EB1E4
+    // Offset: 0x1679DF8
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x20EB2E4
+    // Offset: 0x1679EF8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

@@ -44,23 +44,23 @@ namespace System::Reflection {
     // Creating value type constructor for type: RuntimeAssembly
     RuntimeAssembly() noexcept {}
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1AD304C
+    // Offset: 0x1B0D080
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName an, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1AD30E4
+    // Offset: 0x1B0D118
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1AD2F9C
+    // Offset: 0x1B0CFD0
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.AssemblyName GetName(System.Boolean copiedName)
-    // Offset: 0x1AD3118
+    // Offset: 0x1B0D14C
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.AssemblyName Assembly::GetName(System.Boolean copiedName)
     System::Reflection::AssemblyName* GetName(bool copiedName);
     // protected System.Void .ctor()
-    // Offset: 0x1ACD82C
+    // Offset: 0x1B07860
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -46,16 +46,16 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineCreateUtilities
     TimelineCreateUtilities() noexcept {}
     // static public System.String GenerateUniqueActorName(System.Collections.Generic.List`1<UnityEngine.ScriptableObject> tracks, System.String name)
-    // Offset: 0x20EDACC
+    // Offset: 0x211CD24
     static ::Il2CppString* GenerateUniqueActorName(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* tracks, ::Il2CppString* name);
     // static public System.Void SaveAssetIntoObject(UnityEngine.Object childAsset, UnityEngine.Object masterAsset)
-    // Offset: 0x20EDE20
+    // Offset: 0x211D078
     static void SaveAssetIntoObject(UnityEngine::Object* childAsset, UnityEngine::Object* masterAsset);
     // static public UnityEngine.AnimationClip CreateAnimationClipForTrack(System.String name, UnityEngine.Timeline.TrackAsset track, System.Boolean isLegacy)
-    // Offset: 0x20ED418
+    // Offset: 0x211C670
     static UnityEngine::AnimationClip* CreateAnimationClipForTrack(::Il2CppString* name, UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
     // static public System.Boolean ValidateParentTrack(UnityEngine.Timeline.TrackAsset parent, System.Type childType)
-    // Offset: 0x20EE094
+    // Offset: 0x211D2EC
     static bool ValidateParentTrack(UnityEngine::Timeline::TrackAsset* parent, System::Type* childType);
   }; // UnityEngine.Timeline.TimelineCreateUtilities
   #pragma pack(pop)

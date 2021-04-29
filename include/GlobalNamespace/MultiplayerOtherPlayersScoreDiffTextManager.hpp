@@ -37,42 +37,42 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c
     class $$c;
-    // [InjectAttribute] Offset: 0xD282F4
+    // [InjectAttribute] Offset: 0xD3DD24
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28304
+    // [InjectAttribute] Offset: 0xD3DD34
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28314
+    // [InjectAttribute] Offset: 0xD3DD44
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28324
+    // [InjectAttribute] Offset: 0xD3DD54
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28334
+    // [InjectAttribute] Offset: 0xD3DD64
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xD28344
+    // [InjectAttribute] Offset: 0xD3DD74
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -96,25 +96,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kUpdateInterval
     static void _set_kUpdateInterval(float value);
     // protected System.Void Start()
-    // Offset: 0xF2C328
+    // Offset: 0x100667C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF2C3F0
+    // Offset: 0x1006744
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xF2C4CC
+    // Offset: 0x1006820
     void Update();
     // private System.Void InitLeftRightPositions()
-    // Offset: 0xF2CE28
+    // Offset: 0x100717C
     void InitLeftRightPositions();
     // private System.Void HideAll()
-    // Offset: 0xF2C88C
+    // Offset: 0x1006BE0
     void HideAll();
     // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0xF2D32C
+    // Offset: 0x1007680
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State newState);
     // public System.Void .ctor()
-    // Offset: 0xF2D44C
+    // Offset: 0x10077A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

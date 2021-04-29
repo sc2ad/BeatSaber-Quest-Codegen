@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedCustomPackName
     LocalizedCustomPackName(::Il2CppString* language_ = {}, ::Il2CppString* packName_ = {}) noexcept : language{language_}, packName{packName_} {}
     // public System.Void .ctor()
-    // Offset: 0x10BBC50
+    // Offset: 0xF3E964
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     SaberTrailRenderer(UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<int>* indices_ = {}, ::Array<UnityEngine::Vector2>* uvs_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, float trailWidth_ = {}, float trailDuration_ = {}, float segmentDuration_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}) noexcept : meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, mesh{mesh_}, vertices{vertices_}, indices{indices_}, uvs{uvs_}, colors{colors_}, trailWidth{trailWidth_}, trailDuration{trailDuration_}, segmentDuration{segmentDuration_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD248A4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD3A2D4
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
@@ -134,34 +134,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMotionBlurStrength
     static void _set_kMotionBlurStrength(float value);
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0xF6E540
+    // Offset: 0x1053174
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0xF6E868
+    // Offset: 0x105349C
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0xF6E874
+    // Offset: 0x10534A8
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0xF6E954
+    // Offset: 0x1053588
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF6E9E8
+    // Offset: 0x105361C
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0xF6EA7C
+    // Offset: 0x10536B0
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0xF6DF98
+    // Offset: 0x1052BCC
     void UpdateMesh(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0xF6EA84
+    // Offset: 0x10536B8
     void UpdateVertices(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0xF6E680
+    // Offset: 0x10532B4
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0xF6EFB0
+    // Offset: 0x1053BE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -174,7 +174,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF6EFB8
+    // Offset: 0x1053BEC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

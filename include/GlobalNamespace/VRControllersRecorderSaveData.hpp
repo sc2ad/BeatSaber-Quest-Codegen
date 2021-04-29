@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VRControllersRecorderSaveData
     VRControllersRecorderSaveData(::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>* nodesInfo_ = {}, ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>* keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
     // public System.Void .ctor()
-    // Offset: 0x108E324
+    // Offset: 0x1673F00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

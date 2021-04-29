@@ -22,7 +22,7 @@ namespace OVRSimpleJSON {
     // Creating value type constructor for type: JSON
     JSON() noexcept {}
     // static public OVRSimpleJSON.JSONNode Parse(System.String aJSON)
-    // Offset: 0x156A040
+    // Offset: 0x1588FC4
     static OVRSimpleJSON::JSONNode* Parse(::Il2CppString* aJSON);
   }; // OVRSimpleJSON.JSON
   #pragma pack(pop)

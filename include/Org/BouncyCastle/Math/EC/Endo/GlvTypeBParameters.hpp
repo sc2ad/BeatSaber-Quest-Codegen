@@ -49,17 +49,17 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Creating value type constructor for type: GlvTypeBParameters
     GlvTypeBParameters(Org::BouncyCastle::Math::BigInteger* m_beta_ = {}, Org::BouncyCastle::Math::BigInteger* m_lambda_ = {}, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams_ = {}) noexcept : m_beta{m_beta_}, m_lambda{m_lambda_}, m_splitParams{m_splitParams_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger beta, Org.BouncyCastle.Math.BigInteger lambda, Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters splitParams)
-    // Offset: 0x1F78E08
+    // Offset: 0x1F7FCE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* beta, Org::BouncyCastle::Math::BigInteger* lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBParameters*, creationType>(beta, lambda, splitParams)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
-    // Offset: 0x1F78E48
+    // Offset: 0x1F7FD20
     Org::BouncyCastle::Math::BigInteger* get_Beta();
     // public Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters get_SplitParams()
-    // Offset: 0x1F78E50
+    // Offset: 0x1F7FD28
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters
   #pragma pack(pop)

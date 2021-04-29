@@ -131,43 +131,43 @@ namespace MasterServer {
     // Set static field: static private System.Int32 kRequestBufferLength
     static void _set_kRequestBufferLength(int value);
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x128ED18
+    // Offset: 0x12AD9D4
     bool get_isEncrypted();
     // public System.UInt32 GetNextRequestId()
-    // Offset: 0x128EB08
+    // Offset: 0x12AD7C4
     uint GetNextRequestId();
     // public System.Void BeginSession()
-    // Offset: 0x128EA10
+    // Offset: 0x12AD6CC
     void BeginSession();
     // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x128EC48
+    // Offset: 0x12AD904
     bool IsValidSessionStartRequestId(uint requestId);
     // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x128EAD0
+    // Offset: 0x12AD78C
     void BeginSession(uint requestId);
     // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x1290600
+    // Offset: 0x12AF2BC
     void SetEpoch(uint epoch);
     // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x128CDF0
+    // Offset: 0x12ABAAC
     bool CanAcceptRequest(uint requestId);
     // public System.Void SetEncryptionState(PacketEncryptionLayer/IEncryptionState encryptionState)
-    // Offset: 0x1290624
+    // Offset: 0x12AF2E0
     void SetEncryptionState(GlobalNamespace::PacketEncryptionLayer::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x129062C
+    // Offset: 0x12AF2E8
     void SetIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1290640
+    // Offset: 0x12AF2FC
     bool VerifyIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Void Dispose()
-    // Offset: 0x12906B0
+    // Offset: 0x12AF36C
     void Dispose();
     // static private System.Void LogD(System.String message)
-    // Offset: 0x12906C0
+    // Offset: 0x12AF37C
     static void LogD(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x128EB24
+    // Offset: 0x12AD7E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

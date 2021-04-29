@@ -62,29 +62,29 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: CADMethodReturnMessage
     CADMethodReturnMessage(::Il2CppObject* returnValue_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* exception_ = {}, ::Array<System::Type*>* sig_ = {}) noexcept : returnValue{returnValue_}, exception{exception_}, sig{sig_} {}
     // static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x18AA1CC
+    // Offset: 0x1889F6C
     static System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage retMsg)
-    // Offset: 0x18AA250
+    // Offset: 0x1889FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodReturnMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodReturnMessage*, creationType>(retMsg)));
     }
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x18AA5D4
+    // Offset: 0x188A374
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x18AA6B4
+    // Offset: 0x188A454
     ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
-    // Offset: 0x18AA6C4
+    // Offset: 0x188A464
     ::Il2CppObject* GetReturnValue(System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
-    // Offset: 0x18AA6D4
+    // Offset: 0x188A474
     System::Exception* GetException(System::Collections::ArrayList* args);
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x18AA788
+    // Offset: 0x188A528
     int get_PropertiesCount();
   }; // System.Runtime.Remoting.Messaging.CADMethodReturnMessage
   #pragma pack(pop)

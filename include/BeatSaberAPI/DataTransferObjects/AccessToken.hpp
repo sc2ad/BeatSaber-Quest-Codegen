@@ -31,7 +31,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Creating value type constructor for type: AccessToken
     AccessToken(::Il2CppString* token_ = {}, ::Il2CppString* expiration_ = {}) noexcept : token{token_}, expiration{expiration_} {}
     // public System.Void .ctor()
-    // Offset: 0x1066EFC
+    // Offset: 0x10A7484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

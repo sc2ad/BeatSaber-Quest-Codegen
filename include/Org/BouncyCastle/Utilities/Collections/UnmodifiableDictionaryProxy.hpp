@@ -45,39 +45,39 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return d;
     }
     // public System.Void .ctor(System.Collections.IDictionary d)
-    // Offset: 0x1E2D214
+    // Offset: 0x1E31564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmodifiableDictionaryProxy* New_ctor(System::Collections::IDictionary* d) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmodifiableDictionaryProxy*, creationType>(d)));
     }
     // public override System.Boolean Contains(System.Object k)
-    // Offset: 0x1E2D240
+    // Offset: 0x1E31590
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Boolean UnmodifiableDictionary::Contains(System.Object k)
     bool Contains(::Il2CppObject* k);
     // public override System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1E2D304
+    // Offset: 0x1E31654
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Void UnmodifiableDictionary::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
     // public override System.Int32 get_Count()
-    // Offset: 0x1E2D3CC
+    // Offset: 0x1E3171C
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Int32 UnmodifiableDictionary::get_Count()
     int get_Count();
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x1E2D480
+    // Offset: 0x1E317D0
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.IDictionaryEnumerator UnmodifiableDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
     // public override System.Collections.ICollection get_Keys()
-    // Offset: 0x1E2D534
+    // Offset: 0x1E31884
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
     // protected override System.Object GetValue(System.Object k)
-    // Offset: 0x1E2D5E8
+    // Offset: 0x1E31938
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);

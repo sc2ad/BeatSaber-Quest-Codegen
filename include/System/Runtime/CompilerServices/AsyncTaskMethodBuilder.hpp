@@ -64,7 +64,7 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> s_cachedCompleted
     static void _set_s_cachedCompleted(System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>* value);
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x130033C
+    // Offset: 0x131FFEC
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -77,7 +77,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, stateMachine);
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDE58DC
+    // Offset: 0xDFBD5C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -102,16 +102,16 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, awaiter, stateMachine);
     }
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0xDE58E4
+    // Offset: 0xDFBD64
     System::Threading::Tasks::Task* get_Task();
     // public System.Void SetResult()
-    // Offset: 0xDE58EC
+    // Offset: 0xDFBD6C
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xDE58F4
+    // Offset: 0xDFBD74
     void SetException(System::Exception* exception);
     // static private System.Void .cctor()
-    // Offset: 0x13004D4
+    // Offset: 0x1320184
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
   // WARNING Not writing size check since size may be invalid!

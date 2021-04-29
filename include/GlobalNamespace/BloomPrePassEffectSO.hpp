@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x1CE2DF0
+    // Offset: 0x1D0D968
     GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x1CE2DF4
+    // Offset: 0x1D0D96C
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x1CE2DFC
+    // Offset: 0x1D0D974
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x1CE2E04
+    // Offset: 0x1D0D97C
     UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x1CE2E0C
+    // Offset: 0x1D0D984
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0x1CE2E14
+    // Offset: 0x1D0D98C
     GlobalNamespace::ToneMapping get_toneMapping();
     // protected System.Void .ctor()
-    // Offset: 0x1CE2E1C
+    // Offset: 0x1D0D994
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

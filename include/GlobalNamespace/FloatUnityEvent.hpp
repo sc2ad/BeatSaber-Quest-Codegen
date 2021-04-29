@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FloatUnityEvent
     FloatUnityEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x112325C
+    // Offset: 0x117CAF0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

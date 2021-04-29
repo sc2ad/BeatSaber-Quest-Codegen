@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelCompletionResultsAnalyticsHelper
     LevelCompletionResultsAnalyticsHelper() noexcept {}
     // static public System.Void FillEventData(LevelCompletionResults levelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x1095988
+    // Offset: 0x1120E50
     static void FillEventData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
   }; // LevelCompletionResultsAnalyticsHelper
   #pragma pack(pop)

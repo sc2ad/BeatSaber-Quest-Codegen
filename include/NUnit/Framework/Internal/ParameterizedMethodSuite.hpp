@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal {
       return isTheory;
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x2098BA8
+    // Offset: 0x208E1A4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedMethodSuite*, creationType>(method)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x2098DF0
+    // Offset: 0x208E3EC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

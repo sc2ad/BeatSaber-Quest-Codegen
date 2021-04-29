@@ -20,50 +20,50 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: LayerMasks
     LayerMasks() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xCFF4AC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD13B50
     // Get static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static UnityEngine::LayerMask _get_saberLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static void _set_saberLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xCFF4BC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD13B60
     // Get static field: static public readonly UnityEngine.LayerMask noteLayerMask
     static UnityEngine::LayerMask _get_noteLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask noteLayerMask
     static void _set_noteLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xCFF4CC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD13B70
     // Get static field: static public readonly UnityEngine.LayerMask noteDebrisLayerMask
     static UnityEngine::LayerMask _get_noteDebrisLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask noteDebrisLayerMask
     static void _set_noteDebrisLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xCFF4DC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD13B80
     // Get static field: static public readonly UnityEngine.LayerMask cutEffectParticlesLayerMask
     static UnityEngine::LayerMask _get_cutEffectParticlesLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask cutEffectParticlesLayerMask
     static void _set_cutEffectParticlesLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xCFF4EC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD13B90
     // Get static field: static public readonly System.Int32 noteDebrisLayer
     static int _get_noteDebrisLayer();
     // Set static field: static public readonly System.Int32 noteDebrisLayer
     static void _set_noteDebrisLayer(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xCFF4FC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD13BA0
     // Get static field: static public readonly System.Int32 cutEffectParticlesLayer
     static int _get_cutEffectParticlesLayer();
     // Set static field: static public readonly System.Int32 cutEffectParticlesLayer
     static void _set_cutEffectParticlesLayer(int value);
     // static private UnityEngine.LayerMask GetLayerMask(System.String layerName)
-    // Offset: 0x218C9F8
+    // Offset: 0x21B7EA4
     static UnityEngine::LayerMask GetLayerMask(::Il2CppString* layerName);
     // static private UnityEngine.LayerMask GetLayerMask(System.Int32 layerNum)
-    // Offset: 0x218CA34
+    // Offset: 0x21B7EE0
     static UnityEngine::LayerMask GetLayerMask(int layerNum);
     // static private System.Int32 GetLayer(System.String layerName)
-    // Offset: 0x218CA68
+    // Offset: 0x21B7F14
     static int GetLayer(::Il2CppString* layerName);
     // static private System.Void .cctor()
-    // Offset: 0x218CA78
+    // Offset: 0x21B7F24
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x218CA70
+    // Offset: 0x21B7F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

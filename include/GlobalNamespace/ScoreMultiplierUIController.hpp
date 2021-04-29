@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* multiplierAnimator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD25888
+    // [InjectAttribute] Offset: 0xD3B2B8
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
@@ -88,28 +88,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF72D78
+    // Offset: 0x10578F8
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xF73000
+    // Offset: 0x1057B80
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF73004
+    // Offset: 0x1057B84
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0xF72E58
+    // Offset: 0x10579D8
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0xF73008
+    // Offset: 0x1057B88
     void UnregisterFromEvents();
     // protected System.Void Update()
-    // Offset: 0xF73108
+    // Offset: 0x1057C88
     void Update();
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0xF73214
+    // Offset: 0x1057D94
     void HandleMultiplierDidChange(int multiplier, float progress);
     // public System.Void .ctor()
-    // Offset: 0xF732F4
+    // Offset: 0x1057E74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

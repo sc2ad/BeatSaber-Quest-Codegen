@@ -25,28 +25,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDifficultyMaskExtensions
     BeatmapDifficultyMaskExtensions() noexcept {}
     // static public BeatmapDifficultyMask ToMask(BeatmapDifficulty difficulty)
-    // Offset: 0x2179E4C
+    // Offset: 0x21A4278
     static GlobalNamespace::BeatmapDifficultyMask ToMask(GlobalNamespace::BeatmapDifficulty difficulty);
     // static public BeatmapDifficulty FromMask(BeatmapDifficultyMask mask)
-    // Offset: 0x2179E58
+    // Offset: 0x21A4284
     static GlobalNamespace::BeatmapDifficulty FromMask(GlobalNamespace::BeatmapDifficultyMask mask);
     // static public System.String LocalizedKey(BeatmapDifficultyMask mask)
-    // Offset: 0x2179EA8
+    // Offset: 0x21A42D4
     static ::Il2CppString* LocalizedKey(GlobalNamespace::BeatmapDifficultyMask mask);
     // static public System.String ShortLocalizedKey(BeatmapDifficultyMask mask)
-    // Offset: 0x2179F50
+    // Offset: 0x21A437C
     static ::Il2CppString* ShortLocalizedKey(GlobalNamespace::BeatmapDifficultyMask mask);
     // static public System.Boolean Contains(BeatmapDifficultyMask mask, BeatmapDifficulty difficulty)
-    // Offset: 0x2179FF8
+    // Offset: 0x21A4424
     static bool Contains(GlobalNamespace::BeatmapDifficultyMask mask, GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Boolean Contains(BeatmapDifficultyMask mask, BeatmapDifficultyMask other)
-    // Offset: 0x217A010
+    // Offset: 0x21A443C
     static bool Contains(GlobalNamespace::BeatmapDifficultyMask mask, GlobalNamespace::BeatmapDifficultyMask other);
     // static public System.Int32 DifferenceFrom(BeatmapDifficultyMask mask, BeatmapDifficultyMask other)
-    // Offset: 0x217A020
+    // Offset: 0x21A444C
     static int DifferenceFrom(GlobalNamespace::BeatmapDifficultyMask mask, GlobalNamespace::BeatmapDifficultyMask other);
     // static public System.String ToHexString(BeatmapDifficultyMask mask)
-    // Offset: 0x217A090
+    // Offset: 0x21A44BC
     static ::Il2CppString* ToHexString(GlobalNamespace::BeatmapDifficultyMask mask);
   }; // BeatmapDifficultyMaskExtensions
   #pragma pack(pop)

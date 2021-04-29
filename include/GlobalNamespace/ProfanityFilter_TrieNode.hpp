@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TrieNode
     TrieNode(System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* children_ = {}, int shortestWord_ = {}) noexcept : children{children_}, shortestWord{shortestWord_} {}
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x15CA504
+    // Offset: 0x15E8488
     void AddWord(::Il2CppString* word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x15CA960
+    // Offset: 0x15E88E4
     bool IsMatch(::Il2CppString* word, int index);
     // public System.Void .ctor()
-    // Offset: 0x15CA4F4
+    // Offset: 0x15E8478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

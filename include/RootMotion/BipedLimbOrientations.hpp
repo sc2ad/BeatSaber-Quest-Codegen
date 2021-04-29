@@ -50,17 +50,17 @@ namespace RootMotion {
     // Creating value type constructor for type: BipedLimbOrientations
     BipedLimbOrientations(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg_ = {}) noexcept : leftArm{leftArm_}, rightArm{rightArm_}, leftLeg{leftLeg_}, rightLeg{rightLeg_} {}
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/LimbOrientation leftArm, RootMotion.BipedLimbOrientations/LimbOrientation rightArm, RootMotion.BipedLimbOrientations/LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/LimbOrientation rightLeg)
-    // Offset: 0x1AAA414
+    // Offset: 0x1AE4448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedLimbOrientations*, creationType>(leftArm, rightArm, leftLeg, rightLeg)));
     }
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x1AAA460
+    // Offset: 0x1AE4494
     static RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x1AAA74C
+    // Offset: 0x1AE4780
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
   }; // RootMotion.BipedLimbOrientations
   #pragma pack(pop)

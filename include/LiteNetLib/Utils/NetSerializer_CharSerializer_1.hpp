@@ -42,7 +42,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     void ElementRead(LiteNetLib::Utils::NetDataReader* r, ::Il2CppChar& prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementRead");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar&>()})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()})));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, prop);
     }
     // public System.Void .ctor()

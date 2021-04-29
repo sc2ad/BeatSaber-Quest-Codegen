@@ -37,16 +37,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: TypeInformation
     TypeInformation(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_} {}
     // System.String get_FullTypeName()
-    // Offset: 0x146BCF0
+    // Offset: 0x1477A48
     ::Il2CppString* get_FullTypeName();
     // System.String get_AssemblyString()
-    // Offset: 0x146BCF8
+    // Offset: 0x1477A50
     ::Il2CppString* get_AssemblyString();
     // System.Boolean get_HasTypeForwardedFrom()
-    // Offset: 0x146BD00
+    // Offset: 0x1477A58
     bool get_HasTypeForwardedFrom();
     // System.Void .ctor(System.String fullTypeName, System.String assemblyString, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x145F9C8
+    // Offset: 0x146B720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInformation* New_ctor(::Il2CppString* fullTypeName, ::Il2CppString* assemblyString, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");

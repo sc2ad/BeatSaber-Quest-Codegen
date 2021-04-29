@@ -81,63 +81,63 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* newObjectiveLightsPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C000
+    // [InjectAttribute] Offset: 0xD41A20
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C010
+    // [InjectAttribute] Offset: 0xD41A30
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C020
+    // [InjectAttribute] Offset: 0xD41A40
     // private readonly MissionSelectionNavigationController _missionSelectionNavigationController
     // Size: 0x8
     // Offset: 0xD8
     GlobalNamespace::MissionSelectionNavigationController* missionSelectionNavigationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionSelectionNavigationController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C030
+    // [InjectAttribute] Offset: 0xD41A50
     // private readonly MissionResultsViewController _missionResultsViewController
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::MissionResultsViewController* missionResultsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C040
+    // [InjectAttribute] Offset: 0xD41A60
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplaySetupViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C050
+    // [InjectAttribute] Offset: 0xD41A70
     // private readonly MissionHelpViewController _missionHelpViewController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::MissionHelpViewController* missionHelpViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C060
+    // [InjectAttribute] Offset: 0xD41A80
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2C070
+    // [InjectAttribute] Offset: 0xD41A90
     // private readonly CampaignProgressModel _campaignProgressModel
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::CampaignProgressModel* campaignProgressModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CampaignProgressModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2C080
+    // [CompilerGeneratedAttribute] Offset: 0xD41AA0
     // private System.Action`1<CampaignFlowCoordinator> didFinishEvent
     // Size: 0x8
     // Offset: 0x108
@@ -153,57 +153,57 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CampaignFlowCoordinator
     CampaignFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsClearedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* newObjectiveLightsPreset_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::MissionSelectionNavigationController* missionSelectionNavigationController_ = {}, GlobalNamespace::MissionResultsViewController* missionResultsViewController_ = {}, GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController_ = {}, GlobalNamespace::MissionHelpViewController* missionHelpViewController_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::CampaignProgressModel* campaignProgressModel_ = {}, System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* didFinishEvent_ = {}, bool showCredits_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, resultsClearedLightsPreset{resultsClearedLightsPreset_}, resultsFailedLightsPreset{resultsFailedLightsPreset_}, newObjectiveLightsPreset{newObjectiveLightsPreset_}, menuTransitionsHelper{menuTransitionsHelper_}, menuLightsManager{menuLightsManager_}, missionSelectionNavigationController{missionSelectionNavigationController_}, missionResultsViewController{missionResultsViewController_}, gameplaySetupViewController{gameplaySetupViewController_}, missionHelpViewController{missionHelpViewController_}, playerDataModel{playerDataModel_}, campaignProgressModel{campaignProgressModel_}, didFinishEvent{didFinishEvent_}, showCredits{showCredits_} {}
     // public System.Void add_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0xF0B138
+    // Offset: 0xF327AC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0xF0B1E0
+    // Offset: 0xF32854
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
     // private System.Void HandleMissionSelectionNavigationControllerDidPressPlayButton(MissionSelectionNavigationController viewController)
-    // Offset: 0xF0B724
+    // Offset: 0xF32D98
     void HandleMissionSelectionNavigationControllerDidPressPlayButton(GlobalNamespace::MissionSelectionNavigationController* viewController);
     // private System.Void HandleMissionHelpViewControllerDidFinish(MissionHelpViewController viewController)
-    // Offset: 0xF0B9E8
+    // Offset: 0xF3305C
     void HandleMissionHelpViewControllerDidFinish(GlobalNamespace::MissionHelpViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerContinueButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0xF0BA98
+    // Offset: 0xF3310C
     void HandleMissionResultsViewControllerContinueButtonPressed(GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerRetryButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0xF0BB44
+    // Offset: 0xF331B8
     void HandleMissionResultsViewControllerRetryButtonPressed(GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0xF0B860
+    // Offset: 0xF32ED4
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleMissionLevelSceneDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0xF0BBF4
+    // Offset: 0xF33268
     void HandleMissionLevelSceneDidFinish(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0()
-    // Offset: 0xF0BE8C
+    // Offset: 0xF33500
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_0();
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1(System.Boolean presented)
-    // Offset: 0xF0BF20
+    // Offset: 0xF33594
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_1(bool presented);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF0B288
+    // Offset: 0xF328FC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF0B49C
+    // Offset: 0xF32B10
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0xF0B628
+    // Offset: 0xF32C9C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xF0BDD8
+    // Offset: 0xF3344C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xF0BE84
+    // Offset: 0xF334F8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

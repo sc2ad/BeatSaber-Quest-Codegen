@@ -40,23 +40,23 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_SpriteCharacter
     TMP_SpriteCharacter(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_} {}
     // public System.String get_name()
-    // Offset: 0xFA6708
+    // Offset: 0x10313C4
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0xFA653C
+    // Offset: 0x10311F8
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0xFA6710
+    // Offset: 0x10313CC
     int get_hashCode();
     // public System.Void .ctor(System.UInt32 unicode, TMPro.TMP_SpriteGlyph glyph)
-    // Offset: 0xFA64DC
+    // Offset: 0x1031198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteCharacter* New_ctor(uint unicode, TMPro::TMP_SpriteGlyph* glyph) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SpriteCharacter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteCharacter*, creationType>(unicode, glyph)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFA6718
+    // Offset: 0x10313D4
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()

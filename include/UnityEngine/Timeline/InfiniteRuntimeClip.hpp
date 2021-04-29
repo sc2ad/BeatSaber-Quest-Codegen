@@ -44,32 +44,32 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.Int64 kIntervalEnd
     static void _set_kIntervalEnd(int64_t value);
     // public System.Void .ctor(UnityEngine.Playables.Playable playable)
-    // Offset: 0x16694B0
+    // Offset: 0x1680288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InfiniteRuntimeClip* New_ctor(UnityEngine::Playables::Playable playable) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::InfiniteRuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InfiniteRuntimeClip*, creationType>(playable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1671694
+    // Offset: 0x168846C
     static void _cctor();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x1671548
+    // Offset: 0x1688320
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x1671550
+    // Offset: 0x1688328
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x16715B8
+    // Offset: 0x1688390
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x1671634
+    // Offset: 0x168840C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);

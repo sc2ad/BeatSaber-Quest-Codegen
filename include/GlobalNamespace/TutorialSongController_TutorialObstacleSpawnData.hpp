@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialObstacleSpawnData
     TutorialObstacleSpawnData(int width_ = {}, GlobalNamespace::ObstacleType obstacleType_ = {}) noexcept : width{width_}, obstacleType{obstacleType_} {}
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, ObstacleType obstacleType)
-    // Offset: 0x1080354
+    // Offset: 0xFABD88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, GlobalNamespace::ObstacleType obstacleType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData::.ctor");

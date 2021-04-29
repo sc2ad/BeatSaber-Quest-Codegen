@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DirectionalLightWithIds
     DirectionalLightWithIds(GlobalNamespace::DirectionalLight* directionalLight_ = {}) noexcept : directionalLight{directionalLight_} {}
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CE5C14
+    // Offset: 0x1D1078C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CE5C34
+    // Offset: 0x1D107AC
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

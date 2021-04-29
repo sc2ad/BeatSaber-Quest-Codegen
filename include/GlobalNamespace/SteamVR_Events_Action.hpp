@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Enable(bool enabled);
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x12CBD20
+    // Offset: 0x12EB9D0
     void set_enabled(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x12CD5B0
+    // Offset: 0x12ED260
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -88,10 +88,10 @@ namespace System::Reflection {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
-    // Offset: 0x1ACE958
+    // Offset: 0x1B0898C
     static void get_event_info(System::Reflection::MonoEvent* ev, System::Reflection::MonoEventInfo& info);
     // static System.Reflection.MonoEventInfo GetEventInfo(System.Reflection.MonoEvent ev)
-    // Offset: 0x1ACE55C
+    // Offset: 0x1B08590
     static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
   #pragma pack(pop)

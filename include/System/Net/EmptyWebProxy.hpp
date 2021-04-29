@@ -47,16 +47,16 @@ namespace System::Net {
       return m_credentials;
     }
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x14D3CCC
+    // Offset: 0x14F1B80
     System::Uri* GetProxy(System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x14D3CD4
+    // Offset: 0x14F1B88
     bool IsBypassed(System::Uri* uri);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x14D3CDC
+    // Offset: 0x14F1B90
     System::Net::ICredentials* get_Credentials();
     // public System.Void .ctor()
-    // Offset: 0x14D3CC4
+    // Offset: 0x14F1B78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

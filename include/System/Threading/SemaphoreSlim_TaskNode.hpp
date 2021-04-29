@@ -41,13 +41,13 @@ namespace System::Threading {
     // Creating value type constructor for type: TaskNode
     TaskNode(System::Threading::SemaphoreSlim::TaskNode* Prev_ = {}, System::Threading::SemaphoreSlim::TaskNode* Next_ = {}) noexcept : Prev{Prev_}, Next{Next_} {}
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1702774
+    // Offset: 0x1703B64
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x17027C8
+    // Offset: 0x1703BB8
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
     // System.Void .ctor()
-    // Offset: 0x1701584
+    // Offset: 0x1702974
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()

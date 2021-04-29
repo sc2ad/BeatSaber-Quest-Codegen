@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRSandwichComposition
     OVRSandwichComposition() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1567548
+    // Offset: 0x15864CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

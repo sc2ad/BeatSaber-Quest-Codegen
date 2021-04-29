@@ -51,21 +51,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnAnimationController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD1D480
+    // [SpaceAttribute] Offset: 0xD32BCC
     // private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1D4B8
+    // [InjectAttribute] Offset: 0xD32C04
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1D4C8
+    // [InjectAttribute] Offset: 0xD32C14
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x30
@@ -105,37 +105,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x100AC0C
+    // Offset: 0x1023848
     bool get_isCharacterVisible();
     // public System.Boolean get_isSpawned()
-    // Offset: 0x100AC24
+    // Offset: 0x1023860
     bool get_isSpawned();
     // protected System.Void Start()
-    // Offset: 0x100AC2C
+    // Offset: 0x1023868
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x100AFC8
+    // Offset: 0x1023C04
     void OnDestroy();
     // private System.Void HandleStartCharacterAnimation(BTSCharacter btsCharacter)
-    // Offset: 0x100B3D8
+    // Offset: 0x1024014
     void HandleStartCharacterAnimation(GlobalNamespace::BTSCharacter* btsCharacter);
     // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x100B520
+    // Offset: 0x102415C
     void HandleGamePauseDidPause();
     // private System.Void HandleGamePauseWillResume()
-    // Offset: 0x100B56C
+    // Offset: 0x10241A8
     void HandleGamePauseWillResume();
     // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x100B5C0
+    // Offset: 0x10241FC
     void HandleGamePauseDidResume();
     // private System.Void HandleLevelEndActionsLevelFailed()
-    // Offset: 0x100B5E4
+    // Offset: 0x1024220
     void HandleLevelEndActionsLevelFailed();
     // private System.Collections.IEnumerator TimelineStoppedDelayed()
-    // Offset: 0x100B4B0
+    // Offset: 0x10240EC
     System::Collections::IEnumerator* TimelineStoppedDelayed();
     // public System.Void .ctor()
-    // Offset: 0x100B634
+    // Offset: 0x1024270
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

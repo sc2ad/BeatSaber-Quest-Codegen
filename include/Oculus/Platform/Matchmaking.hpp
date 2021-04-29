@@ -54,58 +54,58 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Matchmaking
     Matchmaking() noexcept {}
     // static public Oculus.Platform.Request ReportResultsInsecure(System.UInt64 roomID, System.Collections.Generic.Dictionary`2<System.String,System.Int32> data)
-    // Offset: 0x137F378
+    // Offset: 0x139F028
     static Oculus::Platform::Request* ReportResultsInsecure(uint64_t roomID, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* data);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingStats> GetStats(System.String pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
-    // Offset: 0x137F5D4
+    // Offset: 0x139F284
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingStats*>* GetStats(::Il2CppString* pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingBrowseResult> Browse(System.String pool, Oculus.Platform.Matchmaking/CustomQuery customQueryData)
-    // Offset: 0x137F708
+    // Offset: 0x139F3B8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingBrowseResult*>* Browse(::Il2CppString* pool, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingBrowseResult> Browse2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
-    // Offset: 0x137FB74
+    // Offset: 0x139F824
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingBrowseResult*>* Browse2(::Il2CppString* pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request Cancel(System.String pool, System.String requestHash)
-    // Offset: 0x137FD14
+    // Offset: 0x139F9C4
     static Oculus::Platform::Request* Cancel(::Il2CppString* pool, ::Il2CppString* requestHash);
     // static public Oculus.Platform.Request Cancel()
-    // Offset: 0x137FE30
+    // Offset: 0x139FAE0
     static Oculus::Platform::Request* Cancel();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom> CreateAndEnqueueRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, Oculus.Platform.Matchmaking/CustomQuery customQueryData)
-    // Offset: 0x137FF34
+    // Offset: 0x139FBE4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* CreateAndEnqueueRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom> CreateAndEnqueueRoom2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
-    // Offset: 0x1380080
+    // Offset: 0x139FD30
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* CreateAndEnqueueRoom2(::Il2CppString* pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x13801D0
+    // Offset: 0x139FE80
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* CreateRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateRoom2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
-    // Offset: 0x1380304
+    // Offset: 0x139FFB4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* CreateRoom2(::Il2CppString* pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> Enqueue(System.String pool, Oculus.Platform.Matchmaking/CustomQuery customQueryData)
-    // Offset: 0x1380454
+    // Offset: 0x13A0104
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* Enqueue(::Il2CppString* pool, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> Enqueue2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
-    // Offset: 0x1380588
+    // Offset: 0x13A0238
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* Enqueue2(::Il2CppString* pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> EnqueueRoom(System.UInt64 roomID, Oculus.Platform.Matchmaking/CustomQuery customQueryData)
-    // Offset: 0x13806D8
+    // Offset: 0x13A0388
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* EnqueueRoom(uint64_t roomID, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> EnqueueRoom2(System.UInt64 roomID, Oculus.Platform.MatchmakingOptions matchmakingOptions)
-    // Offset: 0x138080C
+    // Offset: 0x13A04BC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* EnqueueRoom2(uint64_t roomID, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingAdminSnapshot> GetAdminSnapshot()
-    // Offset: 0x138095C
+    // Offset: 0x13A060C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingAdminSnapshot*>* GetAdminSnapshot();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> JoinRoom(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x1380A68
+    // Offset: 0x13A0718
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* JoinRoom(uint64_t roomID, bool subscribeToUpdates);
     // static public Oculus.Platform.Request StartMatch(System.UInt64 roomID)
-    // Offset: 0x1380B8C
+    // Offset: 0x13A083C
     static Oculus::Platform::Request* StartMatch(uint64_t roomID);
     // static public System.Void SetMatchFoundNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.Room> callback)
-    // Offset: 0x1380CA0
+    // Offset: 0x13A0950
     static void SetMatchFoundNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback* callback);
   }; // Oculus.Platform.Matchmaking
   #pragma pack(pop)

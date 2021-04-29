@@ -45,17 +45,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return parameters;
     }
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x115FBF8
+    // Offset: 0x118CE70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyGenerationParameters*, creationType>(random, parameters)));
     }
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
-    // Offset: 0x115FC78
+    // Offset: 0x118CEF0
     Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
     // static System.Int32 GetStrength(Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x115FC44
+    // Offset: 0x118CEBC
     static int GetStrength(Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
   }; // Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters
   #pragma pack(pop)

@@ -51,23 +51,23 @@ namespace System {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Array array)
-    // Offset: 0x1621BF0
+    // Offset: 0x163FB74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x16225D4
+    // Offset: 0x1640558
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16225FC
+    // Offset: 0x1640580
     void Reset();
     // public System.Object Clone()
-    // Offset: 0x1622608
+    // Offset: 0x164058C
     ::Il2CppObject* Clone();
     // public System.Object get_Current()
-    // Offset: 0x1622610
+    // Offset: 0x1640594
     ::Il2CppObject* get_Current();
   }; // System.Array/ArrayEnumerator
   #pragma pack(pop)

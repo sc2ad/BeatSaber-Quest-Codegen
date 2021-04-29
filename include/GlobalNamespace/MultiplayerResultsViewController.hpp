@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* backToLobbyButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2FA1C
+    // [CompilerGeneratedAttribute] Offset: 0xD45534
     // private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
     // Size: 0x8
     // Offset: 0x98
@@ -91,24 +91,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerResultsViewController
     MultiplayerResultsViewController(UnityEngine::GameObject* levelClearedGO_ = {}, UnityEngine::GameObject* levelFailedGO_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ResultsTableView* resultsTableView_ = {}, UnityEngine::UI::Button* backToLobbyButton_ = {}, System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent_ = {}) noexcept : levelClearedGO{levelClearedGO_}, levelFailedGO{levelFailedGO_}, levelBar{levelBar_}, resultsTableView{resultsTableView_}, backToLobbyButton{backToLobbyButton_}, backToLobbyPressedEvent{backToLobbyPressedEvent_} {}
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0xF35EA4
+    // Offset: 0x1010180
     void add_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0xF35F48
+    // Offset: 0x1010224
     void remove_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void Init(MultiplayerResultsData multiplayerResultsData, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xF35FEC
+    // Offset: 0x10102C8
     void Init(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void BackToLobbyPressed()
-    // Offset: 0xF36150
+    // Offset: 0x101042C
     void BackToLobbyPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF360A4
+    // Offset: 0x1010380
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF361B4
+    // Offset: 0x1010490
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

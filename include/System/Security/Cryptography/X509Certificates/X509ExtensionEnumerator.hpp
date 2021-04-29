@@ -47,23 +47,23 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x16B4B7C
+    // Offset: 0x16B7F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionEnumerator* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionEnumerator*, creationType>(list)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Current()
-    // Offset: 0x16B2BF4
+    // Offset: 0x16B5FE4
     System::Security::Cryptography::X509Certificates::X509Extension* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16B4C8C
+    // Offset: 0x16B807C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x16B2CE8
+    // Offset: 0x16B60D8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x16B4D40
+    // Offset: 0x16B8130
     void Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
   #pragma pack(pop)

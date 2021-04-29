@@ -60,7 +60,7 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0xE18D80
+    // Offset: 0xE2C2A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_t_Packed(Valve::VR::RenderModel_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::RenderModel_t_Packed::.ctor");
@@ -68,7 +68,7 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.RenderModel_t unpacked)
-    // Offset: 0xE18DA0
+    // Offset: 0xE2C2C4
     void Unpack(Valve::VR::RenderModel_t& unpacked);
   }; // Valve.VR.RenderModel_t_Packed
   #pragma pack(pop)

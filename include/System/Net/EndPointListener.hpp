@@ -122,56 +122,56 @@ namespace System::Net {
     // Creating value type constructor for type: EndPointListener
     EndPointListener(System::Net::HttpListener* listener_ = {}, System::Net::IPEndPoint* endpoint_ = {}, System::Net::Sockets::Socket* sock_ = {}, System::Collections::Hashtable* prefixes_ = {}, System::Collections::ArrayList* unhandled_ = {}, System::Collections::ArrayList* all_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* cert_ = {}, bool secure_ = {}, System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* unregistered_ = {}) noexcept : listener{listener_}, endpoint{endpoint_}, sock{sock_}, prefixes{prefixes_}, unhandled{unhandled_}, all{all_}, cert{cert_}, secure{secure_}, unregistered{unregistered_} {}
     // public System.Void .ctor(System.Net.HttpListener listener, System.Net.IPAddress addr, System.Int32 port, System.Boolean secure)
-    // Offset: 0x14D3EB0
+    // Offset: 0x14F1D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndPointListener* New_ctor(System::Net::HttpListener* listener, System::Net::IPAddress* addr, int port, bool secure) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::EndPointListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EndPointListener*, creationType>(listener, addr, port, secure)));
     }
     // System.Net.HttpListener get_Listener()
-    // Offset: 0x14D421C
+    // Offset: 0x14F20D0
     System::Net::HttpListener* get_Listener();
     // static private System.Void Accept(System.Net.Sockets.Socket socket, System.Net.Sockets.SocketAsyncEventArgs e, ref System.Net.Sockets.Socket accepted)
-    // Offset: 0x14D40A0
+    // Offset: 0x14F1F54
     static void Accept(System::Net::Sockets::Socket* socket, System::Net::Sockets::SocketAsyncEventArgs* e, System::Net::Sockets::Socket*& accepted);
     // static private System.Void ProcessAccept(System.Net.Sockets.SocketAsyncEventArgs args)
-    // Offset: 0x14D4224
+    // Offset: 0x14F20D8
     static void ProcessAccept(System::Net::Sockets::SocketAsyncEventArgs* args);
     // static private System.Void OnAccept(System.Object sender, System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x14D4434
+    // Offset: 0x14F22E8
     static void OnAccept(::Il2CppObject* sender, System::Net::Sockets::SocketAsyncEventArgs* e);
     // System.Void RemoveConnection(System.Net.HttpConnection conn)
-    // Offset: 0x14D443C
+    // Offset: 0x14F22F0
     void RemoveConnection(System::Net::HttpConnection* conn);
     // public System.Boolean BindContext(System.Net.HttpListenerContext context)
-    // Offset: 0x14D4508
+    // Offset: 0x14F23BC
     bool BindContext(System::Net::HttpListenerContext* context);
     // public System.Void UnbindContext(System.Net.HttpListenerContext context)
-    // Offset: 0x14D4AD0
+    // Offset: 0x14F2984
     void UnbindContext(System::Net::HttpListenerContext* context);
     // private System.Net.HttpListener SearchListener(System.Uri uri, out System.Net.ListenerPrefix prefix)
-    // Offset: 0x14D4560
+    // Offset: 0x14F2414
     System::Net::HttpListener* SearchListener(System::Uri* uri, System::Net::ListenerPrefix*& prefix);
     // private System.Net.HttpListener MatchFromList(System.String host, System.String path, System.Collections.ArrayList list, out System.Net.ListenerPrefix prefix)
-    // Offset: 0x14D4AFC
+    // Offset: 0x14F29B0
     System::Net::HttpListener* MatchFromList(::Il2CppString* host, ::Il2CppString* path, System::Collections::ArrayList* list, System::Net::ListenerPrefix*& prefix);
     // private System.Void AddSpecial(System.Collections.ArrayList coll, System.Net.ListenerPrefix prefix)
-    // Offset: 0x14D4DA4
+    // Offset: 0x14F2C58
     void AddSpecial(System::Collections::ArrayList* coll, System::Net::ListenerPrefix* prefix);
     // private System.Boolean RemoveSpecial(System.Collections.ArrayList coll, System.Net.ListenerPrefix prefix)
-    // Offset: 0x14D5058
+    // Offset: 0x14F2F0C
     bool RemoveSpecial(System::Collections::ArrayList* coll, System::Net::ListenerPrefix* prefix);
     // private System.Void CheckIfRemove()
-    // Offset: 0x14D5158
+    // Offset: 0x14F300C
     void CheckIfRemove();
     // public System.Void Close()
-    // Offset: 0x14D5468
+    // Offset: 0x14F331C
     void Close();
     // public System.Void AddPrefix(System.Net.ListenerPrefix prefix, System.Net.HttpListener listener)
-    // Offset: 0x14D56A8
+    // Offset: 0x14F355C
     void AddPrefix(System::Net::ListenerPrefix* prefix, System::Net::HttpListener* listener);
     // public System.Void RemovePrefix(System.Net.ListenerPrefix prefix, System.Net.HttpListener listener)
-    // Offset: 0x14D59DC
+    // Offset: 0x14F3890
     void RemovePrefix(System::Net::ListenerPrefix* prefix, System::Net::HttpListener* listener);
   }; // System.Net.EndPointListener
   #pragma pack(pop)

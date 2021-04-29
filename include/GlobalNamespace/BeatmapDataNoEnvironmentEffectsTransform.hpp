@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataNoEnvironmentEffectsTransform
     BeatmapDataNoEnvironmentEffectsTransform() noexcept {}
     // static public BeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x106FD60
+    // Offset: 0x10B02E8
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public System.Void .ctor()
-    // Offset: 0x107013C
+    // Offset: 0x10B06C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

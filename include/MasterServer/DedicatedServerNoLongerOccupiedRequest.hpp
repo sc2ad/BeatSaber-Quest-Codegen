@@ -37,14 +37,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD0645C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B3D4
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0646C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B3E4
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -66,40 +66,40 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.DedicatedServerNoLongerOccupiedRequest> get_pool()
-    // Offset: 0x12883B4
+    // Offset: 0x12A7070
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerNoLongerOccupiedRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12883FC
+    // Offset: 0x12A70B8
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1288404
+    // Offset: 0x12A70C0
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x128840C
+    // Offset: 0x12A70C8
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1288414
+    // Offset: 0x12A70D0
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerNoLongerOccupiedRequest Init(System.String dedicatedServerId, System.String id)
-    // Offset: 0x1288514
+    // Offset: 0x12A71D0
     MasterServer::DedicatedServerNoLongerOccupiedRequest* Init(::Il2CppString* dedicatedServerId, ::Il2CppString* id);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x128841C
+    // Offset: 0x12A70D8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1288468
+    // Offset: 0x12A7124
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12884B8
+    // Offset: 0x12A7174
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1288520
+    // Offset: 0x12A71DC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

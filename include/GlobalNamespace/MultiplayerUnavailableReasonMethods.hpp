@@ -34,55 +34,48 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MultiplayerUnavailableReasonMethods
     MultiplayerUnavailableReasonMethods() noexcept {}
-    // [LocalizationKeyAttribute] Offset: 0xD21AF0
-    // static field const value: static private System.String kMultiplayerUnavailableNetworkUnreachable
-    static constexpr const char* kMultiplayerUnavailableNetworkUnreachable = "MULTIPLAYER_UNAVAILABLE_NETWORK_UNREACHABLE";
-    // Get static field: static private System.String kMultiplayerUnavailableNetworkUnreachable
-    static ::Il2CppString* _get_kMultiplayerUnavailableNetworkUnreachable();
-    // Set static field: static private System.String kMultiplayerUnavailableNetworkUnreachable
-    static void _set_kMultiplayerUnavailableNetworkUnreachable(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xD21B00
+    // [LocalizationKeyAttribute] Offset: 0xD37478
     // static field const value: static private System.String kMultiplayerUnavailableServerOffline
     static constexpr const char* kMultiplayerUnavailableServerOffline = "MULTIPLAYER_UNAVAILABLE_SERVER_OFFLINE";
     // Get static field: static private System.String kMultiplayerUnavailableServerOffline
     static ::Il2CppString* _get_kMultiplayerUnavailableServerOffline();
     // Set static field: static private System.String kMultiplayerUnavailableServerOffline
     static void _set_kMultiplayerUnavailableServerOffline(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xD21B10
+    // [LocalizationKeyAttribute] Offset: 0xD37488
     // static field const value: static private System.String kMultiplayerUnavailableUpdateRequired
     static constexpr const char* kMultiplayerUnavailableUpdateRequired = "MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED";
     // Get static field: static private System.String kMultiplayerUnavailableUpdateRequired
     static ::Il2CppString* _get_kMultiplayerUnavailableUpdateRequired();
     // Set static field: static private System.String kMultiplayerUnavailableUpdateRequired
     static void _set_kMultiplayerUnavailableUpdateRequired(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xD21B20
+    // [LocalizationKeyAttribute] Offset: 0xD37498
     // static field const value: static private System.String kMultiplayerUnavailableMaintenanceMode
     static constexpr const char* kMultiplayerUnavailableMaintenanceMode = "MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE";
     // Get static field: static private System.String kMultiplayerUnavailableMaintenanceMode
     static ::Il2CppString* _get_kMultiplayerUnavailableMaintenanceMode();
     // Set static field: static private System.String kMultiplayerUnavailableMaintenanceMode
     static void _set_kMultiplayerUnavailableMaintenanceMode(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xD21B30
-    // static field const value: static private System.String kMultiplayerUnavailableUnknown
-    static constexpr const char* kMultiplayerUnavailableUnknown = "MULTIPLAYER_UNAVAILABLE_UNKNOWN";
-    // Get static field: static private System.String kMultiplayerUnavailableUnknown
-    static ::Il2CppString* _get_kMultiplayerUnavailableUnknown();
-    // Set static field: static private System.String kMultiplayerUnavailableUnknown
-    static void _set_kMultiplayerUnavailableUnknown(::Il2CppString* value);
+    // [LocalizationKeyAttribute] Offset: 0xD374A8
+    // static field const value: static private System.String kMultiplayerUnavailableTryAgain
+    static constexpr const char* kMultiplayerUnavailableTryAgain = "MULTIPLAYER_UNAVAILABLE_TRY_AGAIN";
+    // Get static field: static private System.String kMultiplayerUnavailableTryAgain
+    static ::Il2CppString* _get_kMultiplayerUnavailableTryAgain();
+    // Set static field: static private System.String kMultiplayerUnavailableTryAgain
+    static void _set_kMultiplayerUnavailableTryAgain(::Il2CppString* value);
     // static public System.String LocalizedKey(MultiplayerUnavailableReason multiplayerUnavailableReason)
-    // Offset: 0xF3A2C4
+    // Offset: 0xFE7518
     static ::Il2CppString* LocalizedKey(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.String ErrorCode(MultiplayerUnavailableReason multiplayerUnavailableReason)
-    // Offset: 0xF3A32C
+    // Offset: 0xFE7580
     static ::Il2CppString* ErrorCode(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.Boolean TryGetMultiplayerUnavailableReason(MasterServerAvailabilityData data, out MultiplayerUnavailableReason reason)
-    // Offset: 0xF2B56C
+    // Offset: 0xFE75FC
     static bool TryGetMultiplayerUnavailableReason(GlobalNamespace::MasterServerAvailabilityData* data, GlobalNamespace::MultiplayerUnavailableReason& reason);
     // static public System.String GetLocalizedMessage(MasterServerAvailabilityData data, Polyglot.Language language)
-    // Offset: 0xF2B68C
+    // Offset: 0xFE79C0
     static ::Il2CppString* GetLocalizedMessage(GlobalNamespace::MasterServerAvailabilityData* data, Polyglot::Language language);
     // static private System.Boolean VersionLessThan(System.String currentVersion, System.String minVersion)
-    // Offset: 0xF3A3A8
+    // Offset: 0xFE771C
     static bool VersionLessThan(::Il2CppString* currentVersion, ::Il2CppString* minVersion);
   }; // MultiplayerUnavailableReasonMethods
   #pragma pack(pop)

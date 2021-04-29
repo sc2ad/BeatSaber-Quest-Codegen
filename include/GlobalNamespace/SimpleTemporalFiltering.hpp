@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SimpleTemporalFiltering
     SimpleTemporalFiltering(::Array<UnityEngine::RenderTexture*>* temporalFilteringTextures_ = {}, int prevTemporalFilteringTextureIdx_ = {}, UnityEngine::Material* temporalFilteringMaterial_ = {}, int bufferTexID_ = {}) noexcept : temporalFilteringTextures{temporalFilteringTextures_}, prevTemporalFilteringTextureIdx{prevTemporalFilteringTextureIdx_}, temporalFilteringMaterial{temporalFilteringMaterial_}, bufferTexID{bufferTexID_} {}
     // public UnityEngine.RenderTexture FilterTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x210248C
+    // Offset: 0x2131AA8
     UnityEngine::RenderTexture* FilterTexture(UnityEngine::RenderTexture* src);
     // private System.Void CreateRenderTexturesIfNeeded(System.Int32 width, System.Int32 height)
-    // Offset: 0x2102634
+    // Offset: 0x2131C50
     void CreateRenderTexturesIfNeeded(int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x21023D8
+    // Offset: 0x21319F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

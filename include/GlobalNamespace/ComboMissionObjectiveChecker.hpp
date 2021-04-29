@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xD264B8
+    // [InjectAttribute] Offset: 0xD3BEE8
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -37,18 +37,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ComboMissionObjectiveChecker
     ComboMissionObjectiveChecker(GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0x101439C
+    // Offset: 0x10647E4
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x101449C
+    // Offset: 0x10648E4
     void HandleComboDidChange(int combo);
     // protected override System.Void Init()
-    // Offset: 0x10141DC
+    // Offset: 0x1064624
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x10144D8
+    // Offset: 0x1064920
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()

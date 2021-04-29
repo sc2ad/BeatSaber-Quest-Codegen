@@ -56,12 +56,12 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPauseButtonPressDurationMultiplier
     static void _set_kPauseButtonPressDurationMultiplier(float value);
     // public override System.Void InstallBindings()
-    // Offset: 0xF1F7D4
+    // Offset: 0xF5A9CC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF1FBBC
+    // Offset: 0xF5ADB4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

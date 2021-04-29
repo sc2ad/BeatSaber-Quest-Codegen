@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PredefinedPack
     PredefinedPack(int order_ = {}, ::Il2CppString* packId_ = {}) noexcept : order{order_}, packId{packId_} {}
     // public System.Void .ctor()
-    // Offset: 0x10BBC58
+    // Offset: 0xF3E96C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -97,74 +97,74 @@ namespace NUnit::Framework::Constraints {
     static ::Il2CppString* _get_Fmt_Default();
     // Set static field: static private readonly System.String Fmt_Default
     static void _set_Fmt_Default(::Il2CppString* value);
-    // [CompilerGeneratedAttribute] Offset: 0xD109E0
-    // [DebuggerBrowsableAttribute] Offset: 0xD109E0
+    // [CompilerGeneratedAttribute] Offset: 0xD250CC
+    // [DebuggerBrowsableAttribute] Offset: 0xD250CC
     // Get static field: static private NUnit.Framework.Constraints.ValueFormatter <DefaultValueFormatter>k__BackingField
     static NUnit::Framework::Constraints::ValueFormatter* _get_$DefaultValueFormatter$k__BackingField();
     // Set static field: static private NUnit.Framework.Constraints.ValueFormatter <DefaultValueFormatter>k__BackingField
     static void _set_$DefaultValueFormatter$k__BackingField(NUnit::Framework::Constraints::ValueFormatter* value);
     // static public NUnit.Framework.Constraints.ValueFormatter get_DefaultValueFormatter()
-    // Offset: 0x15A53E8
+    // Offset: 0x15C436C
     static NUnit::Framework::Constraints::ValueFormatter* get_DefaultValueFormatter();
     // static public System.Void set_DefaultValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x15A5450
+    // Offset: 0x15C43D4
     static void set_DefaultValueFormatter(NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x15A54BC
+    // Offset: 0x15C4440
     static void _cctor();
     // static public System.Void AddFormatter(NUnit.Framework.Constraints.ValueFormatterFactory formatterFactory)
-    // Offset: 0x15A5868
+    // Offset: 0x15C47EC
     static void AddFormatter(NUnit::Framework::Constraints::ValueFormatterFactory* formatterFactory);
     // static public System.String FormatValue(System.Object val)
-    // Offset: 0x15A2240
+    // Offset: 0x15C11C4
     static ::Il2CppString* FormatValue(::Il2CppObject* val);
     // static public System.String FormatCollection(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0x15A60AC
+    // Offset: 0x15C5030
     static ::Il2CppString* FormatCollection(System::Collections::IEnumerable* collection, int64_t start, int max);
     // static private System.String FormatArray(System.Array array)
-    // Offset: 0x15A6490
+    // Offset: 0x15C5414
     static ::Il2CppString* FormatArray(System::Array* array);
     // static private System.String FormatString(System.String s)
-    // Offset: 0x15A6958
+    // Offset: 0x15C58DC
     static ::Il2CppString* FormatString(::Il2CppString* s);
     // static private System.String FormatDouble(System.Double d)
-    // Offset: 0x15A6A20
+    // Offset: 0x15C59A4
     static ::Il2CppString* FormatDouble(double d);
     // static private System.String FormatFloat(System.Single f)
-    // Offset: 0x15A6B60
+    // Offset: 0x15C5AE4
     static ::Il2CppString* FormatFloat(float f);
     // static private System.String FormatDecimal(System.Decimal d)
-    // Offset: 0x15A6C6C
+    // Offset: 0x15C5BF0
     static ::Il2CppString* FormatDecimal(System::Decimal d);
     // static private System.String FormatDateTime(System.DateTime dt)
-    // Offset: 0x15A6D0C
+    // Offset: 0x15C5C90
     static ::Il2CppString* FormatDateTime(System::DateTime dt);
     // static private System.String FormatDateTimeOffset(System.DateTimeOffset dto)
-    // Offset: 0x15A6DB8
+    // Offset: 0x15C5D3C
     static ::Il2CppString* FormatDateTimeOffset(System::DateTimeOffset dto);
     // static public System.String GetTypeRepresentation(System.Object obj)
-    // Offset: 0x15A4A88
+    // Offset: 0x15C3A0C
     static ::Il2CppString* GetTypeRepresentation(::Il2CppObject* obj);
     // static public System.String EscapeControlChars(System.String s)
-    // Offset: 0x15A6E6C
+    // Offset: 0x15C5DF0
     static ::Il2CppString* EscapeControlChars(::Il2CppString* s);
     // static public System.String EscapeNullCharacters(System.String s)
-    // Offset: 0x15A7090
+    // Offset: 0x15C6014
     static ::Il2CppString* EscapeNullCharacters(::Il2CppString* s);
     // static public System.String GetArrayIndicesAsString(System.Int32[] indices)
-    // Offset: 0x15A4DB0
+    // Offset: 0x15C3D34
     static ::Il2CppString* GetArrayIndicesAsString(::Array<int>* indices);
     // static public System.Int32[] GetArrayIndicesFromCollectionIndex(System.Collections.IEnumerable collection, System.Int64 index)
-    // Offset: 0x15A4C78
+    // Offset: 0x15C3BFC
     static ::Array<int>* GetArrayIndicesFromCollectionIndex(System::Collections::IEnumerable* collection, int64_t index);
     // static public System.String ClipString(System.String s, System.Int32 maxStringLength, System.Int32 clipStart)
-    // Offset: 0x15A718C
+    // Offset: 0x15C6110
     static ::Il2CppString* ClipString(::Il2CppString* s, int maxStringLength, int clipStart);
     // static public System.Void ClipExpectedAndActual(ref System.String expected, ref System.String actual, System.Int32 maxDisplayLength, System.Int32 mismatch)
-    // Offset: 0x15A72D4
+    // Offset: 0x15C6258
     static void ClipExpectedAndActual(::Il2CppString*& expected, ::Il2CppString*& actual, int maxDisplayLength, int mismatch);
     // static public System.Int32 FindMismatchPosition(System.String expected, System.String actual, System.Int32 istart, System.Boolean ignoreCase)
-    // Offset: 0x15A40F0
+    // Offset: 0x15C3074
     static int FindMismatchPosition(::Il2CppString* expected, ::Il2CppString* actual, int istart, bool ignoreCase);
   }; // NUnit.Framework.Constraints.MsgUtils
   #pragma pack(pop)

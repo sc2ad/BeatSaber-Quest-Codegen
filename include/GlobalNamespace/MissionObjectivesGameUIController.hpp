@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     float elementWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD256D8
+    // [InjectAttribute] Offset: 0xD3B108
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x28
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x102E340
+    // Offset: 0xF49EBC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x102E70C
+    // Offset: 0xF4A288
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x102E7DC
+    // Offset: 0xF4A358
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0x102E3D0
+    // Offset: 0xF49F4C
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0x102E7E0
+    // Offset: 0xF4A35C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

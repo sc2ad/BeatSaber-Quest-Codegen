@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: XRNodeExtensions
     XRNodeExtensions() noexcept {}
     // static public OVRPlugin/Node OculusNode(UnityEngine.XR.XRNode node)
-    // Offset: 0x2125378
+    // Offset: 0x2151438
     static GlobalNamespace::OVRPlugin::Node OculusNode(UnityEngine::XR::XRNode node);
     // static public System.Int32 PSMoveDeviceIndex(UnityEngine.XR.XRNode node)
-    // Offset: 0x2125448
+    // Offset: 0x2151508
     static int PSMoveDeviceIndex(UnityEngine::XR::XRNode node);
   }; // XRNodeExtensions
   #pragma pack(pop)

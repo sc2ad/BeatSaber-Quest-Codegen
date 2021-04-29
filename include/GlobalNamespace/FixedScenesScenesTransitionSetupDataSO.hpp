@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FixedScenesScenesTransitionSetupDataSO
     FixedScenesScenesTransitionSetupDataSO(::Array<GlobalNamespace::SceneInfo*>* sceneInfos_ = {}) noexcept : sceneInfos{sceneInfos_} {}
     // public System.Void Init()
-    // Offset: 0x1122B04
+    // Offset: 0x117C398
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1122B18
+    // Offset: 0x117C3AC
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

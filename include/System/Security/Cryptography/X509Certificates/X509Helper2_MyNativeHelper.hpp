@@ -36,10 +36,10 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
     }
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x16B4EEC
+    // Offset: 0x16B82DC
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // public System.Void .ctor()
-    // Offset: 0x16B4E54
+    // Offset: 0x16B8244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

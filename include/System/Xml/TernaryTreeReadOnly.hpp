@@ -29,14 +29,14 @@ namespace System::Xml {
       return nodeBuffer;
     }
     // public System.Void .ctor(System.Byte[] nodeBuffer)
-    // Offset: 0x1786394
+    // Offset: 0x17A3B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
-    // Offset: 0x1784A5C
+    // Offset: 0x17A21F4
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
   #pragma pack(pop)

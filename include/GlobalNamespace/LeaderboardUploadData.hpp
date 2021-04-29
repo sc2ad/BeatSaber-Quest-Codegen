@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardUploadData
     LeaderboardUploadData(::Il2CppString* playerName_ = {}, ::Il2CppString* playerId_ = {}, ::Il2CppString* score_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* authorName_ = {}, ::Il2CppString* bpm_ = {}, ::Il2CppString* difficulty_ = {}, ::Il2CppString* infoHash_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* modifiers_ = {}) noexcept : playerName{playerName_}, playerId{playerId_}, score{score_}, leaderboardId{leaderboardId_}, songName{songName_}, songSubName{songSubName_}, authorName{authorName_}, bpm{bpm_}, difficulty{difficulty_}, infoHash{infoHash_}, modifiers{modifiers_} {}
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
-    // Offset: 0xFF9C20
+    // Offset: 0x111B1A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardUploadData* New_ctor(::Il2CppString* playerName, ::Il2CppString* playerId, ::Il2CppString* score, ::Il2CppString* leaderboardId, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* authorName, ::Il2CppString* bpm, ::Il2CppString* difficulty, ::Il2CppString* infoHash, System::Collections::Generic::List_1<::Il2CppString*>* modifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardUploadData::.ctor");

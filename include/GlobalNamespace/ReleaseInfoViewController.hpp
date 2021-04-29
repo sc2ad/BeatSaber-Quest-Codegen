@@ -16,13 +16,16 @@
 namespace GlobalNamespace {
   // Forward declaring type: MainSettingsModelSO
   class MainSettingsModelSO;
-  // Forward declaring type: LocalizedTextAsset
-  class LocalizedTextAsset;
 }
 // Forward declaring namespace: HMUI
 namespace HMUI {
   // Forward declaring type: TextPageScrollView
   class TextPageScrollView;
+}
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: TextAsset
+  class TextAsset;
 }
 // Completed forward declares
 // Type namespace: 
@@ -44,27 +47,27 @@ namespace GlobalNamespace {
     HMUI::TextPageScrollView* textPageScrollView;
     // Field size check
     static_assert(sizeof(HMUI::TextPageScrollView*) == 0x8);
-    // private LocalizedTextAsset _releaseNotesLocalizedTextAsset
+    // private UnityEngine.TextAsset _releaseNotesTextAsset
     // Size: 0x8
     // Offset: 0x80
-    GlobalNamespace::LocalizedTextAsset* releaseNotesLocalizedTextAsset;
+    UnityEngine::TextAsset* releaseNotesTextAsset;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // private LocalizedTextAsset _firstLocalizedTextAsset
+    static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
+    // private UnityEngine.TextAsset _firstTextAsset
     // Size: 0x8
     // Offset: 0x88
-    GlobalNamespace::LocalizedTextAsset* firstLocalizedTextAsset;
+    UnityEngine::TextAsset* firstTextAsset;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LocalizedTextAsset*) == 0x8);
+    static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
     // Creating value type constructor for type: ReleaseInfoViewController
-    ReleaseInfoViewController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::LocalizedTextAsset* releaseNotesLocalizedTextAsset_ = {}, GlobalNamespace::LocalizedTextAsset* firstLocalizedTextAsset_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, textPageScrollView{textPageScrollView_}, releaseNotesLocalizedTextAsset{releaseNotesLocalizedTextAsset_}, firstLocalizedTextAsset{firstLocalizedTextAsset_} {}
+    ReleaseInfoViewController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, UnityEngine::TextAsset* releaseNotesTextAsset_ = {}, UnityEngine::TextAsset* firstTextAsset_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, textPageScrollView{textPageScrollView_}, releaseNotesTextAsset{releaseNotesTextAsset_}, firstTextAsset{firstTextAsset_} {}
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFC9050
+    // Offset: 0xF88904
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFC90BC
+    // Offset: 0xF88970
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -79,7 +82,7 @@ namespace GlobalNamespace {
     }
   }; // ReleaseInfoViewController
   #pragma pack(pop)
-  static check_size<sizeof(ReleaseInfoViewController), 136 + sizeof(GlobalNamespace::LocalizedTextAsset*)> __GlobalNamespace_ReleaseInfoViewControllerSizeCheck;
+  static check_size<sizeof(ReleaseInfoViewController), 136 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_ReleaseInfoViewControllerSizeCheck;
   static_assert(sizeof(ReleaseInfoViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");

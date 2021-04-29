@@ -21,7 +21,7 @@ namespace System::IO {
     // Creating value type constructor for type: NullTextReader
     NullTextReader() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1690FA8
+    // Offset: 0x1694398
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -32,12 +32,12 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::NullTextReader*, creationType>()));
     }
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x16911D0
+    // Offset: 0x16945C0
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x16911D8
+    // Offset: 0x16945C8
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();

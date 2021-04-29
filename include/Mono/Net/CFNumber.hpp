@@ -23,10 +23,10 @@ namespace Mono::Net {
     // Creating value type constructor for type: CFNumber
     CFNumber() noexcept {}
     // static private System.Boolean CFNumberGetValue(System.IntPtr handle, System.IntPtr type, out System.Int32 value)
-    // Offset: 0x1431BC0
+    // Offset: 0x144EA40
     static bool CFNumberGetValue(System::IntPtr handle, System::IntPtr type, int& value);
     // static public System.Int32 AsInt32(System.IntPtr handle)
-    // Offset: 0x1431C60
+    // Offset: 0x144EAE0
     static int AsInt32(System::IntPtr handle);
   }; // Mono.Net.CFNumber
   #pragma pack(pop)

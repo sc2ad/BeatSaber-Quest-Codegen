@@ -55,26 +55,26 @@ namespace System::Threading {
     // Set static field: static System.Threading.ContextCallback _ccb
     static void _set__ccb(System::Threading::ContextCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x16E243C
+    // Offset: 0x16E382C
     static void _cctor();
     // System.Void .ctor(System.Delegate start)
-    // Offset: 0x16E1A74
+    // Offset: 0x16E2E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadHelper* New_ctor(System::Delegate* start) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadHelper*, creationType>(start)));
     }
     // System.Void SetExecutionContextHelper(System.Threading.ExecutionContext ec)
-    // Offset: 0x16E24B8
+    // Offset: 0x16E38A8
     void SetExecutionContextHelper(System::Threading::ExecutionContext* ec);
     // static private System.Void ThreadStart_Context(System.Object state)
-    // Offset: 0x16E24C0
+    // Offset: 0x16E38B0
     static void ThreadStart_Context(::Il2CppObject* state);
     // System.Void ThreadStart(System.Object obj)
-    // Offset: 0x16E27B0
+    // Offset: 0x16E3BA0
     void ThreadStart(::Il2CppObject* obj);
     // System.Void ThreadStart()
-    // Offset: 0x16E28A8
+    // Offset: 0x16E3C98
     void ThreadStart();
   }; // System.Threading.ThreadHelper
   #pragma pack(pop)

@@ -88,35 +88,35 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* emptyTransitionSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // [InjectAttribute] Offset: 0xCF5360
+    // [InjectAttribute] Offset: 0xD08650
     // private Zenject.ZenjectSceneLoader _zenjectSceneLoader
     // Size: 0x8
     // Offset: 0x20
     Zenject::ZenjectSceneLoader* zenjectSceneLoader;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSceneLoader*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF5370
+    // [CompilerGeneratedAttribute] Offset: 0xD08660
     // private System.Action`1<System.Single> transitionDidStartEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<float>* transitionDidStartEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF5380
+    // [CompilerGeneratedAttribute] Offset: 0xD08670
     // private System.Action beforeDismissingScenesEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* beforeDismissingScenesEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF5390
+    // [CompilerGeneratedAttribute] Offset: 0xD08680
     // private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> transitionDidFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* transitionDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCF53A0
+    // [CompilerGeneratedAttribute] Offset: 0xD08690
     // private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> installEarlyBindingsEvent
     // Size: 0x8
     // Offset: 0x40
@@ -172,85 +172,85 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kRootContainerGOName
     static void _set_kRootContainerGOName(::Il2CppString* value);
     // public System.Void add_transitionDidStartEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11233E8
+    // Offset: 0x117CC7C
     void add_transitionDidStartEvent(System::Action_1<float>* value);
     // public System.Void remove_transitionDidStartEvent(System.Action`1<System.Single> value)
-    // Offset: 0x112348C
+    // Offset: 0x117CD20
     void remove_transitionDidStartEvent(System::Action_1<float>* value);
     // public System.Void add_beforeDismissingScenesEvent(System.Action value)
-    // Offset: 0x1123530
+    // Offset: 0x117CDC4
     void add_beforeDismissingScenesEvent(System::Action* value);
     // public System.Void remove_beforeDismissingScenesEvent(System.Action value)
-    // Offset: 0x11235D4
+    // Offset: 0x117CE68
     void remove_beforeDismissingScenesEvent(System::Action* value);
     // public System.Void add_transitionDidFinishEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x1123678
+    // Offset: 0x117CF0C
     void add_transitionDidFinishEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public System.Void remove_transitionDidFinishEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x112371C
+    // Offset: 0x117CFB0
     void remove_transitionDidFinishEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public System.Void add_installEarlyBindingsEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x11237C0
+    // Offset: 0x117D054
     void add_installEarlyBindingsEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public System.Void remove_installEarlyBindingsEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x1123864
+    // Offset: 0x117D0F8
     void remove_installEarlyBindingsEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public Zenject.DiContainer get_currentScenesContainer()
-    // Offset: 0x1123908
+    // Offset: 0x117D19C
     Zenject::DiContainer* get_currentScenesContainer();
     // public System.Boolean get_isInTransition()
-    // Offset: 0x1123968
+    // Offset: 0x117D1FC
     bool get_isInTransition();
     // public UnityEngine.WaitUntil get_waitUntilSceneTransitionFinish()
-    // Offset: 0x1123970
+    // Offset: 0x117D204
     UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
     // public System.Void MarkSceneAsPersistent(System.String sceneName)
-    // Offset: 0x1123A08
+    // Offset: 0x117D29C
     void MarkSceneAsPersistent(::Il2CppString* sceneName);
     // public System.Collections.Generic.List`1<System.String> GetCurrentlyLoadedSceneNames()
-    // Offset: 0x1123A70
+    // Offset: 0x117D304
     System::Collections::Generic::List_1<::Il2CppString*>* GetCurrentlyLoadedSceneNames();
     // public System.Void PushScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x1123BCC
+    // Offset: 0x117D460
     void PushScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // public System.Void PopScenes(System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x1124038
+    // Offset: 0x117D8CC
     void PopScenes(float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // public System.Void ReplaceScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x1124264
+    // Offset: 0x117DAF8
     void ReplaceScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // public System.Void ClearAndOpenScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback, System.Boolean unloadAllScenes)
-    // Offset: 0x11244A8
+    // Offset: 0x117DD3C
     void ClearAndOpenScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback, bool unloadAllScenes);
     // private System.Collections.IEnumerator ScenesTransitionCoroutine(System.Collections.Generic.List`1<System.String> scenesToPresent, GameScenesManager/ScenePresentType presentType, System.Collections.Generic.List`1<System.String> scenesToDismiss, GameScenesManager/SceneDismissType dismissType, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> extraBindingsCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x1123F68
+    // Offset: 0x117D7FC
     System::Collections::IEnumerator* ScenesTransitionCoroutine(System::Collections::Generic::List_1<::Il2CppString*>* scenesToPresent, GlobalNamespace::GameScenesManager::ScenePresentType presentType, System::Collections::Generic::List_1<::Il2CppString*>* scenesToDismiss, GlobalNamespace::GameScenesManager::SceneDismissType dismissType, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* extraBindingsCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // private System.Boolean IsAnySceneInStack(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0x11248E0
+    // Offset: 0x117E174
     bool IsAnySceneInStack(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames);
     // private System.Boolean IsSceneInStack(System.String searchSceneName)
-    // Offset: 0x11249E8
+    // Offset: 0x117E27C
     bool IsSceneInStack(::Il2CppString* searchSceneName);
     // private System.Collections.Generic.List`1<System.String> SceneNamesFromSceneInfoArray(SceneInfo[] sceneInfos)
-    // Offset: 0x1123E5C
+    // Offset: 0x117D6F0
     System::Collections::Generic::List_1<::Il2CppString*>* SceneNamesFromSceneInfoArray(::Array<GlobalNamespace::SceneInfo*>* sceneInfos);
     // private System.Void SetActiveRootObjectsInScenes(System.Collections.Generic.List`1<System.String> sceneNames, System.Boolean value)
-    // Offset: 0x1124C64
+    // Offset: 0x117E4F8
     void SetActiveRootObjectsInScenes(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames, bool value);
     // private System.Void ReparentRootGameObjectsToDisabledGameObject(System.String sceneName)
-    // Offset: 0x1124D9C
+    // Offset: 0x117E630
     void ReparentRootGameObjectsToDisabledGameObject(::Il2CppString* sceneName);
     // private System.Void MoveGameObjectsFromContainerToSceneRoot(System.String sceneName)
-    // Offset: 0x1124FA0
+    // Offset: 0x117E834
     void MoveGameObjectsFromContainerToSceneRoot(::Il2CppString* sceneName);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1125248
+    // Offset: 0x117EADC
     static void Log(::Il2CppString* message);
     // private System.Boolean <get_waitUntilSceneTransitionFinish>b__22_0()
-    // Offset: 0x1125348
+    // Offset: 0x117EBDC
     bool $get_waitUntilSceneTransitionFinish$b__22_0();
     // public System.Void .ctor()
-    // Offset: 0x11252B0
+    // Offset: 0x117EB44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

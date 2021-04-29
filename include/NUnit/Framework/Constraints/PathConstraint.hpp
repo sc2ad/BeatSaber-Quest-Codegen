@@ -25,13 +25,13 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.Char[] DirectorySeparatorChars
     static void _set_DirectorySeparatorChars(::Array<::Il2CppChar>* value);
     // protected System.String Canonicalize(System.String path)
-    // Offset: 0x15AC470
+    // Offset: 0x15CB3F4
     ::Il2CppString* Canonicalize(::Il2CppString* path);
     // static private System.Void .cctor()
-    // Offset: 0x15AC774
+    // Offset: 0x15CB6F8
     static void _cctor();
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x15AC288
+    // Offset: 0x15CB20C
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +40,7 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<PathConstraint*, creationType>(expected)));
     }
     // protected override System.String GetStringRepresentation()
-    // Offset: 0x15AC3D4
+    // Offset: 0x15CB358
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::GetStringRepresentation()
     ::Il2CppString* GetStringRepresentation();

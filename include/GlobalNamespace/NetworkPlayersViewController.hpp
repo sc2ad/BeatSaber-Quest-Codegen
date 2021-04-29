@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: refreshIsNeeded and: onJoinRequestEvent
     char __padding1[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD2FBD8
+    // [CompilerGeneratedAttribute] Offset: 0xD456F0
     // private System.Action`1<INetworkPlayer> onJoinRequestEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action_1<GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2FBE8
+    // [CompilerGeneratedAttribute] Offset: 0xD45700
     // private System.Action`1<INetworkPlayer> onInviteRequestEvent
     // Size: 0x8
     // Offset: 0x88
@@ -75,52 +75,52 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // public System.Void add_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x10C03D4
+    // Offset: 0xFF14F4
     void add_onJoinRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x10C0478
+    // Offset: 0xFF1598
     void remove_onJoinRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void add_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x10C051C
+    // Offset: 0xFF163C
     void add_onInviteRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x10C05C0
+    // Offset: 0xFF16E0
     void remove_onInviteRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // protected System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x10C0AE8
+    // Offset: 0xFF1C08
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void NetworkPlayersViewControllerDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x10C0D90
+    // Offset: 0xFF1EB0
     void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
     // private System.Void HandlePartyChanged(INetworkPlayerModel playerModel)
-    // Offset: 0x10C0D9C
+    // Offset: 0xFF1EBC
     void HandlePartyChanged(GlobalNamespace::INetworkPlayerModel* playerModel);
     // private System.Void HandleJoinRequest(INetworkPlayer player)
-    // Offset: 0x10C0DB4
+    // Offset: 0xFF1ED4
     void HandleJoinRequest(GlobalNamespace::INetworkPlayer* player);
     // private System.Void HandleInviteRequest(INetworkPlayer player)
-    // Offset: 0x10C0E28
+    // Offset: 0xFF1F48
     void HandleInviteRequest(GlobalNamespace::INetworkPlayer* player);
     // private System.Void Refresh()
-    // Offset: 0x10C093C
+    // Offset: 0xFF1A5C
     void Refresh();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10C0664
+    // Offset: 0xFF1784
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10C0AEC
+    // Offset: 0xFF1C0C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x10C0D94
+    // Offset: 0xFF1EB4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x10C0E9C
+    // Offset: 0xFF1FBC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

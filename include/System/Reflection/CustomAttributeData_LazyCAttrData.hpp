@@ -48,7 +48,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: LazyCAttrData
     LazyCAttrData(System::Reflection::Assembly* assembly_ = {}, System::IntPtr data_ = {}, uint data_length_ = {}) noexcept : assembly{assembly_}, data{data_}, data_length{data_length_} {}
     // public System.Void .ctor()
-    // Offset: 0x1AC4F38
+    // Offset: 0x1AFEF6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

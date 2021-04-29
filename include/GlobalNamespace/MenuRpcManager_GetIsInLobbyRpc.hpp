@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetIsInLobbyRpc
     GetIsInLobbyRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15BF14C
+    // Offset: 0x15DD0D0
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

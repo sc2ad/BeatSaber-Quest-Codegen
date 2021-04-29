@@ -25,10 +25,10 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TrackAssetExtensions
     TrackAssetExtensions() noexcept {}
     // static public UnityEngine.Timeline.GroupTrack GetGroup(UnityEngine.Timeline.TrackAsset asset)
-    // Offset: 0x20F6A5C
+    // Offset: 0x2125CB4
     static UnityEngine::Timeline::GroupTrack* GetGroup(UnityEngine::Timeline::TrackAsset* asset);
     // static public System.Void SetGroup(UnityEngine.Timeline.TrackAsset asset, UnityEngine.Timeline.GroupTrack group)
-    // Offset: 0x20F6B24
+    // Offset: 0x2125D7C
     static void SetGroup(UnityEngine::Timeline::TrackAsset* asset, UnityEngine::Timeline::GroupTrack* group);
   }; // UnityEngine.Timeline.TrackAssetExtensions
   #pragma pack(pop)

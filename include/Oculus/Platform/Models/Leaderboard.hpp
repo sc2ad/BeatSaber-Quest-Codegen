@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
       return ApiName;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138EFB8
+    // Offset: 0x13AEC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Leaderboard* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Leaderboard::.ctor");

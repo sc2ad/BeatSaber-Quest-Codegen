@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1E388
+    // [InjectAttribute] Offset: 0xD33C98
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF45EDC
+    // Offset: 0x107DF5C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF46010
+    // Offset: 0x107E090
     void OnDestroy();
     // private System.Void HandleMultiplayerLevelDidFinishEvent(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, MultiplayerResultsData multiplayerResultsData)
-    // Offset: 0xF46144
+    // Offset: 0x107E1C4
     void HandleMultiplayerLevelDidFinishEvent(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
     // public System.Void .ctor()
-    // Offset: 0xF46660
+    // Offset: 0x107E6E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

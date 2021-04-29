@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelPackProductData
     LevelPackProductData(::Il2CppString* productLabel_ = {}, ::Il2CppString* categoryLabel_ = {}, ::Il2CppString* packId_ = {}, float packLevelPriceDiscountMul_ = {}, ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelProductsData_ = {}) noexcept : productLabel{productLabel_}, categoryLabel{categoryLabel_}, packId{packId_}, packLevelPriceDiscountMul{packLevelPriceDiscountMul_}, levelProductsData{levelProductsData_} {}
     // public System.String get_productLabel()
-    // Offset: 0xF5BFD8
+    // Offset: 0xF16C30
     ::Il2CppString* get_productLabel();
     // public System.String get_categoryLabel()
-    // Offset: 0xF5BFE0
+    // Offset: 0xF16C38
     ::Il2CppString* get_categoryLabel();
     // public System.String get_levelPackId()
-    // Offset: 0xF5BFE8
+    // Offset: 0xF16C40
     ::Il2CppString* get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
-    // Offset: 0xF5BFF0
+    // Offset: 0xF16C48
     float get_packLevelPriceDiscountMul();
     // public PS4LevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0xF5BFF8
+    // Offset: 0xF16C50
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0xF5C000
+    // Offset: 0xF16C58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

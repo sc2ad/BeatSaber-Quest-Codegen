@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardPanel
     LeaderboardPanel(::Il2CppString* title_ = {}, ::Il2CppString* hint_ = {}, bool mixed_ = {}) noexcept : title{title_}, hint{hint_}, mixed{mixed_} {}
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
-    // Offset: 0xF0D954
+    // Offset: 0xF34FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");

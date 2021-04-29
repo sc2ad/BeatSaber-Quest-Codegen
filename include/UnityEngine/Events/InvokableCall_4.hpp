@@ -31,8 +31,8 @@ namespace UnityEngine::Events {
   template<typename T1, typename T2, typename T3, typename T4>
   class InvokableCall_4 : public UnityEngine::Events::BaseInvokableCall {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xCAD958
-    // [CompilerGeneratedAttribute] Offset: 0xCAD958
+    // [CompilerGeneratedAttribute] Offset: 0xCBEA98
+    // [DebuggerBrowsableAttribute] Offset: 0xCBEA98
     // private UnityEngine.Events.UnityAction`4<T1,T2,T3,T4> Delegate
     // Size: 0x8
     // Offset: 0x0

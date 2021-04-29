@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public override System.String ToString()
-    // Offset: 0xDF243C
+    // Offset: 0xE078B8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
-      // Offset: 0xDDF458
+      // Offset: 0xDF390C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
@@ -111,17 +111,17 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kYJumpOffsetBufferSongTimeInitValue
     static void _set_kYJumpOffsetBufferSongTimeInitValue(float value);
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
-    // Offset: 0xEFD034
+    // Offset: 0xF246A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator*, creationType>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData)));
     }
     // public System.Void ManualUpdate()
-    // Offset: 0xEFD134
+    // Offset: 0xF247A8
     void ManualUpdate();
     // public System.Single GetJumpOffsetYAtJumpStartSongTime(System.Single lastDeltaTime)
-    // Offset: 0xEFD250
+    // Offset: 0xF248C4
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
   #pragma pack(pop)

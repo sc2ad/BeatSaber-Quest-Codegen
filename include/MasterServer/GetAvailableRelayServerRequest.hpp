@@ -52,28 +52,28 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.GetAvailableRelayServerRequest> get_pool()
-    // Offset: 0x1288F90
+    // Offset: 0x12A7C4C
     static GlobalNamespace::PacketPool_1<MasterServer::GetAvailableRelayServerRequest*>* get_pool();
     // public MasterServer.GetAvailableRelayServerRequest Init(System.String secret)
-    // Offset: 0x12890B0
+    // Offset: 0x12A7D6C
     MasterServer::GetAvailableRelayServerRequest* Init(::Il2CppString* secret);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1288FD8
+    // Offset: 0x12A7C94
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1289014
+    // Offset: 0x12A7CD0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1289054
+    // Offset: 0x12A7D10
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x12890B8
+    // Offset: 0x12A7D74
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

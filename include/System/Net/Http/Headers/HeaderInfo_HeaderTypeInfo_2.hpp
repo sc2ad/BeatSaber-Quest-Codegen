@@ -88,7 +88,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Boolean HeaderInfo::TryParse(System.String value, out System.Object result)
     bool TryParse(::Il2CppString* value, ::Il2CppObject*& result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::TryParse");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, result);
     }
   }; // System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2

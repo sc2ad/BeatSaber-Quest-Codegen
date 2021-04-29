@@ -66,40 +66,40 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int16[] ftable
     static void _set_ftable(::Array<int16_t>* value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1C633C0
+    // Offset: 0x1C3A130
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1C636F4
+    // Offset: 0x1C3A464
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1C6373C
+    // Offset: 0x1C3A4AC
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1C63744
+    // Offset: 0x1C3A4B4
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1C6374C
+    // Offset: 0x1C3A4BC
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1C6386C
+    // Offset: 0x1C3A5DC
     void Reset();
     // private System.Int32 G(System.Int32 k, System.Int32 w)
-    // Offset: 0x1C63870
+    // Offset: 0x1C3A5E0
     int G(int k, int w);
     // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1C639E4
+    // Offset: 0x1C3A754
     int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 H(System.Int32 k, System.Int32 w)
-    // Offset: 0x1C63C38
+    // Offset: 0x1C3A9A8
     int H(int k, int w);
     // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1C63DAC
+    // Offset: 0x1C3AB1C
     int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // static private System.Void .cctor()
-    // Offset: 0x1C6401C
+    // Offset: 0x1C3AD8C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C64098
+    // Offset: 0x1C3AE08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

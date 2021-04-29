@@ -35,21 +35,21 @@ namespace Tweening {
     // Creating value type constructor for type: ColorTween
     ColorTween() noexcept {}
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x1080CCC
+    // Offset: 0xFAC700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0x1080DA4
+    // Offset: 0xFAC7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public UnityEngine.Color GetValue(System.Single t)
-    // Offset: 0x1080E7C
+    // Offset: 0xFAC8B0
     UnityEngine::Color GetValue(float t);
   }; // Tweening.ColorTween
 }

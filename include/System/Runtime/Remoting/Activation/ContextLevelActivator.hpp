@@ -44,17 +44,17 @@ namespace System::Runtime::Remoting::Activation {
       return m_NextActivator;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1304EF8
+    // Offset: 0x1324BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextLevelActivator* New_ctor(System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::ContextLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextLevelActivator*, creationType>(next)));
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x1305C44
+    // Offset: 0x13258F4
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1305C4C
+    // Offset: 0x13258FC
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.ContextLevelActivator
   #pragma pack(pop)

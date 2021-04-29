@@ -23,13 +23,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifierMaskExtensions
     GameplayModifierMaskExtensions() noexcept {}
     // static public System.Boolean Contains(GameplayModifierMask mask, GameplayModifierMask other)
-    // Offset: 0x210AD8C
+    // Offset: 0x21393A8
     static bool Contains(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other);
     // static public System.Int32 DifferenceFrom(GameplayModifierMask mask, GameplayModifierMask other)
-    // Offset: 0x210AD9C
+    // Offset: 0x21393B8
     static int DifferenceFrom(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other);
     // static public System.String ToHexString(GameplayModifierMask mask)
-    // Offset: 0x210ADAC
+    // Offset: 0x21393C8
     static ::Il2CppString* ToHexString(GlobalNamespace::GameplayModifierMask mask);
   }; // GameplayModifierMaskExtensions
   #pragma pack(pop)

@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixIPGlobalProperties
     UnixIPGlobalProperties() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1328ACC
+    // Offset: 0x134877C
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()
     // Base method: System.Void IPGlobalProperties::.ctor()

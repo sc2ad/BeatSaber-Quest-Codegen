@@ -296,7 +296,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0xDF1E30
+    // Offset: 0xE072AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState4::.ctor");

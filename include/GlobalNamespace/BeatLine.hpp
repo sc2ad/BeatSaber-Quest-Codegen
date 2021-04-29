@@ -130,27 +130,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatLine
     BeatLine(GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, UnityEngine::AnimationCurve* arriveFadeCurve_ = {}, UnityEngine::AnimationCurve* jumpFadeCurve_ = {}, float alphaMul_ = {}, float maxAlpha_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatLine::HighlightData>* highlights_ = {}, UnityEngine::Color color_ = {}, float rotation_ = {}) noexcept : tubeBloomPrePassLight{tubeBloomPrePassLight_}, arriveFadeCurve{arriveFadeCurve_}, jumpFadeCurve{jumpFadeCurve_}, alphaMul{alphaMul_}, maxAlpha{maxAlpha_}, highlights{highlights_}, color{color_}, rotation{rotation_} {}
     // public System.Boolean get_isFinished()
-    // Offset: 0x10662EC
+    // Offset: 0x10A6874
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x1066344
+    // Offset: 0x10A68CC
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x106634C
+    // Offset: 0x10A68D4
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x1066464
+    // Offset: 0x10A69EC
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x10664E8
+    // Offset: 0x10A6A70
     void ManualUpdate(float songTime);
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1066458
+    // Offset: 0x10A69E0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x106665C
+    // Offset: 0x10A6BE4
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* cameraGO;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xD1E3C8
+    // [InjectOptionalAttribute] Offset: 0xD33CD8
     // private AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD1E3D8
+    // [InjectAttribute] Offset: 0xD33CE8
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x30
@@ -66,19 +66,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AppInit
     AppInit(UnityEngine::GameObject* cameraGO_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : cameraGO{cameraGO_}, sceneSetupData{sceneSetupData_}, gameScenesManager{gameScenesManager_} {}
     // protected GameScenesManager get_gameScenesManager()
-    // Offset: 0xFFFD64
+    // Offset: 0x101895C
     GlobalNamespace::GameScenesManager* get_gameScenesManager();
     // private System.Collections.IEnumerator StartCoroutine()
-    // Offset: 0xFFFEE4
+    // Offset: 0x1018ADC
     System::Collections::IEnumerator* StartCoroutine();
     // protected System.Void OnDestroy()
-    // Offset: 0xFFFF80
+    // Offset: 0x1018B78
     void OnDestroy();
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x1000054
+    // Offset: 0x1018C4C
     void HandleBeforeDismissingScenes();
     // protected AppInit/AppStartType GetAppStartType()
-    // Offset: 0xFFFE40
+    // Offset: 0x1018A38
     GlobalNamespace::AppInit::AppStartType GetAppStartType();
     // protected System.Void AppStartAndMultiSceneEditorSetup()
     // Offset: 0xFFFFFFFF
@@ -90,12 +90,12 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void TransitionToNextScene();
     // public override System.Void Start()
-    // Offset: 0xFFFD6C
+    // Offset: 0x1018964
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::Start()
     void Start();
     // protected System.Void .ctor()
-    // Offset: 0x10000F4
+    // Offset: 0x1018CEC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

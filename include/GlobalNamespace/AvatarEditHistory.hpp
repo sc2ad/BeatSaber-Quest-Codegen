@@ -59,31 +59,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarEditHistory
     AvatarEditHistory(bool disableNextSnapshotOverride_ = {}, System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>* snapShots_ = {}, int currentDataId_ = {}) noexcept : disableNextSnapshotOverride{disableNextSnapshotOverride_}, snapShots{snapShots_}, currentDataId{currentDataId_} {}
     // public System.Boolean get_undoAvailable()
-    // Offset: 0x10047C8
+    // Offset: 0x101D430
     bool get_undoAvailable();
     // public System.Boolean get_redoAvailable()
-    // Offset: 0x10047D8
+    // Offset: 0x101D440
     bool get_redoAvailable();
     // public Menu.ViewControllers.EditAvatarHistorySnapshot get_currentSnapShot()
-    // Offset: 0x1004838
+    // Offset: 0x101D4A0
     Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
     // public EditAvatarViewController/AvatarEditPart get_lastEditedPart()
-    // Offset: 0x10048A8
+    // Offset: 0x101D510
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
     // public System.Void Clear()
-    // Offset: 0x10048C8
+    // Offset: 0x101D530
     void Clear();
     // public System.Void Undo()
-    // Offset: 0x1004928
+    // Offset: 0x101D590
     void Undo();
     // public System.Void Redo()
-    // Offset: 0x1004944
+    // Offset: 0x101D5AC
     void Redo();
     // public System.Void UpdateEditHistory(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x10049B4
+    // Offset: 0x101D61C
     void UpdateEditHistory(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
     // public System.Void .ctor()
-    // Offset: 0x1004B1C
+    // Offset: 0x101D784
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

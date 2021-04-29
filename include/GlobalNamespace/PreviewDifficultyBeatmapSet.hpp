@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PreviewDifficultyBeatmapSet
     PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulties{beatmapDifficulties_} {}
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xFC163C
+    // Offset: 0xF80F04
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty[] get_beatmapDifficulties()
-    // Offset: 0xFC1644
+    // Offset: 0xF80F0C
     ::Array<GlobalNamespace::BeatmapDifficulty>* get_beatmapDifficulties();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty[] beatmapDifficulties)
-    // Offset: 0xFC164C
+    // Offset: 0xF80F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewDifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PreviewDifficultyBeatmapSet::.ctor");

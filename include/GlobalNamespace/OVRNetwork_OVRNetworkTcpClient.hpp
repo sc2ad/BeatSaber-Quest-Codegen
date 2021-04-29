@@ -90,28 +90,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRNetworkTcpClient
     OVRNetworkTcpClient(System::Action* connectionStateChangedCallback_ = {}, System::Action_4<int, ::Array<uint8_t>*, int, int>* payloadReceivedCallback_ = {}, System::Net::Sockets::TcpClient* tcpClient_ = {}, ::Array<::Array<uint8_t>*>* receivedBuffers_ = {}, int receivedBufferIndex_ = {}, int receivedBufferDataSize_ = {}, System::Threading::ManualResetEvent* readyReceiveDataEvent_ = {}) noexcept : connectionStateChangedCallback{connectionStateChangedCallback_}, payloadReceivedCallback{payloadReceivedCallback_}, tcpClient{tcpClient_}, receivedBuffers{receivedBuffers_}, receivedBufferIndex{receivedBufferIndex_}, receivedBufferDataSize{receivedBufferDataSize_}, readyReceiveDataEvent{readyReceiveDataEvent_} {}
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x13AE76C
+    // Offset: 0x13CE41C
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x13AE798
+    // Offset: 0x13CE448
     bool get_Connected();
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x13AE7AC
+    // Offset: 0x13CE45C
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x13AE900
+    // Offset: 0x13CE5B0
     void ConnectCallback(System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0x13AEC00
+    // Offset: 0x13CE8B0
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0x13AEE54
+    // Offset: 0x13CEB04
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x13AF058
+    // Offset: 0x13CED08
     void OnReadDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x13AF53C
+    // Offset: 0x13CF1EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

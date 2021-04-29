@@ -22,7 +22,7 @@ namespace Tweening {
     // Creating value type constructor for type: Interpolation
     Interpolation() noexcept {}
     // static public System.Single Interpolate(System.Single t, Tweening.EaseType easeType)
-    // Offset: 0x10811A4
+    // Offset: 0xFACBD8
     static float Interpolate(float t, Tweening::EaseType easeType);
   }; // Tweening.Interpolation
   #pragma pack(pop)

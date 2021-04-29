@@ -21,7 +21,7 @@ namespace System {
     // Creating value type constructor for type: UriTypeConverter
     UriTypeConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x214DDAC
+    // Offset: 0x217DBBC
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

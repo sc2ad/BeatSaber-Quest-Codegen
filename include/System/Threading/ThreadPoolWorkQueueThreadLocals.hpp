@@ -45,23 +45,23 @@ namespace System::Threading {
     static_assert(sizeof(System::Random*) == 0x8);
     // Creating value type constructor for type: ThreadPoolWorkQueueThreadLocals
     ThreadPoolWorkQueueThreadLocals(System::Threading::ThreadPoolWorkQueue* workQueue_ = {}, System::Threading::ThreadPoolWorkQueue::WorkStealingQueue* workStealingQueue_ = {}, System::Random* random_ = {}) noexcept : workQueue{workQueue_}, workStealingQueue{workStealingQueue_}, random{random_} {}
-    // [ThreadStaticAttribute] Offset: 0xC9ABC0
+    // [ThreadStaticAttribute] Offset: 0xCACD08
     // Get static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
     static System::Threading::ThreadPoolWorkQueueThreadLocals* _get_threadLocals();
     // Set static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
     static void _set_threadLocals(System::Threading::ThreadPoolWorkQueueThreadLocals* value);
     // public System.Void .ctor(System.Threading.ThreadPoolWorkQueue tpq)
-    // Offset: 0x16E3450
+    // Offset: 0x16E4840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueueThreadLocals* New_ctor(System::Threading::ThreadPoolWorkQueue* tpq) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueueThreadLocals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueueThreadLocals*, creationType>(tpq)));
     }
     // private System.Void CleanUp()
-    // Offset: 0x16E4DBC
+    // Offset: 0x16E61AC
     void CleanUp();
     // protected override System.Void Finalize()
-    // Offset: 0x16E4E94
+    // Offset: 0x16E6284
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

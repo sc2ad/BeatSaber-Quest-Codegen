@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::CountdownElementController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2D4E4
+    // [InjectAttribute] Offset: 0xD42F5C
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -94,22 +94,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kGongTime
     static void _set_kGongTime(float value);
     // protected System.Void Awake()
-    // Offset: 0x1015C7C
+    // Offset: 0x10660C4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1015C88
+    // Offset: 0x10660D0
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x1015E80
+    // Offset: 0x10662C8
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x1015FA4
+    // Offset: 0x10663EC
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x1016020
+    // Offset: 0x1066468
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x10160AC
+    // Offset: 0x10664F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

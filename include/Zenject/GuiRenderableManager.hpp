@@ -59,14 +59,14 @@ namespace Zenject {
       return renderables;
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x147C7D8
+    // Offset: 0x1488530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>* renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager*, creationType>(renderables, priorities)));
     }
     // public System.Void OnGui()
-    // Offset: 0x147CC50
+    // Offset: 0x14889A8
     void OnGui();
   }; // Zenject.GuiRenderableManager
   #pragma pack(pop)

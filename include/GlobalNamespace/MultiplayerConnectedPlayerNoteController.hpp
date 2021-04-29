@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerConnectedPlayerNoteController
     MultiplayerConnectedPlayerNoteController(UnityEngine::GameObject* visualsWrapperGo_ = {}, bool hidden_ = {}) noexcept : visualsWrapperGo{visualsWrapperGo_}, hidden{hidden_} {}
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x10430FC
+    // Offset: 0xFC7C94
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0x1043140
+    // Offset: 0xFC7CD8
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x1043148
+    // Offset: 0xFC7CE0
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // public System.Void .ctor()
-    // Offset: 0x103FE48
+    // Offset: 0xFC4C98
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

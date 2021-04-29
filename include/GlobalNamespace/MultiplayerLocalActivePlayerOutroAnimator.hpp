@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* offLightsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27400
+    // [SpaceAttribute] Offset: 0xD3CE30
     // protected LightsAnimator[] _lightsAnimators
     // Size: 0x8
     // Offset: 0x20
     ::Array<GlobalNamespace::LightsAnimator*>* lightsAnimators;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::LightsAnimator*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27438
+    // [SpaceAttribute] Offset: 0xD3CE68
     // protected CoreGameHUDController _coreGameHUDController
     // Size: 0x8
     // Offset: 0x28
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLocalPlayerOutroAudio* outroAudio;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalPlayerOutroAudio*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD27490
+    // [SpaceAttribute] Offset: 0xD3CEC0
     // private UnityEngine.Vector3 _leftGeometryTargetPosition
     // Size: 0xC
     // Offset: 0x40
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* rightGeometryTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD274F8
+    // [InjectAttribute] Offset: 0xD3CF28
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x68
@@ -142,25 +142,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xF52B54
+    // Offset: 0xFFE2CC
     void OnDestroy();
     // public System.Collections.IEnumerator AnimateCoroutine()
-    // Offset: 0xF52BEC
+    // Offset: 0xFFE364
     System::Collections::IEnumerator* AnimateCoroutine();
     // public System.Void PlayOutroMusicSample(System.Single maxDuration, System.Single volume)
-    // Offset: 0xF52C88
+    // Offset: 0xFFE400
     void PlayOutroMusicSample(float maxDuration, float volume);
     // private System.Void <AnimateCoroutine>b__14_0(System.Single f)
-    // Offset: 0xF52D8C
+    // Offset: 0xFFE504
     void $AnimateCoroutine$b__14_0(float f);
     // private System.Void <AnimateCoroutine>b__14_1(UnityEngine.Vector3 val)
-    // Offset: 0xF52DD8
+    // Offset: 0xFFE558
     void $AnimateCoroutine$b__14_1(UnityEngine::Vector3 val);
     // private System.Void <AnimateCoroutine>b__14_2(UnityEngine.Vector3 val)
-    // Offset: 0xF52DF4
+    // Offset: 0xFFE574
     void $AnimateCoroutine$b__14_2(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0xF52CEC
+    // Offset: 0xFFE464
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

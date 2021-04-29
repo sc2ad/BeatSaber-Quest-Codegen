@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(float startSongTime_ = {}, float songTimeOffset_ = {}, float timeScale_ = {}) noexcept : startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, timeScale{timeScale_} {}
     // public System.Void .ctor(System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x104270C
+    // Offset: 0x107503C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSongTimeSyncController::InitData* New_ctor(float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData::.ctor");

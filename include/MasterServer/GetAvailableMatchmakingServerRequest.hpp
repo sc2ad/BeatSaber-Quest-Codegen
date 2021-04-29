@@ -60,28 +60,28 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.GetAvailableMatchmakingServerRequest> get_pool()
-    // Offset: 0x12889B4
+    // Offset: 0x12A7670
     static GlobalNamespace::PacketPool_1<MasterServer::GetAvailableMatchmakingServerRequest*>* get_pool();
     // public MasterServer.GetAvailableMatchmakingServerRequest Init(System.String secret, GameplayServerConfiguration configuration)
-    // Offset: 0x1288B0C
+    // Offset: 0x12A77C8
     MasterServer::GetAvailableMatchmakingServerRequest* Init(::Il2CppString* secret, GlobalNamespace::GameplayServerConfiguration configuration);
     // public override System.Void Release()
-    // Offset: 0x12889FC
+    // Offset: 0x12A76B8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1288A58
+    // Offset: 0x12A7714
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1288AA4
+    // Offset: 0x12A7760
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x1288B24
+    // Offset: 0x12A77E0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

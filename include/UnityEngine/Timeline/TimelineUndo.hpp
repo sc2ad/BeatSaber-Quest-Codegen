@@ -27,19 +27,19 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineUndo
     TimelineUndo() noexcept {}
     // static public System.Void PushDestroyUndo(UnityEngine.Timeline.TimelineAsset timeline, UnityEngine.Object thingToDirty, UnityEngine.Object objectToDestroy)
-    // Offset: 0x20F064C
+    // Offset: 0x211F8A4
     static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset* timeline, UnityEngine::Object* thingToDirty, UnityEngine::Object* objectToDestroy);
     // static public System.Void PushUndo(UnityEngine.Object[] thingsToDirty, System.String operation)
-    // Offset: 0x20F06EC
+    // Offset: 0x211F944
     static void PushUndo(::Array<UnityEngine::Object*>* thingsToDirty, ::Il2CppString* operation);
     // static public System.Void PushUndo(UnityEngine.Object thingToDirty, System.String operation)
-    // Offset: 0x20F06F0
+    // Offset: 0x211F948
     static void PushUndo(UnityEngine::Object* thingToDirty, ::Il2CppString* operation);
     // static public System.Void RegisterCreatedObjectUndo(UnityEngine.Object thingCreated, System.String operation)
-    // Offset: 0x20F06F4
+    // Offset: 0x211F94C
     static void RegisterCreatedObjectUndo(UnityEngine::Object* thingCreated, ::Il2CppString* operation);
     // static private System.String UndoName(System.String name)
-    // Offset: 0x20F06F8
+    // Offset: 0x211F950
     static ::Il2CppString* UndoName(::Il2CppString* name);
   }; // UnityEngine.Timeline.TimelineUndo
   #pragma pack(pop)

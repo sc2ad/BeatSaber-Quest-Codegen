@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Creating value type constructor for type: CertificateException
     CertificateException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x124A6A4
+    // Offset: 0x1268360
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x124A6AC
+    // Offset: 0x1268368
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x124A6B4
+    // Offset: 0x1268370
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)

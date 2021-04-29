@@ -112,19 +112,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: NameInfo
     NameInfo(::Il2CppString* NIFullName_ = {}, int64_t NIobjectId_ = {}, int64_t NIassemId_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum_ = {}, System::Type* NItype_ = {}, bool NIisSealed_ = {}, bool NIisArray_ = {}, bool NIisArrayItem_ = {}, bool NItransmitTypeOnObject_ = {}, bool NItransmitTypeOnMember_ = {}, bool NIisParentTypeOnObject_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum_ = {}, bool NIsealedStatusChecked_ = {}) noexcept : NIFullName{NIFullName_}, NIobjectId{NIobjectId_}, NIassemId{NIassemId_}, NIprimitiveTypeEnum{NIprimitiveTypeEnum_}, NItype{NItype_}, NIisSealed{NIisSealed_}, NIisArray{NIisArray_}, NIisArrayItem{NIisArrayItem_}, NItransmitTypeOnObject{NItransmitTypeOnObject_}, NItransmitTypeOnMember{NItransmitTypeOnMember_}, NIisParentTypeOnObject{NIisParentTypeOnObject_}, NIarrayEnum{NIarrayEnum_}, NIsealedStatusChecked{NIsealedStatusChecked_} {}
     // System.Void Init()
-    // Offset: 0x1462CF4
+    // Offset: 0x146EA4C
     void Init();
     // public System.Boolean get_IsSealed()
-    // Offset: 0x1462D14
+    // Offset: 0x146EA6C
     bool get_IsSealed();
     // public System.String get_NIname()
-    // Offset: 0x1462D6C
+    // Offset: 0x146EAC4
     ::Il2CppString* get_NIname();
     // public System.Void set_NIname(System.String value)
-    // Offset: 0x1462DB0
+    // Offset: 0x146EB08
     void set_NIname(::Il2CppString* value);
     // System.Void .ctor()
-    // Offset: 0x1462CEC
+    // Offset: 0x146EA44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

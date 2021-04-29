@@ -52,7 +52,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Single solution1)
-    // Offset: 0xDDF5F4
+    // Offset: 0xDF3AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1);
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
-    // Offset: 0xDDF608
+    // Offset: 0xDF3ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2);
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
-    // Offset: 0xDDF61C
+    // Offset: 0xDF3AD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2, float solution3) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");

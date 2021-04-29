@@ -21,7 +21,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: SingleConverter
     SingleConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16CAAA8
+    // Offset: 0x16CCE98
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

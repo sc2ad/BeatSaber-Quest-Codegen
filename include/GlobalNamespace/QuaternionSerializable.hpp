@@ -93,31 +93,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kInvScale
     static void _set_kInvScale(float value);
     // static public QuaternionSerializable get_identity()
-    // Offset: 0x210D7C4
+    // Offset: 0x213BD88
     static GlobalNamespace::QuaternionSerializable get_identity();
     // static private System.Void ToSmallest(UnityEngine.Quaternion q, out System.Int32 sa, out System.Int32 sb, out System.Int32 sc)
-    // Offset: 0x210E4F0
+    // Offset: 0x213CAB4
     static void ToSmallest(UnityEngine::Quaternion q, int& sa, int& sb, int& sc);
     // static private UnityEngine.Quaternion FromSmallest(System.Int32 sa, System.Int32 sb, System.Int32 sc)
-    // Offset: 0x210E730
+    // Offset: 0x213CCF4
     static UnityEngine::Quaternion FromSmallest(int sa, int sb, int sc);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE18764
+    // Offset: 0xE2BC88
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE1876C
+    // Offset: 0xE2BC90
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(QuaternionSerializable other)
-    // Offset: 0xE18774
+    // Offset: 0xE2BC98
     bool Equals(GlobalNamespace::QuaternionSerializable other);
     // public System.Boolean Approximately(QuaternionSerializable other)
-    // Offset: 0xE187B0
+    // Offset: 0xE2BCD4
     bool Approximately(GlobalNamespace::QuaternionSerializable other);
     // public System.Int32 GetSize()
-    // Offset: 0xE187D4
+    // Offset: 0xE2BCF8
     int GetSize();
     // public System.Void .ctor(UnityEngine.Quaternion q)
-    // Offset: 0xE187DC
+    // Offset: 0xE2BD00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     QuaternionSerializable(UnityEngine::Quaternion q) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
@@ -125,7 +125,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, q);
     }
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE187E4
+    // Offset: 0xE2BD08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     QuaternionSerializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
@@ -133,17 +133,17 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE187A8
+    // Offset: 0xE2BCCC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE187BC
+    // Offset: 0xE2BCE0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xE187F0
+    // Offset: 0xE2BD14
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -152,10 +152,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(QuaternionSerializable), 8 + sizeof(int)> __GlobalNamespace_QuaternionSerializableSizeCheck;
   static_assert(sizeof(QuaternionSerializable) == 0xC);
   // static public QuaternionSerializable op_Addition(QuaternionSerializable a, QuaternionSerializable b)
-  // Offset: 0x210DE80
+  // Offset: 0x213C444
   GlobalNamespace::QuaternionSerializable operator+(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
   // static public QuaternionSerializable op_Subtraction(QuaternionSerializable a, QuaternionSerializable b)
-  // Offset: 0x210DF1C
+  // Offset: 0x213C4E0
   GlobalNamespace::QuaternionSerializable operator-(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");

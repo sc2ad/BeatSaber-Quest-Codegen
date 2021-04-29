@@ -110,27 +110,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
     // public System.Void InitAndPresent(in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0xF1C8C8
+    // Offset: 0xF57AC0
     void InitAndPresent(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0xF1CBF4
+    // Offset: 0xF57DEC
     void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0xF1CB20
+    // Offset: 0xF57D18
     ::Il2CppString* GetScoreText(int score);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0xF1CC94
+    // Offset: 0xF57E8C
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0xF1CC98
+    // Offset: 0xF57E90
     void UnregisterCallbacksIfNeeded();
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xF1CB48
+    // Offset: 0xF57D40
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xF1CDE4
+    // Offset: 0xF57FDC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

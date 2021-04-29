@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD301D8
+    // [SpaceAttribute] Offset: 0xD45CF0
     // private StepValuePicker _xStepValuePicker
     // Size: 0x8
     // Offset: 0x80
@@ -102,51 +102,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0xFCBD8C
+    // Offset: 0x104A514
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0xFCBE5C
+    // Offset: 0x104A5E4
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0xFCBEE0
+    // Offset: 0x104A668
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0xFCBC10
+    // Offset: 0x104A398
     void RefreshTexts();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0xFCBF9C
+    // Offset: 0x104A724
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0xFCBFF4
+    // Offset: 0x104A77C
     void $DidActivate$b__10_1();
     // private System.Void <DidActivate>b__10_2()
-    // Offset: 0xFCC04C
+    // Offset: 0x104A7D4
     void $DidActivate$b__10_2();
     // private System.Void <DidActivate>b__10_3()
-    // Offset: 0xFCC0A4
+    // Offset: 0x104A82C
     void $DidActivate$b__10_3();
     // private System.Void <DidActivate>b__10_4()
-    // Offset: 0xFCC0FC
+    // Offset: 0x104A884
     void $DidActivate$b__10_4();
     // private System.Void <DidActivate>b__10_5()
-    // Offset: 0xFCC154
+    // Offset: 0x104A8DC
     void $DidActivate$b__10_5();
     // private System.Void <DidActivate>b__10_6()
-    // Offset: 0xFCC1AC
+    // Offset: 0x104A934
     void $DidActivate$b__10_6();
     // private System.Void <DidActivate>b__10_7()
-    // Offset: 0xFCC1B4
+    // Offset: 0x104A93C
     void $DidActivate$b__10_7();
     // private System.Void <DidActivate>b__10_8()
-    // Offset: 0xFCC1BC
+    // Offset: 0x104A944
     void $DidActivate$b__10_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFCB98C
+    // Offset: 0x104A114
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xFCBF94
+    // Offset: 0x104A71C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

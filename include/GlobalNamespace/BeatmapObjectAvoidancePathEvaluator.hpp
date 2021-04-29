@@ -89,14 +89,14 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapObjectAvoidancePathEvaluator
     BeatmapObjectAvoidancePathEvaluator(float jumpStartZ_ = {}, float jumpEndZ_ = {}, float zOffset_ = {}, float yOffset_ = {}, float noteJumpSpeed_ = {}, float moveToPlayerHeadTParam_ = {}, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}) noexcept : jumpStartZ{jumpStartZ_}, jumpEndZ{jumpEndZ_}, zOffset{zOffset_}, yOffset{yOffset_}, noteJumpSpeed{noteJumpSpeed_}, moveToPlayerHeadTParam{moveToPlayerHeadTParam_}, pathBezierCurveEvaluator{pathBezierCurveEvaluator_}, audioTimeSource{audioTimeSource_}, playerTransforms{playerTransforms_} {}
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, PlayerTransforms playerTransforms, BezierSplineEvaluator pathBezierCurveEvaluator, System.Single jumpStartZ, System.Single jumpEndZ, System.Single yOffset, System.Single zOffset, System.Single noteJumpSeed, System.Single moveToPlayerHeadTParam)
-    // Offset: 0xEFCC18
+    // Offset: 0xF2428C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidancePathEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::PlayerTransforms* playerTransforms, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float jumpStartZ, float jumpEndZ, float yOffset, float zOffset, float noteJumpSeed, float moveToPlayerHeadTParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidancePathEvaluator*, creationType>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam)));
     }
     // public UnityEngine.Vector3 GetCurrentPathPosition()
-    // Offset: 0xEFCC94
+    // Offset: 0xF24308
     UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
   #pragma pack(pop)

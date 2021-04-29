@@ -75,21 +75,21 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* wrapperGO;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2319C
+    // [InjectAttribute] Offset: 0xD38B34
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD231AC
+    // [InjectAttribute] Offset: 0xD38B44
     // private readonly SaberSwingRatingCounter/Pool _saberSwingRatingCounterPool
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::SaberSwingRatingCounter::Pool* saberSwingRatingCounterPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberSwingRatingCounter::Pool*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD231BC
+    // [CompilerGeneratedAttribute] Offset: 0xD38B54
     // private System.Action`1<GameNoteController> gameNoteControllerDidInitEvent
     // Size: 0x8
     // Offset: 0xA0
@@ -131,71 +131,71 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
     // public System.Void add_gameNoteControllerDidInitEvent(System.Action`1<GameNoteController> value)
-    // Offset: 0xF21360
+    // Offset: 0xF5C410
     void add_gameNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::GameNoteController*>* value);
     // public System.Void remove_gameNoteControllerDidInitEvent(System.Action`1<GameNoteController> value)
-    // Offset: 0xF21404
+    // Offset: 0xF5C4B4
     void remove_gameNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::GameNoteController*>* value);
     // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0xF214A8
+    // Offset: 0xF5C558
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, GameNoteController/GameNoteType gameNoteType, System.Single cutDirectionAngleOffset, System.Single cutAngleTolerance, System.Single uniformScale)
-    // Offset: 0xF2150C
+    // Offset: 0xF5C5BC
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, GlobalNamespace::GameNoteController_GameNoteType gameNoteType, float cutDirectionAngleOffset, float cutAngleTolerance, float uniformScale);
     // private System.Void HandleBigWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xF21CA8
+    // Offset: 0xF5CD58
     void HandleBigWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleSmallWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xF220D4
+    // Offset: 0xF5D184
     void HandleSmallWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.Boolean allowBadCut)
-    // Offset: 0xF21CC0
+    // Offset: 0xF5CD70
     void HandleCut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec, bool allowBadCut);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0xF220EC
+    // Offset: 0xF5D19C
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xF214B0
+    // Offset: 0xF5C560
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0xF214F4
+    // Offset: 0xF5C5A4
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0xF214FC
+    // Offset: 0xF5C5AC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // protected override System.Void Awake()
-    // Offset: 0xF217C8
+    // Offset: 0xF5C878
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0xF2192C
+    // Offset: 0xF5C9DC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0xF21B08
+    // Offset: 0xF5CBB8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0xF21BDC
+    // Offset: 0xF5CC8C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartDissolving()
     void NoteDidStartDissolving();
     // protected override System.Void NoteDidStartJump()
-    // Offset: 0xF2221C
+    // Offset: 0xF5D2CC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartJump()
     void NoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0xF222E8
+    // Offset: 0xF5D398
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

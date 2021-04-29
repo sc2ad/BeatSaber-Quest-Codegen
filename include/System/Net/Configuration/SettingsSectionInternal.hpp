@@ -39,16 +39,16 @@ namespace System::Net::Configuration {
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static void _set_instance(System::Net::Configuration::SettingsSectionInternal* value);
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0x14C9508
+    // Offset: 0x14E73BC
     static System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0x14C9570
+    // Offset: 0x14E7424
     bool get_Ipv6Enabled();
     // static private System.Void .cctor()
-    // Offset: 0x14C9590
+    // Offset: 0x14E7444
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14C9578
+    // Offset: 0x14E742C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

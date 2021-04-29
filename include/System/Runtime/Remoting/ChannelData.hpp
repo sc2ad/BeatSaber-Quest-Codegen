@@ -70,19 +70,19 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: ChannelData
     ChannelData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, ::Il2CppString* DelayLoadAsClientChannel_ = {}, System::Collections::ArrayList* serverProviders_ = {}, System::Collections::ArrayList* clientProviders_ = {}, System::Collections::Hashtable* customProperties_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, DelayLoadAsClientChannel{DelayLoadAsClientChannel_}, serverProviders{serverProviders_}, clientProviders{clientProviders_}, customProperties{customProperties_} {}
     // System.Collections.ArrayList get_ServerProviders()
-    // Offset: 0x1306714
+    // Offset: 0x13263C4
     System::Collections::ArrayList* get_ServerProviders();
     // public System.Collections.ArrayList get_ClientProviders()
-    // Offset: 0x1306780
+    // Offset: 0x1326430
     System::Collections::ArrayList* get_ClientProviders();
     // public System.Collections.Hashtable get_CustomProperties()
-    // Offset: 0x13067EC
+    // Offset: 0x132649C
     System::Collections::Hashtable* get_CustomProperties();
     // public System.Void CopyFrom(System.Runtime.Remoting.ChannelData other)
-    // Offset: 0x1306858
+    // Offset: 0x1326508
     void CopyFrom(System::Runtime::Remoting::ChannelData* other);
     // public System.Void .ctor()
-    // Offset: 0x13070AC
+    // Offset: 0x1326D5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

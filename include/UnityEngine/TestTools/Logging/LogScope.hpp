@@ -63,56 +63,56 @@ namespace UnityEngine::TestTools::Logging {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_NeedToProcessLogs and: ExpectedLogs
     char __padding2[0x6] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD477E8
+    // [CompilerGeneratedAttribute] Offset: 0xD5B734
     // private System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> <ExpectedLogs>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* ExpectedLogs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD477F8
+    // [CompilerGeneratedAttribute] Offset: 0xD5B744
     // private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <AllLogs>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* AllLogs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD47808
+    // [CompilerGeneratedAttribute] Offset: 0xD5B754
     // private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <FailingLogs>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* FailingLogs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD47818
+    // [CompilerGeneratedAttribute] Offset: 0xD5B764
     // private System.Boolean <IgnoreFailingMessages>k__BackingField
     // Size: 0x1
     // Offset: 0x38
     bool IgnoreFailingMessages;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD47828
+    // [CompilerGeneratedAttribute] Offset: 0xD5B774
     // private System.Boolean <IsNUnitException>k__BackingField
     // Size: 0x1
     // Offset: 0x39
     bool IsNUnitException;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD47838
+    // [CompilerGeneratedAttribute] Offset: 0xD5B784
     // private System.Boolean <IsNUnitSuccessException>k__BackingField
     // Size: 0x1
     // Offset: 0x3A
     bool IsNUnitSuccessException;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD47848
+    // [CompilerGeneratedAttribute] Offset: 0xD5B794
     // private System.Boolean <IsNUnitInconclusiveException>k__BackingField
     // Size: 0x1
     // Offset: 0x3B
     bool IsNUnitInconclusiveException;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD47858
+    // [CompilerGeneratedAttribute] Offset: 0xD5B7A4
     // private System.Boolean <IsNUnitIgnoreException>k__BackingField
     // Size: 0x1
     // Offset: 0x3C
@@ -121,7 +121,7 @@ namespace UnityEngine::TestTools::Logging {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsNUnitIgnoreException and: NUnitExceptionMessage
     char __padding10[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD47868
+    // [CompilerGeneratedAttribute] Offset: 0xD5B7B4
     // private System.String <NUnitExceptionMessage>k__BackingField
     // Size: 0x8
     // Offset: 0x40
@@ -139,79 +139,79 @@ namespace UnityEngine::TestTools::Logging {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogScope> s_ActiveScopes
     static void _set_s_ActiveScopes(System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogScope*>* value);
     // public System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> get_ExpectedLogs()
-    // Offset: 0x1352D2C
+    // Offset: 0x13729DC
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* get_ExpectedLogs();
     // public System.Void set_ExpectedLogs(System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> value)
-    // Offset: 0x1352D34
+    // Offset: 0x13729E4
     void set_ExpectedLogs(System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_AllLogs()
-    // Offset: 0x1352D3C
+    // Offset: 0x13729EC
     System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* get_AllLogs();
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_FailingLogs()
-    // Offset: 0x1352D44
+    // Offset: 0x13729F4
     System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* get_FailingLogs();
     // public System.Boolean get_IgnoreFailingMessages()
-    // Offset: 0x1352D4C
+    // Offset: 0x13729FC
     bool get_IgnoreFailingMessages();
     // public System.Void set_IgnoreFailingMessages(System.Boolean value)
-    // Offset: 0x1352D54
+    // Offset: 0x1372A04
     void set_IgnoreFailingMessages(bool value);
     // private System.Void set_IsNUnitException(System.Boolean value)
-    // Offset: 0x1352D60
+    // Offset: 0x1372A10
     void set_IsNUnitException(bool value);
     // private System.Void set_IsNUnitSuccessException(System.Boolean value)
-    // Offset: 0x1352D6C
+    // Offset: 0x1372A1C
     void set_IsNUnitSuccessException(bool value);
     // private System.Void set_IsNUnitInconclusiveException(System.Boolean value)
-    // Offset: 0x1352D78
+    // Offset: 0x1372A28
     void set_IsNUnitInconclusiveException(bool value);
     // private System.Void set_IsNUnitIgnoreException(System.Boolean value)
-    // Offset: 0x1352D84
+    // Offset: 0x1372A34
     void set_IsNUnitIgnoreException(bool value);
     // private System.Void set_NUnitExceptionMessage(System.String value)
-    // Offset: 0x1352D90
+    // Offset: 0x1372A40
     void set_NUnitExceptionMessage(::Il2CppString* value);
     // private System.Void Activate()
-    // Offset: 0x1352D98
+    // Offset: 0x1372A48
     void Activate();
     // private System.Void Deactivate()
-    // Offset: 0x1352F0C
+    // Offset: 0x1372BBC
     void Deactivate();
     // static private System.Void RegisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x1352E94
+    // Offset: 0x1372B44
     static void RegisterScope(UnityEngine::TestTools::Logging::LogScope* logScope);
     // static private System.Void UnregisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x1352FD0
+    // Offset: 0x1372C80
     static void UnregisterScope(UnityEngine::TestTools::Logging::LogScope* logScope);
     // public System.Void AddLog(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0x1353048
+    // Offset: 0x1372CF8
     void AddLog(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
     // static private System.Boolean IsNUnitResultStateException(System.String stacktrace, UnityEngine.LogType logType)
-    // Offset: 0x1353374
+    // Offset: 0x1373024
     static bool IsNUnitResultStateException(::Il2CppString* stacktrace, UnityEngine::LogType logType);
     // static private System.Boolean IsFailingLog(UnityEngine.LogType type)
-    // Offset: 0x1353410
+    // Offset: 0x13730C0
     static bool IsFailingLog(UnityEngine::LogType type);
     // public System.Void Dispose()
-    // Offset: 0x1341F54
+    // Offset: 0x1361C04
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x135342C
+    // Offset: 0x13730DC
     void Dispose(bool disposing);
     // public System.Boolean AnyFailingLogs()
-    // Offset: 0x1341EFC
+    // Offset: 0x1361BAC
     bool AnyFailingLogs();
     // public System.Void ProcessExpectedLogs()
-    // Offset: 0x1353448
+    // Offset: 0x13730F8
     void ProcessExpectedLogs();
     // public System.Void NoUnexpectedReceived()
-    // Offset: 0x13537B8
+    // Offset: 0x1373468
     void NoUnexpectedReceived();
     // static private System.Void .cctor()
-    // Offset: 0x1353964
+    // Offset: 0x1373614
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1341E18
+    // Offset: 0x1361AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteCutDirectionExtensions
     NoteCutDirectionExtensions() noexcept {}
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0x217A700
+    // Offset: 0x21A4B2C
     static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0x217A7E4
+    // Offset: 0x21A4C10
     static float RotationAngle(GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
-    // Offset: 0x217A804
+    // Offset: 0x21A4C30
     static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0x217A898
+    // Offset: 0x21A4CC4
     static bool IsMainDirection(GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
-    // Offset: 0x217A8A4
+    // Offset: 0x21A4CD0
     static GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
   }; // NoteCutDirectionExtensions
   #pragma pack(pop)

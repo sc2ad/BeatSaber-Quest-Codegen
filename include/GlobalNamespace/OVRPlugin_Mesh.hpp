@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Mesh
     Mesh(GlobalNamespace::OVRPlugin::MeshType Type_ = {}, uint NumVertices_ = {}, uint NumIndices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexPositions_ = {}, ::Array<int16_t>* Indices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexNormals_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector2f>* VertexUV0_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector4s>* BlendIndices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector4f>* BlendWeights_ = {}) noexcept : Type{Type_}, NumVertices{NumVertices_}, NumIndices{NumIndices_}, VertexPositions{VertexPositions_}, Indices{Indices_}, VertexNormals{VertexNormals_}, VertexUV0{VertexUV0_}, BlendIndices{BlendIndices_}, BlendWeights{BlendWeights_} {}
     // public System.Void .ctor()
-    // Offset: 0x155C55C
+    // Offset: 0x157B4E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

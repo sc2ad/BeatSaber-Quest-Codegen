@@ -54,28 +54,28 @@ namespace MasterServer {
       return cookie;
     }
     // static public PacketPool`1<MasterServer.HelloVerifyRequest> get_pool()
-    // Offset: 0x1289DCC
+    // Offset: 0x12A8A88
     static GlobalNamespace::PacketPool_1<MasterServer::HelloVerifyRequest*>* get_pool();
     // public MasterServer.HelloVerifyRequest Init(System.Byte[] cookie)
-    // Offset: 0x1289E14
+    // Offset: 0x12A8AD0
     MasterServer::HelloVerifyRequest* Init(::Array<uint8_t>* cookie);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1289E48
+    // Offset: 0x12A8B04
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1289E84
+    // Offset: 0x12A8B40
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1289EC0
+    // Offset: 0x12A8B7C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1289F2C
+    // Offset: 0x12A8BE8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

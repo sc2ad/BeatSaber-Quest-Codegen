@@ -35,25 +35,25 @@ namespace Org::BouncyCastle::Asn1::Utilities {
     // Set static field: static private readonly System.String NewLine
     static void _set_NewLine(::Il2CppString* value);
     // static private System.Void AsString(System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.Asn1Object obj, System.Text.StringBuilder buf)
-    // Offset: 0x16167C0
+    // Offset: 0x1634744
     static void AsString(::Il2CppString* indent, bool verbose, Org::BouncyCastle::Asn1::Asn1Object* obj, System::Text::StringBuilder* buf);
     // static private System.String outputApplicationSpecific(System.String type, System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.DerApplicationSpecific app)
-    // Offset: 0x1618F74
+    // Offset: 0x1636EF8
     static ::Il2CppString* outputApplicationSpecific(::Il2CppString* type, ::Il2CppString* indent, bool verbose, Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x16197BC
+    // Offset: 0x1637740
     static ::Il2CppString* DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj, System.Boolean verbose)
-    // Offset: 0x1619824
+    // Offset: 0x16377A8
     static ::Il2CppString* DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
     // static private System.String dumpBinaryDataAsString(System.String indent, System.Byte[] bytes)
-    // Offset: 0x1618D04
+    // Offset: 0x1636C88
     static ::Il2CppString* dumpBinaryDataAsString(::Il2CppString* indent, ::Array<uint8_t>* bytes);
     // static private System.String calculateAscString(System.Byte[] bytes, System.Int32 off, System.Int32 len)
-    // Offset: 0x16198F4
+    // Offset: 0x1637878
     static ::Il2CppString* calculateAscString(::Array<uint8_t>* bytes, int off, int len);
     // static private System.Void .cctor()
-    // Offset: 0x16199C0
+    // Offset: 0x1637944
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Utilities.Asn1Dump
   #pragma pack(pop)

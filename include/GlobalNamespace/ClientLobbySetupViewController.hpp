@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* unreadyButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2F3C4
+    // [SpaceAttribute] Offset: 0xD44EDC
     // private EditableBeatmapSelectionView _editableBeatmapSelectionView
     // Size: 0x8
     // Offset: 0x80
@@ -85,35 +85,35 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* spectatorWarningTextWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F41C
+    // [CompilerGeneratedAttribute] Offset: 0xD44F34
     // private System.Action suggestBeatmapEvent
     // Size: 0x8
     // Offset: 0x98
     System::Action* suggestBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F42C
+    // [CompilerGeneratedAttribute] Offset: 0xD44F44
     // private System.Action clearSuggestedBeatmapEvent
     // Size: 0x8
     // Offset: 0xA0
     System::Action* clearSuggestedBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F43C
+    // [CompilerGeneratedAttribute] Offset: 0xD44F54
     // private System.Action suggestModifiersEvent
     // Size: 0x8
     // Offset: 0xA8
     System::Action* suggestModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F44C
+    // [CompilerGeneratedAttribute] Offset: 0xD44F64
     // private System.Action clearSuggestedModifiersEvent
     // Size: 0x8
     // Offset: 0xB0
     System::Action* clearSuggestedModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F45C
+    // [CompilerGeneratedAttribute] Offset: 0xD44F74
     // private System.Action`1<System.Boolean> setPlayerReadyEvent
     // Size: 0x8
     // Offset: 0xB8
@@ -129,69 +129,69 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ClientLobbySetupViewController
     ClientLobbySetupViewController(UnityEngine::UI::Button* readyButton_ = {}, UnityEngine::UI::Button* unreadyButton_ = {}, GlobalNamespace::EditableBeatmapSelectionView* editableBeatmapSelectionView_ = {}, GlobalNamespace::EditableModifiersSelectionView* editableModifiersSelectionView_ = {}, UnityEngine::GameObject* spectatorWarningTextWrapper_ = {}, System::Action* suggestBeatmapEvent_ = {}, System::Action* clearSuggestedBeatmapEvent_ = {}, System::Action* suggestModifiersEvent_ = {}, System::Action* clearSuggestedModifiersEvent_ = {}, System::Action_1<bool>* setPlayerReadyEvent_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : readyButton{readyButton_}, unreadyButton{unreadyButton_}, editableBeatmapSelectionView{editableBeatmapSelectionView_}, editableModifiersSelectionView{editableModifiersSelectionView_}, spectatorWarningTextWrapper{spectatorWarningTextWrapper_}, suggestBeatmapEvent{suggestBeatmapEvent_}, clearSuggestedBeatmapEvent{clearSuggestedBeatmapEvent_}, suggestModifiersEvent{suggestModifiersEvent_}, clearSuggestedModifiersEvent{clearSuggestedModifiersEvent_}, setPlayerReadyEvent{setPlayerReadyEvent_}, toggleBinder{toggleBinder_} {}
     // public System.Void add_suggestBeatmapEvent(System.Action value)
-    // Offset: 0x100F2F8
+    // Offset: 0x105F700
     void add_suggestBeatmapEvent(System::Action* value);
     // public System.Void remove_suggestBeatmapEvent(System.Action value)
-    // Offset: 0x100F39C
+    // Offset: 0x105F7A4
     void remove_suggestBeatmapEvent(System::Action* value);
     // public System.Void add_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0x100F440
+    // Offset: 0x105F848
     void add_clearSuggestedBeatmapEvent(System::Action* value);
     // public System.Void remove_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0x100F4E4
+    // Offset: 0x105F8EC
     void remove_clearSuggestedBeatmapEvent(System::Action* value);
     // public System.Void add_suggestModifiersEvent(System.Action value)
-    // Offset: 0x100F588
+    // Offset: 0x105F990
     void add_suggestModifiersEvent(System::Action* value);
     // public System.Void remove_suggestModifiersEvent(System.Action value)
-    // Offset: 0x100F62C
+    // Offset: 0x105FA34
     void remove_suggestModifiersEvent(System::Action* value);
     // public System.Void add_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0x100F6D0
+    // Offset: 0x105FAD8
     void add_clearSuggestedModifiersEvent(System::Action* value);
     // public System.Void remove_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0x100F774
+    // Offset: 0x105FB7C
     void remove_clearSuggestedModifiersEvent(System::Action* value);
     // public System.Void add_setPlayerReadyEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x100F818
+    // Offset: 0x105FC20
     void add_setPlayerReadyEvent(System::Action_1<bool>* value);
     // public System.Void remove_setPlayerReadyEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x100F8BC
+    // Offset: 0x105FCC4
     void remove_setPlayerReadyEvent(System::Action_1<bool>* value);
     // public System.Void SetLocalLobbyPlayerData(ILobbyPlayerDataModel lobbyPlayerData)
-    // Offset: 0x100F960
+    // Offset: 0x105FD68
     void SetLocalLobbyPlayerData(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerData);
     // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0x100FE28
+    // Offset: 0x1060230
     void SetLobbyState(GlobalNamespace::MultiplayerLobbyState lobbyState);
     // public System.Void SetPlayerActiveState(System.Boolean isActive)
-    // Offset: 0x100FE04
+    // Offset: 0x106020C
     void SetPlayerActiveState(bool isActive);
     // private System.Void <DidActivate>b__24_0()
-    // Offset: 0x1010214
+    // Offset: 0x106054C
     void $DidActivate$b__24_0();
     // private System.Void <DidActivate>b__24_1()
-    // Offset: 0x1010228
+    // Offset: 0x1060560
     void $DidActivate$b__24_1();
     // private System.Void <DidActivate>b__24_2()
-    // Offset: 0x101023C
+    // Offset: 0x1060574
     void $DidActivate$b__24_2();
     // private System.Void <DidActivate>b__24_3()
-    // Offset: 0x1010250
+    // Offset: 0x1060588
     void $DidActivate$b__24_3();
     // private System.Void <DidActivate>b__24_4()
-    // Offset: 0x1010264
+    // Offset: 0x106059C
     void $DidActivate$b__24_4();
     // private System.Void <DidActivate>b__24_5()
-    // Offset: 0x10102C8
+    // Offset: 0x1060600
     void $DidActivate$b__24_5();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x100FF60
+    // Offset: 0x1060298
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x10101AC
+    // Offset: 0x10604E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

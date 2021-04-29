@@ -36,7 +36,7 @@ namespace Zenject {
     // Creating value type constructor for type: ValidationUtil
     ValidationUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    // Offset: 0x2148AF4
+    // Offset: 0x2178904
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::Array<System::Type*>* argTypes);
     // Creating initializer_list -> params proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(std::initializer_list<System::Type*> argTypes);

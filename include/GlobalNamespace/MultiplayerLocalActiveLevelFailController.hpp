@@ -50,35 +50,35 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelFailedTextEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xD270C0
+    // [InjectAttribute] Offset: 0xD3CAF0
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0xD270D0
+    // [InjectAttribute] Offset: 0xD3CB00
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD270E0
+    // [InjectAttribute] Offset: 0xD3CB10
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD270F0
+    // [InjectAttribute] Offset: 0xD3CB20
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27100
+    // [InjectAttribute] Offset: 0xD3CB30
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
@@ -90,19 +90,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF4E808
+    // Offset: 0x1086650
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF4E8F8
+    // Offset: 0x1086740
     void OnDestroy();
     // private System.Collections.IEnumerator PlayerFailedCoroutine()
-    // Offset: 0xF4E9F8
+    // Offset: 0x1086840
     System::Collections::IEnumerator* PlayerFailedCoroutine();
     // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0xF4EA94
+    // Offset: 0x10868DC
     void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xF4EAE0
+    // Offset: 0x1086928
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

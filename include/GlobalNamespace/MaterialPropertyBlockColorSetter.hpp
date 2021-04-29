@@ -59,25 +59,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CEA820
+    // Offset: 0x1D15398
     UnityEngine::Color get_color();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1CEA858
+    // Offset: 0x1D153D0
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1CEA860
+    // Offset: 0x1D153D8
     void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void Awake()
-    // Offset: 0x1CEA868
+    // Offset: 0x1D153E0
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1CEA8A8
+    // Offset: 0x1D15420
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1CEA8E8
+    // Offset: 0x1D15460
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CEA97C
+    // Offset: 0x1D154F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

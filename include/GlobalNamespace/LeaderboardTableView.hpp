@@ -93,19 +93,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Single CellSize()
-    // Offset: 0xFF990C
+    // Offset: 0x111AE8C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xFF9914
+    // Offset: 0x111AE94
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xFF9968
+    // Offset: 0x111AEE8
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0xFF9B44
+    // Offset: 0x111B0C4
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
     // public System.Void .ctor()
-    // Offset: 0xFF9B74
+    // Offset: 0x111B0F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

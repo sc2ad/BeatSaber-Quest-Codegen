@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: localTrackingSpaceRecenterCount and: RecenteredPose
     char __padding4[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xCE23D8
+    // [CompilerGeneratedAttribute] Offset: 0xCF4568
     // private System.Action RecenteredPose
     // Size: 0x8
     // Offset: 0x30
@@ -168,58 +168,58 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRDisplay
     OVRDisplay(bool needsConfigureTexture_ = {}, ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, int localTrackingSpaceRecenterCount_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, localTrackingSpaceRecenterCount{localTrackingSpaceRecenterCount_}, RecenteredPose{RecenteredPose_} {}
     // public System.Void Update()
-    // Offset: 0x113FC98
+    // Offset: 0x1157AE0
     void Update();
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x113FE2C
+    // Offset: 0x1157C74
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x113FED0
+    // Offset: 0x1157D18
     void remove_RecenteredPose(System::Action* value);
     // public System.Void RecenterPose()
-    // Offset: 0x113FF74
+    // Offset: 0x1157DBC
     void RecenterPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x113FFF0
+    // Offset: 0x1157E38
     UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x114011C
+    // Offset: 0x1157F64
     UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x1140248
+    // Offset: 0x1158090
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x1140374
+    // Offset: 0x11581BC
     UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x113FB90
+    // Offset: 0x11579D8
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x11404A0
+    // Offset: 0x11582E8
     GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0x114066C
+    // Offset: 0x11584B4
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x1140708
+    // Offset: 0x1158550
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x1140774
+    // Offset: 0x11585BC
     ::Array<float>* get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0x11407D4
+    // Offset: 0x115861C
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x1140834
+    // Offset: 0x115867C
     void set_displayFrequency(float value);
     // private System.Void UpdateTextures()
-    // Offset: 0x113FC6C
+    // Offset: 0x1157AB4
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x11408A4
+    // Offset: 0x11586EC
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0x113FBEC
+    // Offset: 0x1157A34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

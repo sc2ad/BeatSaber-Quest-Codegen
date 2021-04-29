@@ -60,15 +60,15 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::LODParameters>*>(this);
     }
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0xDFD820
+    // Offset: 0xE10F60
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDFD858
+    // Offset: 0xE10F98
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDFD860
+    // Offset: 0xE10FA0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

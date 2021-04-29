@@ -58,39 +58,39 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);
     }
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x1293490
+    // Offset: 0x12B214C
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x1299288
+    // Offset: 0x12B7F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerEndPoint* New_ctor(::Il2CppString* hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerEndPoint*, creationType>(hostName, port)));
     }
     // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x12992C4
+    // Offset: 0x12B7F80
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* GetEndPointAsync();
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x1299370
+    // Offset: 0x12B802C
     System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x1299408
+    // Offset: 0x12B80C4
     System::Net::IPEndPoint* GetEndPointInternal();
     // public System.Boolean Equals(MasterServerEndPoint other)
-    // Offset: 0x1297C8C
+    // Offset: 0x12B6948
     bool Equals(GlobalNamespace::MasterServerEndPoint* other);
     // public override System.String ToString()
-    // Offset: 0x12994CC
+    // Offset: 0x12B8188
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1299554
+    // Offset: 0x12B8210
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1299604
+    // Offset: 0x12B82C0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

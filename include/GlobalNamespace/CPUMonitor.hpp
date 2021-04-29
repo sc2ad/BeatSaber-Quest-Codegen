@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CPUMonitor
     CPUMonitor(GlobalNamespace::RollingAverage* utilization_ = {}, System::Diagnostics::Process* currentProcess_ = {}, int processorCount_ = {}, int64_t lastSampleTime_ = {}, int64_t lastSampleValue_ = {}) noexcept : utilization{utilization_}, currentProcess{currentProcess_}, processorCount{processorCount_}, lastSampleTime{lastSampleTime_}, lastSampleValue{lastSampleValue_} {}
     // public System.Void PollUpdate()
-    // Offset: 0x120C72C
+    // Offset: 0x122A3E8
     void PollUpdate();
     // public System.Single get_utilization()
-    // Offset: 0x120C834
+    // Offset: 0x122A4F0
     float get_utilization();
     // public System.Void .ctor()
-    // Offset: 0x120C85C
+    // Offset: 0x122A518
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

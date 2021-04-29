@@ -19,10 +19,10 @@ namespace System::Threading {
     // Creating value type constructor for type: Volatile
     Volatile() noexcept {}
     // static public System.Boolean Read(ref System.Boolean location)
-    // Offset: 0x16E67DC
+    // Offset: 0x16E7BCC
     static bool Read(bool& location);
     // static public System.Int32 Read(ref System.Int32 location)
-    // Offset: 0x16E6800
+    // Offset: 0x16E7BF0
     static int Read(int& location);
     // static public T Read(ref T location)
     // Offset: 0xFFFFFFFF
@@ -34,10 +34,10 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location);
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
-    // Offset: 0x16E6824
+    // Offset: 0x16E7C14
     static void Write(bool& location, bool value);
     // static public System.Void Write(ref System.Int32 location, System.Int32 value)
-    // Offset: 0x16E684C
+    // Offset: 0x16E7C3C
     static void Write(int& location, int value);
     // static public System.Void Write(ref T location, T value)
     // Offset: 0xFFFFFFFF

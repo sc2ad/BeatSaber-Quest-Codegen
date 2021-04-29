@@ -31,10 +31,10 @@ namespace GlobalNamespace {
       return version;
     }
     // public System.String get_version()
-    // Offset: 0xFDC378
+    // Offset: 0xF9B264
     ::Il2CppString* get_version();
     // public System.Void .ctor()
-    // Offset: 0xFDC380
+    // Offset: 0xF9B26C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

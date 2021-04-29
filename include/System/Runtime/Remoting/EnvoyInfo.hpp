@@ -42,14 +42,14 @@ namespace System::Runtime::Remoting {
       return envoySinks;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
-    // Offset: 0x18A4B90
+    // Offset: 0x1884930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyInfo* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* sinks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::EnvoyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvoyInfo*, creationType>(sinks)));
     }
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
-    // Offset: 0x18A4BBC
+    // Offset: 0x188495C
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
   }; // System.Runtime.Remoting.EnvoyInfo
   #pragma pack(pop)

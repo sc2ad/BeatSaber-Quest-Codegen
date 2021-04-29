@@ -38,46 +38,46 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetCreateRoomDataStore(System.String key, System.String value)
-    // Offset: 0x1380DA8
+    // Offset: 0x13A0A58
     void SetCreateRoomDataStore(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearCreateRoomDataStore()
-    // Offset: 0x1380E2C
+    // Offset: 0x13A0ADC
     void ClearCreateRoomDataStore();
     // public System.Void SetCreateRoomJoinPolicy(Oculus.Platform.RoomJoinPolicy value)
-    // Offset: 0x1380E98
+    // Offset: 0x13A0B48
     void SetCreateRoomJoinPolicy(Oculus::Platform::RoomJoinPolicy value);
     // public System.Void SetCreateRoomMaxUsers(System.UInt32 value)
-    // Offset: 0x1380F14
+    // Offset: 0x13A0BC4
     void SetCreateRoomMaxUsers(uint value);
     // public System.Void AddEnqueueAdditionalUser(System.UInt64 userID)
-    // Offset: 0x1380F90
+    // Offset: 0x13A0C40
     void AddEnqueueAdditionalUser(uint64_t userID);
     // public System.Void ClearEnqueueAdditionalUsers()
-    // Offset: 0x138100C
+    // Offset: 0x13A0CBC
     void ClearEnqueueAdditionalUsers();
     // public System.Void SetEnqueueDataSettings(System.String key, System.Int32 value)
-    // Offset: 0x1381078
+    // Offset: 0x13A0D28
     void SetEnqueueDataSettings(::Il2CppString* key, int value);
     // public System.Void SetEnqueueDataSettings(System.String key, System.Double value)
-    // Offset: 0x13810FC
+    // Offset: 0x13A0DAC
     void SetEnqueueDataSettings(::Il2CppString* key, double value);
     // public System.Void SetEnqueueDataSettings(System.String key, System.String value)
-    // Offset: 0x1381188
+    // Offset: 0x13A0E38
     void SetEnqueueDataSettings(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearEnqueueDataSettings()
-    // Offset: 0x138120C
+    // Offset: 0x13A0EBC
     void ClearEnqueueDataSettings();
     // public System.Void SetEnqueueIsDebug(System.Boolean value)
-    // Offset: 0x1381278
+    // Offset: 0x13A0F28
     void SetEnqueueIsDebug(bool value);
     // public System.Void SetEnqueueQueryKey(System.String value)
-    // Offset: 0x13812F4
+    // Offset: 0x13A0FA4
     void SetEnqueueQueryKey(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.MatchmakingOptions options)
-    // Offset: 0x137FCC4
+    // Offset: 0x139F974
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1380D30
+    // Offset: 0x13A09E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,7 +86,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1381370
+    // Offset: 0x13A1020
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

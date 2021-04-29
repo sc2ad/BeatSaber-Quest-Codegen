@@ -46,25 +46,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: BasicConstraints
     BasicConstraints(Org::BouncyCastle::Asn1::DerBoolean* cA_ = {}, Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint_ = {}) noexcept : cA{cA_}, pathLenConstraint{pathLenConstraint_} {}
     // static public Org.BouncyCastle.Asn1.X509.BasicConstraints GetInstance(System.Object obj)
-    // Offset: 0x1863548
+    // Offset: 0x18549EC
     static Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1863760
+    // Offset: 0x1854C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicConstraints* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::BasicConstraints::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicConstraints*, creationType>(seq)));
     }
     // public System.Boolean IsCA()
-    // Offset: 0x1863914
+    // Offset: 0x1854DB8
     bool IsCA();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1863928
+    // Offset: 0x1854DCC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1863A54
+    // Offset: 0x1854EF8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

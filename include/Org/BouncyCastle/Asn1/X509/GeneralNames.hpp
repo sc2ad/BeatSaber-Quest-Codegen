@@ -47,31 +47,31 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return names;
     }
     // static private Org.BouncyCastle.Asn1.X509.GeneralName[] Copy(Org.BouncyCastle.Asn1.X509.GeneralName[] names)
-    // Offset: 0x1866634
+    // Offset: 0x1857AD8
     static ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* Copy(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* names);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(System.Object obj)
-    // Offset: 0x1862248
+    // Offset: 0x18536EC
     static Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x18652FC
+    // Offset: 0x18567A0
     static Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18666B4
+    // Offset: 0x1857B58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralNames* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::GeneralNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralNames*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.GeneralName[] GetNames()
-    // Offset: 0x18667E4
+    // Offset: 0x1857C88
     ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* GetNames();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18667EC
+    // Offset: 0x1857C90
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1866854
+    // Offset: 0x1857CF8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

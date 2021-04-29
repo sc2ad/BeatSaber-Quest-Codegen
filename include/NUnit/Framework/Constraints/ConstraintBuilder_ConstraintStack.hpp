@@ -40,7 +40,7 @@ namespace NUnit::Framework::Constraints {
       return stack;
     }
     // public NUnit.Framework.Constraints.IConstraint Pop()
-    // Offset: 0x15A2C28
+    // Offset: 0x15C1BAC
     NUnit::Framework::Constraints::IConstraint* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack
   #pragma pack(pop)

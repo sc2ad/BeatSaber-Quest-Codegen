@@ -36,17 +36,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolSettingsController
     BoolSettingsController(GlobalNamespace::BoolSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
     // protected override System.Boolean GetInitValue()
-    // Offset: 0xF0A27C
+    // Offset: 0xF318F0
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0xF0A2CC
+    // Offset: 0xF31940
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0xF0A334
+    // Offset: 0xF319A8
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

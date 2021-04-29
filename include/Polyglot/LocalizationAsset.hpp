@@ -40,19 +40,19 @@ namespace Polyglot {
     // Creating value type constructor for type: LocalizationAsset
     LocalizationAsset(UnityEngine::TextAsset* textAsset_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}) noexcept : textAsset{textAsset_}, format{format_} {}
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x20FAA7C
+    // Offset: 0x2128EDC
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x20FAA84
+    // Offset: 0x2128EE4
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x20FAA8C
+    // Offset: 0x2128EEC
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x20FAA94
+    // Offset: 0x2128EF4
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x20FAA9C
+    // Offset: 0x2128EFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

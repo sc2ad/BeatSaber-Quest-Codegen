@@ -48,7 +48,7 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xDE17C8
+    // Offset: 0xDF5864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_TextureMap_t_Packed(OVR::OpenVR::RenderModel_TextureMap_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::RenderModel_TextureMap_t_Packed::.ctor");
@@ -56,7 +56,7 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xDE17DC
+    // Offset: 0xDF5878
     void Unpack(OVR::OpenVR::RenderModel_TextureMap_t& unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)

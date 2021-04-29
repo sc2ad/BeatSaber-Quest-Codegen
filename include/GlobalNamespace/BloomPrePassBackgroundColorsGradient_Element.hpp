@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Element
     Element(UnityEngine::Color color_ = {}, float startT_ = {}, float exp_ = {}) noexcept : color{color_}, startT{startT_}, exp{exp_} {}
     // public System.Void .ctor()
-    // Offset: 0x1CE2154
+    // Offset: 0x1D0CCCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

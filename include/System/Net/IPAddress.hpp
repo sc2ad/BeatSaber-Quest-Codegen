@@ -115,85 +115,85 @@ namespace System::Net {
     // Set static field: static System.Int32 NumberOfLabels
     static void _set_NumberOfLabels(int value);
     // public System.Void .ctor(System.Int64 newAddress)
-    // Offset: 0x1497834
+    // Offset: 0x14A358C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(int64_t newAddress) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(newAddress)));
     }
     // public System.Void .ctor(System.Byte[] address, System.Int64 scopeid)
-    // Offset: 0x14978F4
+    // Offset: 0x14A364C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(::Array<uint8_t>* address, int64_t scopeid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(address, scopeid)));
     }
     // private System.Void .ctor(System.UInt16[] address, System.UInt32 scopeid)
-    // Offset: 0x1497ACC
+    // Offset: 0x14A3824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(::Array<uint16_t>* address, uint scopeid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(address, scopeid)));
     }
     // public System.Void .ctor(System.Byte[] address)
-    // Offset: 0x1497B58
+    // Offset: 0x14A38B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(::Array<uint8_t>* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(address)));
     }
     // System.Void .ctor(System.Int32 newAddress)
-    // Offset: 0x1497D38
+    // Offset: 0x14A3A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(int newAddress) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(newAddress)));
     }
     // static public System.Boolean TryParse(System.String ipString, out System.Net.IPAddress address)
-    // Offset: 0x1492218
+    // Offset: 0x149DF70
     static bool TryParse(::Il2CppString* ipString, System::Net::IPAddress*& address);
     // static public System.Net.IPAddress Parse(System.String ipString)
-    // Offset: 0x149810C
+    // Offset: 0x14A3E64
     static System::Net::IPAddress* Parse(::Il2CppString* ipString);
     // static private System.Net.IPAddress InternalParse(System.String ipString, System.Boolean tryParse)
-    // Offset: 0x1497DB8
+    // Offset: 0x14A3B10
     static System::Net::IPAddress* InternalParse(::Il2CppString* ipString, bool tryParse);
     // public System.Byte[] GetAddressBytes()
-    // Offset: 0x1498174
+    // Offset: 0x14A3ECC
     ::Array<uint8_t>* GetAddressBytes();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x14982BC
+    // Offset: 0x14A4014
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Int64 get_ScopeId()
-    // Offset: 0x14982C4
+    // Offset: 0x14A401C
     int64_t get_ScopeId();
     // static public System.Boolean IsLoopback(System.Net.IPAddress address)
-    // Offset: 0x14987F8
+    // Offset: 0x14A4550
     static bool IsLoopback(System::Net::IPAddress* address);
     // public System.Boolean get_IsIPv6Multicast()
-    // Offset: 0x1498908
+    // Offset: 0x14A4660
     bool get_IsIPv6Multicast();
     // System.Boolean Equals(System.Object comparandObj, System.Boolean compareScopeId)
-    // Offset: 0x1498958
+    // Offset: 0x14A46B0
     bool Equals(::Il2CppObject* comparandObj, bool compareScopeId);
     // public System.Net.IPAddress MapToIPv6()
-    // Offset: 0x1498B9C
+    // Offset: 0x14A48F4
     System::Net::IPAddress* MapToIPv6();
     // static private System.Void .cctor()
-    // Offset: 0x1498C80
+    // Offset: 0x14A49D8
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1498348
+    // Offset: 0x14A40A0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x1498A98
+    // Offset: 0x14A47F0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1498AA0
+    // Offset: 0x14A47F8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

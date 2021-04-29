@@ -28,12 +28,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBadgeDataSaberMovementSO
     MultiplayerBadgeDataSaberMovementSO() noexcept {}
     // protected override System.Single GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x103C0C4
+    // Offset: 0xFC0F14
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Single MultiplayerBadgeDataMinMaxFloatSO::GetValue(MultiplayerPlayerResultsData result)
     float GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // public System.Void .ctor()
-    // Offset: 0x103C0EC
+    // Offset: 0xFC0F3C
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxFloatSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()

@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardsModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD30520
+    // [SpaceAttribute] Offset: 0xD46078
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x20
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardTableView* localLeaderboardTableView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardTableView*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD30588
+    // [CompilerGeneratedAttribute] Offset: 0xD460E0
     // private System.Action`1<DemoMenuLevelPanelView> playButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x40
@@ -107,25 +107,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfCells
     static void _set_kMaxNumberOfCells(int value);
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x101B804
+    // Offset: 0x106BC4C
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // public System.Void remove_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x101B8A8
+    // Offset: 0x106BCF0
     void remove_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // protected System.Void Start()
-    // Offset: 0x101B94C
+    // Offset: 0x106BD94
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x101B9EC
+    // Offset: 0x106BE34
     void OnDestroy();
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x101BA00
+    // Offset: 0x106BE48
     void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void PlayButtonWasPressed()
-    // Offset: 0x101BC3C
+    // Offset: 0x106C084
     void PlayButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x101BCA0
+    // Offset: 0x106C0E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

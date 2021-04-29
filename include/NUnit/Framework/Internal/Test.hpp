@@ -77,40 +77,40 @@ namespace NUnit::Framework::Internal {
     NUnit::Framework::Interfaces::IMethodInfo* method;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IMethodInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD10170
-    // [DebuggerBrowsableAttribute] Offset: 0xD10170
+    // [CompilerGeneratedAttribute] Offset: 0xD2485C
+    // [DebuggerBrowsableAttribute] Offset: 0xD2485C
     // private System.String <Id>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* Id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD101AC
-    // [DebuggerBrowsableAttribute] Offset: 0xD101AC
+    // [CompilerGeneratedAttribute] Offset: 0xD24898
+    // [DebuggerBrowsableAttribute] Offset: 0xD24898
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD101E8
-    // [CompilerGeneratedAttribute] Offset: 0xD101E8
+    // [DebuggerBrowsableAttribute] Offset: 0xD248D4
+    // [CompilerGeneratedAttribute] Offset: 0xD248D4
     // private System.String <FullName>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* FullName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD10224
-    // [CompilerGeneratedAttribute] Offset: 0xD10224
+    // [DebuggerBrowsableAttribute] Offset: 0xD24910
+    // [CompilerGeneratedAttribute] Offset: 0xD24910
     // private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x48
     NUnit::Framework::Interfaces::ITypeInfo* TypeInfo;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITypeInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD10260
-    // [CompilerGeneratedAttribute] Offset: 0xD10260
+    // [DebuggerBrowsableAttribute] Offset: 0xD2494C
+    // [CompilerGeneratedAttribute] Offset: 0xD2494C
     // private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -119,40 +119,40 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(NUnit::Framework::Interfaces::RunState) == 0x4);
     // Padding between fields: RunState and: Properties
     char __padding8[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xD1029C
-    // [CompilerGeneratedAttribute] Offset: 0xD1029C
+    // [DebuggerBrowsableAttribute] Offset: 0xD24988
+    // [CompilerGeneratedAttribute] Offset: 0xD24988
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     NUnit::Framework::Interfaces::IPropertyBag* Properties;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IPropertyBag*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD102D8
-    // [CompilerGeneratedAttribute] Offset: 0xD102D8
+    // [DebuggerBrowsableAttribute] Offset: 0xD249C4
+    // [CompilerGeneratedAttribute] Offset: 0xD249C4
     // private NUnit.Framework.Interfaces.ITest <Parent>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     NUnit::Framework::Interfaces::ITest* Parent;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITest*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD10314
-    // [CompilerGeneratedAttribute] Offset: 0xD10314
+    // [DebuggerBrowsableAttribute] Offset: 0xD24A00
+    // [CompilerGeneratedAttribute] Offset: 0xD24A00
     // private System.Object <Fixture>k__BackingField
     // Size: 0x8
     // Offset: 0x68
     ::Il2CppObject* Fixture;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD1038C
-    // [CompilerGeneratedAttribute] Offset: 0xD1038C
+    // [DebuggerBrowsableAttribute] Offset: 0xD24A78
+    // [CompilerGeneratedAttribute] Offset: 0xD24A78
     // private System.Int32 <Seed>k__BackingField
     // Size: 0x4
     // Offset: 0x70
     int Seed;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD103C8
-    // [CompilerGeneratedAttribute] Offset: 0xD103C8
+    // [DebuggerBrowsableAttribute] Offset: 0xD24AB4
+    // [CompilerGeneratedAttribute] Offset: 0xD24AB4
     // private System.Boolean <RequiresThread>k__BackingField
     // Size: 0x1
     // Offset: 0x74
@@ -173,153 +173,153 @@ namespace NUnit::Framework::Internal {
     static int _get__nextID();
     // Set static field: static private System.Int32 _nextID
     static void _set__nextID(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xD10350
-    // [DebuggerBrowsableAttribute] Offset: 0xD10350
+    // [CompilerGeneratedAttribute] Offset: 0xD24A3C
+    // [DebuggerBrowsableAttribute] Offset: 0xD24A3C
     // Get static field: static private System.String <IdPrefix>k__BackingField
     static ::Il2CppString* _get_$IdPrefix$k__BackingField();
     // Set static field: static private System.String <IdPrefix>k__BackingField
     static void _set_$IdPrefix$k__BackingField(::Il2CppString* value);
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x209AAE4
+    // Offset: 0x20900E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Test::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test*, creationType>(name)));
     }
     // protected System.Void .ctor(System.String pathName, System.String name)
-    // Offset: 0x209ABF8
+    // Offset: 0x20901F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test* New_ctor(::Il2CppString* pathName, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Test::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test*, creationType>(pathName, name)));
     }
     // protected System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x209AC98
+    // Offset: 0x2090294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* typeInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Test::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test*, creationType>(typeInfo)));
     }
     // protected System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x209AE18
+    // Offset: 0x2090414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Test::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test*, creationType>(method)));
     }
     // private System.Void Initialize(System.String name)
-    // Offset: 0x209AB5C
+    // Offset: 0x2090158
     void Initialize(::Il2CppString* name);
     // static private System.String GetNextId()
-    // Offset: 0x209B048
+    // Offset: 0x2090644
     static ::Il2CppString* GetNextId();
     // public System.String get_Id()
-    // Offset: 0x209B124
+    // Offset: 0x2090720
     ::Il2CppString* get_Id();
     // public System.Void set_Id(System.String value)
-    // Offset: 0x209B12C
+    // Offset: 0x2090728
     void set_Id(::Il2CppString* value);
     // public System.String get_Name()
-    // Offset: 0x209B134
+    // Offset: 0x2090730
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x209B13C
+    // Offset: 0x2090738
     void set_Name(::Il2CppString* value);
     // public System.String get_FullName()
-    // Offset: 0x209B144
+    // Offset: 0x2090740
     ::Il2CppString* get_FullName();
     // public System.Void set_FullName(System.String value)
-    // Offset: 0x209B14C
+    // Offset: 0x2090748
     void set_FullName(::Il2CppString* value);
     // public System.String get_ClassName()
-    // Offset: 0x209B154
+    // Offset: 0x2090750
     ::Il2CppString* get_ClassName();
     // public System.String get_MethodName()
-    // Offset: 0x209B3B0
+    // Offset: 0x20909AC
     ::Il2CppString* get_MethodName();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x209B3B8
+    // Offset: 0x20909B4
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x209B3C0
+    // Offset: 0x20909BC
     void set_TypeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
     // public NUnit.Framework.Interfaces.IMethodInfo get_Method()
-    // Offset: 0x2098ED8
+    // Offset: 0x208E4D4
     NUnit::Framework::Interfaces::IMethodInfo* get_Method();
     // public System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x2098DE8
+    // Offset: 0x208E3E4
     void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x209B3C8
+    // Offset: 0x20909C4
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x209B3D0
+    // Offset: 0x20909CC
     void set_RunState(NUnit::Framework::Interfaces::RunState value);
     // public System.String get_XmlElementName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_XmlElementName();
     // public System.String get_TestType()
-    // Offset: 0x209B3D8
+    // Offset: 0x20909D4
     ::Il2CppString* get_TestType();
     // public System.Int32 get_TestCaseCount()
-    // Offset: 0x209B400
+    // Offset: 0x20909FC
     int get_TestCaseCount();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x209B408
+    // Offset: 0x2090A04
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x209B410
+    // Offset: 0x2090A0C
     void set_Properties(NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Boolean get_IsSuite()
-    // Offset: 0x209B418
+    // Offset: 0x2090A14
     bool get_IsSuite();
     // public System.Boolean get_HasChildren()
     // Offset: 0xFFFFFFFF
     bool get_HasChildren();
     // public NUnit.Framework.Interfaces.ITest get_Parent()
-    // Offset: 0x209B498
+    // Offset: 0x2090A94
     NUnit::Framework::Interfaces::ITest* get_Parent();
     // public System.Void set_Parent(NUnit.Framework.Interfaces.ITest value)
-    // Offset: 0x209B4A0
+    // Offset: 0x2090A9C
     void set_Parent(NUnit::Framework::Interfaces::ITest* value);
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
     // public System.Object get_Fixture()
-    // Offset: 0x209B4A8
+    // Offset: 0x2090AA4
     ::Il2CppObject* get_Fixture();
     // public System.Void set_Fixture(System.Object value)
-    // Offset: 0x209B4B0
+    // Offset: 0x2090AAC
     void set_Fixture(::Il2CppObject* value);
     // static public System.String get_IdPrefix()
-    // Offset: 0x209B4B8
+    // Offset: 0x2090AB4
     static ::Il2CppString* get_IdPrefix();
     // public System.Int32 get_Seed()
-    // Offset: 0x209B520
+    // Offset: 0x2090B1C
     int get_Seed();
     // public System.Void set_Seed(System.Int32 value)
-    // Offset: 0x209B528
+    // Offset: 0x2090B24
     void set_Seed(int value);
     // public NUnit.Framework.Internal.TestResult MakeTestResult()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestResult* MakeTestResult();
     // public System.Void ApplyAttributesToTest(System.Reflection.ICustomAttributeProvider provider)
-    // Offset: 0x209B530
+    // Offset: 0x2090B2C
     void ApplyAttributesToTest(System::Reflection::ICustomAttributeProvider* provider);
     // protected System.Void PopulateTestNode(NUnit.Framework.Interfaces.TNode thisNode, System.Boolean recursive)
-    // Offset: 0x209B71C
+    // Offset: 0x2090D18
     void PopulateTestNode(NUnit::Framework::Interfaces::TNode* thisNode, bool recursive);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x209BA28
+    // Offset: 0x2091024
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x209BAB4
+    // Offset: 0x20910B0
     int CompareTo(::Il2CppObject* obj);
     // static private System.Void .cctor()
-    // Offset: 0x209BB68
+    // Offset: 0x2091164
     static void _cctor();
   }; // NUnit.Framework.Internal.Test
   #pragma pack(pop)

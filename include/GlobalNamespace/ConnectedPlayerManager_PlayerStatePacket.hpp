@@ -64,22 +64,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
-    // Offset: 0x120F9A4
+    // Offset: 0x122D660
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12128D8
+    // Offset: 0x1230594
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1212910
+    // Offset: 0x12305CC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1212968
+    // Offset: 0x1230624
     void Release();
     // public ConnectedPlayerManager/PlayerStatePacket Init(BloomFilter states, MultiplayerAvatarData avatar)
-    // Offset: 0x1212490
+    // Offset: 0x123014C
     GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(GlobalNamespace::BloomFilter states, GlobalNamespace::MultiplayerAvatarData avatar);
     // public System.Void .ctor()
-    // Offset: 0x12129C4
+    // Offset: 0x1230680
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

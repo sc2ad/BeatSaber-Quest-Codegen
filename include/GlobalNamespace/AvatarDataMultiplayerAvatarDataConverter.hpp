@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarDataMultiplayerAvatarDataConverter
     AvatarDataMultiplayerAvatarDataConverter() noexcept {}
     // static public MultiplayerAvatarData CreateMultiplayerAvatarData(AvatarData avatarData)
-    // Offset: 0x1004410
+    // Offset: 0x101D078
     static GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarData(GlobalNamespace::AvatarData* avatarData);
     // static public AvatarData CreateAvatarData(MultiplayerAvatarData multiplayerAvatarData)
-    // Offset: 0x1004594
+    // Offset: 0x101D1FC
     static GlobalNamespace::AvatarData* CreateAvatarData(GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData);
   }; // AvatarDataMultiplayerAvatarDataConverter
   #pragma pack(pop)

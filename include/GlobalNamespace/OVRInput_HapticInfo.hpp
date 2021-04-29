@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HapticInfo
     HapticInfo(bool playingHaptics_ = {}, float hapticsDurationPlayed_ = {}, float hapticsDuration_ = {}, float hapticAmplitude_ = {}, UnityEngine::XR::XRNode node_ = {}) noexcept : playingHaptics{playingHaptics_}, hapticsDurationPlayed{hapticsDurationPlayed_}, hapticsDuration{hapticsDuration_}, hapticAmplitude{hapticAmplitude_}, node{node_} {}
     // public System.Void .ctor()
-    // Offset: 0x17472BC
+    // Offset: 0x17476AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

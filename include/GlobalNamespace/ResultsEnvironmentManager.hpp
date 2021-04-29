@@ -46,16 +46,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
-    // Offset: 0xFC92A8
+    // Offset: 0xF88B5C
     GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::Il2CppString* keyword);
     // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0xFC937C
+    // Offset: 0xF88C30
     void ShowResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0xFC942C
+    // Offset: 0xF88CE0
     void HideResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void .ctor()
-    // Offset: 0xFC94D4
+    // Offset: 0xF88D88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

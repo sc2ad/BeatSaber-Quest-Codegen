@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VirtualAxis2DMap
     VirtualAxis2DMap(GlobalNamespace::OVRInput::RawAxis2D None_ = {}, GlobalNamespace::OVRInput::RawAxis2D PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawAxis2D PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawAxis2D SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawAxis2D SecondaryTouchpad_ = {}) noexcept : None{None_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryTouchpad{SecondaryTouchpad_} {}
     // public OVRInput/RawAxis2D ToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x17485A8
+    // Offset: 0x1748998
     GlobalNamespace::OVRInput::RawAxis2D ToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x1747774
+    // Offset: 0x1747B64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

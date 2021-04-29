@@ -85,52 +85,52 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_UpdateManager s_Instance
     static void _set_s_Instance(TMPro::TMP_UpdateManager* value);
     // static public TMPro.TMP_UpdateManager get_instance()
-    // Offset: 0x12E3DB8
+    // Offset: 0x1303A68
     static TMPro::TMP_UpdateManager* get_instance();
     // static System.Void RegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x12E4010
+    // Offset: 0x1303CC0
     static void RegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // private System.Void InternalRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x12E403C
+    // Offset: 0x1303CEC
     void InternalRegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // static public System.Void RegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E410C
+    // Offset: 0x1303DBC
     static void RegisterTextElementForLayoutRebuild(TMPro::TMP_Text* element);
     // private System.Boolean InternalRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E4138
+    // Offset: 0x1303DE8
     bool InternalRegisterTextElementForLayoutRebuild(TMPro::TMP_Text* element);
     // static public System.Void RegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E4208
+    // Offset: 0x1303EB8
     static void RegisterTextElementForGraphicRebuild(TMPro::TMP_Text* element);
     // private System.Boolean InternalRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E4234
+    // Offset: 0x1303EE4
     bool InternalRegisterTextElementForGraphicRebuild(TMPro::TMP_Text* element);
     // private System.Void OnBeginFrameRendering(UnityEngine.Rendering.ScriptableRenderContext renderContext, UnityEngine.Camera[] cameras)
-    // Offset: 0x12E4304
+    // Offset: 0x1303FB4
     void OnBeginFrameRendering(UnityEngine::Rendering::ScriptableRenderContext renderContext, ::Array<UnityEngine::Camera*>* cameras);
     // private System.Void OnCameraPreCull(UnityEngine.Camera cam)
-    // Offset: 0x12E44D8
+    // Offset: 0x1304188
     void OnCameraPreCull(UnityEngine::Camera* cam);
     // private System.Void DoRebuilds()
-    // Offset: 0x12E4308
+    // Offset: 0x1303FB8
     void DoRebuilds();
     // static System.Void UnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x12E44DC
+    // Offset: 0x130418C
     static void UnRegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // static public System.Void UnRegisterTextElementForRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E45A8
+    // Offset: 0x1304258
     static void UnRegisterTextElementForRebuild(TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E45F4
+    // Offset: 0x13042A4
     void InternalUnRegisterTextElementForGraphicRebuild(TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x12E4694
+    // Offset: 0x1304344
     void InternalUnRegisterTextElementForLayoutRebuild(TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x12E4508
+    // Offset: 0x13041B8
     void InternalUnRegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // protected System.Void .ctor()
-    // Offset: 0x12E3E34
+    // Offset: 0x1303AE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

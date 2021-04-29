@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Deeplink
     Deeplink(::Il2CppString* Destination_ = {}, ::Il2CppString* LevelID_ = {}, ::Il2CppString* PackID_ = {}, ::Il2CppString* Difficulty_ = {}, ::Il2CppString* Characteristic_ = {}, ::Il2CppString* MultiplayerLobbyCode_ = {}, uint64_t MultiplayerRoomId_ = {}) noexcept : Destination{Destination_}, LevelID{LevelID_}, PackID{PackID_}, Difficulty{Difficulty_}, Characteristic{Characteristic_}, MultiplayerLobbyCode{MultiplayerLobbyCode_}, MultiplayerRoomId{MultiplayerRoomId_} {}
     // public System.Void .ctor()
-    // Offset: 0x101ACA8
+    // Offset: 0x106B0F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

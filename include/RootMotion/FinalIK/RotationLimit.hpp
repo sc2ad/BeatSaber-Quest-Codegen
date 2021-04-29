@@ -24,14 +24,14 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 axis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HideInInspector] Offset: 0xD14CB8
+    // [HideInInspector] Offset: 0xD293A4
     // public UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x24
     UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xD14CC8
+    // [CompilerGeneratedAttribute] Offset: 0xD293B4
     // private System.Boolean <defaultLocalRotationOverride>k__BackingField
     // Size: 0x1
     // Offset: 0x34
@@ -61,55 +61,55 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetDefaultLocalRotation()
-    // Offset: 0x191E248
+    // Offset: 0x19080BC
     void SetDefaultLocalRotation();
     // public System.Void SetDefaultLocalRotation(UnityEngine.Quaternion localRotation)
-    // Offset: 0x191E290
+    // Offset: 0x1908104
     void SetDefaultLocalRotation(UnityEngine::Quaternion localRotation);
     // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, out System.Boolean changed)
-    // Offset: 0x191E2A8
+    // Offset: 0x190811C
     UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, bool& changed);
     // public System.Boolean Apply()
-    // Offset: 0x191E53C
+    // Offset: 0x19083B0
     bool Apply();
     // public System.Void Disable()
-    // Offset: 0x191E5AC
+    // Offset: 0x1908420
     void Disable();
     // public UnityEngine.Vector3 get_secondaryAxis()
-    // Offset: 0x191E5E4
+    // Offset: 0x1908458
     UnityEngine::Vector3 get_secondaryAxis();
     // public UnityEngine.Vector3 get_crossAxis()
-    // Offset: 0x191E620
+    // Offset: 0x1908494
     UnityEngine::Vector3 get_crossAxis();
     // public System.Boolean get_defaultLocalRotationOverride()
-    // Offset: 0x191E6F0
+    // Offset: 0x1908564
     bool get_defaultLocalRotationOverride();
     // private System.Void set_defaultLocalRotationOverride(System.Boolean value)
-    // Offset: 0x191E6F8
+    // Offset: 0x190856C
     void set_defaultLocalRotationOverride(bool value);
     // protected UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0xFFFFFFFF
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // private System.Void Awake()
-    // Offset: 0x191E44C
+    // Offset: 0x19082C0
     void Awake();
     // private System.Void LateUpdate()
-    // Offset: 0x191E704
+    // Offset: 0x1908578
     void LateUpdate();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x191E708
+    // Offset: 0x190857C
     void LogWarning(::Il2CppString* message);
     // static protected UnityEngine.Quaternion Limit1DOF(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis)
-    // Offset: 0x191E738
+    // Offset: 0x19085AC
     static UnityEngine::Quaternion Limit1DOF(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis);
     // static protected UnityEngine.Quaternion LimitTwist(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis, UnityEngine.Vector3 orthoAxis, System.Single twistLimit)
-    // Offset: 0x191E81C
+    // Offset: 0x1908690
     static UnityEngine::Quaternion LimitTwist(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis, UnityEngine::Vector3 orthoAxis, float twistLimit);
     // static protected System.Single GetOrthogonalAngle(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, UnityEngine.Vector3 normal)
-    // Offset: 0x191EA98
+    // Offset: 0x190890C
     static float GetOrthogonalAngle(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0x191EB54
+    // Offset: 0x19089C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

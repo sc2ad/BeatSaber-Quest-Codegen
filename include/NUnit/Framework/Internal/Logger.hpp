@@ -63,20 +63,20 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.String TRACE_FMT
     static void _set_TRACE_FMT(::Il2CppString* value);
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
-    // Offset: 0x20977F4
+    // Offset: 0x208CDF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Logger* New_ctor(::Il2CppString* name, NUnit::Framework::Internal::InternalTraceLevel level, System::IO::TextWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(name, level, writer)));
     }
     // public System.Void Error(System.String message)
-    // Offset: 0x2097B20
+    // Offset: 0x208D11C
     void Error(::Il2CppString* message);
     // public System.Void Debug(System.String message)
-    // Offset: 0x2097B60
+    // Offset: 0x208D15C
     void Debug(::Il2CppString* message);
     // public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x2097B84
+    // Offset: 0x208D180
     void Debug(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
     void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -86,10 +86,10 @@ namespace NUnit::Framework::Internal {
       Debug(message, {args...});
     }
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x2097B44
+    // Offset: 0x208D140
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
-    // Offset: 0x2097B94
+    // Offset: 0x208D190
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
@@ -99,10 +99,10 @@ namespace NUnit::Framework::Internal {
       Log(level, format, {args...});
     }
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x2097BE0
+    // Offset: 0x208D1DC
     void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
     // static private System.Void .cctor()
-    // Offset: 0x2097E78
+    // Offset: 0x208D474
     static void _cctor();
   }; // NUnit.Framework.Internal.Logger
   #pragma pack(pop)

@@ -43,7 +43,7 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ignoreCase and: options
     char __padding1[0x3] = {};
-    // [OptionalFieldAttribute] Offset: 0xC99D60
+    // [OptionalFieldAttribute] Offset: 0xCABEA8
     // private System.Globalization.CompareOptions _options
     // Size: 0x4
     // Offset: 0x1C
@@ -53,34 +53,34 @@ namespace System {
     // Creating value type constructor for type: CultureAwareComparer
     CultureAwareComparer(System::Globalization::CompareInfo* compareInfo_ = {}, bool ignoreCase_ = {}, System::Globalization::CompareOptions options_ = {}) noexcept : compareInfo{compareInfo_}, ignoreCase{ignoreCase_}, options{options_} {}
     // System.Void .ctor(System.Globalization.CultureInfo culture, System.Boolean ignoreCase)
-    // Offset: 0x18270B8
+    // Offset: 0x17FC828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureAwareComparer* New_ctor(System::Globalization::CultureInfo* culture, bool ignoreCase) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::CultureAwareComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureAwareComparer*, creationType>(culture, ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x1827160
+    // Offset: 0x17FC8D0
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x18271B0
+    // Offset: 0x17FC920
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1827204
+    // Offset: 0x17FC974
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::Il2CppString* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18272A8
+    // Offset: 0x17FCA18
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1827370
+    // Offset: 0x17FCAE0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

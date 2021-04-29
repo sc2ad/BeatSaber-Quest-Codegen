@@ -31,7 +31,7 @@ namespace System::Net {
       return m_NestedIOCount;
     }
     // public System.Void .ctor()
-    // Offset: 0x1499B84
+    // Offset: 0x14A58DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -77,21 +77,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: allowBlank and: textDidChangeEvent
     char __padding4[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD2BCF8
+    // [CompilerGeneratedAttribute] Offset: 0xD41718
     // private System.Action`1<System.String> textDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_1<::Il2CppString*>* textDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2BD08
+    // [CompilerGeneratedAttribute] Offset: 0xD41728
     // private System.Action okButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* okButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2BD18
+    // [CompilerGeneratedAttribute] Offset: 0xD41738
     // private System.Action cancelButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x48
@@ -109,58 +109,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x108E414
+    // Offset: 0x1673FF0
     void add_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x108E4B8
+    // Offset: 0x1674094
     void remove_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x108E55C
+    // Offset: 0x1674138
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x108E600
+    // Offset: 0x16741DC
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x108E6A4
+    // Offset: 0x1674280
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x108E748
+    // Offset: 0x1674324
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x108E7EC
+    // Offset: 0x16743C8
     void set_hideCancelButton(bool value);
     // public System.String get_text()
-    // Offset: 0x108E808
+    // Offset: 0x16743E8
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x108E824
+    // Offset: 0x1674404
     void set_text(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x108E8E8
+    // Offset: 0x16744CC
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x108EA38
+    // Offset: 0x1674630
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x108EAD8
+    // Offset: 0x16746D0
     void OnDisable();
     // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0x108EA68
+    // Offset: 0x1674660
     System::Collections::IEnumerator* BlinkCursor();
     // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0x108EAE4
+    // Offset: 0x1674708
     void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
     // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0x108EBC0
+    // Offset: 0x16747E8
     void HandleUIKeyboardDeleteButtonWasPressed();
     // private System.Void <Awake>b__20_0()
-    // Offset: 0x108ECA4
+    // Offset: 0x16748D0
     void $Awake$b__20_0();
     // private System.Void <Awake>b__20_1()
-    // Offset: 0x108ECB8
+    // Offset: 0x16748E4
     void $Awake$b__20_1();
     // public System.Void .ctor()
-    // Offset: 0x108EC94
+    // Offset: 0x16748C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

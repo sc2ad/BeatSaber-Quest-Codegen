@@ -44,38 +44,38 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: DHPublicKeyParameters
     DHPublicKeyParameters(Org::BouncyCastle::Math::BigInteger* y_ = {}) noexcept : y{y_} {}
     // static private Org.BouncyCastle.Math.BigInteger Validate(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams)
-    // Offset: 0x1160AD8
+    // Offset: 0x118DD50
     static Org::BouncyCastle::Math::BigInteger* Validate(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x1161370
+    // Offset: 0x118E5E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHPublicKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHPublicKeyParameters*, creationType>(y, parameters)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters, Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid)
-    // Offset: 0x11613B4
+    // Offset: 0x118E62C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHPublicKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHPublicKeyParameters*, creationType>(y, parameters, algorithmOid)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Y()
-    // Offset: 0x1161404
+    // Offset: 0x118E67C
     Org::BouncyCastle::Math::BigInteger* get_Y();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters other)
-    // Offset: 0x11614BC
+    // Offset: 0x118E734
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* other);
     // static private System.Int32 Legendre(Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Math.BigInteger b)
-    // Offset: 0x1160F54
+    // Offset: 0x118E1CC
     static int Legendre(Org::BouncyCastle::Math::BigInteger* a, Org::BouncyCastle::Math::BigInteger* b);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x116140C
+    // Offset: 0x118E684
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DHKeyParameters
     // Base method: System.Boolean DHKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1161518
+    // Offset: 0x118E790
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DHKeyParameters
     // Base method: System.Int32 DHKeyParameters::GetHashCode()
     int GetHashCode();

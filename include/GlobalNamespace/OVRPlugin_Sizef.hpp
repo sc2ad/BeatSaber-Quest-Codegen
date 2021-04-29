@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/Sizef zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Sizef value);
     // static private System.Void .cctor()
-    // Offset: 0x156450C
+    // Offset: 0x1583490
     static void _cctor();
   }; // OVRPlugin/Sizef
   #pragma pack(pop)

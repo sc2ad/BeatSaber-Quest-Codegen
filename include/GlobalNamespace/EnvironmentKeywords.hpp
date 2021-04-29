@@ -42,17 +42,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnvironmentKeywords
     EnvironmentKeywords(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* environmentKeywordsSet_ = {}) noexcept : environmentKeywords{environmentKeywords_}, environmentKeywordsSet{environmentKeywordsSet_} {}
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0xF1406C
+    // Offset: 0xF4ED74
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> environmentKeywords)
-    // Offset: 0xF14074
+    // Offset: 0xF4ED7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)
-    // Offset: 0xF14150
+    // Offset: 0xF4EE58
     bool HasKeyword(::Il2CppString* keyword);
   }; // EnvironmentKeywords
   #pragma pack(pop)

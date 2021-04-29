@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     ::Il2CppString* colorProperty;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xD00EC8
+    // [DrawIfAttribute] Offset: 0xD1556C
     // private System.Single _alphaIntensity
     // Size: 0x4
     // Offset: 0x48
@@ -84,24 +84,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MaterialLightWithId
     MaterialLightWithId(UnityEngine::MeshRenderer* meshRenderer_ = {}, bool alphaIntoColor_ = {}, bool setColorOnly_ = {}, ::Il2CppString* colorProperty_ = {}, float alphaIntensity_ = {}, UnityEngine::Color color_ = {}, float alpha_ = {}, int propertyId_ = {}) noexcept : meshRenderer{meshRenderer_}, alphaIntoColor{alphaIntoColor_}, setColorOnly{setColorOnly_}, colorProperty{colorProperty_}, alphaIntensity{alphaIntensity_}, color{color_}, alpha{alpha_}, propertyId{propertyId_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD00F6C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD15610
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CEA294
+    // Offset: 0x1D14E0C
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1CEA2A0
+    // Offset: 0x1D14E18
     void Awake();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CEA2FC
+    // Offset: 0x1D14E74
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CEA498
+    // Offset: 0x1D15010
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithId*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CEA500
+    // Offset: 0x1D15078
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

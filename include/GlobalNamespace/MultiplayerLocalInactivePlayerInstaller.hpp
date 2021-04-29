@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioMixer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD27598
+    // [InjectAttribute] Offset: 0xD3CFC8
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
@@ -43,12 +43,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLocalInactivePlayerInstaller
     MultiplayerLocalInactivePlayerInstaller(GlobalNamespace::AudioManagerSO* audioMixer_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : audioMixer{audioMixer_}, sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF54134
+    // Offset: 0xFFFBA0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF5480C
+    // Offset: 0x10002B8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

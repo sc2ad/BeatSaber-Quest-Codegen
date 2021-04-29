@@ -58,7 +58,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideCellSize and: padding
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xD0284C
+    // [DrawIfAttribute] Offset: 0xD16F00
     // private System.Single _padding
     // Size: 0x4
     // Offset: 0x60
@@ -73,7 +73,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideCellBackground and: firstCellPrefab
     char __padding3[0x3] = {};
-    // [SpaceAttribute] Offset: 0xD02904
+    // [SpaceAttribute] Offset: 0xD16FB8
     // private HMUI.TextSegmentedControlCell _firstCellPrefab
     // Size: 0x8
     // Offset: 0x68
@@ -98,7 +98,7 @@ namespace HMUI {
     HMUI::TextSegmentedControlCell* middleCellPrefab;
     // Field size check
     static_assert(sizeof(HMUI::TextSegmentedControlCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xD0296C
+    // [InjectAttribute] Offset: 0xD17020
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -118,19 +118,19 @@ namespace HMUI {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);
     }
     // public System.Void SetTexts(System.Collections.Generic.IReadOnlyList`1<System.String> texts)
-    // Offset: 0x1206E38
+    // Offset: 0x1224AF4
     void SetTexts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1206E50
+    // Offset: 0x1224B0C
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x1206F0C
+    // Offset: 0x1224BC8
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // private HMUI.TextSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x12071BC
+    // Offset: 0x1224E78
     HMUI::TextSegmentedControlCell* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Void .ctor()
-    // Offset: 0x1207398
+    // Offset: 0x1225054
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

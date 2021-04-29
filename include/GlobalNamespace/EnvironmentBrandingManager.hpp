@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::GameObject*>* replacementBrandingObjects;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xD22A38
+    // [InjectOptionalAttribute] Offset: 0xD383D0
     // private readonly EnvironmentBrandingManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF13444
+    // Offset: 0xF4E14C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xF1351C
+    // Offset: 0xF4E224
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

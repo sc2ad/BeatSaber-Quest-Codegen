@@ -42,7 +42,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingEnqueueResultAndRoom
     MatchmakingEnqueueResultAndRoom(Oculus::Platform::Models::MatchmakingEnqueueResult* MatchmakingEnqueueResult_ = {}, Oculus::Platform::Models::Room* Room_ = {}) noexcept : MatchmakingEnqueueResult{MatchmakingEnqueueResult_}, Room{Room_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138A624
+    // Offset: 0x13AA2D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueueResultAndRoom* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom::.ctor");

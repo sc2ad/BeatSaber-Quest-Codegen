@@ -92,38 +92,38 @@ namespace System::Text {
     // Creating value type constructor for type: EncodingByteBuffer
     EncodingByteBuffer(uint8_t* bytes_ = {}, uint8_t* byteStart_ = {}, uint8_t* byteEnd_ = {}, ::Il2CppChar* chars_ = {}, ::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, int byteCountResult_ = {}, System::Text::Encoding* enc_ = {}, System::Text::EncoderNLS* encoder_ = {}, System::Text::EncoderFallbackBuffer* fallbackBuffer_ = {}) noexcept : bytes{bytes_}, byteStart{byteStart_}, byteEnd{byteEnd_}, chars{chars_}, charStart{charStart_}, charEnd{charEnd_}, byteCountResult{byteCountResult_}, enc{enc_}, encoder{encoder_}, fallbackBuffer{fallbackBuffer_} {}
     // System.Void .ctor(System.Text.Encoding inEncoding, System.Text.EncoderNLS inEncoder, System.Byte* inByteStart, System.Int32 inByteCount, System.Char* inCharStart, System.Int32 inCharCount)
-    // Offset: 0x1B08DBC
+    // Offset: 0x1B27210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingByteBuffer* New_ctor(System::Text::Encoding* inEncoding, System::Text::EncoderNLS* inEncoder, uint8_t* inByteStart, int inByteCount, ::Il2CppChar* inCharStart, int inCharCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::EncodingByteBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingByteBuffer*, creationType>(inEncoding, inEncoder, inByteStart, inByteCount, inCharStart, inCharCount)));
     }
     // System.Boolean AddByte(System.Byte b, System.Int32 moreBytesExpected)
-    // Offset: 0x1B08FF4
+    // Offset: 0x1B27448
     bool AddByte(uint8_t b, int moreBytesExpected);
     // System.Boolean AddByte(System.Byte b1)
-    // Offset: 0x1B090CC
+    // Offset: 0x1B27520
     bool AddByte(uint8_t b1);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2)
-    // Offset: 0x1B090D4
+    // Offset: 0x1B27528
     bool AddByte(uint8_t b1, uint8_t b2);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2, System.Int32 moreBytesExpected)
-    // Offset: 0x1B090DC
+    // Offset: 0x1B27530
     bool AddByte(uint8_t b1, uint8_t b2, int moreBytesExpected);
     // System.Void MovePrevious(System.Boolean bThrow)
-    // Offset: 0x1B09048
+    // Offset: 0x1B2749C
     void MovePrevious(bool bThrow);
     // System.Boolean get_MoreData()
-    // Offset: 0x1B09134
+    // Offset: 0x1B27588
     bool get_MoreData();
     // System.Char GetNextChar()
-    // Offset: 0x1B09188
+    // Offset: 0x1B275DC
     ::Il2CppChar GetNextChar();
     // System.Int32 get_CharsUsed()
-    // Offset: 0x1B091E4
+    // Offset: 0x1B27638
     int get_CharsUsed();
     // System.Int32 get_Count()
-    // Offset: 0x1B091FC
+    // Offset: 0x1B27650
     int get_Count();
   }; // System.Text.Encoding/EncodingByteBuffer
   #pragma pack(pop)

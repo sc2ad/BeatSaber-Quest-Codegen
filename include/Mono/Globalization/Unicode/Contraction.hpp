@@ -45,7 +45,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: Contraction
     Contraction(int Index_ = {}, ::Array<::Il2CppChar>* Source_ = {}, ::Il2CppString* Replacement_ = {}, ::Array<uint8_t>* SortKey_ = {}) noexcept : Index{Index_}, Source{Source_}, Replacement{Replacement_}, SortKey{SortKey_} {}
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
-    // Offset: 0x18C772C
+    // Offset: 0x18A64CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Contraction* New_ctor(int index, ::Array<::Il2CppChar>* source, ::Il2CppString* replacement, ::Array<uint8_t>* sortkey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Contraction::.ctor");

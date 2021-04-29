@@ -89,7 +89,7 @@ namespace Mono::Security::Interface {
     // Offset: 0xFFFFFFFF
     bool get_SupportsCleanShutdown();
     // System.Void .ctor()
-    // Offset: 0x1B95438
+    // Offset: 0x1B9F4D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

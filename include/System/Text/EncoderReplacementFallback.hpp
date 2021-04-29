@@ -38,17 +38,17 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(System.String replacement)
-    // Offset: 0x1B042A0
+    // Offset: 0x1B226F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallback* New_ctor(::Il2CppString* replacement) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>(replacement)));
     }
     // public System.String get_DefaultString()
-    // Offset: 0x1B0447C
+    // Offset: 0x1B228D0
     ::Il2CppString* get_DefaultString();
     // public System.Void .ctor()
-    // Offset: 0x1B04250
+    // Offset: 0x1B226A4
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Void EncoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -58,22 +58,22 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>()));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1B04484
+    // Offset: 0x1B228D8
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1B04530
+    // Offset: 0x1B22984
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1B0454C
+    // Offset: 0x1B229A0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B045E0
+    // Offset: 0x1B22A34
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

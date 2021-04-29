@@ -60,28 +60,28 @@ namespace MasterServer {
       return authenticationToken;
     }
     // static public PacketPool`1<MasterServer.AuthenticateUserRequest> get_pool()
-    // Offset: 0x121AFDC
+    // Offset: 0x1238C98
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserRequest*>* get_pool();
     // public MasterServer.AuthenticateUserRequest Init(AuthenticationToken authenticationToken)
-    // Offset: 0x121B024
+    // Offset: 0x1238CE0
     MasterServer::AuthenticateUserRequest* Init(GlobalNamespace::AuthenticationToken authenticationToken);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121B034
+    // Offset: 0x1238CF0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121B060
+    // Offset: 0x1238D1C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121B0A4
+    // Offset: 0x1238D60
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x121B100
+    // Offset: 0x1238DBC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

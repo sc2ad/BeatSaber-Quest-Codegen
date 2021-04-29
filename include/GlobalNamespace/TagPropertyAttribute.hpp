@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TagPropertyAttribute
     TagPropertyAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2121C6C
+    // Offset: 0x214DD2C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

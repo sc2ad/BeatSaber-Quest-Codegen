@@ -21,13 +21,13 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Set static field: static public readonly System.DateTime UnixEpoch
     static void _set_UnixEpoch(System::DateTime value);
     // static public System.Int64 DateTimeToUnixMs(System.DateTime dateTime)
-    // Offset: 0x1E2D700
+    // Offset: 0x1E31A50
     static int64_t DateTimeToUnixMs(System::DateTime dateTime);
     // static public System.Int64 CurrentUnixMs()
-    // Offset: 0x1E2D854
+    // Offset: 0x1E31BA4
     static int64_t CurrentUnixMs();
     // static private System.Void .cctor()
-    // Offset: 0x1E2D8E4
+    // Offset: 0x1E31C34
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeUtilities
   #pragma pack(pop)

@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FileBrowserModel
     FileBrowserModel() noexcept {}
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
-    // Offset: 0xF17C7C
+    // Offset: 0xF52BBC
     static void GetContentOfDirectory(::Il2CppString* direcotryPath, ::Array<::Il2CppString*>* extensions, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback);
     // static private FileBrowserItem[] GetContentOfDirectory(System.String directoryPath, System.String[] extensions)
-    // Offset: 0xF17D80
+    // Offset: 0xF52CC0
     static ::Array<GlobalNamespace::FileBrowserItem*>* GetContentOfDirectory(::Il2CppString* directoryPath, ::Array<::Il2CppString*>* extensions);
     // static private System.Boolean CanOpenDirectory(System.String path)
-    // Offset: 0xF1814C
+    // Offset: 0xF5308C
     static bool CanOpenDirectory(::Il2CppString* path);
   }; // FileBrowserModel
   #pragma pack(pop)

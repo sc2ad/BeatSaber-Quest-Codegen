@@ -144,7 +144,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifierParamsSO* smallCubes;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD20380
+    // [SpaceAttribute] Offset: 0xD35CE0
     // private GameplayModifierParamsSO _demoNoObstacles
     // Size: 0x8
     // Offset: 0x98
@@ -168,39 +168,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0xFE935C
+    // Offset: 0xF68660
     GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0xFE9678
+    // Offset: 0xF6897C
     bool GetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> CreateModifierParamsList(GameplayModifiers gameplayModifiers)
-    // Offset: 0xFE9AB8
+    // Offset: 0xF68DBC
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* CreateModifierParamsList(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Single GetTotalMultiplier(System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0xFE9C64
+    // Offset: 0xF68F68
     float GetTotalMultiplier(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0xFE9DEC
+    // Offset: 0xF690F0
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
-    // Offset: 0xFE9E44
+    // Offset: 0xF69148
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
     // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0xFE9E18
+    // Offset: 0xF6911C
     int GetModifiedScoreForGameplayModifiers(int rawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
-    // Offset: 0xFE8054
+    // Offset: 0xF67358
     GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(GlobalNamespace::GameplayModifierMask modifier);
     // private GameplayModifiers/SongSpeed GetSongSpeedFromValueGetter(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0xFE95C8
+    // Offset: 0xF688CC
     GlobalNamespace::GameplayModifiers::SongSpeed GetSongSpeedFromValueGetter(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // protected override System.Void OnEnable()
-    // Offset: 0xFE8848
+    // Offset: 0xF67B4C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xFE9E70
+    // Offset: 0xF69174
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

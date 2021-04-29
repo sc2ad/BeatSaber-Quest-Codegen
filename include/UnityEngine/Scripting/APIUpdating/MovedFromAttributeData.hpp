@@ -66,7 +66,7 @@ namespace UnityEngine::Scripting::APIUpdating {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0xDFDD9C
+    // Offset: 0xE114DC
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)

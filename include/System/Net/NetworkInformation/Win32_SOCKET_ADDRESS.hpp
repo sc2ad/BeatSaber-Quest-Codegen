@@ -43,7 +43,7 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0xDE70E4
+    // Offset: 0xDFD564
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
   #pragma pack(pop)

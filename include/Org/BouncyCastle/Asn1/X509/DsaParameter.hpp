@@ -55,26 +55,26 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: DsaParameter
     DsaParameter(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}) noexcept : p{p_}, q{q_}, g{g_} {}
     // static public Org.BouncyCastle.Asn1.X509.DsaParameter GetInstance(System.Object obj)
-    // Offset: 0x1865ADC
+    // Offset: 0x1856F80
     static Org::BouncyCastle::Asn1::X509::DsaParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1865C50
+    // Offset: 0x18570F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::DsaParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaParameter*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1865DB4
+    // Offset: 0x1857258
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x1865DD0
+    // Offset: 0x1857274
     Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1865DEC
+    // Offset: 0x1857290
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1865E08
+    // Offset: 0x18572AC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

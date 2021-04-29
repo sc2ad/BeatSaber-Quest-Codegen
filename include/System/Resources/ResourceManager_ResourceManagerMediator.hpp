@@ -31,7 +31,7 @@ namespace System::Resources {
       return rm;
     }
     // System.Void .ctor(System.Resources.ResourceManager rm)
-    // Offset: 0x12F9490
+    // Offset: 0x1319140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::ResourceManagerMediator::.ctor");

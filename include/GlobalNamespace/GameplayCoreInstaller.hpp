@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatLineManager* beatLineManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2A934
+    // [SpaceAttribute] Offset: 0xD40364
     // private AudioManagerSO _audioMixer
     // Size: 0x8
     // Offset: 0x28
@@ -84,14 +84,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissedNoteEffectSpawner*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2A9BC
+    // [SpaceAttribute] Offset: 0xD403EC
     // private EffectPoolsManualInstaller _effectPoolsManualInstaller
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A9F4
+    // [InjectAttribute] Offset: 0xD40424
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x60
@@ -101,12 +101,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayCoreInstaller
     GameplayCoreInstaller(GlobalNamespace::BeatLineManager* beatLineManagerPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioMixer_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::NoteCutScoreSpawner* noteCutScoreSpawnerPrefab_ = {}, GlobalNamespace::BadNoteCutEffectSpawner* badNoteCutEffectSpawnerPrefab_ = {}, GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : beatLineManagerPrefab{beatLineManagerPrefab_}, audioMixer{audioMixer_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, noteCutScoreSpawnerPrefab{noteCutScoreSpawnerPrefab_}, badNoteCutEffectSpawnerPrefab{badNoteCutEffectSpawnerPrefab_}, missedNoteEffectSpawnerPrefab{missedNoteEffectSpawnerPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF28680
+    // Offset: 0xF64844
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF29C48
+    // Offset: 0xF65E18
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

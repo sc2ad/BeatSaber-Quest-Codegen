@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* coverImage;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD304D8
+    // [SpaceAttribute] Offset: 0xD46030
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x20
@@ -80,13 +80,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xF086A4
+    // Offset: 0xF2FD18
     void OnDestroy();
     // public System.Void SetTextureAsync(IPreviewBeatmapLevel level)
-    // Offset: 0xF0876C
+    // Offset: 0xF2FDE0
     void SetTextureAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void .ctor()
-    // Offset: 0xF08830
+    // Offset: 0xF2FEA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

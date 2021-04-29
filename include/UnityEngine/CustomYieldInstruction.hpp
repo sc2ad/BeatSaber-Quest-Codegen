@@ -28,16 +28,16 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x19C8244
+    // Offset: 0x1A08374
     ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x19C824C
+    // Offset: 0x1A0837C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19C8258
+    // Offset: 0x1A08388
     void Reset();
     // protected System.Void .ctor()
-    // Offset: 0x19C825C
+    // Offset: 0x1A0838C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

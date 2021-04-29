@@ -61,13 +61,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Pose
     Pose(bool visualize_ = {}, ::Il2CppString* name_ = {}, UnityEngine::Vector3 direction_ = {}, float yaw_ = {}, float pitch_ = {}, float angleBuffer_ = {}) noexcept : visualize{visualize_}, name{name_}, direction{direction_}, yaw{yaw_}, pitch{pitch_}, angleBuffer{angleBuffer_} {}
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x1AB2B5C
+    // Offset: 0x1AECB90
     bool IsInDirection(UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x1AB2EC8
+    // Offset: 0x1AECEFC
     void SetAngleBuffer(float value);
     // public System.Void .ctor()
-    // Offset: 0x1AB2ED0
+    // Offset: 0x1AECF04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

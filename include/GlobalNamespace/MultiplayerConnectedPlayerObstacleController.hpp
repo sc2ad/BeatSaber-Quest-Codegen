@@ -42,12 +42,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerConnectedPlayerObstacleController
     MultiplayerConnectedPlayerObstacleController(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* multiplayerConnectedPlayerObstacleClippingController_ = {}) noexcept : multiplayerConnectedPlayerObstacleClippingController{multiplayerConnectedPlayerObstacleClippingController_} {}
     // public override System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    // Offset: 0x1043E58
+    // Offset: 0x1073C9C
     // Implemented from: ObstacleController
     // Base method: System.Void ObstacleController::Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
     void Init(GlobalNamespace::ObstacleData* obstacleData, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);
     // public System.Void .ctor()
-    // Offset: 0x1044084
+    // Offset: 0x1073EC8
     // Implemented from: ObstacleController
     // Base method: System.Void ObstacleController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

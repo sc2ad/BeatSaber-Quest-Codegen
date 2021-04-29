@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionHelpGameObjectPair
     MissionHelpGameObjectPair(GlobalNamespace::MissionHelpSO* missionHelp_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : missionHelp{missionHelp_}, gameObject{gameObject_} {}
     // public System.Void .ctor()
-    // Offset: 0x1027680
+    // Offset: 0xF437BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

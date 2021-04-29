@@ -41,12 +41,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PointLightWithIds
     PointLightWithIds(GlobalNamespace::PointLight* pointLight_ = {}) noexcept : pointLight{pointLight_} {}
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CECEEC
+    // Offset: 0x1D17A64
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CECF0C
+    // Offset: 0x1D17A84
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

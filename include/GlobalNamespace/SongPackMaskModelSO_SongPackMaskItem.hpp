@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
     // Padding between fields: type and: beatmapLevelPack
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0xD32930
+    // [NullAllowed] Offset: 0xD48568
     // public BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xD32940
+    // [NullAllowed] Offset: 0xD48578
     // public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     ::Il2CppString* serializedName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xD32950
+    // [NullAllowed] Offset: 0xD48588
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
     // Offset: 0x30
@@ -97,13 +97,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SongPackMaskItem
     SongPackMaskItem(GlobalNamespace::SongPackMaskModelSO::SongPackDataType type_ = {}, GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, ::Il2CppString* serializedName_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* levelPackCollection_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections_ = {}) noexcept : type{type_}, beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevelPack{previewBeatmapLevelPack_}, serializedName{serializedName_}, levelPackCollection{levelPackCollection_}, beatmapLevelPacks{beatmapLevelPacks_}, previewBeatmapLevelPacks{previewBeatmapLevelPacks_}, levelPackCollections{levelPackCollections_} {}
     // public System.String get_serializedName()
-    // Offset: 0xF7E5A4
+    // Offset: 0xF8F49C
     ::Il2CppString* get_serializedName();
     // public SongPackMask get_songPackMask()
-    // Offset: 0xF7E5E8
+    // Offset: 0xF8F4E0
     GlobalNamespace::SongPackMask get_songPackMask();
     // public System.Void .ctor()
-    // Offset: 0xF7E960
+    // Offset: 0xF8F858
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

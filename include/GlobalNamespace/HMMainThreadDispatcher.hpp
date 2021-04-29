@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static void _set__mainThreadExecutionQueue(System::Collections::Generic::Queue_1<System::Action*>* value);
     // protected System.Void Update()
-    // Offset: 0x1127434
+    // Offset: 0x1180CC8
     void Update();
     // public System.Void Enqueue(System.Collections.IEnumerator action)
-    // Offset: 0x112759C
+    // Offset: 0x1180E30
     void Enqueue(System::Collections::IEnumerator* action);
     // public System.Void Enqueue(System.Action action)
-    // Offset: 0x112771C
+    // Offset: 0x1180FB0
     void Enqueue(System::Action* action);
     // private System.Collections.IEnumerator ActionCoroutine(System.Action action)
-    // Offset: 0x1127744
+    // Offset: 0x1180FD8
     System::Collections::IEnumerator* ActionCoroutine(System::Action* action);
     // public System.Void .ctor()
-    // Offset: 0x11277E0
+    // Offset: 0x1181074
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1127850
+    // Offset: 0x11810E4
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.cctor()
     // Base method: System.Void Object::.cctor()

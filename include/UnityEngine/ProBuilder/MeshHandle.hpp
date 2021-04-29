@@ -40,17 +40,17 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: MeshHandle
     MeshHandle(UnityEngine::Transform* m_Transform_ = {}, UnityEngine::Mesh* m_Mesh_ = {}) noexcept : m_Transform{m_Transform_}, m_Mesh{m_Mesh_} {}
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x193F098
+    // Offset: 0x1928F0C
     UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Mesh mesh)
-    // Offset: 0x193F0A0
+    // Offset: 0x1928F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshHandle* New_ctor(UnityEngine::Transform* transform, UnityEngine::Mesh* mesh) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshHandle*, creationType>(transform, mesh)));
     }
     // public System.Void DrawMeshNow(System.Int32 submeshIndex)
-    // Offset: 0x193F0D8
+    // Offset: 0x1928F4C
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
   #pragma pack(pop)

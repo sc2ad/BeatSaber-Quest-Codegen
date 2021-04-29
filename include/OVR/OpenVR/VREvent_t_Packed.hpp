@@ -51,7 +51,7 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0xDE1880
+    // Offset: 0xDF591C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VREvent_t_Packed::.ctor");
@@ -59,7 +59,7 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0xDE18D0
+    // Offset: 0xDF596C
     void Unpack(OVR::OpenVR::VREvent_t& unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

@@ -33,14 +33,14 @@ namespace GlobalNamespace {
       return trailTintColor;
     }
     // public System.Void .ctor(UnityEngine.Color trailTintColor)
-    // Offset: 0xFD2108
+    // Offset: 0x1050918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController::InitData* New_ctor(UnityEngine::Color trailTintColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>(trailTintColor)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFD20D4
+    // Offset: 0x10508E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

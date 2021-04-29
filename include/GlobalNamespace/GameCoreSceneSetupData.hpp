@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameCoreSceneSetupData
     GameCoreSceneSetupData() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF16F44
+    // Offset: 0xF51C4C
     // Implemented from: SceneSetupData
     // Base method: System.Void SceneSetupData::.ctor()
     // Base method: System.Void Object::.ctor()

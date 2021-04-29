@@ -40,17 +40,17 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0xE0AA4C
+    // Offset: 0xE1EA08
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end)
     // public System.Boolean Valid()
-    // Offset: 0xE0AA54
+    // Offset: 0xE1EA10
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0xE0AA68
+    // Offset: 0xE1EA24
     int Center();
     // public override System.String ToString()
-    // Offset: 0xE0AA80
+    // Offset: 0xE1EA3C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

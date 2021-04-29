@@ -40,34 +40,34 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetDataStore(System.String key, System.String value)
-    // Offset: 0x21572E4
+    // Offset: 0x2180710
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearDataStore()
-    // Offset: 0x2157368
+    // Offset: 0x2180794
     void ClearDataStore();
     // public System.Void SetExcludeRecentlyMet(System.Boolean value)
-    // Offset: 0x21573D4
+    // Offset: 0x2180800
     void SetExcludeRecentlyMet(bool value);
     // public System.Void SetMaxUserResults(System.UInt32 value)
-    // Offset: 0x2157450
+    // Offset: 0x218087C
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
-    // Offset: 0x21574CC
+    // Offset: 0x21808F8
     void SetOrdering(Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x2157548
+    // Offset: 0x2180974
     void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
-    // Offset: 0x21575C4
+    // Offset: 0x21809F0
     void SetRoomId(uint64_t value);
     // public System.Void SetTurnOffUpdates(System.Boolean value)
-    // Offset: 0x2157640
+    // Offset: 0x2180A6C
     void SetTurnOffUpdates(bool value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
-    // Offset: 0x21576BC
+    // Offset: 0x2180AE8
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x215726C
+    // Offset: 0x2180698
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +76,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RoomOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x215770C
+    // Offset: 0x2180B38
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

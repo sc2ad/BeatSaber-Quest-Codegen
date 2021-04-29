@@ -243,37 +243,37 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly System.Collections.Hashtable DefaultLookup
     static void _set_DefaultLookup(System::Collections::Hashtable* value);
     // static public System.Boolean get_DefaultReverse()
-    // Offset: 0x186B930
+    // Offset: 0x185CDD4
     static bool get_DefaultReverse();
     // static private System.Void .cctor()
-    // Offset: 0x186B9B8
+    // Offset: 0x185CE5C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1866350
+    // Offset: 0x18577F4
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(System.Object obj)
-    // Offset: 0x186650C
+    // Offset: 0x18579B0
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Il2CppObject* obj);
     // protected System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x186CEAC
+    // Offset: 0x185E350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Name* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Name::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Name*, creationType>(seq)));
     }
     // private System.Void AppendValue(System.Text.StringBuilder buf, System.Collections.IDictionary oidSymbols, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String val)
-    // Offset: 0x186DBA0
+    // Offset: 0x185F044
     void AppendValue(System::Text::StringBuilder* buf, System::Collections::IDictionary* oidSymbols, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* val);
     // public System.String ToString(System.Boolean reverse, System.Collections.IDictionary oidSymbols)
-    // Offset: 0x186DE64
+    // Offset: 0x185F308
     ::Il2CppString* ToString(bool reverse, System::Collections::IDictionary* oidSymbols);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x186D704
+    // Offset: 0x185EBA8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x186E43C
+    // Offset: 0x185F8E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

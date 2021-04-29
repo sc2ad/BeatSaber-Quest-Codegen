@@ -23,7 +23,7 @@ namespace System::Runtime::Versioning {
     // Set static field: static public readonly System.Boolean TargetsAtLeast_Desktop_V4_5_1
     static void _set_TargetsAtLeast_Desktop_V4_5_1(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x14EDAC4
+    // Offset: 0x150B978
     static void _cctor();
   }; // System.Runtime.Versioning.BinaryCompatibility
   #pragma pack(pop)

@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0xF189F0
+    // Offset: 0xF53930
     void set_fillAmount(float value);
     // public System.Single get_fillAmount()
-    // Offset: 0xF18A40
+    // Offset: 0xF53980
     float get_fillAmount();
     // public System.Void .ctor()
-    // Offset: 0xF18A5C
+    // Offset: 0xF5399C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

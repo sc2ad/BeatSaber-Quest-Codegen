@@ -78,21 +78,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellWidth and: promoPackIDStrings
     char __padding3[0x4] = {};
-    // [SpaceAttribute] Offset: 0xD303D0
+    // [SpaceAttribute] Offset: 0xD45F28
     // private System.String[] _promoPackIDStrings
     // Size: 0x8
     // Offset: 0x38
     ::Array<::Il2CppString*>* promoPackIDStrings;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD30408
+    // [InjectAttribute] Offset: 0xD45F60
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD30418
+    // [CompilerGeneratedAttribute] Offset: 0xD45F70
     // private System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> didSelectAnnotatedBeatmapLevelCollectionEvent
     // Size: 0x8
     // Offset: 0x48
@@ -134,58 +134,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0xFFE580
+    // Offset: 0x1017178
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0xFFE624
+    // Offset: 0x101721C
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // private System.Void Init()
-    // Offset: 0xFFE6C8
+    // Offset: 0x10172C0
     void Init();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> annotatedBeatmapLevelCollections)
-    // Offset: 0xFFE828
+    // Offset: 0x1017420
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections);
     // protected System.Void OnEnable()
-    // Offset: 0xFFE880
+    // Offset: 0x1017478
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xFFE908
+    // Offset: 0x1017500
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xFFE990
+    // Offset: 0x1017588
     void OnDestroy();
     // public System.Void Hide()
-    // Offset: 0xFFEA24
+    // Offset: 0x101761C
     void Hide();
     // public System.Void Show()
-    // Offset: 0xFFEA40
+    // Offset: 0x1017638
     void Show();
     // public System.Single CellSize()
-    // Offset: 0xFFEA5C
+    // Offset: 0x1017654
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xFFEA64
+    // Offset: 0x101765C
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xFFEB20
+    // Offset: 0x1017718
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0xFFEDB4
+    // Offset: 0x10179AC
     void HandleDidSelectColumnEvent(HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0xFFEEAC
+    // Offset: 0x1017AA4
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0xFFEF6C
+    // Offset: 0x1017B64
     void CancelAsyncOperations();
     // public System.Void RefreshAvailability()
-    // Offset: 0xFFF210
+    // Offset: 0x1017E08
     void RefreshAvailability();
     // public System.Void SelectAndScrollToCellWithIdx(System.Int32 idx)
-    // Offset: 0xFFF4C0
+    // Offset: 0x10180B8
     void SelectAndScrollToCellWithIdx(int idx);
     // public System.Void .ctor()
-    // Offset: 0xFFF514
+    // Offset: 0x101810C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

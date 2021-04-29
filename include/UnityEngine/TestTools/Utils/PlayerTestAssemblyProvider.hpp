@@ -50,17 +50,17 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static void _set_m_LoadedAssemblies(System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* value);
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
-    // Offset: 0x2177AEC
+    // Offset: 0x21A1F18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerTestAssemblyProvider* New_ctor(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, System::Collections::Generic::List_1<::Il2CppString*>* assembliesToLoad) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTestAssemblyProvider*, creationType>(assemblyLoadProxy, assembliesToLoad)));
     }
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> GetUserAssemblies()
-    // Offset: 0x2177DB4
+    // Offset: 0x21A21E0
     System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* GetUserAssemblies();
     // private System.Void LoadAssemblies()
-    // Offset: 0x2177B28
+    // Offset: 0x21A1F54
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
   #pragma pack(pop)

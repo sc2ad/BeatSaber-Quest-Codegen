@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return failOn0Energy;
     }
     // public System.Void .ctor(System.Boolean failOn0Energy)
-    // Offset: 0x1027240
+    // Offset: 0xF4337C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelGameplayManager::InitData* New_ctor(bool failOn0Energy) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelGameplayManager::InitData::.ctor");

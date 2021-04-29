@@ -43,7 +43,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: TailoringInfo
     TailoringInfo(int LCID_ = {}, int TailoringIndex_ = {}, int TailoringCount_ = {}, bool FrenchSort_ = {}) noexcept : LCID{LCID_}, TailoringIndex{TailoringIndex_}, TailoringCount{TailoringCount_}, FrenchSort{FrenchSort_} {}
     // public System.Void .ctor(System.Int32 lcid, System.Int32 tailoringIndex, System.Int32 tailoringCount, System.Boolean frenchSort)
-    // Offset: 0x18C8F5C
+    // Offset: 0x18A7CFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::TailoringInfo::.ctor");

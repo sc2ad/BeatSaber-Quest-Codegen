@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: AnimationPlayableAssetUpgrade
     AnimationPlayableAssetUpgrade() noexcept {}
     // static public System.Void ConvertRotationToEuler(UnityEngine.Timeline.AnimationPlayableAsset asset)
-    // Offset: 0x1666144
+    // Offset: 0x167CF1C
     static void ConvertRotationToEuler(UnityEngine::Timeline::AnimationPlayableAsset* asset);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/AnimationPlayableAssetUpgrade
   #pragma pack(pop)

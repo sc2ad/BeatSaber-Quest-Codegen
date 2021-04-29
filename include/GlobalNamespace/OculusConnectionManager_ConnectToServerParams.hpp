@@ -46,7 +46,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x10D4B90
+    // Offset: 0x10C2EC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

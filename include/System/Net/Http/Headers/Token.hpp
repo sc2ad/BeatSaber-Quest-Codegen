@@ -120,14 +120,14 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::Token::Type type;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::Token::Type) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7C2C
+    // [CompilerGeneratedAttribute] Offset: 0xD0AF1C
     // private System.Int32 <StartPosition>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int StartPosition;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCF7C3C
+    // [CompilerGeneratedAttribute] Offset: 0xD0AF2C
     // private System.Int32 <EndPosition>k__BackingField
     // Size: 0x4
     // Offset: 0x8
@@ -145,29 +145,29 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Token Empty
     static void _set_Empty(System::Net::Http::Headers::Token value);
     // public System.Void .ctor(System.Net.Http.Headers.Token/Type type, System.Int32 startPosition, System.Int32 endPosition)
-    // Offset: 0xDE8AA4
+    // Offset: 0xDFEF24
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition)
     // public System.Int32 get_StartPosition()
-    // Offset: 0xDE8AB0
+    // Offset: 0xDFEF30
     int get_StartPosition();
     // private System.Void set_StartPosition(System.Int32 value)
-    // Offset: 0xDE8AB8
+    // Offset: 0xDFEF38
     void set_StartPosition(int value);
     // public System.Int32 get_EndPosition()
-    // Offset: 0xDE8AC0
+    // Offset: 0xDFEF40
     int get_EndPosition();
     // private System.Void set_EndPosition(System.Int32 value)
-    // Offset: 0xDE8AC8
+    // Offset: 0xDFEF48
     void set_EndPosition(int value);
     // public System.Net.Http.Headers.Token/Type get_Kind()
-    // Offset: 0xDE8AD0
+    // Offset: 0xDFEF50
     System::Net::Http::Headers::Token::Type get_Kind();
     // static private System.Void .cctor()
-    // Offset: 0x13E60D4
+    // Offset: 0x1404F54
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xDE8AD8
+    // Offset: 0xDFEF58
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

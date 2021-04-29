@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerSpecificSettings
     PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, float playerHeight_ = {}, bool automaticPlayerHeight_ = {}, float sfxVolume_ = {}, bool reduceDebris_ = {}, bool noTextsAndHuds_ = {}, bool advancedHud_ = {}, float saberTrailIntensity_ = {}, bool autoRestart_ = {}, bool noFailEffects_ = {}, float noteJumpBeatOffset_ = {}, bool hideNoteSpawnEffect_ = {}, bool adaptiveSfx_ = {}, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset_ = {}, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, playerHeight{playerHeight_}, automaticPlayerHeight{automaticPlayerHeight_}, sfxVolume{sfxVolume_}, reduceDebris{reduceDebris_}, noTextsAndHuds{noTextsAndHuds_}, advancedHud{advancedHud_}, saberTrailIntensity{saberTrailIntensity_}, autoRestart{autoRestart_}, noFailEffects{noFailEffects_}, noteJumpBeatOffset{noteJumpBeatOffset_}, hideNoteSpawnEffect{hideNoteSpawnEffect_}, adaptiveSfx{adaptiveSfx_}, environmentEffectsFilterDefaultPreset{environmentEffectsFilterDefaultPreset_}, environmentEffectsFilterExpertPlusPreset{environmentEffectsFilterExpertPlusPreset_} {}
     // public System.Void .ctor()
-    // Offset: 0xF66F0C
+    // Offset: 0xF78854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

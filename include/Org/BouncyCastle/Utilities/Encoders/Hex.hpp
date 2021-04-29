@@ -26,22 +26,22 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Set static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
     static void _set_encoder(Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
     // static public System.String ToHexString(System.Byte[] data)
-    // Offset: 0x1E2D9A8
+    // Offset: 0x1E31CF8
     static ::Il2CppString* ToHexString(::Array<uint8_t>* data);
     // static public System.String ToHexString(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x1E2DA1C
+    // Offset: 0x1E31D6C
     static ::Il2CppString* ToHexString(::Array<uint8_t>* data, int off, int length);
     // static public System.Byte[] Encode(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x1E2DA9C
+    // Offset: 0x1E31DEC
     static ::Array<uint8_t>* Encode(::Array<uint8_t>* data, int off, int length);
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1E2DCCC
+    // Offset: 0x1E3201C
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
     // static public System.Byte[] DecodeStrict(System.String str)
-    // Offset: 0x1E2E0BC
+    // Offset: 0x1E3240C
     static ::Array<uint8_t>* DecodeStrict(::Il2CppString* str);
     // static private System.Void .cctor()
-    // Offset: 0x1E2E36C
+    // Offset: 0x1E326BC
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Encoders.Hex
   #pragma pack(pop)

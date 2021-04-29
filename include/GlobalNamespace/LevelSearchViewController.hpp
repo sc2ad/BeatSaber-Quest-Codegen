@@ -105,42 +105,42 @@ namespace GlobalNamespace {
     HMUI::InputFieldView* searchTextInputFieldView;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2E9FC
+    // [InjectAttribute] Offset: 0xD444B4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2EA0C
+    // [InjectAttribute] Offset: 0xD444C4
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::SongPackMasksModel* songPackMasksModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMasksModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2EA1C
+    // [InjectAttribute] Offset: 0xD444D4
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2EA2C
+    // [CompilerGeneratedAttribute] Offset: 0xD444E4
     // private System.Action`2<LevelSearchViewController,LevelFilterParams> didPressSearchButtonEvent
     // Size: 0x8
     // Offset: 0xB0
     System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* didPressSearchButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2EA3C
+    // [CompilerGeneratedAttribute] Offset: 0xD444F4
     // private System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> didFilterBeatmapLevelCollectionEvent
     // Size: 0x8
     // Offset: 0xB8
     System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* didFilterBeatmapLevelCollectionEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2EA4C
+    // [CompilerGeneratedAttribute] Offset: 0xD44504
     // private System.Action`1<LevelSearchViewController> didStartLoadingEvent
     // Size: 0x8
     // Offset: 0xC0
@@ -188,71 +188,71 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelSearchViewController
     LevelSearchViewController(UnityEngine::UI::Button* searchButton_ = {}, UnityEngine::UI::Button* clearFiltersButton_ = {}, TMPro::TextMeshProUGUI* filterParamsText_ = {}, UnityEngine::GameObject* filterPlaceholder_ = {}, HMUI::InputFieldView* searchTextInputFieldView_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* didPressSearchButtonEvent_ = {}, System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* didFilterBeatmapLevelCollectionEvent_ = {}, System::Action_1<GlobalNamespace::LevelSearchViewController*>* didStartLoadingEvent_ = {}, GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection* beatmapLevelPackCollection_ = {}, GlobalNamespace::BeatmapCharacteristicSO* preferredBeatmapCharacteristic_ = {}, GlobalNamespace::LevelFilterParams* currentFilterParams_ = {}, bool onlyFavorites_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks_ = {}) noexcept : searchButton{searchButton_}, clearFiltersButton{clearFiltersButton_}, filterParamsText{filterParamsText_}, filterPlaceholder{filterPlaceholder_}, searchTextInputFieldView{searchTextInputFieldView_}, playerDataModel{playerDataModel_}, songPackMasksModel{songPackMasksModel_}, additionalContentModel{additionalContentModel_}, didPressSearchButtonEvent{didPressSearchButtonEvent_}, didFilterBeatmapLevelCollectionEvent{didFilterBeatmapLevelCollectionEvent_}, didStartLoadingEvent{didStartLoadingEvent_}, beatmapLevelPackCollection{beatmapLevelPackCollection_}, preferredBeatmapCharacteristic{preferredBeatmapCharacteristic_}, currentFilterParams{currentFilterParams_}, onlyFavorites{onlyFavorites_}, cancellationTokenSource{cancellationTokenSource_}, beatmapLevelPacks{beatmapLevelPacks_} {}
     // public System.Void add_didPressSearchButtonEvent(System.Action`2<LevelSearchViewController,LevelFilterParams> value)
-    // Offset: 0x109BED0
+    // Offset: 0x112733C
     void add_didPressSearchButtonEvent(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didPressSearchButtonEvent(System.Action`2<LevelSearchViewController,LevelFilterParams> value)
-    // Offset: 0x109BF74
+    // Offset: 0x11273E0
     void remove_didPressSearchButtonEvent(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void add_didFilterBeatmapLevelCollectionEvent(System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> value)
-    // Offset: 0x10978A8
+    // Offset: 0x1122D70
     void add_didFilterBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didFilterBeatmapLevelCollectionEvent(System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> value)
-    // Offset: 0x1097CB8
+    // Offset: 0x1123180
     void remove_didFilterBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void add_didStartLoadingEvent(System.Action`1<LevelSearchViewController> value)
-    // Offset: 0x109794C
+    // Offset: 0x1122E14
     void add_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelSearchViewController*>* value);
     // public System.Void remove_didStartLoadingEvent(System.Action`1<LevelSearchViewController> value)
-    // Offset: 0x1097D5C
+    // Offset: 0x1123224
     void remove_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelSearchViewController*>* value);
     // public System.Void Setup(IBeatmapLevelPack[] beatmapLevelPacks)
-    // Offset: 0x10975A4
+    // Offset: 0x1122A6C
     void Setup(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // public System.Void ResetFilterParams(System.Boolean onlyFavorites)
-    // Offset: 0x10980D4
+    // Offset: 0x112359C
     void ResetFilterParams(bool onlyFavorites);
     // public System.Void UpdateSearchLevelFilterParams(LevelFilterParams levelFilterParams)
-    // Offset: 0x109C240
+    // Offset: 0x11276AC
     void UpdateSearchLevelFilterParams(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void ResetCurrentFilterParams()
-    // Offset: 0x109C018
+    // Offset: 0x1127484
     void ResetCurrentFilterParams();
     // private System.Void UpdateBeatmapLevelPackCollectionAsync()
-    // Offset: 0x109C180
+    // Offset: 0x11275EC
     void UpdateBeatmapLevelPackCollectionAsync();
     // private System.Void SearchTextInputFieldViewOnValueChanged(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x109C484
+    // Offset: 0x11278F0
     void SearchTextInputFieldViewOnValueChanged(HMUI::InputFieldView* inputFieldView);
     // private System.Void UpdateCurrentFilterParams()
-    // Offset: 0x109C12C
+    // Offset: 0x1127598
     void UpdateCurrentFilterParams();
     // public System.Void RefreshAfterIncreaseNumberOfGameplay()
-    // Offset: 0x1098318
+    // Offset: 0x11237E0
     void RefreshAfterIncreaseNumberOfGameplay();
     // private System.Void Refresh()
-    // Offset: 0x109C248
+    // Offset: 0x11276B4
     void Refresh();
     // private System.String LocalizedLevelFilterParamsDescription(LevelFilterParams levelFilterParams)
-    // Offset: 0x109C4AC
+    // Offset: 0x1127918
     ::Il2CppString* LocalizedLevelFilterParamsDescription(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void <DidActivate>b__27_0()
-    // Offset: 0x109C7B4
+    // Offset: 0x1127C20
     void $DidActivate$b__27_0();
     // private System.Void <DidActivate>b__27_1()
-    // Offset: 0x109C81C
+    // Offset: 0x1127C88
     void $DidActivate$b__27_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x109C24C
+    // Offset: 0x11276B8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x109C3C8
+    // Offset: 0x1127834
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x109C7AC
+    // Offset: 0x1127C18
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

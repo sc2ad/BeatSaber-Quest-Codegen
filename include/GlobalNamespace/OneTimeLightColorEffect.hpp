@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     int lightsId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xD24570
+    // [InjectAttribute] Offset: 0xD39FA0
     // private LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x28
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
-    // Offset: 0x10DF314
+    // Offset: 0x10CD2C0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10DF384
+    // Offset: 0x10CD330
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

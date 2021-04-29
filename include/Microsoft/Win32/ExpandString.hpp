@@ -29,17 +29,17 @@ namespace Microsoft::Win32 {
       return value;
     }
     // public System.Void .ctor(System.String s)
-    // Offset: 0x18C037C
+    // Offset: 0x189F11C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::Il2CppString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()
-    // Offset: 0x18C03B0
+    // Offset: 0x189F150
     ::Il2CppString* Expand();
     // public override System.String ToString()
-    // Offset: 0x18C03A8
+    // Offset: 0x189F148
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GaussianSeparableBlurRendererSO
     GaussianSeparableBlurRendererSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1CE5CB4
+    // Offset: 0x1D1082C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

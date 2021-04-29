@@ -54,28 +54,28 @@ namespace GlobalNamespace {
       return pendingStatesByPort;
     }
     // public System.Boolean get_isEmpty()
-    // Offset: 0x15C47D8
+    // Offset: 0x15E275C
     bool get_isEmpty();
     // public System.Void Dispose()
-    // Offset: 0x15C72B0
+    // Offset: 0x15E5234
     void Dispose();
     // public PacketEncryptionLayer/EncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x15C52C0
+    // Offset: 0x15E3244
     ::Array<GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x15C5010
+    // Offset: 0x15E2F94
     bool TryGetEncryptionState(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState*& encryptionState);
     // public System.Void Add(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x15C4A78
+    // Offset: 0x15E29FC
     void Add(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x15C4770
+    // Offset: 0x15E26F4
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x15C569C
+    // Offset: 0x15E3620
     bool Remove(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
     // public System.Void .ctor()
-    // Offset: 0x15C4A08
+    // Offset: 0x15E298C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

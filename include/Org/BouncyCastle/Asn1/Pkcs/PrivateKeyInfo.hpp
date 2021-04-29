@@ -73,43 +73,43 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: PrivateKeyInfo
     PrivateKeyInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* privateKey_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attributes_ = {}, Org::BouncyCastle::Asn1::DerBitString* publicKey_ = {}) noexcept : version{version_}, privateKeyAlgorithm{privateKeyAlgorithm_}, privateKey{privateKey_}, attributes{attributes_}, publicKey{publicKey_} {}
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x1609BF4
+    // Offset: 0x1627B78
     static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* GetInstance(::Il2CppObject* obj);
     // static private System.Int32 GetVersionValue(Org.BouncyCastle.Asn1.DerInteger version)
-    // Offset: 0x1609FA0
+    // Offset: 0x1627F24
     static int GetVersionValue(Org::BouncyCastle::Asn1::DerInteger* version);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey)
-    // Offset: 0x160A0C4
+    // Offset: 0x1628048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey, Org.BouncyCastle.Asn1.Asn1Set attributes, System.Byte[] publicKey)
-    // Offset: 0x160A0D0
+    // Offset: 0x1628054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable* privateKey, Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey, attributes, publicKey)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1609C98
+    // Offset: 0x1627C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_PrivateKeyAlgorithm()
-    // Offset: 0x160A218
+    // Offset: 0x162819C
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PrivateKeyAlgorithm();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_PrivateKeyData()
-    // Offset: 0x160A220
+    // Offset: 0x16281A4
     Org::BouncyCastle::Asn1::Asn1OctetString* get_PrivateKeyData();
     // public Org.BouncyCastle.Asn1.Asn1Object ParsePrivateKey()
-    // Offset: 0x160A228
+    // Offset: 0x16281AC
     Org::BouncyCastle::Asn1::Asn1Object* ParsePrivateKey();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160A254
+    // Offset: 0x16281D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

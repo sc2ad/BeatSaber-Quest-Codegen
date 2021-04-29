@@ -22,10 +22,10 @@ namespace UnityEngine::Networking {
     // Creating value type constructor for type: UnityWebRequestTexture
     UnityWebRequestTexture() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri)
-    // Offset: 0x218BC74
+    // Offset: 0x21B7120
     static UnityEngine::Networking::UnityWebRequest* GetTexture(::Il2CppString* uri);
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri, System.Boolean nonReadable)
-    // Offset: 0x218BC7C
+    // Offset: 0x21B7128
     static UnityEngine::Networking::UnityWebRequest* GetTexture(::Il2CppString* uri, bool nonReadable);
   }; // UnityEngine.Networking.UnityWebRequestTexture
   #pragma pack(pop)

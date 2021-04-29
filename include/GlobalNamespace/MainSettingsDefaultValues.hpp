@@ -16,6 +16,11 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: String
+  class String;
+}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MainSettingsModelSO
@@ -181,6 +186,12 @@ namespace GlobalNamespace {
     static bool _get_kCreateScreenshotDuringTheGame();
     // Set static field: static public System.Boolean kCreateScreenshotDuringTheGame
     static void _set_kCreateScreenshotDuringTheGame(bool value);
+    // static field const value: static public System.String kSystemLanguageSerializedName
+    static constexpr const char* kSystemLanguageSerializedName = "SystemLanguage";
+    // Get static field: static public System.String kSystemLanguageSerializedName
+    static ::Il2CppString* _get_kSystemLanguageSerializedName();
+    // Set static field: static public System.String kSystemLanguageSerializedName
+    static void _set_kSystemLanguageSerializedName(::Il2CppString* value);
     // static field const value: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static constexpr const int kDefaultPauseButtonPressDurationLevel = 0;
     // Get static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
@@ -188,10 +199,10 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x10B8B64
+    // Offset: 0xF3B7C0
     static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x10B8CBC
+    // Offset: 0xF3B918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

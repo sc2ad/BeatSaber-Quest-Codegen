@@ -29,10 +29,10 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x15B413C
+    // Offset: 0x15D30C0
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x15B3BB4
+    // Offset: 0x15D2B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::DelegatingTestCommand::.ctor");

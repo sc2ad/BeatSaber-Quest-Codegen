@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VFXAnimationEvent
     VFXAnimationEvent(::Il2CppString* name_ = {}, ::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}) noexcept : name{name_}, particleSystems{particleSystems_} {}
     // public System.String get_name()
-    // Offset: 0x2123DEC
+    // Offset: 0x214FEAC
     ::Il2CppString* get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x2123DF4
+    // Offset: 0x214FEB4
     ::Array<UnityEngine::ParticleSystem*>* get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x2123DFC
+    // Offset: 0x214FEBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

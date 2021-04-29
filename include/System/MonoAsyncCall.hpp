@@ -58,7 +58,7 @@ namespace System {
     // Creating value type constructor for type: MonoAsyncCall
     MonoAsyncCall(::Il2CppObject* msg_ = {}, System::IntPtr cb_method_ = {}, ::Il2CppObject* cb_target_ = {}, ::Il2CppObject* state_ = {}, ::Il2CppObject* res_ = {}, ::Il2CppObject* out_args_ = {}) noexcept : msg{msg_}, cb_method{cb_method_}, cb_target{cb_target_}, state{state_}, res{res_}, out_args{out_args_} {}
     // public System.Void .ctor()
-    // Offset: 0x169B044
+    // Offset: 0x169E434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

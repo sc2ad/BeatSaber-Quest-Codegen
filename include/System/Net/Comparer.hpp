@@ -25,10 +25,10 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x14C8D88
+    // Offset: 0x14E6C3C
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x14C8E6C
+    // Offset: 0x14E6D20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

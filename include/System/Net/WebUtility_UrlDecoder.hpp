@@ -66,23 +66,23 @@ namespace System::Net {
     // Creating value type constructor for type: UrlDecoder
     UrlDecoder(int bufferSize_ = {}, int numChars_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, int numBytes_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, System::Text::Encoding* encoding_ = {}) noexcept : bufferSize{bufferSize_}, numChars{numChars_}, charBuffer{charBuffer_}, numBytes{numBytes_}, byteBuffer{byteBuffer_}, encoding{encoding_} {}
     // private System.Void FlushBytes()
-    // Offset: 0x14197BC
+    // Offset: 0x143863C
     void FlushBytes();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x1419404
+    // Offset: 0x1438284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x1419580
+    // Offset: 0x1438400
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x14194D0
+    // Offset: 0x1438350
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x14195EC
+    // Offset: 0x143846C
     ::Il2CppString* GetString();
   }; // System.Net.WebUtility/UrlDecoder
   #pragma pack(pop)

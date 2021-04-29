@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* closeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD2D438
+    // [HeaderAttribute] Offset: 0xD42EB0
     // private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
     // Size: 0x8
     // Offset: 0x20
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* randomSongIfNoneSuggestedToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2D4B4
+    // [CompilerGeneratedAttribute] Offset: 0xD42F2C
     // private System.Action`1<AutoSetupData> didFinishEvent
     // Size: 0x8
     // Offset: 0x40
@@ -106,37 +106,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x1002FD8
+    // Offset: 0x101BC40
     void add_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x100307C
+    // Offset: 0x101BCE4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
     // public System.Void Setup(AutoSetupData autoSetupData)
-    // Offset: 0x1003120
+    // Offset: 0x101BD88
     void Setup(GlobalNamespace::AutoSetupData* autoSetupData);
     // protected System.Void OnEnable()
-    // Offset: 0x1003128
+    // Offset: 0x101BD90
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10032E4
+    // Offset: 0x101BF4C
     void OnDisable();
     // private System.Void <OnEnable>b__12_0()
-    // Offset: 0x10033B0
+    // Offset: 0x101C018
     void $OnEnable$b__12_0();
     // private System.Void <OnEnable>b__12_1(System.Boolean isOn)
-    // Offset: 0x1003414
+    // Offset: 0x101C07C
     void $OnEnable$b__12_1(bool isOn);
     // private System.Void <OnEnable>b__12_2(System.Boolean isOn)
-    // Offset: 0x1003434
+    // Offset: 0x101C09C
     void $OnEnable$b__12_2(bool isOn);
     // private System.Void <OnEnable>b__12_3(System.Boolean isOn)
-    // Offset: 0x1003454
+    // Offset: 0x101C0BC
     void $OnEnable$b__12_3(bool isOn);
     // private System.Void <OnEnable>b__12_4(System.Boolean isOn)
-    // Offset: 0x1003474
+    // Offset: 0x101C0DC
     void $OnEnable$b__12_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x1003300
+    // Offset: 0x101BF68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

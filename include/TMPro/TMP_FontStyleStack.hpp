@@ -89,13 +89,13 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Clear()
-    // Offset: 0xDDFE2C
+    // Offset: 0xDF4628
     void Clear();
     // public System.Byte Add(TMPro.FontStyles style)
-    // Offset: 0xDDFE38
+    // Offset: 0xDF4634
     uint8_t Add(TMPro::FontStyles style);
     // public System.Byte Remove(TMPro.FontStyles style)
-    // Offset: 0xDDFE40
+    // Offset: 0xDF463C
     uint8_t Remove(TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
   #pragma pack(pop)

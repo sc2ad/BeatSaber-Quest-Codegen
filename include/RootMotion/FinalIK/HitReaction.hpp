@@ -37,14 +37,14 @@ namespace RootMotion::FinalIK {
     class HitPointEffector;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
-    // [TooltipAttribute] Offset: 0xD153F8
+    // [TooltipAttribute] Offset: 0xD29AE4
     // public RootMotion.FinalIK.HitReaction/HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD15430
+    // [TooltipAttribute] Offset: 0xD29B1C
     // public RootMotion.FinalIK.HitReaction/HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -54,18 +54,18 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HitReaction
     HitReaction(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
     // public System.Boolean get_inProgress()
-    // Offset: 0x1A665E8
+    // Offset: 0x1AA161C
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1A668D8
+    // Offset: 0x1AA190C
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1A666B8
+    // Offset: 0x1AA16EC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1A66C44
+    // Offset: 0x1AA1C78
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

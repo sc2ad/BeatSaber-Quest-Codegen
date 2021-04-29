@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: Strings
     Strings() noexcept {}
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    // Offset: 0x1E30550
+    // Offset: 0x1E348A0
     static bool IsOneOf(::Il2CppString* s, ::Array<::Il2CppString*>* candidates);
     // Creating initializer_list -> params proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
     static bool IsOneOf(::Il2CppString* s, std::initializer_list<::Il2CppString*> candidates);
@@ -26,19 +26,19 @@ namespace Org::BouncyCastle::Utilities {
       return IsOneOf(s, {candidates...});
     }
     // static public System.String FromByteArray(System.Byte[] bs)
-    // Offset: 0x1E305DC
+    // Offset: 0x1E3492C
     static ::Il2CppString* FromByteArray(::Array<uint8_t>* bs);
     // static public System.Byte[] ToByteArray(System.Char[] cs)
-    // Offset: 0x1E306E0
+    // Offset: 0x1E34A30
     static ::Array<uint8_t>* ToByteArray(::Array<::Il2CppChar>* cs);
     // static public System.Byte[] ToByteArray(System.String s)
-    // Offset: 0x1E307DC
+    // Offset: 0x1E34B2C
     static ::Array<uint8_t>* ToByteArray(::Il2CppString* s);
     // static public System.String FromAsciiByteArray(System.Byte[] bytes)
-    // Offset: 0x1E2DB70
+    // Offset: 0x1E31EC0
     static ::Il2CppString* FromAsciiByteArray(::Array<uint8_t>* bytes);
     // static public System.Byte[] ToAsciiByteArray(System.String s)
-    // Offset: 0x1E308D4
+    // Offset: 0x1E34C24
     static ::Array<uint8_t>* ToAsciiByteArray(::Il2CppString* s);
   }; // Org.BouncyCastle.Utilities.Strings
   #pragma pack(pop)

@@ -35,14 +35,14 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x12AA684
+    // Offset: 0x12C9340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller*, creationType>(name)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x12AA6E8
+    // Offset: 0x12C93A4
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

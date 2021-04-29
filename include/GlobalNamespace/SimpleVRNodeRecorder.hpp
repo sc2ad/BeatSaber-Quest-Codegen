@@ -64,7 +64,7 @@ namespace GlobalNamespace {
         return keyframes;
       }
       // public System.Void .ctor()
-      // Offset: 0xF7B9E8
+      // Offset: 0xF8C48C
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -161,7 +161,7 @@ namespace GlobalNamespace {
     float forwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD3158C
+    // [InjectAttribute] Offset: 0xD471B4
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x40
@@ -197,25 +197,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xF7ADB8
+    // Offset: 0xF8B85C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF7B158
+    // Offset: 0xF8BBFC
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0xF7B29C
+    // Offset: 0xF8BD40
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0xF7B468
+    // Offset: 0xF8BF0C
     void Update();
     // private System.Void Save()
-    // Offset: 0xF7B168
+    // Offset: 0xF8BC0C
     void Save();
     // private System.Void Load()
-    // Offset: 0xF7AEA8
+    // Offset: 0xF8B94C
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xF7B9F0
+    // Offset: 0xF8C494
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

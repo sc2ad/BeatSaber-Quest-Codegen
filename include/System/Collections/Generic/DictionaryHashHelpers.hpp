@@ -27,16 +27,16 @@ namespace System::Collections::Generic {
     public:
     // Creating value type constructor for type: DictionaryHashHelpers
     DictionaryHashHelpers() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xC9AEEC
+    // [CompilerGeneratedAttribute] Offset: 0xCAD034
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* _get_$SerializationInfoTable$k__BackingField();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField
     static void _set_$SerializationInfoTable$k__BackingField(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* value);
     // static System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> get_SerializationInfoTable()
-    // Offset: 0x1631838
+    // Offset: 0x164F7BC
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
     // static private System.Void .cctor()
-    // Offset: 0x16318A0
+    // Offset: 0x164F824
     static void _cctor();
   }; // System.Collections.Generic.DictionaryHashHelpers
   #pragma pack(pop)

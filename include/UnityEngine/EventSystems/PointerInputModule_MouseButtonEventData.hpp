@@ -43,13 +43,13 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: MouseButtonEventData
     MouseButtonEventData(UnityEngine::EventSystems::PointerEventData::FramePressState buttonState_ = {}, UnityEngine::EventSystems::PointerEventData* buttonData_ = {}) noexcept : buttonState{buttonState_}, buttonData{buttonData_} {}
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x1318C44
+    // Offset: 0x13388F4
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x1318C58
+    // Offset: 0x1338908
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x1318C6C
+    // Offset: 0x133891C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

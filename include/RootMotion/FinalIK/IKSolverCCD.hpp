@@ -37,23 +37,23 @@ namespace RootMotion::FinalIK {
       return OnPreIteration;
     }
     // public System.Void FadeOutBoneWeights()
-    // Offset: 0x1A43924
+    // Offset: 0x1A7E958
     void FadeOutBoneWeights();
     // protected System.Void Solve(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1A44734
+    // Offset: 0x1A7F768
     void Solve(UnityEngine::Vector3 targetPosition);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1A439D4
+    // Offset: 0x1A7EA08
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1A43FD4
+    // Offset: 0x1A7F008
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1A44E98
+    // Offset: 0x1A7FECC
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()

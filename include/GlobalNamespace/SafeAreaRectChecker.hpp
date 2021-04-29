@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::Vector3>* corners;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2BAE8
+    // [InjectAttribute] Offset: 0xD41508
     // private SafeAreaRectChecker/InitData _initData
     // Size: 0x8
     // Offset: 0x50
@@ -100,13 +100,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Start()
-    // Offset: 0xF6F0BC
+    // Offset: 0x1053CF0
     void Start();
     // protected System.Void Update()
-    // Offset: 0xF6F130
+    // Offset: 0x1053D64
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF6F360
+    // Offset: 0x1053F94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

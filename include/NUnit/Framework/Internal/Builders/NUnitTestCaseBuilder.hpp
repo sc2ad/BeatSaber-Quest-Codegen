@@ -51,16 +51,16 @@ namespace NUnit::Framework::Internal::Builders {
     // Creating value type constructor for type: NUnitTestCaseBuilder
     NUnitTestCaseBuilder(NUnit::Framework::Internal::Randomizer* randomizer_ = {}, NUnit::Framework::Internal::TestNameGenerator* nameGenerator_ = {}) noexcept : randomizer{randomizer_}, nameGenerator{nameGenerator_} {}
     // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x15A0688
+    // Offset: 0x15BF60C
     NUnit::Framework::Internal::TestMethod* BuildTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x15B1000
+    // Offset: 0x15CFF84
     static bool CheckTestMethodSignature(NUnit::Framework::Internal::TestMethod* testMethod, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
-    // Offset: 0x15B1814
+    // Offset: 0x15D0798
     static bool MarkAsNotRunnable(NUnit::Framework::Internal::TestMethod* testMethod, ::Il2CppString* reason);
     // public System.Void .ctor()
-    // Offset: 0x159FF54
+    // Offset: 0x15BEED8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

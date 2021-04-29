@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Error
     Error(int Code_ = {}, int HttpCode_ = {}, ::Il2CppString* Message_ = {}) noexcept : Code{Code_}, HttpCode{HttpCode_}, Message{Message_} {}
     // public System.Void .ctor(System.Int32 code, System.String message, System.Int32 httpCode)
-    // Offset: 0x1381794
+    // Offset: 0x13A1444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Error* New_ctor(int code, ::Il2CppString* message, int httpCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Error::.ctor");

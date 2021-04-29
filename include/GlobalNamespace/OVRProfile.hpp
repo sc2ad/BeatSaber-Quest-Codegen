@@ -28,31 +28,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRProfile
     OVRProfile() noexcept {}
     // public System.String get_id()
-    // Offset: 0x15654C0
+    // Offset: 0x1584444
     ::Il2CppString* get_id();
     // public System.String get_userName()
-    // Offset: 0x1565508
+    // Offset: 0x158448C
     ::Il2CppString* get_userName();
     // public System.String get_locale()
-    // Offset: 0x1565550
+    // Offset: 0x15844D4
     ::Il2CppString* get_locale();
     // public System.Single get_ipd()
-    // Offset: 0x1565598
+    // Offset: 0x158451C
     float get_ipd();
     // public System.Single get_eyeHeight()
-    // Offset: 0x15656CC
+    // Offset: 0x1584650
     float get_eyeHeight();
     // public System.Single get_eyeDepth()
-    // Offset: 0x156572C
+    // Offset: 0x15846B0
     float get_eyeDepth();
     // public System.Single get_neckHeight()
-    // Offset: 0x156578C
+    // Offset: 0x1584710
     float get_neckHeight();
     // public OVRProfile/State get_state()
-    // Offset: 0x15657AC
+    // Offset: 0x1584730
     GlobalNamespace::OVRProfile::State get_state();
     // public System.Void .ctor()
-    // Offset: 0x15657B4
+    // Offset: 0x1584738
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

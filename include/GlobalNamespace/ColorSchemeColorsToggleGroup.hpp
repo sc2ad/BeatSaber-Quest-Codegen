@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeColorToggleController* obstaclesColorToggleController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeColorToggleController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2AEB4
+    // [CompilerGeneratedAttribute] Offset: 0xD408D4
     // private System.Action`1<UnityEngine.Color> selectedColorDidChangeEvent
     // Size: 0x8
     // Offset: 0x40
@@ -100,49 +100,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1011884
+    // Offset: 0x1061F3C
     void add_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1011928
+    // Offset: 0x1061FE0
     void remove_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x10119CC
+    // Offset: 0x1062084
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10119E4
+    // Offset: 0x106209C
     void set_color(UnityEngine::Color value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x10119FC
+    // Offset: 0x10620B4
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Awake()
-    // Offset: 0x1011AEC
+    // Offset: 0x10621A4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1011D04
+    // Offset: 0x10623BC
     void OnDestroy();
     // private System.Void HandleToggleWasSelected(ColorSchemeColorToggleController toggleController, System.Boolean isOn)
-    // Offset: 0x1011D20
+    // Offset: 0x10623D8
     void HandleToggleWasSelected(GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
     // public ColorScheme CreateColorSchemeFromEditedColors()
-    // Offset: 0x1011DB0
+    // Offset: 0x1062468
     GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
     // private System.Void <Awake>b__15_0(System.Boolean isOn)
-    // Offset: 0x1011F98
+    // Offset: 0x1062650
     void $Awake$b__15_0(bool isOn);
     // private System.Void <Awake>b__15_1(System.Boolean isOn)
-    // Offset: 0x1011FA8
+    // Offset: 0x1062660
     void $Awake$b__15_1(bool isOn);
     // private System.Void <Awake>b__15_2(System.Boolean isOn)
-    // Offset: 0x1011FB8
+    // Offset: 0x1062670
     void $Awake$b__15_2(bool isOn);
     // private System.Void <Awake>b__15_3(System.Boolean isOn)
-    // Offset: 0x1011FC8
+    // Offset: 0x1062680
     void $Awake$b__15_3(bool isOn);
     // private System.Void <Awake>b__15_4(System.Boolean isOn)
-    // Offset: 0x1011FD8
+    // Offset: 0x1062690
     void $Awake$b__15_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x1011F90
+    // Offset: 0x1062648
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

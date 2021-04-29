@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Data
     Data(::Il2CppChar character_ = {}, int cellIdx_ = {}) noexcept : character{character_}, cellIdx{cellIdx_} {}
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0x111B864
+    // Offset: 0x1174E94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlphabetScrollInfo::Data::.ctor");

@@ -67,34 +67,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetworkPlayerOptionsTableCell
     NetworkPlayerOptionsTableCell(::Array<UnityEngine::UI::Button*>* buttons_ = {}, ::Array<TMPro::TextMeshProUGUI*>* buttonTexts_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}) noexcept : buttons{buttons_}, buttonTexts{buttonTexts_}, buttonBinder{buttonBinder_}, player{player_} {}
     // public INetworkPlayer get_player()
-    // Offset: 0x10BDFCC
+    // Offset: 0xFEF0EC
     GlobalNamespace::INetworkPlayer* get_player();
     // public System.Void set_player(INetworkPlayer value)
-    // Offset: 0x10BDFD4
+    // Offset: 0xFEF0F4
     void set_player(GlobalNamespace::INetworkPlayer* value);
     // private System.Void Refresh()
-    // Offset: 0x10BDFDC
+    // Offset: 0xFEF0FC
     void Refresh();
     // private System.Void Block()
-    // Offset: 0x10BEAEC
+    // Offset: 0xFEFC0C
     void Block();
     // private System.Void Unblock()
-    // Offset: 0x10BEBA8
+    // Offset: 0xFEFCC8
     void Unblock();
     // private System.Void Join()
-    // Offset: 0x10BEC64
+    // Offset: 0xFEFD84
     void Join();
     // private System.Void Invite()
-    // Offset: 0x10BED20
+    // Offset: 0xFEFE40
     void Invite();
     // private System.Void Kick()
-    // Offset: 0x10BEDDC
+    // Offset: 0xFEFEFC
     void Kick();
     // private System.Void Leave()
-    // Offset: 0x10BEE98
+    // Offset: 0xFEFFB8
     void Leave();
     // public System.Void .ctor()
-    // Offset: 0x10BEF54
+    // Offset: 0xFF0074
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

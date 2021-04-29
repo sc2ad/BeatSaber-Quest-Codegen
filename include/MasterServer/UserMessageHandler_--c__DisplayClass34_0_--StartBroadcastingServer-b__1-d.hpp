@@ -74,10 +74,10 @@ namespace MasterServer {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDE3AFC
+    // Offset: 0xDF9F7C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDE3B04
+    // Offset: 0xDF9F84
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass34_0/<<StartBroadcastingServer>b__1>d
   // WARNING Not writing size check since size may be invalid!

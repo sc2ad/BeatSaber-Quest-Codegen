@@ -66,32 +66,32 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32NetworkInterface2
     Win32NetworkInterface2(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib4_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib6_ = {}, System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* ip4stats_ = {}, System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props_ = {}) noexcept : addr{addr_}, mib4{mib4_}, mib6{mib6_}, ip4stats{ip4stats_}, ip_if_props{ip_if_props_} {}
     // static private System.Int32 GetIfEntry(ref System.Net.NetworkInformation.Win32_MIB_IFROW row)
-    // Offset: 0x132CE7C
+    // Offset: 0x134CB2C
     static int GetIfEntry(System::Net::NetworkInformation::Win32_MIB_IFROW& row);
     // System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr)
-    // Offset: 0x132BC8C
+    // Offset: 0x134B93C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32NetworkInterface2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32NetworkInterface2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32NetworkInterface2*, creationType>(addr)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x132CF58
+    // Offset: 0x134CC08
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.String get_Name()
-    // Offset: 0x132CF60
+    // Offset: 0x134CC10
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x132CF68
+    // Offset: 0x134CC18
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x132CF70
+    // Offset: 0x134CC20
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();

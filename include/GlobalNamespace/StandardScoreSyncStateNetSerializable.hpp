@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardScoreSyncState state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardScoreSyncState) == 0x14);
-    // [CompilerGeneratedAttribute] Offset: 0xD0639C
+    // [CompilerGeneratedAttribute] Offset: 0xD1B314
     // private SyncStateId <id>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SyncStateId) == 0x1);
     // Padding between fields: id and: time
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD063AC
+    // [CompilerGeneratedAttribute] Offset: 0xD1B324
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -80,37 +80,37 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PacketPool`1<StandardScoreSyncStateNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* value);
     // public SyncStateId get_id()
-    // Offset: 0x216285C
+    // Offset: 0x218CC88
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x2162864
+    // Offset: 0x218CC90
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x216286C
+    // Offset: 0x218CC98
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2162874
+    // Offset: 0x218CCA0
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x216287C
+    // Offset: 0x218CCA8
     GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x2162890
+    // Offset: 0x218CCBC
     void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x21628A4
+    // Offset: 0x218CCD0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x216291C
+    // Offset: 0x218CD48
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2162994
+    // Offset: 0x218CDC0
     void Release();
     // static private System.Void .cctor()
-    // Offset: 0x2162A20
+    // Offset: 0x218CE4C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2162A18
+    // Offset: 0x218CE44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

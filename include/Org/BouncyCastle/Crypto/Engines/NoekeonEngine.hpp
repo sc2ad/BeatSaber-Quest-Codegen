@@ -54,34 +54,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Byte[] RoundConstants
     static void _set_RoundConstants(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BB18D0
+    // Offset: 0x1BBB968
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1BB1918
+    // Offset: 0x1BBB9B0
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1BB1920
+    // Offset: 0x1BBB9B8
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BB1928
+    // Offset: 0x1BBB9C0
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BB1BD0
+    // Offset: 0x1BBBC68
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BB2334
+    // Offset: 0x1BBC3CC
     void Reset();
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BB203C
+    // Offset: 0x1BBC0D4
     int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BB1D18
+    // Offset: 0x1BBBDB0
     int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // static private System.Void .cctor()
-    // Offset: 0x1BB2338
+    // Offset: 0x1BBC3D0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BB1868
+    // Offset: 0x1BBB900
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

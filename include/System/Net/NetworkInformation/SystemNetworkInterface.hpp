@@ -28,10 +28,10 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Net.NetworkInformation.NetworkInterfaceFactory nif
     static void _set_nif(System::Net::NetworkInformation::NetworkInterfaceFactory* value);
     // static public System.Net.NetworkInformation.NetworkInterface[] GetNetworkInterfaces()
-    // Offset: 0x132A0CC
+    // Offset: 0x1349D7C
     static ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetNetworkInterfaces();
     // static private System.Void .cctor()
-    // Offset: 0x132BE50
+    // Offset: 0x134BB00
     static void _cctor();
   }; // System.Net.NetworkInformation.SystemNetworkInterface
   #pragma pack(pop)

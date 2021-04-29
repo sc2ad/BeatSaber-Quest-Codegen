@@ -39,7 +39,7 @@ namespace System {
     // Creating value type constructor for type: BinderState
     BinderState(::Array<int>* m_argsMap_ = {}, int m_originalSize_ = {}, bool m_isParamArray_ = {}) noexcept : m_argsMap{m_argsMap_}, m_originalSize{m_originalSize_}, m_isParamArray{m_isParamArray_} {}
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
-    // Offset: 0x199E974
+    // Offset: 0x19DFAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultBinder::BinderState* New_ctor(::Array<int>* argsMap, int originalSize, bool isParamArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DefaultBinder::BinderState::.ctor");

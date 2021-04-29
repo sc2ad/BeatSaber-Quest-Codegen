@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept = delete;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters dp, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet)
-    // Offset: 0x11633F0
+    // Offset: 0x1190668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECGost3410Parameters* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::.ctor");

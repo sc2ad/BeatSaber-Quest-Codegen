@@ -25,10 +25,10 @@ namespace System::Collections::Concurrent {
     // Set static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log
     static void _set_Log(System::Collections::Concurrent::CDSCollectionETWBCLProvider* value);
     // public System.Void ConcurrentDictionary_AcquiringAllLocks(System.Int32 numOfBuckets)
-    // Offset: 0x1630B5C
+    // Offset: 0x164EAE0
     void ConcurrentDictionary_AcquiringAllLocks(int numOfBuckets);
     // private System.Void .ctor()
-    // Offset: 0x1630AF4
+    // Offset: 0x164EA78
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -38,7 +38,7 @@ namespace System::Collections::Concurrent {
       return THROW_UNLESS((::il2cpp_utils::New<CDSCollectionETWBCLProvider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1630BC8
+    // Offset: 0x164EB4C
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();

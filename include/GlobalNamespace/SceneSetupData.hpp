@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SceneSetupData
     SceneSetupData() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x112F578
+    // Offset: 0x1189020
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

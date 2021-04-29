@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void SetCursorStartDest(UnityEngine::Vector3 start, UnityEngine::Vector3 dest, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0x113DC8C
+    // Offset: 0x1155AD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteController* noteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD22F7C
+    // [SpaceAttribute] Offset: 0xD38914
     // private CutoutAnimateEffect _cutoutAnimateEffect
     // Size: 0x8
     // Offset: 0x20
@@ -57,22 +57,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1063B9C
+    // Offset: 0x10A4124
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1063CD4
+    // Offset: 0x10A425C
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteController noteController)
-    // Offset: 0x1063E54
+    // Offset: 0x10A43DC
     void HandleNoteControllerDidInit(GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteController noteController, System.Single duration)
-    // Offset: 0x1063E70
+    // Offset: 0x10A43F8
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteController* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1063E80
+    // Offset: 0x10A4408
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x1063EA8
+    // Offset: 0x10A4430
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

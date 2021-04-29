@@ -30,21 +30,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD0C18C
+    // [DescriptionAttribute] Offset: 0xD2112C
     // static field const value: static public Oculus.Platform.UserOrdering Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserOrdering Unknown
     static Oculus::Platform::UserOrdering _get_Unknown();
     // Set static field: static public Oculus.Platform.UserOrdering Unknown
     static void _set_Unknown(Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0xD0C1C4
+    // [DescriptionAttribute] Offset: 0xD21164
     // static field const value: static public Oculus.Platform.UserOrdering None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.UserOrdering None
     static Oculus::Platform::UserOrdering _get_None();
     // Set static field: static public Oculus.Platform.UserOrdering None
     static void _set_None(Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0xD0C1FC
+    // [DescriptionAttribute] Offset: 0xD2119C
     // static field const value: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static constexpr const int PresenceAlphabetical = 2;
     // Get static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical

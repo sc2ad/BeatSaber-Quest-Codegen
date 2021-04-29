@@ -47,50 +47,50 @@ namespace Org::BouncyCastle::Asn1::Sec {
       return seq;
     }
     // static public Org.BouncyCastle.Asn1.Sec.ECPrivateKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x160C2F8
+    // Offset: 0x162A27C
     static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x160C39C
+    // Offset: 0x162A320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyStructure*, creationType>(seq)));
     }
     // public System.Void .ctor(System.Int32 orderBitLength, Org.BouncyCastle.Math.BigInteger key)
-    // Offset: 0x160C438
+    // Offset: 0x162A3BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyStructure* New_ctor(int orderBitLength, Org::BouncyCastle::Math::BigInteger* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyStructure*, creationType>(orderBitLength, key)));
     }
     // public System.Void .ctor(System.Int32 orderBitLength, Org.BouncyCastle.Math.BigInteger key, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x160C444
+    // Offset: 0x162A3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyStructure* New_ctor(int orderBitLength, Org::BouncyCastle::Math::BigInteger* key, Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyStructure*, creationType>(orderBitLength, key, parameters)));
     }
     // public System.Void .ctor(System.Int32 orderBitLength, Org.BouncyCastle.Math.BigInteger key, Org.BouncyCastle.Asn1.DerBitString publicKey, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x160C450
+    // Offset: 0x162A3D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyStructure* New_ctor(int orderBitLength, Org::BouncyCastle::Math::BigInteger* key, Org::BouncyCastle::Asn1::DerBitString* publicKey, Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyStructure*, creationType>(orderBitLength, key, publicKey, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger GetKey()
-    // Offset: 0x160C6FC
+    // Offset: 0x162A680
     Org::BouncyCastle::Math::BigInteger* GetKey();
     // public Org.BouncyCastle.Asn1.DerBitString GetPublicKey()
-    // Offset: 0x160C7CC
+    // Offset: 0x162A750
     Org::BouncyCastle::Asn1::DerBitString* GetPublicKey();
     // public Org.BouncyCastle.Asn1.Asn1Object GetParameters()
-    // Offset: 0x160CB48
+    // Offset: 0x162AACC
     Org::BouncyCastle::Asn1::Asn1Object* GetParameters();
     // private Org.BouncyCastle.Asn1.Asn1Object GetObjectInTag(System.Int32 tagNo)
-    // Offset: 0x160C854
+    // Offset: 0x162A7D8
     Org::BouncyCastle::Asn1::Asn1Object* GetObjectInTag(int tagNo);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160CB50
+    // Offset: 0x162AAD4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

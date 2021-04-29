@@ -61,26 +61,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetPeerConnectionRequest
     NetPeerConnectionRequest(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool isConnectionOwner_ = {}, LiteNetLib::ConnectionRequest* request_ = {}) noexcept : userId{userId_}, userName{userName_}, isConnectionOwner{isConnectionOwner_}, request{request_} {}
     // public System.String get_userId()
-    // Offset: 0x121A944
+    // Offset: 0x1238600
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x121A94C
+    // Offset: 0x1238608
     ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x121A954
+    // Offset: 0x1238610
     bool get_isConnectionOwner();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x121A95C
+    // Offset: 0x1238618
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1219C20
+    // Offset: 0x12378DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(LiteNetLib::ConnectionRequest* request, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnectionRequest*, creationType>(request, userId, userName, isConnectionOwner)));
     }
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x1219C04
+    // Offset: 0x12378C0
     LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
   #pragma pack(pop)

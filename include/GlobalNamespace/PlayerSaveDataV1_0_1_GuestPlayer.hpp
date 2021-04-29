@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GuestPlayer
     GuestPlayer(::Il2CppString* playerName_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}) noexcept : playerName{playerName_}, playerSpecificSettings{playerSpecificSettings_} {}
     // public System.Void .ctor()
-    // Offset: 0xF6A89C
+    // Offset: 0xF7C808
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

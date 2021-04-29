@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningFlowCoordinator* healthWarninglowCoordinator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HealthWarningFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD318D4
+    // [InjectAttribute] Offset: 0xD474FC
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD318E4
+    // [InjectAttribute] Offset: 0xD4750C
     // private HMUI.HierarchyManager _hierarchyManager
     // Size: 0x8
     // Offset: 0x28
@@ -64,10 +64,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.IEnumerator Start()
-    // Offset: 0xFEF254
+    // Offset: 0xF6E750
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xFEF2F0
+    // Offset: 0xF6E7EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

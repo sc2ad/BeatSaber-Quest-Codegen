@@ -44,7 +44,7 @@ namespace System::IO {
     // Creating value type constructor for type: CStreamReader
     CStreamReader(System::TermInfoDriver* driver_ = {}) noexcept : driver{driver_} {}
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x179D9BC
+    // Offset: 0x17BC154
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,27 +53,27 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<CStreamReader*, creationType>(stream, encoding)));
     }
     // public override System.Int32 Peek()
-    // Offset: 0x179DB30
+    // Offset: 0x17BC2C8
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x179DC84
+    // Offset: 0x17BC41C
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x179DD64
+    // Offset: 0x17BC4FC
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& dest, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x179DF30
+    // Offset: 0x17BC6C8
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x179DFFC
+    // Offset: 0x17BC794
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();

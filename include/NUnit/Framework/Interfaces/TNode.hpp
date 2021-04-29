@@ -37,24 +37,24 @@ namespace NUnit::Framework::Interfaces {
     public:
     // Nested type: NUnit::Framework::Interfaces::TNode::$$c
     class $$c;
-    // [CompilerGeneratedAttribute] Offset: 0xD1074C
-    // [DebuggerBrowsableAttribute] Offset: 0xD1074C
+    // [CompilerGeneratedAttribute] Offset: 0xD24E38
+    // [DebuggerBrowsableAttribute] Offset: 0xD24E38
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD10788
-    // [DebuggerBrowsableAttribute] Offset: 0xD10788
+    // [CompilerGeneratedAttribute] Offset: 0xD24E74
+    // [DebuggerBrowsableAttribute] Offset: 0xD24E74
     // private System.String <Value>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD107C4
-    // [DebuggerBrowsableAttribute] Offset: 0xD107C4
+    // [CompilerGeneratedAttribute] Offset: 0xD24EB0
+    // [DebuggerBrowsableAttribute] Offset: 0xD24EB0
     // private System.Boolean <ValueIsCDATA>k__BackingField
     // Size: 0x1
     // Offset: 0x20
@@ -63,16 +63,16 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ValueIsCDATA and: Attributes
     char __padding2[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD10800
-    // [DebuggerBrowsableAttribute] Offset: 0xD10800
+    // [CompilerGeneratedAttribute] Offset: 0xD24EEC
+    // [DebuggerBrowsableAttribute] Offset: 0xD24EEC
     // private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     NUnit::Framework::Interfaces::AttributeDictionary* Attributes;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::AttributeDictionary*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xD1083C
-    // [CompilerGeneratedAttribute] Offset: 0xD1083C
+    // [DebuggerBrowsableAttribute] Offset: 0xD24F28
+    // [CompilerGeneratedAttribute] Offset: 0xD24F28
     // private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -86,85 +86,85 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
     static void _set_InvalidXmlCharactersRegex(System::Text::RegularExpressions::Regex* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x15AD740
+    // Offset: 0x15CC6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x15AD7D4
+    // Offset: 0x15CC758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value)));
     }
     // public System.Void .ctor(System.String name, System.String value, System.Boolean valueIsCDATA)
-    // Offset: 0x15AD800
+    // Offset: 0x15CC784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value, bool valueIsCDATA) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value, valueIsCDATA)));
     }
     // public System.String get_Name()
-    // Offset: 0x15AD83C
+    // Offset: 0x15CC7C0
     ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x15AD844
+    // Offset: 0x15CC7C8
     void set_Name(::Il2CppString* value);
     // public System.String get_Value()
-    // Offset: 0x15AD84C
+    // Offset: 0x15CC7D0
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x15AD854
+    // Offset: 0x15CC7D8
     void set_Value(::Il2CppString* value);
     // public System.Boolean get_ValueIsCDATA()
-    // Offset: 0x15AD85C
+    // Offset: 0x15CC7E0
     bool get_ValueIsCDATA();
     // private System.Void set_ValueIsCDATA(System.Boolean value)
-    // Offset: 0x15AD864
+    // Offset: 0x15CC7E8
     void set_ValueIsCDATA(bool value);
     // public NUnit.Framework.Interfaces.AttributeDictionary get_Attributes()
-    // Offset: 0x15AD870
+    // Offset: 0x15CC7F4
     NUnit::Framework::Interfaces::AttributeDictionary* get_Attributes();
     // private System.Void set_Attributes(NUnit.Framework.Interfaces.AttributeDictionary value)
-    // Offset: 0x15AD878
+    // Offset: 0x15CC7FC
     void set_Attributes(NUnit::Framework::Interfaces::AttributeDictionary* value);
     // public NUnit.Framework.Interfaces.NodeList get_ChildNodes()
-    // Offset: 0x15AD880
+    // Offset: 0x15CC804
     NUnit::Framework::Interfaces::NodeList* get_ChildNodes();
     // private System.Void set_ChildNodes(NUnit.Framework.Interfaces.NodeList value)
-    // Offset: 0x15AD888
+    // Offset: 0x15CC80C
     void set_ChildNodes(NUnit::Framework::Interfaces::NodeList* value);
     // public System.String get_OuterXml()
-    // Offset: 0x15AD890
+    // Offset: 0x15CC814
     ::Il2CppString* get_OuterXml();
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name)
-    // Offset: 0x15ADC38
+    // Offset: 0x15CCBBC
     NUnit::Framework::Interfaces::TNode* AddElement(::Il2CppString* name);
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name, System.String value)
-    // Offset: 0x15ADCC4
+    // Offset: 0x15CCC48
     NUnit::Framework::Interfaces::TNode* AddElement(::Il2CppString* name, ::Il2CppString* value);
     // public NUnit.Framework.Interfaces.TNode AddElementWithCDATA(System.String name, System.String value)
-    // Offset: 0x15ADEC0
+    // Offset: 0x15CCE44
     NUnit::Framework::Interfaces::TNode* AddElementWithCDATA(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void AddAttribute(System.String name, System.String value)
-    // Offset: 0x15ADF84
+    // Offset: 0x15CCF08
     void AddAttribute(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x15AD9F8
+    // Offset: 0x15CC97C
     void WriteTo(System::Xml::XmlWriter* writer);
     // static private System.String EscapeInvalidXmlCharacters(System.String str)
-    // Offset: 0x15ADD84
+    // Offset: 0x15CCD08
     static ::Il2CppString* EscapeInvalidXmlCharacters(::Il2CppString* str);
     // static private System.String CharToUnicodeSequence(System.Char symbol)
-    // Offset: 0x15AE140
+    // Offset: 0x15CD0C4
     static ::Il2CppString* CharToUnicodeSequence(::Il2CppChar symbol);
     // private System.Void WriteCDataTo(System.Xml.XmlWriter writer)
-    // Offset: 0x15AE020
+    // Offset: 0x15CCFA4
     void WriteCDataTo(System::Xml::XmlWriter* writer);
     // static private System.Void .cctor()
-    // Offset: 0x15AE1C4
+    // Offset: 0x15CD148
     static void _cctor();
   }; // NUnit.Framework.Interfaces.TNode
   #pragma pack(pop)

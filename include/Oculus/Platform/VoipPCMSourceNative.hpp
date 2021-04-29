@@ -35,19 +35,19 @@ namespace Oculus::Platform {
       return senderID;
     }
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x215C714
+    // Offset: 0x2185B40
     int GetPCM(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x215C7D4
+    // Offset: 0x2185C00
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x215C7DC
+    // Offset: 0x2185C08
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x215C87C
+    // Offset: 0x2185CA8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x215BBF0
+    // Offset: 0x218501C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

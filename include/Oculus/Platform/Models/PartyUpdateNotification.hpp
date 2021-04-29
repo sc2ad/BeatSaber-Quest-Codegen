@@ -67,7 +67,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: PartyUpdateNotification
     PartyUpdateNotification(Oculus::Platform::PartyUpdateAction Action_ = {}, uint64_t PartyId_ = {}, uint64_t SenderId_ = {}, ::Il2CppString* UpdateTimestamp_ = {}, ::Il2CppString* UserAlias_ = {}, uint64_t UserId_ = {}, ::Il2CppString* UserName_ = {}) noexcept : Action{Action_}, PartyId{PartyId_}, SenderId{SenderId_}, UpdateTimestamp{UpdateTimestamp_}, UserAlias{UserAlias_}, UserId{UserId_}, UserName{UserName_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x138C1F0
+    // Offset: 0x13ABEA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyUpdateNotification* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PartyUpdateNotification::.ctor");

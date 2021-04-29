@@ -62,20 +62,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDiffieHellmanKeyPair*>(this);
     }
     // public System.Byte[] get_publicKey()
-    // Offset: 0x1213614
+    // Offset: 0x12312D0
     ::Array<uint8_t>* get_publicKey();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x12130CC
+    // Offset: 0x1230D88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::DiffieHellmanKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::DiffieHellmanKeyPair*, creationType>(privateKeyParameters, publicKey)));
     }
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x121361C
+    // Offset: 0x12312D8
     System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
-    // Offset: 0x12136FC
+    // Offset: 0x12313B8
     ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
   }; // DiffieHellmanUtility/DiffieHellmanKeyPair
   #pragma pack(pop)

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType_ = {}, float screenCaptureTime_ = {}, int pixelsWidth_ = {}, int pixelsHeight_ = {}) noexcept : screenshotType{screenshotType_}, screenCaptureTime{screenCaptureTime_}, pixelsWidth{pixelsWidth_}, pixelsHeight{pixelsHeight_} {}
     // public System.Void .ctor(ScreenCaptureCache/ScreenshotType screenshotType, System.Single screenCaptureTime, System.Int32 pixelsWidth, System.Int32 pixelsHeight)
-    // Offset: 0x21021D8
+    // Offset: 0x21317F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureAfterDelay::InitData* New_ctor(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScreenCaptureAfterDelay::InitData::.ctor");

@@ -78,7 +78,7 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0xE18DCC
+    // Offset: 0xE2C2F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VRControllerState_t_Packed::.ctor");
@@ -86,7 +86,7 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0xE18DF8
+    // Offset: 0xE2C31C
     void Unpack(Valve::VR::VRControllerState_t& unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
   #pragma pack(pop)

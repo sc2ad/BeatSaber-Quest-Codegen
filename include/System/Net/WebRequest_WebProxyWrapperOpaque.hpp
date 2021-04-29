@@ -47,13 +47,13 @@ namespace System::Net {
       return webProxy;
     }
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x141877C
+    // Offset: 0x14375FC
     System::Uri* GetProxy(System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x1418794
+    // Offset: 0x1437614
     bool IsBypassed(System::Uri* host);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x14187AC
+    // Offset: 0x143762C
     System::Net::ICredentials* get_Credentials();
   }; // System.Net.WebRequest/WebProxyWrapperOpaque
   #pragma pack(pop)

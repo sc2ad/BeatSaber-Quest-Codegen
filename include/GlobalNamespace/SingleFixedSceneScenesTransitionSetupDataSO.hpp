@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SingleFixedSceneScenesTransitionSetupDataSO
     SingleFixedSceneScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* sceneInfo_ = {}) noexcept : sceneInfo{sceneInfo_} {}
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x2121238
+    // Offset: 0x214D2F8
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // protected System.Void Init(SceneSetupData sceneSetupData)
-    // Offset: 0x2121240
+    // Offset: 0x214D300
     void Init(GlobalNamespace::SceneSetupData* sceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x212133C
+    // Offset: 0x214D3FC
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

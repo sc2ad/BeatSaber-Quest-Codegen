@@ -101,20 +101,20 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x1664CE4
+    // Offset: 0x167BABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationOutputWeightProcessor* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationOutputWeightProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationOutputWeightProcessor*, creationType>(output)));
     }
     // private System.Void FindMixers()
-    // Offset: 0x1664D8C
+    // Offset: 0x167BB64
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0x1664E60
+    // Offset: 0x167BC38
     void FindMixers(UnityEngine::Playables::Playable parent, int port, UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0x16650A4
+    // Offset: 0x167BE7C
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
   #pragma pack(pop)

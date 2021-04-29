@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     float maxHeadYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD1F2FC
+    // [FormerlySerializedAsAttribute] Offset: 0xD34C1C
     // private System.Single _minHandXZSquareDistanceFromHeadCenter
     // Size: 0x4
     // Offset: 0x24
     float minHandXZSquareDistanceFromHeadCenter;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD1F348
+    // [FormerlySerializedAsAttribute] Offset: 0xD34C68
     // private System.Single _maxHandXZSquareDistanceFromHeadCenter
     // Size: 0x4
     // Offset: 0x28
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: centerHeadOffset and: avatarPoseController
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0xD1F3D4
+    // [InjectAttribute] Offset: 0xD34CF4
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x48
@@ -101,16 +101,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10067D0
+    // Offset: 0x101F438
     void Start();
     // private System.Void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine.Quaternion headRotation, UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition)
-    // Offset: 0x1006848
+    // Offset: 0x101F4B0
     void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine::Quaternion headRotation, UnityEngine::Vector3 headPosition, UnityEngine::Vector3 leftHandPosition, UnityEngine::Vector3 rightHandPosition, UnityEngine::Vector3& newHeadPosition, UnityEngine::Vector3& newLeftHandPosition, UnityEngine::Vector3& newRightHandPosition);
     // private UnityEngine.Vector3 LimitHandPositionRelativeToHead(UnityEngine.Vector3 handPosition, UnityEngine.Vector3 headCenter)
-    // Offset: 0x1006C00
+    // Offset: 0x101F868
     UnityEngine::Vector3 LimitHandPositionRelativeToHead(UnityEngine::Vector3 handPosition, UnityEngine::Vector3 headCenter);
     // public System.Void .ctor()
-    // Offset: 0x1006E78
+    // Offset: 0x101FAB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

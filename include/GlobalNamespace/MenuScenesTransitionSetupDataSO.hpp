@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MenuScenesTransitionSetupDataSO
     MenuScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* menuSceneInfo_ = {}, GlobalNamespace::SceneInfo* menuCoreSceneInfo_ = {}, GlobalNamespace::SceneInfo* menuEnvironmentSceneInfo_ = {}, GlobalNamespace::SceneInfo* menuViewControllersSceneInfo_ = {}) noexcept : menuSceneInfo{menuSceneInfo_}, menuCoreSceneInfo{menuCoreSceneInfo_}, menuEnvironmentSceneInfo{menuEnvironmentSceneInfo_}, menuViewControllersSceneInfo{menuViewControllersSceneInfo_} {}
     // public System.Void Init()
-    // Offset: 0x1023E40
+    // Offset: 0xF3FE80
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1023F7C
+    // Offset: 0xF3FFBC
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

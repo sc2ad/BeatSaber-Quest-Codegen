@@ -90,13 +90,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StrobeStreakData
     StrobeStreakData(bool isActive_ = {}, float strobeStartTime_ = {}, GlobalNamespace::ColorType startColorType_ = {}, float lastSwitchTime_ = {}, GlobalNamespace::ColorType lastColorType_ = {}, bool lastIsOn_ = {}, int lastSwitchBeatmapIndex_ = {}, GlobalNamespace::BeatmapEventData* originalBeatmapEventData_ = {}, int originalBeatmapDataIndex_ = {}) noexcept : isActive{isActive_}, strobeStartTime{strobeStartTime_}, startColorType{startColorType_}, lastSwitchTime{lastSwitchTime_}, lastColorType{lastColorType_}, lastIsOn{lastIsOn_}, lastSwitchBeatmapIndex{lastSwitchBeatmapIndex_}, originalBeatmapEventData{originalBeatmapEventData_}, originalBeatmapDataIndex{originalBeatmapDataIndex_} {}
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
-    // Offset: 0x107103C
+    // Offset: 0x10B15C4
     void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
     // public System.Void AddStrobeData(BeatmapEventData startEventData, System.Int32 beatmapIndex)
-    // Offset: 0x1070EA0
+    // Offset: 0x10B1428
     void AddStrobeData(GlobalNamespace::BeatmapEventData* startEventData, int beatmapIndex);
     // public System.Void .ctor()
-    // Offset: 0x1070E98
+    // Offset: 0x10B1420
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

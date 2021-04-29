@@ -55,33 +55,33 @@ namespace HMUI {
       return bindings;
     }
     // public System.Void .ctor(UnityEngine.UI.Button button, System.Action action)
-    // Offset: 0x1221914
+    // Offset: 0x123F5D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor(UnityEngine::UI::Button* button, System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>(button, action)));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,System.Action>> bindingData)
-    // Offset: 0x1221A0C
+    // Offset: 0x123F6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, System::Action*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x12218AC
+    // Offset: 0x123F568
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,System.Action>> bindingData)
-    // Offset: 0x1221A44
+    // Offset: 0x123F700
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, System::Action*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Button button, System.Action action)
-    // Offset: 0x122195C
+    // Offset: 0x123F618
     void AddBinding(UnityEngine::UI::Button* button, System::Action* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1221B4C
+    // Offset: 0x123F808
     void ClearBindings();
     // public System.Void .ctor()
-    // Offset: 0x1221884
+    // Offset: 0x123F540
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

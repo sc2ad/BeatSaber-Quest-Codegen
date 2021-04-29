@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* contentWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2BD98
+    // [InjectAttribute] Offset: 0xD417B8
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x50
@@ -127,25 +127,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1016A54
+    // Offset: 0x1066E9C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1016D68
+    // Offset: 0x10671B0
     void OnDestroy();
     // private System.Void Finish()
-    // Offset: 0x1016F14
+    // Offset: 0x106735C
     void Finish();
     // private System.Collections.IEnumerator ScrollCoroutine()
-    // Offset: 0x1016CF8
+    // Offset: 0x1067140
     System::Collections::IEnumerator* ScrollCoroutine();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x1016CEC
+    // Offset: 0x1067134
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x101715C
+    // Offset: 0x10675A4
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x1017164
+    // Offset: 0x10675AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

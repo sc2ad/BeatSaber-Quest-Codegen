@@ -76,36 +76,36 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return *reinterpret_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
-    // Offset: 0x212B1F0
+    // Offset: 0x215BFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
-    // Offset: 0x212B588
+    // Offset: 0x215C348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x212B614
+    // Offset: 0x215C3D4
     UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // public System.Void AddHole(UnityEngine.ProBuilder.Poly2Tri.Polygon poly)
-    // Offset: 0x212B61C
+    // Offset: 0x215C3DC
     void AddHole(UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> get_Triangles()
-    // Offset: 0x212B6B4
+    // Offset: 0x215C474
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
     // public System.Void AddTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x212B6BC
+    // Offset: 0x215C47C
     void AddTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void AddTriangles(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> list)
-    // Offset: 0x212B724
+    // Offset: 0x215C4E4
     void AddTriangles(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
     // public System.Void Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
-    // Offset: 0x212B78C
+    // Offset: 0x215C54C
     void Prepare(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
   }; // UnityEngine.ProBuilder.Poly2Tri.Polygon
   #pragma pack(pop)

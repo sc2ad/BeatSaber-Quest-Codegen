@@ -28,7 +28,7 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: ProcessWaitHandle
     ProcessWaitHandle() noexcept {}
     // System.Void .ctor(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle)
-    // Offset: 0x16CD860
+    // Offset: 0x16CFC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessWaitHandle* New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ProcessWaitHandle::.ctor");

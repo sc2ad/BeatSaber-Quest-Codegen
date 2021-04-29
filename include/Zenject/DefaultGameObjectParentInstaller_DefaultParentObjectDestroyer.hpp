@@ -44,14 +44,14 @@ namespace Zenject {
       return gameObject;
     }
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x12AA81C
+    // Offset: 0x12C94D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, creationType>(gameObject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x12AA848
+    // Offset: 0x12C9504
     void Dispose();
   }; // Zenject.DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer
   #pragma pack(pop)

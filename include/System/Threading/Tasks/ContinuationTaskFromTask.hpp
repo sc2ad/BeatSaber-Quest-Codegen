@@ -40,14 +40,14 @@ namespace System::Threading::Tasks {
       return m_antecedent;
     }
     // public System.Void .ctor(System.Threading.Tasks.Task antecedent, System.Delegate action, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1704330
+    // Offset: 0x1705720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContinuationTaskFromTask* New_ctor(System::Threading::Tasks::Task* antecedent, System::Delegate* action, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationTaskFromTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContinuationTaskFromTask*, creationType>(antecedent, action, state, creationOptions, internalOptions, stackMark)));
     }
     // override System.Void InnerInvoke()
-    // Offset: 0x170451C
+    // Offset: 0x170590C
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Void Task::InnerInvoke()
     void InnerInvoke();

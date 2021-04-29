@@ -38,19 +38,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform[]> s_ChildStack
     static void _set_s_ChildStack(System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*>* value);
     // static System.Void UnparentChildren(UnityEngine.Transform t)
-    // Offset: 0x20ABD9C
+    // Offset: 0x20A1398
     static void UnparentChildren(UnityEngine::Transform* t);
     // static System.Void ReparentChildren(UnityEngine.Transform t)
-    // Offset: 0x20ABEEC
+    // Offset: 0x20A14E8
     static void ReparentChildren(UnityEngine::Transform* t);
     // static public UnityEngine.ProBuilder.Vertex TransformVertex(UnityEngine.Transform transform, UnityEngine.ProBuilder.Vertex vertex)
-    // Offset: 0x20AC024
+    // Offset: 0x20A1620
     static UnityEngine::ProBuilder::Vertex* TransformVertex(UnityEngine::Transform* transform, UnityEngine::ProBuilder::Vertex* vertex);
     // static public UnityEngine.ProBuilder.Vertex InverseTransformVertex(UnityEngine.Transform transform, UnityEngine.ProBuilder.Vertex vertex)
-    // Offset: 0x20AC3D8
+    // Offset: 0x20A19D4
     static UnityEngine::ProBuilder::Vertex* InverseTransformVertex(UnityEngine::Transform* transform, UnityEngine::ProBuilder::Vertex* vertex);
     // static private System.Void .cctor()
-    // Offset: 0x20AC5CC
+    // Offset: 0x20A1BC8
     static void _cctor();
   }; // UnityEngine.ProBuilder.TransformUtility
   #pragma pack(pop)

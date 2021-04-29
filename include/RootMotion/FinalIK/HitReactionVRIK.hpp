@@ -45,14 +45,14 @@ namespace RootMotion::FinalIK {
     ::Array<UnityEngine::AnimationCurve*>* offsetCurves;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::AnimationCurve*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD15468
+    // [TooltipAttribute] Offset: 0xD29B54
     // public RootMotion.FinalIK.HitReactionVRIK/PositionOffset[] positionOffsets
     // Size: 0x8
     // Offset: 0x38
     ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>* positionOffsets;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xD154A0
+    // [TooltipAttribute] Offset: 0xD29B8C
     // public RootMotion.FinalIK.HitReactionVRIK/RotationOffset[] rotationOffsets
     // Size: 0x8
     // Offset: 0x40
@@ -62,15 +62,15 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HitReactionVRIK
     HitReactionVRIK(::Array<UnityEngine::AnimationCurve*>* offsetCurves_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>* positionOffsets_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* rotationOffsets_ = {}) noexcept : offsetCurves{offsetCurves_}, positionOffsets{positionOffsets_}, rotationOffsets{rotationOffsets_} {}
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1A6796C
+    // Offset: 0x1AA29A0
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1A6774C
+    // Offset: 0x1AA2780
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1A67CF4
+    // Offset: 0x1AA2D28
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

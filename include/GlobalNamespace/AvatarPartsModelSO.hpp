@@ -74,28 +74,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public AvatarMeshPartSO[] get_headTops()
-    // Offset: 0x1005324
+    // Offset: 0x101DF8C
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_headTops();
     // public AvatarSpritePartSO[] get_Eyes()
-    // Offset: 0x100532C
+    // Offset: 0x101DF94
     ::Array<GlobalNamespace::AvatarSpritePartSO*>* get_Eyes();
     // public AvatarSpritePartSO[] get_Mouths()
-    // Offset: 0x1005334
+    // Offset: 0x101DF9C
     ::Array<GlobalNamespace::AvatarSpritePartSO*>* get_Mouths();
     // public AvatarMeshPartSO[] get_Glasses()
-    // Offset: 0x100533C
+    // Offset: 0x101DFA4
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Glasses();
     // public AvatarMeshPartSO[] get_FacialHair()
-    // Offset: 0x1005344
+    // Offset: 0x101DFAC
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_FacialHair();
     // public AvatarMeshPartSO[] get_Hands()
-    // Offset: 0x100534C
+    // Offset: 0x101DFB4
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Hands();
     // public AvatarMeshPartSO[] get_Clothes()
-    // Offset: 0x1005354
+    // Offset: 0x101DFBC
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Clothes();
     // public System.Void .ctor()
-    // Offset: 0x100535C
+    // Offset: 0x101DFC4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

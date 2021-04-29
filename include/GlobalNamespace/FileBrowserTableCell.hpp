@@ -51,23 +51,23 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FileBrowserTableCell
     FileBrowserTableCell(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}) noexcept : text{text_}, bgImage{bgImage_}, highlightImage{highlightImage_} {}
     // public System.Void set_text(System.String value)
-    // Offset: 0xF18298
+    // Offset: 0xF531D8
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0xF182B4
+    // Offset: 0xF531F4
     ::Il2CppString* get_text();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xF182D0
+    // Offset: 0xF53210
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0xF18368
+    // Offset: 0xF532A8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xF183A4
+    // Offset: 0xF532E4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

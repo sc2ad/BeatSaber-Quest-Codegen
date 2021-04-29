@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: HttpTransferUpdate
     HttpTransferUpdate(uint64_t _ID_ = {}, ::Array<uint8_t>* Payload_ = {}, bool IsCompleted_ = {}) noexcept : _ID{_ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13885E8
+    // Offset: 0x13A8298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpTransferUpdate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::HttpTransferUpdate::.ctor");

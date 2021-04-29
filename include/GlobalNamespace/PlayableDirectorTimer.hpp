@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3150C
+    // [InjectAttribute] Offset: 0xD47134
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
-    // Offset: 0xF642B8
+    // Offset: 0xF1EEF0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF64304
+    // Offset: 0xF1EF3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

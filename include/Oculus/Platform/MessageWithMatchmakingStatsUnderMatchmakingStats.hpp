@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithMatchmakingStatsUnderMatchmakingStats
     MessageWithMatchmakingStatsUnderMatchmakingStats() noexcept {}
     // protected Oculus.Platform.Models.MatchmakingStats GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x138AB8C
+    // Offset: 0x13AA83C
     Oculus::Platform::Models::MatchmakingStats* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1383BE0
+    // Offset: 0x13A3890
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithMatchmakingStatsUnderMatchmakingStats*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.MatchmakingStats GetMatchmakingStats()
-    // Offset: 0x138AB48
+    // Offset: 0x13AA7F8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingStats Message::GetMatchmakingStats()
     Oculus::Platform::Models::MatchmakingStats* GetMatchmakingStats();

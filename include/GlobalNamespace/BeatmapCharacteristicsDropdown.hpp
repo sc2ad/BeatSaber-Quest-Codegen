@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2D6DC
+    // [CompilerGeneratedAttribute] Offset: 0xD43154
     // private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x28
@@ -66,28 +66,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x106AB34
+    // Offset: 0x10AB0BC
     void add_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x106ABD8
+    // Offset: 0x10AB160
     void remove_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // protected System.Void Start()
-    // Offset: 0x106AC7C
+    // Offset: 0x10AB204
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x106AE0C
+    // Offset: 0x10AB394
     void OnDestroy();
     // public BeatmapCharacteristicSO GetSelectedBeatmapCharacteristic()
-    // Offset: 0x106AEE8
+    // Offset: 0x10AB470
     GlobalNamespace::BeatmapCharacteristicSO* GetSelectedBeatmapCharacteristic();
     // public System.Void SelectCellWithBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x106AF38
+    // Offset: 0x10AB4C0
     void SelectCellWithBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x106AFE4
+    // Offset: 0x10AB56C
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x106B088
+    // Offset: 0x10AB610
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

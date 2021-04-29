@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
       return StreamingResult;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1389B34
+    // Offset: 0x13A97E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStartResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStartResult::.ctor");

@@ -52,17 +52,17 @@ namespace LiteNetLib {
     // Creating value type constructor for type: BaseChannel
     BaseChannel(LiteNetLib::BaseChannel* Next_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue_ = {}) noexcept : Next{Next_}, Peer{Peer_}, OutgoingQueue{OutgoingQueue_} {}
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x19EA220
+    // Offset: 0x1A2665C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x19EA2A8
+    // Offset: 0x1A266E4
     int get_PacketsInQueue();
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x19EA2F8
+    // Offset: 0x1A26734
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF

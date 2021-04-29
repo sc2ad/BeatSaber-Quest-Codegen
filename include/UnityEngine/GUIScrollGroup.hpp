@@ -102,7 +102,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: GUIScrollGroup
     GUIScrollGroup(float calcMinWidth_ = {}, float calcMaxWidth_ = {}, float calcMinHeight_ = {}, float calcMaxHeight_ = {}, float clientWidth_ = {}, float clientHeight_ = {}, bool allowHorizontalScroll_ = {}, bool allowVerticalScroll_ = {}, bool needsHorizontalScrollbar_ = {}, bool needsVerticalScrollbar_ = {}, UnityEngine::GUIStyle* horizontalScrollbar_ = {}, UnityEngine::GUIStyle* verticalScrollbar_ = {}) noexcept : calcMinWidth{calcMinWidth_}, calcMaxWidth{calcMaxWidth_}, calcMinHeight{calcMinHeight_}, calcMaxHeight{calcMaxHeight_}, clientWidth{clientWidth_}, clientHeight{clientHeight_}, allowHorizontalScroll{allowHorizontalScroll_}, allowVerticalScroll{allowVerticalScroll_}, needsHorizontalScrollbar{needsHorizontalScrollbar_}, needsVerticalScrollbar{needsVerticalScrollbar_}, horizontalScrollbar{horizontalScrollbar_}, verticalScrollbar{verticalScrollbar_} {}
     // public System.Void .ctor()
-    // Offset: 0x190C764
+    // Offset: 0x18F65D8
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -112,22 +112,22 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUIScrollGroup*, creationType>()));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x190C770
+    // Offset: 0x18F65E4
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x190C800
+    // Offset: 0x18F6674
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x190C930
+    // Offset: 0x18F67A4
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x190CA38
+    // Offset: 0x18F68AC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);

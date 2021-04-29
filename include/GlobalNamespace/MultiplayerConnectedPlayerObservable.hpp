@@ -42,17 +42,17 @@ namespace GlobalNamespace {
       return connectedPlayer;
     }
     // public System.Void .ctor(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1043B34
+    // Offset: 0x1073978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObservable* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerObservable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObservable*, creationType>(connectedPlayer)));
     }
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x1043B60
+    // Offset: 0x10739A4
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x1043C14
+    // Offset: 0x1073A58
     bool get_isFailed();
   }; // MultiplayerConnectedPlayerObservable
   #pragma pack(pop)

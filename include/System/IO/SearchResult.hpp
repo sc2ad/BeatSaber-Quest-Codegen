@@ -39,17 +39,17 @@ namespace System::IO {
     // Creating value type constructor for type: SearchResult
     SearchResult(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, findData{findData_} {}
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/WIN32_FIND_DATA findData)
-    // Offset: 0x17B052C
+    // Offset: 0x17CECC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchResult* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchResult*, creationType>(fullPath, userPath, findData)));
     }
     // System.String get_UserPath()
-    // Offset: 0x17B056C
+    // Offset: 0x17CED04
     ::Il2CppString* get_UserPath();
     // Microsoft.Win32.Win32Native/WIN32_FIND_DATA get_FindData()
-    // Offset: 0x17B0574
+    // Offset: 0x17CED0C
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
   }; // System.IO.SearchResult
   #pragma pack(pop)

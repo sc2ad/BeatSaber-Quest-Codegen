@@ -57,21 +57,21 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD31DEC
+    // [CompilerGeneratedAttribute] Offset: 0xD47A24
     // private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> didFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD31DFC
+    // [CompilerGeneratedAttribute] Offset: 0xD47A34
     // private System.String <missionId>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* missionId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD31E0C
+    // [CompilerGeneratedAttribute] Offset: 0xD47A44
     // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     // Size: 0x8
     // Offset: 0x48
@@ -81,31 +81,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionLevelScenesTransitionSetupDataSO
     MissionLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* missionGameplaySceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* didFinishEvent_ = {}, ::Il2CppString* missionId_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : missionGameplaySceneInfo{missionGameplaySceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_}, missionId{missionId_}, difficultyBeatmap{difficultyBeatmap_} {}
     // public System.Void add_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x10245D0
+    // Offset: 0xF40610
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x102452C
+    // Offset: 0xF4056C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.String get_missionId()
-    // Offset: 0x10299E4
+    // Offset: 0xF45ACC
     ::Il2CppString* get_missionId();
     // private System.Void set_missionId(System.String value)
-    // Offset: 0x10299EC
+    // Offset: 0xF45AD4
     void set_missionId(::Il2CppString* value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x10299F4
+    // Offset: 0xF45ADC
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x10299FC
+    // Offset: 0xF45AE4
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void Init(System.String missionId, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, MissionObjective[] missionObjectives, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
-    // Offset: 0x1024674
+    // Offset: 0xF406B4
     void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
-    // Offset: 0x1028658
+    // Offset: 0xF44740
     void Finish(GlobalNamespace::MissionCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1029A04
+    // Offset: 0xF45AEC
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectionErrorDialogViewController
     ConnectionErrorDialogViewController() noexcept {}
     // public System.Void Init(DisconnectedReason reason, System.Action buttonAction)
-    // Offset: 0x1014ED4
+    // Offset: 0x106531C
     void Init(GlobalNamespace::DisconnectedReason reason, System::Action* buttonAction);
     // public System.Void .ctor()
-    // Offset: 0x101510C
+    // Offset: 0x1065554
     // Implemented from: SimpleDialogPromptViewController
     // Base method: System.Void SimpleDialogPromptViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

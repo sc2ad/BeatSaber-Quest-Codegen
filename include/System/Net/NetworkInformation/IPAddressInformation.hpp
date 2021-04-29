@@ -29,7 +29,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFF
     System::Net::IPAddress* get_Address();
     // protected System.Void .ctor()
-    // Offset: 0x13288B4
+    // Offset: 0x1348564
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

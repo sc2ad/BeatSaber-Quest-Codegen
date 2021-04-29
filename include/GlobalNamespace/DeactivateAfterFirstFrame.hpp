@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DeactivateAfterFirstFrame
     DeactivateAfterFirstFrame() noexcept {}
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x101AB28
+    // Offset: 0x106AF70
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x101ABC4
+    // Offset: 0x106B00C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

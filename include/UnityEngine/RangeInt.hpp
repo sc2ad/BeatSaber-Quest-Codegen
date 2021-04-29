@@ -37,10 +37,10 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Int32 get_end()
-    // Offset: 0xE00BAC
+    // Offset: 0xE13944
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
-    // Offset: 0xE00BB8
+    // Offset: 0xE13950
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RangeInt(int start, int length)
   }; // UnityEngine.RangeInt

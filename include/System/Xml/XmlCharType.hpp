@@ -44,59 +44,59 @@ namespace System::Xml {
     // Set static field: static private System.Byte[] s_CharProperties
     static void _set_s_CharProperties(::Array<uint8_t>* value);
     // static private System.Object get_StaticLock()
-    // Offset: 0x178DAB8
+    // Offset: 0x17AB250
     static ::Il2CppObject* get_StaticLock();
     // static private System.Void InitInstance()
-    // Offset: 0x178DB48
+    // Offset: 0x17AB2E0
     static void InitInstance();
     // static private System.Void SetProperties(System.String ranges, System.Byte value)
-    // Offset: 0x178DCCC
+    // Offset: 0x17AB464
     static void SetProperties(::Il2CppString* ranges, uint8_t value);
     // private System.Void .ctor(System.Byte[] charProperties)
-    // Offset: 0xDF8344
+    // Offset: 0xE0C1E4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  XmlCharType(::Array<uint8_t>* charProperties)
     // static public System.Xml.XmlCharType get_Instance()
-    // Offset: 0x178BEEC
+    // Offset: 0x17A9684
     static System::Xml::XmlCharType get_Instance();
     // public System.Boolean IsWhiteSpace(System.Char ch)
-    // Offset: 0xDF834C
+    // Offset: 0xE0C1EC
     bool IsWhiteSpace(::Il2CppChar ch);
     // public System.Boolean IsCharData(System.Char ch)
-    // Offset: 0xDF8354
+    // Offset: 0xE0C1F4
     bool IsCharData(::Il2CppChar ch);
     // public System.Boolean IsPubidChar(System.Char ch)
-    // Offset: 0xDF835C
+    // Offset: 0xE0C1FC
     bool IsPubidChar(::Il2CppChar ch);
     // System.Boolean IsTextChar(System.Char ch)
-    // Offset: 0xDF8360
+    // Offset: 0xE0C200
     bool IsTextChar(::Il2CppChar ch);
     // static System.Boolean IsHighSurrogate(System.Int32 ch)
-    // Offset: 0x178DF38
+    // Offset: 0x17AB6D0
     static bool IsHighSurrogate(int ch);
     // static System.Boolean IsLowSurrogate(System.Int32 ch)
-    // Offset: 0x178DF5C
+    // Offset: 0x17AB6F4
     static bool IsLowSurrogate(int ch);
     // static System.Boolean IsSurrogate(System.Int32 ch)
-    // Offset: 0x178DF6C
+    // Offset: 0x17AB704
     static bool IsSurrogate(int ch);
     // static System.Int32 CombineSurrogateChar(System.Int32 lowChar, System.Int32 highChar)
-    // Offset: 0x1784158
+    // Offset: 0x17A18F0
     static int CombineSurrogateChar(int lowChar, int highChar);
     // System.Boolean IsOnlyWhitespace(System.String str)
-    // Offset: 0xDF8368
+    // Offset: 0xE0C208
     bool IsOnlyWhitespace(::Il2CppString* str);
     // System.Int32 IsOnlyWhitespaceWithPos(System.String str)
-    // Offset: 0xDF8388
+    // Offset: 0xE0C228
     int IsOnlyWhitespaceWithPos(::Il2CppString* str);
     // System.Int32 IsOnlyCharData(System.String str)
-    // Offset: 0xDF8390
+    // Offset: 0xE0C230
     int IsOnlyCharData(::Il2CppString* str);
     // System.Int32 IsPublicId(System.String str)
-    // Offset: 0xDF8398
+    // Offset: 0xE0C238
     int IsPublicId(::Il2CppString* str);
     // static private System.Boolean InRange(System.Int32 value, System.Int32 start, System.Int32 end)
-    // Offset: 0x178DF48
+    // Offset: 0x17AB6E0
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
   #pragma pack(pop)

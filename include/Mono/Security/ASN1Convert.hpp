@@ -27,22 +27,22 @@ namespace Mono::Security {
     // Creating value type constructor for type: ASN1Convert
     ASN1Convert() noexcept {}
     // static public Mono.Security.ASN1 FromInt32(System.Int32 value)
-    // Offset: 0x1B8D750
+    // Offset: 0x1B977E8
     static Mono::Security::ASN1* FromInt32(int value);
     // static public Mono.Security.ASN1 FromOid(System.String oid)
-    // Offset: 0x1B8D8E8
+    // Offset: 0x1B97980
     static Mono::Security::ASN1* FromOid(::Il2CppString* oid);
     // static public Mono.Security.ASN1 FromUnsignedBigInteger(System.Byte[] big)
-    // Offset: 0x1B8D99C
+    // Offset: 0x1B97A34
     static Mono::Security::ASN1* FromUnsignedBigInteger(::Array<uint8_t>* big);
     // static public System.Int32 ToInt32(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B8DAA4
+    // Offset: 0x1B97B3C
     static int ToInt32(Mono::Security::ASN1* asn1);
     // static public System.String ToOid(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B8DBD0
+    // Offset: 0x1B97C68
     static ::Il2CppString* ToOid(Mono::Security::ASN1* asn1);
     // static public System.DateTime ToDateTime(Mono.Security.ASN1 time)
-    // Offset: 0x1B8DE58
+    // Offset: 0x1B97EF0
     static System::DateTime ToDateTime(Mono::Security::ASN1* time);
   }; // Mono.Security.ASN1Convert
   #pragma pack(pop)

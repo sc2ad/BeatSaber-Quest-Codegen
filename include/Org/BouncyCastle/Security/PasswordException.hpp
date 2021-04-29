@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: PasswordException
     PasswordException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1259B88
+    // Offset: 0x1278844
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

@@ -80,25 +80,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_maxPartySize()
-    // Offset: 0xF3F3E0
+    // Offset: 0xFECA4C
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0xF3F3E8
+    // Offset: 0xFECA54
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0xF3F3F0
+    // Offset: 0xFECA5C
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0xF3F3F8
+    // Offset: 0xFECA64
     int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0xF3F400
+    // Offset: 0xFECA6C
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0xF3F478
+    // Offset: 0xFECAE4
     ::Il2CppString* get_masterServerStatusUrl();
     // public System.Void .ctor()
-    // Offset: 0xF3F480
+    // Offset: 0xFECAEC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

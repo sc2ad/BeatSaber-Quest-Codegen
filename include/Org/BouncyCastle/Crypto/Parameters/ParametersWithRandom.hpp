@@ -40,10 +40,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x116605C
+    // Offset: 0x11932D4
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x1166064
+    // Offset: 0x11932DC
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithRandom
   #pragma pack(pop)

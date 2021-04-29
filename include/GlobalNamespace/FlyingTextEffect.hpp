@@ -60,15 +60,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FlyingTextEffect
     FlyingTextEffect(TMPro::TextMeshPro* text_ = {}, UnityEngine::AnimationCurve* fadeAnimationCurve_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, fadeAnimationCurve{fadeAnimationCurve_}, color{color_} {}
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
-    // Offset: 0xF1D878
+    // Offset: 0xF58A70
     void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xF1D8EC
+    // Offset: 0xF58AE4
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xF1D968
+    // Offset: 0xF58B60
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

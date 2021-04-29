@@ -52,17 +52,17 @@ namespace Zenject {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(Zenject.SceneContext sceneContext, Zenject.SceneContextRegistry registry)
-    // Offset: 0x151904C
+    // Offset: 0x1537F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneContextRegistryAdderAndRemover* New_ctor(Zenject::SceneContext* sceneContext, Zenject::SceneContextRegistry* registry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SceneContextRegistryAdderAndRemover::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistryAdderAndRemover*, creationType>(sceneContext, registry)));
     }
     // public System.Void Initialize()
-    // Offset: 0x1519084
+    // Offset: 0x1537F38
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x15190A4
+    // Offset: 0x1537F58
     void Dispose();
   }; // Zenject.SceneContextRegistryAdderAndRemover
   #pragma pack(pop)

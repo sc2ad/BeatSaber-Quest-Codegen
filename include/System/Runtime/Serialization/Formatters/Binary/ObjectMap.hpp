@@ -114,27 +114,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: ObjectMap
     ObjectMap(::Il2CppString* objectName_ = {}, System::Type* objectType_ = {}, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA_ = {}, ::Array<::Il2CppObject*>* typeInformationA_ = {}, ::Array<System::Type*>* memberTypes_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo_ = {}, bool isInitObjectInfo_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader_ = {}, int objectId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo_ = {}) noexcept : objectName{objectName_}, objectType{objectType_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberTypes{memberTypes_}, memberNames{memberNames_}, objectInfo{objectInfo_}, isInitObjectInfo{isInitObjectInfo_}, objectReader{objectReader_}, objectId{objectId_}, assemblyInfo{assemblyInfo_} {}
     // System.Void .ctor(System.String objectName, System.Type objectType, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Int32 objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo)
-    // Offset: 0x1462DB8
+    // Offset: 0x146EB10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectMap* New_ctor(::Il2CppString* objectName, System::Type* objectType, ::Array<::Il2CppString*>* memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectMap*, creationType>(objectName, objectType, memberNames, objectReader, objectId, assemblyInfo)));
     }
     // System.Void .ctor(System.String objectName, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, System.Object[] typeInformationA, System.Int32[] memberAssemIds, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Int32 objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.Runtime.Serialization.Formatters.Binary.SizedArray assemIdToAssemblyTable)
-    // Offset: 0x1463488
+    // Offset: 0x146F1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectMap* New_ctor(::Il2CppString* objectName, ::Array<::Il2CppString*>* memberNames, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Array<::Il2CppObject*>* typeInformationA, ::Array<int>* memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectMap*, creationType>(objectName, memberNames, binaryTypeEnumA, typeInformationA, memberAssemIds, objectReader, objectId, assemblyInfo, assemIdToAssemblyTable)));
     }
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateObjectInfo(ref System.Runtime.Serialization.SerializationInfo si, ref System.Object[] memberData)
-    // Offset: 0x1463828
+    // Offset: 0x146F580
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(System::Runtime::Serialization::SerializationInfo*& si, ::Array<::Il2CppObject*>*& memberData);
     // static System.Runtime.Serialization.Formatters.Binary.ObjectMap Create(System.String name, System.Type objectType, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Int32 objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo)
-    // Offset: 0x146394C
+    // Offset: 0x146F6A4
     static System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::Il2CppString* name, System::Type* objectType, ::Array<::Il2CppString*>* memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
     // static System.Runtime.Serialization.Formatters.Binary.ObjectMap Create(System.String name, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, System.Object[] typeInformationA, System.Int32[] memberAssemIds, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Int32 objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.Runtime.Serialization.Formatters.Binary.SizedArray assemIdToAssemblyTable)
-    // Offset: 0x14639EC
+    // Offset: 0x146F744
     static System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::Il2CppString* name, ::Array<::Il2CppString*>* memberNames, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Array<::Il2CppObject*>* typeInformationA, ::Array<int>* memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMap
   #pragma pack(pop)

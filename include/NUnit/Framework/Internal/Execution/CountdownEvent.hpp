@@ -50,17 +50,17 @@ namespace NUnit::Framework::Internal::Execution {
     // Creating value type constructor for type: CountdownEvent
     CountdownEvent(int initialCount_ = {}, int remainingCount_ = {}, ::Il2CppObject* lock_ = {}, System::Threading::ManualResetEvent* event_ = {}) noexcept : initialCount{initialCount_}, remainingCount{remainingCount_}, lock{lock_}, event{event_} {}
     // public System.Void .ctor(System.Int32 initialCount)
-    // Offset: 0x15B7394
+    // Offset: 0x15D6318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownEvent* New_ctor(int initialCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownEvent*, creationType>(initialCount)));
     }
     // public System.Int32 get_CurrentCount()
-    // Offset: 0x15B7434
+    // Offset: 0x15D63B8
     int get_CurrentCount();
     // public System.Void Signal()
-    // Offset: 0x15B743C
+    // Offset: 0x15D63C0
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
   #pragma pack(pop)

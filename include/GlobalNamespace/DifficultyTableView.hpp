@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellHeight and: didSelectRow
     char __padding3[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD305D8
+    // [CompilerGeneratedAttribute] Offset: 0xD46130
     // private System.Action`2<DifficultyTableView,System.Int32> didSelectRow
     // Size: 0x8
     // Offset: 0x38
@@ -103,40 +103,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kNonSelectableCellIdentifier
     static void _set_kNonSelectableCellIdentifier(::Il2CppString* value);
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0x101C134
+    // Offset: 0x106C57C
     void add_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void remove_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0x101C1D8
+    // Offset: 0x106C620
     void remove_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void Init(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x101C27C
+    // Offset: 0x106C6C4
     void Init(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
     // public System.Void SetDifficultyBeatmaps(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x101C36C
+    // Offset: 0x106C7B4
     void SetDifficultyBeatmaps(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
     // public System.Single CellSize()
-    // Offset: 0x101C394
+    // Offset: 0x106C7DC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x101C39C
+    // Offset: 0x106C7E4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x101C3BC
+    // Offset: 0x106C804
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x101C724
+    // Offset: 0x106CB6C
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // public System.Void SelectRow(System.Int32 row, System.Boolean callbackTable)
-    // Offset: 0x101C7CC
+    // Offset: 0x106CC14
     void SelectRow(int row, bool callbackTable);
     // public System.Void SelectRow(IDifficultyBeatmap difficultyBeatmap, System.Boolean callbackTable)
-    // Offset: 0x101C7EC
+    // Offset: 0x106CC34
     void SelectRow(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool callbackTable);
     // public System.Void ClearSelection()
-    // Offset: 0x101C87C
+    // Offset: 0x106CCC4
     void ClearSelection();
     // public System.Void .ctor()
-    // Offset: 0x101C898
+    // Offset: 0x106CCE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

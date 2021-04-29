@@ -25,7 +25,7 @@ namespace Zenject {
   template<typename T>
   class PrefabResourceFactory_1 : public ::Il2CppObject/*, public Zenject::IFactory_2<::Il2CppString*, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xCF0FBC
+    // [InjectAttribute] Offset: 0xD0414C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

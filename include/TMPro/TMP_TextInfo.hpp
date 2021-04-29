@@ -144,32 +144,32 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Vector2 k_InfinityVectorNegative
     static void _set_k_InfinityVectorNegative(UnityEngine::Vector2 value);
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0x12DF1F8
+    // Offset: 0x12FEEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextInfo* New_ctor(TMPro::TMP_Text* textComponent) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextInfo*, creationType>(textComponent)));
     }
     // public System.Void Clear()
-    // Offset: 0x12DF328
+    // Offset: 0x12FEFD8
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0x12DF38C
+    // Offset: 0x12FF03C
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0x12DF40C
+    // Offset: 0x12FF0BC
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0x12DF488
+    // Offset: 0x12FF138
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0x12DF50C
+    // Offset: 0x12FF1BC
     void ClearUnusedVertices(::Array<TMPro::MaterialReference>* materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0x12DF588
+    // Offset: 0x12FF238
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0x12DF788
+    // Offset: 0x12FF438
     ::Array<TMPro::TMP_MeshInfo>* CopyMeshInfoVertexData();
     // static public System.Void Resize(ref T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFF
@@ -190,10 +190,10 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, size, isBlockAllocated);
     }
     // static private System.Void .cctor()
-    // Offset: 0x12DFB54
+    // Offset: 0x12FF804
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12DF11C
+    // Offset: 0x12FEDCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

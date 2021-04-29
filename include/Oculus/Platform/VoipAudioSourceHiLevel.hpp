@@ -75,31 +75,31 @@ namespace Oculus::Platform {
     // Set static field: static private System.Boolean verboseLogging
     static void _set_verboseLogging(bool value);
     // public System.Void set_senderID(System.UInt64 value)
-    // Offset: 0x215B7C8
+    // Offset: 0x2184BF4
     void set_senderID(uint64_t value);
     // protected System.Void Stop()
-    // Offset: 0x215B88C
+    // Offset: 0x2184CB8
     void Stop();
     // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
-    // Offset: 0x215B890
+    // Offset: 0x2184CBC
     Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
     // protected System.Void Awake()
-    // Offset: 0x215B8CC
+    // Offset: 0x2184CF8
     void Awake();
     // private System.Void Start()
-    // Offset: 0x215BB74
+    // Offset: 0x2184FA0
     void Start();
     // protected System.Void CreatePCMSource()
-    // Offset: 0x215BB90
+    // Offset: 0x2184FBC
     void CreatePCMSource();
     // static protected System.Int32 MSToElements(System.Int32 ms)
-    // Offset: 0x215BBF8
+    // Offset: 0x2185024
     static int MSToElements(int ms);
     // private System.Void Update()
-    // Offset: 0x215BC80
+    // Offset: 0x21850AC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x215BF58
+    // Offset: 0x2185384
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,7 +112,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x215BF60
+    // Offset: 0x218538C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

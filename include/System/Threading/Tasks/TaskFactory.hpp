@@ -74,29 +74,29 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: TaskFactory
     TaskFactory(System::Threading::CancellationToken m_defaultCancellationToken_ = {}, System::Threading::Tasks::TaskScheduler* m_defaultScheduler_ = {}, System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions_ = {}, System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions_ = {}) noexcept : m_defaultCancellationToken{m_defaultCancellationToken_}, m_defaultScheduler{m_defaultScheduler_}, m_defaultCreationOptions{m_defaultCreationOptions_}, m_defaultContinuationOptions{m_defaultContinuationOptions_} {}
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16DF52C
+    // Offset: 0x16E091C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskFactory* New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler* scheduler) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory*, creationType>(cancellationToken, creationOptions, continuationOptions, scheduler)));
     }
     // static System.Void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions creationOptions)
-    // Offset: 0x16DF694
+    // Offset: 0x16E0A84
     static void CheckCreationOptions(System::Threading::Tasks::TaskCreationOptions creationOptions);
     // public System.Threading.Tasks.Task StartNew(System.Action action, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x16DF71C
+    // Offset: 0x16E0B0C
     System::Threading::Tasks::Task* StartNew(System::Action* action, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions creationOptions, System.Boolean hasBeginMethod)
-    // Offset: 0x16DF7D8
+    // Offset: 0x16E0BC8
     static void CheckFromAsyncOptions(System::Threading::Tasks::TaskCreationOptions creationOptions, bool hasBeginMethod);
     // static System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x16DF8DC
+    // Offset: 0x16E0CCC
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* CommonCWAnyLogic(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks);
     // static System.Void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions continuationOptions)
-    // Offset: 0x16DF588
+    // Offset: 0x16E0978
     static void CheckMultiTaskContinuationOptions(System::Threading::Tasks::TaskContinuationOptions continuationOptions);
     // public System.Void .ctor()
-    // Offset: 0x16DF518
+    // Offset: 0x16E0908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

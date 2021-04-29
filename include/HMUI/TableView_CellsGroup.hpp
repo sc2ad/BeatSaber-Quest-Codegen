@@ -46,13 +46,13 @@ namespace HMUI {
     // Creating value type constructor for type: CellsGroup
     CellsGroup(::Il2CppString* reuseIdentifier_ = {}, System::Collections::Generic::List_1<HMUI::TableCell*>* cells_ = {}) noexcept : reuseIdentifier{reuseIdentifier_}, cells{cells_} {}
     // public System.String get_reuseIdentifier()
-    // Offset: 0x1206D8C
+    // Offset: 0x1224A48
     ::Il2CppString* get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
-    // Offset: 0x1206D94
+    // Offset: 0x1224A50
     System::Collections::Generic::List_1<HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
-    // Offset: 0x1206D9C
+    // Offset: 0x1224A58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,6 +31,8 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct NoteCutInfo/*, public System::ValueType*/ {
     public:
+    // Nested type: GlobalNamespace::NoteCutInfo::FailReason
+    struct FailReason;
     // public readonly System.Boolean speedOK
     // Size: 0x1
     // Offset: 0x0
@@ -122,16 +124,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Boolean get_allIsOK()
-    // Offset: 0xE185C4
+    // Offset: 0xE2BAAC
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0xE185F4
+    // Offset: 0xE2BADC
     bool get_allExceptSaberTypeIsOK();
-    // public System.String get_failText()
-    // Offset: 0xE1861C
-    ::Il2CppString* get_failText();
+    // public NoteCutInfo/FailReason get_failReason()
+    // Offset: 0xE2BB04
+    GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xE18624
+    // Offset: 0xE2BB48
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  NoteCutInfo(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter)
   }; // NoteCutInfo

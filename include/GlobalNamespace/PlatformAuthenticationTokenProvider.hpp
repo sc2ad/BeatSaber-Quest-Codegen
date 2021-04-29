@@ -74,17 +74,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
     // public System.String get_hashedUserId()
-    // Offset: 0xF615CC
+    // Offset: 0xF1C1D4
     ::Il2CppString* get_hashedUserId();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0xF615D4
+    // Offset: 0xF1C1DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0xF61698
+    // Offset: 0xF1C2A0
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)

@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LaunchFriendRequestFlowResult
     LaunchFriendRequestFlowResult(bool DidCancel_ = {}, bool DidSendRequest_ = {}) noexcept : DidCancel{DidCancel_}, DidSendRequest{DidSendRequest_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1388D00
+    // Offset: 0x13A89B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchFriendRequestFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchFriendRequestFlowResult::.ctor");

@@ -35,21 +35,21 @@ namespace Tweening {
     // Creating value type constructor for type: Vector3Tween
     Vector3Tween() noexcept {}
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x108202C
+    // Offset: 0xFADA60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0x10820F4
+    // Offset: 0xFADB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public UnityEngine.Vector3 GetValue(System.Single t)
-    // Offset: 0x10821BC
+    // Offset: 0xFADBF0
     UnityEngine::Vector3 GetValue(float t);
   }; // Tweening.Vector3Tween
 }

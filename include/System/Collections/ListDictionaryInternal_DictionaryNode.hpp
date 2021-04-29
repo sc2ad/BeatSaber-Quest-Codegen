@@ -39,7 +39,7 @@ namespace System::Collections {
     // Creating value type constructor for type: DictionaryNode
     DictionaryNode(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, System::Collections::ListDictionaryInternal::DictionaryNode* next_ = {}) noexcept : key{key_}, value{value_}, next{next_} {}
     // public System.Void .ctor()
-    // Offset: 0x181507C
+    // Offset: 0x17EA7EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

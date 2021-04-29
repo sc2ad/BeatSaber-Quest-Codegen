@@ -61,14 +61,14 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Char[] wsChars
     static void _set_wsChars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String procDir)
-    // Offset: 0x13289AC
+    // Offset: 0x134865C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1329E34
+    // Offset: 0x1349AE4
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
   #pragma pack(pop)

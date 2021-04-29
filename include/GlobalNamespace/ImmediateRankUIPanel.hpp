@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* relativeScoreText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xD255A0
+    // [InjectAttribute] Offset: 0xD3AFD0
     // private RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
     // Size: 0x8
     // Offset: 0x28
@@ -79,16 +79,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFF6048
+    // Offset: 0xF75544
     void Start();
     // protected System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
-    // Offset: 0xFF62BC
+    // Offset: 0xF75778
     void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
     // private System.Void RefreshUI()
-    // Offset: 0xFF6100
+    // Offset: 0xF755FC
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0xFF62C0
+    // Offset: 0xF7577C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

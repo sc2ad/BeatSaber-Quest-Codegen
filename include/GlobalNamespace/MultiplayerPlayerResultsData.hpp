@@ -54,14 +54,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IComparable*>(this);
     }
     // public System.Void .ctor(IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xF2F5E4
+    // Offset: 0x1009928
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPlayerResultsData* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerPlayerResultsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayerResultsData*, creationType>(connectedPlayer, levelCompletionResults)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0xF2F61C
+    // Offset: 0x1009960
     int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerPlayerResultsData
   #pragma pack(pop)

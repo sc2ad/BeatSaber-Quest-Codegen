@@ -72,35 +72,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26258
+    // [InjectAttribute] Offset: 0xD3BC88
     // private MissionLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MissionLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26268
+    // [InjectAttribute] Offset: 0xD3BC98
     // private BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26278
+    // [InjectAttribute] Offset: 0xD3BCA8
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26288
+    // [InjectAttribute] Offset: 0xD3BCB8
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0xD26298
+    // [InjectAttribute] Offset: 0xD3BCC8
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -112,19 +112,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10280A4
+    // Offset: 0xF4418C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x102818C
+    // Offset: 0xF44274
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1028284
+    // Offset: 0xF4436C
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x10282B0
+    // Offset: 0xF44398
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x102834C
+    // Offset: 0xF44434
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

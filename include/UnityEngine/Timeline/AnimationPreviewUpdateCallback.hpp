@@ -64,17 +64,17 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x16664E4
+    // Offset: 0x167D2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationPreviewUpdateCallback* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationPreviewUpdateCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationPreviewUpdateCallback*, creationType>(output)));
     }
     // public System.Void Evaluate()
-    // Offset: 0x1666594
+    // Offset: 0x167D36C
     void Evaluate();
     // private System.Void FetchPreviewComponents()
-    // Offset: 0x1666720
+    // Offset: 0x167D4F8
     void FetchPreviewComponents();
   }; // UnityEngine.Timeline.AnimationPreviewUpdateCallback
   #pragma pack(pop)

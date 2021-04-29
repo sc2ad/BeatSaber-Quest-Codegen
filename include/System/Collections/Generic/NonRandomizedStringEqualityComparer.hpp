@@ -20,13 +20,13 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: NonRandomizedStringEqualityComparer
     NonRandomizedStringEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1631B94
+    // Offset: 0x164FB18
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1631BA4
+    // Offset: 0x164FB28
     int GetHashCode(::Il2CppString* obj);
     // public System.Void .ctor()
-    // Offset: 0x1631BBC
+    // Offset: 0x164FB40
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()

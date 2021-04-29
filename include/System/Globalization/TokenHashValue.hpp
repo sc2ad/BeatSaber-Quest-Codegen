@@ -39,7 +39,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: TokenHashValue
     TokenHashValue(::Il2CppString* tokenString_ = {}, System::TokenType tokenType_ = {}, int tokenValue_ = {}) noexcept : tokenString{tokenString_}, tokenType{tokenType_}, tokenValue{tokenValue_} {}
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
-    // Offset: 0x189E280
+    // Offset: 0x187D020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TokenHashValue::.ctor");

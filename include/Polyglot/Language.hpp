@@ -198,6 +198,24 @@ namespace Polyglot {
     static Polyglot::Language _get_Bosnian();
     // Set static field: static public Polyglot.Language Bosnian
     static void _set_Bosnian(Polyglot::Language value);
+    // static field const value: static public Polyglot.Language Debug_Keys
+    static constexpr const int Debug_Keys = 28;
+    // Get static field: static public Polyglot.Language Debug_Keys
+    static Polyglot::Language _get_Debug_Keys();
+    // Set static field: static public Polyglot.Language Debug_Keys
+    static void _set_Debug_Keys(Polyglot::Language value);
+    // static field const value: static public Polyglot.Language Debug_English_Reverted
+    static constexpr const int Debug_English_Reverted = 29;
+    // Get static field: static public Polyglot.Language Debug_English_Reverted
+    static Polyglot::Language _get_Debug_English_Reverted();
+    // Set static field: static public Polyglot.Language Debug_English_Reverted
+    static void _set_Debug_English_Reverted(Polyglot::Language value);
+    // static field const value: static public Polyglot.Language Debug_Word_With_Max_Lenght
+    static constexpr const int Debug_Word_With_Max_Lenght = 30;
+    // Get static field: static public Polyglot.Language Debug_Word_With_Max_Lenght
+    static Polyglot::Language _get_Debug_Word_With_Max_Lenght();
+    // Set static field: static public Polyglot.Language Debug_Word_With_Max_Lenght
+    static void _set_Debug_Word_With_Max_Lenght(Polyglot::Language value);
   }; // Polyglot.Language
   #pragma pack(pop)
   static check_size<sizeof(Language), 0 + sizeof(int)> __Polyglot_LanguageSizeCheck;

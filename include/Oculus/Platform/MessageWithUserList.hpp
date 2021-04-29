@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithUserList
     MessageWithUserList() noexcept {}
     // protected Oculus.Platform.Models.UserList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x138E714
+    // Offset: 0x13AE3C4
     Oculus::Platform::Models::UserList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1384420
+    // Offset: 0x13A40D0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserList GetUserList()
-    // Offset: 0x138E6D0
+    // Offset: 0x13AE380
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserList Message::GetUserList()
     Oculus::Platform::Models::UserList* GetUserList();

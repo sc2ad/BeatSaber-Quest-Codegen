@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Quaternion get_worldToPlayerSpaceRotation()
-    // Offset: 0xFBD7B0
+    // Offset: 0xF7D4C8
     UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
     // protected System.Void Start()
-    // Offset: 0xFBD7BC
+    // Offset: 0xF7D4D4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xFBD878
+    // Offset: 0xF7D590
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return playerName;
     }
     // public System.Void .ctor()
-    // Offset: 0xF6702C
+    // Offset: 0xF78974
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

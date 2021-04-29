@@ -30,14 +30,14 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD0AC74
+    // [DescriptionAttribute] Offset: 0xD1FC14
     // static field const value: static public Oculus.Platform.MediaContentType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.MediaContentType Unknown
     static Oculus::Platform::MediaContentType _get_Unknown();
     // Set static field: static public Oculus.Platform.MediaContentType Unknown
     static void _set_Unknown(Oculus::Platform::MediaContentType value);
-    // [DescriptionAttribute] Offset: 0xD0ACAC
+    // [DescriptionAttribute] Offset: 0xD1FC4C
     // static field const value: static public Oculus.Platform.MediaContentType Photo
     static constexpr const int Photo = 1;
     // Get static field: static public Oculus.Platform.MediaContentType Photo

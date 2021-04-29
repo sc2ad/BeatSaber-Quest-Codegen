@@ -38,27 +38,27 @@ namespace VRUIControls {
     VRLaserPointer(UnityEngine::MeshRenderer* renderer_ = {}) noexcept : renderer{renderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD0E9A8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD23094
     // Get static field: static private readonly System.Int32 _fadeStartNormalizedDistanceId
     static int _get__fadeStartNormalizedDistanceId();
     // Set static field: static private readonly System.Int32 _fadeStartNormalizedDistanceId
     static void _set__fadeStartNormalizedDistanceId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD0E9B8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD230A4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // public System.Void SetLocalPosition(UnityEngine.Vector3 position)
-    // Offset: 0x2108290
+    // Offset: 0x21368AC
     void SetLocalPosition(UnityEngine::Vector3 position);
     // public System.Void SetLocalScale(UnityEngine.Vector3 scale)
-    // Offset: 0x21082DC
+    // Offset: 0x21368F8
     void SetLocalScale(UnityEngine::Vector3 scale);
     // public System.Void SetFadeDistance(System.Single distance)
-    // Offset: 0x2108328
+    // Offset: 0x2136944
     void SetFadeDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0x210843C
+    // Offset: 0x2136A58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,7 +71,7 @@ namespace VRUIControls {
       return THROW_UNLESS((::il2cpp_utils::New<VRLaserPointer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2108444
+    // Offset: 0x2136A60
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2F2E4
+    // [SpaceAttribute] Offset: 0xD44DFC
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x30
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD2F32C
+    // [SpaceAttribute] Offset: 0xD44E44
     // private CountdownController _countdownController
     // Size: 0x8
     // Offset: 0x40
@@ -89,21 +89,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2F374
+    // [InjectAttribute] Offset: 0xD44E8C
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2F384
+    // [InjectAttribute] Offset: 0xD44E9C
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2F394
+    // [CompilerGeneratedAttribute] Offset: 0xD44EAC
     // private System.Boolean <countdownShown>k__BackingField
     // Size: 0x1
     // Offset: 0x60
@@ -123,46 +123,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_countdownShown()
-    // Offset: 0xF0C59C
+    // Offset: 0xF33C10
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0xF0C5A4
+    // Offset: 0xF33C18
     void set_countdownShown(bool value);
     // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0xF0C5B0
+    // Offset: 0xF33C24
     void Setup(bool showModifiers);
     // public System.Void Show()
-    // Offset: 0xF0C5EC
+    // Offset: 0xF33C60
     void Show();
     // public System.Void Hide()
-    // Offset: 0xF0CB74
+    // Offset: 0xF341E8
     void Hide();
     // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0xF0CCF0
+    // Offset: 0xF34364
     void ShowCountdown(float countdownEndTime);
     // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0xF0CCA8
+    // Offset: 0xF3431C
     void HideCountdown(bool instant);
     // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0xF0CD38
+    // Offset: 0xF343AC
     void SetCountdownEndTime(float countdownEndTime);
     // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0xF0CDA0
+    // Offset: 0xF34414
     void ShowCountdownColorPreset(bool animated);
     // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0xF0C834
+    // Offset: 0xF33EA8
     void ShowLobbyColorPreset(bool animated);
     // public System.Void SetHostDataManual(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0xF0CDCC
+    // Offset: 0xF34440
     void SetHostDataManual(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void SetNextGameData(ILobbyPlayerDataModel playerData)
-    // Offset: 0xF0C860
+    // Offset: 0xF33ED4
     void SetNextGameData(GlobalNamespace::ILobbyPlayerDataModel* playerData);
     // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0xF0CDF4
+    // Offset: 0xF34468
     void HandleLobbyPlayersDataModelDidChange(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0xF0CF54
+    // Offset: 0xF345C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

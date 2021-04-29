@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RenderTextureExtensions
     RenderTextureExtensions() noexcept {}
     // static public UnityEngine.Texture2D GetTexture2D(UnityEngine.RenderTexture rt)
-    // Offset: 0x112ED34
+    // Offset: 0x11885C8
     static UnityEngine::Texture2D* GetTexture2D(UnityEngine::RenderTexture* rt);
   }; // RenderTextureExtensions
   #pragma pack(pop)

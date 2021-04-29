@@ -35,17 +35,17 @@ namespace System::Net {
     // Creating value type constructor for type: FtpStatus
     FtpStatus(System::Net::FtpStatusCode statusCode_ = {}, ::Il2CppString* statusDescription_ = {}) noexcept : statusCode{statusCode_}, statusDescription{statusDescription_} {}
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x14DC4D4
+    // Offset: 0x14FA388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpStatus*, creationType>(statusCode, statusDescription)));
     }
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x14DC510
+    // Offset: 0x14FA3C4
     System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x14DC518
+    // Offset: 0x14FA3CC
     ::Il2CppString* get_StatusDescription();
   }; // System.Net.FtpStatus
   #pragma pack(pop)

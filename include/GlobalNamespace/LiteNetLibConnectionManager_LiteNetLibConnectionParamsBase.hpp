@@ -81,7 +81,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x121A798
+    // Offset: 0x1238454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

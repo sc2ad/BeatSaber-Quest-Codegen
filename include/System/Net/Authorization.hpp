@@ -39,24 +39,24 @@ namespace System::Net {
     // Creating value type constructor for type: Authorization
     Authorization(::Il2CppString* m_Message_ = {}, bool m_Complete_ = {}, ::Il2CppString* ModuleAuthenticationType_ = {}) noexcept : m_Message{m_Message_}, m_Complete{m_Complete_}, ModuleAuthenticationType{ModuleAuthenticationType_} {}
     // public System.Void .ctor(System.String token)
-    // Offset: 0x14C71CC
+    // Offset: 0x14E5080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
-    // Offset: 0x14C725C
+    // Offset: 0x14E5110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token, bool finished) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token, finished)));
     }
     // public System.String get_Message()
-    // Offset: 0x14C72F0
+    // Offset: 0x14E51A4
     ::Il2CppString* get_Message();
     // public System.Boolean get_Complete()
-    // Offset: 0x14C72F8
+    // Offset: 0x14E51AC
     bool get_Complete();
   }; // System.Net.Authorization
   #pragma pack(pop)

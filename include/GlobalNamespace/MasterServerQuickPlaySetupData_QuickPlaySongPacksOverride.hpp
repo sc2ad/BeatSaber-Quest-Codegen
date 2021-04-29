@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: QuickPlaySongPacksOverride
     QuickPlaySongPacksOverride(System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>* predefinedPackIds_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>* localizedCustomPacks_ = {}) noexcept : predefinedPackIds{predefinedPackIds_}, localizedCustomPacks{localizedCustomPacks_} {}
     // public System.Void .ctor()
-    // Offset: 0x10BBB44
+    // Offset: 0xF3E858
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

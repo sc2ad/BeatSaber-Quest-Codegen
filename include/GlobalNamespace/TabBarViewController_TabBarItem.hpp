@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TabBarItem
     TabBarItem(::Il2CppString* title_ = {}, System::Action* action_ = {}) noexcept : title{title_}, action{action_} {}
     // public System.Void .ctor(System.String title, System.Action action)
-    // Offset: 0xFE11D0
+    // Offset: 0xFA10C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TabBarViewController::TabBarItem* New_ctor(::Il2CppString* title, System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TabBarViewController::TabBarItem::.ctor");

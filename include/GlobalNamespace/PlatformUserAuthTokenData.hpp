@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlatformUserAuthTokenData::PlatformEnviroment), 0 + sizeof(uint8_t)> __GlobalNamespace_PlatformUserAuthTokenData_PlatformEnviromentSizeCheck;
     static_assert(sizeof(PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD22008
+    // [CompilerGeneratedAttribute] Offset: 0xD37980
     // private System.String <token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* token;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD22018
+    // [CompilerGeneratedAttribute] Offset: 0xD37990
     // private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -86,19 +86,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlatformUserAuthTokenData
     PlatformUserAuthTokenData(::Il2CppString* token_ = {}, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment_ = {}) noexcept : token{token_}, validPlatformEnvironment{validPlatformEnvironment_} {}
     // public System.String get_token()
-    // Offset: 0xF63F60
+    // Offset: 0xF1EB78
     ::Il2CppString* get_token();
     // private System.Void set_token(System.String value)
-    // Offset: 0xF63F68
+    // Offset: 0xF1EB80
     void set_token(::Il2CppString* value);
     // public PlatformUserAuthTokenData/PlatformEnviroment get_validPlatformEnvironment()
-    // Offset: 0xF63F70
+    // Offset: 0xF1EB88
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment get_validPlatformEnvironment();
     // private System.Void set_validPlatformEnvironment(PlatformUserAuthTokenData/PlatformEnviroment value)
-    // Offset: 0xF63F78
+    // Offset: 0xF1EB90
     void set_validPlatformEnvironment(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
     // public System.Void .ctor(System.String token, PlatformUserAuthTokenData/PlatformEnviroment validPlatformEnvironment)
-    // Offset: 0xF63F80
+    // Offset: 0xF1EB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformUserAuthTokenData* New_ctor(::Il2CppString* token, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformUserAuthTokenData::.ctor");

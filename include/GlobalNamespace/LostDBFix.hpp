@@ -21,13 +21,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LostDBFix
     LostDBFix() noexcept {}
     // private System.Void OnPreRender()
-    // Offset: 0x10B5AA4
+    // Offset: 0x10E46A0
     void OnPreRender();
     // private System.Void OnPostRender()
-    // Offset: 0x10B5AA8
+    // Offset: 0x10E46A4
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0x10B5AAC
+    // Offset: 0x10E46A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

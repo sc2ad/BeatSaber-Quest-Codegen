@@ -20,12 +20,12 @@ namespace HMUI {
     // Creating value type constructor for type: PercentSlider
     PercentSlider() noexcept {}
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x11FAED8
+    // Offset: 0x1218B94
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x11FAF68
+    // Offset: 0x1218C24
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()

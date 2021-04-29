@@ -59,48 +59,48 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Submesh
     Submesh(::Array<int>* m_Indexes_ = {}, UnityEngine::MeshTopology m_Topology_ = {}, int m_SubmeshIndex_ = {}) noexcept : m_Indexes{m_Indexes_}, m_Topology{m_Topology_}, m_SubmeshIndex{m_SubmeshIndex_} {}
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indexes()
-    // Offset: 0x20AABF4
+    // Offset: 0x20A01F0
     System::Collections::Generic::IEnumerable_1<int>* get_indexes();
     // public System.Void set_indexes(System.Collections.Generic.IEnumerable`1<System.Int32> value)
-    // Offset: 0x20AAC64
+    // Offset: 0x20A0260
     void set_indexes(System::Collections::Generic::IEnumerable_1<int>* value);
     // public UnityEngine.MeshTopology get_topology()
-    // Offset: 0x20AACC8
+    // Offset: 0x20A02C4
     UnityEngine::MeshTopology get_topology();
     // public System.Void set_topology(UnityEngine.MeshTopology value)
-    // Offset: 0x20AACD0
+    // Offset: 0x20A02CC
     void set_topology(UnityEngine::MeshTopology value);
     // public System.Int32 get_submeshIndex()
-    // Offset: 0x20AACD8
+    // Offset: 0x20A02D4
     int get_submeshIndex();
     // public System.Void set_submeshIndex(System.Int32 value)
-    // Offset: 0x20AACE0
+    // Offset: 0x20A02DC
     void set_submeshIndex(int value);
     // public System.Void .ctor(System.Int32 submeshIndex, UnityEngine.MeshTopology topology, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x20AACE8
+    // Offset: 0x20A02E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Submesh* New_ctor(int submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int>* indexes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Submesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Submesh*, creationType>(submeshIndex, topology, indexes)));
     }
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 subMeshIndex)
-    // Offset: 0x20AADAC
+    // Offset: 0x20A03A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Submesh* New_ctor(UnityEngine::Mesh* mesh, int subMeshIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Submesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Submesh*, creationType>(mesh, subMeshIndex)));
     }
     // static System.Int32 GetSubmeshCount(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x20AAFAC
+    // Offset: 0x20A05A8
     static int GetSubmeshCount(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public UnityEngine.ProBuilder.Submesh[] GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Int32 submeshCount, UnityEngine.MeshTopology preferredTopology)
-    // Offset: 0x20AB030
+    // Offset: 0x20A062C
     static ::Array<UnityEngine::ProBuilder::Submesh*>* GetSubmeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, int submeshCount, UnityEngine::MeshTopology preferredTopology);
     // static System.Void MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x20AB938
+    // Offset: 0x20A0F34
     static void MapFaceMaterialsToSubmeshIndex(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // public override System.String ToString()
-    // Offset: 0x20AAEA8
+    // Offset: 0x20A04A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -99,14 +99,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* settingsButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2FD00
+    // [InjectAttribute] Offset: 0xD45818
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD2FD10
+    // [CompilerGeneratedAttribute] Offset: 0xD45828
     // private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -116,27 +116,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OptionsViewController
     OptionsViewController(UnityEngine::UI::Button* editAvatarButton_ = {}, UnityEngine::UI::Button* playerOptionsButton_ = {}, UnityEngine::UI::Button* settingsButton_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* didFinishEvent_ = {}) noexcept : editAvatarButton{editAvatarButton_}, playerOptionsButton{playerOptionsButton_}, settingsButton{settingsButton_}, appStaticSettings{appStaticSettings_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x10E6D30
+    // Offset: 0xF14A44
     void add_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x10E6DD4
+    // Offset: 0xF14AE8
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x10E6FFC
+    // Offset: 0xF14D10
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x10E7060
+    // Offset: 0xF14D74
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x10E70C4
+    // Offset: 0xF14DD8
     void $DidActivate$b__8_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10E6E78
+    // Offset: 0xF14B8C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x10E6FF4
+    // Offset: 0xF14D08
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

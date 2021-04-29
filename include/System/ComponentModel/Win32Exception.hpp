@@ -52,30 +52,30 @@ namespace System::ComponentModel {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
     static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
     // public System.Void .ctor(System.Int32 error)
-    // Offset: 0x16CACF8
+    // Offset: 0x16CD0E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error)));
     }
     // public System.Void .ctor(System.Int32 error, System.String message)
-    // Offset: 0x16CAE98
+    // Offset: 0x16CD288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error, ::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error, message)));
     }
     // public System.Int32 get_NativeErrorCode()
-    // Offset: 0x16CAF60
+    // Offset: 0x16CD350
     int get_NativeErrorCode();
     // static System.String GetErrorMessage(System.Int32 error)
-    // Offset: 0x16CAD80
+    // Offset: 0x16CD170
     static ::Il2CppString* GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
-    // Offset: 0x16CB034
+    // Offset: 0x16CD424
     static void InitializeErrorMessages();
     // public System.Void .ctor()
-    // Offset: 0x16CAC88
+    // Offset: 0x16CD078
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -87,7 +87,7 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16CAEC8
+    // Offset: 0x16CD2B8
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -98,12 +98,12 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(info, context)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16CAF68
+    // Offset: 0x16CD358
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
-    // Offset: 0x16CC134
+    // Offset: 0x16CE524
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.cctor()
     static void _cctor();

@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreditsInstaller
     CreditsInstaller(GlobalNamespace::ColorSchemeSO* creditsColorScheme_ = {}) noexcept : creditsColorScheme{creditsColorScheme_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x101742C
+    // Offset: 0x1067874
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10174D4
+    // Offset: 0x106791C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

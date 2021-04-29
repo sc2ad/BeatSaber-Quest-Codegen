@@ -32,20 +32,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: DisplaysUpdatedDelegate
     DisplaysUpdatedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19C9F6C
+    // Offset: 0x1A0A09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Display::DisplaysUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Display::DisplaysUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display::DisplaysUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x19C9C50
+    // Offset: 0x1A09D80
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19C9F7C
+    // Offset: 0x1A0A0AC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19C9FA8
+    // Offset: 0x1A0A0D8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Display/DisplaysUpdatedDelegate
   #pragma pack(pop)

@@ -30,16 +30,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Event
     Event() noexcept {}
     // public System.Void Listen(UnityEngine.Events.UnityAction action)
-    // Offset: 0x12CC938
+    // Offset: 0x12EC5E8
     void Listen(UnityEngine::Events::UnityAction* action);
     // public System.Void Remove(UnityEngine.Events.UnityAction action)
-    // Offset: 0x12CCA0C
+    // Offset: 0x12EC6BC
     void Remove(UnityEngine::Events::UnityAction* action);
     // public System.Void Send()
-    // Offset: 0x12CD5E8
+    // Offset: 0x12ED298
     void Send();
     // public System.Void .ctor()
-    // Offset: 0x12CD5A8
+    // Offset: 0x12ED258
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

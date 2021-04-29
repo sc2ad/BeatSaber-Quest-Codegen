@@ -118,13 +118,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnvironmentIntensityReductionOptions
     EnvironmentIntensityReductionOptions(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType compressExpand_ = {}, GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings_ = {}) noexcept : compressExpand{compressExpand_}, rotateRings{rotateRings_} {}
     // public EnvironmentIntensityReductionOptions/CompressExpandReductionType get_compressExpand()
-    // Offset: 0xF14054
+    // Offset: 0xF4ED5C
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType get_compressExpand();
     // public EnvironmentIntensityReductionOptions/RotateRingsReductionType get_rotateRings()
-    // Offset: 0xF1405C
+    // Offset: 0xF4ED64
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType get_rotateRings();
     // public System.Void .ctor()
-    // Offset: 0xF14064
+    // Offset: 0xF4ED6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

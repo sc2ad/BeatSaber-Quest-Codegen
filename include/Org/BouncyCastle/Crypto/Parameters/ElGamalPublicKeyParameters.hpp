@@ -39,25 +39,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: ElGamalPublicKeyParameters
     ElGamalPublicKeyParameters(Org::BouncyCastle::Math::BigInteger* y_ = {}) noexcept : y{y_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters)
-    // Offset: 0x1165628
+    // Offset: 0x11928A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalPublicKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalPublicKeyParameters*, creationType>(y, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Y()
-    // Offset: 0x11656D0
+    // Offset: 0x1192948
     Org::BouncyCastle::Math::BigInteger* get_Y();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalPublicKeyParameters other)
-    // Offset: 0x1165788
+    // Offset: 0x1192A00
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x11656D8
+    // Offset: 0x1192950
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Boolean ElGamalKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x11657E4
+    // Offset: 0x1192A5C
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Int32 ElGamalKeyParameters::GetHashCode()
     int GetHashCode();

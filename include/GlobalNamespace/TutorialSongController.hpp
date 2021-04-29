@@ -81,118 +81,118 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: obstacleDurationInBeats and: noteCuttingTutorialPartDidStartSignal
     char __padding3[0x4] = {};
-    // [SpaceAttribute] Offset: 0xD29E5C
-    // [FormerlySerializedAsAttribute] Offset: 0xD29E5C
-    // [SignalSenderAttribute] Offset: 0xD29E5C
+    // [SpaceAttribute] Offset: 0xD3F88C
+    // [FormerlySerializedAsAttribute] Offset: 0xD3F88C
+    // [SignalSenderAttribute] Offset: 0xD3F88C
     // private Signal _noteCuttingTutorialPartDidStartSignal
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::Signal* noteCuttingTutorialPartDidStartSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD29EC8
-    // [SignalSenderAttribute] Offset: 0xD29EC8
+    // [FormerlySerializedAsAttribute] Offset: 0xD3F8F8
+    // [SignalSenderAttribute] Offset: 0xD3F8F8
     // private Signal _noteCuttingInAnyDirectionDidStartSignal
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::Signal* noteCuttingInAnyDirectionDidStartSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD29F24
-    // [SignalSenderAttribute] Offset: 0xD29F24
+    // [FormerlySerializedAsAttribute] Offset: 0xD3F954
+    // [SignalSenderAttribute] Offset: 0xD3F954
     // private Signal _bombCuttingTutorialPartDidStartSignal
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::Signal* bombCuttingTutorialPartDidStartSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD29F80
-    // [SignalSenderAttribute] Offset: 0xD29F80
+    // [FormerlySerializedAsAttribute] Offset: 0xD3F9B0
+    // [SignalSenderAttribute] Offset: 0xD3F9B0
     // private Signal _leftObstacleTutorialPartDidStartSignal
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::Signal* leftObstacleTutorialPartDidStartSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD29FDC
-    // [SignalSenderAttribute] Offset: 0xD29FDC
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FA0C
+    // [SignalSenderAttribute] Offset: 0xD3FA0C
     // private Signal _rightObstacleTutorialPartDidStartSignal
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::Signal* rightObstacleTutorialPartDidStartSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A038
-    // [SignalSenderAttribute] Offset: 0xD2A038
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FA68
+    // [SignalSenderAttribute] Offset: 0xD3FA68
     // private Signal _topObstacleTutorialPartDidStartSignal
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::Signal* topObstacleTutorialPartDidStartSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A094
-    // [SignalSenderAttribute] Offset: 0xD2A094
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FAC4
+    // [SignalSenderAttribute] Offset: 0xD3FAC4
     // private Signal _noteWasCutOKSignal
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::Signal* noteWasCutOKSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A0F0
-    // [SignalSenderAttribute] Offset: 0xD2A0F0
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FB20
+    // [SignalSenderAttribute] Offset: 0xD3FB20
     // private Signal _noteWasCutTooSoonSignal
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::Signal* noteWasCutTooSoonSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A14C
-    // [SignalSenderAttribute] Offset: 0xD2A14C
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FB7C
+    // [SignalSenderAttribute] Offset: 0xD3FB7C
     // private Signal _noteWasCutWithWrongColorSignal
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::Signal* noteWasCutWithWrongColorSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A1A8
-    // [SignalSenderAttribute] Offset: 0xD2A1A8
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FBD8
+    // [SignalSenderAttribute] Offset: 0xD3FBD8
     // private Signal _noteWasCutFromDifferentDirectionSignal
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::Signal* noteWasCutFromDifferentDirectionSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A204
-    // [SignalSenderAttribute] Offset: 0xD2A204
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FC34
+    // [SignalSenderAttribute] Offset: 0xD3FC34
     // private Signal _noteWasCutWithSlowSpeedSignal
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::Signal* noteWasCutWithSlowSpeedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD2A260
-    // [SignalSenderAttribute] Offset: 0xD2A260
+    // [FormerlySerializedAsAttribute] Offset: 0xD3FC90
+    // [SignalSenderAttribute] Offset: 0xD3FC90
     // private Signal _bombWasCutSignal
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::Signal* bombWasCutSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A2BC
+    // [InjectAttribute] Offset: 0xD3FCEC
     // private readonly TutorialSongController/InitData _initData
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::TutorialSongController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialSongController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A2CC
+    // [InjectAttribute] Offset: 0xD3FCFC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD2A2DC
+    // [InjectAttribute] Offset: 0xD3FD0C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0xA8
@@ -234,58 +234,58 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialSongController
     TutorialSongController(GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, int startWaitTimeInBeats_ = {}, int numberOfBeatsToSnap_ = {}, int obstacleDurationInBeats_ = {}, GlobalNamespace::Signal* noteCuttingTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* noteCuttingInAnyDirectionDidStartSignal_ = {}, GlobalNamespace::Signal* bombCuttingTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* leftObstacleTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* rightObstacleTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* topObstacleTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* noteWasCutOKSignal_ = {}, GlobalNamespace::Signal* noteWasCutTooSoonSignal_ = {}, GlobalNamespace::Signal* noteWasCutWithWrongColorSignal_ = {}, GlobalNamespace::Signal* noteWasCutFromDifferentDirectionSignal_ = {}, GlobalNamespace::Signal* noteWasCutWithSlowSpeedSignal_ = {}, GlobalNamespace::Signal* bombWasCutSignal_ = {}, GlobalNamespace::TutorialSongController::InitData* initData_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, int tutorialBeatmapObjectIndex_ = {}, int prevSpawnedBeatmapObjectIndex_ = {}, float songBpm_ = {}, GlobalNamespace::BeatmapData* beatmapData_ = {}, ::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>* normalModeTutorialObjectsSpawnData_ = {}) noexcept : audioTimeSyncController{audioTimeSyncController_}, startWaitTimeInBeats{startWaitTimeInBeats_}, numberOfBeatsToSnap{numberOfBeatsToSnap_}, obstacleDurationInBeats{obstacleDurationInBeats_}, noteCuttingTutorialPartDidStartSignal{noteCuttingTutorialPartDidStartSignal_}, noteCuttingInAnyDirectionDidStartSignal{noteCuttingInAnyDirectionDidStartSignal_}, bombCuttingTutorialPartDidStartSignal{bombCuttingTutorialPartDidStartSignal_}, leftObstacleTutorialPartDidStartSignal{leftObstacleTutorialPartDidStartSignal_}, rightObstacleTutorialPartDidStartSignal{rightObstacleTutorialPartDidStartSignal_}, topObstacleTutorialPartDidStartSignal{topObstacleTutorialPartDidStartSignal_}, noteWasCutOKSignal{noteWasCutOKSignal_}, noteWasCutTooSoonSignal{noteWasCutTooSoonSignal_}, noteWasCutWithWrongColorSignal{noteWasCutWithWrongColorSignal_}, noteWasCutFromDifferentDirectionSignal{noteWasCutFromDifferentDirectionSignal_}, noteWasCutWithSlowSpeedSignal{noteWasCutWithSlowSpeedSignal_}, bombWasCutSignal{bombWasCutSignal_}, initData{initData_}, beatmapObjectManager{beatmapObjectManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, tutorialBeatmapObjectIndex{tutorialBeatmapObjectIndex_}, prevSpawnedBeatmapObjectIndex{prevSpawnedBeatmapObjectIndex_}, songBpm{songBpm_}, beatmapData{beatmapData_}, normalModeTutorialObjectsSpawnData{normalModeTutorialObjectsSpawnData_} {}
     // protected System.Void Awake()
-    // Offset: 0x107FDA4
+    // Offset: 0xFAB7D8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10803B8
+    // Offset: 0xFABDEC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1080588
+    // Offset: 0xFABFBC
     void OnDestroy();
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x107DDA0
+    // Offset: 0xFA9740
     void StartSong(float startTimeOffset);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x108095C
+    // Offset: 0xFAC390
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1080A38
+    // Offset: 0xFAC46C
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleObstacleDidPassThreeQuartersOfMove2(ObstacleController obstacleController)
-    // Offset: 0x1080AA0
+    // Offset: 0xFAC4D4
     void HandleObstacleDidPassThreeQuartersOfMove2(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void UpdateBeatmapData(System.Single noteTime)
-    // Offset: 0x10806AC
+    // Offset: 0xFAC0E0
     void UpdateBeatmapData(float noteTime);
     // private System.Single GetNextBeatmapObjectTime(System.Int32 beatOffset)
-    // Offset: 0x1080AB4
+    // Offset: 0xFAC4E8
     float GetNextBeatmapObjectTime(int beatOffset);
     // private ObstacleData CreateObstacleData(System.Single time, TutorialSongController/TutorialObstacleSpawnData tutorialObstacleSpawnData)
-    // Offset: 0x1080B4C
+    // Offset: 0xFAC580
     GlobalNamespace::ObstacleData* CreateObstacleData(float time, GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData* tutorialObstacleSpawnData);
     // private NoteData CreateBasicNoteData(System.Single time, TutorialSongController/TutorialBasicNoteSpawnData tutorialBasicNoteSpawnData)
-    // Offset: 0x1080B0C
+    // Offset: 0xFAC540
     GlobalNamespace::NoteData* CreateBasicNoteData(float time, GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData* tutorialBasicNoteSpawnData);
     // private NoteData CreateBombNoteData(System.Single time, TutorialSongController/TutorialBombNoteSpawnData tutorialBombNoteSpawnData)
-    // Offset: 0x1080B30
+    // Offset: 0xFAC564
     GlobalNamespace::NoteData* CreateBombNoteData(float time, GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData* tutorialBombNoteSpawnData);
     // public override System.Void StopSong()
-    // Offset: 0x10808D8
+    // Offset: 0xFAC30C
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x108090C
+    // Offset: 0xFAC340
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x1080940
+    // Offset: 0xFAC374
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0x1080C08
+    // Offset: 0xFAC63C
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

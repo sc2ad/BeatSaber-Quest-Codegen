@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD26050
+    // [CompilerGeneratedAttribute] Offset: 0xD3BA80
     // private System.Action resumeFromPauseAnimationDidFinishEvent
     // Size: 0x8
     // Offset: 0x20
@@ -48,28 +48,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0xF5ED30
+    // Offset: 0xF19938
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0xF5EDD4
+    // Offset: 0xF199DC
     void remove_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xF5EE78
+    // Offset: 0xF19A80
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0xF5EEB4
+    // Offset: 0xF19ABC
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0xF5EF34
+    // Offset: 0xF19B3C
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0xF5EFB4
+    // Offset: 0xF19BBC
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0xF5EFF0
+    // Offset: 0xF19BF8
     void ResumeFromPauseAnimationDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xF5F048
+    // Offset: 0xF19C50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

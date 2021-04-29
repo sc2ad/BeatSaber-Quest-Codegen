@@ -46,39 +46,39 @@ namespace System::Text {
     // Creating value type constructor for type: EncoderReplacementFallbackBuffer
     EncoderReplacementFallbackBuffer(::Il2CppString* strDefault_ = {}, int fallbackCount_ = {}, int fallbackIndex_ = {}) noexcept : strDefault{strDefault_}, fallbackCount{fallbackCount_}, fallbackIndex{fallbackIndex_} {}
     // public System.Void .ctor(System.Text.EncoderReplacementFallback fallback)
-    // Offset: 0x1B044E4
+    // Offset: 0x1B22938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderReplacementFallbackBuffer* New_ctor(System::Text::EncoderReplacementFallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallbackBuffer*, creationType>(fallback)));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1B04600
+    // Offset: 0x1B22A54
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1B04770
+    // Offset: 0x1B22BC4
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1B04A50
+    // Offset: 0x1B22EA4
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1B04A9C
+    // Offset: 0x1B22EF0
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1B04ACC
+    // Offset: 0x1B22F20
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public override System.Void Reset()
-    // Offset: 0x1B04AD8
+    // Offset: 0x1B22F2C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();

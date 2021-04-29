@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Hide()
-    // Offset: 0x109EBC8
+    // Offset: 0x112A034
     void Hide();
     // public System.Void ShowStats(IDifficultyBeatmap difficultyBeatmap, PlayerData playerData)
-    // Offset: 0x109EBF0
+    // Offset: 0x112A05C
     void ShowStats(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::PlayerData* playerData);
     // public System.Void .ctor()
-    // Offset: 0x109EF94
+    // Offset: 0x112A400
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

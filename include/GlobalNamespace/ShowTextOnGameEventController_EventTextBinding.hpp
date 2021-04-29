@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Signal* signal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [TextAreaAttribute] Offset: 0xD32DA0
+    // [TextAreaAttribute] Offset: 0xD48B04
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EventTextBinding
     EventTextBinding(GlobalNamespace::Signal* signal_ = {}, ::Il2CppString* text_ = {}, GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}) noexcept : signal{signal_}, text{text_}, textFadeTransitions{textFadeTransitions_} {}
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0xF780E0
+    // Offset: 0x105CF84
     void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
-    // Offset: 0xF781DC
+    // Offset: 0x105D080
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0xF78270
+    // Offset: 0x105D114
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0xF782AC
+    // Offset: 0x105D150
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

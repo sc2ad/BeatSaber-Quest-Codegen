@@ -33,6 +33,15 @@ namespace GlobalNamespace {
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
     // Offset: 0xFFFFFFFF
     void LogEvent(::Il2CppString* eventType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* eventData);
+    // public System.Void LogClick(System.String clickType, System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
+    // Offset: 0xFFFFFFFF
+    void LogClick(::Il2CppString* clickType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* clickData);
+    // public System.Void LogImpression(System.String impressionType, System.Collections.Generic.Dictionary`2<System.String,System.String> impressionData)
+    // Offset: 0xFFFFFFFF
+    void LogImpression(::Il2CppString* impressionType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* impressionData);
+    // public System.Void LogExposure(System.String exposureType, System.Collections.Generic.Dictionary`2<System.String,System.String> exposureData)
+    // Offset: 0xFFFFFFFF
+    void LogExposure(::Il2CppString* exposureType, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* exposureData);
   }; // IAnalyticsModel
   #pragma pack(pop)
 }
