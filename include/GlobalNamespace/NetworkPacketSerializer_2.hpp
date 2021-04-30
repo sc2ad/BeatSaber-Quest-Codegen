@@ -444,7 +444,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     bool TryGetPacketType(System::Type* type, uint8_t& packetType, GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& subSubSerializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::TryGetPacketType");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetPacketType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetPacketType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractIndependentType<uint8_t&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<TData>*&>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, type, packetType, subSubSerializer);
     }
     // public System.Boolean HandlesType(System.Type type)

@@ -41,7 +41,7 @@ namespace System::Net::Http::Headers {
     template<class T>
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Net::Http::Headers::ElementTryParser_1<T>* parser, System::Collections::Generic::List_1<T>*& result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::CollectionParser::TryParse");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionParser", "TryParse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(input), ::il2cpp_utils::ExtractType(minimalCount), ::il2cpp_utils::ExtractType(parser), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<T>*>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionParser", "TryParse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(input), ::il2cpp_utils::ExtractType(minimalCount), ::il2cpp_utils::ExtractType(parser), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<T>*&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, input, minimalCount, parser, result);
     }

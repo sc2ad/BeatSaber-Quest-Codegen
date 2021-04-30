@@ -330,7 +330,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     bool TryGetFirst(T& value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OrderedSet_1::TryGetFirst");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetFirst", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetFirst", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
     }
   }; // OrderedSet`1

@@ -150,7 +150,7 @@ namespace System::Collections::Concurrent {
       // Offset: 0xFFFFFFFF
       bool TryDequeue(T& item) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::Segment::TryDequeue");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T>()})));
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
         return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
       }
       // public System.Boolean TryEnqueue(T item)
@@ -395,7 +395,7 @@ namespace System::Collections::Concurrent {
     // Offset: 0xFFFFFFFF
     void SnapForObservation(typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*& head, int& headHead, typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*& tail, int& tailTail) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::SnapForObservation");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SnapForObservation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*>(), ::il2cpp_utils::ExtractIndependentType<int>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SnapForObservation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<typename System::Collections::Concurrent::ConcurrentQueue_1<T>::Segment*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()})));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, head, headHead, tail, tailTail);
     }
     // private T GetItemWhenAvailable(System.Collections.Concurrent.ConcurrentQueue`1/Segment<T> segment, System.Int32 i)
@@ -430,14 +430,14 @@ namespace System::Collections::Concurrent {
     // Offset: 0xFFFFFFFF
     bool TryDequeue(T& result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::TryDequeue");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, result);
     }
     // private System.Boolean TryDequeueSlow(out T item)
     // Offset: 0xFFFFFFFF
     bool TryDequeueSlow(T& item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentQueue_1::TryDequeueSlow");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeueSlow", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T>()})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeueSlow", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Void .ctor()
