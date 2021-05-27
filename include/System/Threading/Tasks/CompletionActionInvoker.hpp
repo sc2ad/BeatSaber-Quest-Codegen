@@ -51,17 +51,17 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
-    // Offset: 0x170562C
+    // Offset: 0x189B728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompletionActionInvoker* New_ctor(System::Threading::Tasks::ITaskCompletionAction* action, System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::CompletionActionInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompletionActionInvoker*, creationType>(action, completingTask)));
     }
     // public System.Void ExecuteWorkItem()
-    // Offset: 0x1705664
+    // Offset: 0x189B760
     void ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x170571C
+    // Offset: 0x189B818
     void MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.CompletionActionInvoker
   #pragma pack(pop)

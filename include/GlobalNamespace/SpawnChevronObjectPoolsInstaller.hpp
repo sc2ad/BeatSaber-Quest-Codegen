@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpawnChevronObjectPoolsInstaller
     SpawnChevronObjectPoolsInstaller(GlobalNamespace::SpawnRotationChevron* spawnRotationChevronPrefab_ = {}) noexcept : spawnRotationChevronPrefab{spawnRotationChevronPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF92568
+    // Offset: 0x1174C4C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF925E8
+    // Offset: 0x1174CCC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

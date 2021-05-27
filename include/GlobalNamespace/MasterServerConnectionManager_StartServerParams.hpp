@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StartServerParams
     StartServerParams(::Il2CppString* serverName_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* password_ = {}, int maxPlayerCount_ = {}, GlobalNamespace::DiscoveryPolicy discoveryPolicy_ = {}, GlobalNamespace::InvitePolicy invitePolicy_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : serverName{serverName_}, secret{secret_}, password{password_}, maxPlayerCount{maxPlayerCount_}, discoveryPolicy{discoveryPolicy_}, invitePolicy{invitePolicy_}, configuration{configuration_} {}
     // public System.Void .ctor()
-    // Offset: 0x12B7F3C
+    // Offset: 0x14E1530
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

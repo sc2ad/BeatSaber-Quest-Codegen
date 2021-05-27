@@ -35,10 +35,10 @@ namespace LiteNetLib::Utils {
     // Set static field: static private readonly System.UInt32[] Table
     static void _set_Table(::Array<uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A38C88
+    // Offset: 0x1B2F680
     static void _cctor();
     // static public System.UInt32 Compute(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1A2AEBC
+    // Offset: 0x1B218B4
     static uint Compute(::Array<uint8_t>* input, int offset, int length);
   }; // LiteNetLib.Utils.CRC32C
   #pragma pack(pop)

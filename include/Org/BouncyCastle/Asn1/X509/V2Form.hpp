@@ -59,20 +59,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: V2Form
     V2Form(Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName_ = {}, Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID_ = {}, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo_ = {}) noexcept : issuerName{issuerName_}, baseCertificateID{baseCertificateID_}, objectDigestInfo{objectDigestInfo_} {}
     // static public Org.BouncyCastle.Asn1.X509.V2Form GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x18536D0
+    // Offset: 0x19EA768
     static Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.V2Form GetInstance(System.Object obj)
-    // Offset: 0x185355C
+    // Offset: 0x19EA5F4
     static Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x185B1DC
+    // Offset: 0x19F2274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static V2Form* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::V2Form::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<V2Form*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x185B3FC
+    // Offset: 0x19F2494
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

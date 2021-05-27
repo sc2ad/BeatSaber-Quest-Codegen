@@ -96,7 +96,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::Commands::TestCommand* teardownCommand;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B444
+    // [CompilerGeneratedAttribute] Offset: 0xE3CBAC
     // private System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <Children>k__BackingField
     // Size: 0x8
     // Offset: 0x80
@@ -120,61 +120,61 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Creating value type constructor for type: CompositeWorkItem
     CompositeWorkItem(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Internal::TestSuiteResult* suiteResult_ = {}, NUnit::Framework::Interfaces::ITestFilter* childFilter_ = {}, NUnit::Framework::Internal::Commands::TestCommand* setupCommand_ = {}, NUnit::Framework::Internal::Commands::TestCommand* teardownCommand_ = {}, System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* Children_ = {}, int countOrder_ = {}, NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown_ = {}) noexcept : suite{suite_}, suiteResult{suiteResult_}, childFilter{childFilter_}, setupCommand{setupCommand_}, teardownCommand{teardownCommand_}, Children{Children_}, countOrder{countOrder_}, childTestCountdown{childTestCountdown_} {}
     // public System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> get_Children()
-    // Offset: 0x13610C8
+    // Offset: 0x148BA74
     System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* get_Children();
     // private System.Void set_Children(System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> value)
-    // Offset: 0x13610D0
+    // Offset: 0x148BA7C
     void set_Children(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ITestFilter childFilter, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x13610D8
+    // Offset: 0x148BA84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem* New_ctor(NUnit::Framework::Internal::TestSuite* suite, NUnit::Framework::Interfaces::ITestFilter* childFilter, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem*, creationType>(suite, childFilter, factory)));
     }
     // private System.Boolean CheckForCancellation()
-    // Offset: 0x136131C
+    // Offset: 0x148BCC8
     bool CheckForCancellation();
     // private System.Void InitializeSetUpAndTearDownCommands()
-    // Offset: 0x13613F4
+    // Offset: 0x148BDA0
     void InitializeSetUpAndTearDownCommands();
     // private System.Void PerformOneTimeSetUp()
-    // Offset: 0x1361908
+    // Offset: 0x148C2B4
     void PerformOneTimeSetUp();
     // private System.Collections.IEnumerable RunChildren()
-    // Offset: 0x1361C84
+    // Offset: 0x148C630
     System::Collections::IEnumerable* RunChildren();
     // private System.Void CreateChildWorkItems()
-    // Offset: 0x1361D3C
+    // Offset: 0x148C6E8
     void CreateChildWorkItems();
     // private System.Void SortChildren()
-    // Offset: 0x13624B8
+    // Offset: 0x148CE64
     void SortChildren();
     // private System.Void SkipFixture(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
-    // Offset: 0x1362550
+    // Offset: 0x148CEFC
     void SkipFixture(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message, ::Il2CppString* stackTrace);
     // private System.Void SkipChildren(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x136265C
+    // Offset: 0x148D008
     void SkipChildren(NUnit::Framework::Internal::TestSuite* suite, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
     // private System.Void PerformOneTimeTearDown()
-    // Offset: 0x1362BA8
+    // Offset: 0x148D554
     void PerformOneTimeTearDown();
     // private System.String GetSkipReason()
-    // Offset: 0x1362D68
+    // Offset: 0x148D714
     ::Il2CppString* GetSkipReason();
     // private System.String GetProviderStackTrace()
-    // Offset: 0x1362E58
+    // Offset: 0x148D804
     ::Il2CppString* GetProviderStackTrace();
     // private System.Void CountDownChildTest()
-    // Offset: 0x1362F48
+    // Offset: 0x148D8F4
     void CountDownChildTest();
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x1361264
+    // Offset: 0x148BC10
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
     // public override System.Void Cancel(System.Boolean force)
-    // Offset: 0x136350C
+    // Offset: 0x148DEB8
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Void UnityWorkItem::Cancel(System.Boolean force)
     void Cancel(bool force);

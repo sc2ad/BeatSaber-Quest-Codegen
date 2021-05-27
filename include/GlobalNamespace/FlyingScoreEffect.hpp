@@ -110,27 +110,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
     // public System.Void InitAndPresent(in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0xF57AC0
+    // Offset: 0x10C864C
     void InitAndPresent(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0xF57DEC
+    // Offset: 0x10C8978
     void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0xF57D18
+    // Offset: 0x10C88A4
     ::Il2CppString* GetScoreText(int score);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0xF57E8C
+    // Offset: 0x10C8A18
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0xF57E90
+    // Offset: 0x10C8A1C
     void UnregisterCallbacksIfNeeded();
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xF57D40
+    // Offset: 0x10C88CC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xF57FDC
+    // Offset: 0x10C8B68
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

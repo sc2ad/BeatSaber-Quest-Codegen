@@ -34,7 +34,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: RetryCommand
     RetryCommand(int retryCount_ = {}) noexcept : retryCount{retryCount_} {}
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x209A060
+    // Offset: 0x229D238
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

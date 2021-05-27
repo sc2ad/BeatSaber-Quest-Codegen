@@ -50,13 +50,13 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1219640
+    // Offset: 0x1299CF4
     void Awake();
     // public System.Boolean get_isOnTop()
-    // Offset: 0x12196C4
+    // Offset: 0x1299D78
     bool get_isOnTop();
     // public System.Void .ctor()
-    // Offset: 0x12198E4
+    // Offset: 0x1299F98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

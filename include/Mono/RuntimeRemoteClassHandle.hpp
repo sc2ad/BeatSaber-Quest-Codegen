@@ -41,7 +41,7 @@ namespace Mono {
       return value;
     }
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0xE0DF7C
+    // Offset: 0xF02CF8
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)

@@ -43,7 +43,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LinkedAccount
     LinkedAccount(::Il2CppString* AccessToken_ = {}, Oculus::Platform::ServiceProvider ServiceProvider_ = {}, ::Il2CppString* UserId_ = {}) noexcept : AccessToken{AccessToken_}, ServiceProvider{ServiceProvider_}, UserId{UserId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13AF158
+    // Offset: 0x14BBC20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinkedAccount* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LinkedAccount::.ctor");

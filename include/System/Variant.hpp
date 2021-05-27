@@ -149,7 +149,7 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Clear()
-    // Offset: 0xE250F8
+    // Offset: 0xF18F98
     void Clear();
   }; // System.Variant
   #pragma pack(pop)

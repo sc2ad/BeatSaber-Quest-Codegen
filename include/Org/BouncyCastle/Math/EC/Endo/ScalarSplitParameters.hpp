@@ -68,35 +68,35 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Creating value type constructor for type: ScalarSplitParameters
     ScalarSplitParameters(Org::BouncyCastle::Math::BigInteger* m_v1A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v1B_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2B_ = {}, Org::BouncyCastle::Math::BigInteger* m_g1_ = {}, Org::BouncyCastle::Math::BigInteger* m_g2_ = {}, int m_bits_ = {}) noexcept : m_v1A{m_v1A_}, m_v1B{m_v1B_}, m_v2A{m_v2A_}, m_v2B{m_v2B_}, m_g1{m_g1_}, m_g2{m_g2_}, m_bits{m_bits_} {}
     // static private System.Void CheckVector(Org.BouncyCastle.Math.BigInteger[] v, System.String name)
-    // Offset: 0x1F7FD30
+    // Offset: 0x213626C
     static void CheckVector(::Array<Org::BouncyCastle::Math::BigInteger*>* v, ::Il2CppString* name);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger[] v1, Org.BouncyCastle.Math.BigInteger[] v2, Org.BouncyCastle.Math.BigInteger g1, Org.BouncyCastle.Math.BigInteger g2, System.Int32 bits)
-    // Offset: 0x1F7FDDC
+    // Offset: 0x2136318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScalarSplitParameters* New_ctor(::Array<Org::BouncyCastle::Math::BigInteger*>* v1, ::Array<Org::BouncyCastle::Math::BigInteger*>* v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScalarSplitParameters*, creationType>(v1, v2, g1, g2, bits)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_V1A()
-    // Offset: 0x1F7FEE4
+    // Offset: 0x2136420
     Org::BouncyCastle::Math::BigInteger* get_V1A();
     // public Org.BouncyCastle.Math.BigInteger get_V1B()
-    // Offset: 0x1F7FEEC
+    // Offset: 0x2136428
     Org::BouncyCastle::Math::BigInteger* get_V1B();
     // public Org.BouncyCastle.Math.BigInteger get_V2A()
-    // Offset: 0x1F7FEF4
+    // Offset: 0x2136430
     Org::BouncyCastle::Math::BigInteger* get_V2A();
     // public Org.BouncyCastle.Math.BigInteger get_V2B()
-    // Offset: 0x1F7FEFC
+    // Offset: 0x2136438
     Org::BouncyCastle::Math::BigInteger* get_V2B();
     // public Org.BouncyCastle.Math.BigInteger get_G1()
-    // Offset: 0x1F7FF04
+    // Offset: 0x2136440
     Org::BouncyCastle::Math::BigInteger* get_G1();
     // public Org.BouncyCastle.Math.BigInteger get_G2()
-    // Offset: 0x1F7FF0C
+    // Offset: 0x2136448
     Org::BouncyCastle::Math::BigInteger* get_G2();
     // public System.Int32 get_Bits()
-    // Offset: 0x1F7FF14
+    // Offset: 0x2136450
     int get_Bits();
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
   #pragma pack(pop)

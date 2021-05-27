@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalLeaderboardTableView
     LocalLeaderboardTableView() noexcept {}
     // public System.Void SetScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> scores, System.Int32 specialScorePos, System.Int32 maxNumberOfCells)
-    // Offset: 0x10DB340
+    // Offset: 0x10CBB74
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores, int specialScorePos, int maxNumberOfCells);
     // public System.Void .ctor()
-    // Offset: 0x10DB508
+    // Offset: 0x10CBD3C
     // Implemented from: LeaderboardTableView
     // Base method: System.Void LeaderboardTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

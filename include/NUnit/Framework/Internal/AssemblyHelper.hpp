@@ -22,13 +22,13 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: AssemblyHelper
     AssemblyHelper() noexcept {}
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
-    // Offset: 0x15BCFD4
+    // Offset: 0x1707D8C
     static ::Il2CppString* GetAssemblyPath(System::Reflection::Assembly* assembly);
     // static private System.Boolean IsFileUri(System.String uri)
-    // Offset: 0x15CDBB4
+    // Offset: 0x171896C
     static bool IsFileUri(::Il2CppString* uri);
     // static public System.String GetAssemblyPathFromCodeBase(System.String codeBase)
-    // Offset: 0x15CDC48
+    // Offset: 0x1718A00
     static ::Il2CppString* GetAssemblyPathFromCodeBase(::Il2CppString* codeBase);
   }; // NUnit.Framework.Internal.AssemblyHelper
   #pragma pack(pop)

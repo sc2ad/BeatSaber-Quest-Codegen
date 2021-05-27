@@ -42,14 +42,14 @@ namespace Zenject {
   template<typename TContract>
   class PoolableMemoryPoolProviderBase_1 : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0487C
+    // [CompilerGeneratedAttribute] Offset: 0xDDF298
     // private System.Guid <PoolId>k__BackingField
     // Size: 0x10
     // Offset: 0x0
     System::Guid PoolId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xD0488C
+    // [CompilerGeneratedAttribute] Offset: 0xDDF2A8
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x0

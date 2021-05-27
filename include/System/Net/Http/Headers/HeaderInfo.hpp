@@ -69,7 +69,7 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD0AF0C
+    // [CompilerGeneratedAttribute] Offset: 0xDE5D1C
     // private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -79,7 +79,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HeaderInfo
     HeaderInfo(bool AllowsMany_ = {}, System::Net::Http::Headers::HttpHeaderKind HeaderKind_ = {}, ::Il2CppString* Name_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : AllowsMany{AllowsMany_}, HeaderKind{HeaderKind_}, Name{Name_}, CustomToString{CustomToString_} {}
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x13FBB80
+    // Offset: 0x15781D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::.ctor");
@@ -104,16 +104,16 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x13FBBBC
+    // Offset: 0x1578214
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x13FBBCC
+    // Offset: 0x1578224
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x13FBBD4
+    // Offset: 0x157822C
     void set_CustomToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.String get_Separator()
-    // Offset: 0x13FBBDC
+    // Offset: 0x1578234
     ::Il2CppString* get_Separator();
     // public System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFF

@@ -19,7 +19,7 @@ namespace System {
     // Creating value type constructor for type: __ComObject
     __ComObject() noexcept {}
     // private System.Void .ctor()
-    // Offset: 0x20F58E4
+    // Offset: 0x231A2F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,17 +43,17 @@ namespace NUnit::Framework::Internal::Commands {
     // Creating value type constructor for type: TestActionItem
     TestActionItem(NUnit::Framework::ITestAction* action_ = {}, bool beforeTestWasRun_ = {}) noexcept : action{action_}, beforeTestWasRun{beforeTestWasRun_} {}
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
-    // Offset: 0x15D47F0
+    // Offset: 0x171F5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionItem* New_ctor(NUnit::Framework::ITestAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionItem*, creationType>(action)));
     }
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x15D3774
+    // Offset: 0x171E52C
     void BeforeTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x15D3D78
+    // Offset: 0x171EB30
     void AfterTest(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
   #pragma pack(pop)

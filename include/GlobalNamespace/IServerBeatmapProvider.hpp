@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
 // Completed includes
@@ -22,6 +21,9 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x0

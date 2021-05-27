@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD4784C
+    // [SpaceAttribute] Offset: 0xE292E0
     // private AudioManagerSO _audioMixer
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::AudioManagerSO* audioMixer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD47884
+    // [InjectAttribute] Offset: 0xE29318
     // private PatternFightSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x48
@@ -79,12 +79,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PatternFightSceneSetup
     PatternFightSceneSetup(UnityEngine::AudioClip* testAudioClip_ = {}, float testAudioClipBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioMixer_ = {}, GlobalNamespace::PatternFightSceneSetupData* sceneSetupData_ = {}) noexcept : testAudioClip{testAudioClip_}, testAudioClipBPM{testAudioClipBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, audioMixer{audioMixer_}, sceneSetupData{sceneSetupData_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF18598
+    // Offset: 0x1007F1C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF18D54
+    // Offset: 0x1008718
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

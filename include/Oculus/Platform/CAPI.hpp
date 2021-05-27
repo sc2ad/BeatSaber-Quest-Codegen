@@ -26,10 +26,12 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
-  // Forward declaring type: SendPolicy
-  struct SendPolicy;
+  // Forward declaring type: LaunchResult
+  struct LaunchResult;
   // Forward declaring type: VoipMuteState
   struct VoipMuteState;
+  // Forward declaring type: SendPolicy
+  struct SendPolicy;
   // Forward declaring type: SystemVoipStatus
   struct SystemVoipStatus;
   // Forward declaring type: VoipDtxState
@@ -100,6 +102,8 @@ namespace Oculus::Platform {
   struct UserPresenceStatus;
   // Forward declaring type: AbuseReportType
   struct AbuseReportType;
+  // Forward declaring type: AbuseReportVideoMode
+  struct AbuseReportVideoMode;
   // Forward declaring type: ChallengeViewerFilter
   struct ChallengeViewerFilter;
   // Forward declaring type: RichPresenceExtraContext
@@ -192,7 +196,7 @@ namespace Oculus::Platform {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.String key, System.String value)
-      // Offset: 0xDFDB3C
+      // Offset: 0xEF0314
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
@@ -200,7 +204,7 @@ namespace Oculus::Platform {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
       // public System.Void .ctor(System.String key, System.Int32 value)
-      // Offset: 0xDFDB54
+      // Offset: 0xEF032C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, int value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
@@ -208,7 +212,7 @@ namespace Oculus::Platform {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
       // public System.Void .ctor(System.String key, System.Double value)
-      // Offset: 0xDFDB70
+      // Offset: 0xEF0348
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, double value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
@@ -238,3010 +242,3247 @@ namespace Oculus::Platform {
     // Set static field: static public System.Int32 VoipFilterBufferSize
     static void _set_VoipFilterBufferSize(int value);
     // static public System.IntPtr ArrayOfStructsToIntPtr(System.Array ar)
-    // Offset: 0x1CA3ADC
+    // Offset: 0x1BB1E64
     static System::IntPtr ArrayOfStructsToIntPtr(System::Array* ar);
     // static public Oculus.Platform.CAPI/ovrKeyValuePair[] DictionaryToOVRKeyValuePairs(System.Collections.Generic.Dictionary`2<System.String,System.Object> dict)
-    // Offset: 0x1CA3C9C
+    // Offset: 0x1BB2024
     static ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* DictionaryToOVRKeyValuePairs(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* dict);
     // static public System.Byte[] IntPtrToByteArray(System.IntPtr data, System.UInt64 size)
-    // Offset: 0x1CA4148
+    // Offset: 0x1BB24D0
     static ::Array<uint8_t>* IntPtrToByteArray(System::IntPtr data, uint64_t size);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.String> DataStoreFromNative(System.IntPtr pointer)
-    // Offset: 0x1CA4204
+    // Offset: 0x1BB258C
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* DataStoreFromNative(System::IntPtr pointer);
     // static public System.String StringFromNative(System.IntPtr pointer)
-    // Offset: 0x1CA450C
+    // Offset: 0x1BB2894
     static ::Il2CppString* StringFromNative(System::IntPtr pointer);
     // static public System.Int32 GetNativeStringLengthNotIncludingNullTerminator(System.IntPtr pointer)
-    // Offset: 0x1CA4624
+    // Offset: 0x1BB29AC
     static int GetNativeStringLengthNotIncludingNullTerminator(System::IntPtr pointer);
     // static public System.DateTime DateTimeFromNative(System.UInt64 seconds_since_the_one_true_epoch)
-    // Offset: 0x1CA46B0
+    // Offset: 0x1BB2A38
     static System::DateTime DateTimeFromNative(uint64_t seconds_since_the_one_true_epoch);
     // static public System.UInt64 DateTimeToNative(System.DateTime dt)
-    // Offset: 0x1CA4720
+    // Offset: 0x1BB2AA8
     static uint64_t DateTimeToNative(System::DateTime dt);
     // static public System.Byte[] BlobFromNative(System.UInt32 size, System.IntPtr pointer)
-    // Offset: 0x1CA481C
+    // Offset: 0x1BB2BA4
     static ::Array<uint8_t>* BlobFromNative(uint size, System::IntPtr pointer);
     // static public System.Byte[] FiledataFromNative(System.UInt32 size, System.IntPtr pointer)
-    // Offset: 0x1CA4900
+    // Offset: 0x1BB2C88
     static ::Array<uint8_t>* FiledataFromNative(uint size, System::IntPtr pointer);
     // static public System.IntPtr StringToNative(System.String s)
-    // Offset: 0x1CA49A4
+    // Offset: 0x1BB2D2C
     static System::IntPtr StringToNative(::Il2CppString* s);
     // static public System.Boolean ovr_UnityInitWrapper(System.String appId)
-    // Offset: 0x1CA1AA4
+    // Offset: 0x1BAFD10
     static bool ovr_UnityInitWrapper(::Il2CppString* appId);
     // static public System.Void ovr_UnityInitGlobals(System.IntPtr loggingCB)
-    // Offset: 0x1CA4B14
+    // Offset: 0x1BB2E9C
     static void ovr_UnityInitGlobals(System::IntPtr loggingCB);
     // static public System.UInt64 ovr_UnityInitWrapperAsynchronous(System.String appId)
-    // Offset: 0x1CA1C28
+    // Offset: 0x1BAFE94
     static uint64_t ovr_UnityInitWrapperAsynchronous(::Il2CppString* appId);
     // static public System.Boolean ovr_UnityInitWrapperStandalone(System.String accessToken, System.IntPtr loggingCB)
-    // Offset: 0x1CA4B94
+    // Offset: 0x1BB2F1C
     static bool ovr_UnityInitWrapperStandalone(::Il2CppString* accessToken, System::IntPtr loggingCB);
     // static public System.UInt64 ovr_Platform_InitializeStandaloneOculus(ref Oculus.Platform.CAPI/OculusInitParams init)
-    // Offset: 0x1CA4C40
+    // Offset: 0x1BB2FC8
     static uint64_t ovr_Platform_InitializeStandaloneOculus(Oculus::Platform::CAPI::OculusInitParams& init);
     // static public System.UInt64 ovr_PlatformInitializeWithAccessToken(System.UInt64 appId, System.String accessToken)
-    // Offset: 0x1CA4D18
+    // Offset: 0x1BB30A0
     static uint64_t ovr_PlatformInitializeWithAccessToken(uint64_t appId, ::Il2CppString* accessToken);
     // static public System.Boolean ovr_UnityInitWrapperWindows(System.String appId, System.IntPtr loggingCB)
-    // Offset: 0x1CA4DC4
+    // Offset: 0x1BB314C
     static bool ovr_UnityInitWrapperWindows(::Il2CppString* appId, System::IntPtr loggingCB);
     // static public System.UInt64 ovr_UnityInitWrapperWindowsAsynchronous(System.String appId, System.IntPtr loggingCB)
-    // Offset: 0x1CA4E70
+    // Offset: 0x1BB31F8
     static uint64_t ovr_UnityInitWrapperWindowsAsynchronous(::Il2CppString* appId, System::IntPtr loggingCB);
     // static public System.Boolean ovr_SetDeveloperAccessToken(System.String accessToken)
-    // Offset: 0x1CA4F18
+    // Offset: 0x1BB32A0
     static bool ovr_SetDeveloperAccessToken(::Il2CppString* accessToken);
     // static public System.String ovr_GetLoggedInUserLocale()
-    // Offset: 0x1CA4FB4
+    // Offset: 0x1BB333C
     static ::Il2CppString* ovr_GetLoggedInUserLocale();
     // static private System.IntPtr ovr_GetLoggedInUserLocale_Native()
-    // Offset: 0x1CA5014
+    // Offset: 0x1BB339C
     static System::IntPtr ovr_GetLoggedInUserLocale_Native();
     // static public System.IntPtr ovr_PopMessage()
-    // Offset: 0x1CA5088
+    // Offset: 0x1BB3410
     static System::IntPtr ovr_PopMessage();
     // static public System.Void ovr_FreeMessage(System.IntPtr message)
-    // Offset: 0x1CA50FC
+    // Offset: 0x1BB3484
     static void ovr_FreeMessage(System::IntPtr message);
     // static public System.IntPtr ovr_Voip_CreateEncoder()
-    // Offset: 0x1CA517C
+    // Offset: 0x1BB3504
     static System::IntPtr ovr_Voip_CreateEncoder();
     // static public System.Void ovr_Voip_DestroyEncoder(System.IntPtr encoder)
-    // Offset: 0x1CA51F0
+    // Offset: 0x1BB3578
     static void ovr_Voip_DestroyEncoder(System::IntPtr encoder);
     // static public System.IntPtr ovr_Voip_CreateDecoder()
-    // Offset: 0x1CA5270
+    // Offset: 0x1BB35F8
     static System::IntPtr ovr_Voip_CreateDecoder();
     // static public System.Void ovr_Voip_DestroyDecoder(System.IntPtr decoder)
-    // Offset: 0x1CA52E4
+    // Offset: 0x1BB366C
     static void ovr_Voip_DestroyDecoder(System::IntPtr decoder);
     // static public System.Void ovr_VoipDecoder_Decode(System.IntPtr obj, System.Byte[] compressedData, System.UInt64 compressedSize)
-    // Offset: 0x1CA5364
+    // Offset: 0x1BB36EC
     static void ovr_VoipDecoder_Decode(System::IntPtr obj, ::Array<uint8_t>* compressedData, uint64_t compressedSize);
     // static public System.IntPtr ovr_Microphone_Create()
-    // Offset: 0x1CA5404
+    // Offset: 0x1BB378C
     static System::IntPtr ovr_Microphone_Create();
     // static public System.Void ovr_Microphone_Destroy(System.IntPtr obj)
-    // Offset: 0x1CA5478
+    // Offset: 0x1BB3800
     static void ovr_Microphone_Destroy(System::IntPtr obj);
     // static public System.Void ovr_Voip_SetSystemVoipPassthrough(System.Boolean passthrough)
-    // Offset: 0x1CA54F8
+    // Offset: 0x1BB3880
     static void ovr_Voip_SetSystemVoipPassthrough(bool passthrough);
     // static public System.Void ovr_Voip_SetSystemVoipMicrophoneMuted(Oculus.Platform.VoipMuteState muted)
-    // Offset: 0x1CA5578
+    // Offset: 0x1BB3900
     static void ovr_Voip_SetSystemVoipMicrophoneMuted(Oculus::Platform::VoipMuteState muted);
     // static public System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0x1CA55F8
+    // Offset: 0x1BB3980
     static void ovr_UnityResetTestPlatform();
     // static public System.UInt64 ovr_HTTP_GetWithMessageType(System.String url, System.Int32 messageType)
-    // Offset: 0x1CA17D4
+    // Offset: 0x1BAF4A0
     static uint64_t ovr_HTTP_GetWithMessageType(::Il2CppString* url, int messageType);
     // static public System.Void ovr_CrashApplication()
-    // Offset: 0x1CA5668
+    // Offset: 0x1BB39F0
     static void ovr_CrashApplication();
     // static public System.Void ovr_Voip_SetMicrophoneFilterCallback(Oculus.Platform.CAPI/FilterCallback cb)
-    // Offset: 0x1CA56D8
+    // Offset: 0x1BB3A60
     static void ovr_Voip_SetMicrophoneFilterCallback(Oculus::Platform::CAPI::FilterCallback* cb);
     // static public System.Void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(Oculus.Platform.CAPI/FilterCallback cb, System.UIntPtr bufferSizeElements)
-    // Offset: 0x1CA575C
+    // Offset: 0x1BB3AE4
     static void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(Oculus::Platform::CAPI::FilterCallback* cb, System::UIntPtr bufferSizeElements);
     // static public System.Void LogNewEvent(System.String eventName, System.Collections.Generic.Dictionary`2<System.String,System.String> values)
-    // Offset: 0x1CA57F0
+    // Offset: 0x1BB3B78
     static void LogNewEvent(::Il2CppString* eventName, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* values);
     // static public System.Void ovr_Log_NewEvent(System.IntPtr eventName, System.IntPtr[] values, System.UIntPtr length)
-    // Offset: 0x1CA5AF4
+    // Offset: 0x1BB3E7C
     static void ovr_Log_NewEvent(System::IntPtr eventName, ::Array<System::IntPtr>* values, System::UIntPtr length);
     // static public System.IntPtr ovr_ApplicationLifecycle_GetLaunchDetails()
-    // Offset: 0x1CA20FC
+    // Offset: 0x1BB0368
     static System::IntPtr ovr_ApplicationLifecycle_GetLaunchDetails();
+    // static public System.Void ovr_ApplicationLifecycle_LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
+    // Offset: 0x1BB0450
+    static void ovr_ApplicationLifecycle_LogDeeplinkResult(::Il2CppString* trackingID, Oculus::Platform::LaunchResult result);
+    // static private System.Void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(System.IntPtr trackingID, Oculus.Platform.LaunchResult result)
+    // Offset: 0x1BB3F1C
+    static void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(System::IntPtr trackingID, Oculus::Platform::LaunchResult result);
     // static public System.UInt64 ovr_HTTP_StartTransfer(System.String url, Oculus.Platform.CAPI/ovrKeyValuePair[] headers)
-    // Offset: 0x1CA5B94
+    // Offset: 0x1BB3FAC
     static uint64_t ovr_HTTP_StartTransfer(::Il2CppString* url, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* headers);
     // static private System.UInt64 ovr_HTTP_StartTransfer_Native(System.IntPtr url, Oculus.Platform.CAPI/ovrKeyValuePair[] headers, System.UIntPtr numItems)
-    // Offset: 0x1CA5C88
+    // Offset: 0x1BB40A0
     static uint64_t ovr_HTTP_StartTransfer_Native(System::IntPtr url, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* headers, System::UIntPtr numItems);
     // static public System.Boolean ovr_HTTP_Write(System.UInt64 transferId, System.Byte[] bytes, System.UIntPtr length)
-    // Offset: 0x1CA5DE4
+    // Offset: 0x1BB41FC
     static bool ovr_HTTP_Write(uint64_t transferId, ::Array<uint8_t>* bytes, System::UIntPtr length);
     // static public System.Void ovr_HTTP_WriteEOM(System.UInt64 transferId)
-    // Offset: 0x1CA5E8C
+    // Offset: 0x1BB42A4
     static void ovr_HTTP_WriteEOM(uint64_t transferId);
     // static public System.String ovr_Message_GetStringForJavascript(System.IntPtr message)
-    // Offset: 0x1CA5F08
+    // Offset: 0x1BB4320
     static ::Il2CppString* ovr_Message_GetStringForJavascript(System::IntPtr message);
     // static private System.IntPtr ovr_Message_GetStringForJavascript_Native(System.IntPtr message)
-    // Offset: 0x1CA5F70
+    // Offset: 0x1BB4388
     static System::IntPtr ovr_Message_GetStringForJavascript_Native(System::IntPtr message);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicFloatPCM(System.Int64 connection_id, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA5FF0
+    // Offset: 0x1BB4408
     static System::UIntPtr ovr_NetSync_GetAmbisonicFloatPCM(int64_t connection_id, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInt16PCM(System.Int64 connection_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA6090
+    // Offset: 0x1BB44A8
     static System::UIntPtr ovr_NetSync_GetAmbisonicInt16PCM(int64_t connection_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInterleavedFloatPCM(System.Int64 connection_id, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA6130
+    // Offset: 0x1BB4548
     static System::UIntPtr ovr_NetSync_GetAmbisonicInterleavedFloatPCM(int64_t connection_id, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInterleavedInt16PCM(System.Int64 connection_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA61D0
+    // Offset: 0x1BB45E8
     static System::UIntPtr ovr_NetSync_GetAmbisonicInterleavedInt16PCM(int64_t connection_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.Boolean ovr_NetSync_GetListenerPosition(System.Int64 connection_id, System.UInt64 sessionId, ref Oculus.Platform.CAPI/ovrNetSyncVec3 position)
-    // Offset: 0x1CA6270
+    // Offset: 0x1BB4688
     static bool ovr_NetSync_GetListenerPosition(int64_t connection_id, uint64_t sessionId, Oculus::Platform::CAPI::ovrNetSyncVec3& position);
     // static public System.UIntPtr ovr_NetSync_GetMonostreamFloatPCM(System.Int64 connection_id, System.UInt64 sessionId, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA6310
+    // Offset: 0x1BB4728
     static System::UIntPtr ovr_NetSync_GetMonostreamFloatPCM(int64_t connection_id, uint64_t sessionId, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetMonostreamInt16PCM(System.Int64 connection_id, System.UInt64 session_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA63C0
+    // Offset: 0x1BB47D8
     static System::UIntPtr ovr_NetSync_GetMonostreamInt16PCM(int64_t connection_id, uint64_t session_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetPcmBufferMaxSamples()
-    // Offset: 0x1CA6470
+    // Offset: 0x1BB4888
     static System::UIntPtr ovr_NetSync_GetPcmBufferMaxSamples();
     // static public System.Boolean ovr_NetSync_GetVoipAmplitude(System.Int64 connection_id, System.UInt64 sessionId, ref System.Single amplitude)
-    // Offset: 0x1CA64E4
+    // Offset: 0x1BB48FC
     static bool ovr_NetSync_GetVoipAmplitude(int64_t connection_id, uint64_t sessionId, float& amplitude);
     // static public System.Void ovr_NetSync_SetListenerPosition(System.Int64 connection_id, ref Oculus.Platform.CAPI/ovrNetSyncVec3 position)
-    // Offset: 0x1CA6584
+    // Offset: 0x1BB499C
     static void ovr_NetSync_SetListenerPosition(int64_t connection_id, Oculus::Platform::CAPI::ovrNetSyncVec3& position);
     // static public System.Void ovr_Net_Accept(System.UInt64 peerID)
-    // Offset: 0x1CA6614
+    // Offset: 0x1BB4A2C
     static void ovr_Net_Accept(uint64_t peerID);
     // static public System.Boolean ovr_Net_AcceptForCurrentRoom()
-    // Offset: 0x1CA6694
+    // Offset: 0x1BB4AAC
     static bool ovr_Net_AcceptForCurrentRoom();
     // static public System.Void ovr_Net_Close(System.UInt64 peerID)
-    // Offset: 0x1CA6710
+    // Offset: 0x1BB4B28
     static void ovr_Net_Close(uint64_t peerID);
     // static public System.Void ovr_Net_CloseForCurrentRoom()
-    // Offset: 0x1CA6790
+    // Offset: 0x1BB4BA8
     static void ovr_Net_CloseForCurrentRoom();
     // static public System.Void ovr_Net_Connect(System.UInt64 peerID)
-    // Offset: 0x1CA6800
+    // Offset: 0x1BB4C18
     static void ovr_Net_Connect(uint64_t peerID);
     // static public System.Boolean ovr_Net_IsConnected(System.UInt64 peerID)
-    // Offset: 0x1CA6880
+    // Offset: 0x1BB4C98
     static bool ovr_Net_IsConnected(uint64_t peerID);
     // static public System.UInt64 ovr_Net_Ping(System.UInt64 peerID)
-    // Offset: 0x1CA6908
+    // Offset: 0x1BB4D20
     static uint64_t ovr_Net_Ping(uint64_t peerID);
     // static public System.IntPtr ovr_Net_ReadPacket()
-    // Offset: 0x1CA6988
+    // Offset: 0x1BB4DA0
     static System::IntPtr ovr_Net_ReadPacket();
     // static public System.Boolean ovr_Net_SendPacket(System.UInt64 userID, System.UIntPtr length, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x1CA69FC
+    // Offset: 0x1BB4E14
     static bool ovr_Net_SendPacket(uint64_t userID, System::UIntPtr length, ::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Boolean ovr_Net_SendPacketToCurrentRoom(System.UIntPtr length, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x1CA6AB4
+    // Offset: 0x1BB4ECC
     static bool ovr_Net_SendPacketToCurrentRoom(System::UIntPtr length, ::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Int32 ovr_Party_PluginGetSharedMemHandle()
-    // Offset: 0x1CA6B5C
+    // Offset: 0x1BB4F74
     static int ovr_Party_PluginGetSharedMemHandle();
     // static public Oculus.Platform.VoipMuteState ovr_Party_PluginGetVoipMicrophoneMuted()
-    // Offset: 0x1CA6BD0
+    // Offset: 0x1BB4FE8
     static Oculus::Platform::VoipMuteState ovr_Party_PluginGetVoipMicrophoneMuted();
     // static public System.Boolean ovr_Party_PluginGetVoipPassthrough()
-    // Offset: 0x1CA6C44
+    // Offset: 0x1BB505C
     static bool ovr_Party_PluginGetVoipPassthrough();
     // static public Oculus.Platform.SystemVoipStatus ovr_Party_PluginGetVoipStatus()
-    // Offset: 0x1CA6CC0
+    // Offset: 0x1BB50D8
     static Oculus::Platform::SystemVoipStatus ovr_Party_PluginGetVoipStatus();
     // static public System.Void ovr_Voip_Accept(System.UInt64 userID)
-    // Offset: 0x1CA6D34
+    // Offset: 0x1BB514C
     static void ovr_Voip_Accept(uint64_t userID);
     // static public Oculus.Platform.VoipDtxState ovr_Voip_GetIsConnectionUsingDtx(System.UInt64 peerID)
-    // Offset: 0x1CA6DB4
+    // Offset: 0x1BB51CC
     static Oculus::Platform::VoipDtxState ovr_Voip_GetIsConnectionUsingDtx(uint64_t peerID);
     // static public Oculus.Platform.VoipBitrate ovr_Voip_GetLocalBitrate(System.UInt64 peerID)
-    // Offset: 0x1CA6E34
+    // Offset: 0x1BB524C
     static Oculus::Platform::VoipBitrate ovr_Voip_GetLocalBitrate(uint64_t peerID);
     // static public System.UIntPtr ovr_Voip_GetOutputBufferMaxSize()
-    // Offset: 0x1CA6EB4
+    // Offset: 0x1BB52CC
     static System::UIntPtr ovr_Voip_GetOutputBufferMaxSize();
     // static public System.UIntPtr ovr_Voip_GetPCM(System.UInt64 senderID, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA6F28
+    // Offset: 0x1BB5340
     static System::UIntPtr ovr_Voip_GetPCM(uint64_t senderID, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Voip_GetPCMFloat(System.UInt64 senderID, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CA6FC8
+    // Offset: 0x1BB53E0
     static System::UIntPtr ovr_Voip_GetPCMFloat(uint64_t senderID, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Voip_GetPCMSize(System.UInt64 senderID)
-    // Offset: 0x1CA7068
+    // Offset: 0x1BB5480
     static System::UIntPtr ovr_Voip_GetPCMSize(uint64_t senderID);
     // static public System.UIntPtr ovr_Voip_GetPCMWithTimestamp(System.UInt64 senderID, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements, System.UInt32[] timestamp)
-    // Offset: 0x1CA70E8
+    // Offset: 0x1BB5500
     static System::UIntPtr ovr_Voip_GetPCMWithTimestamp(uint64_t senderID, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements, ::Array<uint>* timestamp);
     // static public System.UIntPtr ovr_Voip_GetPCMWithTimestampFloat(System.UInt64 senderID, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements, System.UInt32[] timestamp)
-    // Offset: 0x1CA71A0
+    // Offset: 0x1BB55B8
     static System::UIntPtr ovr_Voip_GetPCMWithTimestampFloat(uint64_t senderID, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements, ::Array<uint>* timestamp);
     // static public Oculus.Platform.VoipBitrate ovr_Voip_GetRemoteBitrate(System.UInt64 peerID)
-    // Offset: 0x1CA7258
+    // Offset: 0x1BB5670
     static Oculus::Platform::VoipBitrate ovr_Voip_GetRemoteBitrate(uint64_t peerID);
     // static public System.UInt32 ovr_Voip_GetSyncTimestamp(System.UInt64 userID)
-    // Offset: 0x1CA72D8
+    // Offset: 0x1BB56F0
     static uint ovr_Voip_GetSyncTimestamp(uint64_t userID);
     // static public System.Int64 ovr_Voip_GetSyncTimestampDifference(System.UInt32 lhs, System.UInt32 rhs)
-    // Offset: 0x1CA7358
+    // Offset: 0x1BB5770
     static int64_t ovr_Voip_GetSyncTimestampDifference(uint lhs, uint rhs);
     // static public Oculus.Platform.VoipMuteState ovr_Voip_GetSystemVoipMicrophoneMuted()
-    // Offset: 0x1CA73E8
+    // Offset: 0x1BB5800
     static Oculus::Platform::VoipMuteState ovr_Voip_GetSystemVoipMicrophoneMuted();
     // static public Oculus.Platform.SystemVoipStatus ovr_Voip_GetSystemVoipStatus()
-    // Offset: 0x1CA745C
+    // Offset: 0x1BB5874
     static Oculus::Platform::SystemVoipStatus ovr_Voip_GetSystemVoipStatus();
     // static public System.Void ovr_Voip_SetMicrophoneMuted(Oculus.Platform.VoipMuteState state)
-    // Offset: 0x1CA74D0
+    // Offset: 0x1BB58E8
     static void ovr_Voip_SetMicrophoneMuted(Oculus::Platform::VoipMuteState state);
     // static public System.Void ovr_Voip_SetNewConnectionOptions(System.IntPtr voipOptions)
-    // Offset: 0x1CA7550
+    // Offset: 0x1BB5968
     static void ovr_Voip_SetNewConnectionOptions(System::IntPtr voipOptions);
     // static public System.Void ovr_Voip_SetOutputSampleRate(Oculus.Platform.VoipSampleRate rate)
-    // Offset: 0x1CA75D0
+    // Offset: 0x1BB59E8
     static void ovr_Voip_SetOutputSampleRate(Oculus::Platform::VoipSampleRate rate);
     // static public System.Void ovr_Voip_Start(System.UInt64 userID)
-    // Offset: 0x1CA7650
+    // Offset: 0x1BB5A68
     static void ovr_Voip_Start(uint64_t userID);
     // static public System.Void ovr_Voip_Stop(System.UInt64 userID)
-    // Offset: 0x1CA76D0
+    // Offset: 0x1BB5AE8
     static void ovr_Voip_Stop(uint64_t userID);
+    // static public System.UInt64 ovr_AbuseReport_LaunchAdvancedReportFlow(System.UInt64 content_id, System.IntPtr abuse_report_options)
+    // Offset: 0x1BB5B68
+    static uint64_t ovr_AbuseReport_LaunchAdvancedReportFlow(uint64_t content_id, System::IntPtr abuse_report_options);
     // static public System.UInt64 ovr_Achievements_AddCount(System.String name, System.UInt64 count)
-    // Offset: 0x1CA09F8
+    // Offset: 0x1BAE6C4
     static uint64_t ovr_Achievements_AddCount(::Il2CppString* name, uint64_t count);
     // static private System.UInt64 ovr_Achievements_AddCount_Native(System.IntPtr name, System.UInt64 count)
-    // Offset: 0x1CA7750
+    // Offset: 0x1BB5BF8
     static uint64_t ovr_Achievements_AddCount_Native(System::IntPtr name, uint64_t count);
     // static public System.UInt64 ovr_Achievements_AddFields(System.String name, System.String fields)
-    // Offset: 0x1CA0BD0
+    // Offset: 0x1BAE89C
     static uint64_t ovr_Achievements_AddFields(::Il2CppString* name, ::Il2CppString* fields);
     // static private System.UInt64 ovr_Achievements_AddFields_Native(System.IntPtr name, System.IntPtr fields)
-    // Offset: 0x1CA77E0
+    // Offset: 0x1BB5C88
     static uint64_t ovr_Achievements_AddFields_Native(System::IntPtr name, System::IntPtr fields);
     // static public System.UInt64 ovr_Achievements_GetAllDefinitions()
-    // Offset: 0x1CA0DAC
+    // Offset: 0x1BAEA78
     static uint64_t ovr_Achievements_GetAllDefinitions();
     // static public System.UInt64 ovr_Achievements_GetAllProgress()
-    // Offset: 0x1CA0F28
+    // Offset: 0x1BAEBF4
     static uint64_t ovr_Achievements_GetAllProgress();
     // static public System.UInt64 ovr_Achievements_GetDefinitionsByName(System.String[] names, System.Int32 count)
-    // Offset: 0x1CA10C8
+    // Offset: 0x1BAED94
     static uint64_t ovr_Achievements_GetDefinitionsByName(::Array<::Il2CppString*>* names, int count);
     // static public System.UInt64 ovr_Achievements_GetProgressByName(System.String[] names, System.Int32 count)
-    // Offset: 0x1CA1348
+    // Offset: 0x1BAF014
     static uint64_t ovr_Achievements_GetProgressByName(::Array<::Il2CppString*>* names, int count);
     // static public System.UInt64 ovr_Achievements_Unlock(System.String name)
-    // Offset: 0x1CA15B4
+    // Offset: 0x1BAF280
     static uint64_t ovr_Achievements_Unlock(::Il2CppString* name);
     // static private System.UInt64 ovr_Achievements_Unlock_Native(System.IntPtr name)
-    // Offset: 0x1CA7870
+    // Offset: 0x1BB5D18
     static uint64_t ovr_Achievements_Unlock_Native(System::IntPtr name);
     // static public System.UInt64 ovr_Application_ExecuteCoordinatedLaunch(System.UInt64 appID, System.UInt64 roomID)
-    // Offset: 0x1CA78F0
+    // Offset: 0x1BB5D98
     static uint64_t ovr_Application_ExecuteCoordinatedLaunch(uint64_t appID, uint64_t roomID);
     // static public System.UInt64 ovr_Application_GetInstalledApplications()
-    // Offset: 0x1CA7980
+    // Offset: 0x1BB5E28
     static uint64_t ovr_Application_GetInstalledApplications();
     // static public System.UInt64 ovr_Application_GetVersion()
-    // Offset: 0x1CA1DD0
+    // Offset: 0x1BB003C
     static uint64_t ovr_Application_GetVersion();
     // static public System.UInt64 ovr_Application_LaunchOtherApp(System.UInt64 appID, System.IntPtr deeplink_options)
-    // Offset: 0x1CA1FE0
+    // Offset: 0x1BB024C
     static uint64_t ovr_Application_LaunchOtherApp(uint64_t appID, System::IntPtr deeplink_options);
     // static public System.UInt64 ovr_ApplicationLifecycle_GetRegisteredPIDs()
-    // Offset: 0x1CA79F4
+    // Offset: 0x1BB5E9C
     static uint64_t ovr_ApplicationLifecycle_GetRegisteredPIDs();
     // static public System.UInt64 ovr_ApplicationLifecycle_GetSessionKey()
-    // Offset: 0x1CA7A68
+    // Offset: 0x1BB5F10
     static uint64_t ovr_ApplicationLifecycle_GetSessionKey();
     // static public System.UInt64 ovr_ApplicationLifecycle_RegisterSessionKey(System.String sessionKey)
-    // Offset: 0x1CA7ADC
+    // Offset: 0x1BB5F84
     static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey(::Il2CppString* sessionKey);
     // static private System.UInt64 ovr_ApplicationLifecycle_RegisterSessionKey_Native(System.IntPtr sessionKey)
-    // Offset: 0x1CA7B84
+    // Offset: 0x1BB602C
     static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey_Native(System::IntPtr sessionKey);
     // static public System.UInt64 ovr_AssetFile_Delete(System.UInt64 assetFileID)
-    // Offset: 0x1CA2640
+    // Offset: 0x1BB09C8
     static uint64_t ovr_AssetFile_Delete(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DeleteById(System.UInt64 assetFileID)
-    // Offset: 0x1CA27D8
+    // Offset: 0x1BB0B60
     static uint64_t ovr_AssetFile_DeleteById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DeleteByName(System.String assetFileName)
-    // Offset: 0x1CA2970
+    // Offset: 0x1BB0CF8
     static uint64_t ovr_AssetFile_DeleteByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_DeleteByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1CA7C04
+    // Offset: 0x1BB60AC
     static uint64_t ovr_AssetFile_DeleteByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_AssetFile_Download(System.UInt64 assetFileID)
-    // Offset: 0x1CA2B30
+    // Offset: 0x1BB0EB8
     static uint64_t ovr_AssetFile_Download(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadById(System.UInt64 assetFileID)
-    // Offset: 0x1CA2CC8
+    // Offset: 0x1BB1050
     static uint64_t ovr_AssetFile_DownloadById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadByName(System.String assetFileName)
-    // Offset: 0x1CA2E60
+    // Offset: 0x1BB11E8
     static uint64_t ovr_AssetFile_DownloadByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_DownloadByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1CA7C84
+    // Offset: 0x1BB612C
     static uint64_t ovr_AssetFile_DownloadByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_AssetFile_DownloadCancel(System.UInt64 assetFileID)
-    // Offset: 0x1CA3020
+    // Offset: 0x1BB13A8
     static uint64_t ovr_AssetFile_DownloadCancel(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadCancelById(System.UInt64 assetFileID)
-    // Offset: 0x1CA31B8
+    // Offset: 0x1BB1540
     static uint64_t ovr_AssetFile_DownloadCancelById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadCancelByName(System.String assetFileName)
-    // Offset: 0x1CA3350
+    // Offset: 0x1BB16D8
     static uint64_t ovr_AssetFile_DownloadCancelByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_DownloadCancelByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1CA7D04
+    // Offset: 0x1BB61AC
     static uint64_t ovr_AssetFile_DownloadCancelByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_AssetFile_GetList()
-    // Offset: 0x1CA3500
+    // Offset: 0x1BB1888
     static uint64_t ovr_AssetFile_GetList();
     // static public System.UInt64 ovr_AssetFile_Status(System.UInt64 assetFileID)
-    // Offset: 0x1CA368C
+    // Offset: 0x1BB1A14
     static uint64_t ovr_AssetFile_Status(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_StatusById(System.UInt64 assetFileID)
-    // Offset: 0x1CA3824
+    // Offset: 0x1BB1BAC
     static uint64_t ovr_AssetFile_StatusById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_StatusByName(System.String assetFileName)
-    // Offset: 0x1CA39BC
+    // Offset: 0x1BB1D44
     static uint64_t ovr_AssetFile_StatusByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_StatusByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1CA7D84
+    // Offset: 0x1BB622C
     static uint64_t ovr_AssetFile_StatusByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_Avatar_UpdateMetaData(System.String avatarMetaData, System.String imageFilePath)
-    // Offset: 0x1CA7E04
+    // Offset: 0x1BB62AC
     static uint64_t ovr_Avatar_UpdateMetaData(::Il2CppString* avatarMetaData, ::Il2CppString* imageFilePath);
     // static private System.UInt64 ovr_Avatar_UpdateMetaData_Native(System.IntPtr avatarMetaData, System.IntPtr imageFilePath)
-    // Offset: 0x1CA7ED8
+    // Offset: 0x1BB6380
     static uint64_t ovr_Avatar_UpdateMetaData_Native(System::IntPtr avatarMetaData, System::IntPtr imageFilePath);
     // static public System.UInt64 ovr_Cal_FinalizeApplication(System.UInt64 groupingObject, System.UInt64[] userIDs, System.Int32 numUserIDs, System.UInt64 finalized_application_ID)
-    // Offset: 0x1CA7F68
+    // Offset: 0x1BB6410
     static uint64_t ovr_Cal_FinalizeApplication(uint64_t groupingObject, ::Array<uint64_t>* userIDs, int numUserIDs, uint64_t finalized_application_ID);
     // static public System.UInt64 ovr_Cal_GetSuggestedApplications(System.UInt64 groupingObject, System.UInt64[] userIDs, System.Int32 numUserIDs)
-    // Offset: 0x1CA8018
+    // Offset: 0x1BB64C0
     static uint64_t ovr_Cal_GetSuggestedApplications(uint64_t groupingObject, ::Array<uint64_t>* userIDs, int numUserIDs);
     // static public System.UInt64 ovr_Cal_ProposeApplication(System.UInt64 groupingObject, System.UInt64[] userIDs, System.Int32 numUserIDs, System.UInt64 proposed_application_ID)
-    // Offset: 0x1CA80B8
+    // Offset: 0x1BB6560
     static uint64_t ovr_Cal_ProposeApplication(uint64_t groupingObject, ::Array<uint64_t>* userIDs, int numUserIDs, uint64_t proposed_application_ID);
     // static public System.UInt64 ovr_Challenges_Create(System.String leaderboardName, System.IntPtr challengeOptions)
-    // Offset: 0x1CA8168
+    // Offset: 0x1BB6610
     static uint64_t ovr_Challenges_Create(::Il2CppString* leaderboardName, System::IntPtr challengeOptions);
     // static private System.UInt64 ovr_Challenges_Create_Native(System.IntPtr leaderboardName, System.IntPtr challengeOptions)
-    // Offset: 0x1CA8220
+    // Offset: 0x1BB66C8
     static uint64_t ovr_Challenges_Create_Native(System::IntPtr leaderboardName, System::IntPtr challengeOptions);
     // static public System.UInt64 ovr_Challenges_DeclineInvite(System.UInt64 challengeID)
-    // Offset: 0x1CA82B0
+    // Offset: 0x1BB6758
     static uint64_t ovr_Challenges_DeclineInvite(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_Delete(System.UInt64 challengeID)
-    // Offset: 0x1CA8330
+    // Offset: 0x1BB67D8
     static uint64_t ovr_Challenges_Delete(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_Get(System.UInt64 challengeID)
-    // Offset: 0x1CA83B0
+    // Offset: 0x1BB6858
     static uint64_t ovr_Challenges_Get(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_GetEntries(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1CA8430
+    // Offset: 0x1BB68D8
     static uint64_t ovr_Challenges_GetEntries(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public System.UInt64 ovr_Challenges_GetEntriesAfterRank(System.UInt64 challengeID, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1CA84D8
+    // Offset: 0x1BB6980
     static uint64_t ovr_Challenges_GetEntriesAfterRank(uint64_t challengeID, int limit, uint64_t afterRank);
     // static public System.UInt64 ovr_Challenges_GetEntriesByIds(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
-    // Offset: 0x1CA8570
+    // Offset: 0x1BB6A18
     static uint64_t ovr_Challenges_GetEntriesByIds(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs, uint userIDLength);
     // static public System.UInt64 ovr_Challenges_GetList(System.IntPtr challengeOptions, System.Int32 limit)
-    // Offset: 0x1CA8628
+    // Offset: 0x1BB6AD0
     static uint64_t ovr_Challenges_GetList(System::IntPtr challengeOptions, int limit);
     // static public System.UInt64 ovr_Challenges_GetNextChallenges(System.IntPtr handle)
-    // Offset: 0x1CA86B8
+    // Offset: 0x1BB6B60
     static uint64_t ovr_Challenges_GetNextChallenges(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_GetNextEntries(System.IntPtr handle)
-    // Offset: 0x1CA8738
+    // Offset: 0x1BB6BE0
     static uint64_t ovr_Challenges_GetNextEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_GetPreviousChallenges(System.IntPtr handle)
-    // Offset: 0x1CA87B8
+    // Offset: 0x1BB6C60
     static uint64_t ovr_Challenges_GetPreviousChallenges(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_GetPreviousEntries(System.IntPtr handle)
-    // Offset: 0x1CA8838
+    // Offset: 0x1BB6CE0
     static uint64_t ovr_Challenges_GetPreviousEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_Join(System.UInt64 challengeID)
-    // Offset: 0x1CA88B8
+    // Offset: 0x1BB6D60
     static uint64_t ovr_Challenges_Join(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_Leave(System.UInt64 challengeID)
-    // Offset: 0x1CA8938
+    // Offset: 0x1BB6DE0
     static uint64_t ovr_Challenges_Leave(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_UpdateInfo(System.UInt64 challengeID, System.IntPtr challengeOptions)
-    // Offset: 0x1CA89B8
+    // Offset: 0x1BB6E60
     static uint64_t ovr_Challenges_UpdateInfo(uint64_t challengeID, System::IntPtr challengeOptions);
     // static public System.UInt64 ovr_CloudStorage_Delete(System.String bucket, System.String key)
-    // Offset: 0x1CA8A48
+    // Offset: 0x1BB6EF0
     static uint64_t ovr_CloudStorage_Delete(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_Delete_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1CA8B1C
+    // Offset: 0x1BB6FC4
     static uint64_t ovr_CloudStorage_Delete_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_Load(System.String bucket, System.String key)
-    // Offset: 0x1CA8BAC
+    // Offset: 0x1BB7054
     static uint64_t ovr_CloudStorage_Load(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_Load_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1CA8C80
+    // Offset: 0x1BB7128
     static uint64_t ovr_CloudStorage_Load_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_LoadBucketMetadata(System.String bucket)
-    // Offset: 0x1CA8D10
+    // Offset: 0x1BB71B8
     static uint64_t ovr_CloudStorage_LoadBucketMetadata(::Il2CppString* bucket);
     // static private System.UInt64 ovr_CloudStorage_LoadBucketMetadata_Native(System.IntPtr bucket)
-    // Offset: 0x1CA8DB8
+    // Offset: 0x1BB7260
     static uint64_t ovr_CloudStorage_LoadBucketMetadata_Native(System::IntPtr bucket);
     // static public System.UInt64 ovr_CloudStorage_LoadConflictMetadata(System.String bucket, System.String key)
-    // Offset: 0x1CA8E38
+    // Offset: 0x1BB72E0
     static uint64_t ovr_CloudStorage_LoadConflictMetadata(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_LoadConflictMetadata_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1CA8F0C
+    // Offset: 0x1BB73B4
     static uint64_t ovr_CloudStorage_LoadConflictMetadata_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_LoadHandle(System.String handle)
-    // Offset: 0x1CA8F9C
+    // Offset: 0x1BB7444
     static uint64_t ovr_CloudStorage_LoadHandle(::Il2CppString* handle);
     // static private System.UInt64 ovr_CloudStorage_LoadHandle_Native(System.IntPtr handle)
-    // Offset: 0x1CA9044
+    // Offset: 0x1BB74EC
     static uint64_t ovr_CloudStorage_LoadHandle_Native(System::IntPtr handle);
     // static public System.UInt64 ovr_CloudStorage_LoadMetadata(System.String bucket, System.String key)
-    // Offset: 0x1CA90C4
+    // Offset: 0x1BB756C
     static uint64_t ovr_CloudStorage_LoadMetadata(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_LoadMetadata_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1CA9198
+    // Offset: 0x1BB7640
     static uint64_t ovr_CloudStorage_LoadMetadata_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_ResolveKeepLocal(System.String bucket, System.String key, System.String remoteHandle)
-    // Offset: 0x1CA9228
+    // Offset: 0x1BB76D0
     static uint64_t ovr_CloudStorage_ResolveKeepLocal(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
     // static private System.UInt64 ovr_CloudStorage_ResolveKeepLocal_Native(System.IntPtr bucket, System.IntPtr key, System.IntPtr remoteHandle)
-    // Offset: 0x1CA931C
+    // Offset: 0x1BB77C4
     static uint64_t ovr_CloudStorage_ResolveKeepLocal_Native(System::IntPtr bucket, System::IntPtr key, System::IntPtr remoteHandle);
     // static public System.UInt64 ovr_CloudStorage_ResolveKeepRemote(System.String bucket, System.String key, System.String remoteHandle)
-    // Offset: 0x1CA93B4
+    // Offset: 0x1BB785C
     static uint64_t ovr_CloudStorage_ResolveKeepRemote(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
     // static private System.UInt64 ovr_CloudStorage_ResolveKeepRemote_Native(System.IntPtr bucket, System.IntPtr key, System.IntPtr remoteHandle)
-    // Offset: 0x1CA94A8
+    // Offset: 0x1BB7950
     static uint64_t ovr_CloudStorage_ResolveKeepRemote_Native(System::IntPtr bucket, System::IntPtr key, System::IntPtr remoteHandle);
     // static public System.UInt64 ovr_CloudStorage_Save(System.String bucket, System.String key, System.Byte[] data, System.UInt32 dataSize, System.Int64 counter, System.String extraData)
-    // Offset: 0x1CA9540
+    // Offset: 0x1BB79E8
     static uint64_t ovr_CloudStorage_Save(::Il2CppString* bucket, ::Il2CppString* key, ::Array<uint8_t>* data, uint dataSize, int64_t counter, ::Il2CppString* extraData);
     // static private System.UInt64 ovr_CloudStorage_Save_Native(System.IntPtr bucket, System.IntPtr key, System.Byte[] data, System.UInt32 dataSize, System.Int64 counter, System.IntPtr extraData)
-    // Offset: 0x1CA965C
+    // Offset: 0x1BB7B04
     static uint64_t ovr_CloudStorage_Save_Native(System::IntPtr bucket, System::IntPtr key, ::Array<uint8_t>* data, uint dataSize, int64_t counter, System::IntPtr extraData);
     // static public System.UInt64 ovr_CloudStorage2_GetUserDirectoryPath()
-    // Offset: 0x1CA9724
+    // Offset: 0x1BB7BCC
     static uint64_t ovr_CloudStorage2_GetUserDirectoryPath();
     // static public System.UInt64 ovr_Colocation_GetCurrentMapUuid()
-    // Offset: 0x1CA9798
+    // Offset: 0x1BB7C40
     static uint64_t ovr_Colocation_GetCurrentMapUuid();
     // static public System.UInt64 ovr_Colocation_RequestMap(System.String uuid)
-    // Offset: 0x1CA980C
+    // Offset: 0x1BB7CB4
     static uint64_t ovr_Colocation_RequestMap(::Il2CppString* uuid);
     // static private System.UInt64 ovr_Colocation_RequestMap_Native(System.IntPtr uuid)
-    // Offset: 0x1CA98B4
+    // Offset: 0x1BB7D5C
     static uint64_t ovr_Colocation_RequestMap_Native(System::IntPtr uuid);
     // static public System.UInt64 ovr_Colocation_ShareMap(System.String uuid)
-    // Offset: 0x1CA9934
+    // Offset: 0x1BB7DDC
     static uint64_t ovr_Colocation_ShareMap(::Il2CppString* uuid);
     // static private System.UInt64 ovr_Colocation_ShareMap_Native(System.IntPtr uuid)
-    // Offset: 0x1CA99DC
+    // Offset: 0x1BB7E84
     static uint64_t ovr_Colocation_ShareMap_Native(System::IntPtr uuid);
     // static public System.UInt64 ovr_Entitlement_GetIsViewerEntitled()
-    // Offset: 0x1CA9A5C
+    // Offset: 0x1BB7F04
     static uint64_t ovr_Entitlement_GetIsViewerEntitled();
     // static public System.UInt64 ovr_GraphAPI_Get(System.String url)
-    // Offset: 0x1CA9AD0
+    // Offset: 0x1BB7F78
     static uint64_t ovr_GraphAPI_Get(::Il2CppString* url);
     // static private System.UInt64 ovr_GraphAPI_Get_Native(System.IntPtr url)
-    // Offset: 0x1CA9B78
+    // Offset: 0x1BB8020
     static uint64_t ovr_GraphAPI_Get_Native(System::IntPtr url);
     // static public System.UInt64 ovr_GraphAPI_Post(System.String url)
-    // Offset: 0x1CA9BF8
+    // Offset: 0x1BB80A0
     static uint64_t ovr_GraphAPI_Post(::Il2CppString* url);
     // static private System.UInt64 ovr_GraphAPI_Post_Native(System.IntPtr url)
-    // Offset: 0x1CA9CA0
+    // Offset: 0x1BB8148
     static uint64_t ovr_GraphAPI_Post_Native(System::IntPtr url);
+    // static public System.UInt64 ovr_GroupPresence_LaunchInvitePanel(System.IntPtr options)
+    // Offset: 0x1BB81C4
+    static uint64_t ovr_GroupPresence_LaunchInvitePanel(System::IntPtr options);
     // static public System.UInt64 ovr_HTTP_Get(System.String url)
-    // Offset: 0x1CA9D1C
+    // Offset: 0x1BB8244
     static uint64_t ovr_HTTP_Get(::Il2CppString* url);
     // static private System.UInt64 ovr_HTTP_Get_Native(System.IntPtr url)
-    // Offset: 0x1CA9DC4
+    // Offset: 0x1BB82EC
     static uint64_t ovr_HTTP_Get_Native(System::IntPtr url);
     // static public System.UInt64 ovr_HTTP_GetToFile(System.String url, System.String diskFile)
-    // Offset: 0x1CA9E44
+    // Offset: 0x1BB836C
     static uint64_t ovr_HTTP_GetToFile(::Il2CppString* url, ::Il2CppString* diskFile);
     // static private System.UInt64 ovr_HTTP_GetToFile_Native(System.IntPtr url, System.IntPtr diskFile)
-    // Offset: 0x1CA9F18
+    // Offset: 0x1BB8440
     static uint64_t ovr_HTTP_GetToFile_Native(System::IntPtr url, System::IntPtr diskFile);
     // static public System.UInt64 ovr_HTTP_MultiPartPost(System.String url, System.String filepath_param_name, System.String filepath, System.String access_token, Oculus.Platform.CAPI/ovrKeyValuePair[] post_params)
-    // Offset: 0x1CA9FA8
+    // Offset: 0x1BB84D0
     static uint64_t ovr_HTTP_MultiPartPost(::Il2CppString* url, ::Il2CppString* filepath_param_name, ::Il2CppString* filepath, ::Il2CppString* access_token, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* post_params);
     // static private System.UInt64 ovr_HTTP_MultiPartPost_Native(System.IntPtr url, System.IntPtr filepath_param_name, System.IntPtr filepath, System.IntPtr access_token, Oculus.Platform.CAPI/ovrKeyValuePair[] post_params, System.UIntPtr numItems)
-    // Offset: 0x1CAA104
+    // Offset: 0x1BB862C
     static uint64_t ovr_HTTP_MultiPartPost_Native(System::IntPtr url, System::IntPtr filepath_param_name, System::IntPtr filepath, System::IntPtr access_token, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* post_params, System::UIntPtr numItems);
     // static public System.UInt64 ovr_HTTP_Post(System.String url)
-    // Offset: 0x1CAA290
+    // Offset: 0x1BB87B8
     static uint64_t ovr_HTTP_Post(::Il2CppString* url);
     // static private System.UInt64 ovr_HTTP_Post_Native(System.IntPtr url)
-    // Offset: 0x1CAA338
+    // Offset: 0x1BB8860
     static uint64_t ovr_HTTP_Post_Native(System::IntPtr url);
     // static public System.UInt64 ovr_IAP_ConsumePurchase(System.String sku)
-    // Offset: 0x1CAA3B8
+    // Offset: 0x1BB88E0
     static uint64_t ovr_IAP_ConsumePurchase(::Il2CppString* sku);
     // static private System.UInt64 ovr_IAP_ConsumePurchase_Native(System.IntPtr sku)
-    // Offset: 0x1CAA460
+    // Offset: 0x1BB8988
     static uint64_t ovr_IAP_ConsumePurchase_Native(System::IntPtr sku);
     // static public System.UInt64 ovr_IAP_GetProductsBySKU(System.String[] skus, System.Int32 count)
-    // Offset: 0x1CAA4E0
+    // Offset: 0x1BB8A08
     static uint64_t ovr_IAP_GetProductsBySKU(::Array<::Il2CppString*>* skus, int count);
     // static public System.UInt64 ovr_IAP_GetViewerPurchases()
-    // Offset: 0x1CAA634
+    // Offset: 0x1BB8B5C
     static uint64_t ovr_IAP_GetViewerPurchases();
     // static public System.UInt64 ovr_IAP_GetViewerPurchasesDurableCache()
-    // Offset: 0x1CAA6A8
+    // Offset: 0x1BB8BD0
     static uint64_t ovr_IAP_GetViewerPurchasesDurableCache();
     // static public System.UInt64 ovr_IAP_LaunchCheckoutFlow(System.String sku)
-    // Offset: 0x1CAA71C
+    // Offset: 0x1BB8C44
     static uint64_t ovr_IAP_LaunchCheckoutFlow(::Il2CppString* sku);
     // static private System.UInt64 ovr_IAP_LaunchCheckoutFlow_Native(System.IntPtr sku)
-    // Offset: 0x1CAA7C4
+    // Offset: 0x1BB8CEC
     static uint64_t ovr_IAP_LaunchCheckoutFlow_Native(System::IntPtr sku);
     // static public System.UInt64 ovr_LanguagePack_GetCurrent()
-    // Offset: 0x1CAA844
+    // Offset: 0x1BB8D6C
     static uint64_t ovr_LanguagePack_GetCurrent();
     // static public System.UInt64 ovr_LanguagePack_SetCurrent(System.String tag)
-    // Offset: 0x1CAA8B8
+    // Offset: 0x1BB8DE0
     static uint64_t ovr_LanguagePack_SetCurrent(::Il2CppString* tag);
     // static private System.UInt64 ovr_LanguagePack_SetCurrent_Native(System.IntPtr tag)
-    // Offset: 0x1CAA960
+    // Offset: 0x1BB8E88
     static uint64_t ovr_LanguagePack_SetCurrent_Native(System::IntPtr tag);
+    // static public System.UInt64 ovr_Leaderboard_Get(System.String leaderboardName)
+    // Offset: 0x1BB8F08
+    static uint64_t ovr_Leaderboard_Get(::Il2CppString* leaderboardName);
+    // static private System.UInt64 ovr_Leaderboard_Get_Native(System.IntPtr leaderboardName)
+    // Offset: 0x1BB8FB0
+    static uint64_t ovr_Leaderboard_Get_Native(System::IntPtr leaderboardName);
     // static public System.UInt64 ovr_Leaderboard_GetEntries(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1CAA9E0
+    // Offset: 0x1BB9030
     static uint64_t ovr_Leaderboard_GetEntries(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static private System.UInt64 ovr_Leaderboard_GetEntries_Native(System.IntPtr leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1CAAAB0
+    // Offset: 0x1BB9100
     static uint64_t ovr_Leaderboard_GetEntries_Native(System::IntPtr leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public System.UInt64 ovr_Leaderboard_GetEntriesAfterRank(System.String leaderboardName, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1CAAB58
+    // Offset: 0x1BB91A8
     static uint64_t ovr_Leaderboard_GetEntriesAfterRank(::Il2CppString* leaderboardName, int limit, uint64_t afterRank);
     // static private System.UInt64 ovr_Leaderboard_GetEntriesAfterRank_Native(System.IntPtr leaderboardName, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1CAAC18
+    // Offset: 0x1BB9268
     static uint64_t ovr_Leaderboard_GetEntriesAfterRank_Native(System::IntPtr leaderboardName, int limit, uint64_t afterRank);
     // static public System.UInt64 ovr_Leaderboard_GetEntriesByIds(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
-    // Offset: 0x1CAACB0
+    // Offset: 0x1BB9300
     static uint64_t ovr_Leaderboard_GetEntriesByIds(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs, uint userIDLength);
     // static private System.UInt64 ovr_Leaderboard_GetEntriesByIds_Native(System.IntPtr leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
-    // Offset: 0x1CAAD88
+    // Offset: 0x1BB93D8
     static uint64_t ovr_Leaderboard_GetEntriesByIds_Native(System::IntPtr leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs, uint userIDLength);
     // static public System.UInt64 ovr_Leaderboard_GetNextEntries(System.IntPtr handle)
-    // Offset: 0x1CAAE40
+    // Offset: 0x1BB9490
     static uint64_t ovr_Leaderboard_GetNextEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Leaderboard_GetPreviousEntries(System.IntPtr handle)
-    // Offset: 0x1CAAEC0
+    // Offset: 0x1BB9510
     static uint64_t ovr_Leaderboard_GetPreviousEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Leaderboard_WriteEntry(System.String leaderboardName, System.Int64 score, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
-    // Offset: 0x1CAAF40
+    // Offset: 0x1BB9590
     static uint64_t ovr_Leaderboard_WriteEntry(::Il2CppString* leaderboardName, int64_t score, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
     // static private System.UInt64 ovr_Leaderboard_WriteEntry_Native(System.IntPtr leaderboardName, System.Int64 score, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
-    // Offset: 0x1CAB018
+    // Offset: 0x1BB9668
     static uint64_t ovr_Leaderboard_WriteEntry_Native(System::IntPtr leaderboardName, int64_t score, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
+    // static public System.UInt64 ovr_Leaderboard_WriteEntryWithSupplementaryMetric(System.String leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
+    // Offset: 0x1BB9720
+    static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric(::Il2CppString* leaderboardName, int64_t score, int64_t supplementaryMetric, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
+    // static private System.UInt64 ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native(System.IntPtr leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
+    // Offset: 0x1BB9808
+    static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native(System::IntPtr leaderboardName, int64_t score, int64_t supplementaryMetric, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
     // static public System.UInt64 ovr_Livestreaming_GetStatus()
-    // Offset: 0x1CAB0D0
+    // Offset: 0x1BB98D0
     static uint64_t ovr_Livestreaming_GetStatus();
     // static public System.UInt64 ovr_Livestreaming_IsAllowedForApplication(System.String packageName)
-    // Offset: 0x1CAB144
+    // Offset: 0x1BB9944
     static uint64_t ovr_Livestreaming_IsAllowedForApplication(::Il2CppString* packageName);
     // static private System.UInt64 ovr_Livestreaming_IsAllowedForApplication_Native(System.IntPtr packageName)
-    // Offset: 0x1CAB1EC
+    // Offset: 0x1BB99EC
     static uint64_t ovr_Livestreaming_IsAllowedForApplication_Native(System::IntPtr packageName);
+    // static public System.UInt64 ovr_Livestreaming_LaunchLivestreamingFlow()
+    // Offset: 0x1BB9A6C
+    static uint64_t ovr_Livestreaming_LaunchLivestreamingFlow();
     // static public System.UInt64 ovr_Livestreaming_PauseStream()
-    // Offset: 0x1CAB26C
+    // Offset: 0x1BB9AE0
     static uint64_t ovr_Livestreaming_PauseStream();
     // static public System.UInt64 ovr_Livestreaming_ResumeStream()
-    // Offset: 0x1CAB2E0
+    // Offset: 0x1BB9B54
     static uint64_t ovr_Livestreaming_ResumeStream();
     // static public System.UInt64 ovr_Livestreaming_StartPartyStream()
-    // Offset: 0x1CAB354
+    // Offset: 0x1BB9BC8
     static uint64_t ovr_Livestreaming_StartPartyStream();
     // static public System.UInt64 ovr_Livestreaming_StartStream(Oculus.Platform.LivestreamingAudience audience, Oculus.Platform.LivestreamingMicrophoneStatus micStatus)
-    // Offset: 0x1CAB3C8
+    // Offset: 0x1BB9C3C
     static uint64_t ovr_Livestreaming_StartStream(Oculus::Platform::LivestreamingAudience audience, Oculus::Platform::LivestreamingMicrophoneStatus micStatus);
     // static public System.UInt64 ovr_Livestreaming_StopPartyStream()
-    // Offset: 0x1CAB458
+    // Offset: 0x1BB9CCC
     static uint64_t ovr_Livestreaming_StopPartyStream();
     // static public System.UInt64 ovr_Livestreaming_StopStream()
-    // Offset: 0x1CAB4CC
+    // Offset: 0x1BB9D40
     static uint64_t ovr_Livestreaming_StopStream();
     // static public System.UInt64 ovr_Livestreaming_UpdateCommentsOverlayVisibility(System.Boolean isVisible)
-    // Offset: 0x1CAB540
+    // Offset: 0x1BB9DB4
     static uint64_t ovr_Livestreaming_UpdateCommentsOverlayVisibility(bool isVisible);
     // static public System.UInt64 ovr_Livestreaming_UpdateMicStatus(Oculus.Platform.LivestreamingMicrophoneStatus micStatus)
-    // Offset: 0x1CAB5C0
+    // Offset: 0x1BB9E34
     static uint64_t ovr_Livestreaming_UpdateMicStatus(Oculus::Platform::LivestreamingMicrophoneStatus micStatus);
     // static public System.UInt64 ovr_Matchmaking_Browse(System.String pool, System.IntPtr customQueryData)
-    // Offset: 0x1CAB640
+    // Offset: 0x1BB9EB4
     static uint64_t ovr_Matchmaking_Browse(::Il2CppString* pool, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_Browse_Native(System.IntPtr pool, System.IntPtr customQueryData)
-    // Offset: 0x1CAB6F8
+    // Offset: 0x1BB9F6C
     static uint64_t ovr_Matchmaking_Browse_Native(System::IntPtr pool, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_Browse2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CAB788
+    // Offset: 0x1BB9FFC
     static uint64_t ovr_Matchmaking_Browse2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_Browse2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CAB840
+    // Offset: 0x1BBA0B4
     static uint64_t ovr_Matchmaking_Browse2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_Cancel(System.String pool, System.String requestHash)
-    // Offset: 0x1CAB8D0
+    // Offset: 0x1BBA144
     static uint64_t ovr_Matchmaking_Cancel(::Il2CppString* pool, ::Il2CppString* requestHash);
     // static private System.UInt64 ovr_Matchmaking_Cancel_Native(System.IntPtr pool, System.IntPtr requestHash)
-    // Offset: 0x1CAB9A4
+    // Offset: 0x1BBA218
     static uint64_t ovr_Matchmaking_Cancel_Native(System::IntPtr pool, System::IntPtr requestHash);
     // static public System.UInt64 ovr_Matchmaking_Cancel2()
-    // Offset: 0x1CABA34
+    // Offset: 0x1BBA2A8
     static uint64_t ovr_Matchmaking_Cancel2();
     // static public System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, System.IntPtr customQueryData)
-    // Offset: 0x1CABAA8
+    // Offset: 0x1BBA31C
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom_Native(System.IntPtr pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, System.IntPtr customQueryData)
-    // Offset: 0x1CABB78
+    // Offset: 0x1BBA3EC
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom_Native(System::IntPtr pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CABC20
+    // Offset: 0x1BBA494
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CABCD8
+    // Offset: 0x1BBA54C
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_CreateRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x1CABD68
+    // Offset: 0x1BBA5DC
     static uint64_t ovr_Matchmaking_CreateRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates);
     // static private System.UInt64 ovr_Matchmaking_CreateRoom_Native(System.IntPtr pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x1CABE28
+    // Offset: 0x1BBA69C
     static uint64_t ovr_Matchmaking_CreateRoom_Native(System::IntPtr pool, uint maxUsers, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Matchmaking_CreateRoom2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CABEC0
+    // Offset: 0x1BBA734
     static uint64_t ovr_Matchmaking_CreateRoom2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_CreateRoom2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CABF78
+    // Offset: 0x1BBA7EC
     static uint64_t ovr_Matchmaking_CreateRoom2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_Enqueue(System.String pool, System.IntPtr customQueryData)
-    // Offset: 0x1CAC008
+    // Offset: 0x1BBA87C
     static uint64_t ovr_Matchmaking_Enqueue(::Il2CppString* pool, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_Enqueue_Native(System.IntPtr pool, System.IntPtr customQueryData)
-    // Offset: 0x1CAC0C0
+    // Offset: 0x1BBA934
     static uint64_t ovr_Matchmaking_Enqueue_Native(System::IntPtr pool, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_Enqueue2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CAC150
+    // Offset: 0x1BBA9C4
     static uint64_t ovr_Matchmaking_Enqueue2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_Enqueue2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CAC208
+    // Offset: 0x1BBAA7C
     static uint64_t ovr_Matchmaking_Enqueue2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_EnqueueRoom(System.UInt64 roomID, System.IntPtr customQueryData)
-    // Offset: 0x1CAC298
+    // Offset: 0x1BBAB0C
     static uint64_t ovr_Matchmaking_EnqueueRoom(uint64_t roomID, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_EnqueueRoom2(System.UInt64 roomID, System.IntPtr matchmakingOptions)
-    // Offset: 0x1CAC328
+    // Offset: 0x1BBAB9C
     static uint64_t ovr_Matchmaking_EnqueueRoom2(uint64_t roomID, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_GetAdminSnapshot()
-    // Offset: 0x1CAC3B8
+    // Offset: 0x1BBAC2C
     static uint64_t ovr_Matchmaking_GetAdminSnapshot();
     // static public System.UInt64 ovr_Matchmaking_GetStats(System.String pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
-    // Offset: 0x1CAC42C
+    // Offset: 0x1BBACA0
     static uint64_t ovr_Matchmaking_GetStats(::Il2CppString* pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
     // static private System.UInt64 ovr_Matchmaking_GetStats_Native(System.IntPtr pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
-    // Offset: 0x1CAC4EC
+    // Offset: 0x1BBAD60
     static uint64_t ovr_Matchmaking_GetStats_Native(System::IntPtr pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
     // static public System.UInt64 ovr_Matchmaking_JoinRoom(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x1CAC584
+    // Offset: 0x1BBADF8
     static uint64_t ovr_Matchmaking_JoinRoom(uint64_t roomID, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Matchmaking_ReportResultInsecure(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data)
-    // Offset: 0x1CAC614
+    // Offset: 0x1BBAE88
     static uint64_t ovr_Matchmaking_ReportResultInsecure(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data);
     // static private System.UInt64 ovr_Matchmaking_ReportResultInsecure_Native(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data, System.UIntPtr numItems)
-    // Offset: 0x1CAC6C8
+    // Offset: 0x1BBAF3C
     static uint64_t ovr_Matchmaking_ReportResultInsecure_Native(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data, System::UIntPtr numItems);
     // static public System.UInt64 ovr_Matchmaking_StartMatch(System.UInt64 roomID)
-    // Offset: 0x1CAC824
+    // Offset: 0x1BBB098
     static uint64_t ovr_Matchmaking_StartMatch(uint64_t roomID);
     // static public System.UInt64 ovr_Media_ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
-    // Offset: 0x1CAC8A4
+    // Offset: 0x1BBB118
     static uint64_t ovr_Media_ShareToFacebook(::Il2CppString* postTextSuggestion, ::Il2CppString* filePath, Oculus::Platform::MediaContentType contentType);
     // static private System.UInt64 ovr_Media_ShareToFacebook_Native(System.IntPtr postTextSuggestion, System.IntPtr filePath, Oculus.Platform.MediaContentType contentType)
-    // Offset: 0x1CAC980
+    // Offset: 0x1BBB1F4
     static uint64_t ovr_Media_ShareToFacebook_Native(System::IntPtr postTextSuggestion, System::IntPtr filePath, Oculus::Platform::MediaContentType contentType);
     // static public System.UInt64 ovr_NetSync_Connect(System.IntPtr connect_options)
-    // Offset: 0x1CACA18
+    // Offset: 0x1BBB28C
     static uint64_t ovr_NetSync_Connect(System::IntPtr connect_options);
     // static public System.UInt64 ovr_NetSync_Disconnect(System.Int64 connection_id)
-    // Offset: 0x1CACA98
+    // Offset: 0x1BBB30C
     static uint64_t ovr_NetSync_Disconnect(int64_t connection_id);
     // static public System.UInt64 ovr_NetSync_GetSessions(System.Int64 connection_id)
-    // Offset: 0x1CACB18
+    // Offset: 0x1BBB38C
     static uint64_t ovr_NetSync_GetSessions(int64_t connection_id);
     // static public System.UInt64 ovr_NetSync_GetVoipAttenuation(System.Int64 connection_id)
-    // Offset: 0x1CACB98
+    // Offset: 0x1BBB40C
     static uint64_t ovr_NetSync_GetVoipAttenuation(int64_t connection_id);
     // static public System.UInt64 ovr_NetSync_GetVoipAttenuationDefault()
-    // Offset: 0x1CACC18
+    // Offset: 0x1BBB48C
     static uint64_t ovr_NetSync_GetVoipAttenuationDefault();
     // static public System.UInt64 ovr_NetSync_SetVoipAttenuation(System.Int64 connection_id, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
-    // Offset: 0x1CACC8C
+    // Offset: 0x1BBB500
     static uint64_t ovr_NetSync_SetVoipAttenuation(int64_t connection_id, ::Array<float>* distances, ::Array<float>* decibels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipAttenuationModel(System.Int64 connection_id, System.String name, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
-    // Offset: 0x1CACD44
+    // Offset: 0x1BBB5B8
     static uint64_t ovr_NetSync_SetVoipAttenuationModel(int64_t connection_id, ::Il2CppString* name, ::Array<float>* distances, ::Array<float>* decibels, System::UIntPtr count);
     // static private System.UInt64 ovr_NetSync_SetVoipAttenuationModel_Native(System.Int64 connection_id, System.IntPtr name, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
-    // Offset: 0x1CACE20
+    // Offset: 0x1BBB694
     static uint64_t ovr_NetSync_SetVoipAttenuationModel_Native(int64_t connection_id, System::IntPtr name, ::Array<float>* distances, ::Array<float>* decibels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipChannelCfg(System.Int64 connection_id, System.String channel_name, System.String attnmodel, System.Boolean disable_spatialization)
-    // Offset: 0x1CACEE0
+    // Offset: 0x1BBB754
     static uint64_t ovr_NetSync_SetVoipChannelCfg(int64_t connection_id, ::Il2CppString* channel_name, ::Il2CppString* attnmodel, bool disable_spatialization);
     // static private System.UInt64 ovr_NetSync_SetVoipChannelCfg_Native(System.Int64 connection_id, System.IntPtr channel_name, System.IntPtr attnmodel, System.Boolean disable_spatialization)
-    // Offset: 0x1CACFCC
+    // Offset: 0x1BBB840
     static uint64_t ovr_NetSync_SetVoipChannelCfg_Native(int64_t connection_id, System::IntPtr channel_name, System::IntPtr attnmodel, bool disable_spatialization);
     // static public System.UInt64 ovr_NetSync_SetVoipGroup(System.Int64 connection_id, System.String group_id)
-    // Offset: 0x1CAD074
+    // Offset: 0x1BBB8E8
     static uint64_t ovr_NetSync_SetVoipGroup(int64_t connection_id, ::Il2CppString* group_id);
     // static private System.UInt64 ovr_NetSync_SetVoipGroup_Native(System.Int64 connection_id, System.IntPtr group_id)
-    // Offset: 0x1CAD130
+    // Offset: 0x1BBB9A4
     static uint64_t ovr_NetSync_SetVoipGroup_Native(int64_t connection_id, System::IntPtr group_id);
     // static public System.UInt64 ovr_NetSync_SetVoipListentoChannels(System.Int64 connection_id, System.String[] listento_channels, System.UIntPtr count)
-    // Offset: 0x1CAD1C0
+    // Offset: 0x1BBBA34
     static uint64_t ovr_NetSync_SetVoipListentoChannels(int64_t connection_id, ::Array<::Il2CppString*>* listento_channels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipMicSource(System.Int64 connection_id, Oculus.Platform.NetSyncVoipMicSource mic_source)
-    // Offset: 0x1CAD324
+    // Offset: 0x1BBBB98
     static uint64_t ovr_NetSync_SetVoipMicSource(int64_t connection_id, Oculus::Platform::NetSyncVoipMicSource mic_source);
     // static public System.UInt64 ovr_NetSync_SetVoipSessionMuted(System.Int64 connection_id, System.UInt64 session_id, System.Boolean muted)
-    // Offset: 0x1CAD3B4
+    // Offset: 0x1BBBC28
     static uint64_t ovr_NetSync_SetVoipSessionMuted(int64_t connection_id, uint64_t session_id, bool muted);
     // static public System.UInt64 ovr_NetSync_SetVoipSpeaktoChannels(System.Int64 connection_id, System.String[] speakto_channels, System.UIntPtr count)
-    // Offset: 0x1CAD44C
+    // Offset: 0x1BBBCC0
     static uint64_t ovr_NetSync_SetVoipSpeaktoChannels(int64_t connection_id, ::Array<::Il2CppString*>* speakto_channels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipStreamMode(System.Int64 connection_id, System.UInt64 sessionId, Oculus.Platform.NetSyncVoipStreamMode streamMode)
-    // Offset: 0x1CAD5B0
+    // Offset: 0x1BBBE24
     static uint64_t ovr_NetSync_SetVoipStreamMode(int64_t connection_id, uint64_t sessionId, Oculus::Platform::NetSyncVoipStreamMode streamMode);
     // static public System.UInt64 ovr_Notification_GetRoomInvites()
-    // Offset: 0x1CAD648
+    // Offset: 0x1BBBEBC
     static uint64_t ovr_Notification_GetRoomInvites();
     // static public System.UInt64 ovr_Notification_MarkAsRead(System.UInt64 notificationID)
-    // Offset: 0x1CAD6BC
+    // Offset: 0x1BBBF30
     static uint64_t ovr_Notification_MarkAsRead(uint64_t notificationID);
     // static public System.UInt64 ovr_Party_Create()
-    // Offset: 0x1CAD73C
+    // Offset: 0x1BBBFB0
     static uint64_t ovr_Party_Create();
     // static public System.UInt64 ovr_Party_GatherInApplication(System.UInt64 partyID, System.UInt64 appID)
-    // Offset: 0x1CAD7B0
+    // Offset: 0x1BBC024
     static uint64_t ovr_Party_GatherInApplication(uint64_t partyID, uint64_t appID);
     // static public System.UInt64 ovr_Party_Get(System.UInt64 partyID)
-    // Offset: 0x1CAD840
+    // Offset: 0x1BBC0B4
     static uint64_t ovr_Party_Get(uint64_t partyID);
     // static public System.UInt64 ovr_Party_GetCurrent()
-    // Offset: 0x1CAD8C0
+    // Offset: 0x1BBC134
     static uint64_t ovr_Party_GetCurrent();
     // static public System.UInt64 ovr_Party_GetCurrentForUser(System.UInt64 userID)
-    // Offset: 0x1CAD934
+    // Offset: 0x1BBC1A8
     static uint64_t ovr_Party_GetCurrentForUser(uint64_t userID);
     // static public System.UInt64 ovr_Party_Invite(System.UInt64 partyID, System.UInt64 userID)
-    // Offset: 0x1CAD9B4
+    // Offset: 0x1BBC228
     static uint64_t ovr_Party_Invite(uint64_t partyID, uint64_t userID);
     // static public System.UInt64 ovr_Party_Join(System.UInt64 partyID)
-    // Offset: 0x1CADA40
+    // Offset: 0x1BBC2B4
     static uint64_t ovr_Party_Join(uint64_t partyID);
     // static public System.UInt64 ovr_Party_Leave(System.UInt64 partyID)
-    // Offset: 0x1CADAC0
+    // Offset: 0x1BBC334
     static uint64_t ovr_Party_Leave(uint64_t partyID);
     // static public System.UInt64 ovr_RichPresence_Clear()
-    // Offset: 0x1CADB40
+    // Offset: 0x1BBC3B4
     static uint64_t ovr_RichPresence_Clear();
     // static public System.UInt64 ovr_RichPresence_GetDestinations()
-    // Offset: 0x1CADBB4
+    // Offset: 0x1BBC428
     static uint64_t ovr_RichPresence_GetDestinations();
     // static public System.UInt64 ovr_RichPresence_Set(System.IntPtr richPresenceOptions)
-    // Offset: 0x1CADC28
+    // Offset: 0x1BBC49C
     static uint64_t ovr_RichPresence_Set(System::IntPtr richPresenceOptions);
+    // static public System.UInt64 ovr_RichPresence_SetDestination(System.String api_name)
+    // Offset: 0x1BBC51C
+    static uint64_t ovr_RichPresence_SetDestination(::Il2CppString* api_name);
+    // static private System.UInt64 ovr_RichPresence_SetDestination_Native(System.IntPtr api_name)
+    // Offset: 0x1BBC5C4
+    static uint64_t ovr_RichPresence_SetDestination_Native(System::IntPtr api_name);
+    // static public System.UInt64 ovr_RichPresence_SetIsJoinable(System.Boolean is_joinable)
+    // Offset: 0x1BBC644
+    static uint64_t ovr_RichPresence_SetIsJoinable(bool is_joinable);
+    // static public System.UInt64 ovr_RichPresence_SetLobbySession(System.String id)
+    // Offset: 0x1BBC6C4
+    static uint64_t ovr_RichPresence_SetLobbySession(::Il2CppString* id);
+    // static private System.UInt64 ovr_RichPresence_SetLobbySession_Native(System.IntPtr id)
+    // Offset: 0x1BBC76C
+    static uint64_t ovr_RichPresence_SetLobbySession_Native(System::IntPtr id);
+    // static public System.UInt64 ovr_RichPresence_SetMatchSession(System.String id)
+    // Offset: 0x1BBC7EC
+    static uint64_t ovr_RichPresence_SetMatchSession(::Il2CppString* id);
+    // static private System.UInt64 ovr_RichPresence_SetMatchSession_Native(System.IntPtr id)
+    // Offset: 0x1BBC894
+    static uint64_t ovr_RichPresence_SetMatchSession_Native(System::IntPtr id);
     // static public System.UInt64 ovr_Room_CreateAndJoinPrivate(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x1CADCA8
+    // Offset: 0x1BBC914
     static uint64_t ovr_Room_CreateAndJoinPrivate(Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Room_CreateAndJoinPrivate2(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, System.IntPtr roomOptions)
-    // Offset: 0x1CADD40
+    // Offset: 0x1BBC9AC
     static uint64_t ovr_Room_CreateAndJoinPrivate2(Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, System::IntPtr roomOptions);
     // static public System.UInt64 ovr_Room_Get(System.UInt64 roomID)
-    // Offset: 0x1CADDD8
+    // Offset: 0x1BBCA44
     static uint64_t ovr_Room_Get(uint64_t roomID);
     // static public System.UInt64 ovr_Room_GetCurrent()
-    // Offset: 0x1CADE58
+    // Offset: 0x1BBCAC4
     static uint64_t ovr_Room_GetCurrent();
     // static public System.UInt64 ovr_Room_GetCurrentForUser(System.UInt64 userID)
-    // Offset: 0x1CADECC
+    // Offset: 0x1BBCB38
     static uint64_t ovr_Room_GetCurrentForUser(uint64_t userID);
     // static public System.UInt64 ovr_Room_GetInvitableUsers()
-    // Offset: 0x1CADF4C
+    // Offset: 0x1BBCBB8
     static uint64_t ovr_Room_GetInvitableUsers();
     // static public System.UInt64 ovr_Room_GetInvitableUsers2(System.IntPtr roomOptions)
-    // Offset: 0x1CADFC0
+    // Offset: 0x1BBCC2C
     static uint64_t ovr_Room_GetInvitableUsers2(System::IntPtr roomOptions);
     // static public System.UInt64 ovr_Room_GetModeratedRooms()
-    // Offset: 0x1CAE040
+    // Offset: 0x1BBCCAC
     static uint64_t ovr_Room_GetModeratedRooms();
     // static public System.UInt64 ovr_Room_GetSocialRooms(System.UInt64 appID)
-    // Offset: 0x1CAE0B4
+    // Offset: 0x1BBCD20
     static uint64_t ovr_Room_GetSocialRooms(uint64_t appID);
     // static public System.UInt64 ovr_Room_InviteUser(System.UInt64 roomID, System.String inviteToken)
-    // Offset: 0x1CAE134
+    // Offset: 0x1BBCDA0
     static uint64_t ovr_Room_InviteUser(uint64_t roomID, ::Il2CppString* inviteToken);
     // static private System.UInt64 ovr_Room_InviteUser_Native(System.UInt64 roomID, System.IntPtr inviteToken)
-    // Offset: 0x1CAE1F0
+    // Offset: 0x1BBCE5C
     static uint64_t ovr_Room_InviteUser_Native(uint64_t roomID, System::IntPtr inviteToken);
     // static public System.UInt64 ovr_Room_Join(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x1CAE280
+    // Offset: 0x1BBCEEC
     static uint64_t ovr_Room_Join(uint64_t roomID, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Room_Join2(System.UInt64 roomID, System.IntPtr roomOptions)
-    // Offset: 0x1CAE310
+    // Offset: 0x1BBCF7C
     static uint64_t ovr_Room_Join2(uint64_t roomID, System::IntPtr roomOptions);
     // static public System.UInt64 ovr_Room_KickUser(System.UInt64 roomID, System.UInt64 userID, System.Int32 kickDurationSeconds)
-    // Offset: 0x1CAE3A0
+    // Offset: 0x1BBD00C
     static uint64_t ovr_Room_KickUser(uint64_t roomID, uint64_t userID, int kickDurationSeconds);
     // static public System.UInt64 ovr_Room_LaunchInvitableUserFlow(System.UInt64 roomID)
-    // Offset: 0x1CAE434
+    // Offset: 0x1BBD0A0
     static uint64_t ovr_Room_LaunchInvitableUserFlow(uint64_t roomID);
     // static public System.UInt64 ovr_Room_Leave(System.UInt64 roomID)
-    // Offset: 0x1CAE4B4
+    // Offset: 0x1BBD120
     static uint64_t ovr_Room_Leave(uint64_t roomID);
     // static public System.UInt64 ovr_Room_SetDescription(System.UInt64 roomID, System.String description)
-    // Offset: 0x1CAE534
+    // Offset: 0x1BBD1A0
     static uint64_t ovr_Room_SetDescription(uint64_t roomID, ::Il2CppString* description);
     // static private System.UInt64 ovr_Room_SetDescription_Native(System.UInt64 roomID, System.IntPtr description)
-    // Offset: 0x1CAE5F0
+    // Offset: 0x1BBD25C
     static uint64_t ovr_Room_SetDescription_Native(uint64_t roomID, System::IntPtr description);
     // static public System.UInt64 ovr_Room_UpdateDataStore(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data)
-    // Offset: 0x1CAE680
+    // Offset: 0x1BBD2EC
     static uint64_t ovr_Room_UpdateDataStore(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data);
     // static private System.UInt64 ovr_Room_UpdateDataStore_Native(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data, System.UIntPtr numItems)
-    // Offset: 0x1CAE734
+    // Offset: 0x1BBD3A0
     static uint64_t ovr_Room_UpdateDataStore_Native(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data, System::UIntPtr numItems);
     // static public System.UInt64 ovr_Room_UpdateMembershipLockStatus(System.UInt64 roomID, Oculus.Platform.RoomMembershipLockStatus membershipLockStatus)
-    // Offset: 0x1CAE88C
+    // Offset: 0x1BBD4F8
     static uint64_t ovr_Room_UpdateMembershipLockStatus(uint64_t roomID, Oculus::Platform::RoomMembershipLockStatus membershipLockStatus);
     // static public System.UInt64 ovr_Room_UpdateOwner(System.UInt64 roomID, System.UInt64 userID)
-    // Offset: 0x1CAE91C
+    // Offset: 0x1BBD588
     static uint64_t ovr_Room_UpdateOwner(uint64_t roomID, uint64_t userID);
     // static public System.UInt64 ovr_Room_UpdatePrivateRoomJoinPolicy(System.UInt64 roomID, Oculus.Platform.RoomJoinPolicy newJoinPolicy)
-    // Offset: 0x1CAE9AC
+    // Offset: 0x1BBD618
     static uint64_t ovr_Room_UpdatePrivateRoomJoinPolicy(uint64_t roomID, Oculus::Platform::RoomJoinPolicy newJoinPolicy);
     // static public System.UInt64 ovr_SystemPermissions_GetStatus(Oculus.Platform.PermissionType permType)
-    // Offset: 0x1CAEA3C
+    // Offset: 0x1BBD6A8
     static uint64_t ovr_SystemPermissions_GetStatus(Oculus::Platform::PermissionType permType);
     // static public System.UInt64 ovr_SystemPermissions_LaunchDeeplink(Oculus.Platform.PermissionType permType)
-    // Offset: 0x1CAEABC
+    // Offset: 0x1BBD728
     static uint64_t ovr_SystemPermissions_LaunchDeeplink(Oculus::Platform::PermissionType permType);
     // static public System.UInt64 ovr_User_CancelRecordingForReportFlow(System.String recordingUUID)
-    // Offset: 0x1CAEB3C
+    // Offset: 0x1BBD7A8
     static uint64_t ovr_User_CancelRecordingForReportFlow(::Il2CppString* recordingUUID);
     // static private System.UInt64 ovr_User_CancelRecordingForReportFlow_Native(System.IntPtr recordingUUID)
-    // Offset: 0x1CAEBE4
+    // Offset: 0x1BBD850
     static uint64_t ovr_User_CancelRecordingForReportFlow_Native(System::IntPtr recordingUUID);
     // static public System.UInt64 ovr_User_Get(System.UInt64 userID)
-    // Offset: 0x1CAEC64
+    // Offset: 0x1BBD8D0
     static uint64_t ovr_User_Get(uint64_t userID);
     // static public System.UInt64 ovr_User_GetAccessToken()
-    // Offset: 0x1CAECE4
+    // Offset: 0x1BBD950
     static uint64_t ovr_User_GetAccessToken();
     // static public System.UInt64 ovr_User_GetLinkedAccounts(System.IntPtr userOptions)
-    // Offset: 0x1CAED58
+    // Offset: 0x1BBD9C4
     static uint64_t ovr_User_GetLinkedAccounts(System::IntPtr userOptions);
     // static public System.UInt64 ovr_User_GetLoggedInUser()
-    // Offset: 0x1CAEDD8
+    // Offset: 0x1BBDA44
     static uint64_t ovr_User_GetLoggedInUser();
     // static public System.UInt64 ovr_User_GetLoggedInUserFriends()
-    // Offset: 0x1CAEE4C
+    // Offset: 0x1BBDAB8
     static uint64_t ovr_User_GetLoggedInUserFriends();
     // static public System.UInt64 ovr_User_GetLoggedInUserFriendsAndRooms()
-    // Offset: 0x1CAEEC0
+    // Offset: 0x1BBDB2C
     static uint64_t ovr_User_GetLoggedInUserFriendsAndRooms();
     // static public System.UInt64 ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms(System.IntPtr userOptions)
-    // Offset: 0x1CAEF34
+    // Offset: 0x1BBDBA0
     static uint64_t ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms(System::IntPtr userOptions);
     // static public System.UInt64 ovr_User_GetOrgScopedID(System.UInt64 userID)
-    // Offset: 0x1CAEFB4
+    // Offset: 0x1BBDC20
     static uint64_t ovr_User_GetOrgScopedID(uint64_t userID);
     // static public System.UInt64 ovr_User_GetSdkAccounts()
-    // Offset: 0x1CAF034
+    // Offset: 0x1BBDCA0
     static uint64_t ovr_User_GetSdkAccounts();
     // static public System.UInt64 ovr_User_GetUserProof()
-    // Offset: 0x1CAF0A8
+    // Offset: 0x1BBDD14
     static uint64_t ovr_User_GetUserProof();
     // static public System.UInt64 ovr_User_LaunchBlockFlow(System.UInt64 userID)
-    // Offset: 0x1CAF11C
+    // Offset: 0x1BBDD88
     static uint64_t ovr_User_LaunchBlockFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchFriendRequestFlow(System.UInt64 userID)
-    // Offset: 0x1CAF19C
+    // Offset: 0x1BBDE08
     static uint64_t ovr_User_LaunchFriendRequestFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchProfile(System.UInt64 userID)
-    // Offset: 0x1CAF21C
+    // Offset: 0x1BBDE88
     static uint64_t ovr_User_LaunchProfile(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchReportFlow(System.UInt64 userID)
-    // Offset: 0x1CAF29C
+    // Offset: 0x1BBDF08
     static uint64_t ovr_User_LaunchReportFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchReportFlow2(System.UInt64 optionalUserID, System.IntPtr abuseReportOptions)
-    // Offset: 0x1CAF31C
+    // Offset: 0x1BBDF88
     static uint64_t ovr_User_LaunchReportFlow2(uint64_t optionalUserID, System::IntPtr abuseReportOptions);
     // static public System.UInt64 ovr_User_LaunchUnblockFlow(System.UInt64 userID)
-    // Offset: 0x1CAF3AC
+    // Offset: 0x1BBE018
     static uint64_t ovr_User_LaunchUnblockFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_NewEntitledTestUser()
-    // Offset: 0x1CAF42C
+    // Offset: 0x1BBE098
     static uint64_t ovr_User_NewEntitledTestUser();
     // static public System.UInt64 ovr_User_NewTestUser()
-    // Offset: 0x1CAF4A0
+    // Offset: 0x1BBE10C
     static uint64_t ovr_User_NewTestUser();
     // static public System.UInt64 ovr_User_NewTestUserFriends()
-    // Offset: 0x1CAF514
+    // Offset: 0x1BBE180
     static uint64_t ovr_User_NewTestUserFriends();
     // static public System.UInt64 ovr_User_StartRecordingForReportFlow()
-    // Offset: 0x1CAF588
+    // Offset: 0x1BBE1F4
     static uint64_t ovr_User_StartRecordingForReportFlow();
     // static public System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow(System.UInt64 optionalUserID, System.String optionalRecordingUUID)
-    // Offset: 0x1CAF5FC
+    // Offset: 0x1BBE268
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow(uint64_t optionalUserID, ::Il2CppString* optionalRecordingUUID);
     // static private System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow_Native(System.UInt64 optionalUserID, System.IntPtr optionalRecordingUUID)
-    // Offset: 0x1CAF6B8
+    // Offset: 0x1BBE324
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow_Native(uint64_t optionalUserID, System::IntPtr optionalRecordingUUID);
     // static public System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow2(System.UInt64 optionalUserID, System.String optionalRecordingUUID, System.IntPtr abuseReportOptions)
-    // Offset: 0x1CAF748
+    // Offset: 0x1BBE3B4
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2(uint64_t optionalUserID, ::Il2CppString* optionalRecordingUUID, System::IntPtr abuseReportOptions);
     // static private System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow2_Native(System.UInt64 optionalUserID, System.IntPtr optionalRecordingUUID, System.IntPtr abuseReportOptions)
-    // Offset: 0x1CAF80C
+    // Offset: 0x1BBE478
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2_Native(uint64_t optionalUserID, System::IntPtr optionalRecordingUUID, System::IntPtr abuseReportOptions);
     // static public System.UInt64 ovr_User_TestUserCreateDeviceManifest(System.String deviceID, System.UInt64[] appIDs, System.Int32 numAppIDs)
-    // Offset: 0x1CAF8A4
+    // Offset: 0x1BBE510
     static uint64_t ovr_User_TestUserCreateDeviceManifest(::Il2CppString* deviceID, ::Array<uint64_t>* appIDs, int numAppIDs);
     // static private System.UInt64 ovr_User_TestUserCreateDeviceManifest_Native(System.IntPtr deviceID, System.UInt64[] appIDs, System.Int32 numAppIDs)
-    // Offset: 0x1CAF964
+    // Offset: 0x1BBE5D0
     static uint64_t ovr_User_TestUserCreateDeviceManifest_Native(System::IntPtr deviceID, ::Array<uint64_t>* appIDs, int numAppIDs);
+    // static public System.UInt64 ovr_UserDataStore_PrivateDeleteEntryByKey(System.UInt64 userID, System.String key)
+    // Offset: 0x1BBE670
+    static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
+    // static private System.UInt64 ovr_UserDataStore_PrivateDeleteEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
+    // Offset: 0x1BBE72C
+    static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey_Native(uint64_t userID, System::IntPtr key);
+    // static public System.UInt64 ovr_UserDataStore_PrivateGetEntries(System.UInt64 userID)
+    // Offset: 0x1BBE7BC
+    static uint64_t ovr_UserDataStore_PrivateGetEntries(uint64_t userID);
+    // static public System.UInt64 ovr_UserDataStore_PrivateGetEntryByKey(System.UInt64 userID, System.String key)
+    // Offset: 0x1BBE83C
+    static uint64_t ovr_UserDataStore_PrivateGetEntryByKey(uint64_t userID, ::Il2CppString* key);
+    // static private System.UInt64 ovr_UserDataStore_PrivateGetEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
+    // Offset: 0x1BBE8F8
+    static uint64_t ovr_UserDataStore_PrivateGetEntryByKey_Native(uint64_t userID, System::IntPtr key);
+    // static public System.UInt64 ovr_UserDataStore_PrivateWriteEntry(System.UInt64 userID, System.String key, System.String value)
+    // Offset: 0x1BBE988
+    static uint64_t ovr_UserDataStore_PrivateWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
+    // static private System.UInt64 ovr_UserDataStore_PrivateWriteEntry_Native(System.UInt64 userID, System.IntPtr key, System.IntPtr value)
+    // Offset: 0x1BBEA64
+    static uint64_t ovr_UserDataStore_PrivateWriteEntry_Native(uint64_t userID, System::IntPtr key, System::IntPtr value);
+    // static public System.UInt64 ovr_UserDataStore_PublicDeleteEntryByKey(System.UInt64 userID, System.String key)
+    // Offset: 0x1BBEAFC
+    static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
+    // static private System.UInt64 ovr_UserDataStore_PublicDeleteEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
+    // Offset: 0x1BBEBB8
+    static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey_Native(uint64_t userID, System::IntPtr key);
+    // static public System.UInt64 ovr_UserDataStore_PublicGetEntries(System.UInt64 userID)
+    // Offset: 0x1BBEC48
+    static uint64_t ovr_UserDataStore_PublicGetEntries(uint64_t userID);
+    // static public System.UInt64 ovr_UserDataStore_PublicGetEntryByKey(System.UInt64 userID, System.String key)
+    // Offset: 0x1BBECC8
+    static uint64_t ovr_UserDataStore_PublicGetEntryByKey(uint64_t userID, ::Il2CppString* key);
+    // static private System.UInt64 ovr_UserDataStore_PublicGetEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
+    // Offset: 0x1BBED84
+    static uint64_t ovr_UserDataStore_PublicGetEntryByKey_Native(uint64_t userID, System::IntPtr key);
+    // static public System.UInt64 ovr_UserDataStore_PublicWriteEntry(System.UInt64 userID, System.String key, System.String value)
+    // Offset: 0x1BBEE14
+    static uint64_t ovr_UserDataStore_PublicWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
+    // static private System.UInt64 ovr_UserDataStore_PublicWriteEntry_Native(System.UInt64 userID, System.IntPtr key, System.IntPtr value)
+    // Offset: 0x1BBEEF0
+    static uint64_t ovr_UserDataStore_PublicWriteEntry_Native(uint64_t userID, System::IntPtr key, System::IntPtr value);
     // static public System.UInt64 ovr_Voip_SetSystemVoipSuppressed(System.Boolean suppressed)
-    // Offset: 0x1CAFA04
+    // Offset: 0x1BBEF88
     static uint64_t ovr_Voip_SetSystemVoipSuppressed(bool suppressed);
     // static public System.String ovr_AbuseReportRecording_GetRecordingUuid(System.IntPtr obj)
-    // Offset: 0x1CAFA84
+    // Offset: 0x1BBF008
     static ::Il2CppString* ovr_AbuseReportRecording_GetRecordingUuid(System::IntPtr obj);
     // static private System.IntPtr ovr_AbuseReportRecording_GetRecordingUuid_Native(System.IntPtr obj)
-    // Offset: 0x1CAFAEC
+    // Offset: 0x1BBF070
     static System::IntPtr ovr_AbuseReportRecording_GetRecordingUuid_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_AchievementDefinition_GetBitfieldLength(System.IntPtr obj)
-    // Offset: 0x1CAFB6C
+    // Offset: 0x1BBF0F0
     static uint ovr_AchievementDefinition_GetBitfieldLength(System::IntPtr obj);
     // static public System.String ovr_AchievementDefinition_GetName(System.IntPtr obj)
-    // Offset: 0x1CAFBEC
+    // Offset: 0x1BBF170
     static ::Il2CppString* ovr_AchievementDefinition_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementDefinition_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1CAFC54
+    // Offset: 0x1BBF1D8
     static System::IntPtr ovr_AchievementDefinition_GetName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AchievementDefinition_GetTarget(System.IntPtr obj)
-    // Offset: 0x1CAFCD4
+    // Offset: 0x1BBF258
     static uint64_t ovr_AchievementDefinition_GetTarget(System::IntPtr obj);
     // static public Oculus.Platform.AchievementType ovr_AchievementDefinition_GetType(System.IntPtr obj)
-    // Offset: 0x1CAFD54
+    // Offset: 0x1BBF2D8
     static Oculus::Platform::AchievementType ovr_AchievementDefinition_GetType(System::IntPtr obj);
     // static public System.IntPtr ovr_AchievementDefinitionArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CAFDD4
+    // Offset: 0x1BBF358
     static System::IntPtr ovr_AchievementDefinitionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_AchievementDefinitionArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CAFE64
+    // Offset: 0x1BBF3E8
     static ::Il2CppString* ovr_AchievementDefinitionArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementDefinitionArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CAFECC
+    // Offset: 0x1BBF450
     static System::IntPtr ovr_AchievementDefinitionArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_AchievementDefinitionArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CAFF4C
+    // Offset: 0x1BBF4D0
     static System::UIntPtr ovr_AchievementDefinitionArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementDefinitionArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CAFFCC
+    // Offset: 0x1BBF550
     static bool ovr_AchievementDefinitionArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_AchievementProgress_GetBitfield(System.IntPtr obj)
-    // Offset: 0x1CB0054
+    // Offset: 0x1BBF5D8
     static ::Il2CppString* ovr_AchievementProgress_GetBitfield(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgress_GetBitfield_Native(System.IntPtr obj)
-    // Offset: 0x1CB00BC
+    // Offset: 0x1BBF640
     static System::IntPtr ovr_AchievementProgress_GetBitfield_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AchievementProgress_GetCount(System.IntPtr obj)
-    // Offset: 0x1CB013C
+    // Offset: 0x1BBF6C0
     static uint64_t ovr_AchievementProgress_GetCount(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementProgress_GetIsUnlocked(System.IntPtr obj)
-    // Offset: 0x1CB01BC
+    // Offset: 0x1BBF740
     static bool ovr_AchievementProgress_GetIsUnlocked(System::IntPtr obj);
     // static public System.String ovr_AchievementProgress_GetName(System.IntPtr obj)
-    // Offset: 0x1CB0244
+    // Offset: 0x1BBF7C8
     static ::Il2CppString* ovr_AchievementProgress_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgress_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1CB02AC
+    // Offset: 0x1BBF830
     static System::IntPtr ovr_AchievementProgress_GetName_Native(System::IntPtr obj);
     // static public System.DateTime ovr_AchievementProgress_GetUnlockTime(System.IntPtr obj)
-    // Offset: 0x1CB032C
+    // Offset: 0x1BBF8B0
     static System::DateTime ovr_AchievementProgress_GetUnlockTime(System::IntPtr obj);
     // static private System.UInt64 ovr_AchievementProgress_GetUnlockTime_Native(System.IntPtr obj)
-    // Offset: 0x1CB0394
+    // Offset: 0x1BBF918
     static uint64_t ovr_AchievementProgress_GetUnlockTime_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_AchievementProgressArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB0414
+    // Offset: 0x1BBF998
     static System::IntPtr ovr_AchievementProgressArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_AchievementProgressArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB04A4
+    // Offset: 0x1BBFA28
     static ::Il2CppString* ovr_AchievementProgressArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgressArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB050C
+    // Offset: 0x1BBFA90
     static System::IntPtr ovr_AchievementProgressArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_AchievementProgressArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB058C
+    // Offset: 0x1BBFB10
     static System::UIntPtr ovr_AchievementProgressArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementProgressArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB060C
+    // Offset: 0x1BBFB90
     static bool ovr_AchievementProgressArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementUpdate_GetJustUnlocked(System.IntPtr obj)
-    // Offset: 0x1CB0694
+    // Offset: 0x1BBFC18
     static bool ovr_AchievementUpdate_GetJustUnlocked(System::IntPtr obj);
     // static public System.String ovr_AchievementUpdate_GetName(System.IntPtr obj)
-    // Offset: 0x1CB071C
+    // Offset: 0x1BBFCA0
     static ::Il2CppString* ovr_AchievementUpdate_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementUpdate_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1CB0784
+    // Offset: 0x1BBFD08
     static System::IntPtr ovr_AchievementUpdate_GetName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Application_GetID(System.IntPtr obj)
-    // Offset: 0x1CB0804
+    // Offset: 0x1BBFD88
     static uint64_t ovr_Application_GetID(System::IntPtr obj);
     // static public System.Int32 ovr_ApplicationVersion_GetCurrentCode(System.IntPtr obj)
-    // Offset: 0x1CB0884
+    // Offset: 0x1BBFE08
     static int ovr_ApplicationVersion_GetCurrentCode(System::IntPtr obj);
     // static public System.String ovr_ApplicationVersion_GetCurrentName(System.IntPtr obj)
-    // Offset: 0x1CB0904
+    // Offset: 0x1BBFE88
     static ::Il2CppString* ovr_ApplicationVersion_GetCurrentName(System::IntPtr obj);
     // static private System.IntPtr ovr_ApplicationVersion_GetCurrentName_Native(System.IntPtr obj)
-    // Offset: 0x1CB096C
+    // Offset: 0x1BBFEF0
     static System::IntPtr ovr_ApplicationVersion_GetCurrentName_Native(System::IntPtr obj);
     // static public System.Int32 ovr_ApplicationVersion_GetLatestCode(System.IntPtr obj)
-    // Offset: 0x1CB09EC
+    // Offset: 0x1BBFF70
     static int ovr_ApplicationVersion_GetLatestCode(System::IntPtr obj);
     // static public System.String ovr_ApplicationVersion_GetLatestName(System.IntPtr obj)
-    // Offset: 0x1CB0A6C
+    // Offset: 0x1BBFFF0
     static ::Il2CppString* ovr_ApplicationVersion_GetLatestName(System::IntPtr obj);
     // static private System.IntPtr ovr_ApplicationVersion_GetLatestName_Native(System.IntPtr obj)
-    // Offset: 0x1CB0AD4
+    // Offset: 0x1BC0058
     static System::IntPtr ovr_ApplicationVersion_GetLatestName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetDetails_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1CB0B54
+    // Offset: 0x1BC00D8
     static uint64_t ovr_AssetDetails_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetAssetType(System.IntPtr obj)
-    // Offset: 0x1CB0BD4
+    // Offset: 0x1BC0158
     static ::Il2CppString* ovr_AssetDetails_GetAssetType(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetAssetType_Native(System.IntPtr obj)
-    // Offset: 0x1CB0C3C
+    // Offset: 0x1BC01C0
     static System::IntPtr ovr_AssetDetails_GetAssetType_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetDownloadStatus(System.IntPtr obj)
-    // Offset: 0x1CB0CBC
+    // Offset: 0x1BC0240
     static ::Il2CppString* ovr_AssetDetails_GetDownloadStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetDownloadStatus_Native(System.IntPtr obj)
-    // Offset: 0x1CB0D24
+    // Offset: 0x1BC02A8
     static System::IntPtr ovr_AssetDetails_GetDownloadStatus_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1CB0DA4
+    // Offset: 0x1BC0328
     static ::Il2CppString* ovr_AssetDetails_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1CB0E0C
+    // Offset: 0x1BC0390
     static System::IntPtr ovr_AssetDetails_GetFilepath_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetIapStatus(System.IntPtr obj)
-    // Offset: 0x1CB0E8C
+    // Offset: 0x1BC0410
     static ::Il2CppString* ovr_AssetDetails_GetIapStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetIapStatus_Native(System.IntPtr obj)
-    // Offset: 0x1CB0EF4
+    // Offset: 0x1BC0478
     static System::IntPtr ovr_AssetDetails_GetIapStatus_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_AssetDetails_GetLanguage(System.IntPtr obj)
-    // Offset: 0x1CB0F74
+    // Offset: 0x1BC04F8
     static System::IntPtr ovr_AssetDetails_GetLanguage(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetMetadata(System.IntPtr obj)
-    // Offset: 0x1CB0FF4
+    // Offset: 0x1BC0578
     static ::Il2CppString* ovr_AssetDetails_GetMetadata(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetMetadata_Native(System.IntPtr obj)
-    // Offset: 0x1CB105C
+    // Offset: 0x1BC05E0
     static System::IntPtr ovr_AssetDetails_GetMetadata_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_AssetDetailsArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB10DC
+    // Offset: 0x1BC0660
     static System::IntPtr ovr_AssetDetailsArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_AssetDetailsArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB116C
+    // Offset: 0x1BC06F0
     static System::UIntPtr ovr_AssetDetailsArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDeleteResult_GetAssetFileId(System.IntPtr obj)
-    // Offset: 0x1CB11EC
+    // Offset: 0x1BC0770
     static uint64_t ovr_AssetFileDeleteResult_GetAssetFileId(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDeleteResult_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1CB126C
+    // Offset: 0x1BC07F0
     static uint64_t ovr_AssetFileDeleteResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDeleteResult_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1CB12EC
+    // Offset: 0x1BC0870
     static ::Il2CppString* ovr_AssetFileDeleteResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDeleteResult_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1CB1354
+    // Offset: 0x1BC08D8
     static System::IntPtr ovr_AssetFileDeleteResult_GetFilepath_Native(System::IntPtr obj);
     // static public System.Boolean ovr_AssetFileDeleteResult_GetSuccess(System.IntPtr obj)
-    // Offset: 0x1CB13D4
+    // Offset: 0x1BC0958
     static bool ovr_AssetFileDeleteResult_GetSuccess(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadCancelResult_GetAssetFileId(System.IntPtr obj)
-    // Offset: 0x1CB145C
+    // Offset: 0x1BC09E0
     static uint64_t ovr_AssetFileDownloadCancelResult_GetAssetFileId(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadCancelResult_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1CB14DC
+    // Offset: 0x1BC0A60
     static uint64_t ovr_AssetFileDownloadCancelResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDownloadCancelResult_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1CB155C
+    // Offset: 0x1BC0AE0
     static ::Il2CppString* ovr_AssetFileDownloadCancelResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDownloadCancelResult_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1CB15C4
+    // Offset: 0x1BC0B48
     static System::IntPtr ovr_AssetFileDownloadCancelResult_GetFilepath_Native(System::IntPtr obj);
     // static public System.Boolean ovr_AssetFileDownloadCancelResult_GetSuccess(System.IntPtr obj)
-    // Offset: 0x1CB1644
+    // Offset: 0x1BC0BC8
     static bool ovr_AssetFileDownloadCancelResult_GetSuccess(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadResult_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1CB16CC
+    // Offset: 0x1BC0C50
     static uint64_t ovr_AssetFileDownloadResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDownloadResult_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1CB174C
+    // Offset: 0x1BC0CD0
     static ::Il2CppString* ovr_AssetFileDownloadResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDownloadResult_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1CB17B4
+    // Offset: 0x1BC0D38
     static System::IntPtr ovr_AssetFileDownloadResult_GetFilepath_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadUpdate_GetAssetFileId(System.IntPtr obj)
-    // Offset: 0x1CB1834
+    // Offset: 0x1BC0DB8
     static uint64_t ovr_AssetFileDownloadUpdate_GetAssetFileId(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadUpdate_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1CB18B4
+    // Offset: 0x1BC0E38
     static uint64_t ovr_AssetFileDownloadUpdate_GetAssetId(System::IntPtr obj);
     // static public System.UInt32 ovr_AssetFileDownloadUpdate_GetBytesTotal(System.IntPtr obj)
-    // Offset: 0x1CB1934
+    // Offset: 0x1BC0EB8
     static uint ovr_AssetFileDownloadUpdate_GetBytesTotal(System::IntPtr obj);
     // static public System.Int32 ovr_AssetFileDownloadUpdate_GetBytesTransferred(System.IntPtr obj)
-    // Offset: 0x1CB19B4
+    // Offset: 0x1BC0F38
     static int ovr_AssetFileDownloadUpdate_GetBytesTransferred(System::IntPtr obj);
     // static public System.Boolean ovr_AssetFileDownloadUpdate_GetCompleted(System.IntPtr obj)
-    // Offset: 0x1CB1A34
+    // Offset: 0x1BC0FB8
     static bool ovr_AssetFileDownloadUpdate_GetCompleted(System::IntPtr obj);
     // static public System.Int32 ovr_CalApplicationFinalized_GetCountdownMS(System.IntPtr obj)
-    // Offset: 0x1CB1ABC
+    // Offset: 0x1BC1040
     static int ovr_CalApplicationFinalized_GetCountdownMS(System::IntPtr obj);
     // static public System.UInt64 ovr_CalApplicationFinalized_GetID(System.IntPtr obj)
-    // Offset: 0x1CB1B3C
+    // Offset: 0x1BC10C0
     static uint64_t ovr_CalApplicationFinalized_GetID(System::IntPtr obj);
     // static public System.String ovr_CalApplicationFinalized_GetLaunchDetails(System.IntPtr obj)
-    // Offset: 0x1CB1BBC
+    // Offset: 0x1BC1140
     static ::Il2CppString* ovr_CalApplicationFinalized_GetLaunchDetails(System::IntPtr obj);
     // static private System.IntPtr ovr_CalApplicationFinalized_GetLaunchDetails_Native(System.IntPtr obj)
-    // Offset: 0x1CB1C24
+    // Offset: 0x1BC11A8
     static System::IntPtr ovr_CalApplicationFinalized_GetLaunchDetails_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_CalApplicationProposed_GetID(System.IntPtr obj)
-    // Offset: 0x1CB1CA4
+    // Offset: 0x1BC1228
     static uint64_t ovr_CalApplicationProposed_GetID(System::IntPtr obj);
     // static public System.UInt64 ovr_CalApplicationSuggestion_GetID(System.IntPtr obj)
-    // Offset: 0x1CB1D24
+    // Offset: 0x1BC12A8
     static uint64_t ovr_CalApplicationSuggestion_GetID(System::IntPtr obj);
     // static public System.String ovr_CalApplicationSuggestion_GetSocialContext(System.IntPtr obj)
-    // Offset: 0x1CB1DA4
+    // Offset: 0x1BC1328
     static ::Il2CppString* ovr_CalApplicationSuggestion_GetSocialContext(System::IntPtr obj);
     // static private System.IntPtr ovr_CalApplicationSuggestion_GetSocialContext_Native(System.IntPtr obj)
-    // Offset: 0x1CB1E0C
+    // Offset: 0x1BC1390
     static System::IntPtr ovr_CalApplicationSuggestion_GetSocialContext_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_CalApplicationSuggestionArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB1E8C
+    // Offset: 0x1BC1410
     static System::IntPtr ovr_CalApplicationSuggestionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_CalApplicationSuggestionArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB1F1C
+    // Offset: 0x1BC14A0
     static System::UIntPtr ovr_CalApplicationSuggestionArray_GetSize(System::IntPtr obj);
     // static public Oculus.Platform.ChallengeCreationType ovr_Challenge_GetCreationType(System.IntPtr obj)
-    // Offset: 0x1CB1F9C
+    // Offset: 0x1BC1520
     static Oculus::Platform::ChallengeCreationType ovr_Challenge_GetCreationType(System::IntPtr obj);
     // static public System.String ovr_Challenge_GetDescription(System.IntPtr obj)
-    // Offset: 0x1CB201C
+    // Offset: 0x1BC15A0
     static ::Il2CppString* ovr_Challenge_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Challenge_GetDescription_Native(System.IntPtr obj)
-    // Offset: 0x1CB2084
+    // Offset: 0x1BC1608
     static System::IntPtr ovr_Challenge_GetDescription_Native(System::IntPtr obj);
     // static public System.DateTime ovr_Challenge_GetEndDate(System.IntPtr obj)
-    // Offset: 0x1CB2104
+    // Offset: 0x1BC1688
     static System::DateTime ovr_Challenge_GetEndDate(System::IntPtr obj);
     // static private System.UInt64 ovr_Challenge_GetEndDate_Native(System.IntPtr obj)
-    // Offset: 0x1CB216C
+    // Offset: 0x1BC16F0
     static uint64_t ovr_Challenge_GetEndDate_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Challenge_GetID(System.IntPtr obj)
-    // Offset: 0x1CB21EC
+    // Offset: 0x1BC1770
     static uint64_t ovr_Challenge_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_Challenge_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1CB226C
+    // Offset: 0x1BC17F0
     static System::IntPtr ovr_Challenge_GetInvitedUsers(System::IntPtr obj);
     // static public System.IntPtr ovr_Challenge_GetLeaderboard(System.IntPtr obj)
-    // Offset: 0x1CB22EC
+    // Offset: 0x1BC1870
     static System::IntPtr ovr_Challenge_GetLeaderboard(System::IntPtr obj);
     // static public System.IntPtr ovr_Challenge_GetParticipants(System.IntPtr obj)
-    // Offset: 0x1CB236C
+    // Offset: 0x1BC18F0
     static System::IntPtr ovr_Challenge_GetParticipants(System::IntPtr obj);
     // static public System.DateTime ovr_Challenge_GetStartDate(System.IntPtr obj)
-    // Offset: 0x1CB23EC
+    // Offset: 0x1BC1970
     static System::DateTime ovr_Challenge_GetStartDate(System::IntPtr obj);
     // static private System.UInt64 ovr_Challenge_GetStartDate_Native(System.IntPtr obj)
-    // Offset: 0x1CB2454
+    // Offset: 0x1BC19D8
     static uint64_t ovr_Challenge_GetStartDate_Native(System::IntPtr obj);
     // static public System.String ovr_Challenge_GetTitle(System.IntPtr obj)
-    // Offset: 0x1CB24D4
+    // Offset: 0x1BC1A58
     static ::Il2CppString* ovr_Challenge_GetTitle(System::IntPtr obj);
     // static private System.IntPtr ovr_Challenge_GetTitle_Native(System.IntPtr obj)
-    // Offset: 0x1CB253C
+    // Offset: 0x1BC1AC0
     static System::IntPtr ovr_Challenge_GetTitle_Native(System::IntPtr obj);
     // static public Oculus.Platform.ChallengeVisibility ovr_Challenge_GetVisibility(System.IntPtr obj)
-    // Offset: 0x1CB25BC
+    // Offset: 0x1BC1B40
     static Oculus::Platform::ChallengeVisibility ovr_Challenge_GetVisibility(System::IntPtr obj);
     // static public System.IntPtr ovr_ChallengeArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB263C
+    // Offset: 0x1BC1BC0
     static System::IntPtr ovr_ChallengeArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ChallengeArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB26CC
+    // Offset: 0x1BC1C50
     static ::Il2CppString* ovr_ChallengeArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB2734
+    // Offset: 0x1BC1CB8
     static System::IntPtr ovr_ChallengeArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_ChallengeArray_GetPreviousUrl(System.IntPtr obj)
-    // Offset: 0x1CB27B4
+    // Offset: 0x1BC1D38
     static ::Il2CppString* ovr_ChallengeArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeArray_GetPreviousUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB281C
+    // Offset: 0x1BC1DA0
     static System::IntPtr ovr_ChallengeArray_GetPreviousUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_ChallengeArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB289C
+    // Offset: 0x1BC1E20
     static System::UIntPtr ovr_ChallengeArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_ChallengeArray_GetTotalCount(System.IntPtr obj)
-    // Offset: 0x1CB291C
+    // Offset: 0x1BC1EA0
     static uint64_t ovr_ChallengeArray_GetTotalCount(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB299C
+    // Offset: 0x1BC1F20
     static bool ovr_ChallengeArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeArray_HasPreviousPage(System.IntPtr obj)
-    // Offset: 0x1CB2A24
+    // Offset: 0x1BC1FA8
     static bool ovr_ChallengeArray_HasPreviousPage(System::IntPtr obj);
+    // static public System.String ovr_ChallengeEntry_GetDisplayScore(System.IntPtr obj)
+    // Offset: 0x1BC2030
+    static ::Il2CppString* ovr_ChallengeEntry_GetDisplayScore(System::IntPtr obj);
+    // static private System.IntPtr ovr_ChallengeEntry_GetDisplayScore_Native(System.IntPtr obj)
+    // Offset: 0x1BC2098
+    static System::IntPtr ovr_ChallengeEntry_GetDisplayScore_Native(System::IntPtr obj);
     // static public System.Byte[] ovr_ChallengeEntry_GetExtraData(System.IntPtr obj)
-    // Offset: 0x1CB2AAC
+    // Offset: 0x1BC2118
     static ::Array<uint8_t>* ovr_ChallengeEntry_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntry_GetExtraData_Native(System.IntPtr obj)
-    // Offset: 0x1CB2BA8
+    // Offset: 0x1BC2214
     static System::IntPtr ovr_ChallengeEntry_GetExtraData_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_ChallengeEntry_GetExtraDataLength(System.IntPtr obj)
-    // Offset: 0x1CB2C28
+    // Offset: 0x1BC2294
     static uint ovr_ChallengeEntry_GetExtraDataLength(System::IntPtr obj);
     // static public System.Int32 ovr_ChallengeEntry_GetRank(System.IntPtr obj)
-    // Offset: 0x1CB2CA8
+    // Offset: 0x1BC2314
     static int ovr_ChallengeEntry_GetRank(System::IntPtr obj);
     // static public System.Int64 ovr_ChallengeEntry_GetScore(System.IntPtr obj)
-    // Offset: 0x1CB2D28
+    // Offset: 0x1BC2394
     static int64_t ovr_ChallengeEntry_GetScore(System::IntPtr obj);
     // static public System.DateTime ovr_ChallengeEntry_GetTimestamp(System.IntPtr obj)
-    // Offset: 0x1CB2DA8
+    // Offset: 0x1BC2414
     static System::DateTime ovr_ChallengeEntry_GetTimestamp(System::IntPtr obj);
     // static private System.UInt64 ovr_ChallengeEntry_GetTimestamp_Native(System.IntPtr obj)
-    // Offset: 0x1CB2E10
+    // Offset: 0x1BC247C
     static uint64_t ovr_ChallengeEntry_GetTimestamp_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_ChallengeEntry_GetUser(System.IntPtr obj)
-    // Offset: 0x1CB2E90
+    // Offset: 0x1BC24FC
     static System::IntPtr ovr_ChallengeEntry_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_ChallengeEntryArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB2F10
+    // Offset: 0x1BC257C
     static System::IntPtr ovr_ChallengeEntryArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ChallengeEntryArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB2FA0
+    // Offset: 0x1BC260C
     static ::Il2CppString* ovr_ChallengeEntryArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntryArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB3008
+    // Offset: 0x1BC2674
     static System::IntPtr ovr_ChallengeEntryArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_ChallengeEntryArray_GetPreviousUrl(System.IntPtr obj)
-    // Offset: 0x1CB3088
+    // Offset: 0x1BC26F4
     static ::Il2CppString* ovr_ChallengeEntryArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntryArray_GetPreviousUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB30F0
+    // Offset: 0x1BC275C
     static System::IntPtr ovr_ChallengeEntryArray_GetPreviousUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_ChallengeEntryArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB3170
+    // Offset: 0x1BC27DC
     static System::UIntPtr ovr_ChallengeEntryArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_ChallengeEntryArray_GetTotalCount(System.IntPtr obj)
-    // Offset: 0x1CB31F0
+    // Offset: 0x1BC285C
     static uint64_t ovr_ChallengeEntryArray_GetTotalCount(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeEntryArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB3270
+    // Offset: 0x1BC28DC
     static bool ovr_ChallengeEntryArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeEntryArray_HasPreviousPage(System.IntPtr obj)
-    // Offset: 0x1CB32F8
+    // Offset: 0x1BC2964
     static bool ovr_ChallengeEntryArray_HasPreviousPage(System::IntPtr obj);
     // static public System.String ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System.IntPtr obj)
-    // Offset: 0x1CB3380
+    // Offset: 0x1BC29EC
     static ::Il2CppString* ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native(System.IntPtr obj)
-    // Offset: 0x1CB33E8
+    // Offset: 0x1BC2A54
     static System::IntPtr ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_CloudStorageConflictMetadata_GetLocal(System.IntPtr obj)
-    // Offset: 0x1CB3468
+    // Offset: 0x1BC2AD4
     static System::IntPtr ovr_CloudStorageConflictMetadata_GetLocal(System::IntPtr obj);
     // static public System.IntPtr ovr_CloudStorageConflictMetadata_GetRemote(System.IntPtr obj)
-    // Offset: 0x1CB34E8
+    // Offset: 0x1BC2B54
     static System::IntPtr ovr_CloudStorageConflictMetadata_GetRemote(System::IntPtr obj);
     // static public System.String ovr_CloudStorageData_GetBucket(System.IntPtr obj)
-    // Offset: 0x1CB3568
+    // Offset: 0x1BC2BD4
     static ::Il2CppString* ovr_CloudStorageData_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetBucket_Native(System.IntPtr obj)
-    // Offset: 0x1CB35D0
+    // Offset: 0x1BC2C3C
     static System::IntPtr ovr_CloudStorageData_GetBucket_Native(System::IntPtr obj);
     // static public System.Byte[] ovr_CloudStorageData_GetData(System.IntPtr obj)
-    // Offset: 0x1CB3650
+    // Offset: 0x1BC2CBC
     static ::Array<uint8_t>* ovr_CloudStorageData_GetData(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetData_Native(System.IntPtr obj)
-    // Offset: 0x1CB374C
+    // Offset: 0x1BC2DB8
     static System::IntPtr ovr_CloudStorageData_GetData_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_CloudStorageData_GetDataSize(System.IntPtr obj)
-    // Offset: 0x1CB36CC
+    // Offset: 0x1BC2D38
     static uint ovr_CloudStorageData_GetDataSize(System::IntPtr obj);
     // static public System.String ovr_CloudStorageData_GetKey(System.IntPtr obj)
-    // Offset: 0x1CB37CC
+    // Offset: 0x1BC2E38
     static ::Il2CppString* ovr_CloudStorageData_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetKey_Native(System.IntPtr obj)
-    // Offset: 0x1CB3834
+    // Offset: 0x1BC2EA0
     static System::IntPtr ovr_CloudStorageData_GetKey_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetBucket(System.IntPtr obj)
-    // Offset: 0x1CB38B4
+    // Offset: 0x1BC2F20
     static ::Il2CppString* ovr_CloudStorageMetadata_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetBucket_Native(System.IntPtr obj)
-    // Offset: 0x1CB391C
+    // Offset: 0x1BC2F88
     static System::IntPtr ovr_CloudStorageMetadata_GetBucket_Native(System::IntPtr obj);
     // static public System.Int64 ovr_CloudStorageMetadata_GetCounter(System.IntPtr obj)
-    // Offset: 0x1CB399C
+    // Offset: 0x1BC3008
     static int64_t ovr_CloudStorageMetadata_GetCounter(System::IntPtr obj);
     // static public System.UInt32 ovr_CloudStorageMetadata_GetDataSize(System.IntPtr obj)
-    // Offset: 0x1CB3A1C
+    // Offset: 0x1BC3088
     static uint ovr_CloudStorageMetadata_GetDataSize(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetExtraData(System.IntPtr obj)
-    // Offset: 0x1CB3A9C
+    // Offset: 0x1BC3108
     static ::Il2CppString* ovr_CloudStorageMetadata_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetExtraData_Native(System.IntPtr obj)
-    // Offset: 0x1CB3B04
+    // Offset: 0x1BC3170
     static System::IntPtr ovr_CloudStorageMetadata_GetExtraData_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetKey(System.IntPtr obj)
-    // Offset: 0x1CB3B84
+    // Offset: 0x1BC31F0
     static ::Il2CppString* ovr_CloudStorageMetadata_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetKey_Native(System.IntPtr obj)
-    // Offset: 0x1CB3BEC
+    // Offset: 0x1BC3258
     static System::IntPtr ovr_CloudStorageMetadata_GetKey_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_CloudStorageMetadata_GetSaveTime(System.IntPtr obj)
-    // Offset: 0x1CB3C6C
+    // Offset: 0x1BC32D8
     static uint64_t ovr_CloudStorageMetadata_GetSaveTime(System::IntPtr obj);
     // static public Oculus.Platform.CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(System.IntPtr obj)
-    // Offset: 0x1CB3CEC
+    // Offset: 0x1BC3358
     static Oculus::Platform::CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetVersionHandle(System.IntPtr obj)
-    // Offset: 0x1CB3D6C
+    // Offset: 0x1BC33D8
     static ::Il2CppString* ovr_CloudStorageMetadata_GetVersionHandle(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetVersionHandle_Native(System.IntPtr obj)
-    // Offset: 0x1CB3DD4
+    // Offset: 0x1BC3440
     static System::IntPtr ovr_CloudStorageMetadata_GetVersionHandle_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_CloudStorageMetadataArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB3E54
+    // Offset: 0x1BC34C0
     static System::IntPtr ovr_CloudStorageMetadataArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_CloudStorageMetadataArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB3EE4
+    // Offset: 0x1BC3550
     static ::Il2CppString* ovr_CloudStorageMetadataArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadataArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB3F4C
+    // Offset: 0x1BC35B8
     static System::IntPtr ovr_CloudStorageMetadataArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_CloudStorageMetadataArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB3FCC
+    // Offset: 0x1BC3638
     static System::UIntPtr ovr_CloudStorageMetadataArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_CloudStorageMetadataArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB404C
+    // Offset: 0x1BC36B8
     static bool ovr_CloudStorageMetadataArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetBucket(System.IntPtr obj)
-    // Offset: 0x1CB40D4
+    // Offset: 0x1BC3740
     static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetBucket_Native(System.IntPtr obj)
-    // Offset: 0x1CB413C
+    // Offset: 0x1BC37A8
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetBucket_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetKey(System.IntPtr obj)
-    // Offset: 0x1CB41BC
+    // Offset: 0x1BC3828
     static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetKey_Native(System.IntPtr obj)
-    // Offset: 0x1CB4224
+    // Offset: 0x1BC3890
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetKey_Native(System::IntPtr obj);
     // static public Oculus.Platform.CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(System.IntPtr obj)
-    // Offset: 0x1CB42A4
+    // Offset: 0x1BC3910
     static Oculus::Platform::CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetVersionHandle(System.IntPtr obj)
-    // Offset: 0x1CB4324
+    // Offset: 0x1BC3990
     static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetVersionHandle(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetVersionHandle_Native(System.IntPtr obj)
-    // Offset: 0x1CB438C
+    // Offset: 0x1BC39F8
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetVersionHandle_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_DataStore_Contains(System.IntPtr obj, System.String key)
-    // Offset: 0x1CB440C
+    // Offset: 0x1BC3A78
     static uint ovr_DataStore_Contains(System::IntPtr obj, ::Il2CppString* key);
     // static private System.UInt32 ovr_DataStore_Contains_Native(System.IntPtr obj, System.IntPtr key)
-    // Offset: 0x1CB44C8
+    // Offset: 0x1BC3B34
     static uint ovr_DataStore_Contains_Native(System::IntPtr obj, System::IntPtr key);
     // static public System.String ovr_DataStore_GetKey(System.IntPtr obj, System.Int32 index)
-    // Offset: 0x1CA43D4
+    // Offset: 0x1BB275C
     static ::Il2CppString* ovr_DataStore_GetKey(System::IntPtr obj, int index);
     // static private System.IntPtr ovr_DataStore_GetKey_Native(System.IntPtr obj, System.Int32 index)
-    // Offset: 0x1CB4558
+    // Offset: 0x1BC3BC4
     static System::IntPtr ovr_DataStore_GetKey_Native(System::IntPtr obj, int index);
     // static public System.UIntPtr ovr_DataStore_GetNumKeys(System.IntPtr obj)
-    // Offset: 0x1CA4354
+    // Offset: 0x1BB26DC
     static System::UIntPtr ovr_DataStore_GetNumKeys(System::IntPtr obj);
     // static public System.String ovr_DataStore_GetValue(System.IntPtr obj, System.String key)
-    // Offset: 0x1CA444C
+    // Offset: 0x1BB27D4
     static ::Il2CppString* ovr_DataStore_GetValue(System::IntPtr obj, ::Il2CppString* key);
     // static private System.IntPtr ovr_DataStore_GetValue_Native(System.IntPtr obj, System.IntPtr key)
-    // Offset: 0x1CB45E8
+    // Offset: 0x1BC3C54
     static System::IntPtr ovr_DataStore_GetValue_Native(System::IntPtr obj, System::IntPtr key);
     // static public System.String ovr_Destination_GetApiName(System.IntPtr obj)
-    // Offset: 0x1CB4678
+    // Offset: 0x1BC3CE4
     static ::Il2CppString* ovr_Destination_GetApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetApiName_Native(System.IntPtr obj)
-    // Offset: 0x1CB46E0
+    // Offset: 0x1BC3D4C
     static System::IntPtr ovr_Destination_GetApiName_Native(System::IntPtr obj);
     // static public System.String ovr_Destination_GetDeeplinkMessage(System.IntPtr obj)
-    // Offset: 0x1CB4760
+    // Offset: 0x1BC3DCC
     static ::Il2CppString* ovr_Destination_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetDeeplinkMessage_Native(System.IntPtr obj)
-    // Offset: 0x1CB47C8
+    // Offset: 0x1BC3E34
     static System::IntPtr ovr_Destination_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_Destination_GetDisplayName(System.IntPtr obj)
-    // Offset: 0x1CB4848
+    // Offset: 0x1BC3EB4
     static ::Il2CppString* ovr_Destination_GetDisplayName(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetDisplayName_Native(System.IntPtr obj)
-    // Offset: 0x1CB48B0
+    // Offset: 0x1BC3F1C
     static System::IntPtr ovr_Destination_GetDisplayName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_DestinationArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB4930
+    // Offset: 0x1BC3F9C
     static System::IntPtr ovr_DestinationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_DestinationArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB49C0
+    // Offset: 0x1BC402C
     static ::Il2CppString* ovr_DestinationArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_DestinationArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB4A28
+    // Offset: 0x1BC4094
     static System::IntPtr ovr_DestinationArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_DestinationArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB4AA8
+    // Offset: 0x1BC4114
     static System::UIntPtr ovr_DestinationArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_DestinationArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB4B28
+    // Offset: 0x1BC4194
     static bool ovr_DestinationArray_HasNextPage(System::IntPtr obj);
     // static public System.Int32 ovr_Error_GetCode(System.IntPtr obj)
-    // Offset: 0x1CB4BB0
+    // Offset: 0x1BC421C
     static int ovr_Error_GetCode(System::IntPtr obj);
     // static public System.String ovr_Error_GetDisplayableMessage(System.IntPtr obj)
-    // Offset: 0x1CB4C2C
+    // Offset: 0x1BC4298
     static ::Il2CppString* ovr_Error_GetDisplayableMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Error_GetDisplayableMessage_Native(System.IntPtr obj)
-    // Offset: 0x1CB4C94
+    // Offset: 0x1BC4300
     static System::IntPtr ovr_Error_GetDisplayableMessage_Native(System::IntPtr obj);
     // static public System.Int32 ovr_Error_GetHttpCode(System.IntPtr obj)
-    // Offset: 0x1CB4D14
+    // Offset: 0x1BC4380
     static int ovr_Error_GetHttpCode(System::IntPtr obj);
     // static public System.String ovr_Error_GetMessage(System.IntPtr obj)
-    // Offset: 0x1CB4D94
+    // Offset: 0x1BC4400
     static ::Il2CppString* ovr_Error_GetMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Error_GetMessage_Native(System.IntPtr obj)
-    // Offset: 0x1CB4DFC
+    // Offset: 0x1BC4468
     static System::IntPtr ovr_Error_GetMessage_Native(System::IntPtr obj);
+    // static public System.String ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System.IntPtr obj)
+    // Offset: 0x1BC44E8
+    static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System::IntPtr obj);
+    // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native(System.IntPtr obj)
+    // Offset: 0x1BC4550
+    static System::IntPtr ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native(System::IntPtr obj);
+    // static public System.String ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System.IntPtr obj)
+    // Offset: 0x1BC45D0
+    static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System::IntPtr obj);
+    // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native(System.IntPtr obj)
+    // Offset: 0x1BC4638
+    static System::IntPtr ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native(System::IntPtr obj);
+    // static public System.String ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System.IntPtr obj)
+    // Offset: 0x1BC46B8
+    static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System::IntPtr obj);
+    // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native(System.IntPtr obj)
+    // Offset: 0x1BC4720
+    static System::IntPtr ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_HttpTransferUpdate_GetBytes(System.IntPtr obj)
-    // Offset: 0x1CB4E7C
+    // Offset: 0x1BC47A0
     static System::IntPtr ovr_HttpTransferUpdate_GetBytes(System::IntPtr obj);
     // static public System.UInt64 ovr_HttpTransferUpdate_GetID(System.IntPtr obj)
-    // Offset: 0x1CB4EFC
+    // Offset: 0x1BC4820
     static uint64_t ovr_HttpTransferUpdate_GetID(System::IntPtr obj);
     // static public System.UIntPtr ovr_HttpTransferUpdate_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB4F7C
+    // Offset: 0x1BC48A0
     static System::UIntPtr ovr_HttpTransferUpdate_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_HttpTransferUpdate_IsCompleted(System.IntPtr obj)
-    // Offset: 0x1CB4FFC
+    // Offset: 0x1BC4920
     static bool ovr_HttpTransferUpdate_IsCompleted(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetApplicationId(System.IntPtr obj)
-    // Offset: 0x1CB5084
+    // Offset: 0x1BC49A8
     static ::Il2CppString* ovr_InstalledApplication_GetApplicationId(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetApplicationId_Native(System.IntPtr obj)
-    // Offset: 0x1CB50EC
+    // Offset: 0x1BC4A10
     static System::IntPtr ovr_InstalledApplication_GetApplicationId_Native(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetPackageName(System.IntPtr obj)
-    // Offset: 0x1CB516C
+    // Offset: 0x1BC4A90
     static ::Il2CppString* ovr_InstalledApplication_GetPackageName(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetPackageName_Native(System.IntPtr obj)
-    // Offset: 0x1CB51D4
+    // Offset: 0x1BC4AF8
     static System::IntPtr ovr_InstalledApplication_GetPackageName_Native(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetStatus(System.IntPtr obj)
-    // Offset: 0x1CB5254
+    // Offset: 0x1BC4B78
     static ::Il2CppString* ovr_InstalledApplication_GetStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetStatus_Native(System.IntPtr obj)
-    // Offset: 0x1CB52BC
+    // Offset: 0x1BC4BE0
     static System::IntPtr ovr_InstalledApplication_GetStatus_Native(System::IntPtr obj);
     // static public System.Int32 ovr_InstalledApplication_GetVersionCode(System.IntPtr obj)
-    // Offset: 0x1CB533C
+    // Offset: 0x1BC4C60
     static int ovr_InstalledApplication_GetVersionCode(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetVersionName(System.IntPtr obj)
-    // Offset: 0x1CB53BC
+    // Offset: 0x1BC4CE0
     static ::Il2CppString* ovr_InstalledApplication_GetVersionName(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetVersionName_Native(System.IntPtr obj)
-    // Offset: 0x1CB5424
+    // Offset: 0x1BC4D48
     static System::IntPtr ovr_InstalledApplication_GetVersionName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_InstalledApplicationArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB54A4
+    // Offset: 0x1BC4DC8
     static System::IntPtr ovr_InstalledApplicationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_InstalledApplicationArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB5534
+    // Offset: 0x1BC4E58
     static System::UIntPtr ovr_InstalledApplicationArray_GetSize(System::IntPtr obj);
+    // static public System.Boolean ovr_InvitePanelResultInfo_GetInvitesSent(System.IntPtr obj)
+    // Offset: 0x1BC4ED8
+    static bool ovr_InvitePanelResultInfo_GetInvitesSent(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetEnglishName(System.IntPtr obj)
-    // Offset: 0x1CB55B4
+    // Offset: 0x1BC4F60
     static ::Il2CppString* ovr_LanguagePackInfo_GetEnglishName(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetEnglishName_Native(System.IntPtr obj)
-    // Offset: 0x1CB561C
+    // Offset: 0x1BC4FC8
     static System::IntPtr ovr_LanguagePackInfo_GetEnglishName_Native(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetNativeName(System.IntPtr obj)
-    // Offset: 0x1CB569C
+    // Offset: 0x1BC5048
     static ::Il2CppString* ovr_LanguagePackInfo_GetNativeName(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetNativeName_Native(System.IntPtr obj)
-    // Offset: 0x1CB5704
+    // Offset: 0x1BC50B0
     static System::IntPtr ovr_LanguagePackInfo_GetNativeName_Native(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetTag(System.IntPtr obj)
-    // Offset: 0x1CB5784
+    // Offset: 0x1BC5130
     static ::Il2CppString* ovr_LanguagePackInfo_GetTag(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetTag_Native(System.IntPtr obj)
-    // Offset: 0x1CB57EC
+    // Offset: 0x1BC5198
     static System::IntPtr ovr_LanguagePackInfo_GetTag_Native(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchBlockFlowResult_GetDidBlock(System.IntPtr obj)
-    // Offset: 0x1CB586C
+    // Offset: 0x1BC5218
     static bool ovr_LaunchBlockFlowResult_GetDidBlock(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchBlockFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1CB58F4
+    // Offset: 0x1BC52A0
     static bool ovr_LaunchBlockFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetDeeplinkMessage(System.IntPtr obj)
-    // Offset: 0x1CB597C
+    // Offset: 0x1BC5328
     static ::Il2CppString* ovr_LaunchDetails_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetDeeplinkMessage_Native(System.IntPtr obj)
-    // Offset: 0x1CB59E4
+    // Offset: 0x1BC5390
     static System::IntPtr ovr_LaunchDetails_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetDestinationApiName(System.IntPtr obj)
-    // Offset: 0x1CB5A64
+    // Offset: 0x1BC5410
     static ::Il2CppString* ovr_LaunchDetails_GetDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetDestinationApiName_Native(System.IntPtr obj)
-    // Offset: 0x1CB5ACC
+    // Offset: 0x1BC5478
     static System::IntPtr ovr_LaunchDetails_GetDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetLaunchSource(System.IntPtr obj)
-    // Offset: 0x1CB5B4C
+    // Offset: 0x1BC54F8
     static ::Il2CppString* ovr_LaunchDetails_GetLaunchSource(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetLaunchSource_Native(System.IntPtr obj)
-    // Offset: 0x1CB5BB4
+    // Offset: 0x1BC5560
     static System::IntPtr ovr_LaunchDetails_GetLaunchSource_Native(System::IntPtr obj);
     // static public Oculus.Platform.LaunchType ovr_LaunchDetails_GetLaunchType(System.IntPtr obj)
-    // Offset: 0x1CB5C34
+    // Offset: 0x1BC55E0
     static Oculus::Platform::LaunchType ovr_LaunchDetails_GetLaunchType(System::IntPtr obj);
     // static public System.UInt64 ovr_LaunchDetails_GetRoomID(System.IntPtr obj)
-    // Offset: 0x1CB5CB4
+    // Offset: 0x1BC5660
     static uint64_t ovr_LaunchDetails_GetRoomID(System::IntPtr obj);
+    // static public System.String ovr_LaunchDetails_GetTrackingID(System.IntPtr obj)
+    // Offset: 0x1BC56E0
+    static ::Il2CppString* ovr_LaunchDetails_GetTrackingID(System::IntPtr obj);
+    // static private System.IntPtr ovr_LaunchDetails_GetTrackingID_Native(System.IntPtr obj)
+    // Offset: 0x1BC5748
+    static System::IntPtr ovr_LaunchDetails_GetTrackingID_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_LaunchDetails_GetUsers(System.IntPtr obj)
-    // Offset: 0x1CB5D34
+    // Offset: 0x1BC57C8
     static System::IntPtr ovr_LaunchDetails_GetUsers(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchFriendRequestFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1CB5DB4
+    // Offset: 0x1BC5848
     static bool ovr_LaunchFriendRequestFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchFriendRequestFlowResult_GetDidSendRequest(System.IntPtr obj)
-    // Offset: 0x1CB5E3C
+    // Offset: 0x1BC58D0
     static bool ovr_LaunchFriendRequestFlowResult_GetDidSendRequest(System::IntPtr obj);
+    // static public System.IntPtr ovr_LaunchInvitePanelFlowResult_GetInvitedUsers(System.IntPtr obj)
+    // Offset: 0x1BC5958
+    static System::IntPtr ovr_LaunchInvitePanelFlowResult_GetInvitedUsers(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchReportFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1CB5EC4
+    // Offset: 0x1BC59D8
     static bool ovr_LaunchReportFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.UInt64 ovr_LaunchReportFlowResult_GetUserReportId(System.IntPtr obj)
-    // Offset: 0x1CB5F4C
+    // Offset: 0x1BC5A60
     static uint64_t ovr_LaunchReportFlowResult_GetUserReportId(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchUnblockFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1CB5FCC
+    // Offset: 0x1BC5AE0
     static bool ovr_LaunchUnblockFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchUnblockFlowResult_GetDidUnblock(System.IntPtr obj)
-    // Offset: 0x1CB6054
+    // Offset: 0x1BC5B68
     static bool ovr_LaunchUnblockFlowResult_GetDidUnblock(System::IntPtr obj);
     // static public System.String ovr_Leaderboard_GetApiName(System.IntPtr obj)
-    // Offset: 0x1CB60DC
+    // Offset: 0x1BC5BF0
     static ::Il2CppString* ovr_Leaderboard_GetApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_Leaderboard_GetApiName_Native(System.IntPtr obj)
-    // Offset: 0x1CB6144
+    // Offset: 0x1BC5C58
     static System::IntPtr ovr_Leaderboard_GetApiName_Native(System::IntPtr obj);
+    // static public System.IntPtr ovr_Leaderboard_GetDestination(System.IntPtr obj)
+    // Offset: 0x1BC5CD8
+    static System::IntPtr ovr_Leaderboard_GetDestination(System::IntPtr obj);
+    // static public System.UInt64 ovr_Leaderboard_GetID(System.IntPtr obj)
+    // Offset: 0x1BC5D58
+    static uint64_t ovr_Leaderboard_GetID(System::IntPtr obj);
+    // static public System.IntPtr ovr_LeaderboardArray_GetElement(System.IntPtr obj, System.UIntPtr index)
+    // Offset: 0x1BC5DD8
+    static System::IntPtr ovr_LeaderboardArray_GetElement(System::IntPtr obj, System::UIntPtr index);
+    // static public System.String ovr_LeaderboardArray_GetNextUrl(System.IntPtr obj)
+    // Offset: 0x1BC5E68
+    static ::Il2CppString* ovr_LeaderboardArray_GetNextUrl(System::IntPtr obj);
+    // static private System.IntPtr ovr_LeaderboardArray_GetNextUrl_Native(System.IntPtr obj)
+    // Offset: 0x1BC5ED0
+    static System::IntPtr ovr_LeaderboardArray_GetNextUrl_Native(System::IntPtr obj);
+    // static public System.UIntPtr ovr_LeaderboardArray_GetSize(System.IntPtr obj)
+    // Offset: 0x1BC5F50
+    static System::UIntPtr ovr_LeaderboardArray_GetSize(System::IntPtr obj);
+    // static public System.Boolean ovr_LeaderboardArray_HasNextPage(System.IntPtr obj)
+    // Offset: 0x1BC5FD0
+    static bool ovr_LeaderboardArray_HasNextPage(System::IntPtr obj);
+    // static public System.String ovr_LeaderboardEntry_GetDisplayScore(System.IntPtr obj)
+    // Offset: 0x1BC6058
+    static ::Il2CppString* ovr_LeaderboardEntry_GetDisplayScore(System::IntPtr obj);
+    // static private System.IntPtr ovr_LeaderboardEntry_GetDisplayScore_Native(System.IntPtr obj)
+    // Offset: 0x1BC60C0
+    static System::IntPtr ovr_LeaderboardEntry_GetDisplayScore_Native(System::IntPtr obj);
     // static public System.Byte[] ovr_LeaderboardEntry_GetExtraData(System.IntPtr obj)
-    // Offset: 0x1CB61C4
+    // Offset: 0x1BC6140
     static ::Array<uint8_t>* ovr_LeaderboardEntry_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntry_GetExtraData_Native(System.IntPtr obj)
-    // Offset: 0x1CB6240
+    // Offset: 0x1BC61BC
     static System::IntPtr ovr_LeaderboardEntry_GetExtraData_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_LeaderboardEntry_GetExtraDataLength(System.IntPtr obj)
-    // Offset: 0x1CB2B28
+    // Offset: 0x1BC2194
     static uint ovr_LeaderboardEntry_GetExtraDataLength(System::IntPtr obj);
     // static public System.Int32 ovr_LeaderboardEntry_GetRank(System.IntPtr obj)
-    // Offset: 0x1CB62C0
+    // Offset: 0x1BC623C
     static int ovr_LeaderboardEntry_GetRank(System::IntPtr obj);
     // static public System.Int64 ovr_LeaderboardEntry_GetScore(System.IntPtr obj)
-    // Offset: 0x1CB6340
+    // Offset: 0x1BC62BC
     static int64_t ovr_LeaderboardEntry_GetScore(System::IntPtr obj);
+    // static public System.IntPtr ovr_LeaderboardEntry_GetSupplementaryMetric(System.IntPtr obj)
+    // Offset: 0x1BC633C
+    static System::IntPtr ovr_LeaderboardEntry_GetSupplementaryMetric(System::IntPtr obj);
     // static public System.DateTime ovr_LeaderboardEntry_GetTimestamp(System.IntPtr obj)
-    // Offset: 0x1CB63C0
+    // Offset: 0x1BC63BC
     static System::DateTime ovr_LeaderboardEntry_GetTimestamp(System::IntPtr obj);
     // static private System.UInt64 ovr_LeaderboardEntry_GetTimestamp_Native(System.IntPtr obj)
-    // Offset: 0x1CB6428
+    // Offset: 0x1BC6424
     static uint64_t ovr_LeaderboardEntry_GetTimestamp_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_LeaderboardEntry_GetUser(System.IntPtr obj)
-    // Offset: 0x1CB64A8
+    // Offset: 0x1BC64A4
     static System::IntPtr ovr_LeaderboardEntry_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_LeaderboardEntryArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB6528
+    // Offset: 0x1BC6524
     static System::IntPtr ovr_LeaderboardEntryArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_LeaderboardEntryArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB65B8
+    // Offset: 0x1BC65B4
     static ::Il2CppString* ovr_LeaderboardEntryArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntryArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB6620
+    // Offset: 0x1BC661C
     static System::IntPtr ovr_LeaderboardEntryArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_LeaderboardEntryArray_GetPreviousUrl(System.IntPtr obj)
-    // Offset: 0x1CB66A0
+    // Offset: 0x1BC669C
     static ::Il2CppString* ovr_LeaderboardEntryArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntryArray_GetPreviousUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB6708
+    // Offset: 0x1BC6704
     static System::IntPtr ovr_LeaderboardEntryArray_GetPreviousUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_LeaderboardEntryArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB6788
+    // Offset: 0x1BC6784
     static System::UIntPtr ovr_LeaderboardEntryArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_LeaderboardEntryArray_GetTotalCount(System.IntPtr obj)
-    // Offset: 0x1CB6808
+    // Offset: 0x1BC6804
     static uint64_t ovr_LeaderboardEntryArray_GetTotalCount(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardEntryArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB6888
+    // Offset: 0x1BC6884
     static bool ovr_LeaderboardEntryArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardEntryArray_HasPreviousPage(System.IntPtr obj)
-    // Offset: 0x1CB6910
+    // Offset: 0x1BC690C
     static bool ovr_LeaderboardEntryArray_HasPreviousPage(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardUpdateStatus_GetDidUpdate(System.IntPtr obj)
-    // Offset: 0x1CB6998
+    // Offset: 0x1BC6994
     static bool ovr_LeaderboardUpdateStatus_GetDidUpdate(System::IntPtr obj);
     // static public System.UInt64 ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId(System.IntPtr obj, System.UInt32 index)
-    // Offset: 0x1CB6A20
+    // Offset: 0x1BC6A1C
     static uint64_t ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId(System::IntPtr obj, uint index);
     // static public System.UInt32 ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize(System.IntPtr obj)
-    // Offset: 0x1CB6AB0
+    // Offset: 0x1BC6AAC
     static uint ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize(System::IntPtr obj);
     // static public System.String ovr_LinkedAccount_GetAccessToken(System.IntPtr obj)
-    // Offset: 0x1CB6B30
+    // Offset: 0x1BC6B2C
     static ::Il2CppString* ovr_LinkedAccount_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_LinkedAccount_GetAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1CB6B98
+    // Offset: 0x1BC6B94
     static System::IntPtr ovr_LinkedAccount_GetAccessToken_Native(System::IntPtr obj);
     // static public Oculus.Platform.ServiceProvider ovr_LinkedAccount_GetServiceProvider(System.IntPtr obj)
-    // Offset: 0x1CB6C18
+    // Offset: 0x1BC6C14
     static Oculus::Platform::ServiceProvider ovr_LinkedAccount_GetServiceProvider(System::IntPtr obj);
     // static public System.String ovr_LinkedAccount_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CB6C98
+    // Offset: 0x1BC6C94
     static ::Il2CppString* ovr_LinkedAccount_GetUserId(System::IntPtr obj);
     // static private System.IntPtr ovr_LinkedAccount_GetUserId_Native(System.IntPtr obj)
-    // Offset: 0x1CB6D00
+    // Offset: 0x1BC6CFC
     static System::IntPtr ovr_LinkedAccount_GetUserId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_LinkedAccountArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB6D80
+    // Offset: 0x1BC6D7C
     static System::IntPtr ovr_LinkedAccountArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_LinkedAccountArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB6E10
+    // Offset: 0x1BC6E0C
     static System::UIntPtr ovr_LinkedAccountArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingApplicationStatus_GetStreamingEnabled(System.IntPtr obj)
-    // Offset: 0x1CB6E90
+    // Offset: 0x1BC6E8C
     static bool ovr_LivestreamingApplicationStatus_GetStreamingEnabled(System::IntPtr obj);
     // static public Oculus.Platform.LivestreamingStartStatus ovr_LivestreamingStartResult_GetStreamingResult(System.IntPtr obj)
-    // Offset: 0x1CB6F18
+    // Offset: 0x1BC6F14
     static Oculus::Platform::LivestreamingStartStatus ovr_LivestreamingStartResult_GetStreamingResult(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetCommentsVisible(System.IntPtr obj)
-    // Offset: 0x1CB6F98
+    // Offset: 0x1BC6F94
     static bool ovr_LivestreamingStatus_GetCommentsVisible(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetIsPaused(System.IntPtr obj)
-    // Offset: 0x1CB7020
+    // Offset: 0x1BC701C
     static bool ovr_LivestreamingStatus_GetIsPaused(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetLivestreamingEnabled(System.IntPtr obj)
-    // Offset: 0x1CB70A8
+    // Offset: 0x1BC70A4
     static bool ovr_LivestreamingStatus_GetLivestreamingEnabled(System::IntPtr obj);
     // static public System.Int32 ovr_LivestreamingStatus_GetLivestreamingType(System.IntPtr obj)
-    // Offset: 0x1CB7130
+    // Offset: 0x1BC712C
     static int ovr_LivestreamingStatus_GetLivestreamingType(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetMicEnabled(System.IntPtr obj)
-    // Offset: 0x1CB71B0
+    // Offset: 0x1BC71AC
     static bool ovr_LivestreamingStatus_GetMicEnabled(System::IntPtr obj);
     // static public System.Int32 ovr_LivestreamingVideoStats_GetCommentCount(System.IntPtr obj)
-    // Offset: 0x1CB7238
+    // Offset: 0x1BC7234
     static int ovr_LivestreamingVideoStats_GetCommentCount(System::IntPtr obj);
     // static public System.Int32 ovr_LivestreamingVideoStats_GetReactionCount(System.IntPtr obj)
-    // Offset: 0x1CB72B8
+    // Offset: 0x1BC72B4
     static int ovr_LivestreamingVideoStats_GetReactionCount(System::IntPtr obj);
     // static public System.String ovr_LivestreamingVideoStats_GetTotalViews(System.IntPtr obj)
-    // Offset: 0x1CB7338
+    // Offset: 0x1BC7334
     static ::Il2CppString* ovr_LivestreamingVideoStats_GetTotalViews(System::IntPtr obj);
     // static private System.IntPtr ovr_LivestreamingVideoStats_GetTotalViews_Native(System.IntPtr obj)
-    // Offset: 0x1CB73A0
+    // Offset: 0x1BC739C
     static System::IntPtr ovr_LivestreamingVideoStats_GetTotalViews_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingAdminSnapshot_GetCandidates(System.IntPtr obj)
-    // Offset: 0x1CB7420
+    // Offset: 0x1BC741C
     static System::IntPtr ovr_MatchmakingAdminSnapshot_GetCandidates(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold(System.IntPtr obj)
-    // Offset: 0x1CB74A0
+    // Offset: 0x1BC749C
     static double ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold(System::IntPtr obj);
     // static public System.Boolean ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch(System.IntPtr obj)
-    // Offset: 0x1CB7520
+    // Offset: 0x1BC751C
     static bool ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore(System.IntPtr obj)
-    // Offset: 0x1CB75A8
+    // Offset: 0x1BC75A4
     static double ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold(System.IntPtr obj)
-    // Offset: 0x1CB7628
+    // Offset: 0x1BC7624
     static double ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore(System.IntPtr obj)
-    // Offset: 0x1CB76A8
+    // Offset: 0x1BC76A4
     static double ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore(System::IntPtr obj);
     // static public System.String ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System.IntPtr obj)
-    // Offset: 0x1CB7728
+    // Offset: 0x1BC7724
     static ::Il2CppString* ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native(System.IntPtr obj)
-    // Offset: 0x1CB7790
+    // Offset: 0x1BC778C
     static System::IntPtr ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB7810
+    // Offset: 0x1BC780C
     static System::IntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB78A0
+    // Offset: 0x1BC789C
     static System::UIntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetSize(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingBrowseResult_GetEnqueueResult(System.IntPtr obj)
-    // Offset: 0x1CB7920
+    // Offset: 0x1BC791C
     static System::IntPtr ovr_MatchmakingBrowseResult_GetEnqueueResult(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingBrowseResult_GetRooms(System.IntPtr obj)
-    // Offset: 0x1CB79A0
+    // Offset: 0x1BC799C
     static System::IntPtr ovr_MatchmakingBrowseResult_GetRooms(System::IntPtr obj);
     // static public System.String ovr_MatchmakingCandidate_GetEntryHash(System.IntPtr obj)
-    // Offset: 0x1CB7A20
+    // Offset: 0x1BC7A1C
     static ::Il2CppString* ovr_MatchmakingCandidate_GetEntryHash(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingCandidate_GetEntryHash_Native(System.IntPtr obj)
-    // Offset: 0x1CB7A88
+    // Offset: 0x1BC7A84
     static System::IntPtr ovr_MatchmakingCandidate_GetEntryHash_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_MatchmakingCandidate_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CB7B08
+    // Offset: 0x1BC7B04
     static uint64_t ovr_MatchmakingCandidate_GetUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingCandidateArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB7B88
+    // Offset: 0x1BC7B84
     static System::IntPtr ovr_MatchmakingCandidateArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_MatchmakingCandidateArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CB7C18
+    // Offset: 0x1BC7C14
     static ::Il2CppString* ovr_MatchmakingCandidateArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingCandidateArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CB7C80
+    // Offset: 0x1BC7C7C
     static System::IntPtr ovr_MatchmakingCandidateArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_MatchmakingCandidateArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB7D00
+    // Offset: 0x1BC7CFC
     static System::UIntPtr ovr_MatchmakingCandidateArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_MatchmakingCandidateArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CB7D80
+    // Offset: 0x1BC7D7C
     static bool ovr_MatchmakingCandidateArray_HasNextPage(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueueResult_GetAdminSnapshot(System.IntPtr obj)
-    // Offset: 0x1CB7E08
+    // Offset: 0x1BC7E04
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetAdminSnapshot(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetAverageWait(System.IntPtr obj)
-    // Offset: 0x1CB7E88
+    // Offset: 0x1BC7E84
     static uint ovr_MatchmakingEnqueueResult_GetAverageWait(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount(System.IntPtr obj)
-    // Offset: 0x1CB7F08
+    // Offset: 0x1BC7F04
     static uint ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetMaxExpectedWait(System.IntPtr obj)
-    // Offset: 0x1CB7F88
+    // Offset: 0x1BC7F84
     static uint ovr_MatchmakingEnqueueResult_GetMaxExpectedWait(System::IntPtr obj);
     // static public System.String ovr_MatchmakingEnqueueResult_GetPool(System.IntPtr obj)
-    // Offset: 0x1CB8008
+    // Offset: 0x1BC8004
     static ::Il2CppString* ovr_MatchmakingEnqueueResult_GetPool(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingEnqueueResult_GetPool_Native(System.IntPtr obj)
-    // Offset: 0x1CB8070
+    // Offset: 0x1BC806C
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetPool_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage(System.IntPtr obj)
-    // Offset: 0x1CB80F0
+    // Offset: 0x1BC80EC
     static uint ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage(System::IntPtr obj);
     // static public System.String ovr_MatchmakingEnqueueResult_GetRequestHash(System.IntPtr obj)
-    // Offset: 0x1CB8170
+    // Offset: 0x1BC816C
     static ::Il2CppString* ovr_MatchmakingEnqueueResult_GetRequestHash(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingEnqueueResult_GetRequestHash_Native(System.IntPtr obj)
-    // Offset: 0x1CB81D8
+    // Offset: 0x1BC81D4
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetRequestHash_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult(System.IntPtr obj)
-    // Offset: 0x1CB8258
+    // Offset: 0x1BC8254
     static System::IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetRoom(System.IntPtr obj)
-    // Offset: 0x1CB82D8
+    // Offset: 0x1BC82D4
     static System::IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetRoom(System::IntPtr obj);
     // static public System.UInt64 ovr_MatchmakingEnqueuedUser_GetAdditionalUserID(System.IntPtr obj, System.UInt32 index)
-    // Offset: 0x1CB8358
+    // Offset: 0x1BC8354
     static uint64_t ovr_MatchmakingEnqueuedUser_GetAdditionalUserID(System::IntPtr obj, uint index);
     // static public System.UInt32 ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize(System.IntPtr obj)
-    // Offset: 0x1CB83E8
+    // Offset: 0x1BC83E4
     static uint ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueuedUser_GetCustomData(System.IntPtr obj)
-    // Offset: 0x1CB8468
+    // Offset: 0x1BC8464
     static System::IntPtr ovr_MatchmakingEnqueuedUser_GetCustomData(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueuedUser_GetUser(System.IntPtr obj)
-    // Offset: 0x1CB84E8
+    // Offset: 0x1BC84E4
     static System::IntPtr ovr_MatchmakingEnqueuedUser_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueuedUserArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB8568
+    // Offset: 0x1BC8564
     static System::IntPtr ovr_MatchmakingEnqueuedUserArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_MatchmakingEnqueuedUserArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB85F8
+    // Offset: 0x1BC85F4
     static System::UIntPtr ovr_MatchmakingEnqueuedUserArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_MatchmakingNotification_GetAddedByUserId(System.IntPtr obj)
-    // Offset: 0x1CB8678
+    // Offset: 0x1BC8674
     static uint64_t ovr_MatchmakingNotification_GetAddedByUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingNotification_GetRoom(System.IntPtr obj)
-    // Offset: 0x1CB86F8
+    // Offset: 0x1BC86F4
     static System::IntPtr ovr_MatchmakingNotification_GetRoom(System::IntPtr obj);
     // static public System.String ovr_MatchmakingNotification_GetTraceId(System.IntPtr obj)
-    // Offset: 0x1CB8778
+    // Offset: 0x1BC8774
     static ::Il2CppString* ovr_MatchmakingNotification_GetTraceId(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingNotification_GetTraceId_Native(System.IntPtr obj)
-    // Offset: 0x1CB87E0
+    // Offset: 0x1BC87DC
     static System::IntPtr ovr_MatchmakingNotification_GetTraceId_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingRoom_GetPingTime(System.IntPtr obj)
-    // Offset: 0x1CB8860
+    // Offset: 0x1BC885C
     static uint ovr_MatchmakingRoom_GetPingTime(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingRoom_GetRoom(System.IntPtr obj)
-    // Offset: 0x1CB88E0
+    // Offset: 0x1BC88DC
     static System::IntPtr ovr_MatchmakingRoom_GetRoom(System::IntPtr obj);
     // static public System.Boolean ovr_MatchmakingRoom_HasPingTime(System.IntPtr obj)
-    // Offset: 0x1CB8960
+    // Offset: 0x1BC895C
     static bool ovr_MatchmakingRoom_HasPingTime(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingRoomArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CB89E8
+    // Offset: 0x1BC89E4
     static System::IntPtr ovr_MatchmakingRoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_MatchmakingRoomArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CB8A78
+    // Offset: 0x1BC8A74
     static System::UIntPtr ovr_MatchmakingRoomArray_GetSize(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetDrawCount(System.IntPtr obj)
-    // Offset: 0x1CB8AF8
+    // Offset: 0x1BC8AF4
     static uint ovr_MatchmakingStats_GetDrawCount(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetLossCount(System.IntPtr obj)
-    // Offset: 0x1CB8B78
+    // Offset: 0x1BC8B74
     static uint ovr_MatchmakingStats_GetLossCount(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetSkillLevel(System.IntPtr obj)
-    // Offset: 0x1CB8BF8
+    // Offset: 0x1BC8BF4
     static uint ovr_MatchmakingStats_GetSkillLevel(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingStats_GetSkillMean(System.IntPtr obj)
-    // Offset: 0x1CB8C78
+    // Offset: 0x1BC8C74
     static double ovr_MatchmakingStats_GetSkillMean(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingStats_GetSkillStandardDeviation(System.IntPtr obj)
-    // Offset: 0x1CB8CF8
+    // Offset: 0x1BC8CF4
     static double ovr_MatchmakingStats_GetSkillStandardDeviation(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetWinCount(System.IntPtr obj)
-    // Offset: 0x1CB8D78
+    // Offset: 0x1BC8D74
     static uint ovr_MatchmakingStats_GetWinCount(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAbuseReportRecording(System.IntPtr obj)
-    // Offset: 0x1CB8DF8
+    // Offset: 0x1BC8DF4
     static System::IntPtr ovr_Message_GetAbuseReportRecording(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAchievementDefinitionArray(System.IntPtr obj)
-    // Offset: 0x1CB8E78
+    // Offset: 0x1BC8E74
     static System::IntPtr ovr_Message_GetAchievementDefinitionArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAchievementProgressArray(System.IntPtr obj)
-    // Offset: 0x1CB8EF8
+    // Offset: 0x1BC8EF4
     static System::IntPtr ovr_Message_GetAchievementProgressArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAchievementUpdate(System.IntPtr obj)
-    // Offset: 0x1CB8F78
+    // Offset: 0x1BC8F74
     static System::IntPtr ovr_Message_GetAchievementUpdate(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetApplicationVersion(System.IntPtr obj)
-    // Offset: 0x1CB8FF8
+    // Offset: 0x1BC8FF4
     static System::IntPtr ovr_Message_GetApplicationVersion(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetDetails(System.IntPtr obj)
-    // Offset: 0x1CB9078
+    // Offset: 0x1BC9074
     static System::IntPtr ovr_Message_GetAssetDetails(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetDetailsArray(System.IntPtr obj)
-    // Offset: 0x1CB90F8
+    // Offset: 0x1BC90F4
     static System::IntPtr ovr_Message_GetAssetDetailsArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDeleteResult(System.IntPtr obj)
-    // Offset: 0x1CB9178
+    // Offset: 0x1BC9174
     static System::IntPtr ovr_Message_GetAssetFileDeleteResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDownloadCancelResult(System.IntPtr obj)
-    // Offset: 0x1CB91F8
+    // Offset: 0x1BC91F4
     static System::IntPtr ovr_Message_GetAssetFileDownloadCancelResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDownloadResult(System.IntPtr obj)
-    // Offset: 0x1CB9278
+    // Offset: 0x1BC9274
     static System::IntPtr ovr_Message_GetAssetFileDownloadResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDownloadUpdate(System.IntPtr obj)
-    // Offset: 0x1CB92F8
+    // Offset: 0x1BC92F4
     static System::IntPtr ovr_Message_GetAssetFileDownloadUpdate(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCalApplicationFinalized(System.IntPtr obj)
-    // Offset: 0x1CB9378
+    // Offset: 0x1BC9374
     static System::IntPtr ovr_Message_GetCalApplicationFinalized(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCalApplicationProposed(System.IntPtr obj)
-    // Offset: 0x1CB93F8
+    // Offset: 0x1BC93F4
     static System::IntPtr ovr_Message_GetCalApplicationProposed(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCalApplicationSuggestionArray(System.IntPtr obj)
-    // Offset: 0x1CB9478
+    // Offset: 0x1BC9474
     static System::IntPtr ovr_Message_GetCalApplicationSuggestionArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetChallenge(System.IntPtr obj)
-    // Offset: 0x1CB94F8
+    // Offset: 0x1BC94F4
     static System::IntPtr ovr_Message_GetChallenge(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetChallengeArray(System.IntPtr obj)
-    // Offset: 0x1CB9578
+    // Offset: 0x1BC9574
     static System::IntPtr ovr_Message_GetChallengeArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetChallengeEntryArray(System.IntPtr obj)
-    // Offset: 0x1CB95F8
+    // Offset: 0x1BC95F4
     static System::IntPtr ovr_Message_GetChallengeEntryArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageConflictMetadata(System.IntPtr obj)
-    // Offset: 0x1CB9678
+    // Offset: 0x1BC9674
     static System::IntPtr ovr_Message_GetCloudStorageConflictMetadata(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageData(System.IntPtr obj)
-    // Offset: 0x1CB96F8
+    // Offset: 0x1BC96F4
     static System::IntPtr ovr_Message_GetCloudStorageData(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageMetadata(System.IntPtr obj)
-    // Offset: 0x1CB9778
+    // Offset: 0x1BC9774
     static System::IntPtr ovr_Message_GetCloudStorageMetadata(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageMetadataArray(System.IntPtr obj)
-    // Offset: 0x1CB97F8
+    // Offset: 0x1BC97F4
     static System::IntPtr ovr_Message_GetCloudStorageMetadataArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageUpdateResponse(System.IntPtr obj)
-    // Offset: 0x1CB9878
+    // Offset: 0x1BC9874
     static System::IntPtr ovr_Message_GetCloudStorageUpdateResponse(System::IntPtr obj);
+    // static public System.IntPtr ovr_Message_GetDataStore(System.IntPtr obj)
+    // Offset: 0x1BC98F4
+    static System::IntPtr ovr_Message_GetDataStore(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetDestinationArray(System.IntPtr obj)
-    // Offset: 0x1CB98F8
+    // Offset: 0x1BC9974
     static System::IntPtr ovr_Message_GetDestinationArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetError(System.IntPtr obj)
-    // Offset: 0x1CB9978
+    // Offset: 0x1BC99F4
     static System::IntPtr ovr_Message_GetError(System::IntPtr obj);
+    // static public System.IntPtr ovr_Message_GetGroupPresenceLeaveIntent(System.IntPtr obj)
+    // Offset: 0x1BC9A74
+    static System::IntPtr ovr_Message_GetGroupPresenceLeaveIntent(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetHttpTransferUpdate(System.IntPtr obj)
-    // Offset: 0x1CB99F8
+    // Offset: 0x1BC9AF4
     static System::IntPtr ovr_Message_GetHttpTransferUpdate(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetInstalledApplicationArray(System.IntPtr obj)
-    // Offset: 0x1CB9A78
+    // Offset: 0x1BC9B74
     static System::IntPtr ovr_Message_GetInstalledApplicationArray(System::IntPtr obj);
+    // static public System.IntPtr ovr_Message_GetInvitePanelResultInfo(System.IntPtr obj)
+    // Offset: 0x1BC9BF4
+    static System::IntPtr ovr_Message_GetInvitePanelResultInfo(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchBlockFlowResult(System.IntPtr obj)
-    // Offset: 0x1CB9AF8
+    // Offset: 0x1BC9C74
     static System::IntPtr ovr_Message_GetLaunchBlockFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchFriendRequestFlowResult(System.IntPtr obj)
-    // Offset: 0x1CB9B78
+    // Offset: 0x1BC9CF4
     static System::IntPtr ovr_Message_GetLaunchFriendRequestFlowResult(System::IntPtr obj);
+    // static public System.IntPtr ovr_Message_GetLaunchInvitePanelFlowResult(System.IntPtr obj)
+    // Offset: 0x1BC9D74
+    static System::IntPtr ovr_Message_GetLaunchInvitePanelFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchReportFlowResult(System.IntPtr obj)
-    // Offset: 0x1CB9BF8
+    // Offset: 0x1BC9DF4
     static System::IntPtr ovr_Message_GetLaunchReportFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchUnblockFlowResult(System.IntPtr obj)
-    // Offset: 0x1CB9C78
+    // Offset: 0x1BC9E74
     static System::IntPtr ovr_Message_GetLaunchUnblockFlowResult(System::IntPtr obj);
+    // static public System.IntPtr ovr_Message_GetLeaderboardArray(System.IntPtr obj)
+    // Offset: 0x1BC9EF4
+    static System::IntPtr ovr_Message_GetLeaderboardArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLeaderboardEntryArray(System.IntPtr obj)
-    // Offset: 0x1CB9CF8
+    // Offset: 0x1BC9F74
     static System::IntPtr ovr_Message_GetLeaderboardEntryArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLeaderboardUpdateStatus(System.IntPtr obj)
-    // Offset: 0x1CB9D78
+    // Offset: 0x1BC9FF4
     static System::IntPtr ovr_Message_GetLeaderboardUpdateStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLinkedAccountArray(System.IntPtr obj)
-    // Offset: 0x1CB9DF8
+    // Offset: 0x1BCA074
     static System::IntPtr ovr_Message_GetLinkedAccountArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingApplicationStatus(System.IntPtr obj)
-    // Offset: 0x1CB9E78
+    // Offset: 0x1BCA0F4
     static System::IntPtr ovr_Message_GetLivestreamingApplicationStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingStartResult(System.IntPtr obj)
-    // Offset: 0x1CB9EF8
+    // Offset: 0x1BCA174
     static System::IntPtr ovr_Message_GetLivestreamingStartResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingStatus(System.IntPtr obj)
-    // Offset: 0x1CB9F78
+    // Offset: 0x1BCA1F4
     static System::IntPtr ovr_Message_GetLivestreamingStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingVideoStats(System.IntPtr obj)
-    // Offset: 0x1CB9FF8
+    // Offset: 0x1BCA274
     static System::IntPtr ovr_Message_GetLivestreamingVideoStats(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingAdminSnapshot(System.IntPtr obj)
-    // Offset: 0x1CBA078
+    // Offset: 0x1BCA2F4
     static System::IntPtr ovr_Message_GetMatchmakingAdminSnapshot(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingBrowseResult(System.IntPtr obj)
-    // Offset: 0x1CBA0F8
+    // Offset: 0x1BCA374
     static System::IntPtr ovr_Message_GetMatchmakingBrowseResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingEnqueueResult(System.IntPtr obj)
-    // Offset: 0x1CBA178
+    // Offset: 0x1BCA3F4
     static System::IntPtr ovr_Message_GetMatchmakingEnqueueResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingEnqueueResultAndRoom(System.IntPtr obj)
-    // Offset: 0x1CBA1F8
+    // Offset: 0x1BCA474
     static System::IntPtr ovr_Message_GetMatchmakingEnqueueResultAndRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingRoomArray(System.IntPtr obj)
-    // Offset: 0x1CBA278
+    // Offset: 0x1BCA4F4
     static System::IntPtr ovr_Message_GetMatchmakingRoomArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingStats(System.IntPtr obj)
-    // Offset: 0x1CBA2F8
+    // Offset: 0x1BCA574
     static System::IntPtr ovr_Message_GetMatchmakingStats(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNativeMessage(System.IntPtr obj)
-    // Offset: 0x1CBA378
+    // Offset: 0x1BCA5F4
     static System::IntPtr ovr_Message_GetNativeMessage(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncConnection(System.IntPtr obj)
-    // Offset: 0x1CBA3F8
+    // Offset: 0x1BCA674
     static System::IntPtr ovr_Message_GetNetSyncConnection(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncSessionArray(System.IntPtr obj)
-    // Offset: 0x1CBA478
+    // Offset: 0x1BCA6F4
     static System::IntPtr ovr_Message_GetNetSyncSessionArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncSessionsChangedNotification(System.IntPtr obj)
-    // Offset: 0x1CBA4F8
+    // Offset: 0x1BCA774
     static System::IntPtr ovr_Message_GetNetSyncSessionsChangedNotification(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncSetSessionPropertyResult(System.IntPtr obj)
-    // Offset: 0x1CBA578
+    // Offset: 0x1BCA7F4
     static System::IntPtr ovr_Message_GetNetSyncSetSessionPropertyResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncVoipAttenuationValueArray(System.IntPtr obj)
-    // Offset: 0x1CBA5F8
+    // Offset: 0x1BCA874
     static System::IntPtr ovr_Message_GetNetSyncVoipAttenuationValueArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetworkingPeer(System.IntPtr obj)
-    // Offset: 0x1CBA678
+    // Offset: 0x1BCA8F4
     static System::IntPtr ovr_Message_GetNetworkingPeer(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetOrgScopedID(System.IntPtr obj)
-    // Offset: 0x1CBA6F8
+    // Offset: 0x1BCA974
     static System::IntPtr ovr_Message_GetOrgScopedID(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetParty(System.IntPtr obj)
-    // Offset: 0x1CBA778
+    // Offset: 0x1BCA9F4
     static System::IntPtr ovr_Message_GetParty(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPartyID(System.IntPtr obj)
-    // Offset: 0x1CBA7F8
+    // Offset: 0x1BCAA74
     static System::IntPtr ovr_Message_GetPartyID(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPartyUpdateNotification(System.IntPtr obj)
-    // Offset: 0x1CBA878
+    // Offset: 0x1BCAAF4
     static System::IntPtr ovr_Message_GetPartyUpdateNotification(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPidArray(System.IntPtr obj)
-    // Offset: 0x1CBA8F8
+    // Offset: 0x1BCAB74
     static System::IntPtr ovr_Message_GetPidArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPingResult(System.IntPtr obj)
-    // Offset: 0x1CBA978
+    // Offset: 0x1BCABF4
     static System::IntPtr ovr_Message_GetPingResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPlatformInitialize(System.IntPtr obj)
-    // Offset: 0x1CBA9F8
+    // Offset: 0x1BCAC74
     static System::IntPtr ovr_Message_GetPlatformInitialize(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetProductArray(System.IntPtr obj)
-    // Offset: 0x1CBAA78
+    // Offset: 0x1BCACF4
     static System::IntPtr ovr_Message_GetProductArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPurchase(System.IntPtr obj)
-    // Offset: 0x1CBAAF8
+    // Offset: 0x1BCAD74
     static System::IntPtr ovr_Message_GetPurchase(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPurchaseArray(System.IntPtr obj)
-    // Offset: 0x1CBAB78
+    // Offset: 0x1BCADF4
     static System::IntPtr ovr_Message_GetPurchaseArray(System::IntPtr obj);
     // static public System.UInt64 ovr_Message_GetRequestID(System.IntPtr obj)
-    // Offset: 0x1CBABF8
+    // Offset: 0x1BCAE74
     static uint64_t ovr_Message_GetRequestID(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoom(System.IntPtr obj)
-    // Offset: 0x1CBAC78
+    // Offset: 0x1BCAEF4
     static System::IntPtr ovr_Message_GetRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoomArray(System.IntPtr obj)
-    // Offset: 0x1CBACF8
+    // Offset: 0x1BCAF74
     static System::IntPtr ovr_Message_GetRoomArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoomInviteNotification(System.IntPtr obj)
-    // Offset: 0x1CBAD78
+    // Offset: 0x1BCAFF4
     static System::IntPtr ovr_Message_GetRoomInviteNotification(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoomInviteNotificationArray(System.IntPtr obj)
-    // Offset: 0x1CBADF8
+    // Offset: 0x1BCB074
     static System::IntPtr ovr_Message_GetRoomInviteNotificationArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetSdkAccountArray(System.IntPtr obj)
-    // Offset: 0x1CBAE78
+    // Offset: 0x1BCB0F4
     static System::IntPtr ovr_Message_GetSdkAccountArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetShareMediaResult(System.IntPtr obj)
-    // Offset: 0x1CBAEF8
+    // Offset: 0x1BCB174
     static System::IntPtr ovr_Message_GetShareMediaResult(System::IntPtr obj);
     // static public System.String ovr_Message_GetString(System.IntPtr obj)
-    // Offset: 0x1CBAF78
+    // Offset: 0x1BCB1F4
     static ::Il2CppString* ovr_Message_GetString(System::IntPtr obj);
     // static private System.IntPtr ovr_Message_GetString_Native(System.IntPtr obj)
-    // Offset: 0x1CBAFE0
+    // Offset: 0x1BCB25C
     static System::IntPtr ovr_Message_GetString_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetSystemPermission(System.IntPtr obj)
-    // Offset: 0x1CBB060
+    // Offset: 0x1BCB2DC
     static System::IntPtr ovr_Message_GetSystemPermission(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetSystemVoipState(System.IntPtr obj)
-    // Offset: 0x1CBB0E0
+    // Offset: 0x1BCB35C
     static System::IntPtr ovr_Message_GetSystemVoipState(System::IntPtr obj);
     // static public Oculus.Platform.Message/MessageType ovr_Message_GetType(System.IntPtr obj)
-    // Offset: 0x1CBB160
+    // Offset: 0x1BCB3DC
     static Oculus::Platform::Message::MessageType ovr_Message_GetType(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUser(System.IntPtr obj)
-    // Offset: 0x1CBB1E0
+    // Offset: 0x1BCB45C
     static System::IntPtr ovr_Message_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserAndRoomArray(System.IntPtr obj)
-    // Offset: 0x1CBB260
+    // Offset: 0x1BCB4DC
     static System::IntPtr ovr_Message_GetUserAndRoomArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserArray(System.IntPtr obj)
-    // Offset: 0x1CBB2E0
+    // Offset: 0x1BCB55C
     static System::IntPtr ovr_Message_GetUserArray(System::IntPtr obj);
+    // static public System.IntPtr ovr_Message_GetUserDataStoreUpdateResponse(System.IntPtr obj)
+    // Offset: 0x1BCB5DC
+    static System::IntPtr ovr_Message_GetUserDataStoreUpdateResponse(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserProof(System.IntPtr obj)
-    // Offset: 0x1CBB360
+    // Offset: 0x1BCB65C
     static System::IntPtr ovr_Message_GetUserProof(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserReportID(System.IntPtr obj)
-    // Offset: 0x1CBB3E0
+    // Offset: 0x1BCB6DC
     static System::IntPtr ovr_Message_GetUserReportID(System::IntPtr obj);
     // static public System.Boolean ovr_Message_IsError(System.IntPtr obj)
-    // Offset: 0x1CBB460
+    // Offset: 0x1BCB75C
     static bool ovr_Message_IsError(System::IntPtr obj);
     // static public System.UIntPtr ovr_Microphone_GetNumSamplesAvailable(System.IntPtr obj)
-    // Offset: 0x1CBB4E8
+    // Offset: 0x1BCB7E4
     static System::UIntPtr ovr_Microphone_GetNumSamplesAvailable(System::IntPtr obj);
     // static public System.UIntPtr ovr_Microphone_GetOutputBufferMaxSize(System.IntPtr obj)
-    // Offset: 0x1CBB568
+    // Offset: 0x1BCB864
     static System::UIntPtr ovr_Microphone_GetOutputBufferMaxSize(System::IntPtr obj);
     // static public System.UIntPtr ovr_Microphone_GetPCM(System.IntPtr obj, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CBB5E8
+    // Offset: 0x1BCB8E4
     static System::UIntPtr ovr_Microphone_GetPCM(System::IntPtr obj, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Microphone_GetPCMFloat(System.IntPtr obj, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1CBB688
+    // Offset: 0x1BCB984
     static System::UIntPtr ovr_Microphone_GetPCMFloat(System::IntPtr obj, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Microphone_ReadData(System.IntPtr obj, System.Single[] outputBuffer, System.UIntPtr outputBufferSize)
-    // Offset: 0x1CBB728
+    // Offset: 0x1BCBA24
     static System::UIntPtr ovr_Microphone_ReadData(System::IntPtr obj, ::Array<float>* outputBuffer, System::UIntPtr outputBufferSize);
     // static public System.Void ovr_Microphone_SetAcceptableRecordingDelayHint(System.IntPtr obj, System.UIntPtr delayMs)
-    // Offset: 0x1CBB7C8
+    // Offset: 0x1BCBAC4
     static void ovr_Microphone_SetAcceptableRecordingDelayHint(System::IntPtr obj, System::UIntPtr delayMs);
     // static public System.Void ovr_Microphone_Start(System.IntPtr obj)
-    // Offset: 0x1CBB858
+    // Offset: 0x1BCBB54
     static void ovr_Microphone_Start(System::IntPtr obj);
     // static public System.Void ovr_Microphone_Stop(System.IntPtr obj)
-    // Offset: 0x1CBB8D8
+    // Offset: 0x1BCBBD4
     static void ovr_Microphone_Stop(System::IntPtr obj);
     // static public System.Int64 ovr_NetSyncConnection_GetConnectionId(System.IntPtr obj)
-    // Offset: 0x1CBB958
+    // Offset: 0x1BCBC54
     static int64_t ovr_NetSyncConnection_GetConnectionId(System::IntPtr obj);
     // static public Oculus.Platform.NetSyncDisconnectReason ovr_NetSyncConnection_GetDisconnectReason(System.IntPtr obj)
-    // Offset: 0x1CBB9D8
+    // Offset: 0x1BCBCD4
     static Oculus::Platform::NetSyncDisconnectReason ovr_NetSyncConnection_GetDisconnectReason(System::IntPtr obj);
     // static public System.UInt64 ovr_NetSyncConnection_GetSessionId(System.IntPtr obj)
-    // Offset: 0x1CBBA58
+    // Offset: 0x1BCBD54
     static uint64_t ovr_NetSyncConnection_GetSessionId(System::IntPtr obj);
     // static public Oculus.Platform.NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(System.IntPtr obj)
-    // Offset: 0x1CBBAD8
+    // Offset: 0x1BCBDD4
     static Oculus::Platform::NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(System::IntPtr obj);
     // static public System.String ovr_NetSyncConnection_GetZoneId(System.IntPtr obj)
-    // Offset: 0x1CBBB58
+    // Offset: 0x1BCBE54
     static ::Il2CppString* ovr_NetSyncConnection_GetZoneId(System::IntPtr obj);
     // static private System.IntPtr ovr_NetSyncConnection_GetZoneId_Native(System.IntPtr obj)
-    // Offset: 0x1CBBBC0
+    // Offset: 0x1BCBEBC
     static System::IntPtr ovr_NetSyncConnection_GetZoneId_Native(System::IntPtr obj);
     // static public System.Int64 ovr_NetSyncSession_GetConnectionId(System.IntPtr obj)
-    // Offset: 0x1CBBC40
+    // Offset: 0x1BCBF3C
     static int64_t ovr_NetSyncSession_GetConnectionId(System::IntPtr obj);
     // static public System.Boolean ovr_NetSyncSession_GetMuted(System.IntPtr obj)
-    // Offset: 0x1CBBCC0
+    // Offset: 0x1BCBFBC
     static bool ovr_NetSyncSession_GetMuted(System::IntPtr obj);
     // static public System.UInt64 ovr_NetSyncSession_GetSessionId(System.IntPtr obj)
-    // Offset: 0x1CBBD48
+    // Offset: 0x1BCC044
     static uint64_t ovr_NetSyncSession_GetSessionId(System::IntPtr obj);
     // static public System.UInt64 ovr_NetSyncSession_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CBBDC8
+    // Offset: 0x1BCC0C4
     static uint64_t ovr_NetSyncSession_GetUserId(System::IntPtr obj);
     // static public System.String ovr_NetSyncSession_GetVoipGroup(System.IntPtr obj)
-    // Offset: 0x1CBBE48
+    // Offset: 0x1BCC144
     static ::Il2CppString* ovr_NetSyncSession_GetVoipGroup(System::IntPtr obj);
     // static private System.IntPtr ovr_NetSyncSession_GetVoipGroup_Native(System.IntPtr obj)
-    // Offset: 0x1CBBEB0
+    // Offset: 0x1BCC1AC
     static System::IntPtr ovr_NetSyncSession_GetVoipGroup_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncSessionArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBBF30
+    // Offset: 0x1BCC22C
     static System::IntPtr ovr_NetSyncSessionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_NetSyncSessionArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBBFC0
+    // Offset: 0x1BCC2BC
     static System::UIntPtr ovr_NetSyncSessionArray_GetSize(System::IntPtr obj);
     // static public System.Int64 ovr_NetSyncSessionsChangedNotification_GetConnectionId(System.IntPtr obj)
-    // Offset: 0x1CBC040
+    // Offset: 0x1BCC33C
     static int64_t ovr_NetSyncSessionsChangedNotification_GetConnectionId(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncSessionsChangedNotification_GetSessions(System.IntPtr obj)
-    // Offset: 0x1CBC0C0
+    // Offset: 0x1BCC3BC
     static System::IntPtr ovr_NetSyncSessionsChangedNotification_GetSessions(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncSetSessionPropertyResult_GetSession(System.IntPtr obj)
-    // Offset: 0x1CBC140
+    // Offset: 0x1BCC43C
     static System::IntPtr ovr_NetSyncSetSessionPropertyResult_GetSession(System::IntPtr obj);
     // static public System.Single ovr_NetSyncVoipAttenuationValue_GetDecibels(System.IntPtr obj)
-    // Offset: 0x1CBC1C0
+    // Offset: 0x1BCC4BC
     static float ovr_NetSyncVoipAttenuationValue_GetDecibels(System::IntPtr obj);
     // static public System.Single ovr_NetSyncVoipAttenuationValue_GetDistance(System.IntPtr obj)
-    // Offset: 0x1CBC240
+    // Offset: 0x1BCC53C
     static float ovr_NetSyncVoipAttenuationValue_GetDistance(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncVoipAttenuationValueArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBC2C0
+    // Offset: 0x1BCC5BC
     static System::IntPtr ovr_NetSyncVoipAttenuationValueArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_NetSyncVoipAttenuationValueArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBC350
+    // Offset: 0x1BCC64C
     static System::UIntPtr ovr_NetSyncVoipAttenuationValueArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_NetworkingPeer_GetID(System.IntPtr obj)
-    // Offset: 0x1CBC3D0
+    // Offset: 0x1BCC6CC
     static uint64_t ovr_NetworkingPeer_GetID(System::IntPtr obj);
     // static public Oculus.Platform.PeerConnectionState ovr_NetworkingPeer_GetState(System.IntPtr obj)
-    // Offset: 0x1CBC450
+    // Offset: 0x1BCC74C
     static Oculus::Platform::PeerConnectionState ovr_NetworkingPeer_GetState(System::IntPtr obj);
     // static public System.UInt64 ovr_OrgScopedID_GetID(System.IntPtr obj)
-    // Offset: 0x1CBC4D0
+    // Offset: 0x1BCC7CC
     static uint64_t ovr_OrgScopedID_GetID(System::IntPtr obj);
     // static public System.Void ovr_Packet_Free(System.IntPtr obj)
-    // Offset: 0x1CBC550
+    // Offset: 0x1BCC84C
     static void ovr_Packet_Free(System::IntPtr obj);
     // static public System.IntPtr ovr_Packet_GetBytes(System.IntPtr obj)
-    // Offset: 0x1CBC5D0
+    // Offset: 0x1BCC8CC
     static System::IntPtr ovr_Packet_GetBytes(System::IntPtr obj);
     // static public Oculus.Platform.SendPolicy ovr_Packet_GetSendPolicy(System.IntPtr obj)
-    // Offset: 0x1CBC650
+    // Offset: 0x1BCC94C
     static Oculus::Platform::SendPolicy ovr_Packet_GetSendPolicy(System::IntPtr obj);
     // static public System.UInt64 ovr_Packet_GetSenderID(System.IntPtr obj)
-    // Offset: 0x1CBC6D0
+    // Offset: 0x1BCC9CC
     static uint64_t ovr_Packet_GetSenderID(System::IntPtr obj);
     // static public System.UIntPtr ovr_Packet_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBC750
+    // Offset: 0x1BCCA4C
     static System::UIntPtr ovr_Packet_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_Party_GetID(System.IntPtr obj)
-    // Offset: 0x1CBC7D0
+    // Offset: 0x1BCCACC
     static uint64_t ovr_Party_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1CBC850
+    // Offset: 0x1BCCB4C
     static System::IntPtr ovr_Party_GetInvitedUsers(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetLeader(System.IntPtr obj)
-    // Offset: 0x1CBC8D0
+    // Offset: 0x1BCCBCC
     static System::IntPtr ovr_Party_GetLeader(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetRoom(System.IntPtr obj)
-    // Offset: 0x1CBC950
+    // Offset: 0x1BCCC4C
     static System::IntPtr ovr_Party_GetRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetUsers(System.IntPtr obj)
-    // Offset: 0x1CBC9CC
+    // Offset: 0x1BCCCC8
     static System::IntPtr ovr_Party_GetUsers(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyID_GetID(System.IntPtr obj)
-    // Offset: 0x1CBCA4C
+    // Offset: 0x1BCCD48
     static uint64_t ovr_PartyID_GetID(System::IntPtr obj);
     // static public Oculus.Platform.PartyUpdateAction ovr_PartyUpdateNotification_GetAction(System.IntPtr obj)
-    // Offset: 0x1CBCAC8
+    // Offset: 0x1BCCDC4
     static Oculus::Platform::PartyUpdateAction ovr_PartyUpdateNotification_GetAction(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyUpdateNotification_GetPartyId(System.IntPtr obj)
-    // Offset: 0x1CBCB48
+    // Offset: 0x1BCCE44
     static uint64_t ovr_PartyUpdateNotification_GetPartyId(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyUpdateNotification_GetSenderId(System.IntPtr obj)
-    // Offset: 0x1CBCBC8
+    // Offset: 0x1BCCEC4
     static uint64_t ovr_PartyUpdateNotification_GetSenderId(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUpdateTimestamp(System.IntPtr obj)
-    // Offset: 0x1CBCC48
+    // Offset: 0x1BCCF44
     static ::Il2CppString* ovr_PartyUpdateNotification_GetUpdateTimestamp(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUpdateTimestamp_Native(System.IntPtr obj)
-    // Offset: 0x1CBCCB0
+    // Offset: 0x1BCCFAC
     static System::IntPtr ovr_PartyUpdateNotification_GetUpdateTimestamp_Native(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUserAlias(System.IntPtr obj)
-    // Offset: 0x1CBCD30
+    // Offset: 0x1BCD02C
     static ::Il2CppString* ovr_PartyUpdateNotification_GetUserAlias(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUserAlias_Native(System.IntPtr obj)
-    // Offset: 0x1CBCD98
+    // Offset: 0x1BCD094
     static System::IntPtr ovr_PartyUpdateNotification_GetUserAlias_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyUpdateNotification_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CBCE18
+    // Offset: 0x1BCD114
     static uint64_t ovr_PartyUpdateNotification_GetUserId(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUserName(System.IntPtr obj)
-    // Offset: 0x1CBCE98
+    // Offset: 0x1BCD194
     static ::Il2CppString* ovr_PartyUpdateNotification_GetUserName(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUserName_Native(System.IntPtr obj)
-    // Offset: 0x1CBCF00
+    // Offset: 0x1BCD1FC
     static System::IntPtr ovr_PartyUpdateNotification_GetUserName_Native(System::IntPtr obj);
     // static public System.String ovr_Pid_GetId(System.IntPtr obj)
-    // Offset: 0x1CBCF80
+    // Offset: 0x1BCD27C
     static ::Il2CppString* ovr_Pid_GetId(System::IntPtr obj);
     // static private System.IntPtr ovr_Pid_GetId_Native(System.IntPtr obj)
-    // Offset: 0x1CBCFE8
+    // Offset: 0x1BCD2E4
     static System::IntPtr ovr_Pid_GetId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_PidArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBD068
+    // Offset: 0x1BCD364
     static System::IntPtr ovr_PidArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_PidArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBD0F8
+    // Offset: 0x1BCD3F4
     static System::UIntPtr ovr_PidArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_PingResult_GetID(System.IntPtr obj)
-    // Offset: 0x1CBD178
+    // Offset: 0x1BCD474
     static uint64_t ovr_PingResult_GetID(System::IntPtr obj);
     // static public System.UInt64 ovr_PingResult_GetPingTimeUsec(System.IntPtr obj)
-    // Offset: 0x1CBD1F8
+    // Offset: 0x1BCD4F4
     static uint64_t ovr_PingResult_GetPingTimeUsec(System::IntPtr obj);
     // static public System.Boolean ovr_PingResult_IsTimeout(System.IntPtr obj)
-    // Offset: 0x1CBD278
+    // Offset: 0x1BCD574
     static bool ovr_PingResult_IsTimeout(System::IntPtr obj);
     // static public Oculus.Platform.PlatformInitializeResult ovr_PlatformInitialize_GetResult(System.IntPtr obj)
-    // Offset: 0x1CBD300
+    // Offset: 0x1BCD5FC
     static Oculus::Platform::PlatformInitializeResult ovr_PlatformInitialize_GetResult(System::IntPtr obj);
     // static public System.UInt32 ovr_Price_GetAmountInHundredths(System.IntPtr obj)
-    // Offset: 0x1CBD380
+    // Offset: 0x1BCD67C
     static uint ovr_Price_GetAmountInHundredths(System::IntPtr obj);
     // static public System.String ovr_Price_GetCurrency(System.IntPtr obj)
-    // Offset: 0x1CBD400
+    // Offset: 0x1BCD6FC
     static ::Il2CppString* ovr_Price_GetCurrency(System::IntPtr obj);
     // static private System.IntPtr ovr_Price_GetCurrency_Native(System.IntPtr obj)
-    // Offset: 0x1CBD468
+    // Offset: 0x1BCD764
     static System::IntPtr ovr_Price_GetCurrency_Native(System::IntPtr obj);
     // static public System.String ovr_Price_GetFormatted(System.IntPtr obj)
-    // Offset: 0x1CBD4E8
+    // Offset: 0x1BCD7E4
     static ::Il2CppString* ovr_Price_GetFormatted(System::IntPtr obj);
     // static private System.IntPtr ovr_Price_GetFormatted_Native(System.IntPtr obj)
-    // Offset: 0x1CBD550
+    // Offset: 0x1BCD84C
     static System::IntPtr ovr_Price_GetFormatted_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetDescription(System.IntPtr obj)
-    // Offset: 0x1CBD5D0
+    // Offset: 0x1BCD8CC
     static ::Il2CppString* ovr_Product_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetDescription_Native(System.IntPtr obj)
-    // Offset: 0x1CBD638
+    // Offset: 0x1BCD934
     static System::IntPtr ovr_Product_GetDescription_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetFormattedPrice(System.IntPtr obj)
-    // Offset: 0x1CBD6B8
+    // Offset: 0x1BCD9B4
     static ::Il2CppString* ovr_Product_GetFormattedPrice(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetFormattedPrice_Native(System.IntPtr obj)
-    // Offset: 0x1CBD720
+    // Offset: 0x1BCDA1C
     static System::IntPtr ovr_Product_GetFormattedPrice_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetName(System.IntPtr obj)
-    // Offset: 0x1CBD7A0
+    // Offset: 0x1BCDA9C
     static ::Il2CppString* ovr_Product_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1CBD808
+    // Offset: 0x1BCDB04
     static System::IntPtr ovr_Product_GetName_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetSKU(System.IntPtr obj)
-    // Offset: 0x1CBD888
+    // Offset: 0x1BCDB84
     static ::Il2CppString* ovr_Product_GetSKU(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetSKU_Native(System.IntPtr obj)
-    // Offset: 0x1CBD8F0
+    // Offset: 0x1BCDBEC
     static System::IntPtr ovr_Product_GetSKU_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_ProductArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBD970
+    // Offset: 0x1BCDC6C
     static System::IntPtr ovr_ProductArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ProductArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CBDA00
+    // Offset: 0x1BCDCFC
     static ::Il2CppString* ovr_ProductArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ProductArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CBDA68
+    // Offset: 0x1BCDD64
     static System::IntPtr ovr_ProductArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_ProductArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBDAE8
+    // Offset: 0x1BCDDE4
     static System::UIntPtr ovr_ProductArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_ProductArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CBDB68
+    // Offset: 0x1BCDE64
     static bool ovr_ProductArray_HasNextPage(System::IntPtr obj);
     // static public System.DateTime ovr_Purchase_GetExpirationTime(System.IntPtr obj)
-    // Offset: 0x1CBDBF0
+    // Offset: 0x1BCDEEC
     static System::DateTime ovr_Purchase_GetExpirationTime(System::IntPtr obj);
     // static private System.UInt64 ovr_Purchase_GetExpirationTime_Native(System.IntPtr obj)
-    // Offset: 0x1CBDC58
+    // Offset: 0x1BCDF54
     static uint64_t ovr_Purchase_GetExpirationTime_Native(System::IntPtr obj);
     // static public System.DateTime ovr_Purchase_GetGrantTime(System.IntPtr obj)
-    // Offset: 0x1CBDCD8
+    // Offset: 0x1BCDFD4
     static System::DateTime ovr_Purchase_GetGrantTime(System::IntPtr obj);
     // static private System.UInt64 ovr_Purchase_GetGrantTime_Native(System.IntPtr obj)
-    // Offset: 0x1CBDD40
+    // Offset: 0x1BCE03C
     static uint64_t ovr_Purchase_GetGrantTime_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Purchase_GetPurchaseID(System.IntPtr obj)
-    // Offset: 0x1CBDDC0
+    // Offset: 0x1BCE0BC
     static uint64_t ovr_Purchase_GetPurchaseID(System::IntPtr obj);
+    // static public System.String ovr_Purchase_GetPurchaseStrID(System.IntPtr obj)
+    // Offset: 0x1BCE13C
+    static ::Il2CppString* ovr_Purchase_GetPurchaseStrID(System::IntPtr obj);
+    // static private System.IntPtr ovr_Purchase_GetPurchaseStrID_Native(System.IntPtr obj)
+    // Offset: 0x1BCE1A4
+    static System::IntPtr ovr_Purchase_GetPurchaseStrID_Native(System::IntPtr obj);
     // static public System.String ovr_Purchase_GetSKU(System.IntPtr obj)
-    // Offset: 0x1CBDE40
+    // Offset: 0x1BCE224
     static ::Il2CppString* ovr_Purchase_GetSKU(System::IntPtr obj);
     // static private System.IntPtr ovr_Purchase_GetSKU_Native(System.IntPtr obj)
-    // Offset: 0x1CBDEA8
+    // Offset: 0x1BCE28C
     static System::IntPtr ovr_Purchase_GetSKU_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_PurchaseArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBDF28
+    // Offset: 0x1BCE30C
     static System::IntPtr ovr_PurchaseArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_PurchaseArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CBDFB8
+    // Offset: 0x1BCE39C
     static ::Il2CppString* ovr_PurchaseArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_PurchaseArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CBE020
+    // Offset: 0x1BCE404
     static System::IntPtr ovr_PurchaseArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_PurchaseArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBE0A0
+    // Offset: 0x1BCE484
     static System::UIntPtr ovr_PurchaseArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_PurchaseArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CBE120
+    // Offset: 0x1BCE504
     static bool ovr_PurchaseArray_HasNextPage(System::IntPtr obj);
     // static public System.UInt64 ovr_Room_GetApplicationID(System.IntPtr obj)
-    // Offset: 0x1CBE1A8
+    // Offset: 0x1BCE58C
     static uint64_t ovr_Room_GetApplicationID(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetDataStore(System.IntPtr obj)
-    // Offset: 0x1CBE228
+    // Offset: 0x1BCE60C
     static System::IntPtr ovr_Room_GetDataStore(System::IntPtr obj);
     // static public System.String ovr_Room_GetDescription(System.IntPtr obj)
-    // Offset: 0x1CBE2A8
+    // Offset: 0x1BCE68C
     static ::Il2CppString* ovr_Room_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Room_GetDescription_Native(System.IntPtr obj)
-    // Offset: 0x1CBE310
+    // Offset: 0x1BCE6F4
     static System::IntPtr ovr_Room_GetDescription_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Room_GetID(System.IntPtr obj)
-    // Offset: 0x1CBE390
+    // Offset: 0x1BCE774
     static uint64_t ovr_Room_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1CBE410
+    // Offset: 0x1BCE7F4
     static System::IntPtr ovr_Room_GetInvitedUsers(System::IntPtr obj);
     // static public System.Boolean ovr_Room_GetIsMembershipLocked(System.IntPtr obj)
-    // Offset: 0x1CBE490
+    // Offset: 0x1BCE874
     static bool ovr_Room_GetIsMembershipLocked(System::IntPtr obj);
     // static public Oculus.Platform.RoomJoinPolicy ovr_Room_GetJoinPolicy(System.IntPtr obj)
-    // Offset: 0x1CBE518
+    // Offset: 0x1BCE8FC
     static Oculus::Platform::RoomJoinPolicy ovr_Room_GetJoinPolicy(System::IntPtr obj);
     // static public Oculus.Platform.RoomJoinability ovr_Room_GetJoinability(System.IntPtr obj)
-    // Offset: 0x1CBE598
+    // Offset: 0x1BCE97C
     static Oculus::Platform::RoomJoinability ovr_Room_GetJoinability(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetMatchedUsers(System.IntPtr obj)
-    // Offset: 0x1CBE618
+    // Offset: 0x1BCE9FC
     static System::IntPtr ovr_Room_GetMatchedUsers(System::IntPtr obj);
     // static public System.UInt32 ovr_Room_GetMaxUsers(System.IntPtr obj)
-    // Offset: 0x1CBE698
+    // Offset: 0x1BCEA7C
     static uint ovr_Room_GetMaxUsers(System::IntPtr obj);
     // static public System.String ovr_Room_GetName(System.IntPtr obj)
-    // Offset: 0x1CBE718
+    // Offset: 0x1BCEAFC
     static ::Il2CppString* ovr_Room_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Room_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1CBE780
+    // Offset: 0x1BCEB64
     static System::IntPtr ovr_Room_GetName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetOwner(System.IntPtr obj)
-    // Offset: 0x1CBE800
+    // Offset: 0x1BCEBE4
     static System::IntPtr ovr_Room_GetOwner(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetTeams(System.IntPtr obj)
-    // Offset: 0x1CBE87C
+    // Offset: 0x1BCEC60
     static System::IntPtr ovr_Room_GetTeams(System::IntPtr obj);
     // static public Oculus.Platform.RoomType ovr_Room_GetType(System.IntPtr obj)
-    // Offset: 0x1CBE8F8
+    // Offset: 0x1BCECDC
     static Oculus::Platform::RoomType ovr_Room_GetType(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetUsers(System.IntPtr obj)
-    // Offset: 0x1CBE978
+    // Offset: 0x1BCED5C
     static System::IntPtr ovr_Room_GetUsers(System::IntPtr obj);
     // static public System.UInt32 ovr_Room_GetVersion(System.IntPtr obj)
-    // Offset: 0x1CBE9F4
+    // Offset: 0x1BCEDD8
     static uint ovr_Room_GetVersion(System::IntPtr obj);
     // static public System.IntPtr ovr_RoomArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBEA74
+    // Offset: 0x1BCEE58
     static System::IntPtr ovr_RoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_RoomArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CBEB04
+    // Offset: 0x1BCEEE8
     static ::Il2CppString* ovr_RoomArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_RoomArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CBEB6C
+    // Offset: 0x1BCEF50
     static System::IntPtr ovr_RoomArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_RoomArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBEBEC
+    // Offset: 0x1BCEFD0
     static System::UIntPtr ovr_RoomArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_RoomArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CBEC6C
+    // Offset: 0x1BCF050
     static bool ovr_RoomArray_HasNextPage(System::IntPtr obj);
     // static public System.UInt64 ovr_RoomInviteNotification_GetID(System.IntPtr obj)
-    // Offset: 0x1CBECF4
+    // Offset: 0x1BCF0D8
     static uint64_t ovr_RoomInviteNotification_GetID(System::IntPtr obj);
     // static public System.UInt64 ovr_RoomInviteNotification_GetRoomID(System.IntPtr obj)
-    // Offset: 0x1CBED74
+    // Offset: 0x1BCF158
     static uint64_t ovr_RoomInviteNotification_GetRoomID(System::IntPtr obj);
     // static public System.UInt64 ovr_RoomInviteNotification_GetSenderID(System.IntPtr obj)
-    // Offset: 0x1CBEDF4
+    // Offset: 0x1BCF1D8
     static uint64_t ovr_RoomInviteNotification_GetSenderID(System::IntPtr obj);
     // static public System.DateTime ovr_RoomInviteNotification_GetSentTime(System.IntPtr obj)
-    // Offset: 0x1CBEE74
+    // Offset: 0x1BCF258
     static System::DateTime ovr_RoomInviteNotification_GetSentTime(System::IntPtr obj);
     // static private System.UInt64 ovr_RoomInviteNotification_GetSentTime_Native(System.IntPtr obj)
-    // Offset: 0x1CBEEDC
+    // Offset: 0x1BCF2C0
     static uint64_t ovr_RoomInviteNotification_GetSentTime_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_RoomInviteNotificationArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBEF5C
+    // Offset: 0x1BCF340
     static System::IntPtr ovr_RoomInviteNotificationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_RoomInviteNotificationArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CBEFEC
+    // Offset: 0x1BCF3D0
     static ::Il2CppString* ovr_RoomInviteNotificationArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_RoomInviteNotificationArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CBF054
+    // Offset: 0x1BCF438
     static System::IntPtr ovr_RoomInviteNotificationArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_RoomInviteNotificationArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBF0D4
+    // Offset: 0x1BCF4B8
     static System::UIntPtr ovr_RoomInviteNotificationArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_RoomInviteNotificationArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CBF154
+    // Offset: 0x1BCF538
     static bool ovr_RoomInviteNotificationArray_HasNextPage(System::IntPtr obj);
     // static public Oculus.Platform.SdkAccountType ovr_SdkAccount_GetAccountType(System.IntPtr obj)
-    // Offset: 0x1CBF1DC
+    // Offset: 0x1BCF5C0
     static Oculus::Platform::SdkAccountType ovr_SdkAccount_GetAccountType(System::IntPtr obj);
     // static public System.UInt64 ovr_SdkAccount_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CBF25C
+    // Offset: 0x1BCF640
     static uint64_t ovr_SdkAccount_GetUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_SdkAccountArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBF2DC
+    // Offset: 0x1BCF6C0
     static System::IntPtr ovr_SdkAccountArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_SdkAccountArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBF36C
+    // Offset: 0x1BCF750
     static System::UIntPtr ovr_SdkAccountArray_GetSize(System::IntPtr obj);
     // static public Oculus.Platform.ShareMediaStatus ovr_ShareMediaResult_GetStatus(System.IntPtr obj)
-    // Offset: 0x1CBF3EC
+    // Offset: 0x1BCF7D0
     static Oculus::Platform::ShareMediaStatus ovr_ShareMediaResult_GetStatus(System::IntPtr obj);
+    // static public System.UInt64 ovr_SupplementaryMetric_GetID(System.IntPtr obj)
+    // Offset: 0x1BCF850
+    static uint64_t ovr_SupplementaryMetric_GetID(System::IntPtr obj);
+    // static public System.Int64 ovr_SupplementaryMetric_GetMetric(System.IntPtr obj)
+    // Offset: 0x1BCF8D0
+    static int64_t ovr_SupplementaryMetric_GetMetric(System::IntPtr obj);
     // static public System.Boolean ovr_SystemPermission_GetHasPermission(System.IntPtr obj)
-    // Offset: 0x1CBF46C
+    // Offset: 0x1BCF950
     static bool ovr_SystemPermission_GetHasPermission(System::IntPtr obj);
     // static public Oculus.Platform.PermissionGrantStatus ovr_SystemPermission_GetPermissionGrantStatus(System.IntPtr obj)
-    // Offset: 0x1CBF4F4
+    // Offset: 0x1BCF9D8
     static Oculus::Platform::PermissionGrantStatus ovr_SystemPermission_GetPermissionGrantStatus(System::IntPtr obj);
     // static public Oculus.Platform.VoipMuteState ovr_SystemVoipState_GetMicrophoneMuted(System.IntPtr obj)
-    // Offset: 0x1CBF574
+    // Offset: 0x1BCFA58
     static Oculus::Platform::VoipMuteState ovr_SystemVoipState_GetMicrophoneMuted(System::IntPtr obj);
     // static public Oculus.Platform.SystemVoipStatus ovr_SystemVoipState_GetStatus(System.IntPtr obj)
-    // Offset: 0x1CBF5F4
+    // Offset: 0x1BCFAD8
     static Oculus::Platform::SystemVoipStatus ovr_SystemVoipState_GetStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Team_GetAssignedUsers(System.IntPtr obj)
-    // Offset: 0x1CBF674
+    // Offset: 0x1BCFB58
     static System::IntPtr ovr_Team_GetAssignedUsers(System::IntPtr obj);
     // static public System.Int32 ovr_Team_GetMaxUsers(System.IntPtr obj)
-    // Offset: 0x1CBF6F4
+    // Offset: 0x1BCFBD8
     static int ovr_Team_GetMaxUsers(System::IntPtr obj);
     // static public System.Int32 ovr_Team_GetMinUsers(System.IntPtr obj)
-    // Offset: 0x1CBF774
+    // Offset: 0x1BCFC58
     static int ovr_Team_GetMinUsers(System::IntPtr obj);
     // static public System.String ovr_Team_GetName(System.IntPtr obj)
-    // Offset: 0x1CBF7F4
+    // Offset: 0x1BCFCD8
     static ::Il2CppString* ovr_Team_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Team_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1CBF85C
+    // Offset: 0x1BCFD40
     static System::IntPtr ovr_Team_GetName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_TeamArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CBF8DC
+    // Offset: 0x1BCFDC0
     static System::IntPtr ovr_TeamArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_TeamArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CBF96C
+    // Offset: 0x1BCFE50
     static System::UIntPtr ovr_TeamArray_GetSize(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetAccessToken(System.IntPtr obj)
-    // Offset: 0x1CBF9EC
+    // Offset: 0x1BCFED0
     static ::Il2CppString* ovr_TestUser_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1CBFA54
+    // Offset: 0x1BCFF38
     static System::IntPtr ovr_TestUser_GetAccessToken_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUser_GetAppAccessArray(System.IntPtr obj)
-    // Offset: 0x1CBFAD4
+    // Offset: 0x1BCFFB8
     static System::IntPtr ovr_TestUser_GetAppAccessArray(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUser_GetFbAppAccessArray(System.IntPtr obj)
-    // Offset: 0x1CBFB54
+    // Offset: 0x1BD0038
     static System::IntPtr ovr_TestUser_GetFbAppAccessArray(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetFriendAccessToken(System.IntPtr obj)
-    // Offset: 0x1CBFBD4
+    // Offset: 0x1BD00B8
     static ::Il2CppString* ovr_TestUser_GetFriendAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetFriendAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1CBFC3C
+    // Offset: 0x1BD0120
     static System::IntPtr ovr_TestUser_GetFriendAccessToken_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUser_GetFriendAppAccessArray(System.IntPtr obj)
-    // Offset: 0x1CBFCBC
+    // Offset: 0x1BD01A0
     static System::IntPtr ovr_TestUser_GetFriendAppAccessArray(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetUserAlias(System.IntPtr obj)
-    // Offset: 0x1CBFD3C
+    // Offset: 0x1BD0220
     static ::Il2CppString* ovr_TestUser_GetUserAlias(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetUserAlias_Native(System.IntPtr obj)
-    // Offset: 0x1CBFDA4
+    // Offset: 0x1BD0288
     static System::IntPtr ovr_TestUser_GetUserAlias_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUser_GetUserFbid(System.IntPtr obj)
-    // Offset: 0x1CBFE24
+    // Offset: 0x1BD0308
     static uint64_t ovr_TestUser_GetUserFbid(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUser_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CBFEA4
+    // Offset: 0x1BD0388
     static uint64_t ovr_TestUser_GetUserId(System::IntPtr obj);
     // static public System.String ovr_TestUserAppAccess_GetAccessToken(System.IntPtr obj)
-    // Offset: 0x1CBFF24
+    // Offset: 0x1BD0408
     static ::Il2CppString* ovr_TestUserAppAccess_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUserAppAccess_GetAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1CBFF8C
+    // Offset: 0x1BD0470
     static System::IntPtr ovr_TestUserAppAccess_GetAccessToken_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUserAppAccess_GetAppId(System.IntPtr obj)
-    // Offset: 0x1CC000C
+    // Offset: 0x1BD04F0
     static uint64_t ovr_TestUserAppAccess_GetAppId(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUserAppAccess_GetUserId(System.IntPtr obj)
-    // Offset: 0x1CC008C
+    // Offset: 0x1BD0570
     static uint64_t ovr_TestUserAppAccess_GetUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUserAppAccessArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CC010C
+    // Offset: 0x1BD05F0
     static System::IntPtr ovr_TestUserAppAccessArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_TestUserAppAccessArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CC019C
+    // Offset: 0x1BD0680
     static System::UIntPtr ovr_TestUserAppAccessArray_GetSize(System::IntPtr obj);
     // static public System.String ovr_User_GetDisplayName(System.IntPtr obj)
-    // Offset: 0x1CC021C
+    // Offset: 0x1BD0700
     static ::Il2CppString* ovr_User_GetDisplayName(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetDisplayName_Native(System.IntPtr obj)
-    // Offset: 0x1CC0284
+    // Offset: 0x1BD0768
     static System::IntPtr ovr_User_GetDisplayName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_User_GetID(System.IntPtr obj)
-    // Offset: 0x1CC0304
+    // Offset: 0x1BD07E8
     static uint64_t ovr_User_GetID(System::IntPtr obj);
     // static public System.String ovr_User_GetImageUrl(System.IntPtr obj)
-    // Offset: 0x1CC0384
+    // Offset: 0x1BD0868
     static ::Il2CppString* ovr_User_GetImageUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetImageUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CC03EC
+    // Offset: 0x1BD08D0
     static System::IntPtr ovr_User_GetImageUrl_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetInviteToken(System.IntPtr obj)
-    // Offset: 0x1CC046C
+    // Offset: 0x1BD0950
     static ::Il2CppString* ovr_User_GetInviteToken(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetInviteToken_Native(System.IntPtr obj)
-    // Offset: 0x1CC04D4
+    // Offset: 0x1BD09B8
     static System::IntPtr ovr_User_GetInviteToken_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetOculusID(System.IntPtr obj)
-    // Offset: 0x1CC0554
+    // Offset: 0x1BD0A38
     static ::Il2CppString* ovr_User_GetOculusID(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetOculusID_Native(System.IntPtr obj)
-    // Offset: 0x1CC05BC
+    // Offset: 0x1BD0AA0
     static System::IntPtr ovr_User_GetOculusID_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresence(System.IntPtr obj)
-    // Offset: 0x1CC063C
+    // Offset: 0x1BD0B20
     static ::Il2CppString* ovr_User_GetPresence(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresence_Native(System.IntPtr obj)
-    // Offset: 0x1CC06A4
+    // Offset: 0x1BD0B88
     static System::IntPtr ovr_User_GetPresence_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceDeeplinkMessage(System.IntPtr obj)
-    // Offset: 0x1CC0724
+    // Offset: 0x1BD0C08
     static ::Il2CppString* ovr_User_GetPresenceDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceDeeplinkMessage_Native(System.IntPtr obj)
-    // Offset: 0x1CC078C
+    // Offset: 0x1BD0C70
     static System::IntPtr ovr_User_GetPresenceDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceDestinationApiName(System.IntPtr obj)
-    // Offset: 0x1CC080C
+    // Offset: 0x1BD0CF0
     static ::Il2CppString* ovr_User_GetPresenceDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceDestinationApiName_Native(System.IntPtr obj)
-    // Offset: 0x1CC0874
+    // Offset: 0x1BD0D58
     static System::IntPtr ovr_User_GetPresenceDestinationApiName_Native(System::IntPtr obj);
     // static public Oculus.Platform.UserPresenceStatus ovr_User_GetPresenceStatus(System.IntPtr obj)
-    // Offset: 0x1CC08F4
+    // Offset: 0x1BD0DD8
     static Oculus::Platform::UserPresenceStatus ovr_User_GetPresenceStatus(System::IntPtr obj);
     // static public System.String ovr_User_GetSmallImageUrl(System.IntPtr obj)
-    // Offset: 0x1CC0974
+    // Offset: 0x1BD0E58
     static ::Il2CppString* ovr_User_GetSmallImageUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetSmallImageUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CC09DC
+    // Offset: 0x1BD0EC0
     static System::IntPtr ovr_User_GetSmallImageUrl_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_UserAndRoom_GetRoom(System.IntPtr obj)
-    // Offset: 0x1CC0A5C
+    // Offset: 0x1BD0F40
     static System::IntPtr ovr_UserAndRoom_GetRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_UserAndRoom_GetUser(System.IntPtr obj)
-    // Offset: 0x1CC0ADC
+    // Offset: 0x1BD0FC0
     static System::IntPtr ovr_UserAndRoom_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_UserAndRoomArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CC0B5C
+    // Offset: 0x1BD1040
     static System::IntPtr ovr_UserAndRoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_UserAndRoomArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CC0BEC
+    // Offset: 0x1BD10D0
     static ::Il2CppString* ovr_UserAndRoomArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_UserAndRoomArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CC0C54
+    // Offset: 0x1BD1138
     static System::IntPtr ovr_UserAndRoomArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_UserAndRoomArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CC0CD4
+    // Offset: 0x1BD11B8
     static System::UIntPtr ovr_UserAndRoomArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_UserAndRoomArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CC0D54
+    // Offset: 0x1BD1238
     static bool ovr_UserAndRoomArray_HasNextPage(System::IntPtr obj);
     // static public System.IntPtr ovr_UserArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1CC0DDC
+    // Offset: 0x1BD12C0
     static System::IntPtr ovr_UserArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_UserArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1CC0E6C
+    // Offset: 0x1BD1350
     static ::Il2CppString* ovr_UserArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_UserArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1CC0ED4
+    // Offset: 0x1BD13B8
     static System::IntPtr ovr_UserArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_UserArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1CC0F54
+    // Offset: 0x1BD1438
     static System::UIntPtr ovr_UserArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_UserArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1CC0FD4
+    // Offset: 0x1BD14B8
     static bool ovr_UserArray_HasNextPage(System::IntPtr obj);
+    // static public System.Boolean ovr_UserDataStoreUpdateResponse_GetSuccess(System.IntPtr obj)
+    // Offset: 0x1BD1540
+    static bool ovr_UserDataStoreUpdateResponse_GetSuccess(System::IntPtr obj);
     // static public System.String ovr_UserProof_GetNonce(System.IntPtr obj)
-    // Offset: 0x1CC105C
+    // Offset: 0x1BD15C8
     static ::Il2CppString* ovr_UserProof_GetNonce(System::IntPtr obj);
     // static private System.IntPtr ovr_UserProof_GetNonce_Native(System.IntPtr obj)
-    // Offset: 0x1CC10C4
+    // Offset: 0x1BD1630
     static System::IntPtr ovr_UserProof_GetNonce_Native(System::IntPtr obj);
     // static public System.Boolean ovr_UserReportID_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1CC1144
+    // Offset: 0x1BD16B0
     static bool ovr_UserReportID_GetDidCancel(System::IntPtr obj);
     // static public System.UInt64 ovr_UserReportID_GetID(System.IntPtr obj)
-    // Offset: 0x1CC11CC
+    // Offset: 0x1BD1738
     static uint64_t ovr_UserReportID_GetID(System::IntPtr obj);
     // static public System.Void ovr_VoipDecoder_Decode(System.IntPtr obj, System.Byte[] compressedData, System.UIntPtr compressedSize)
-    // Offset: 0x1CC124C
+    // Offset: 0x1BD17B8
     static void ovr_VoipDecoder_Decode(System::IntPtr obj, ::Array<uint8_t>* compressedData, System::UIntPtr compressedSize);
     // static public System.UIntPtr ovr_VoipDecoder_GetDecodedPCM(System.IntPtr obj, System.Single[] outputBuffer, System.UIntPtr outputBufferSize)
-    // Offset: 0x1CC12EC
+    // Offset: 0x1BD1858
     static System::UIntPtr ovr_VoipDecoder_GetDecodedPCM(System::IntPtr obj, ::Array<float>* outputBuffer, System::UIntPtr outputBufferSize);
     // static public System.Void ovr_VoipEncoder_AddPCM(System.IntPtr obj, System.Single[] inputData, System.UInt32 inputSize)
-    // Offset: 0x1CC138C
+    // Offset: 0x1BD18F8
     static void ovr_VoipEncoder_AddPCM(System::IntPtr obj, ::Array<float>* inputData, uint inputSize);
     // static public System.UIntPtr ovr_VoipEncoder_GetCompressedData(System.IntPtr obj, System.Byte[] outputBuffer, System.UIntPtr intputSize)
-    // Offset: 0x1CC142C
+    // Offset: 0x1BD1998
     static System::UIntPtr ovr_VoipEncoder_GetCompressedData(System::IntPtr obj, ::Array<uint8_t>* outputBuffer, System::UIntPtr intputSize);
     // static public System.UIntPtr ovr_VoipEncoder_GetCompressedDataSize(System.IntPtr obj)
-    // Offset: 0x1CC14CC
+    // Offset: 0x1BD1A38
     static System::UIntPtr ovr_VoipEncoder_GetCompressedDataSize(System::IntPtr obj);
     // static public System.IntPtr ovr_AbuseReportOptions_Create()
-    // Offset: 0x1CA04D0
+    // Offset: 0x1BAE19C
     static System::IntPtr ovr_AbuseReportOptions_Create();
     // static public System.Void ovr_AbuseReportOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CA0858
+    // Offset: 0x1BAE524
     static void ovr_AbuseReportOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_AbuseReportOptions_SetPreventPeopleChooser(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CA05BC
+    // Offset: 0x1BAE288
     static void ovr_AbuseReportOptions_SetPreventPeopleChooser(System::IntPtr handle, bool value);
     // static public System.Void ovr_AbuseReportOptions_SetReportType(System.IntPtr handle, Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1CA06C4
+    // Offset: 0x1BAE390
     static void ovr_AbuseReportOptions_SetReportType(System::IntPtr handle, Oculus::Platform::AbuseReportType value);
+    // static public System.IntPtr ovr_AdvancedAbuseReportOptions_Create()
+    // Offset: 0x1BAF734
+    static System::IntPtr ovr_AdvancedAbuseReportOptions_Create();
+    // static public System.Void ovr_AdvancedAbuseReportOptions_Destroy(System.IntPtr handle)
+    // Offset: 0x1BAFBE0
+    static void ovr_AdvancedAbuseReportOptions_Destroy(System::IntPtr handle);
+    // static public System.Void ovr_AdvancedAbuseReportOptions_SetObjectType(System.IntPtr handle, System.String value)
+    // Offset: 0x1BAF820
+    static void ovr_AdvancedAbuseReportOptions_SetObjectType(System::IntPtr handle, ::Il2CppString* value);
+    // static private System.Void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(System.IntPtr handle, System.IntPtr value)
+    // Offset: 0x1BD1AB8
+    static void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(System::IntPtr handle, System::IntPtr value);
+    // static public System.Void ovr_AdvancedAbuseReportOptions_SetReportType(System.IntPtr handle, Oculus.Platform.AbuseReportType value)
+    // Offset: 0x1BAF944
+    static void ovr_AdvancedAbuseReportOptions_SetReportType(System::IntPtr handle, Oculus::Platform::AbuseReportType value);
+    // static public System.Void ovr_AdvancedAbuseReportOptions_SetVideoMode(System.IntPtr handle, Oculus.Platform.AbuseReportVideoMode value)
+    // Offset: 0x1BAFA4C
+    static void ovr_AdvancedAbuseReportOptions_SetVideoMode(System::IntPtr handle, Oculus::Platform::AbuseReportVideoMode value);
     // static public System.IntPtr ovr_ApplicationOptions_Create()
-    // Offset: 0x1CA225C
+    // Offset: 0x1BB05E4
     static System::IntPtr ovr_ApplicationOptions_Create();
     // static public System.Void ovr_ApplicationOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CA24A8
+    // Offset: 0x1BB0830
     static void ovr_ApplicationOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_ApplicationOptions_SetDeeplinkMessage(System.IntPtr handle, System.String value)
-    // Offset: 0x1CA2348
+    // Offset: 0x1BB06D0
     static void ovr_ApplicationOptions_SetDeeplinkMessage(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ApplicationOptions_SetDeeplinkMessage_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC154C
+    // Offset: 0x1BD1B48
     static void ovr_ApplicationOptions_SetDeeplinkMessage_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.IntPtr ovr_ChallengeOptions_Create()
-    // Offset: 0x1CC15DC
+    // Offset: 0x1BD1BD8
     static System::IntPtr ovr_ChallengeOptions_Create();
     // static public System.Void ovr_ChallengeOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC1650
+    // Offset: 0x1BD1C4C
     static void ovr_ChallengeOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_ChallengeOptions_SetDescription(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC16D0
+    // Offset: 0x1BD1CCC
     static void ovr_ChallengeOptions_SetDescription(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ChallengeOptions_SetDescription_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC177C
+    // Offset: 0x1BD1D78
     static void ovr_ChallengeOptions_SetDescription_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_ChallengeOptions_SetEndDate(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1CC180C
+    // Offset: 0x1BD1E08
     static void ovr_ChallengeOptions_SetEndDate(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_ChallengeOptions_SetEndDate_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1CC1888
+    // Offset: 0x1BD1E84
     static void ovr_ChallengeOptions_SetEndDate_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_ChallengeOptions_SetIncludeActiveChallenges(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC1918
+    // Offset: 0x1BD1F14
     static void ovr_ChallengeOptions_SetIncludeActiveChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetIncludeFutureChallenges(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC19A8
+    // Offset: 0x1BD1FA4
     static void ovr_ChallengeOptions_SetIncludeFutureChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetIncludePastChallenges(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC1A38
+    // Offset: 0x1BD2034
     static void ovr_ChallengeOptions_SetIncludePastChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetLeaderboardName(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC1AC8
+    // Offset: 0x1BD20C4
     static void ovr_ChallengeOptions_SetLeaderboardName(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ChallengeOptions_SetLeaderboardName_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC1B74
+    // Offset: 0x1BD2170
     static void ovr_ChallengeOptions_SetLeaderboardName_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_ChallengeOptions_SetStartDate(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1CC1C04
+    // Offset: 0x1BD2200
     static void ovr_ChallengeOptions_SetStartDate(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_ChallengeOptions_SetStartDate_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1CC1C80
+    // Offset: 0x1BD227C
     static void ovr_ChallengeOptions_SetStartDate_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_ChallengeOptions_SetTitle(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC1D10
+    // Offset: 0x1BD230C
     static void ovr_ChallengeOptions_SetTitle(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ChallengeOptions_SetTitle_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC1DBC
+    // Offset: 0x1BD23B8
     static void ovr_ChallengeOptions_SetTitle_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_ChallengeOptions_SetViewerFilter(System.IntPtr handle, Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x1CC1E4C
+    // Offset: 0x1BD2448
     static void ovr_ChallengeOptions_SetViewerFilter(System::IntPtr handle, Oculus::Platform::ChallengeViewerFilter value);
     // static public System.Void ovr_ChallengeOptions_SetVisibility(System.IntPtr handle, Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x1CC1EDC
+    // Offset: 0x1BD24D8
     static void ovr_ChallengeOptions_SetVisibility(System::IntPtr handle, Oculus::Platform::ChallengeVisibility value);
+    // static public System.IntPtr ovr_InviteOptions_Create()
+    // Offset: 0x1BD2568
+    static System::IntPtr ovr_InviteOptions_Create();
+    // static public System.Void ovr_InviteOptions_Destroy(System.IntPtr handle)
+    // Offset: 0x1BD25DC
+    static void ovr_InviteOptions_Destroy(System::IntPtr handle);
+    // static public System.Void ovr_InviteOptions_AddSuggestedUser(System.IntPtr handle, System.UInt64 value)
+    // Offset: 0x1BD265C
+    static void ovr_InviteOptions_AddSuggestedUser(System::IntPtr handle, uint64_t value);
+    // static public System.Void ovr_InviteOptions_ClearSuggestedUsers(System.IntPtr handle)
+    // Offset: 0x1BD26EC
+    static void ovr_InviteOptions_ClearSuggestedUsers(System::IntPtr handle);
     // static public System.IntPtr ovr_MatchmakingOptions_Create()
-    // Offset: 0x1CC1F6C
+    // Offset: 0x1BD276C
     static System::IntPtr ovr_MatchmakingOptions_Create();
     // static public System.Void ovr_MatchmakingOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC1FE0
+    // Offset: 0x1BD27E0
     static void ovr_MatchmakingOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1CC2060
+    // Offset: 0x1BD2860
     static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1CC212C
+    // Offset: 0x1BD292C
     static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_MatchmakingOptions_ClearCreateRoomDataStore(System.IntPtr handle)
-    // Offset: 0x1CC21C4
+    // Offset: 0x1BD29C4
     static void ovr_MatchmakingOptions_ClearCreateRoomDataStore(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomJoinPolicy(System.IntPtr handle, Oculus.Platform.RoomJoinPolicy value)
-    // Offset: 0x1CC2244
+    // Offset: 0x1BD2A44
     static void ovr_MatchmakingOptions_SetCreateRoomJoinPolicy(System::IntPtr handle, Oculus::Platform::RoomJoinPolicy value);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomMaxUsers(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1CC22D4
+    // Offset: 0x1BD2AD4
     static void ovr_MatchmakingOptions_SetCreateRoomMaxUsers(System::IntPtr handle, uint value);
     // static public System.Void ovr_MatchmakingOptions_AddEnqueueAdditionalUser(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1CC2364
+    // Offset: 0x1BD2B64
     static void ovr_MatchmakingOptions_AddEnqueueAdditionalUser(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers(System.IntPtr handle)
-    // Offset: 0x1CC23F4
+    // Offset: 0x1BD2BF4
     static void ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System.IntPtr handle, System.String key, System.Int32 value)
-    // Offset: 0x1CC2474
+    // Offset: 0x1BD2C74
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System::IntPtr handle, ::Il2CppString* key, int value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native(System.IntPtr handle, System.IntPtr key, System.Int32 value)
-    // Offset: 0x1CC2528
+    // Offset: 0x1BD2D28
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native(System::IntPtr handle, System::IntPtr key, int value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System.IntPtr handle, System.String key, System.Double value)
-    // Offset: 0x1CC25C0
+    // Offset: 0x1BD2DC0
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System::IntPtr handle, ::Il2CppString* key, double value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native(System.IntPtr handle, System.IntPtr key, System.Double value)
-    // Offset: 0x1CC267C
+    // Offset: 0x1BD2E7C
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native(System::IntPtr handle, System::IntPtr key, double value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1CC271C
+    // Offset: 0x1BD2F1C
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1CC27E8
+    // Offset: 0x1BD2FE8
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_MatchmakingOptions_ClearEnqueueDataSettings(System.IntPtr handle)
-    // Offset: 0x1CC2880
+    // Offset: 0x1BD3080
     static void ovr_MatchmakingOptions_ClearEnqueueDataSettings(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueIsDebug(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC2900
+    // Offset: 0x1BD3100
     static void ovr_MatchmakingOptions_SetEnqueueIsDebug(System::IntPtr handle, bool value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueQueryKey(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC2990
+    // Offset: 0x1BD3190
     static void ovr_MatchmakingOptions_SetEnqueueQueryKey(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueQueryKey_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC2A3C
+    // Offset: 0x1BD323C
     static void ovr_MatchmakingOptions_SetEnqueueQueryKey_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.IntPtr ovr_NetSyncOptions_Create()
-    // Offset: 0x1CC2ACC
+    // Offset: 0x1BD32CC
     static System::IntPtr ovr_NetSyncOptions_Create();
     // static public System.Void ovr_NetSyncOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC2B40
+    // Offset: 0x1BD3340
     static void ovr_NetSyncOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_NetSyncOptions_SetVoipGroup(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC2BC0
+    // Offset: 0x1BD33C0
     static void ovr_NetSyncOptions_SetVoipGroup(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_NetSyncOptions_SetVoipGroup_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC2C6C
+    // Offset: 0x1BD346C
     static void ovr_NetSyncOptions_SetVoipGroup_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_NetSyncOptions_SetVoipStreamDefault(System.IntPtr handle, Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x1CC2CFC
+    // Offset: 0x1BD34FC
     static void ovr_NetSyncOptions_SetVoipStreamDefault(System::IntPtr handle, Oculus::Platform::NetSyncVoipStreamMode value);
     // static public System.Void ovr_NetSyncOptions_SetZoneId(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC2D8C
+    // Offset: 0x1BD358C
     static void ovr_NetSyncOptions_SetZoneId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_NetSyncOptions_SetZoneId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC2E38
+    // Offset: 0x1BD3638
     static void ovr_NetSyncOptions_SetZoneId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.IntPtr ovr_RichPresenceOptions_Create()
-    // Offset: 0x1CC2EC8
+    // Offset: 0x1BD36C8
     static System::IntPtr ovr_RichPresenceOptions_Create();
     // static public System.Void ovr_RichPresenceOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC2F3C
+    // Offset: 0x1BD373C
     static void ovr_RichPresenceOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_RichPresenceOptions_SetApiName(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC2FBC
+    // Offset: 0x1BD37BC
     static void ovr_RichPresenceOptions_SetApiName(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetApiName_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC3068
+    // Offset: 0x1BD3868
     static void ovr_RichPresenceOptions_SetApiName_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetArgsString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1CC30F8
+    // Offset: 0x1BD38F8
     static void ovr_RichPresenceOptions_SetArgsString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetArgsString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1CC31C4
+    // Offset: 0x1BD39C4
     static void ovr_RichPresenceOptions_SetArgsString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_ClearArgs(System.IntPtr handle)
-    // Offset: 0x1CC325C
+    // Offset: 0x1BD3A5C
     static void ovr_RichPresenceOptions_ClearArgs(System::IntPtr handle);
     // static public System.Void ovr_RichPresenceOptions_SetCurrentCapacity(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1CC32DC
+    // Offset: 0x1BD3ADC
     static void ovr_RichPresenceOptions_SetCurrentCapacity(System::IntPtr handle, uint value);
     // static public System.Void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC336C
+    // Offset: 0x1BD3B6C
     static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC3418
+    // Offset: 0x1BD3C18
     static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetEndTime(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1CC34A8
+    // Offset: 0x1BD3CA8
     static void ovr_RichPresenceOptions_SetEndTime(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_RichPresenceOptions_SetEndTime_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1CC3524
+    // Offset: 0x1BD3D24
     static void ovr_RichPresenceOptions_SetEndTime_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_RichPresenceOptions_SetExtraContext(System.IntPtr handle, Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x1CC35B4
+    // Offset: 0x1BD3DB4
     static void ovr_RichPresenceOptions_SetExtraContext(System::IntPtr handle, Oculus::Platform::RichPresenceExtraContext value);
+    // static public System.Void ovr_RichPresenceOptions_SetInstanceId(System.IntPtr handle, System.String value)
+    // Offset: 0x1BD3E44
+    static void ovr_RichPresenceOptions_SetInstanceId(System::IntPtr handle, ::Il2CppString* value);
+    // static private System.Void ovr_RichPresenceOptions_SetInstanceId_Native(System.IntPtr handle, System.IntPtr value)
+    // Offset: 0x1BD3EF0
+    static void ovr_RichPresenceOptions_SetInstanceId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetIsIdle(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC3644
+    // Offset: 0x1BD3F80
     static void ovr_RichPresenceOptions_SetIsIdle(System::IntPtr handle, bool value);
     // static public System.Void ovr_RichPresenceOptions_SetIsJoinable(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC36D4
+    // Offset: 0x1BD4010
     static void ovr_RichPresenceOptions_SetIsJoinable(System::IntPtr handle, bool value);
     // static public System.Void ovr_RichPresenceOptions_SetJoinableId(System.IntPtr handle, System.String value)
-    // Offset: 0x1CC3764
+    // Offset: 0x1BD40A0
     static void ovr_RichPresenceOptions_SetJoinableId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetJoinableId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1CC3810
+    // Offset: 0x1BD414C
     static void ovr_RichPresenceOptions_SetJoinableId_Native(System::IntPtr handle, System::IntPtr value);
+    // static public System.Void ovr_RichPresenceOptions_SetLobbySessionId(System.IntPtr handle, System.String value)
+    // Offset: 0x1BD41DC
+    static void ovr_RichPresenceOptions_SetLobbySessionId(System::IntPtr handle, ::Il2CppString* value);
+    // static private System.Void ovr_RichPresenceOptions_SetLobbySessionId_Native(System.IntPtr handle, System.IntPtr value)
+    // Offset: 0x1BD4288
+    static void ovr_RichPresenceOptions_SetLobbySessionId_Native(System::IntPtr handle, System::IntPtr value);
+    // static public System.Void ovr_RichPresenceOptions_SetMatchSessionId(System.IntPtr handle, System.String value)
+    // Offset: 0x1BD4318
+    static void ovr_RichPresenceOptions_SetMatchSessionId(System::IntPtr handle, ::Il2CppString* value);
+    // static private System.Void ovr_RichPresenceOptions_SetMatchSessionId_Native(System.IntPtr handle, System.IntPtr value)
+    // Offset: 0x1BD43C4
+    static void ovr_RichPresenceOptions_SetMatchSessionId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetMaxCapacity(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1CC38A0
+    // Offset: 0x1BD4454
     static void ovr_RichPresenceOptions_SetMaxCapacity(System::IntPtr handle, uint value);
     // static public System.Void ovr_RichPresenceOptions_SetStartTime(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1CC3930
+    // Offset: 0x1BD44E4
     static void ovr_RichPresenceOptions_SetStartTime(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_RichPresenceOptions_SetStartTime_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1CC39AC
+    // Offset: 0x1BD4560
     static void ovr_RichPresenceOptions_SetStartTime_Native(System::IntPtr handle, uint64_t value);
     // static public System.IntPtr ovr_RoomOptions_Create()
-    // Offset: 0x1CC3A3C
+    // Offset: 0x1BD45F0
     static System::IntPtr ovr_RoomOptions_Create();
     // static public System.Void ovr_RoomOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC3AB0
+    // Offset: 0x1BD4664
     static void ovr_RoomOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_RoomOptions_SetDataStoreString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1CC3B30
+    // Offset: 0x1BD46E4
     static void ovr_RoomOptions_SetDataStoreString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_RoomOptions_SetDataStoreString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1CC3BFC
+    // Offset: 0x1BD47B0
     static void ovr_RoomOptions_SetDataStoreString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_RoomOptions_ClearDataStore(System.IntPtr handle)
-    // Offset: 0x1CC3C94
+    // Offset: 0x1BD4848
     static void ovr_RoomOptions_ClearDataStore(System::IntPtr handle);
     // static public System.Void ovr_RoomOptions_SetExcludeRecentlyMet(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC3D14
+    // Offset: 0x1BD48C8
     static void ovr_RoomOptions_SetExcludeRecentlyMet(System::IntPtr handle, bool value);
     // static public System.Void ovr_RoomOptions_SetMaxUserResults(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1CC3DA4
+    // Offset: 0x1BD4958
     static void ovr_RoomOptions_SetMaxUserResults(System::IntPtr handle, uint value);
     // static public System.Void ovr_RoomOptions_SetOrdering(System.IntPtr handle, Oculus.Platform.UserOrdering value)
-    // Offset: 0x1CC3E34
+    // Offset: 0x1BD49E8
     static void ovr_RoomOptions_SetOrdering(System::IntPtr handle, Oculus::Platform::UserOrdering value);
     // static public System.Void ovr_RoomOptions_SetRecentlyMetTimeWindow(System.IntPtr handle, Oculus.Platform.TimeWindow value)
-    // Offset: 0x1CC3EC4
+    // Offset: 0x1BD4A78
     static void ovr_RoomOptions_SetRecentlyMetTimeWindow(System::IntPtr handle, Oculus::Platform::TimeWindow value);
     // static public System.Void ovr_RoomOptions_SetRoomId(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1CC3F54
+    // Offset: 0x1BD4B08
     static void ovr_RoomOptions_SetRoomId(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_RoomOptions_SetTurnOffUpdates(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1CC3FE4
+    // Offset: 0x1BD4B98
     static void ovr_RoomOptions_SetTurnOffUpdates(System::IntPtr handle, bool value);
     // static public System.IntPtr ovr_UserOptions_Create()
-    // Offset: 0x1CC4074
+    // Offset: 0x1BD4C28
     static System::IntPtr ovr_UserOptions_Create();
     // static public System.Void ovr_UserOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC40E8
+    // Offset: 0x1BD4C9C
     static void ovr_UserOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_UserOptions_SetMaxUsers(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1CC4168
+    // Offset: 0x1BD4D1C
     static void ovr_UserOptions_SetMaxUsers(System::IntPtr handle, uint value);
     // static public System.Void ovr_UserOptions_AddServiceProvider(System.IntPtr handle, Oculus.Platform.ServiceProvider value)
-    // Offset: 0x1CC41F8
+    // Offset: 0x1BD4DAC
     static void ovr_UserOptions_AddServiceProvider(System::IntPtr handle, Oculus::Platform::ServiceProvider value);
     // static public System.Void ovr_UserOptions_ClearServiceProviders(System.IntPtr handle)
-    // Offset: 0x1CC4288
+    // Offset: 0x1BD4E3C
     static void ovr_UserOptions_ClearServiceProviders(System::IntPtr handle);
     // static public System.Void ovr_UserOptions_SetTimeWindow(System.IntPtr handle, Oculus.Platform.TimeWindow value)
-    // Offset: 0x1CC4308
+    // Offset: 0x1BD4EBC
     static void ovr_UserOptions_SetTimeWindow(System::IntPtr handle, Oculus::Platform::TimeWindow value);
     // static public System.IntPtr ovr_VoipOptions_Create()
-    // Offset: 0x1CC4398
+    // Offset: 0x1BD4F4C
     static System::IntPtr ovr_VoipOptions_Create();
     // static public System.Void ovr_VoipOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1CC440C
+    // Offset: 0x1BD4FC0
     static void ovr_VoipOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_VoipOptions_SetBitrateForNewConnections(System.IntPtr handle, Oculus.Platform.VoipBitrate value)
-    // Offset: 0x1CC448C
+    // Offset: 0x1BD5040
     static void ovr_VoipOptions_SetBitrateForNewConnections(System::IntPtr handle, Oculus::Platform::VoipBitrate value);
     // static public System.Void ovr_VoipOptions_SetCreateNewConnectionUseDtx(System.IntPtr handle, Oculus.Platform.VoipDtxState value)
-    // Offset: 0x1CC451C
+    // Offset: 0x1BD50D0
     static void ovr_VoipOptions_SetCreateNewConnectionUseDtx(System::IntPtr handle, Oculus::Platform::VoipDtxState value);
     // static private System.Void .cctor()
-    // Offset: 0x1CC45B4
+    // Offset: 0x1BD5168
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CC45AC
+    // Offset: 0x1BD5160
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

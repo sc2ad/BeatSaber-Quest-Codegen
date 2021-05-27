@@ -53,28 +53,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
     // static public Org.BouncyCastle.Asn1.X509.DistributionPointName GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x18566D8
+    // Offset: 0x19ED770
     static Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.DistributionPointName GetInstance(System.Object obj)
-    // Offset: 0x1856B00
+    // Offset: 0x19EDB98
     static Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1TaggedObject obj)
-    // Offset: 0x1856C80
+    // Offset: 0x19EDD18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DistributionPointName* New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::DistributionPointName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistributionPointName*, creationType>(obj)));
     }
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1856E8C
+    // Offset: 0x19EDF24
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1856CDC
+    // Offset: 0x19EDD74
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1856D58
+    // Offset: 0x19EDDF0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

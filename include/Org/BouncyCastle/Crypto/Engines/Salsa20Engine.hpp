@@ -95,67 +95,67 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
     static void _set_TAU_SIGMA(::Array<uint>* value);
-    // [ObsoleteAttribute] Offset: 0xD135CC
+    // [ObsoleteAttribute] Offset: 0xDE2198
     // Get static field: static protected readonly System.Byte[] sigma
     static ::Array<uint8_t>* _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
     static void _set_sigma(::Array<uint8_t>* value);
-    // [ObsoleteAttribute] Offset: 0xD135DC
+    // [ObsoleteAttribute] Offset: 0xDE21A8
     // Get static field: static protected readonly System.Byte[] tau
     static ::Array<uint8_t>* _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
     static void _set_tau(::Array<uint8_t>* value);
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x1C33054
+    // Offset: 0x1E2E2BC
     void PackTauOrSigma(int keyLength, ::Array<uint>* state, int stateOffset);
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x1C33258
+    // Offset: 0x1E2E4C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor(int rounds) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>(rounds)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1C33344
+    // Offset: 0x1E2E5AC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x1C336A4
+    // Offset: 0x1E2E90C
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1C336AC
+    // Offset: 0x1E2E914
     ::Il2CppString* get_AlgorithmName();
     // protected System.Void AdvanceCounter()
-    // Offset: 0x1C33780
+    // Offset: 0x1E2E9E8
     void AdvanceCounter();
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1C337E4
+    // Offset: 0x1E2EA4C
     void ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1C33A84
+    // Offset: 0x1E2ECEC
     void Reset();
     // protected System.Void ResetCounter()
-    // Offset: 0x1C33AAC
+    // Offset: 0x1E2ED14
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1C33AE4
+    // Offset: 0x1E2ED4C
     void SetKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x1C33D4C
+    // Offset: 0x1E2EFB4
     void GenerateKeyStream(::Array<uint8_t>* output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x1C33DE8
+    // Offset: 0x1E2F050
     static void SalsaCore(int rounds, ::Array<uint>* input, ::Array<uint>* x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x1C33AA0
+    // Offset: 0x1E2ED08
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x1C33A48
+    // Offset: 0x1E2ECB0
     bool LimitExceeded(uint len);
     // static private System.Void .cctor()
-    // Offset: 0x1C34460
+    // Offset: 0x1E2F6C8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C331E8
+    // Offset: 0x1E2E450
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

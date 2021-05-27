@@ -67,19 +67,19 @@ namespace HMUI {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
     static void _set__curvedCanvasCache(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* value);
     // public System.Void Reset()
-    // Offset: 0x1242F70
+    // Offset: 0x12F543C
     void Reset();
     // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
-    // Offset: 0x1242F84
+    // Offset: 0x12F5450
     HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(UnityEngine::Canvas* canvas);
     // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x12431AC
+    // Offset: 0x12F5678
     static HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(UnityEngine::Canvas* canvas);
     // static private System.Void .cctor()
-    // Offset: 0x12432C8
+    // Offset: 0x12F5794
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12432C0
+    // Offset: 0x12F578C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

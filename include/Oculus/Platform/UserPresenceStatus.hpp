@@ -30,21 +30,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD211D4
+    // [DescriptionAttribute] Offset: 0xDFFDD8
     // static field const value: static public Oculus.Platform.UserPresenceStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Unknown
     static Oculus::Platform::UserPresenceStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Unknown
     static void _set_Unknown(Oculus::Platform::UserPresenceStatus value);
-    // [DescriptionAttribute] Offset: 0xD2120C
+    // [DescriptionAttribute] Offset: 0xDFFE10
     // static field const value: static public Oculus.Platform.UserPresenceStatus Online
     static constexpr const int Online = 1;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Online
     static Oculus::Platform::UserPresenceStatus _get_Online();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Online
     static void _set_Online(Oculus::Platform::UserPresenceStatus value);
-    // [DescriptionAttribute] Offset: 0xD21244
+    // [DescriptionAttribute] Offset: 0xDFFE48
     // static field const value: static public Oculus.Platform.UserPresenceStatus Offline
     static constexpr const int Offline = 2;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Offline

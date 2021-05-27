@@ -40,17 +40,17 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1526C04
+    // Offset: 0x16BD0F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRDriverManager* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()
-    // Offset: 0x1526D04
+    // Offset: 0x16BD1F8
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1526D20
+    // Offset: 0x16BD214
     uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
   }; // Valve.VR.CVRDriverManager
   #pragma pack(pop)

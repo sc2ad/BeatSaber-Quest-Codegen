@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD45604
+    // [CompilerGeneratedAttribute] Offset: 0xE26268
     // private System.Action`2<System.Boolean,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -80,37 +80,37 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ServerCodeEntryViewController
     ServerCodeEntryViewController(HMUI::UIKeyboard* uiKeyboard_ = {}, HMUI::InputFieldView* codeInputField_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_2<bool, ::Il2CppString*>* didFinishEvent_ = {}, HMUI::InputFieldViewChangeBinder* inputFieldViewChangeBinder_ = {}) noexcept : uiKeyboard{uiKeyboard_}, codeInputField{codeInputField_}, joinButton{joinButton_}, cancelButton{cancelButton_}, didFinishEvent{didFinishEvent_}, inputFieldViewChangeBinder{inputFieldViewChangeBinder_} {}
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x105A0C0
+    // Offset: 0x10E979C
     void add_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x105A164
+    // Offset: 0x10E9840
     void remove_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
     // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
-    // Offset: 0x105A3C4
+    // Offset: 0x10E9AA0
     void HandleInputFieldChanged(HMUI::InputFieldView* obj);
     // private System.Void HandleJoinButtonPressed()
-    // Offset: 0x105A434
+    // Offset: 0x10E9B10
     void HandleJoinButtonPressed();
     // private System.Void HandleCancelButtonPressed()
-    // Offset: 0x105A4A8
+    // Offset: 0x10E9B84
     void HandleCancelButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x105A208
+    // Offset: 0x10E98E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x105A398
+    // Offset: 0x10E9A74
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x105A400
+    // Offset: 0x10E9ADC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x105A510
+    // Offset: 0x10E9BEC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

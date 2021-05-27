@@ -40,7 +40,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: TypeNAssembly
     TypeNAssembly(System::Type* type_ = {}, ::Il2CppString* assemblyName_ = {}) noexcept : type{type_}, assemblyName{assemblyName_} {}
     // public System.Void .ctor()
-    // Offset: 0x147401C
+    // Offset: 0x15F8CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -46,12 +46,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBadgeDataFullComboSO
     MultiplayerBadgeDataFullComboSO(float weight_ = {}) noexcept : weight{weight_} {}
     // public override MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
-    // Offset: 0xFBF328
+    // Offset: 0x1140648
     // Implemented from: MultiplayerBadgeDataSO
     // Base method: MultiplayerBadgeAwardData MultiplayerBadgeDataSO::CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // public System.Void .ctor()
-    // Offset: 0xFBF704
+    // Offset: 0x1140A64
     // Implemented from: MultiplayerBadgeDataSO
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

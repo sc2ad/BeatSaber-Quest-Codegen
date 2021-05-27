@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BombExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_BombExecutionRating_RatingSizeCheck;
     static_assert(sizeof(BombExecutionRating::Rating) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD358B0
+    // [CompilerGeneratedAttribute] Offset: 0xE16094
     // private BombExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -77,13 +77,13 @@ namespace GlobalNamespace {
       return rating;
     }
     // public BombExecutionRating/Rating get_rating()
-    // Offset: 0xF30DF0
+    // Offset: 0x1086F54
     GlobalNamespace::BombExecutionRating::Rating get_rating();
     // public System.Void set_rating(BombExecutionRating/Rating value)
-    // Offset: 0xF30DF8
+    // Offset: 0x1086F5C
     void set_rating(GlobalNamespace::BombExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, BombExecutionRating/Rating rating)
-    // Offset: 0xF277B8
+    // Offset: 0x107CE00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExecutionRating* New_ctor(float time, GlobalNamespace::BombExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BombExecutionRating::.ctor");

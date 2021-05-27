@@ -8,8 +8,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRPlugin/HandState
 #include "GlobalNamespace/OVRPlugin_HandState.hpp"
-// Including type: OVRPlugin/Skeleton
-#include "GlobalNamespace/OVRPlugin_Skeleton.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -138,13 +136,13 @@ namespace GlobalNamespace {
     // Set static field: static private OVRHandTest/BoolMonitor controllers
     static void _set_controllers(GlobalNamespace::OVRHandTest::BoolMonitor* value);
     // private System.Void Start()
-    // Offset: 0x173E394
+    // Offset: 0x14F5D20
     void Start();
     // private System.Void Update()
-    // Offset: 0x173E668
+    // Offset: 0x14F5FF4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x173FA38
+    // Offset: 0x14F6BFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -157,7 +155,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x173FAC0
+    // Offset: 0x14F6C84
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

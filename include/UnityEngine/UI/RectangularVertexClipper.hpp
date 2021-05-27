@@ -44,10 +44,10 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: RectangularVertexClipper
     RectangularVertexClipper(::Array<UnityEngine::Vector3>* m_WorldCorners_ = {}, ::Array<UnityEngine::Vector3>* m_CanvasCorners_ = {}) noexcept : m_WorldCorners{m_WorldCorners_}, m_CanvasCorners{m_CanvasCorners_} {}
     // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
-    // Offset: 0x1826FC0
+    // Offset: 0x199958C
     UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform* t, UnityEngine::Canvas* c);
     // public System.Void .ctor()
-    // Offset: 0x182723C
+    // Offset: 0x1999808
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

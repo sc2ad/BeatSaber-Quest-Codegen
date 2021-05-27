@@ -60,22 +60,22 @@ namespace NUnit::Framework::Internal::Builders {
       return defaultBuilder;
     }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x15CE0F4
+    // Offset: 0x1718EAC
     bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x15CE3C8
+    // Offset: 0x1719180
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0x15CEDE4
+    // Offset: 0x1719B9C
     NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* fixtures);
     // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x15CEA60
+    // Offset: 0x1719818
     ::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* GetFixtureBuilderAttributes(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0x15CF1A0
+    // Offset: 0x1719F58
     bool HasArguments(NUnit::Framework::Interfaces::IFixtureBuilder* attr);
     // public System.Void .ctor()
-    // Offset: 0x15BCE00
+    // Offset: 0x1707BB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

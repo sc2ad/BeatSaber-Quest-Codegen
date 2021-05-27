@@ -72,16 +72,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showDifficultyAndCharacteristic and: difficultyText
     char __padding3[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xD463E8
-    // [NullAllowed] Offset: 0xD463E8
+    // [DrawIfAttribute] Offset: 0xE2707C
+    // [NullAllowed] Offset: 0xE2707C
     // private TMPro.TextMeshProUGUI _difficultyText
     // Size: 0x8
     // Offset: 0x38
     TMPro::TextMeshProUGUI* difficultyText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xD464E0
-    // [NullAllowed] Offset: 0xD464E0
+    // [DrawIfAttribute] Offset: 0xE27174
+    // [NullAllowed] Offset: 0xE27174
     // private HMUI.ImageView _characteristicIconImageView
     // Size: 0x8
     // Offset: 0x40
@@ -96,8 +96,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useArtworkBackground and: artworkBackgroundImage
     char __padding6[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xD465E8
-    // [NullAllowed] Offset: 0xD465E8
+    // [DrawIfAttribute] Offset: 0xE2727C
+    // [NullAllowed] Offset: 0xE2727C
     // private HMUI.ImageView _artworkBackgroundImage
     // Size: 0x8
     // Offset: 0x50
@@ -115,19 +115,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x111BF48
+    // Offset: 0x106DD50
     void set_hide(bool value);
     // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x111BF80
+    // Offset: 0x106DD88
     void Setup(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x111BF8C
+    // Offset: 0x106DD94
     void Setup(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // protected System.Void OnDestroy()
-    // Offset: 0x111C068
+    // Offset: 0x106DE70
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x111C07C
+    // Offset: 0x106DE84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

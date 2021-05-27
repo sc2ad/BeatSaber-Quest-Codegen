@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3A7BC
+    // [InjectAttribute] Offset: 0xE1B1D4
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
@@ -95,16 +95,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxParticles
     static void _set_kMaxParticles(int value);
     // protected System.Void Start()
-    // Offset: 0xFA7F98
+    // Offset: 0x10F962C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xFA8074
+    // Offset: 0x10F9708
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xFA814C
+    // Offset: 0x10F97E0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xFA832C
+    // Offset: 0x10F99C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

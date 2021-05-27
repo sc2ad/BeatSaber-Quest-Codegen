@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD45DD8
+    // [CompilerGeneratedAttribute] Offset: 0xE26A6C
     // private System.Action`1<SettingsNavigationController/FinishAction> didFinishEvent
     // Size: 0x8
     // Offset: 0xB0
@@ -110,30 +110,30 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SettingsNavigationController
     SettingsNavigationController(UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* applyButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent_ = {}) noexcept : okButton{okButton_}, applyButton{applyButton_}, cancelButton{cancelButton_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0x105C218
+    // Offset: 0x10EB90C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0x105C3B0
+    // Offset: 0x10EBAA4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // private System.Void HandleFinishButton(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0x105C810
+    // Offset: 0x10EBF04
     void HandleFinishButton(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x105C88C
+    // Offset: 0x10EBF80
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x105C894
+    // Offset: 0x10EBF88
     void $DidActivate$b__7_1();
     // private System.Void <DidActivate>b__7_2()
-    // Offset: 0x105C89C
+    // Offset: 0x10EBF90
     void $DidActivate$b__7_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x105C6D0
+    // Offset: 0x10EBDC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x105C884
+    // Offset: 0x10EBF78
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingEnqueuedUserList
     MatchmakingEnqueuedUserList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x13AF584
+    // Offset: 0x14BC04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueuedUserList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueuedUserList::.ctor");

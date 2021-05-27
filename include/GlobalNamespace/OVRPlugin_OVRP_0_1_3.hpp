@@ -28,13 +28,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Posef ovrp_GetNodeVelocity(OVRPlugin/Node nodeId)
-    // Offset: 0x157B8E0
+    // Offset: 0x1605594
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeAcceleration(OVRPlugin/Node nodeId)
-    // Offset: 0x157B970
+    // Offset: 0x1605624
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration(GlobalNamespace::OVRPlugin::Node nodeId);
     // static private System.Void .cctor()
-    // Offset: 0x157BA00
+    // Offset: 0x16056B4
     static void _cctor();
   }; // OVRPlugin/OVRP_0_1_3
   #pragma pack(pop)

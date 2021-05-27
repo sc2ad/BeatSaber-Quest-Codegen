@@ -55,7 +55,7 @@ namespace LeaderboardsDTO {
     // Creating value type constructor for type: LoginRequestDTO
     LoginRequestDTO(::Il2CppString* platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* platformEnviroment_ = {}, ::Il2CppString* publicUserDisplayName_ = {}, ::Il2CppString* buildVersion_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, platformEnviroment{platformEnviroment_}, publicUserDisplayName{publicUserDisplayName_}, buildVersion{buildVersion_} {}
     // public System.Void .ctor()
-    // Offset: 0x111B254
+    // Offset: 0x106D05C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

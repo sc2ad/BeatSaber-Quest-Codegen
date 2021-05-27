@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SineLayer
     SineLayer(float multiplier_ = {}, float offset_ = {}) noexcept : multiplier{multiplier_}, offset{offset_} {}
     // public System.Void .ctor()
-    // Offset: 0x10609DC
+    // Offset: 0x10920AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

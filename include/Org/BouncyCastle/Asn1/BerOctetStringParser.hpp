@@ -49,17 +49,17 @@ namespace Org::BouncyCastle::Asn1 {
       return parser;
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1562C44
+    // Offset: 0x16DB834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetStringParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetStringParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetStringParser*, creationType>(parser)));
     }
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x1568DE4
+    // Offset: 0x16E19D4
     System::IO::Stream* GetOctetStream();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1562C70
+    // Offset: 0x16DB860
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerOctetStringParser
   #pragma pack(pop)

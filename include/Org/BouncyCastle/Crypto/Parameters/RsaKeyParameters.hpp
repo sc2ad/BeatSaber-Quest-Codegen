@@ -48,31 +48,31 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger SmallPrimesProduct
     static void _set_SmallPrimesProduct(Org::BouncyCastle::Math::BigInteger* value);
     // static private Org.BouncyCastle.Math.BigInteger Validate(Org.BouncyCastle.Math.BigInteger modulus)
-    // Offset: 0x11933A8
+    // Offset: 0x1240920
     static Org::BouncyCastle::Math::BigInteger* Validate(Org::BouncyCastle::Math::BigInteger* modulus);
     // public System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Math.BigInteger modulus, Org.BouncyCastle.Math.BigInteger exponent)
-    // Offset: 0x11935D8
+    // Offset: 0x1240B50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Math::BigInteger* modulus, Org::BouncyCastle::Math::BigInteger* exponent) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaKeyParameters*, creationType>(isPrivate, modulus, exponent)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x1193770
+    // Offset: 0x1240CE8
     Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent()
-    // Offset: 0x1193778
+    // Offset: 0x1240CF0
     Org::BouncyCastle::Math::BigInteger* get_Exponent();
     // static private System.Void .cctor()
-    // Offset: 0x11938F0
+    // Offset: 0x1240E68
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1193780
+    // Offset: 0x1240CF8
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1193874
+    // Offset: 0x1240DEC
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

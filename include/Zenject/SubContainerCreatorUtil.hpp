@@ -24,7 +24,7 @@ namespace Zenject {
     // Creating value type constructor for type: SubContainerCreatorUtil
     SubContainerCreatorUtil() noexcept {}
     // static public System.Void ApplyBindSettings(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.DiContainer subContainer)
-    // Offset: 0x153B788
+    // Offset: 0x16D2D4C
     static void ApplyBindSettings(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::DiContainer* subContainer);
   }; // Zenject.SubContainerCreatorUtil
   #pragma pack(pop)

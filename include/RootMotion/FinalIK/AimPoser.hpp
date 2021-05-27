@@ -48,13 +48,13 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public RootMotion.FinalIK.AimPoser/Pose GetPose(UnityEngine.Vector3 localDirection)
-    // Offset: 0x1AECAB4
+    // Offset: 0x1C927DC
     RootMotion::FinalIK::AimPoser::Pose* GetPose(UnityEngine::Vector3 localDirection);
     // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/Pose pose)
-    // Offset: 0x1AECE28
+    // Offset: 0x1C92B50
     void SetPoseActive(RootMotion::FinalIK::AimPoser::Pose* pose);
     // public System.Void .ctor()
-    // Offset: 0x1AECE94
+    // Offset: 0x1C92BBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

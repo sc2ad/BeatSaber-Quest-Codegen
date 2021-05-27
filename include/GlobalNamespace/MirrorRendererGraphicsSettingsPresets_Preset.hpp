@@ -68,8 +68,11 @@ namespace GlobalNamespace {
     Preset(UnityEngine::LayerMask reflectLayers_ = {}, int stereoTextureWidth_ = {}, int stereoTextureHeight_ = {}, int monoTextureWidth_ = {}, int monoTextureHeight_ = {}, int maxAntiAliasing_ = {}, bool enableBloomPrePassFog_ = {}) noexcept : reflectLayers{reflectLayers_}, stereoTextureWidth{stereoTextureWidth_}, stereoTextureHeight{stereoTextureHeight_}, monoTextureWidth{monoTextureWidth_}, monoTextureHeight{monoTextureHeight_}, maxAntiAliasing{maxAntiAliasing_}, enableBloomPrePassFog{enableBloomPrePassFog_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // public System.Boolean get_isMirrorEnabled()
+    // Offset: 0x104C8C8
+    bool get_isMirrorEnabled();
     // public System.Void .ctor()
-    // Offset: 0xF41D6C
+    // Offset: 0x104C8EC
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

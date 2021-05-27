@@ -39,37 +39,37 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1564050
+    // Offset: 0x16DCC40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerPrintableString* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerPrintableString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerPrintableString*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str, System.Boolean validate)
-    // Offset: 0x1573F20
+    // Offset: 0x16ECB10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerPrintableString* New_ctor(::Il2CppString* str, bool validate) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerPrintableString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerPrintableString*, creationType>(str, validate)));
     }
     // public System.Byte[] GetOctets()
-    // Offset: 0x1574110
+    // Offset: 0x16ECD00
     ::Array<uint8_t>* GetOctets();
     // static public System.Boolean IsPrintableString(System.String str)
-    // Offset: 0x1574008
+    // Offset: 0x16ECBF8
     static bool IsPrintableString(::Il2CppString* str);
     // public override System.String GetString()
-    // Offset: 0x1574108
+    // Offset: 0x16ECCF8
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x157411C
+    // Offset: 0x16ECD0C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1574158
+    // Offset: 0x16ECD48
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

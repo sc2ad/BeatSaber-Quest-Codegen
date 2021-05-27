@@ -81,16 +81,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Object instanceOfVoid
     static void _set_instanceOfVoid(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x146BAC4
+    // Offset: 0x15F0774
     static void _cctor();
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x146BB7C
+    // Offset: 0x15F082C
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Dump()
-    // Offset: 0x146BCBC
+    // Offset: 0x15F096C
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x146BB6C
+    // Offset: 0x15F081C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

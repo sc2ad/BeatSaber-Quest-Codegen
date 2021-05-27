@@ -69,28 +69,28 @@ namespace Oculus::Platform {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, type, callback);
     }
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/MessageType type, Oculus.Platform.Message/Callback callback)
-    // Offset: 0x1399C7C
+    // Offset: 0x14A5A30
     static void SetNotificationCallback(Oculus::Platform::Message::MessageType type, Oculus::Platform::Message::Callback* callback);
     // static System.Void AddRequest(Oculus.Platform.Request request)
-    // Offset: 0x1399DA0
+    // Offset: 0x14A5B54
     static void AddRequest(Oculus::Platform::Request* request);
     // static System.Void RunCallbacks()
-    // Offset: 0x1399E70
+    // Offset: 0x14A5C24
     static void RunCallbacks();
     // static System.Void RunLimitedCallbacks(System.UInt32 limit)
-    // Offset: 0x139A180
+    // Offset: 0x14A5F34
     static void RunLimitedCallbacks(uint limit);
     // static System.Void OnApplicationQuit()
-    // Offset: 0x139A218
+    // Offset: 0x14A5FCC
     static void OnApplicationQuit();
     // static private System.Void FlushRoomInviteNotificationQueue()
-    // Offset: 0x139A2B4
+    // Offset: 0x14A6068
     static void FlushRoomInviteNotificationQueue();
     // static System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x1399FE0
+    // Offset: 0x14A5D94
     static void HandleMessage(Oculus::Platform::Message* msg);
     // static private System.Void .cctor()
-    // Offset: 0x139A428
+    // Offset: 0x14A61DC
     static void _cctor();
   }; // Oculus.Platform.Callback
   #pragma pack(pop)

@@ -71,31 +71,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x101C528
+    // Offset: 0x112E028
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x101C530
+    // Offset: 0x112E030
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x101C538
+    // Offset: 0x112E038
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x101C540
+    // Offset: 0x112E040
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x101C548
+    // Offset: 0x112E048
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x101C550
+    // Offset: 0x112E050
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x101C558
+    // Offset: 0x112E058
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x101C560
+    // Offset: 0x112E060
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x101C568
+    // Offset: 0x112E068
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

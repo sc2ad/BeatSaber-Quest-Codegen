@@ -127,6 +127,12 @@ namespace GlobalNamespace {
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void add_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0xFFFFFFFF
+    void add_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void remove_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0xFFFFFFFF
+    void remove_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
     void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);

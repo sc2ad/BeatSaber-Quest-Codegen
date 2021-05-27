@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: IntSO
     IntSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1181E9C
+    // Offset: 0x122F320
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

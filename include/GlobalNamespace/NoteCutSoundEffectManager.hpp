@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD34828
+    // [SpaceAttribute] Offset: 0xE14FBC
     // private System.Single _audioSamplesBeatAlignOffset
     // Size: 0x4
     // Offset: 0x20
@@ -81,49 +81,49 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::AudioClip*>* shortCutEffectsAudioClips;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD34880
+    // [SpaceAttribute] Offset: 0xE15014
     // private UnityEngine.AudioClip _testAudioClip
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::AudioClip* testAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xD348B8
+    // [InjectOptionalAttribute] Offset: 0xE1504C
     // private readonly NoteCutSoundEffectManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::NoteCutSoundEffectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutSoundEffectManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xD348C8
+    // [InjectAttribute] Offset: 0xE1505C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD348D8
+    // [InjectAttribute] Offset: 0xE1506C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD348E8
+    // [InjectAttribute] Offset: 0xE1507C
     // private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::NoteCutSoundEffect::Pool* noteCutSoundEffectPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutSoundEffect::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0xD348F8
+    // [InjectAttribute] Offset: 0xE1508C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD34908
+    // [CompilerGeneratedAttribute] Offset: 0xE1509C
     // private System.Boolean <handleWrongSaberTypeAsGood>k__BackingField
     // Size: 0x1
     // Offset: 0x68
@@ -215,28 +215,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDenseNotesVolumeMul
     static void _set_kDenseNotesVolumeMul(float value);
     // public System.Boolean get_handleWrongSaberTypeAsGood()
-    // Offset: 0xFF66E8
+    // Offset: 0x11BAC18
     bool get_handleWrongSaberTypeAsGood();
     // public System.Void set_handleWrongSaberTypeAsGood(System.Boolean value)
-    // Offset: 0xFF66F0
+    // Offset: 0x11BAC20
     void set_handleWrongSaberTypeAsGood(bool value);
     // protected System.Void Start()
-    // Offset: 0xFF66FC
+    // Offset: 0x11BAC2C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFF6900
+    // Offset: 0x11BAE30
     void OnDestroy();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0xFF69E8
+    // Offset: 0x11BAF18
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0xFF6EB4
+    // Offset: 0x11BB3F4
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
-    // Offset: 0xFF6FDC
+    // Offset: 0x11BB51C
     void HandleNoteCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0xFF70C0
+    // Offset: 0x11BB600
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

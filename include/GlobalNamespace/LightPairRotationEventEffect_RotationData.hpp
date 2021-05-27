@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RotationData
     RotationData(bool enabled_ = {}, float rotationSpeed_ = {}, UnityEngine::Quaternion startRotation_ = {}, UnityEngine::Transform* transform_ = {}, float startRotationAngle_ = {}, float rotationAngle_ = {}) noexcept : enabled{enabled_}, rotationSpeed{rotationSpeed_}, startRotation{startRotation_}, transform{transform_}, startRotationAngle{startRotationAngle_}, rotationAngle{rotationAngle_} {}
     // public System.Void .ctor()
-    // Offset: 0x10CF030
+    // Offset: 0x11FED2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,22 +60,22 @@ namespace System::Threading {
     // Creating value type constructor for type: WorkStealingQueue
     WorkStealingQueue(::Array<System::Threading::IThreadPoolWorkItem*>* m_array_ = {}, int m_mask_ = {}, int m_headIndex_ = {}, int m_tailIndex_ = {}, System::Threading::SpinLock m_foreignLock_ = {}) noexcept : m_array{m_array_}, m_mask{m_mask_}, m_headIndex{m_headIndex_}, m_tailIndex{m_tailIndex_}, m_foreignLock{m_foreignLock_} {}
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x16E4A3C
+    // Offset: 0x187AB38
     void LocalPush(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x16E4F48
+    // Offset: 0x187B044
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x16E53E0
+    // Offset: 0x187B4DC
     bool LocalPop(System::Threading::IThreadPoolWorkItem*& obj);
     // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
-    // Offset: 0x16E57CC
+    // Offset: 0x187B8C8
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal);
     // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
-    // Offset: 0x16E5E90
+    // Offset: 0x187BF8C
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()
-    // Offset: 0x16E6110
+    // Offset: 0x187C20C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

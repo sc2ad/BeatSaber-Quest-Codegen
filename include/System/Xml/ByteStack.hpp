@@ -43,17 +43,17 @@ namespace System::Xml {
     // Creating value type constructor for type: ByteStack
     ByteStack(::Array<uint8_t>* stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
     // public System.Void .ctor(System.Int32 growthRate)
-    // Offset: 0x17A102C
+    // Offset: 0x19125F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)
-    // Offset: 0x17A10A4
+    // Offset: 0x1912670
     void Push(uint8_t data);
     // public System.Byte Pop()
-    // Offset: 0x17A118C
+    // Offset: 0x1912758
     uint8_t Pop();
   }; // System.Xml.ByteStack
   #pragma pack(pop)

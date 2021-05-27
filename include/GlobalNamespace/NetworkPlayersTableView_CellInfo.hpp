@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CellInfo
     CellInfo(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType type_ = {}, ::Il2CppString* headerString_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}, bool lastCellInParty_ = {}) noexcept : type{type_}, headerString{headerString_}, player{player_}, lastCellInParty{lastCellInParty_} {}
     // public System.Void .ctor()
-    // Offset: 0xFF0FB0
+    // Offset: 0x11B576C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

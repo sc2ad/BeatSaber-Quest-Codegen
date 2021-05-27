@@ -69,7 +69,7 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
-    // Offset: 0x1320200
+    // Offset: 0x1401604
     static System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -82,7 +82,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, stateMachine);
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDFBDB8
+    // Offset: 0xEEBDC8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -96,16 +96,16 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, awaiter, stateMachine);
     }
     // public System.Void SetResult()
-    // Offset: 0xDFBDC0
+    // Offset: 0xEEBDD0
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xDFBDC8
+    // Offset: 0xEEBDD8
     void SetException(System::Exception* exception);
     // private System.Void NotifySynchronizationContextOfCompletion()
-    // Offset: 0xDFBDD0
+    // Offset: 0xEEBDE0
     void NotifySynchronizationContextOfCompletion();
     // private System.Threading.Tasks.Task get_Task()
-    // Offset: 0xDFBDD8
+    // Offset: 0xEEBDE8
     System::Threading::Tasks::Task* get_Task();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
   #pragma pack(pop)

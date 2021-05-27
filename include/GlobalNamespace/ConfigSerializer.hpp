@@ -19,13 +19,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConfigSerializer
     ConfigSerializer() noexcept {}
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
-    // Offset: 0x1176414
+    // Offset: 0x1223700
     static void SaveConfig(::Il2CppObject* config, ::Il2CppString* filePath);
     // static public System.Boolean LoadConfig(System.Object config, System.String filePath)
-    // Offset: 0x117684C
+    // Offset: 0x1223B38
     static bool LoadConfig(::Il2CppObject* config, ::Il2CppString* filePath);
     // public System.Void .ctor()
-    // Offset: 0x1176E14
+    // Offset: 0x1224100
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

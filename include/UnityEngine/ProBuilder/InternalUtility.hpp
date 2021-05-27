@@ -80,7 +80,7 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, transforms);
     }
     // static public UnityEngine.GameObject EmptyGameObjectWithTransform(UnityEngine.Transform t)
-    // Offset: 0x19213A4
+    // Offset: 0x1AA4D9C
     static UnityEngine::GameObject* EmptyGameObjectWithTransform(UnityEngine::Transform* t);
     // static public T NextEnumValue(T current)
     // Offset: 0xFFFFFFFF
@@ -93,13 +93,13 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, current);
     }
     // static public System.String ControlKeyString(System.Char character)
-    // Offset: 0x192149C
+    // Offset: 0x1AA4E94
     static ::Il2CppString* ControlKeyString(::Il2CppChar character);
     // static public System.Boolean TryParseColor(System.String value, ref UnityEngine.Color col)
-    // Offset: 0x1921574
+    // Offset: 0x1AA4F6C
     static bool TryParseColor(::Il2CppString* value, UnityEngine::Color& col);
     // static public UnityEngine.Vector3[] StringToVector3Array(System.String str)
-    // Offset: 0x19217F8
+    // Offset: 0x1AA51F0
     static ::Array<UnityEngine::Vector3>* StringToVector3Array(::Il2CppString* str);
     // static public T DemandComponent(UnityEngine.Component component)
     // Offset: 0xFFFFFFFF

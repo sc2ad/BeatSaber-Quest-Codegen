@@ -28,16 +28,16 @@ namespace GlobalNamespace {
     RandomValueToShader(int lastFrameNum_ = {}) noexcept : lastFrameNum{lastFrameNum_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD15160
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF4624
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
     static void _set__randomValueID(int value);
     // public System.Void SetRandomValueToShaders()
-    // Offset: 0x1D0FA70
+    // Offset: 0x1D6DF50
     void SetRandomValueToShaders();
     // public System.Void .ctor()
-    // Offset: 0x1D185B4
+    // Offset: 0x1D773F0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D185C4
+    // Offset: 0x1D77400
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

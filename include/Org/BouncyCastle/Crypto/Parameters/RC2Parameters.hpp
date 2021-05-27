@@ -29,17 +29,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen, System.Int32 bits)
-    // Offset: 0x1193368
+    // Offset: 0x12408E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen, bits)));
     }
     // public System.Int32 get_EffectiveKeyBits()
-    // Offset: 0x1193390
+    // Offset: 0x1240908
     int get_EffectiveKeyBits();
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x119332C
+    // Offset: 0x12408A4
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

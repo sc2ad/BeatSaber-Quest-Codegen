@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* spectateToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD44D9C
+    // [CompilerGeneratedAttribute] Offset: 0xE25A00
     // private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     // Size: 0x8
     // Offset: 0x88
@@ -81,37 +81,37 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BaseMultiplayerStartGameCountdownViewController
     BaseMultiplayerStartGameCountdownViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}, UnityEngine::UI::Toggle* spectateToggle_ = {}, System::Action_1<bool>* playerActiveStateChangedEvent_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, spectateToggle{spectateToggle_}, playerActiveStateChangedEvent{playerActiveStateChangedEvent_}, toggleBinder{toggleBinder_} {}
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1025F10
+    // Offset: 0x119DD9C
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1025FB4
+    // Offset: 0x119DE40
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x1026058
+    // Offset: 0x119DEE4
     void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void SetLobbyPlayerData(ILobbyPlayerDataModel lobbyPlayerDataModel)
-    // Offset: 0x102628C
+    // Offset: 0x119E118
     void SetLobbyPlayerData(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerDataModel);
     // private System.Void <DidActivate>b__9_0(System.Boolean value)
-    // Offset: 0x102649C
+    // Offset: 0x119E328
     void $DidActivate$b__9_0(bool value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1026360
+    // Offset: 0x119E1EC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10263FC
+    // Offset: 0x119E288
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1026418
+    // Offset: 0x119E2A4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1026434
+    // Offset: 0x119E2C0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: MasterServer
 namespace MasterServer {
-  // Forward declaring type: BroadcastServerStatusResponse
-  class BroadcastServerStatusResponse;
+  // Forward declaring type: UserServerStatusUpdateResponse
+  class UserServerStatusUpdateResponse;
 }
 // Completed forward declares
 // Type namespace: MasterServer
@@ -59,12 +59,12 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__1;
-    // private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.BroadcastServerStatusResponse> <>u__2
+    // private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.UserServerStatusUpdateResponse> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x38
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::BroadcastServerStatusResponse*> $$u__2;
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::UserServerStatusUpdateResponse*> $$u__2;
     // Creating value type constructor for type: $$StartBroadcastingServer$b__1$d
-    constexpr $$StartBroadcastingServer$b__1$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler::$$c__DisplayClass34_0* $$4__this_ = {}, ::Array<uint8_t>* $serverRandom$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::BroadcastServerStatusResponse*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $serverRandom$5__2{$serverRandom$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $$StartBroadcastingServer$b__1$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler::$$c__DisplayClass34_0* $$4__this_ = {}, ::Array<uint8_t>* $serverRandom$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::UserServerStatusUpdateResponse*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $serverRandom$5__2{$serverRandom$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -74,10 +74,10 @@ namespace MasterServer {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDF9F7C
+    // Offset: 0xEE788C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDF9F84
+    // Offset: 0xEE7894
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass34_0/<<StartBroadcastingServer>b__1>d
   // WARNING Not writing size check since size may be invalid!

@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
-    // Offset: 0x1D0D950
+    // Offset: 0x1D6BE30
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();
     // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
-    // Offset: 0x1D0D958
+    // Offset: 0x1D6BE38
     void Init(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
     // public System.Void .ctor()
-    // Offset: 0x1D0D960
+    // Offset: 0x1D6BE40
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -60,7 +60,7 @@ namespace HMUI {
     class $AddViewControllerCoroutine$d__15;
     // Nested type: HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17
     class $RemoveViewControllersCoroutine$d__17;
-    // [NullAllowed] Offset: 0xD173D0
+    // [NullAllowed] Offset: 0xDF6A14
     // private UnityEngine.RectTransform _controllersContainer
     // Size: 0x8
     // Offset: 0x70
@@ -76,22 +76,22 @@ namespace HMUI {
     // Creating value type constructor for type: ContainerViewController
     ContainerViewController(UnityEngine::RectTransform* controllersContainer_ = {}, System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers_ = {}) noexcept : controllersContainer{controllersContainer_}, viewControllers{viewControllers_} {}
     // public UnityEngine.RectTransform get_controllersContainer()
-    // Offset: 0x1241814
+    // Offset: 0x12F3CE0
     UnityEngine::RectTransform* get_controllersContainer();
     // public System.Collections.Generic.List`1<HMUI.ViewController> get_viewControllers()
-    // Offset: 0x12418C0
+    // Offset: 0x12F3D8C
     System::Collections::Generic::List_1<HMUI::ViewController*>* get_viewControllers();
     // protected System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     // Offset: 0xFFFFFFFF
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void ClearChildViewControllers()
-    // Offset: 0x1241CE0
+    // Offset: 0x12F41AC
     void ClearChildViewControllers();
     // public System.Void SetChildViewController(HMUI.ViewController viewController)
-    // Offset: 0x1241E08
+    // Offset: 0x12F42D4
     void SetChildViewController(HMUI::ViewController* viewController);
     // public System.Void SetChildViewControllers(params HMUI.ViewController[] viewControllers)
-    // Offset: 0x1241EB8
+    // Offset: 0x12F4384
     void SetChildViewControllers(::Array<HMUI::ViewController*>* viewControllers);
     // Creating initializer_list -> params proxy for: System.Void SetChildViewControllers(params HMUI.ViewController[] viewControllers)
     void SetChildViewControllers(std::initializer_list<HMUI::ViewController*> viewControllers);
@@ -101,42 +101,42 @@ namespace HMUI {
       SetChildViewControllers({viewControllers...});
     }
     // protected System.Void AddViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
-    // Offset: 0x1242014
+    // Offset: 0x12F44E0
     void AddViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, System::Action_2<float, ::Array<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Collections.IEnumerator AddViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
-    // Offset: 0x1242128
+    // Offset: 0x12F45F4
     System::Collections::IEnumerator* AddViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, System::Action_2<float, ::Array<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // protected System.Void RemoveViewControllers(HMUI.ViewController[] viewControllers, System.Action finishedCallback, System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter, System.Boolean immediately)
-    // Offset: 0x12421F0
+    // Offset: 0x12F46BC
     void RemoveViewControllers(::Array<HMUI::ViewController*>* viewControllers, System::Action* finishedCallback, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Collections.IEnumerator RemoveViewControllersCoroutine(HMUI.ViewController[] viewControllersToRemove, System.Action finishedCallback, System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter, System.Boolean immediately)
-    // Offset: 0x124225C
+    // Offset: 0x12F4728
     System::Collections::IEnumerator* RemoveViewControllersCoroutine(::Array<HMUI::ViewController*>* viewControllersToRemove, System::Action* finishedCallback, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Single[] GetNewXPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Int32 exludeFromEndCount)
-    // Offset: 0x1242324
+    // Offset: 0x12F47F0
     ::Array<float>* GetNewXPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, int exludeFromEndCount);
     // public override System.Void __Init(HMUI.Screen screen, HMUI.ViewController parentViewController, HMUI.ContainerViewController containerViewController)
-    // Offset: 0x12418C8
+    // Offset: 0x12F3D94
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::__Init(HMUI.Screen screen, HMUI.ViewController parentViewController, HMUI.ContainerViewController containerViewController)
     void __Init(HMUI::Screen* screen, HMUI::ViewController* parentViewController, HMUI::ContainerViewController* containerViewController);
     // public override System.Void __Activate(System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12419A8
+    // Offset: 0x12F3E74
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::__Activate(System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
     // public override System.Void __Deactivate(System.Boolean removedFromHierarchy, System.Boolean deactivateGameObject, System.Boolean screenSystemDisabling)
-    // Offset: 0x1241AE4
+    // Offset: 0x12F3FB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::__Deactivate(System.Boolean removedFromHierarchy, System.Boolean deactivateGameObject, System.Boolean screenSystemDisabling)
     void __Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling);
     // public override System.Void DeactivateGameObject()
-    // Offset: 0x1241BCC
+    // Offset: 0x12F4098
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DeactivateGameObject()
     void DeactivateGameObject();
     // protected System.Void .ctor()
-    // Offset: 0x1242558
+    // Offset: 0x12F4A24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

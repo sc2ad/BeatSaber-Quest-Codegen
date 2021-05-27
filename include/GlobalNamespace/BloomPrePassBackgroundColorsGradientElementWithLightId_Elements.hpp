@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Elements
     Elements(int elementNumber_ = {}, float intensity_ = {}, float minIntensity_ = {}) noexcept : elementNumber{elementNumber_}, intensity{intensity_}, minIntensity{minIntensity_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D0CED8
+    // Offset: 0x1D6B3B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

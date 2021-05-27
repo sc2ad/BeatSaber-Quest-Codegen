@@ -57,34 +57,34 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Style
     TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::Array<int>* m_OpeningTagArray_ = {}, ::Array<int>* m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
     // public System.String get_name()
-    // Offset: 0x1031590
+    // Offset: 0x11597C0
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1031598
+    // Offset: 0x11597C8
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x10315D4
+    // Offset: 0x1159804
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0x10315DC
+    // Offset: 0x115980C
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0x10315F0
+    // Offset: 0x1159820
     ::Il2CppString* get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0x10315F8
+    // Offset: 0x1159828
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0x1031600
+    // Offset: 0x1159830
     ::Array<int>* get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0x1031608
+    // Offset: 0x1159838
     ::Array<int>* get_styleClosingTagArray();
     // public System.Void RefreshStyle()
-    // Offset: 0x1031610
+    // Offset: 0x1159840
     void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0x1031780
+    // Offset: 0x11599B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

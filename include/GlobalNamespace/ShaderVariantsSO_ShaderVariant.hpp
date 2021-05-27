@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ShaderVariant
     ShaderVariant(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants_ = {}, UnityEngine::Shader* shader_ = {}) noexcept : variants{variants_}, shader{shader_} {}
     // public ShaderVariantsSO/ShaderVariant/Variant[] get_variants()
-    // Offset: 0x2131960
+    // Offset: 0x2349978
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* get_variants();
     // public UnityEngine.Shader get_shader()
-    // Offset: 0x2131968
+    // Offset: 0x2349980
     UnityEngine::Shader* get_shader();
     // public System.Void .ctor(UnityEngine.Shader shader, ShaderVariantsSO/ShaderVariant/Variant[] variants)
-    // Offset: 0x2131970
+    // Offset: 0x2349988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::.ctor");

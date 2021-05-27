@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: BerApplicationSpecific
     BerApplicationSpecific() noexcept {}
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
-    // Offset: 0x1567F48
+    // Offset: 0x16E0B38
     // Implemented from: Org.BouncyCastle.Asn1.DerApplicationSpecific
     // Base method: System.Void DerApplicationSpecific::.ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

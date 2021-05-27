@@ -119,7 +119,7 @@ namespace RootMotion::FinalIK {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-      // Offset: 0xE12FE0
+      // Offset: 0xF07070
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis) {
         static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::AxisDirection::.ctor");
@@ -142,14 +142,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLimb::BendModifier) == 0x4);
-    // [RangeAttribute] Offset: 0xD28770
+    // [RangeAttribute] Offset: 0xE0866C
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0xB0
     float maintainRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xD28788
+    // [RangeAttribute] Offset: 0xE08684
     // public System.Single bendModifierWeight
     // Size: 0x4
     // Offset: 0xB4
@@ -235,44 +235,44 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKSolverLimb
     IKSolverLimb(UnityEngine::AvatarIKGoal goal_ = {}, RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier_ = {}, float maintainRotationWeight_ = {}, float bendModifierWeight_ = {}, UnityEngine::Transform* bendGoal_ = {}, bool maintainBendFor1Frame_ = {}, bool maintainRotationFor1Frame_ = {}, UnityEngine::Quaternion defaultRootRotation_ = {}, UnityEngine::Quaternion parentDefaultRotation_ = {}, UnityEngine::Quaternion bone3RotationBeforeSolve_ = {}, UnityEngine::Quaternion maintainRotation_ = {}, UnityEngine::Quaternion bone3DefaultRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, UnityEngine::Vector3 animationNormal_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsLeft_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsRight_ = {}) noexcept : goal{goal_}, bendModifier{bendModifier_}, maintainRotationWeight{maintainRotationWeight_}, bendModifierWeight{bendModifierWeight_}, bendGoal{bendGoal_}, maintainBendFor1Frame{maintainBendFor1Frame_}, maintainRotationFor1Frame{maintainRotationFor1Frame_}, defaultRootRotation{defaultRootRotation_}, parentDefaultRotation{parentDefaultRotation_}, bone3RotationBeforeSolve{bone3RotationBeforeSolve_}, maintainRotation{maintainRotation_}, bone3DefaultRotation{bone3DefaultRotation_}, bendNormal{bendNormal_}, animationNormal{animationNormal_}, axisDirectionsLeft{axisDirectionsLeft_}, axisDirectionsRight{axisDirectionsRight_} {}
     // public System.Void MaintainRotation()
-    // Offset: 0x1A89A58
+    // Offset: 0x1BE2A24
     void MaintainRotation();
     // public System.Void MaintainBend()
-    // Offset: 0x1A89AA8
+    // Offset: 0x1BE2A74
     void MaintainBend();
     // public System.Void .ctor(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x1A8B0D4
+    // Offset: 0x1BE40A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor(UnityEngine::AvatarIKGoal goal) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>(goal)));
     }
     // private RootMotion.FinalIK.IKSolverLimb/AxisDirection[] get_axisDirections()
-    // Offset: 0x1A8B15C
+    // Offset: 0x1BE4128
     ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* get_axisDirections();
     // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/AxisDirection[] axisDirections)
-    // Offset: 0x1A89F38
+    // Offset: 0x1BE2F04
     void StoreAxisDirections(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()
-    // Offset: 0x1A8A358
+    // Offset: 0x1BE3324
     UnityEngine::Vector3 GetModifiedBendNormal();
     // protected override System.Void OnInitiateVirtual()
-    // Offset: 0x1A89BBC
+    // Offset: 0x1BE2B88
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnInitiateVirtual()
     void OnInitiateVirtual();
     // protected override System.Void OnUpdateVirtual()
-    // Offset: 0x1A8A22C
+    // Offset: 0x1BE31F8
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnUpdateVirtual()
     void OnUpdateVirtual();
     // protected override System.Void OnPostSolveVirtual()
-    // Offset: 0x1A8AE08
+    // Offset: 0x1BE3DD4
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnPostSolveVirtual()
     void OnPostSolveVirtual();
     // public System.Void .ctor()
-    // Offset: 0x1A8AF50
+    // Offset: 0x1BE3F1C
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::.ctor()
     // Base method: System.Void IKSolver::.ctor()

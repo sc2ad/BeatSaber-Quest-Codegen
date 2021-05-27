@@ -48,22 +48,22 @@ namespace System::Threading {
     // Creating value type constructor for type: QueueSegment
     QueueSegment(::Array<System::Threading::IThreadPoolWorkItem*>* nodes_ = {}, int indexes_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* Next_ = {}) noexcept : nodes{nodes_}, indexes{indexes_}, Next{Next_} {}
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x16E5DD8
+    // Offset: 0x187BED4
     void GetIndexes(int& upper, int& lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x16E5E18
+    // Offset: 0x187BF14
     bool CompareExchangeIndexes(int& prevUpper, int newUpper, int& prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x16E577C
+    // Offset: 0x187B878
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x16E4E7C
+    // Offset: 0x187AF78
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x16E5680
+    // Offset: 0x187B77C
     bool TryDequeue(System::Threading::IThreadPoolWorkItem*& node);
     // public System.Void .ctor()
-    // Offset: 0x16E4750
+    // Offset: 0x187A84C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

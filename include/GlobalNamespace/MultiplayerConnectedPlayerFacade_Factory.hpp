@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Factory
     Factory() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xFC591C
+    // Offset: 0x114697C
     // Implemented from: Zenject.PlaceholderFactory`3
     // Base method: System.Void PlaceholderFactory_3::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()

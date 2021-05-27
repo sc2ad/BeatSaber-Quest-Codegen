@@ -37,7 +37,7 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: FixupHolder
     FixupHolder(int64_t m_id_ = {}, ::Il2CppObject* m_fixupInfo_ = {}, int m_fixupType_ = {}) noexcept : m_id{m_id_}, m_fixupInfo{m_fixupInfo_}, m_fixupType{m_fixupType_} {}
     // System.Void .ctor(System.Int64 id, System.Object fixupInfo, System.Int32 fixupType)
-    // Offset: 0x1465BB8
+    // Offset: 0x15EA868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolder::.ctor");

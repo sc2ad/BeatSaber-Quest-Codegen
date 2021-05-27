@@ -81,29 +81,29 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Creating value type constructor for type: ECKeyPairGenerator
     ECKeyPairGenerator(::Il2CppString* algorithm_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_}, publicKeyParamSet{publicKeyParamSet_}, random{random_} {}
     // public System.Void .ctor(System.String algorithm)
-    // Offset: 0x1711100
+    // Offset: 0x18A71FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyPairGenerator* New_ctor(::Il2CppString* algorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>(algorithm)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x17111C8
+    // Offset: 0x18A72C4
     void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1711520
+    // Offset: 0x18A761C
     Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x17117D8
+    // Offset: 0x18A78D4
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // static Org.BouncyCastle.Asn1.X9.X9ECParameters FindECCurveByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x171149C
+    // Offset: 0x18A7598
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters GetCorrespondingPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey)
-    // Offset: 0x1711834
+    // Offset: 0x18A7930
     static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
     // public System.Void .ctor()
-    // Offset: 0x17110B0
+    // Offset: 0x18A71AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

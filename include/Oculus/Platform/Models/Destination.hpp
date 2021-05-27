@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Destination
     Destination(::Il2CppString* ApiName_ = {}, ::Il2CppString* DeeplinkMessage_ = {}, ::Il2CppString* DisplayName_ = {}) noexcept : ApiName{ApiName_}, DeeplinkMessage{DeeplinkMessage_}, DisplayName{DisplayName_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13AEDDC
+    // Offset: 0x14BB774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Destination* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Destination::.ctor");

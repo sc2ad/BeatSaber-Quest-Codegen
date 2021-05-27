@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelProductData
     LevelProductData(::Il2CppString* levelId_ = {}, ::Il2CppString* sku_ = {}, ::Il2CppString* assetFile_ = {}) noexcept : levelId{levelId_}, sku{sku_}, assetFile{assetFile_} {}
     // public System.String get_sku()
-    // Offset: 0x10C3F94
+    // Offset: 0x11CBA50
     ::Il2CppString* get_sku();
     // public System.String get_levelId()
-    // Offset: 0x10C3F9C
+    // Offset: 0x11CBA58
     ::Il2CppString* get_levelId();
     // public System.String get_assetFile()
-    // Offset: 0x10C3FA4
+    // Offset: 0x11CBA60
     ::Il2CppString* get_assetFile();
     // public System.Void .ctor()
-    // Offset: 0x10C3FAC
+    // Offset: 0x11CBA68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -70,21 +70,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: blendPct and: startXform
     char __padding6[0x4] = {};
-    // [HideInInspector] Offset: 0xCF91E4
+    // [HideInInspector] Offset: 0xDD4B3C
     // public UnityEngine.Transform startXform
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::Transform* startXform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HideInInspector] Offset: 0xCF91F4
+    // [HideInInspector] Offset: 0xDD4B4C
     // public UnityEngine.Transform jointXform
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::Transform* jointXform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HideInInspector] Offset: 0xCF9204
+    // [HideInInspector] Offset: 0xDD4B5C
     // public UnityEngine.Transform endXform
     // Size: 0x8
     // Offset: 0x60
@@ -96,13 +96,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void LateUpdate()
-    // Offset: 0x12F04F8
+    // Offset: 0x13B7004
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
-    // Offset: 0x12F0EA0
+    // Offset: 0x13B79AC
     static bool Solve(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Vector3 poleVector, float jointDist, float targetDist, UnityEngine::Vector3& result, UnityEngine::Vector3& forward, UnityEngine::Vector3& up);
     // public System.Void .ctor()
-    // Offset: 0x12F13B8
+    // Offset: 0x13B7EC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

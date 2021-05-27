@@ -37,7 +37,7 @@ namespace OVRSimpleJSON {
       return m_Enumerator;
     }
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
-    // Offset: 0xE08394
+    // Offset: 0xF0E688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KeyEnumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::KeyEnumerator::.ctor");
@@ -45,7 +45,7 @@ namespace OVRSimpleJSON {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
     }
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
-    // Offset: 0xE083DC
+    // Offset: 0xF0E6D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KeyEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::KeyEnumerator::.ctor");
@@ -53,17 +53,17 @@ namespace OVRSimpleJSON {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
     }
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/Enumerator aEnumerator)
-    // Offset: 0xE08410
+    // Offset: 0xF0E704
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  KeyEnumerator(OVRSimpleJSON::JSONNode::Enumerator aEnumerator)
     // public System.String get_Current()
-    // Offset: 0xE0842C
+    // Offset: 0xF0E720
     ::Il2CppString* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0xE08434
+    // Offset: 0xF0E728
     bool MoveNext();
     // public OVRSimpleJSON.JSONNode/KeyEnumerator GetEnumerator()
-    // Offset: 0xE0843C
+    // Offset: 0xF0E730
     OVRSimpleJSON::JSONNode::KeyEnumerator GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/KeyEnumerator
   // WARNING Not writing size check since size may be invalid!

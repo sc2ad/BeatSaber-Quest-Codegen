@@ -12,10 +12,10 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: BTSCharacter
-  class BTSCharacter;
+// Forward declaring namespace: UnityEngine::AddressableAssets
+namespace UnityEngine::AddressableAssets {
+  // Forward declaring type: AssetReference
+  class AssetReference;
 }
 // Completed forward declares
 // Type namespace: 
@@ -31,24 +31,24 @@ namespace GlobalNamespace {
     int id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Padding between fields: id and: prefab
+    // Padding between fields: id and: prefabAssetReference
     char __padding0[0x4] = {};
-    // private BTSCharacter _prefab
+    // private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::BTSCharacter* prefab;
+    UnityEngine::AddressableAssets::AssetReference* prefabAssetReference;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BTSCharacter*) == 0x8);
+    static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     // Creating value type constructor for type: PrefabWithId
-    PrefabWithId(int id_ = {}, GlobalNamespace::BTSCharacter* prefab_ = {}) noexcept : id{id_}, prefab{prefab_} {}
+    PrefabWithId(int id_ = {}, UnityEngine::AddressableAssets::AssetReference* prefabAssetReference_ = {}) noexcept : id{id_}, prefabAssetReference{prefabAssetReference_} {}
     // public System.Int32 get_id()
-    // Offset: 0x1022F9C
+    // Offset: 0x1134EF4
     int get_id();
-    // public BTSCharacter get_prefab()
-    // Offset: 0x1022FA4
-    GlobalNamespace::BTSCharacter* get_prefab();
+    // public UnityEngine.AddressableAssets.AssetReference get_prefabAssetReference()
+    // Offset: 0x1134EFC
+    UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x1022FAC
+    // Offset: 0x1134F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterDataModel/PrefabWithId
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterDataModel::PrefabWithId), 24 + sizeof(GlobalNamespace::BTSCharacter*)> __GlobalNamespace_BTSCharacterDataModel_PrefabWithIdSizeCheck;
+  static check_size<sizeof(BTSCharacterDataModel::PrefabWithId), 24 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BTSCharacterDataModel_PrefabWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::PrefabWithId) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");

@@ -79,49 +79,49 @@ namespace System::Net {
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x14F0BC0
+    // Offset: 0x169F574
     static void _cctor();
     // public System.String get_Algorithm()
-    // Offset: 0x14F0C18
+    // Offset: 0x169F5CC
     ::Il2CppString* get_Algorithm();
     // public System.String get_Realm()
-    // Offset: 0x14F0C30
+    // Offset: 0x169F5E4
     ::Il2CppString* get_Realm();
     // public System.String get_Nonce()
-    // Offset: 0x14EFCAC
+    // Offset: 0x169E660
     ::Il2CppString* get_Nonce();
     // public System.String get_Opaque()
-    // Offset: 0x14F0C48
+    // Offset: 0x169F5FC
     ::Il2CppString* get_Opaque();
     // public System.String get_QOP()
-    // Offset: 0x14F0C60
+    // Offset: 0x169F614
     ::Il2CppString* get_QOP();
     // public System.String get_CNonce()
-    // Offset: 0x14F0C78
+    // Offset: 0x169F62C
     ::Il2CppString* get_CNonce();
     // public System.Boolean Parse(System.String challenge)
-    // Offset: 0x14EFBD0
+    // Offset: 0x169E584
     bool Parse(::Il2CppString* challenge);
     // private System.String HashToHexString(System.String toBeHashed)
-    // Offset: 0x14F0D74
+    // Offset: 0x169F728
     ::Il2CppString* HashToHexString(::Il2CppString* toBeHashed);
     // private System.String HA1(System.String username, System.String password)
-    // Offset: 0x14F0ECC
+    // Offset: 0x169F880
     ::Il2CppString* HA1(::Il2CppString* username, ::Il2CppString* password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
-    // Offset: 0x14F0FEC
+    // Offset: 0x169F9A0
     ::Il2CppString* HA2(System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
-    // Offset: 0x14F10C0
+    // Offset: 0x169FA74
     ::Il2CppString* Response(::Il2CppString* username, ::Il2CppString* password, System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x14EFCC4
+    // Offset: 0x169E678
     System::Net::Authorization* Authenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.DateTime get_LastUse()
-    // Offset: 0x14F1210
+    // Offset: 0x169FBC4
     System::DateTime get_LastUse();
     // public System.Void .ctor()
-    // Offset: 0x14EFB50
+    // Offset: 0x169E504
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

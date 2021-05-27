@@ -36,15 +36,15 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::LookAtIK*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD29C34
-    // [TooltipAttribute] Offset: 0xD29C34
+    // [HeaderAttribute] Offset: 0xE09B30
+    // [TooltipAttribute] Offset: 0xE09B30
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xD29C94
+    // [RangeAttribute] Offset: 0xE09B90
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x28
@@ -57,22 +57,22 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xD29CAC
+    // [TooltipAttribute] Offset: 0xE09BA8
     // public System.Single targetSwitchSmoothTime
     // Size: 0x4
     // Offset: 0x38
     float targetSwitchSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD29CE4
+    // [TooltipAttribute] Offset: 0xE09BE0
     // public System.Single weightSmoothTime
     // Size: 0x4
     // Offset: 0x3C
     float weightSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xD29D1C
-    // [TooltipAttribute] Offset: 0xD29D1C
+    // [HeaderAttribute] Offset: 0xE09C18
+    // [TooltipAttribute] Offset: 0xE09C18
     // public System.Boolean smoothTurnTowardsTarget
     // Size: 0x1
     // Offset: 0x40
@@ -81,44 +81,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
     char __padding6[0x3] = {};
-    // [TooltipAttribute] Offset: 0xD29D7C
+    // [TooltipAttribute] Offset: 0xE09C78
     // public System.Single maxRadiansDelta
     // Size: 0x4
     // Offset: 0x44
     float maxRadiansDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD29DB4
+    // [TooltipAttribute] Offset: 0xE09CB0
     // public System.Single maxMagnitudeDelta
     // Size: 0x4
     // Offset: 0x48
     float maxMagnitudeDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD29DEC
+    // [TooltipAttribute] Offset: 0xE09CE8
     // public System.Single slerpSpeed
     // Size: 0x4
     // Offset: 0x4C
     float slerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xD29E24
+    // [TooltipAttribute] Offset: 0xE09D20
     // public UnityEngine.Vector3 pivotOffsetFromRoot
     // Size: 0xC
     // Offset: 0x50
     UnityEngine::Vector3 pivotOffsetFromRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xD29E5C
+    // [TooltipAttribute] Offset: 0xE09D58
     // public System.Single minDistance
     // Size: 0x4
     // Offset: 0x5C
     float minDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xD29E94
-    // [TooltipAttribute] Offset: 0xD29E94
-    // [RangeAttribute] Offset: 0xD29E94
+    // [HeaderAttribute] Offset: 0xE09D90
+    // [TooltipAttribute] Offset: 0xE09D90
+    // [RangeAttribute] Offset: 0xE09D90
     // public System.Single maxRootAngle
     // Size: 0x4
     // Offset: 0x60
@@ -174,22 +174,22 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x19026DC
+    // Offset: 0x1A860D4
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x1902910
+    // Offset: 0x1A86308
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x19027C4
+    // Offset: 0x1A861BC
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x1902FC4
+    // Offset: 0x1A869BC
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x1903160
+    // Offset: 0x1A86B58
     void RootRotation();
     // public System.Void .ctor()
-    // Offset: 0x190347C
+    // Offset: 0x1A86E74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

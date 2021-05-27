@@ -34,22 +34,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LanguageSettingsController
     LanguageSettingsController(GlobalNamespace::LanguageSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x111986C
+    // Offset: 0x106B674
     // Implemented from: DropdownSettingsController
     // Base method: System.Boolean DropdownSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1119918
+    // Offset: 0x106B720
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x11199B4
+    // Offset: 0x106B7BC
     // Implemented from: DropdownSettingsController
     // Base method: System.String DropdownSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1119A34
+    // Offset: 0x106B83C
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

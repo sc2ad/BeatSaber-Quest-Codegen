@@ -60,22 +60,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int32 STATE_LENGTH
     static void _set_STATE_LENGTH(int value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BBD470
+    // Offset: 0x1D8C6CC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BBD75C
+    // Offset: 0x1D8C9B8
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BBD94C
+    // Offset: 0x1D8CBA8
     void Reset();
     // private System.Void SetKey(System.Byte[] keyBytes)
-    // Offset: 0x1BBD590
+    // Offset: 0x1D8C7EC
     void SetKey(::Array<uint8_t>* keyBytes);
     // static private System.Void .cctor()
-    // Offset: 0x1BBD954
+    // Offset: 0x1D8CBB0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BBD9A8
+    // Offset: 0x1D8CC04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

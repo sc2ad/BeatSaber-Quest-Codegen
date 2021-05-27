@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return hideNoteSpawnEffect;
     }
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
-    // Offset: 0x10A6844
+    // Offset: 0x11A1A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatEffectSpawner::InitData::.ctor");

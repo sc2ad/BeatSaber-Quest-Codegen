@@ -18,8 +18,8 @@
 // Begin forward declares
 // Forward declaring namespace: MasterServer
 namespace MasterServer {
-  // Forward declaring type: GetPublicServersResponse
-  class GetPublicServersResponse;
+  // Forward declaring type: GetPublicUserServersResponse
+  class GetPublicUserServersResponse;
 }
 // Completed forward declares
 // Type namespace: MasterServer
@@ -44,12 +44,12 @@ namespace MasterServer {
     MasterServer::UserMessageHandler::$$c__DisplayClass39_0* $$4__this;
     // Field size check
     static_assert(sizeof(MasterServer::UserMessageHandler::$$c__DisplayClass39_0*) == 0x8);
-    // private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.GetPublicServersResponse> <>u__1
+    // private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.GetPublicUserServersResponse> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x28
-    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::GetPublicServersResponse*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::GetPublicUserServersResponse*> $$u__1;
     // Creating value type constructor for type: $$GetPublicServers$b__0$d
-    constexpr $$GetPublicServers$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler::$$c__DisplayClass39_0* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::GetPublicServersResponse*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    constexpr $$GetPublicServers$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler::$$c__DisplayClass39_0* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::GetPublicUserServersResponse*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -59,10 +59,10 @@ namespace MasterServer {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDF9FA4
+    // Offset: 0xEE78B4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDF9FAC
+    // Offset: 0xEE78BC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass39_0/<<GetPublicServers>b__0>d
   // WARNING Not writing size check since size may be invalid!

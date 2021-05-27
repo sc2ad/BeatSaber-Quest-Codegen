@@ -23,7 +23,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: ButtonClickedEvent
     ButtonClickedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x133C9C4
+    // Offset: 0x141DDD0
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

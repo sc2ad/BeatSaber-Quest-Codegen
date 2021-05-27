@@ -12,10 +12,10 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: AnimationClip
-  class AnimationClip;
+// Forward declaring namespace: UnityEngine::AddressableAssets
+namespace UnityEngine::AddressableAssets {
+  // Forward declaring type: AssetReference
+  class AssetReference;
 }
 // Completed forward declares
 // Type namespace: 
@@ -31,24 +31,24 @@ namespace GlobalNamespace {
     int id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Padding between fields: id and: animationClip
+    // Padding between fields: id and: animationClipAssetReference
     char __padding0[0x4] = {};
-    // private UnityEngine.AnimationClip _animationClip
+    // private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::AnimationClip* animationClip;
+    UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationClip*) == 0x8);
+    static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     // Creating value type constructor for type: AnimationClipWithId
-    AnimationClipWithId(int id_ = {}, UnityEngine::AnimationClip* animationClip_ = {}) noexcept : id{id_}, animationClip{animationClip_} {}
+    AnimationClipWithId(int id_ = {}, UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference_ = {}) noexcept : id{id_}, animationClipAssetReference{animationClipAssetReference_} {}
     // public System.Int32 get_id()
-    // Offset: 0x1022F84
+    // Offset: 0x1134EDC
     int get_id();
-    // public UnityEngine.AnimationClip get_animationClip()
-    // Offset: 0x1022F8C
-    UnityEngine::AnimationClip* get_animationClip();
+    // public UnityEngine.AddressableAssets.AssetReference get_animationClipAssetReference()
+    // Offset: 0x1134EE4
+    UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x1022F94
+    // Offset: 0x1134EEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterDataModel/AnimationClipWithId
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterDataModel::AnimationClipWithId), 24 + sizeof(UnityEngine::AnimationClip*)> __GlobalNamespace_BTSCharacterDataModel_AnimationClipWithIdSizeCheck;
+  static check_size<sizeof(BTSCharacterDataModel::AnimationClipWithId), 24 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BTSCharacterDataModel_AnimationClipWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::AnimationClipWithId) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");

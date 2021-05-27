@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Creating value type constructor for type: ZTauElement
     ZTauElement(Org::BouncyCastle::Math::BigInteger* u_ = {}, Org::BouncyCastle::Math::BigInteger* v_ = {}) noexcept : u{u_}, v{v_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger u, Org.BouncyCastle.Math.BigInteger v)
-    // Offset: 0x1B3A720
+    // Offset: 0x1CF0728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZTauElement* New_ctor(Org::BouncyCastle::Math::BigInteger* u, Org::BouncyCastle::Math::BigInteger* v) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Abc::ZTauElement::.ctor");

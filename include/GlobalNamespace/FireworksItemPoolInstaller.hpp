@@ -42,12 +42,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FireworksItemPoolInstaller
     FireworksItemPoolInstaller(GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}) noexcept : fireworksController{fireworksController_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0xF55F00
+    // Offset: 0x10C6A8C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xF55F90
+    // Offset: 0x10C6B1C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

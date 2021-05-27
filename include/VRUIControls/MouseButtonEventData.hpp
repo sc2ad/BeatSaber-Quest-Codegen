@@ -41,13 +41,13 @@ namespace VRUIControls {
     // Creating value type constructor for type: MouseButtonEventData
     MouseButtonEventData(UnityEngine::EventSystems::PointerEventData::FramePressState buttonState_ = {}, UnityEngine::EventSystems::PointerEventData* buttonData_ = {}) noexcept : buttonState{buttonState_}, buttonData{buttonData_} {}
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x2132340
+    // Offset: 0x234A358
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x2132354
+    // Offset: 0x234A36C
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x2132368
+    // Offset: 0x234A380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

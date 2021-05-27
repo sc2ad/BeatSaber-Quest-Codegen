@@ -60,23 +60,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xFF89A4
+    // Offset: 0x11BCF28
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xFF89DC
+    // Offset: 0x11BCF60
     void LateUpdate();
-    // public override System.Void SetVelocity(UnityEngine.Vector3 force)
-    // Offset: 0xFF8BD8
+    // public override UnityEngine.Vector3 get_position()
+    // Offset: 0x11BCF0C
     // Implemented from: NoteDebrisPhysics
-    // Base method: System.Void NoteDebrisPhysics::SetVelocity(UnityEngine.Vector3 force)
-    void SetVelocity(UnityEngine::Vector3 force);
-    // public override System.Void SetAngularVelocity(UnityEngine.Vector3 torque)
-    // Offset: 0xFF8BEC
+    // Base method: UnityEngine.Vector3 NoteDebrisPhysics::get_position()
+    UnityEngine::Vector3 get_position();
+    // public override System.Void Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
+    // Offset: 0x11BD15C
     // Implemented from: NoteDebrisPhysics
-    // Base method: System.Void NoteDebrisPhysics::SetAngularVelocity(UnityEngine.Vector3 torque)
-    void SetAngularVelocity(UnityEngine::Vector3 torque);
+    // Base method: System.Void NoteDebrisPhysics::Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
+    void Init(UnityEngine::Vector3 force, UnityEngine::Vector3 torque);
+    // public override System.Void AddVelocity(UnityEngine.Vector3 force)
+    // Offset: 0x11BD220
+    // Implemented from: NoteDebrisPhysics
+    // Base method: System.Void NoteDebrisPhysics::AddVelocity(UnityEngine.Vector3 force)
+    void AddVelocity(UnityEngine::Vector3 force);
     // public System.Void .ctor()
-    // Offset: 0xFF8C8C
+    // Offset: 0x11BD2D4
     // Implemented from: NoteDebrisPhysics
     // Base method: System.Void NoteDebrisPhysics::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -81,7 +81,7 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     static_assert(sizeof(NoTransitionsButton::SelectionState) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD17938
+    // [CompilerGeneratedAttribute] Offset: 0xDF6F7C
     // private System.Action`1<HMUI.NoTransitionsButton/SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x100
@@ -97,21 +97,21 @@ namespace HMUI {
     // Creating value type constructor for type: NoTransitionsButton
     NoTransitionsButton(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* selectionStateDidChangeEvent_ = {}, HMUI::NoTransitionsButton::SelectionState selectionState_ = {}) noexcept : selectionStateDidChangeEvent{selectionStateDidChangeEvent_}, selectionState{selectionState_} {}
     // public HMUI.NoTransitionsButton/SelectionState get_selectionState()
-    // Offset: 0x12182FC
+    // Offset: 0x12989B0
     HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x1218304
+    // Offset: 0x12989B8
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x12183AC
+    // Offset: 0x1298A60
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x1218454
+    // Offset: 0x1298B08
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x12184E8
+    // Offset: 0x1298B9C
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()

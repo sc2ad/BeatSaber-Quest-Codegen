@@ -35,19 +35,19 @@ namespace System::IO {
     // Creating value type constructor for type: PinnedBufferMemoryStream
     PinnedBufferMemoryStream(::Array<uint8_t>* array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x17CEB24
+    // Offset: 0x19400F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x17CEC08
+    // Offset: 0x19401D4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17CEC80
+    // Offset: 0x194024C
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

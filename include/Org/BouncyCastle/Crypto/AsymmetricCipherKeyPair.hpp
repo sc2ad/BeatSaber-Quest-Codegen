@@ -38,17 +38,17 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: AsymmetricCipherKeyPair
     AsymmetricCipherKeyPair(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter_ = {}, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter_ = {}) noexcept : publicParameter{publicParameter_}, privateParameter{privateParameter_} {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter, Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter)
-    // Offset: 0x18685FC
+    // Offset: 0x19FF694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricCipherKeyPair* New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricCipherKeyPair*, creationType>(publicParameter, privateParameter)));
     }
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()
-    // Offset: 0x18686E4
+    // Offset: 0x19FF77C
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Private()
-    // Offset: 0x18686EC
+    // Offset: 0x19FF784
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
   }; // Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair
   #pragma pack(pop)

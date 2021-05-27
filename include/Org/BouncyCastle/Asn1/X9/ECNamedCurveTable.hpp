@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: ECNamedCurveTable
     ECNamedCurveTable() noexcept {}
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1860A14
+    // Offset: 0x19F7AAC
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1860C3C
+    // Offset: 0x19F7CD4
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Asn1.X9.ECNamedCurveTable
   #pragma pack(pop)

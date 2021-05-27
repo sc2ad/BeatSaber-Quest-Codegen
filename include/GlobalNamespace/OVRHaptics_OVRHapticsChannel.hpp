@@ -38,23 +38,23 @@ namespace GlobalNamespace {
       return m_output;
     }
     // public System.Void .ctor(System.UInt32 outputIndex)
-    // Offset: 0x1740680
+    // Offset: 0x14F7844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsChannel* New_ctor(uint outputIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHaptics::OVRHapticsChannel*, creationType>(outputIndex)));
     }
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x17416F8
+    // Offset: 0x14F88BC
     void Preempt(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x17417B4
+    // Offset: 0x14F8978
     void Queue(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x1741858
+    // Offset: 0x14F8A1C
     void Mix(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x1741D40
+    // Offset: 0x14F8F04
     void Clear();
   }; // OVRHaptics/OVRHapticsChannel
   #pragma pack(pop)

@@ -52,16 +52,16 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x1214214
+    // Offset: 0x12948C8
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x1214230
+    // Offset: 0x12948E4
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x121424C
+    // Offset: 0x1294900
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1214268
+    // Offset: 0x129491C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

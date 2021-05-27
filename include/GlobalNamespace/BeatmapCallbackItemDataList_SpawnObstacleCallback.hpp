@@ -37,20 +37,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpawnObstacleCallback
     SpawnObstacleCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10A9FA4
+    // Offset: 0x11A5170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::SpawnObstacleCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::SpawnObstacleCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(ObstacleData obstacleData)
-    // Offset: 0x10A8EB4
+    // Offset: 0x11A4080
     void Invoke(GlobalNamespace::ObstacleData* obstacleData);
     // public System.IAsyncResult BeginInvoke(ObstacleData obstacleData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10A9FB4
+    // Offset: 0x11A5180
     System::IAsyncResult* BeginInvoke(GlobalNamespace::ObstacleData* obstacleData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10A9FD8
+    // Offset: 0x11A51A4
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnObstacleCallback
   #pragma pack(pop)

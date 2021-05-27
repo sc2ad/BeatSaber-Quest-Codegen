@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0xFA53A8
+    // Offset: 0x10F5DC4
     UnityEngine::UI::Text* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0xFA53B0
+    // Offset: 0x10F5DCC
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0xFA53B8
+    // Offset: 0x10F5DD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

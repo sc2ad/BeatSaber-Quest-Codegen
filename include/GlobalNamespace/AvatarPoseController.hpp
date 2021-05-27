@@ -73,28 +73,28 @@ namespace GlobalNamespace {
     GlobalNamespace::HeadBodyOffsetSO* headBodyOffset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HeadBodyOffsetSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD34B9C
+    // [CompilerGeneratedAttribute] Offset: 0xE15380
     // private AvatarPoseController/PositionsWillBeSetDelegate <earlyPositionsWillBeSetCallback>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* earlyPositionsWillBeSetCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD34BAC
+    // [CompilerGeneratedAttribute] Offset: 0xE15390
     // private AvatarPoseController/LatePositionsWillBeSetDelegate <latePositionsWillBeSetCallback>k__BackingField
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* latePositionsWillBeSetCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD34BBC
+    // [CompilerGeneratedAttribute] Offset: 0xE153A0
     // private AvatarPoseController/RotationsWillBeSetDelegate <earlyRotationsWillBeSetCallback>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* earlyRotationsWillBeSetCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD34BCC
+    // [CompilerGeneratedAttribute] Offset: 0xE153B0
     // private System.Action`1<UnityEngine.Vector3> didUpdatePoseEvent
     // Size: 0x8
     // Offset: 0x58
@@ -106,37 +106,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public AvatarPoseController/PositionsWillBeSetDelegate get_earlyPositionsWillBeSetCallback()
-    // Offset: 0x101DFCC
+    // Offset: 0x112FF30
     GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* get_earlyPositionsWillBeSetCallback();
     // public System.Void set_earlyPositionsWillBeSetCallback(AvatarPoseController/PositionsWillBeSetDelegate value)
-    // Offset: 0x101DFD4
+    // Offset: 0x112FF38
     void set_earlyPositionsWillBeSetCallback(GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* value);
     // public AvatarPoseController/LatePositionsWillBeSetDelegate get_latePositionsWillBeSetCallback()
-    // Offset: 0x101DFDC
+    // Offset: 0x112FF40
     GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* get_latePositionsWillBeSetCallback();
     // public System.Void set_latePositionsWillBeSetCallback(AvatarPoseController/LatePositionsWillBeSetDelegate value)
-    // Offset: 0x101DFE4
+    // Offset: 0x112FF48
     void set_latePositionsWillBeSetCallback(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* value);
     // public AvatarPoseController/RotationsWillBeSetDelegate get_earlyRotationsWillBeSetCallback()
-    // Offset: 0x101DFEC
+    // Offset: 0x112FF50
     GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* get_earlyRotationsWillBeSetCallback();
     // public System.Void set_earlyRotationsWillBeSetCallback(AvatarPoseController/RotationsWillBeSetDelegate value)
-    // Offset: 0x101DFF4
+    // Offset: 0x112FF58
     void set_earlyRotationsWillBeSetCallback(GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* value);
     // public System.Void add_didUpdatePoseEvent(System.Action`1<UnityEngine.Vector3> value)
-    // Offset: 0x101D884
+    // Offset: 0x112F7E8
     void add_didUpdatePoseEvent(System::Action_1<UnityEngine::Vector3>* value);
     // public System.Void remove_didUpdatePoseEvent(System.Action`1<UnityEngine.Vector3> value)
-    // Offset: 0x101DA00
+    // Offset: 0x112F964
     void remove_didUpdatePoseEvent(System::Action_1<UnityEngine::Vector3>* value);
     // public System.Void UpdateTransforms(UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, UnityEngine.Quaternion headRotation, UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation)
-    // Offset: 0x101DFFC
+    // Offset: 0x112FF60
     void UpdateTransforms(UnityEngine::Vector3 headPosition, UnityEngine::Vector3 leftHandPosition, UnityEngine::Vector3 rightHandPosition, UnityEngine::Quaternion headRotation, UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation);
     // public System.Void UpdateBodyPosition()
-    // Offset: 0x1015E1C
+    // Offset: 0x11275A0
     void UpdateBodyPosition();
     // public System.Void .ctor()
-    // Offset: 0x101ED80
+    // Offset: 0x1130CE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

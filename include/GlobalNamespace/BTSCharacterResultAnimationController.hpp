@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD32AB4
+    // [SpaceAttribute] Offset: 0xE12D44
     // private UnityEngine.GameObject _collidersGameObject
     // Size: 0x8
     // Offset: 0x30
@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x1023058
+    // Offset: 0x1134FB0
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void StopAnimation()
-    // Offset: 0x10230C8
+    // Offset: 0x1135020
     void StopAnimation();
     // public System.Void .ctor()
-    // Offset: 0x10230E8
+    // Offset: 0x1135040
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

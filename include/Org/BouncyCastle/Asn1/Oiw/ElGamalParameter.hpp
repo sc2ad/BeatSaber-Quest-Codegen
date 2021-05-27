@@ -49,20 +49,20 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Creating value type constructor for type: ElGamalParameter
     ElGamalParameter(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}) noexcept : p{p_}, g{g_} {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1623098
+    // Offset: 0x17273F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameter*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1623198
+    // Offset: 0x17274F4
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x16231B4
+    // Offset: 0x1727510
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16231D0
+    // Offset: 0x172752C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

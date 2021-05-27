@@ -32,20 +32,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: PCMReaderCallback
     PCMReaderCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2197B00
+    // Offset: 0x23B833C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClip::PCMReaderCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioClip::PCMReaderCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip::PCMReaderCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Single[] data)
-    // Offset: 0x21974FC
+    // Offset: 0x23B7D38
     void Invoke(::Array<float>* data);
     // public System.IAsyncResult BeginInvoke(System.Single[] data, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2197B10
+    // Offset: 0x23B834C
     System::IAsyncResult* BeginInvoke(::Array<float>* data, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2197B34
+    // Offset: 0x23B8370
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/PCMReaderCallback
   #pragma pack(pop)

@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD346B8
+    // [CompilerGeneratedAttribute] Offset: 0xE14E4C
     // private System.Action`1<BombCutSoundEffect> didFinishEvent
     // Size: 0x8
     // Offset: 0x20
@@ -64,22 +64,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0xF306CC
+    // Offset: 0x1086830
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0xF30770
+    // Offset: 0x10868D4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0xF30814
+    // Offset: 0x1086978
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0xF30894
+    // Offset: 0x10869F8
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0xF30928
+    // Offset: 0x1086A8C
     void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0xF309B0
+    // Offset: 0x1086B14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

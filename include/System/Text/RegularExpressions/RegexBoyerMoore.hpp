@@ -82,23 +82,23 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: RegexBoyerMoore
     RegexBoyerMoore(::Array<int>* positive_ = {}, ::Array<int>* negativeASCII_ = {}, ::Array<::Array<int>*>* negativeUnicode_ = {}, ::Il2CppString* pattern_ = {}, int lowASCII_ = {}, int highASCII_ = {}, bool rightToLeft_ = {}, bool caseInsensitive_ = {}, System::Globalization::CultureInfo* culture_ = {}) noexcept : positive{positive_}, negativeASCII{negativeASCII_}, negativeUnicode{negativeUnicode_}, pattern{pattern_}, lowASCII{lowASCII_}, highASCII{highASCII_}, rightToLeft{rightToLeft_}, caseInsensitive{caseInsensitive_}, culture{culture_} {}
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
-    // Offset: 0x16BD560
+    // Offset: 0x183F70C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexBoyerMoore* New_ctor(::Il2CppString* pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexBoyerMoore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexBoyerMoore*, creationType>(pattern, caseInsensitive, rightToLeft, culture)));
     }
     // private System.Boolean MatchPattern(System.String text, System.Int32 index)
-    // Offset: 0x16BDA34
+    // Offset: 0x183FBE0
     bool MatchPattern(::Il2CppString* text, int index);
     // System.Boolean IsMatch(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x16BDB5C
+    // Offset: 0x183FD08
     bool IsMatch(::Il2CppString* text, int index, int beglimit, int endlimit);
     // System.Int32 Scan(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x16BDBCC
+    // Offset: 0x183FD78
     int Scan(::Il2CppString* text, int index, int beglimit, int endlimit);
     // public override System.String ToString()
-    // Offset: 0x16BDF10
+    // Offset: 0x18400BC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

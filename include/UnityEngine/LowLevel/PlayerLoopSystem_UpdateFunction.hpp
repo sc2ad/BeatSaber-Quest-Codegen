@@ -32,20 +32,20 @@ namespace UnityEngine::LowLevel {
     // Creating value type constructor for type: UpdateFunction
     UpdateFunction() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A12840
+    // Offset: 0x1BEF5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLoopSystem::UpdateFunction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLoopSystem::UpdateFunction*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1A12850
+    // Offset: 0x1BEF5D8
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A12A5C
+    // Offset: 0x1BEF7E4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A12A88
+    // Offset: 0x1BEF810
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
   #pragma pack(pop)

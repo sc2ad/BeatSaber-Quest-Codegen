@@ -56,21 +56,21 @@ namespace System::Text {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1B214F4
+    // Offset: 0x1CD74FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknown, index)));
     }
     // System.Void .ctor(System.String message, System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1B21530
+    // Offset: 0x1CD7538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknownHigh, charUnknownLow, index)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1B21478
+    // Offset: 0x1CD7480
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -82,7 +82,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1B214EC
+    // Offset: 0x1CD74F4
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

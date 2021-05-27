@@ -47,30 +47,30 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SphereCuttableBySaber
     SphereCuttableBySaber(UnityEngine::SphereCollider* collider_ = {}, bool canBeCut_ = {}) noexcept : collider{collider_}, canBeCut{canBeCut_} {}
     // protected System.Void Awake()
-    // Offset: 0xF94004
+    // Offset: 0x11766E8
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0xF93FA4
+    // Offset: 0x1176688
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0xF93FC0
+    // Offset: 0x11766A4
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public override System.Boolean get_canBeCut()
-    // Offset: 0xF93FFC
+    // Offset: 0x11766E0
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xF9403C
+    // Offset: 0x1176720
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Void .ctor()
-    // Offset: 0xF94060
+    // Offset: 0x1176744
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

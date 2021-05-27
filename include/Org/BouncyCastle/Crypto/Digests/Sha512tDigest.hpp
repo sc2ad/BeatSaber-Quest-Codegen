@@ -81,55 +81,55 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Creating value type constructor for type: Sha512tDigest
     Sha512tDigest(int digestLength_ = {}, uint64_t H1t_ = {}, uint64_t H2t_ = {}, uint64_t H3t_ = {}, uint64_t H4t_ = {}, uint64_t H5t_ = {}, uint64_t H6t_ = {}, uint64_t H7t_ = {}, uint64_t H8t_ = {}) noexcept : digestLength{digestLength_}, H1t{H1t_}, H2t{H2t_}, H3t{H3t_}, H4t{H4t_}, H5t{H5t_}, H6t{H6t_}, H7t{H7t_}, H8t{H8t_} {}
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x172D9AC
+    // Offset: 0x18C4AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha512tDigest* New_ctor(int bitLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha512tDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha512tDigest*, creationType>(bitLength)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha512tDigest t)
-    // Offset: 0x172DC98
+    // Offset: 0x18C4D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha512tDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha512tDigest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha512tDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha512tDigest*, creationType>(t)));
     }
     // private System.Void tIvGenerate(System.Int32 bitLength)
-    // Offset: 0x172DB04
+    // Offset: 0x18C4C00
     void tIvGenerate(int bitLength);
     // static private System.Void UInt64_To_BE(System.UInt64 n, System.Byte[] bs, System.Int32 off, System.Int32 max)
-    // Offset: 0x172DECC
+    // Offset: 0x18C4FC8
     static void UInt64_To_BE(uint64_t n, ::Array<uint8_t>* bs, int off, int max);
     // static private System.Void UInt32_To_BE(System.UInt32 n, System.Byte[] bs, System.Int32 off, System.Int32 max)
-    // Offset: 0x172DF78
+    // Offset: 0x18C5074
     static void UInt32_To_BE(uint n, ::Array<uint8_t>* bs, int off, int max);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x172DD38
+    // Offset: 0x18C4E34
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.String LongDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x172DDBC
+    // Offset: 0x18C4EB8
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Int32 LongDigest::GetDigestSize()
     int GetDigestSize();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x172DDC4
+    // Offset: 0x18C4EC0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Int32 LongDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x172DF34
+    // Offset: 0x18C5030
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Void LongDigest::Reset()
     void Reset();
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x172E050
+    // Offset: 0x18C514C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable LongDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public override System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x172E0B0
+    // Offset: 0x18C51AC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Void LongDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);

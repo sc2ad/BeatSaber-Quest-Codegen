@@ -46,28 +46,28 @@ namespace GlobalNamespace {
     GlobalNamespace::TextMeshProButton* keyButtonPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TextMeshProButton*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41638
+    // [CompilerGeneratedAttribute] Offset: 0xE2213C
     // private System.Action`1<System.Char> textKeyWasPressedEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<::Il2CppChar>* textKeyWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppChar>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41648
+    // [CompilerGeneratedAttribute] Offset: 0xE2214C
     // private System.Action deleteButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action* deleteButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41658
+    // [CompilerGeneratedAttribute] Offset: 0xE2215C
     // private System.Action okButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* okButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41668
+    // [CompilerGeneratedAttribute] Offset: 0xE2216C
     // private System.Action cancelButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -103,52 +103,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0xFADF2C
+    // Offset: 0x10FFA60
     void add_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0xFADFD0
+    // Offset: 0x10FFB04
     void remove_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0xFAE074
+    // Offset: 0x10FFBA8
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0xFAE118
+    // Offset: 0x10FFC4C
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0xFAE1BC
+    // Offset: 0x10FFCF0
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0xFAE260
+    // Offset: 0x10FFD94
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0xFAE304
+    // Offset: 0x10FFE38
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0xFAE3A8
+    // Offset: 0x10FFEDC
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void set_enableOkButtonInteractivity(System.Boolean value)
-    // Offset: 0xFAE44C
+    // Offset: 0x10FFF80
     void set_enableOkButtonInteractivity(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0xFAE4FC
+    // Offset: 0x1100030
     void set_hideCancelButton(bool value);
     // protected System.Void Awake()
-    // Offset: 0xFAE5BC
+    // Offset: 0x11000F0
     void Awake();
     // private System.Void <Awake>b__21_0()
-    // Offset: 0xFAF08C
+    // Offset: 0x1100BC0
     void $Awake$b__21_0();
     // private System.Void <Awake>b__21_1()
-    // Offset: 0xFAF0A0
+    // Offset: 0x1100BD4
     void $Awake$b__21_1();
     // private System.Void <Awake>b__21_2()
-    // Offset: 0xFAF0BC
+    // Offset: 0x1100BF0
     void $Awake$b__21_2();
     // private System.Void <Awake>b__21_3()
-    // Offset: 0xFAF0D8
+    // Offset: 0x1100C0C
     void $Awake$b__21_3();
     // public System.Void .ctor()
-    // Offset: 0xFAF084
+    // Offset: 0x1100BB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -136,49 +136,70 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerFilter>*>(this);
     }
     // public System.Void .ctor(System.Boolean includePasswordProtected, System.Boolean includeEmpty, System.Boolean includeFull, System.Boolean filterNames, System.String nameFilter, System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter, System.Boolean filterModifiers, GameplayModifierMask modifierFilter, System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xDF8A64
+    // Offset: 0xEE7D3C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GameplayServerFilter(bool includePasswordProtected, bool includeEmpty, bool includeFull, bool filterNames, ::Il2CppString* nameFilter, bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter, bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter, bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter)
     // static public GameplayServerFilter get_defaultFilter()
-    // Offset: 0x12340A8
+    // Offset: 0x1313874
     static GlobalNamespace::GameplayServerFilter get_defaultFilter();
     // public System.Boolean Equals(in GameplayServerFilter other)
-    // Offset: 0xDF8AA8
+    // Offset: 0xEE7D80
     bool Equals(GlobalNamespace::GameplayServerFilter& other);
     // public System.Boolean Equals(GameplayServerFilter other)
-    // Offset: 0xDF8AB0
+    // Offset: 0xEE7D88
     bool Equals_(GlobalNamespace::GameplayServerFilter other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xDF8AF8
+    // Offset: 0xEE7DD0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // static public GameplayServerFilter Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x123443C
+    // Offset: 0x1313C08
     static GlobalNamespace::GameplayServerFilter Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public GameplayServerFilter CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xDF8B00
+    // Offset: 0xEE7DD8
     GlobalNamespace::GameplayServerFilter CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean IncludesServerName(System.String lowerInvariantName)
-    // Offset: 0xDF8B08
+    // Offset: 0xEE7DE0
     bool IncludesServerName(::Il2CppString* lowerInvariantName);
     // public System.Boolean IncludesPassword(System.String password)
-    // Offset: 0xDF8B38
+    // Offset: 0xEE7E10
     bool IncludesPassword(::Il2CppString* password);
     // public System.Boolean IncludesPlayerCount(System.Int32 currentPlayerCount, System.Int32 maxPlayerCount)
-    // Offset: 0xDF8B54
+    // Offset: 0xEE7E2C
     bool IncludesPlayerCount(int currentPlayerCount, int maxPlayerCount);
     // public System.Boolean IncludesConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0xDF8B88
+    // Offset: 0xEE7E60
     bool IncludesConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
+    // public GameplayServerFilter WithIncludePasswordProtected(System.Boolean includePasswordProtected)
+    // Offset: 0xEE7E98
+    GlobalNamespace::GameplayServerFilter WithIncludePasswordProtected(bool includePasswordProtected);
+    // public GameplayServerFilter WithIncludeEmpty(System.Boolean includeEmpty)
+    // Offset: 0xEE7EA4
+    GlobalNamespace::GameplayServerFilter WithIncludeEmpty(bool includeEmpty);
+    // public GameplayServerFilter WithIncludeFull(System.Boolean includeFull)
+    // Offset: 0xEE7EB0
+    GlobalNamespace::GameplayServerFilter WithIncludeFull(bool includeFull);
+    // public GameplayServerFilter WithFilterNames(System.Boolean filterNames, System.String nameFilter)
+    // Offset: 0xEE7EBC
+    GlobalNamespace::GameplayServerFilter WithFilterNames(bool filterNames, ::Il2CppString* nameFilter);
+    // public GameplayServerFilter WithFilterDifficulties(System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter)
+    // Offset: 0xEE7EC8
+    GlobalNamespace::GameplayServerFilter WithFilterDifficulties(bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter);
+    // public GameplayServerFilter WithFilterModifiers(System.Boolean filterModifiers, GameplayModifierMask modifierFilter)
+    // Offset: 0xEE7ED4
+    GlobalNamespace::GameplayServerFilter WithFilterModifiers(bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter);
+    // public GameplayServerFilter WithFilterSongPacks(System.Boolean filterSongPacks, SongPackMask songPackFilter)
+    // Offset: 0xEE7EE0
+    GlobalNamespace::GameplayServerFilter WithFilterSongPacks(bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter);
     // private System.Boolean IEquatableByReference<GameplayServerFilter>.Equals(in GameplayServerFilter other)
-    // Offset: 0xDF8BC0
+    // Offset: 0xEE7EEC
     bool IEquatableByReference$GameplayServerFilter$_Equals(GlobalNamespace::GameplayServerFilter& other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDF8AE8
+    // Offset: 0xEE7DC0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDF8AF0
+    // Offset: 0xEE7DC8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

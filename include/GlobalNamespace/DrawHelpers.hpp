@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DrawHelpers
     DrawHelpers() noexcept {}
     // static public System.Void DrawTexture(UnityEngine.Texture texture, System.Single x, System.Single y, System.Single w, System.Single h, UnityEngine.Material mat, System.Single sx, System.Single sy, System.Single sw, System.Single sh)
-    // Offset: 0x1178AB0
+    // Offset: 0x1225D9C
     static void DrawTexture(UnityEngine::Texture* texture, float x, float y, float w, float h, UnityEngine::Material* mat, float sx, float sy, float sw, float sh);
     // public System.Void .ctor()
-    // Offset: 0x1178C5C
+    // Offset: 0x1225F48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

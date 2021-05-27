@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineClipUpgrade
     TimelineClipUpgrade() noexcept {}
     // static public System.Void UpgradeClipInFromGlobalToLocal(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x211A6E0
+    // Offset: 0x231D81C
     static void UpgradeClipInFromGlobalToLocal(UnityEngine::Timeline::TimelineClip* clip);
   }; // UnityEngine.Timeline.TimelineClip/TimelineClipUpgrade
   #pragma pack(pop)

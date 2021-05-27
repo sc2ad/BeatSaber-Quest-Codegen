@@ -140,28 +140,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kOptionsCellIdentifier
     static void _set_kOptionsCellIdentifier(::Il2CppString* value);
     // public System.Single CellSize()
-    // Offset: 0xFF04A8
+    // Offset: 0x11B4C64
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xFF04B0
+    // Offset: 0x11B4C6C
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xFF0500
+    // Offset: 0x11B4CBC
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
-    // Offset: 0xFF0A9C
+    // Offset: 0x11B5258
     void AddPlayers(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* players, ::Il2CppString* title);
     // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
-    // Offset: 0xFF1350
+    // Offset: 0x11B5B0C
     void SetParties(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* partyPlayers, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* otherPlayers, ::Il2CppString* myPartyTitle, ::Il2CppString* otherPlayersTitle);
     // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
-    // Offset: 0xFF1470
+    // Offset: 0x11B5C2C
     void HandleCellWasPressed(HMUI::TableView* tableView, HMUI::TableCell* tableCell);
     // static private System.Boolean HasVisibleOptions(INetworkPlayer player)
-    // Offset: 0xFF0FB8
+    // Offset: 0x11B5774
     static bool HasVisibleOptions(GlobalNamespace::INetworkPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0xFF1474
+    // Offset: 0x11B5C30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

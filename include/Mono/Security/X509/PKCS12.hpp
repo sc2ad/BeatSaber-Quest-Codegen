@@ -127,99 +127,99 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Int32 password_max_length
     static void _set_password_max_length(int value);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1BA44DC
+    // Offset: 0x1D61EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12* New_ctor(::Array<uint8_t>* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>(data)));
     }
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1BA4D00
+    // Offset: 0x1D62710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>(data, password)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1BA46F4
+    // Offset: 0x1D62104
     void Decode(::Array<uint8_t>* data);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1BA4514
+    // Offset: 0x1D61F24
     void set_Password(::Il2CppString* value);
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1BA5664
+    // Offset: 0x1D63074
     int get_IterationCount();
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x1BA566C
+    // Offset: 0x1D6307C
     void set_IterationCount(int value);
     // public System.Collections.ArrayList get_Keys()
-    // Offset: 0x1BA5674
+    // Offset: 0x1D63084
     System::Collections::ArrayList* get_Keys();
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x1BA5E44
+    // Offset: 0x1D63854
     Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // System.Security.Cryptography.RandomNumberGenerator get_RNG()
-    // Offset: 0x1BA61C8
+    // Offset: 0x1D63BD8
     System::Security::Cryptography::RandomNumberGenerator* get_RNG();
     // private System.Boolean Compare(System.Byte[] expected, System.Byte[] actual)
-    // Offset: 0x1BA4E98
+    // Offset: 0x1D628A8
     bool Compare(::Array<uint8_t>* expected, ::Array<uint8_t>* actual);
     // private System.Security.Cryptography.SymmetricAlgorithm GetSymmetricAlgorithm(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x1BA61F4
+    // Offset: 0x1D63C04
     System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount);
     // public System.Byte[] Decrypt(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount, System.Byte[] encryptedData)
-    // Offset: 0x1BA5CBC
+    // Offset: 0x1D636CC
     ::Array<uint8_t>* Decrypt(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount, ::Array<uint8_t>* encryptedData);
     // public System.Byte[] Decrypt(Mono.Security.PKCS7/EncryptedData ed)
-    // Offset: 0x1BA5548
+    // Offset: 0x1D62F58
     ::Array<uint8_t>* Decrypt(Mono::Security::PKCS7::EncryptedData* ed);
     // public System.Byte[] Encrypt(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount, System.Byte[] data)
-    // Offset: 0x1BA66A8
+    // Offset: 0x1D640B8
     ::Array<uint8_t>* Encrypt(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount, ::Array<uint8_t>* data);
     // private System.Security.Cryptography.DSAParameters GetExistingParameters(out System.Boolean found)
-    // Offset: 0x1BA6884
+    // Offset: 0x1D64294
     System::Security::Cryptography::DSAParameters GetExistingParameters(bool& found);
     // private System.Void AddPrivateKey(Mono.Security.Cryptography.PKCS8/PrivateKeyInfo pki)
-    // Offset: 0x1BA6AB8
+    // Offset: 0x1D644C8
     void AddPrivateKey(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo* pki);
     // private System.Void ReadSafeBag(Mono.Security.ASN1 safeBag)
-    // Offset: 0x1BA4F14
+    // Offset: 0x1D62924
     void ReadSafeBag(Mono::Security::ASN1* safeBag);
     // private Mono.Security.ASN1 CertificateSafeBag(Mono.Security.X509.X509Certificate x509, System.Collections.IDictionary attributes)
-    // Offset: 0x1BA6C2C
+    // Offset: 0x1D6463C
     Mono::Security::ASN1* CertificateSafeBag(Mono::Security::X509::X509Certificate* x509, System::Collections::IDictionary* attributes);
     // private System.Byte[] MAC(System.Byte[] password, System.Byte[] salt, System.Int32 iterations, System.Byte[] data)
-    // Offset: 0x1BA4D44
+    // Offset: 0x1D62754
     ::Array<uint8_t>* MAC(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterations, ::Array<uint8_t>* data);
     // public System.Byte[] GetBytes()
-    // Offset: 0x1BA7754
+    // Offset: 0x1D65164
     ::Array<uint8_t>* GetBytes();
     // private Mono.Security.PKCS7/ContentInfo EncryptedContentInfo(Mono.Security.ASN1 safeBags, System.String algorithmOid)
-    // Offset: 0x1BA9600
+    // Offset: 0x1D67010
     Mono::Security::PKCS7::ContentInfo* EncryptedContentInfo(Mono::Security::ASN1* safeBags, ::Il2CppString* algorithmOid);
     // public System.Void AddCertificate(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1BA95F8
+    // Offset: 0x1D67008
     void AddCertificate(Mono::Security::X509::X509Certificate* cert);
     // public System.Void AddCertificate(Mono.Security.X509.X509Certificate cert, System.Collections.IDictionary attributes)
-    // Offset: 0x1BA98E0
+    // Offset: 0x1D672F0
     void AddCertificate(Mono::Security::X509::X509Certificate* cert, System::Collections::IDictionary* attributes);
     // public System.Void RemoveCertificate(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1BA95F0
+    // Offset: 0x1D67000
     void RemoveCertificate(Mono::Security::X509::X509Certificate* cert);
     // public System.Void RemoveCertificate(Mono.Security.X509.X509Certificate cert, System.Collections.IDictionary attrs)
-    // Offset: 0x1BA9B14
+    // Offset: 0x1D67524
     void RemoveCertificate(Mono::Security::X509::X509Certificate* cert, System::Collections::IDictionary* attrs);
     // public System.Object Clone()
-    // Offset: 0x1BA9FE4
+    // Offset: 0x1D679F4
     ::Il2CppObject* Clone();
     // static public System.Int32 get_MaximumPasswordLength()
-    // Offset: 0x1BAA0BC
+    // Offset: 0x1D67ACC
     static int get_MaximumPasswordLength();
     // static private System.Void .cctor()
-    // Offset: 0x1BAA124
+    // Offset: 0x1D67B34
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BA4408
+    // Offset: 0x1D61E18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -228,7 +228,7 @@ namespace Mono::Security::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1BA55E4
+    // Offset: 0x1D62FF4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorData
     ColorData(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_} {}
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0xFBE880
+    // Offset: 0x113FB98
     UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0xFBE88C
+    // Offset: 0x113FBA4
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0xFBE894
+    // Offset: 0x113FBAC
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0xFBE89C
+    // Offset: 0x113FBB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

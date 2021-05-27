@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x106D8C4
+    // Offset: 0x10B7AF0
     ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();
     // public ExperimentDefinitionSO get_aaTestExperimentDefinition()
-    // Offset: 0x106D8CC
+    // Offset: 0x10B7AF8
     GlobalNamespace::ExperimentDefinitionSO* get_aaTestExperimentDefinition();
     // public ExperimentDefinitionSO get_abTestExperimentDefinition()
-    // Offset: 0x106D8D4
+    // Offset: 0x10B7B00
     GlobalNamespace::ExperimentDefinitionSO* get_abTestExperimentDefinition();
     // public System.Void .ctor()
-    // Offset: 0x106D8DC
+    // Offset: 0x10B7B08
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

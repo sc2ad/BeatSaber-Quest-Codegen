@@ -35,19 +35,19 @@ namespace System::Runtime::Remoting::Messaging {
       return logicalCallID;
     }
     // System.String get_LogicalCallID()
-    // Offset: 0x188A9AC
+    // Offset: 0x1A208F4
     ::Il2CppString* get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x188A9B4
+    // Offset: 0x1A208FC
     void set_LogicalCallID(::Il2CppString* value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x188A9BC
+    // Offset: 0x1A20904
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x188A9CC
+    // Offset: 0x1A20914
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x188AA3C
+    // Offset: 0x1A20984
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

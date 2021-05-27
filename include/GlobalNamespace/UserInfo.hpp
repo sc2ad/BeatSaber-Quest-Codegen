@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UserInfo
     UserInfo(GlobalNamespace::UserInfo::Platform platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* userName_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, userName{userName_} {}
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
-    // Offset: 0x166F614
+    // Offset: 0x1D902BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UserInfo::.ctor");

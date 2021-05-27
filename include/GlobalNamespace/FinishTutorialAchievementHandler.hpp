@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD35788
+    // [SpaceAttribute] Offset: 0xE15F6C
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x20
@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF54C94
+    // Offset: 0x10C5820
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF54D20
+    // Offset: 0x10C58AC
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0xF54DAC
+    // Offset: 0x10C5938
     void HandleTutorialFinished();
     // public System.Void .ctor()
-    // Offset: 0xF54DD0
+    // Offset: 0x10C595C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

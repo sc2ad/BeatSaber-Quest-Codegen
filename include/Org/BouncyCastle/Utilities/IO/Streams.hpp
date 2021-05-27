@@ -24,19 +24,19 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Creating value type constructor for type: Streams
     Streams() noexcept {}
     // static public System.Byte[] ReadAll(System.IO.Stream inStr)
-    // Offset: 0x1E340C8
+    // Offset: 0x1F72970
     static ::Array<uint8_t>* ReadAll(System::IO::Stream* inStr);
     // static public System.Int32 ReadFully(System.IO.Stream inStr, System.Byte[] buf)
-    // Offset: 0x1E34230
+    // Offset: 0x1F72AD8
     static int ReadFully(System::IO::Stream* inStr, ::Array<uint8_t>* buf);
     // static public System.Int32 ReadFully(System.IO.Stream inStr, System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1E3424C
+    // Offset: 0x1F72AF4
     static int ReadFully(System::IO::Stream* inStr, ::Array<uint8_t>* buf, int off, int len);
     // static public System.Void PipeAll(System.IO.Stream inStr, System.IO.Stream outStr)
-    // Offset: 0x1E34148
+    // Offset: 0x1F729F0
     static void PipeAll(System::IO::Stream* inStr, System::IO::Stream* outStr);
     // static public System.Int32 WriteBufTo(System.IO.MemoryStream buf, System.Byte[] output, System.Int32 offset)
-    // Offset: 0x1E342D8
+    // Offset: 0x1F72B80
     static int WriteBufTo(System::IO::MemoryStream* buf, ::Array<uint8_t>* output, int offset);
   }; // Org.BouncyCastle.Utilities.IO.Streams
   #pragma pack(pop)

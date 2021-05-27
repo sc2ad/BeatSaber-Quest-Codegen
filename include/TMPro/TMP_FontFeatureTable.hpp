@@ -49,16 +49,16 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_FontFeatureTable
     TMP_FontFeatureTable(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecords_ = {}, System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary_ = {}) noexcept : m_GlyphPairAdjustmentRecords{m_GlyphPairAdjustmentRecords_}, m_GlyphPairAdjustmentRecordLookupDictionary{m_GlyphPairAdjustmentRecordLookupDictionary_} {}
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords()
-    // Offset: 0xFD9780
+    // Offset: 0x1117FC8
     System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
     // System.Void set_glyphPairAdjustmentRecords(System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> value)
-    // Offset: 0xFD9788
+    // Offset: 0x1117FD0
     void set_glyphPairAdjustmentRecords(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
     // public System.Void SortGlyphPairAdjustmentRecords()
-    // Offset: 0xFD9790
+    // Offset: 0x1117FD8
     void SortGlyphPairAdjustmentRecords();
     // public System.Void .ctor()
-    // Offset: 0xFD81E4
+    // Offset: 0x1116A2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

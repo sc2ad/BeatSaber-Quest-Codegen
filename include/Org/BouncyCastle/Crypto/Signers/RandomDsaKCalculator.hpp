@@ -49,19 +49,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
     }
     // public System.Boolean get_IsDeterministic()
-    // Offset: 0x119CAF4
+    // Offset: 0x124A06C
     bool get_IsDeterministic();
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x119CAFC
+    // Offset: 0x124A074
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
-    // Offset: 0x119CB04
+    // Offset: 0x124A07C
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::Array<uint8_t>* message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
-    // Offset: 0x119CB70
+    // Offset: 0x124A0E8
     Org::BouncyCastle::Math::BigInteger* NextK();
     // public System.Void .ctor()
-    // Offset: 0x1195C58
+    // Offset: 0x12431D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

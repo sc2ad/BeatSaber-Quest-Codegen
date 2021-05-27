@@ -26,14 +26,17 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: NoteDebrisPhysics
     NoteDebrisPhysics() noexcept {}
-    // public System.Void SetVelocity(UnityEngine.Vector3 force)
+    // public UnityEngine.Vector3 get_position()
     // Offset: 0xFFFFFFFF
-    void SetVelocity(UnityEngine::Vector3 force);
-    // public System.Void SetAngularVelocity(UnityEngine.Vector3 torque)
+    UnityEngine::Vector3 get_position();
+    // public System.Void Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
     // Offset: 0xFFFFFFFF
-    void SetAngularVelocity(UnityEngine::Vector3 torque);
+    void Init(UnityEngine::Vector3 force, UnityEngine::Vector3 torque);
+    // public System.Void AddVelocity(UnityEngine.Vector3 force)
+    // Offset: 0xFFFFFFFF
+    void AddVelocity(UnityEngine::Vector3 force);
     // protected System.Void .ctor()
-    // Offset: 0xFF881C
+    // Offset: 0x11BCD4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

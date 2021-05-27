@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MenuEnvironmentObjects
     MenuEnvironmentObjects(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType_ = {}, UnityEngine::GameObject* wrapper_ = {}) noexcept : menuEnvironmentType{menuEnvironmentType_}, wrapper{wrapper_} {}
     // public MenuEnvironmentManager/MenuEnvironmentType get_menuEnvironmentType()
-    // Offset: 0xF3F338
+    // Offset: 0x10DC56C
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType get_menuEnvironmentType();
     // public UnityEngine.GameObject get_wrapper()
-    // Offset: 0xF3F340
+    // Offset: 0x10DC574
     UnityEngine::GameObject* get_wrapper();
     // public System.Void .ctor()
-    // Offset: 0xF3F348
+    // Offset: 0x10DC57C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

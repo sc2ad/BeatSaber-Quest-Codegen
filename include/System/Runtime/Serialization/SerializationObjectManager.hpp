@@ -51,20 +51,20 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: SerializationObjectManager
     SerializationObjectManager(System::Collections::Hashtable* m_objectSeenTable_ = {}, System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}) noexcept : m_objectSeenTable{m_objectSeenTable_}, m_onSerializedHandler{m_onSerializedHandler_}, m_context{m_context_} {}
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x150B5BC
+    // Offset: 0x1685884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationObjectManager* New_ctor(System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationObjectManager*, creationType>(context)));
     }
     // public System.Void RegisterObject(System.Object obj)
-    // Offset: 0x150B65C
+    // Offset: 0x1685924
     void RegisterObject(::Il2CppObject* obj);
     // public System.Void RaiseOnSerializedEvent()
-    // Offset: 0x150B82C
+    // Offset: 0x1685AF4
     void RaiseOnSerializedEvent();
     // private System.Void AddOnSerialized(System.Object obj)
-    // Offset: 0x150B788
+    // Offset: 0x1685A50
     void AddOnSerialized(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.SerializationObjectManager
   #pragma pack(pop)

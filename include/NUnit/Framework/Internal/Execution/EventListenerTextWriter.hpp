@@ -40,32 +40,32 @@ namespace NUnit::Framework::Internal::Execution {
     // Creating value type constructor for type: EventListenerTextWriter
     EventListenerTextWriter(System::IO::TextWriter* defaultWriter_ = {}, ::Il2CppString* streamName_ = {}) noexcept : defaultWriter{defaultWriter_}, streamName{streamName_} {}
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x15D6458
+    // Offset: 0x1721210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::Il2CppString* streamName, System::IO::TextWriter* defaultWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x15D6530
+    // Offset: 0x17212E8
     bool TrySendToListener(::Il2CppString* text);
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x15D64D8
+    // Offset: 0x1721290
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x15D668C
+    // Offset: 0x1721444
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::Il2CppString* aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x15D66DC
+    // Offset: 0x1721494
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::Il2CppString* aString);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x15D674C
+    // Offset: 0x1721504
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();

@@ -37,6 +37,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRPlugin::Media::MrcActivationMode
     struct MrcActivationMode;
+    // Nested type: GlobalNamespace::OVRPlugin::Media::PlatformCameraMode
+    struct PlatformCameraMode;
     // Nested type: GlobalNamespace::OVRPlugin::Media::InputVideoBufferType
     struct InputVideoBufferType;
     // Creating value type constructor for type: Media
@@ -46,76 +48,85 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture2D cachedTexture
     static void _set_cachedTexture(UnityEngine::Texture2D* value);
     // static public System.Boolean Initialize()
-    // Offset: 0x15787F4
+    // Offset: 0x1602020
     static bool Initialize();
     // static public System.Boolean Shutdown()
-    // Offset: 0x1578968
+    // Offset: 0x1602194
     static bool Shutdown();
     // static public System.Boolean GetInitialized()
-    // Offset: 0x1578ADC
+    // Offset: 0x1602308
     static bool GetInitialized();
     // static public System.Boolean Update()
-    // Offset: 0x1578C70
+    // Offset: 0x160249C
     static bool Update();
     // static public OVRPlugin/Media/MrcActivationMode GetMrcActivationMode()
-    // Offset: 0x1578DE4
+    // Offset: 0x1602610
     static GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
     // static public System.Boolean SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode mode)
-    // Offset: 0x1578F70
+    // Offset: 0x160279C
     static bool SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
+    // static public System.Boolean SetPlatformInitialized()
+    // Offset: 0x1602924
+    static bool SetPlatformInitialized();
+    // static public OVRPlugin/Media/PlatformCameraMode GetPlatformCameraMode()
+    // Offset: 0x1602A98
+    static GlobalNamespace::OVRPlugin::Media::PlatformCameraMode GetPlatformCameraMode();
+    // static public System.Boolean SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode mode)
+    // Offset: 0x1602C24
+    static bool SetPlatformCameraMode(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode mode);
     // static public System.Boolean IsMrcEnabled()
-    // Offset: 0x15790F8
+    // Offset: 0x1602DAC
     static bool IsMrcEnabled();
     // static public System.Boolean IsMrcActivated()
-    // Offset: 0x1579288
+    // Offset: 0x1602F3C
     static bool IsMrcActivated();
     // static public System.Boolean UseMrcDebugCamera()
-    // Offset: 0x1579418
+    // Offset: 0x16030CC
     static bool UseMrcDebugCamera();
     // static public System.Boolean SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType videoBufferType)
-    // Offset: 0x15795A8
+    // Offset: 0x160325C
     static bool SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
     // static public OVRPlugin/Media/InputVideoBufferType GetMrcInputVideoBufferType()
-    // Offset: 0x1579730
+    // Offset: 0x16033E4
     static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
-    // Offset: 0x15798B8
+    // Offset: 0x160356C
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public System.Void GetMrcFrameSize(out System.Int32 frameWidth, out System.Int32 frameHeight)
-    // Offset: 0x1579A60
+    // Offset: 0x1603714
     static void GetMrcFrameSize(int& frameWidth, int& frameHeight);
     // static public System.Boolean SetMrcAudioSampleRate(System.Int32 sampleRate)
-    // Offset: 0x1579C14
+    // Offset: 0x16038C8
     static bool SetMrcAudioSampleRate(int sampleRate);
     // static public System.Int32 GetMrcAudioSampleRate()
-    // Offset: 0x1579D9C
+    // Offset: 0x1603A50
     static int GetMrcAudioSampleRate();
     // static public System.Boolean SetMrcFrameImageFlipped(System.Boolean imageFlipped)
-    // Offset: 0x1579F20
+    // Offset: 0x1603BD4
     static bool SetMrcFrameImageFlipped(bool imageFlipped);
     // static public System.Boolean GetMrcFrameImageFlipped()
-    // Offset: 0x157A0AC
+    // Offset: 0x1603D60
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.IntPtr fgTextureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x157A238
+    // Offset: 0x1603EEC
     static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, int& outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x157A98C
+    // Offset: 0x1604640
     static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, int& outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
-    // Offset: 0x157AF68
+    // Offset: 0x1604C1C
     static bool SyncMrcFrame(int syncId);
     // static public System.Boolean SetAvailableQueueIndexVulkan(System.UInt32 queueIndexVk)
-    // Offset: 0x157B0F0
+    // Offset: 0x1604DA4
     static bool SetAvailableQueueIndexVulkan(uint queueIndexVk);
     // static public System.Boolean SetMrcHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
-    // Offset: 0x157B278
+    // Offset: 0x1604F2C
     static bool SetMrcHeadsetControllerPose(GlobalNamespace::OVRPlugin::Posef headsetPose, GlobalNamespace::OVRPlugin::Posef leftControllerPose, GlobalNamespace::OVRPlugin::Posef rightControllerPose);
     // static private System.Void .cctor()
-    // Offset: 0x157B4DC
+    // Offset: 0x1605190
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x157B4D4
+    // Offset: 0x1605188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

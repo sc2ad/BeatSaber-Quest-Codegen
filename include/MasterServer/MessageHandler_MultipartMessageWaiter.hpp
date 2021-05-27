@@ -79,26 +79,26 @@ namespace MasterServer {
     // Creating value type constructor for type: MultipartMessageWaiter
     MultipartMessageWaiter(GlobalNamespace::SmallBufferPool* bufferPool_ = {}, ::Array<uint8_t>* buffer_ = {}, int length_ = {}, System::Collections::Generic::List_1<int>* ranges_ = {}, bool isComplete_ = {}, bool isDisposed_ = {}) noexcept : bufferPool{bufferPool_}, buffer{buffer_}, length{length_}, ranges{ranges_}, isComplete{isComplete_}, isDisposed{isDisposed_} {}
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x12AF404
+    // Offset: 0x12C7D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::MultipartMessageWaiter* New_ctor(GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(MasterServer.IMasterServerMultipartMessage packet)
-    // Offset: 0x12AF4D4
+    // Offset: 0x12C7DE4
     void Append(MasterServer::IMasterServerMultipartMessage* packet);
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12AFF60
+    // Offset: 0x12C8870
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x12AFF80
+    // Offset: 0x12C8890
     ::Array<uint8_t>* get_data();
     // public System.Int32 get_length()
-    // Offset: 0x12AFF88
+    // Offset: 0x12C8898
     int get_length();
     // public override System.Void Dispose()
-    // Offset: 0x12AF490
+    // Offset: 0x12C7DA0
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

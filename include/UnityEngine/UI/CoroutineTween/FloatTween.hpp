@@ -70,43 +70,43 @@ namespace UnityEngine::UI::CoroutineTween {
       return *reinterpret_cast<UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xDFC61C
+    // Offset: 0xEED62C
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xDFC624
+    // Offset: 0xEED634
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xDFC62C
+    // Offset: 0xEED63C
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xDFC634
+    // Offset: 0xEED644
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0xDFC63C
+    // Offset: 0xEED64C
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDFC644
+    // Offset: 0xEED654
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDFC64C
+    // Offset: 0xEED65C
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDFC654
+    // Offset: 0xEED664
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDFC660
+    // Offset: 0xEED670
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xDFC668
+    // Offset: 0xEED678
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDFC670
+    // Offset: 0xEED680
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDFC678
+    // Offset: 0xEED688
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0xDFC680
+    // Offset: 0xEED690
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)

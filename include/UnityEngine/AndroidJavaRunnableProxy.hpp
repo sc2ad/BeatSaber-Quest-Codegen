@@ -38,14 +38,14 @@ namespace UnityEngine {
       return mRunnable;
     }
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
-    // Offset: 0x214A664
+    // Offset: 0x23619D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaRunnableProxy* New_ctor(UnityEngine::AndroidJavaRunnable* runnable) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaRunnableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaRunnableProxy*, creationType>(runnable)));
     }
     // public System.Void run()
-    // Offset: 0x214A6E8
+    // Offset: 0x2361A5C
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
   #pragma pack(pop)

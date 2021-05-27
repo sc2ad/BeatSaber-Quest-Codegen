@@ -45,7 +45,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x196D1B0
+    // Offset: 0x1AD68B4
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
@@ -66,7 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x196C8E4
+    // Offset: 0x1AD5FE8
     ::Array<uint8_t>* GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
@@ -81,28 +81,28 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(bool full);
     // public System.Void Dispose()
-    // Offset: 0x196D130
+    // Offset: 0x1AD6834
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x196D490
+    // Offset: 0x1AD6B94
     void Dispose(bool disposing);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x196D294
+    // Offset: 0x1AD6998
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x196D300
+    // Offset: 0x1AD6A04
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // protected override System.Void Finalize()
-    // Offset: 0x196D498
+    // Offset: 0x1AD6B9C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x196D510
+    // Offset: 0x1AD6C14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

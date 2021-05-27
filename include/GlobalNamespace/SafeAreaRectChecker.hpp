@@ -14,11 +14,11 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: MainCamera
+  class MainCamera;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Transform
-  class Transform;
   // Forward declaring type: GameObject
   class GameObject;
   // Forward declaring type: RectTransform
@@ -58,55 +58,56 @@ namespace GlobalNamespace {
     float maxAngleY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // private UnityEngine.Transform _cameraTransform
-    // Size: 0x8
-    // Offset: 0x28
-    UnityEngine::Transform* cameraTransform;
-    // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // private UnityEngine.GameObject _activeObjectWhenInsideSafeArea
     // Size: 0x8
-    // Offset: 0x30
+    // Offset: 0x28
     UnityEngine::GameObject* activeObjectWhenInsideSafeArea;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // private UnityEngine.GameObject _activeObjectWhenNotInsideSafeArea
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x30
     UnityEngine::GameObject* activeObjectWhenNotInsideSafeArea;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // private UnityEngine.RectTransform _rectTransformToCheck
     // Size: 0x8
-    // Offset: 0x40
+    // Offset: 0x38
     UnityEngine::RectTransform* rectTransformToCheck;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // private UnityEngine.Vector3[] _corners
+    // private readonly UnityEngine.Vector3[] _corners
     // Size: 0x8
-    // Offset: 0x48
+    // Offset: 0x40
     ::Array<UnityEngine::Vector3>* corners;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD41508
-    // private SafeAreaRectChecker/InitData _initData
+    // [InjectAttribute] Offset: 0xE21B7C
+    // private readonly MainCamera _mainCamera
+    // Size: 0x8
+    // Offset: 0x48
+    GlobalNamespace::MainCamera* mainCamera;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::MainCamera*) == 0x8);
+    // [InjectAttribute] Offset: 0xE21B8C
+    // private readonly SafeAreaRectChecker/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::SafeAreaRectChecker::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SafeAreaRectChecker::InitData*) == 0x8);
     // Creating value type constructor for type: SafeAreaRectChecker
-    SafeAreaRectChecker(float minAngleX_ = {}, float maxAngleX_ = {}, float minAngleY_ = {}, float maxAngleY_ = {}, UnityEngine::Transform* cameraTransform_ = {}, UnityEngine::GameObject* activeObjectWhenInsideSafeArea_ = {}, UnityEngine::GameObject* activeObjectWhenNotInsideSafeArea_ = {}, UnityEngine::RectTransform* rectTransformToCheck_ = {}, ::Array<UnityEngine::Vector3>* corners_ = {}, GlobalNamespace::SafeAreaRectChecker::InitData* initData_ = {}) noexcept : minAngleX{minAngleX_}, maxAngleX{maxAngleX_}, minAngleY{minAngleY_}, maxAngleY{maxAngleY_}, cameraTransform{cameraTransform_}, activeObjectWhenInsideSafeArea{activeObjectWhenInsideSafeArea_}, activeObjectWhenNotInsideSafeArea{activeObjectWhenNotInsideSafeArea_}, rectTransformToCheck{rectTransformToCheck_}, corners{corners_}, initData{initData_} {}
+    SafeAreaRectChecker(float minAngleX_ = {}, float maxAngleX_ = {}, float minAngleY_ = {}, float maxAngleY_ = {}, UnityEngine::GameObject* activeObjectWhenInsideSafeArea_ = {}, UnityEngine::GameObject* activeObjectWhenNotInsideSafeArea_ = {}, UnityEngine::RectTransform* rectTransformToCheck_ = {}, ::Array<UnityEngine::Vector3>* corners_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, GlobalNamespace::SafeAreaRectChecker::InitData* initData_ = {}) noexcept : minAngleX{minAngleX_}, maxAngleX{maxAngleX_}, minAngleY{minAngleY_}, maxAngleY{maxAngleY_}, activeObjectWhenInsideSafeArea{activeObjectWhenInsideSafeArea_}, activeObjectWhenNotInsideSafeArea{activeObjectWhenNotInsideSafeArea_}, rectTransformToCheck{rectTransformToCheck_}, corners{corners_}, mainCamera{mainCamera_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Start()
-    // Offset: 0x1053CF0
+    // Offset: 0x10E1F74
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1053D64
+    // Offset: 0x10E1FE8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1053F94
+    // Offset: 0x10E2224
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -7,8 +7,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: NoteController
-  class NoteController;
+  // Forward declaring type: NoteControllerBase
+  class NoteControllerBase;
 }
 // Completed forward declares
 // Type namespace: 
@@ -20,9 +20,9 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: INoteControllerNoteDidStartDissolvingEvent
     INoteControllerNoteDidStartDissolvingEvent() noexcept {}
-    // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteController noteController, System.Single duration)
+    // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteController* noteController, float duration);
+    void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
   }; // INoteControllerNoteDidStartDissolvingEvent
   #pragma pack(pop)
 }

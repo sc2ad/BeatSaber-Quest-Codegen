@@ -84,31 +84,31 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // private System.UInt32 Step()
-    // Offset: 0x1BB8E6C
+    // Offset: 0x1D880C8
     uint Step();
     // private System.Void Init()
-    // Offset: 0x1BB90DC
+    // Offset: 0x1D88338
     void Init();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BB945C
+    // Offset: 0x1D886B8
     ::Il2CppString* get_AlgorithmName();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BB94A4
+    // Offset: 0x1D88700
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte GetByte()
-    // Offset: 0x1BB9674
+    // Offset: 0x1D888D0
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BB96F4
+    // Offset: 0x1D88950
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BB9894
+    // Offset: 0x1D88AF0
     void Reset();
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1BB90D4
+    // Offset: 0x1D88330
     static uint RotateRight(uint x, int bits);
     // public System.Void .ctor()
-    // Offset: 0x1BB9898
+    // Offset: 0x1D88AF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

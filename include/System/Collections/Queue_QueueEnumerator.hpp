@@ -57,23 +57,23 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x17EC4EC
+    // Offset: 0x195DAB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x17EC834
+    // Offset: 0x195DE00
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x17EC83C
+    // Offset: 0x195DE08
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x17EC938
+    // Offset: 0x195DF04
     ::Il2CppObject* get_Current();
     // public System.Void Reset()
-    // Offset: 0x17EC9F8
+    // Offset: 0x195DFC4
     void Reset();
   }; // System.Collections.Queue/QueueEnumerator
   #pragma pack(pop)

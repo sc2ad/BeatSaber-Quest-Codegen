@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* dontEnableButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD457D8
+    // [CompilerGeneratedAttribute] Offset: 0xE2643C
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x80
@@ -53,24 +53,24 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OnlineServicesViewController
     OnlineServicesViewController(UnityEngine::UI::Button* enableButton_ = {}, UnityEngine::UI::Button* dontEnableButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}) noexcept : enableButton{enableButton_}, dontEnableButton{dontEnableButton_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF14730
+    // Offset: 0x11DC4A0
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xF147D4
+    // Offset: 0x11DC544
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__5_0()
-    // Offset: 0xF1497C
+    // Offset: 0x11DC6EC
     void $DidActivate$b__5_0();
     // private System.Void <DidActivate>b__5_1()
-    // Offset: 0xF149E0
+    // Offset: 0x11DC750
     void $DidActivate$b__5_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF14878
+    // Offset: 0x11DC5E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF14974
+    // Offset: 0x11DC6E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

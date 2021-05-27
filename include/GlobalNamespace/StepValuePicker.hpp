@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* valueText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41588
+    // [CompilerGeneratedAttribute] Offset: 0xE21C0C
     // private System.Action decButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* decButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD41598
+    // [CompilerGeneratedAttribute] Offset: 0xE21C1C
     // private System.Action incButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -72,43 +72,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0xF9E9C4
+    // Offset: 0x11802EC
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0xF9EA68
+    // Offset: 0x1180390
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0xF9EB0C
+    // Offset: 0x1180434
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0xF9EBB0
+    // Offset: 0x11804D8
     void remove_incButtonWasPressedEvent(System::Action* value);
     // public System.String get_text()
-    // Offset: 0xF9EC54
+    // Offset: 0x118057C
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xF9EC70
+    // Offset: 0x1180598
     void set_text(::Il2CppString* value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0xF9EC8C
+    // Offset: 0x11805B4
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0xF9ECAC
+    // Offset: 0x11805D4
     void set_incButtonInteractable(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0xF9ECCC
+    // Offset: 0x11805F4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF9EDA4
+    // Offset: 0x11806CC
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0xF9EE7C
+    // Offset: 0x11807A4
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0xF9EE90
+    // Offset: 0x11807B8
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0xF9EEA4
+    // Offset: 0x11807CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

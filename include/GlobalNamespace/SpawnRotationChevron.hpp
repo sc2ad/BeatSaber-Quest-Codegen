@@ -52,18 +52,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpawnRotationChevron
     SpawnRotationChevron(::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::Color color_ = {}, float lightAmount_ = {}) noexcept : lights{lights_}, color{color_}, lightAmount{lightAmount_} {}
     // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0xF928E0
+    // Offset: 0x1174FC4
     void SetLightAmount(float amount);
     // private System.Void UpdateLights()
-    // Offset: 0xF92850
+    // Offset: 0x1174F34
     void UpdateLights();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xF92844
+    // Offset: 0x1174F28
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xF928E8
+    // Offset: 0x1174FCC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

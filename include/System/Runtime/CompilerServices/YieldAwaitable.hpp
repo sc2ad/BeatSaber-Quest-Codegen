@@ -28,7 +28,7 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter GetAwaiter()
-    // Offset: 0xDFC134
+    // Offset: 0xEED144
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.YieldAwaitable
   #pragma pack(pop)

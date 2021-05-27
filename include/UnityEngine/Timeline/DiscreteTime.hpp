@@ -54,18 +54,18 @@ namespace UnityEngine::Timeline {
     // Set static field: static public readonly UnityEngine.Timeline.DiscreteTime kMaxTime
     static void _set_kMaxTime(UnityEngine::Timeline::DiscreteTime value);
     // static public System.Double get_tickValue()
-    // Offset: 0x1686F9C
+    // Offset: 0x17C88BC
     static double get_tickValue();
     // public System.Void .ctor(UnityEngine.Timeline.DiscreteTime time)
-    // Offset: 0xE0A484
+    // Offset: 0xEFCDDC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: is copy constructor.  DiscreteTime(UnityEngine::Timeline::DiscreteTime time)
     // private System.Void .ctor(System.Int64 time)
-    // Offset: 0xE0A48C
+    // Offset: 0xEFCDE4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DiscreteTime(int64_t time)
     // public System.Void .ctor(System.Double time)
-    // Offset: 0xE0A494
+    // Offset: 0xEFCDEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(double time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
@@ -73,7 +73,7 @@ namespace UnityEngine::Timeline {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
     }
     // public System.Void .ctor(System.Single time)
-    // Offset: 0xE0A49C
+    // Offset: 0xEFCDF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
@@ -81,7 +81,7 @@ namespace UnityEngine::Timeline {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
     }
     // public System.Void .ctor(System.Int32 time)
-    // Offset: 0xE0A4A4
+    // Offset: 0xEFCDFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(int time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
@@ -89,7 +89,7 @@ namespace UnityEngine::Timeline {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
     }
     // public System.Void .ctor(System.Int32 frame, System.Double fps)
-    // Offset: 0xE0A4AC
+    // Offset: 0xEFCE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiscreteTime(int frame, double fps) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
@@ -97,86 +97,86 @@ namespace UnityEngine::Timeline {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, frame, fps);
     }
     // public UnityEngine.Timeline.DiscreteTime OneTickBefore()
-    // Offset: 0xE0A4B4
+    // Offset: 0xEFCE0C
     UnityEngine::Timeline::DiscreteTime OneTickBefore();
     // public UnityEngine.Timeline.DiscreteTime OneTickAfter()
-    // Offset: 0xE0A4C0
+    // Offset: 0xEFCE18
     UnityEngine::Timeline::DiscreteTime OneTickAfter();
     // public System.Int64 GetTick()
-    // Offset: 0xE0A4CC
+    // Offset: 0xEFCE24
     int64_t GetTick();
     // static public UnityEngine.Timeline.DiscreteTime FromTicks(System.Int64 ticks)
-    // Offset: 0x16873A8
+    // Offset: 0x17C8CC8
     static UnityEngine::Timeline::DiscreteTime FromTicks(int64_t ticks);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0xE0A4D4
+    // Offset: 0xEFCE2C
     int CompareTo(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.Timeline.DiscreteTime other)
-    // Offset: 0xE0A4DC
+    // Offset: 0xEFCE34
     bool Equals(UnityEngine::Timeline::DiscreteTime other);
     // static private System.Int64 DoubleToDiscreteTime(System.Double time)
-    // Offset: 0x1687040
+    // Offset: 0x17C8960
     static int64_t DoubleToDiscreteTime(double time);
     // static private System.Int64 FloatToDiscreteTime(System.Single time)
-    // Offset: 0x1687174
+    // Offset: 0x17C8A94
     static int64_t FloatToDiscreteTime(float time);
     // static private System.Int64 IntToDiscreteTime(System.Int32 time)
-    // Offset: 0x16872A8
+    // Offset: 0x17C8BC8
     static int64_t IntToDiscreteTime(int time);
     // static private System.Double ToDouble(System.Int64 time)
-    // Offset: 0x16874D8
+    // Offset: 0x17C8DF8
     static double ToDouble(int64_t time);
     // static private System.Single ToFloat(System.Int64 time)
-    // Offset: 0x16874EC
+    // Offset: 0x17C8E0C
     static float ToFloat(int64_t time);
     // static public System.Double op_Explicit(UnityEngine.Timeline.DiscreteTime b)
-    // Offset: 0x16849FC
+    // Offset: 0x17C6188
     explicit operator double();
     // static public System.Single op_Explicit(UnityEngine.Timeline.DiscreteTime b)
-    // Offset: 0x1687560
+    // Offset: 0x17C8E80
     explicit operator float();
     // static public System.Int64 op_Explicit(UnityEngine.Timeline.DiscreteTime b)
-    // Offset: 0x16875C4
+    // Offset: 0x17C8EE4
     // ABORTED: conflicts with another method.  explicit operator int64_t();
     // static public UnityEngine.Timeline.DiscreteTime op_Explicit(System.Double time)
-    // Offset: 0x16849C8
+    // Offset: 0x17C6154
     explicit DiscreteTime(double& time);
     // static public UnityEngine.Timeline.DiscreteTime op_Explicit(System.Single time)
-    // Offset: 0x16875C8
+    // Offset: 0x17C8EE8
     explicit DiscreteTime(float& time);
     // static public UnityEngine.Timeline.DiscreteTime op_Explicit(System.Int64 time)
-    // Offset: 0x168761C
+    // Offset: 0x17C8F3C
     explicit DiscreteTime(int64_t& time);
     // static public UnityEngine.Timeline.DiscreteTime Min(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-    // Offset: 0x1687738
+    // Offset: 0x17C9058
     static UnityEngine::Timeline::DiscreteTime Min(UnityEngine::Timeline::DiscreteTime lhs, UnityEngine::Timeline::DiscreteTime rhs);
     // static public UnityEngine.Timeline.DiscreteTime Max(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-    // Offset: 0x16877B0
+    // Offset: 0x17C90D0
     static UnityEngine::Timeline::DiscreteTime Max(UnityEngine::Timeline::DiscreteTime lhs, UnityEngine::Timeline::DiscreteTime rhs);
     // static public System.Double SnapToNearestTick(System.Double time)
-    // Offset: 0x1687828
+    // Offset: 0x17C9148
     static double SnapToNearestTick(double time);
     // static public System.Single SnapToNearestTick(System.Single time)
-    // Offset: 0x16878A8
+    // Offset: 0x17C91C8
     static float SnapToNearestTick(float time);
     // static public System.Int64 GetNearestTick(System.Double time)
-    // Offset: 0x1687918
+    // Offset: 0x17C9238
     static int64_t GetNearestTick(double time);
     // static private System.Void .cctor()
-    // Offset: 0x1687984
+    // Offset: 0x17C92A4
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE0A4EC
+    // Offset: 0xEFCE44
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0xE0A4F4
+    // Offset: 0xEFCE4C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE0A520
+    // Offset: 0xEFCE78
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -185,28 +185,28 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(DiscreteTime), 0 + sizeof(int64_t)> __UnityEngine_Timeline_DiscreteTimeSizeCheck;
   static_assert(sizeof(DiscreteTime) == 0x8);
   // static public System.Boolean op_Equality(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x1687620
+  // Offset: 0x17C8F40
   bool operator ==(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x168762C
+  // Offset: 0x17C8F4C
   bool operator !=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_GreaterThan(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x16876A0
+  // Offset: 0x17C8FC0
   bool operator >(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_LessThan(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x16876AC
+  // Offset: 0x17C8FCC
   bool operator <(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_LessThanOrEqual(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x16876B8
+  // Offset: 0x17C8FD8
   bool operator <=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public System.Boolean op_GreaterThanOrEqual(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x16876C4
+  // Offset: 0x17C8FE4
   bool operator >=(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public UnityEngine.Timeline.DiscreteTime op_Addition(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x16876D0
+  // Offset: 0x17C8FF0
   UnityEngine::Timeline::DiscreteTime operator+(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
   // static public UnityEngine.Timeline.DiscreteTime op_Subtraction(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
-  // Offset: 0x16876D8
+  // Offset: 0x17C8FF8
   UnityEngine::Timeline::DiscreteTime operator-(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timeline", "DiscreteTime");

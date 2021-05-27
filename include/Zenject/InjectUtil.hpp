@@ -43,7 +43,7 @@ namespace Zenject {
     // Creating value type constructor for type: InjectUtil
     InjectUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgList(System.Collections.Generic.IEnumerable`1<System.Object> args)
-    // Offset: 0x148B680
+    // Offset: 0x162940C
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgList(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* args);
     // static public Zenject.TypeValuePair CreateTypePair(T param)
     // Offset: 0xFFFFFFFF
@@ -109,7 +109,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // static public System.Boolean PopValueWithType(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgMap, System.Type injectedFieldType, out System.Object value)
-    // Offset: 0x148B7B0
+    // Offset: 0x162953C
     static bool PopValueWithType(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgMap, System::Type* injectedFieldType, ::Il2CppObject*& value);
   }; // Zenject.InjectUtil
   #pragma pack(pop)

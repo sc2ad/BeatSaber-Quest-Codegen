@@ -74,18 +74,26 @@ namespace Oculus::Platform::Models {
   class CloudStorageUpdateResponse;
   // Forward declaring type: DestinationList
   class DestinationList;
+  // Forward declaring type: GroupPresenceLeaveIntent
+  class GroupPresenceLeaveIntent;
   // Forward declaring type: InstalledApplicationList
   class InstalledApplicationList;
+  // Forward declaring type: InvitePanelResultInfo
+  class InvitePanelResultInfo;
   // Forward declaring type: LaunchBlockFlowResult
   class LaunchBlockFlowResult;
   // Forward declaring type: LaunchFriendRequestFlowResult
   class LaunchFriendRequestFlowResult;
+  // Forward declaring type: LaunchInvitePanelFlowResult
+  class LaunchInvitePanelFlowResult;
   // Forward declaring type: LaunchReportFlowResult
   class LaunchReportFlowResult;
   // Forward declaring type: LaunchUnblockFlowResult
   class LaunchUnblockFlowResult;
   // Forward declaring type: LeaderboardEntryList
   class LeaderboardEntryList;
+  // Forward declaring type: LeaderboardList
+  class LeaderboardList;
   // Forward declaring type: LinkedAccountList
   class LinkedAccountList;
   // Forward declaring type: LivestreamingApplicationStatus
@@ -152,12 +160,20 @@ namespace Oculus::Platform::Models {
   class User;
   // Forward declaring type: UserAndRoomList
   class UserAndRoomList;
+  // Forward declaring type: UserDataStoreUpdateResponse
+  class UserDataStoreUpdateResponse;
   // Forward declaring type: UserList
   class UserList;
   // Forward declaring type: UserProof
   class UserProof;
   // Forward declaring type: UserReportID
   class UserReportID;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: Oculus.Platform
@@ -578,6 +594,12 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_LanguagePack_SetCurrent();
       // Set static field: static public Oculus.Platform.Message/MessageType LanguagePack_SetCurrent
       static void _set_LanguagePack_SetCurrent(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Leaderboard_Get
+      static constexpr const uint Leaderboard_Get = 1792298744u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Leaderboard_Get
+      static Oculus::Platform::Message::MessageType _get_Leaderboard_Get();
+      // Set static field: static public Oculus.Platform.Message/MessageType Leaderboard_Get
+      static void _set_Leaderboard_Get(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Leaderboard_GetEntries
       static constexpr const uint Leaderboard_GetEntries = 1572030284u;
       // Get static field: static public Oculus.Platform.Message/MessageType Leaderboard_GetEntries
@@ -602,6 +624,12 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Leaderboard_GetNextEntries();
       // Set static field: static public Oculus.Platform.Message/MessageType Leaderboard_GetNextEntries
       static void _set_Leaderboard_GetNextEntries(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Leaderboard_GetNextLeaderboardArrayPage
+      static constexpr const uint Leaderboard_GetNextLeaderboardArrayPage = 905344667u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Leaderboard_GetNextLeaderboardArrayPage
+      static Oculus::Platform::Message::MessageType _get_Leaderboard_GetNextLeaderboardArrayPage();
+      // Set static field: static public Oculus.Platform.Message/MessageType Leaderboard_GetNextLeaderboardArrayPage
+      static void _set_Leaderboard_GetNextLeaderboardArrayPage(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Leaderboard_GetPreviousEntries
       static constexpr const uint Leaderboard_GetPreviousEntries = 1224858304u;
       // Get static field: static public Oculus.Platform.Message/MessageType Leaderboard_GetPreviousEntries
@@ -614,12 +642,24 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Leaderboard_WriteEntry();
       // Set static field: static public Oculus.Platform.Message/MessageType Leaderboard_WriteEntry
       static void _set_Leaderboard_WriteEntry(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Leaderboard_WriteEntryWithSupplementaryMetric
+      static constexpr const uint Leaderboard_WriteEntryWithSupplementaryMetric = 1925616378u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Leaderboard_WriteEntryWithSupplementaryMetric
+      static Oculus::Platform::Message::MessageType _get_Leaderboard_WriteEntryWithSupplementaryMetric();
+      // Set static field: static public Oculus.Platform.Message/MessageType Leaderboard_WriteEntryWithSupplementaryMetric
+      static void _set_Leaderboard_WriteEntryWithSupplementaryMetric(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Livestreaming_GetStatus
       static constexpr const uint Livestreaming_GetStatus = 1218079125u;
       // Get static field: static public Oculus.Platform.Message/MessageType Livestreaming_GetStatus
       static Oculus::Platform::Message::MessageType _get_Livestreaming_GetStatus();
       // Set static field: static public Oculus.Platform.Message/MessageType Livestreaming_GetStatus
       static void _set_Livestreaming_GetStatus(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Livestreaming_LaunchLivestreamingFlow
+      static constexpr const uint Livestreaming_LaunchLivestreamingFlow = 1790006973u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Livestreaming_LaunchLivestreamingFlow
+      static Oculus::Platform::Message::MessageType _get_Livestreaming_LaunchLivestreamingFlow();
+      // Set static field: static public Oculus.Platform.Message/MessageType Livestreaming_LaunchLivestreamingFlow
+      static void _set_Livestreaming_LaunchLivestreamingFlow(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Livestreaming_PauseStream
       static constexpr const uint Livestreaming_PauseStream = 916223619u;
       // Get static field: static public Oculus.Platform.Message/MessageType Livestreaming_PauseStream
@@ -908,6 +948,54 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Room_UpdatePrivateRoomJoinPolicy();
       // Set static field: static public Oculus.Platform.Message/MessageType Room_UpdatePrivateRoomJoinPolicy
       static void _set_Room_UpdatePrivateRoomJoinPolicy(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateDeleteEntryByKey
+      static constexpr const uint UserDataStore_PrivateDeleteEntryByKey = 1552510782u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateDeleteEntryByKey
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PrivateDeleteEntryByKey();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateDeleteEntryByKey
+      static void _set_UserDataStore_PrivateDeleteEntryByKey(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateGetEntries
+      static constexpr const uint UserDataStore_PrivateGetEntries = 1821016616u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateGetEntries
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PrivateGetEntries();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateGetEntries
+      static void _set_UserDataStore_PrivateGetEntries(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateGetEntryByKey
+      static constexpr const uint UserDataStore_PrivateGetEntryByKey = 470188825u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateGetEntryByKey
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PrivateGetEntryByKey();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateGetEntryByKey
+      static void _set_UserDataStore_PrivateGetEntryByKey(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateWriteEntry
+      static constexpr const uint UserDataStore_PrivateWriteEntry = 1104315019u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateWriteEntry
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PrivateWriteEntry();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PrivateWriteEntry
+      static void _set_UserDataStore_PrivateWriteEntry(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PublicDeleteEntryByKey
+      static constexpr const uint UserDataStore_PublicDeleteEntryByKey = 500557307u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicDeleteEntryByKey
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PublicDeleteEntryByKey();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicDeleteEntryByKey
+      static void _set_UserDataStore_PublicDeleteEntryByKey(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PublicGetEntries
+      static constexpr const uint UserDataStore_PublicGetEntries = 377310146u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicGetEntries
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PublicGetEntries();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicGetEntries
+      static void _set_UserDataStore_PublicGetEntries(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PublicGetEntryByKey
+      static constexpr const uint UserDataStore_PublicGetEntryByKey = 425486022u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicGetEntryByKey
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PublicGetEntryByKey();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicGetEntryByKey
+      static void _set_UserDataStore_PublicGetEntryByKey(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType UserDataStore_PublicWriteEntry
+      static constexpr const uint UserDataStore_PublicWriteEntry = 875973130u;
+      // Get static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicWriteEntry
+      static Oculus::Platform::Message::MessageType _get_UserDataStore_PublicWriteEntry();
+      // Set static field: static public Oculus.Platform.Message/MessageType UserDataStore_PublicWriteEntry
+      static void _set_UserDataStore_PublicWriteEntry(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType User_Get
       static constexpr const uint User_Get = 1808768583u;
       // Get static field: static public Oculus.Platform.Message/MessageType User_Get
@@ -1016,6 +1104,12 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Notification_Cal_ProposeApplication();
       // Set static field: static public Oculus.Platform.Message/MessageType Notification_Cal_ProposeApplication
       static void _set_Notification_Cal_ProposeApplication(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Notification_GroupPresence_LeaveIntentReceived
+      static constexpr const uint Notification_GroupPresence_LeaveIntentReceived = 1194846749u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Notification_GroupPresence_LeaveIntentReceived
+      static Oculus::Platform::Message::MessageType _get_Notification_GroupPresence_LeaveIntentReceived();
+      // Set static field: static public Oculus.Platform.Message/MessageType Notification_GroupPresence_LeaveIntentReceived
+      static void _set_Notification_GroupPresence_LeaveIntentReceived(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Notification_HTTP_Transfer
       static constexpr const uint Notification_HTTP_Transfer = 2111073839u;
       // Get static field: static public Oculus.Platform.Message/MessageType Notification_HTTP_Transfer
@@ -1088,6 +1182,12 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Notification_Room_RoomUpdate();
       // Set static field: static public Oculus.Platform.Message/MessageType Notification_Room_RoomUpdate
       static void _set_Notification_Room_RoomUpdate(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Notification_Session_InvitationsSent
+      static constexpr const uint Notification_Session_InvitationsSent = 133810304u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Notification_Session_InvitationsSent
+      static Oculus::Platform::Message::MessageType _get_Notification_Session_InvitationsSent();
+      // Set static field: static public Oculus.Platform.Message/MessageType Notification_Session_InvitationsSent
+      static void _set_Notification_Session_InvitationsSent(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Notification_Voip_ConnectRequest
       static constexpr const uint Notification_Voip_ConnectRequest = 908343318u;
       // Get static field: static public Oculus.Platform.Message/MessageType Notification_Voip_ConnectRequest
@@ -1106,6 +1206,12 @@ namespace Oculus::Platform {
       static Oculus::Platform::Message::MessageType _get_Notification_Voip_SystemVoipState();
       // Set static field: static public Oculus.Platform.Message/MessageType Notification_Voip_SystemVoipState
       static void _set_Notification_Voip_SystemVoipState(Oculus::Platform::Message::MessageType value);
+      // static field const value: static public Oculus.Platform.Message/MessageType Notification_Vrcamera_GetSurfaceUpdate
+      static constexpr const uint Notification_Vrcamera_GetSurfaceUpdate = 938610820u;
+      // Get static field: static public Oculus.Platform.Message/MessageType Notification_Vrcamera_GetSurfaceUpdate
+      static Oculus::Platform::Message::MessageType _get_Notification_Vrcamera_GetSurfaceUpdate();
+      // Set static field: static public Oculus.Platform.Message/MessageType Notification_Vrcamera_GetSurfaceUpdate
+      static void _set_Notification_Vrcamera_GetSurfaceUpdate(Oculus::Platform::Message::MessageType value);
       // static field const value: static public Oculus.Platform.Message/MessageType Platform_InitializeWithAccessToken
       static constexpr const uint Platform_InitializeWithAccessToken = 896085803u;
       // Get static field: static public Oculus.Platform.Message/MessageType Platform_InitializeWithAccessToken
@@ -1156,257 +1262,275 @@ namespace Oculus::Platform {
     static_assert(sizeof(Oculus::Platform::Models::Error*) == 0x8);
     // Creating value type constructor for type: Message
     Message(Oculus::Platform::Message::MessageType type_ = {}, uint64_t requestID_ = {}, Oculus::Platform::Models::Error* error_ = {}) noexcept : type{type_}, requestID{requestID_}, error{error_} {}
-    // [CompilerGeneratedAttribute] Offset: 0xD1FC84
+    // [CompilerGeneratedAttribute] Offset: 0xDFE888
     // Get static field: static private Oculus.Platform.Message/ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField
     static Oculus::Platform::Message::ExtraMessageTypesHandler* _get_$HandleExtraMessageTypes$k__BackingField();
     // Set static field: static private Oculus.Platform.Message/ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField
     static void _set_$HandleExtraMessageTypes$k__BackingField(Oculus::Platform::Message::ExtraMessageTypesHandler* value);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13A120C
+    // Offset: 0x14AD51C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Message* New_ctor(System::IntPtr c_message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Message*, creationType>(c_message)));
     }
     // public Oculus.Platform.Message/MessageType get_Type()
-    // Offset: 0x13A148C
+    // Offset: 0x14AD79C
     Oculus::Platform::Message::MessageType get_Type();
     // public System.Boolean get_IsError()
-    // Offset: 0x13A1494
+    // Offset: 0x14AD7A4
     bool get_IsError();
     // public System.UInt64 get_RequestID()
-    // Offset: 0x13A14A4
+    // Offset: 0x14AD7B4
     uint64_t get_RequestID();
     // public Oculus.Platform.Models.Error GetError()
-    // Offset: 0x13A14AC
+    // Offset: 0x14AD7BC
     Oculus::Platform::Models::Error* GetError();
     // public Oculus.Platform.Models.PingResult GetPingResult()
-    // Offset: 0x13A14B4
+    // Offset: 0x14AD7C4
     Oculus::Platform::Models::PingResult* GetPingResult();
     // public Oculus.Platform.Models.NetworkingPeer GetNetworkingPeer()
-    // Offset: 0x13A14BC
+    // Offset: 0x14AD7CC
     Oculus::Platform::Models::NetworkingPeer* GetNetworkingPeer();
     // public Oculus.Platform.Models.HttpTransferUpdate GetHttpTransferUpdate()
-    // Offset: 0x13A14C4
+    // Offset: 0x14AD7D4
     Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
     // public Oculus.Platform.Models.PlatformInitialize GetPlatformInitialize()
-    // Offset: 0x13A14CC
+    // Offset: 0x14AD7DC
     Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
     // public Oculus.Platform.Models.AbuseReportRecording GetAbuseReportRecording()
-    // Offset: 0x13A14D4
+    // Offset: 0x14AD7E4
     Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
     // public Oculus.Platform.Models.AchievementDefinitionList GetAchievementDefinitions()
-    // Offset: 0x13A14DC
+    // Offset: 0x14AD7EC
     Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();
     // public Oculus.Platform.Models.AchievementProgressList GetAchievementProgressList()
-    // Offset: 0x13A14E4
+    // Offset: 0x14AD7F4
     Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();
     // public Oculus.Platform.Models.AchievementUpdate GetAchievementUpdate()
-    // Offset: 0x13A14EC
+    // Offset: 0x14AD7FC
     Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
     // public Oculus.Platform.Models.ApplicationVersion GetApplicationVersion()
-    // Offset: 0x13A14F4
+    // Offset: 0x14AD804
     Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
     // public Oculus.Platform.Models.AssetDetails GetAssetDetails()
-    // Offset: 0x13A14FC
+    // Offset: 0x14AD80C
     Oculus::Platform::Models::AssetDetails* GetAssetDetails();
     // public Oculus.Platform.Models.AssetDetailsList GetAssetDetailsList()
-    // Offset: 0x13A1504
+    // Offset: 0x14AD814
     Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
     // public Oculus.Platform.Models.AssetFileDeleteResult GetAssetFileDeleteResult()
-    // Offset: 0x13A150C
+    // Offset: 0x14AD81C
     Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();
     // public Oculus.Platform.Models.AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult()
-    // Offset: 0x13A1514
+    // Offset: 0x14AD824
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();
     // public Oculus.Platform.Models.AssetFileDownloadResult GetAssetFileDownloadResult()
-    // Offset: 0x13A151C
+    // Offset: 0x14AD82C
     Oculus::Platform::Models::AssetFileDownloadResult* GetAssetFileDownloadResult();
     // public Oculus.Platform.Models.AssetFileDownloadUpdate GetAssetFileDownloadUpdate()
-    // Offset: 0x13A1524
+    // Offset: 0x14AD834
     Oculus::Platform::Models::AssetFileDownloadUpdate* GetAssetFileDownloadUpdate();
     // public Oculus.Platform.Models.CalApplicationFinalized GetCalApplicationFinalized()
-    // Offset: 0x13A152C
+    // Offset: 0x14AD83C
     Oculus::Platform::Models::CalApplicationFinalized* GetCalApplicationFinalized();
     // public Oculus.Platform.Models.CalApplicationProposed GetCalApplicationProposed()
-    // Offset: 0x13A1534
+    // Offset: 0x14AD844
     Oculus::Platform::Models::CalApplicationProposed* GetCalApplicationProposed();
     // public Oculus.Platform.Models.CalApplicationSuggestionList GetCalApplicationSuggestionList()
-    // Offset: 0x13A153C
+    // Offset: 0x14AD84C
     Oculus::Platform::Models::CalApplicationSuggestionList* GetCalApplicationSuggestionList();
     // public Oculus.Platform.Models.Challenge GetChallenge()
-    // Offset: 0x13A1544
+    // Offset: 0x14AD854
     Oculus::Platform::Models::Challenge* GetChallenge();
     // public Oculus.Platform.Models.ChallengeEntryList GetChallengeEntryList()
-    // Offset: 0x13A154C
+    // Offset: 0x14AD85C
     Oculus::Platform::Models::ChallengeEntryList* GetChallengeEntryList();
     // public Oculus.Platform.Models.ChallengeList GetChallengeList()
-    // Offset: 0x13A1554
+    // Offset: 0x14AD864
     Oculus::Platform::Models::ChallengeList* GetChallengeList();
     // public Oculus.Platform.Models.CloudStorageConflictMetadata GetCloudStorageConflictMetadata()
-    // Offset: 0x13A155C
+    // Offset: 0x14AD86C
     Oculus::Platform::Models::CloudStorageConflictMetadata* GetCloudStorageConflictMetadata();
     // public Oculus.Platform.Models.CloudStorageData GetCloudStorageData()
-    // Offset: 0x13A1564
+    // Offset: 0x14AD874
     Oculus::Platform::Models::CloudStorageData* GetCloudStorageData();
     // public Oculus.Platform.Models.CloudStorageMetadata GetCloudStorageMetadata()
-    // Offset: 0x13A156C
+    // Offset: 0x14AD87C
     Oculus::Platform::Models::CloudStorageMetadata* GetCloudStorageMetadata();
     // public Oculus.Platform.Models.CloudStorageMetadataList GetCloudStorageMetadataList()
-    // Offset: 0x13A1574
+    // Offset: 0x14AD884
     Oculus::Platform::Models::CloudStorageMetadataList* GetCloudStorageMetadataList();
     // public Oculus.Platform.Models.CloudStorageUpdateResponse GetCloudStorageUpdateResponse()
-    // Offset: 0x13A157C
+    // Offset: 0x14AD88C
     Oculus::Platform::Models::CloudStorageUpdateResponse* GetCloudStorageUpdateResponse();
+    // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetDataStore()
+    // Offset: 0x14AD894
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetDataStore();
     // public Oculus.Platform.Models.DestinationList GetDestinationList()
-    // Offset: 0x13A1584
+    // Offset: 0x14AD89C
     Oculus::Platform::Models::DestinationList* GetDestinationList();
+    // public Oculus.Platform.Models.GroupPresenceLeaveIntent GetGroupPresenceLeaveIntent()
+    // Offset: 0x14AD8A4
+    Oculus::Platform::Models::GroupPresenceLeaveIntent* GetGroupPresenceLeaveIntent();
     // public Oculus.Platform.Models.InstalledApplicationList GetInstalledApplicationList()
-    // Offset: 0x13A158C
+    // Offset: 0x14AD8AC
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
+    // public Oculus.Platform.Models.InvitePanelResultInfo GetInvitePanelResultInfo()
+    // Offset: 0x14AD8B4
+    Oculus::Platform::Models::InvitePanelResultInfo* GetInvitePanelResultInfo();
     // public Oculus.Platform.Models.LaunchBlockFlowResult GetLaunchBlockFlowResult()
-    // Offset: 0x13A1594
+    // Offset: 0x14AD8BC
     Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
     // public Oculus.Platform.Models.LaunchFriendRequestFlowResult GetLaunchFriendRequestFlowResult()
-    // Offset: 0x13A159C
+    // Offset: 0x14AD8C4
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
+    // public Oculus.Platform.Models.LaunchInvitePanelFlowResult GetLaunchInvitePanelFlowResult()
+    // Offset: 0x14AD8CC
+    Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
     // public Oculus.Platform.Models.LaunchReportFlowResult GetLaunchReportFlowResult()
-    // Offset: 0x13A15A4
+    // Offset: 0x14AD8D4
     Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
     // public Oculus.Platform.Models.LaunchUnblockFlowResult GetLaunchUnblockFlowResult()
-    // Offset: 0x13A15AC
+    // Offset: 0x14AD8DC
     Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();
     // public System.Boolean GetLeaderboardDidUpdate()
-    // Offset: 0x13A15B4
+    // Offset: 0x14AD8E4
     bool GetLeaderboardDidUpdate();
     // public Oculus.Platform.Models.LeaderboardEntryList GetLeaderboardEntryList()
-    // Offset: 0x13A15BC
+    // Offset: 0x14AD8EC
     Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
+    // public Oculus.Platform.Models.LeaderboardList GetLeaderboardList()
+    // Offset: 0x14AD8F4
+    Oculus::Platform::Models::LeaderboardList* GetLeaderboardList();
     // public Oculus.Platform.Models.LinkedAccountList GetLinkedAccountList()
-    // Offset: 0x13A15C4
+    // Offset: 0x14AD8FC
     Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
     // public Oculus.Platform.Models.LivestreamingApplicationStatus GetLivestreamingApplicationStatus()
-    // Offset: 0x13A15CC
+    // Offset: 0x14AD904
     Oculus::Platform::Models::LivestreamingApplicationStatus* GetLivestreamingApplicationStatus();
     // public Oculus.Platform.Models.LivestreamingStartResult GetLivestreamingStartResult()
-    // Offset: 0x13A15D4
+    // Offset: 0x14AD90C
     Oculus::Platform::Models::LivestreamingStartResult* GetLivestreamingStartResult();
     // public Oculus.Platform.Models.LivestreamingStatus GetLivestreamingStatus()
-    // Offset: 0x13A15DC
+    // Offset: 0x14AD914
     Oculus::Platform::Models::LivestreamingStatus* GetLivestreamingStatus();
     // public Oculus.Platform.Models.LivestreamingVideoStats GetLivestreamingVideoStats()
-    // Offset: 0x13A15E4
+    // Offset: 0x14AD91C
     Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();
     // public Oculus.Platform.Models.MatchmakingAdminSnapshot GetMatchmakingAdminSnapshot()
-    // Offset: 0x13A15EC
+    // Offset: 0x14AD924
     Oculus::Platform::Models::MatchmakingAdminSnapshot* GetMatchmakingAdminSnapshot();
     // public Oculus.Platform.Models.MatchmakingBrowseResult GetMatchmakingBrowseResult()
-    // Offset: 0x13A15F4
+    // Offset: 0x14AD92C
     Oculus::Platform::Models::MatchmakingBrowseResult* GetMatchmakingBrowseResult();
     // public Oculus.Platform.Models.MatchmakingEnqueueResult GetMatchmakingEnqueueResult()
-    // Offset: 0x13A15FC
+    // Offset: 0x14AD934
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetMatchmakingEnqueueResult();
     // public Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom GetMatchmakingEnqueueResultAndRoom()
-    // Offset: 0x13A1604
+    // Offset: 0x14AD93C
     Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* GetMatchmakingEnqueueResultAndRoom();
     // public Oculus.Platform.Models.MatchmakingStats GetMatchmakingStats()
-    // Offset: 0x13A160C
+    // Offset: 0x14AD944
     Oculus::Platform::Models::MatchmakingStats* GetMatchmakingStats();
     // public Oculus.Platform.Models.NetSyncConnection GetNetSyncConnection()
-    // Offset: 0x13A1614
+    // Offset: 0x14AD94C
     Oculus::Platform::Models::NetSyncConnection* GetNetSyncConnection();
     // public Oculus.Platform.Models.NetSyncSessionList GetNetSyncSessionList()
-    // Offset: 0x13A161C
+    // Offset: 0x14AD954
     Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
     // public Oculus.Platform.Models.NetSyncSessionsChangedNotification GetNetSyncSessionsChangedNotification()
-    // Offset: 0x13A1624
+    // Offset: 0x14AD95C
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
     // public Oculus.Platform.Models.NetSyncSetSessionPropertyResult GetNetSyncSetSessionPropertyResult()
-    // Offset: 0x13A162C
+    // Offset: 0x14AD964
     Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();
     // public Oculus.Platform.Models.NetSyncVoipAttenuationValueList GetNetSyncVoipAttenuationValueList()
-    // Offset: 0x13A1634
+    // Offset: 0x14AD96C
     Oculus::Platform::Models::NetSyncVoipAttenuationValueList* GetNetSyncVoipAttenuationValueList();
     // public Oculus.Platform.Models.OrgScopedID GetOrgScopedID()
-    // Offset: 0x13A163C
+    // Offset: 0x14AD974
     Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();
     // public Oculus.Platform.Models.Party GetParty()
-    // Offset: 0x13A1644
+    // Offset: 0x14AD97C
     Oculus::Platform::Models::Party* GetParty();
     // public Oculus.Platform.Models.PartyID GetPartyID()
-    // Offset: 0x13A164C
+    // Offset: 0x14AD984
     Oculus::Platform::Models::PartyID* GetPartyID();
     // public Oculus.Platform.Models.PartyUpdateNotification GetPartyUpdateNotification()
-    // Offset: 0x13A1654
+    // Offset: 0x14AD98C
     Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
     // public Oculus.Platform.Models.PidList GetPidList()
-    // Offset: 0x13A165C
+    // Offset: 0x14AD994
     Oculus::Platform::Models::PidList* GetPidList();
     // public Oculus.Platform.Models.ProductList GetProductList()
-    // Offset: 0x13A1664
+    // Offset: 0x14AD99C
     Oculus::Platform::Models::ProductList* GetProductList();
     // public Oculus.Platform.Models.Purchase GetPurchase()
-    // Offset: 0x13A166C
+    // Offset: 0x14AD9A4
     Oculus::Platform::Models::Purchase* GetPurchase();
     // public Oculus.Platform.Models.PurchaseList GetPurchaseList()
-    // Offset: 0x13A1674
+    // Offset: 0x14AD9AC
     Oculus::Platform::Models::PurchaseList* GetPurchaseList();
     // public Oculus.Platform.Models.Room GetRoom()
-    // Offset: 0x13A167C
+    // Offset: 0x14AD9B4
     Oculus::Platform::Models::Room* GetRoom();
     // public Oculus.Platform.Models.RoomInviteNotification GetRoomInviteNotification()
-    // Offset: 0x13A1684
+    // Offset: 0x14AD9BC
     Oculus::Platform::Models::RoomInviteNotification* GetRoomInviteNotification();
     // public Oculus.Platform.Models.RoomInviteNotificationList GetRoomInviteNotificationList()
-    // Offset: 0x13A168C
+    // Offset: 0x14AD9C4
     Oculus::Platform::Models::RoomInviteNotificationList* GetRoomInviteNotificationList();
     // public Oculus.Platform.Models.RoomList GetRoomList()
-    // Offset: 0x13A1694
+    // Offset: 0x14AD9CC
     Oculus::Platform::Models::RoomList* GetRoomList();
     // public Oculus.Platform.Models.SdkAccountList GetSdkAccountList()
-    // Offset: 0x13A169C
+    // Offset: 0x14AD9D4
     Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
     // public Oculus.Platform.Models.ShareMediaResult GetShareMediaResult()
-    // Offset: 0x13A16A4
+    // Offset: 0x14AD9DC
     Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
     // public System.String GetString()
-    // Offset: 0x13A16AC
+    // Offset: 0x14AD9E4
     ::Il2CppString* GetString();
     // public Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0x13A16B4
+    // Offset: 0x14AD9EC
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();
     // public Oculus.Platform.Models.SystemVoipState GetSystemVoipState()
-    // Offset: 0x13A16BC
+    // Offset: 0x14AD9F4
     Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
     // public Oculus.Platform.Models.User GetUser()
-    // Offset: 0x13A16C4
+    // Offset: 0x14AD9FC
     Oculus::Platform::Models::User* GetUser();
     // public Oculus.Platform.Models.UserAndRoomList GetUserAndRoomList()
-    // Offset: 0x13A16CC
+    // Offset: 0x14ADA04
     Oculus::Platform::Models::UserAndRoomList* GetUserAndRoomList();
+    // public Oculus.Platform.Models.UserDataStoreUpdateResponse GetUserDataStoreUpdateResponse()
+    // Offset: 0x14ADA0C
+    Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
     // public Oculus.Platform.Models.UserList GetUserList()
-    // Offset: 0x13A16D4
+    // Offset: 0x14ADA14
     Oculus::Platform::Models::UserList* GetUserList();
     // public Oculus.Platform.Models.UserProof GetUserProof()
-    // Offset: 0x13A16DC
+    // Offset: 0x14ADA1C
     Oculus::Platform::Models::UserProof* GetUserProof();
     // public Oculus.Platform.Models.UserReportID GetUserReportID()
-    // Offset: 0x13A16E4
+    // Offset: 0x14ADA24
     Oculus::Platform::Models::UserReportID* GetUserReportID();
     // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle)
-    // Offset: 0x13A16EC
+    // Offset: 0x14ADA2C
     static Oculus::Platform::Message* ParseMessageHandle(System::IntPtr messageHandle);
     // static public Oculus.Platform.Message PopMessage()
-    // Offset: 0x1399EEC
+    // Offset: 0x14A5CA0
     static Oculus::Platform::Message* PopMessage();
     // static System.Void set_HandleExtraMessageTypes(Oculus.Platform.Message/ExtraMessageTypesHandler value)
-    // Offset: 0x13A4C4C
+    // Offset: 0x14B0AA8
     static void set_HandleExtraMessageTypes(Oculus::Platform::Message::ExtraMessageTypesHandler* value);
     // static private Oculus.Platform.Message/ExtraMessageTypesHandler get_HandleExtraMessageTypes()
-    // Offset: 0x13A4CA0
+    // Offset: 0x14B0AFC
     static Oculus::Platform::Message::ExtraMessageTypesHandler* get_HandleExtraMessageTypes();
     // protected override System.Void Finalize()
-    // Offset: 0x13A1484
+    // Offset: 0x14AD794
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

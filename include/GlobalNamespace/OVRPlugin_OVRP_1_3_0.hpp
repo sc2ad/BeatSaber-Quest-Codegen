@@ -28,16 +28,16 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Bool ovrp_GetEyeOcclusionMeshEnabled()
-    // Offset: 0x15804FC
+    // Offset: 0x160A1B4
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetEyeOcclusionMeshEnabled();
     // static public OVRPlugin/Bool ovrp_SetEyeOcclusionMeshEnabled(OVRPlugin/Bool value)
-    // Offset: 0x1580570
+    // Offset: 0x160A228
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetEyeOcclusionMeshEnabled(GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_GetSystemHeadphonesPresent()
-    // Offset: 0x15805F0
+    // Offset: 0x160A2A8
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetSystemHeadphonesPresent();
     // static private System.Void .cctor()
-    // Offset: 0x1580664
+    // Offset: 0x160A31C
     static void _cctor();
   }; // OVRPlugin/OVRP_1_3_0
   #pragma pack(pop)

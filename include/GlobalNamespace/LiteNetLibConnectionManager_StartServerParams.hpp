@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StartServerParams
     StartServerParams() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1238654
+    // Offset: 0x131847C
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

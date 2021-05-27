@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD43D1C
+    // [SpaceAttribute] Offset: 0xE24920
     // private UnityEngine.UI.Button _yIncButton
     // Size: 0x8
     // Offset: 0x78
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* playerHeightText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43D74
+    // [InjectAttribute] Offset: 0xE24978
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x90
@@ -96,21 +96,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxPlayerHeight
     static void _set_kMaxPlayerHeight(float value);
     // protected System.Void Update()
-    // Offset: 0xF56BF0
+    // Offset: 0x10C777C
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xF56E10
+    // Offset: 0x10C799C
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xF56E88
+    // Offset: 0x10C7A14
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF56AF4
+    // Offset: 0x10C7680
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF56E08
+    // Offset: 0x10C7994
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -31,13 +31,13 @@ namespace UnityEngine::Timeline {
     // Set static field: static readonly System.Double kMinExtrapolationTime
     static void _set_kMinExtrapolationTime(double value);
     // static System.Void CalculateExtrapolationTimes(UnityEngine.Timeline.TrackAsset asset)
-    // Offset: 0x16879D8
+    // Offset: 0x17C92F8
     static void CalculateExtrapolationTimes(UnityEngine::Timeline::TrackAsset* asset);
     // static private UnityEngine.Timeline.TimelineClip[] SortClipsByStartTime(UnityEngine.Timeline.TimelineClip[] clips)
-    // Offset: 0x1687E14
+    // Offset: 0x17C9734
     static ::Array<UnityEngine::Timeline::TimelineClip*>* SortClipsByStartTime(::Array<UnityEngine::Timeline::TimelineClip*>* clips);
     // static private System.Void .cctor()
-    // Offset: 0x1687F3C
+    // Offset: 0x17C985C
     static void _cctor();
   }; // UnityEngine.Timeline.Extrapolation
   #pragma pack(pop)

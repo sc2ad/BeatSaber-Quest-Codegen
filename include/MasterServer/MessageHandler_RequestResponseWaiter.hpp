@@ -61,29 +61,29 @@ namespace MasterServer {
     // Creating value type constructor for type: RequestResponseWaiter
     RequestResponseWaiter(System::Threading::Tasks::TaskCompletionSource_1<MasterServer::IMasterServerMessage*>* taskCompletionSource_ = {}, System::Threading::CancellationTokenRegistration disposedCancellationTokenRegistration_ = {}, System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration_ = {}) noexcept : taskCompletionSource{taskCompletionSource_}, disposedCancellationTokenRegistration{disposedCancellationTokenRegistration_}, requestCancellationTokenRegistration{requestCancellationTokenRegistration_} {}
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x12AFF90
+    // Offset: 0x12C88A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::RequestResponseWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::RequestResponseWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::RequestResponseWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(MasterServer.IMasterServerMessage response)
-    // Offset: 0x12ABE28
+    // Offset: 0x12C4960
     void Complete(MasterServer::IMasterServerMessage* response);
     // public System.Void Fail(System.Exception ex)
-    // Offset: 0x12B01F8
+    // Offset: 0x12C8B08
     void Fail(System::Exception* ex);
     // public System.Void Cancel()
-    // Offset: 0x12B0260
+    // Offset: 0x12C8B70
     void Cancel();
     // public System.Threading.Tasks.Task`1<MasterServer.IMasterServerMessage> get_task()
-    // Offset: 0x12B02B8
+    // Offset: 0x12C8BC8
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerMessage*>* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12B0188
+    // Offset: 0x12C8A98
     bool get_isWaiting();
     // public override System.Void Dispose()
-    // Offset: 0x12B00AC
+    // Offset: 0x12C89BC
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

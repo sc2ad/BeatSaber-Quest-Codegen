@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BTSCharacterDataModel/PrefabWithId[] get_prefabsWithIds()
-    // Offset: 0x1022F6C
+    // Offset: 0x1134EC4
     ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* get_prefabsWithIds();
     // public BTSCharacterDataModel/AnimationClipWithId[] get_animationClipsWithIds()
-    // Offset: 0x1022F74
+    // Offset: 0x1134ECC
     ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* get_animationClipsWithIds();
     // public System.Void .ctor()
-    // Offset: 0x1022F7C
+    // Offset: 0x1134ED4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

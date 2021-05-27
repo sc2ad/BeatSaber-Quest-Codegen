@@ -21,13 +21,13 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(System::Xml::XmlCharType value);
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x17A93E8
+    // Offset: 0x191A9B4
     static int ParseNCName(::Il2CppString* s, int offset);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
-    // Offset: 0x17A9534
+    // Offset: 0x191AB00
     static int ParseQName(::Il2CppString* s, int offset, int& colonOffset);
     // static private System.Void .cctor()
-    // Offset: 0x17A9630
+    // Offset: 0x191ABFC
     static void _cctor();
   }; // System.Xml.ValidateNames
   #pragma pack(pop)

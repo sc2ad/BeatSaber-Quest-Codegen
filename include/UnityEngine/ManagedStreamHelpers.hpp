@@ -27,16 +27,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: ManagedStreamHelpers
     ManagedStreamHelpers() noexcept {}
     // static System.Void ValidateLoadFromStream(System.IO.Stream stream)
-    // Offset: 0x1A12A98
+    // Offset: 0x1BEF820
     static void ValidateLoadFromStream(System::IO::Stream* stream);
     // static System.Void ManagedStreamRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1A12BA0
+    // Offset: 0x1BEF928
     static void ManagedStreamRead(::Array<uint8_t>* buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamSeek(System.Int64 offset, System.UInt32 origin, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1A12CA0
+    // Offset: 0x1BEFA28
     static void ManagedStreamSeek(int64_t offset, uint origin, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamLength(System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1A12D98
+    // Offset: 0x1BEFB20
     static void ManagedStreamLength(System::IO::Stream* stream, System::IntPtr returnValueAddress);
   }; // UnityEngine.ManagedStreamHelpers
   #pragma pack(pop)

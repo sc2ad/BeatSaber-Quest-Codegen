@@ -16,8 +16,8 @@ namespace System {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
+  // Forward declaring type: MultiplayerLevelCompletionResults
+  class MultiplayerLevelCompletionResults;
 }
 // Completed forward declares
 // Type namespace: 
@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: IMultiplayerLevelEndActionsPublisher
     IMultiplayerLevelEndActionsPublisher() noexcept {}
-    // public System.Void add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
+    // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
     // Offset: 0xFFFFFFFF
-    void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
-    // public System.Void remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
+    void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+    // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
     // Offset: 0xFFFFFFFF
-    void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
+    void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     // Offset: 0xFFFFFFFF
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);

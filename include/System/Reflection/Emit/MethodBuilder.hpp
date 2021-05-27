@@ -44,62 +44,62 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: MethodBuilder
     MethodBuilder() noexcept {}
     // public override System.Reflection.MethodAttributes get_Attributes()
-    // Offset: 0x1B028F4
+    // Offset: 0x1C5E788
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodAttributes MethodBase::get_Attributes()
     System::Reflection::MethodAttributes get_Attributes();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1B02950
+    // Offset: 0x1C5E7E4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x1B029AC
+    // Offset: 0x1C5E840
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Reflection.ParameterInfo[] GetParameters()
-    // Offset: 0x1B02A08
+    // Offset: 0x1C5E89C
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParameters()
     ::Array<System::Reflection::ParameterInfo*>* GetParameters();
     // public override System.RuntimeMethodHandle get_MethodHandle()
-    // Offset: 0x1B02A64
+    // Offset: 0x1C5E8F8
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.RuntimeMethodHandle MethodBase::get_MethodHandle()
     System::RuntimeMethodHandle get_MethodHandle();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1B02AA4
+    // Offset: 0x1C5E938
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Reflection.MethodInfo GetBaseDefinition()
-    // Offset: 0x1B02AE4
+    // Offset: 0x1C5E978
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetBaseDefinition()
     System::Reflection::MethodInfo* GetBaseDefinition();
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1B02B24
+    // Offset: 0x1C5E9B8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1B02B64
+    // Offset: 0x1C5E9F8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodImplAttributes GetMethodImplementationFlags()
-    // Offset: 0x1B02BA4
+    // Offset: 0x1C5EA38
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodImplAttributes MethodBase::GetMethodImplementationFlags()
     System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
     // public override System.Object Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    // Offset: 0x1B02BE4
+    // Offset: 0x1C5EA78
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Object MethodBase::Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1B02C24
+    // Offset: 0x1C5EAB8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);

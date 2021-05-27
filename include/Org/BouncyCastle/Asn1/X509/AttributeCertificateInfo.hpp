@@ -101,23 +101,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: AttributeCertificateInfo
     AttributeCertificateInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::Holder* holder_ = {}, Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature_ = {}, Org::BouncyCastle::Asn1::DerInteger* serialNumber_ = {}, Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* attrCertValidityPeriod_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* attributes_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* extensions_ = {}) noexcept : version{version_}, holder{holder_}, issuer{issuer_}, signature{signature_}, serialNumber{serialNumber_}, attrCertValidityPeriod{attrCertValidityPeriod_}, attributes{attributes_}, issuerUniqueID{issuerUniqueID_}, extensions{extensions_} {}
     // static public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo GetInstance(System.Object obj)
-    // Offset: 0x1853D78
+    // Offset: 0x19EAE10
     static Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1854024
+    // Offset: 0x19EB0BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeCertificateInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeCertificateInfo*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod get_AttrCertValidityPeriod()
-    // Offset: 0x185476C
+    // Offset: 0x19EB804
     Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* get_AttrCertValidityPeriod();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1854774
+    // Offset: 0x19EB80C
     Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x185477C
+    // Offset: 0x19EB814
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamNetworkPlayerModel
     SteamNetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0xF9BFB0
+    // Offset: 0x117E8E0
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()

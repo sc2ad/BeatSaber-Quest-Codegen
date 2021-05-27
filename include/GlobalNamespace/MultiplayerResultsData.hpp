@@ -14,8 +14,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerPlayerResultsData
   class MultiplayerPlayerResultsData;
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
+  // Forward declaring type: MultiplayerLevelCompletionResults
+  class MultiplayerLevelCompletionResults;
   // Forward declaring type: MultiplayerBadgesProvider
   class MultiplayerBadgesProvider;
   // Forward declaring type: IMultiplayerSessionManager
@@ -65,21 +65,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerResultsData
     MultiplayerResultsData(::Il2CppString* gameId_ = {}, GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData_ = {}) noexcept : gameId{gameId_}, localPlayerResultData{localPlayerResultData_}, otherPlayersData{otherPlayersData_}, allPlayersSortedData{allPlayersSortedData_} {}
     // public System.String get_gameId()
-    // Offset: 0x100BEB8
+    // Offset: 0x23E247C
     ::Il2CppString* get_gameId();
     // public MultiplayerPlayerResultsData get_localPlayerResultData()
-    // Offset: 0x100BEC0
+    // Offset: 0x23E2484
     GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_otherPlayersData()
-    // Offset: 0x100BEC8
+    // Offset: 0x23E248C
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_allPlayersSortedData()
-    // Offset: 0x100BED0
+    // Offset: 0x23E2494
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
-    // public System.Void .ctor(System.String gameId, LevelCompletionResults localPlayerResultData, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersResultData, MultiplayerBadgesProvider badgesProvider, IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x100BED8
+    // public System.Void .ctor(System.String gameId, MultiplayerLevelCompletionResults localPlayerResultData, System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> otherPlayersResultData, MultiplayerBadgesProvider badgesProvider, IMultiplayerSessionManager multiplayerSessionManager)
+    // Offset: 0x23E249C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerResultsData* New_ctor(::Il2CppString* gameId, GlobalNamespace::LevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
+    static MultiplayerResultsData* New_ctor(::Il2CppString* gameId, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsData*, creationType>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager)));
     }

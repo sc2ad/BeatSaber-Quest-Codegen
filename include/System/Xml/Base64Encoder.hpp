@@ -42,13 +42,13 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x17A0784
+    // Offset: 0x1911D50
     void Encode(::Array<uint8_t>* buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x17A0AB8
+    // Offset: 0x1912084
     void Flush();
     // System.Void .ctor()
-    // Offset: 0x17A0720
+    // Offset: 0x1911CEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

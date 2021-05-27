@@ -17,10 +17,10 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Token
     Token() noexcept {}
     // static public System.Void Check(System.String s)
-    // Offset: 0x14022A4
+    // Offset: 0x157E8FC
     static void Check(::Il2CppString* s);
     // static public System.Boolean TryCheck(System.String s)
-    // Offset: 0x13FE174
+    // Offset: 0x157A7CC
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/Token
   #pragma pack(pop)

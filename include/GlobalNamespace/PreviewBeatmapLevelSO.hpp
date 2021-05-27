@@ -178,66 +178,66 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_levelID()
-    // Offset: 0xF8060C
+    // Offset: 0x10A3F70
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0xF80614
+    // Offset: 0x10A3F78
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0xF8061C
+    // Offset: 0x10A3F80
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0xF80624
+    // Offset: 0x10A3F88
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0xF8062C
+    // Offset: 0x10A3F90
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0xF80634
+    // Offset: 0x10A3F98
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0xF8063C
+    // Offset: 0x10A3FA0
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0xF80644
+    // Offset: 0x10A3FA8
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0xF8064C
+    // Offset: 0x10A3FB0
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0xF80654
+    // Offset: 0x10A3FB8
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0xF8065C
+    // Offset: 0x10A3FC0
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0xF80664
+    // Offset: 0x10A3FC8
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0xF8066C
+    // Offset: 0x10A3FD0
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0xF80674
+    // Offset: 0x10A3FD8
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0xF8067C
+    // Offset: 0x10A3FE0
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // private System.Void InitData()
-    // Offset: 0xF806C8
+    // Offset: 0x10A402C
     void InitData();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF80804
+    // Offset: 0x10A4168
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xF80928
+    // Offset: 0x10A428C
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // protected override System.Void OnEnable()
-    // Offset: 0xF80698
+    // Offset: 0x10A3FFC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xF80A4C
+    // Offset: 0x10A43B0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

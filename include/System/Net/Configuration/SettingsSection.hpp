@@ -28,7 +28,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: SettingsSection
     SettingsSection() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14E733C
+    // Offset: 0x1695CF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -37,7 +37,7 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSection*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x14E737C
+    // Offset: 0x1695D30
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

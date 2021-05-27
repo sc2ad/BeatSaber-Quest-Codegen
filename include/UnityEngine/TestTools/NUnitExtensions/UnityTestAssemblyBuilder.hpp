@@ -60,16 +60,16 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Deleting conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept = delete;
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1369A68
+    // Offset: 0x1494414
     NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x137378C
+    // Offset: 0x149E138
     System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
-    // Offset: 0x1373848
+    // Offset: 0x149E1F4
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
     // public System.Void .ctor()
-    // Offset: 0x1373714
+    // Offset: 0x149E0C0
     // Implemented from: NUnit.Framework.Api.DefaultTestAssemblyBuilder
     // Base method: System.Void DefaultTestAssemblyBuilder::.ctor()
     // Base method: System.Void Object::.ctor()

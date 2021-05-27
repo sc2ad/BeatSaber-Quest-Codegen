@@ -145,7 +145,7 @@ namespace TMPro {
     // Creating value type constructor for type: FaceInfo_Legacy
     FaceInfo_Legacy(::Il2CppString* Name_ = {}, float PointSize_ = {}, float Scale_ = {}, int CharacterCount_ = {}, float LineHeight_ = {}, float Baseline_ = {}, float Ascender_ = {}, float CapHeight_ = {}, float Descender_ = {}, float CenterLine_ = {}, float SuperscriptOffset_ = {}, float SubscriptOffset_ = {}, float SubSize_ = {}, float Underline_ = {}, float UnderlineThickness_ = {}, float strikethrough_ = {}, float strikethroughThickness_ = {}, float TabWidth_ = {}, float Padding_ = {}, float AtlasWidth_ = {}, float AtlasHeight_ = {}) noexcept : Name{Name_}, PointSize{PointSize_}, Scale{Scale_}, CharacterCount{CharacterCount_}, LineHeight{LineHeight_}, Baseline{Baseline_}, Ascender{Ascender_}, CapHeight{CapHeight_}, Descender{Descender_}, CenterLine{CenterLine_}, SuperscriptOffset{SuperscriptOffset_}, SubscriptOffset{SubscriptOffset_}, SubSize{SubSize_}, Underline{Underline_}, UnderlineThickness{UnderlineThickness_}, strikethrough{strikethrough_}, strikethroughThickness{strikethroughThickness_}, TabWidth{TabWidth_}, Padding{Padding_}, AtlasWidth{AtlasWidth_}, AtlasHeight{AtlasHeight_} {}
     // public System.Void .ctor()
-    // Offset: 0xFC9C04
+    // Offset: 0x110844C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

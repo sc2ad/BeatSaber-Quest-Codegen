@@ -84,13 +84,13 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: AsyncStreamReader
     AsyncStreamReader(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Decoder* decoder_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, bool cancelOperation_ = {}, System::Threading::ManualResetEvent* eofEvent_ = {}, ::Il2CppObject* syncObject_ = {}) noexcept : stream{stream_}, encoding{encoding_}, decoder{decoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, cancelOperation{cancelOperation_}, eofEvent{eofEvent_}, syncObject{syncObject_} {}
     // public System.Void Close()
-    // Offset: 0x16CE5A4
+    // Offset: 0x1851910
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16CE5B4
+    // Offset: 0x1851920
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0x16CE694
+    // Offset: 0x1851A00
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
   #pragma pack(pop)

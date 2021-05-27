@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomKernel
     BloomKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize_ = {}, int sharedPartWithNext_ = {}) noexcept : kernelSize{kernelSize_}, sharedPartWithNext{sharedPartWithNext_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D11320
+    // Offset: 0x1D6F800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

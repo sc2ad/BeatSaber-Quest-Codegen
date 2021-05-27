@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifiersHelper
     GameplayModifiersHelper() noexcept {}
     // static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers[] ToDTO(GameplayModifiers gameplayModifiers)
-    // Offset: 0xF6755C
+    // Offset: 0x1045780
     static ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // static public GameplayModifiers FromDTO(BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers[] gameplayModifiersDTOs)
-    // Offset: 0xF67868
+    // Offset: 0x1045A8C
     static GlobalNamespace::GameplayModifiers* FromDTO(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiersDTOs);
   }; // GameplayModifiersHelper
   #pragma pack(pop)

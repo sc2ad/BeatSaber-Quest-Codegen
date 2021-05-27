@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: positionOffset and: avatarPoseController
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xD34B3C
+    // [InjectAttribute] Offset: 0xE15320
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x28
@@ -45,16 +45,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x101D7F4
+    // Offset: 0x112F758
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x101D928
+    // Offset: 0x112F88C
     void OnDestroy();
     // private System.Void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine.Vector3 headLocalPosition)
-    // Offset: 0x101DAA4
+    // Offset: 0x112FA08
     void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine::Vector3 headLocalPosition);
     // public System.Void .ctor()
-    // Offset: 0x101DB74
+    // Offset: 0x112FAD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

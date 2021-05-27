@@ -47,41 +47,41 @@ namespace System::Net {
     // Set static field: static private System.String[] keywords
     static void _set_keywords(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.String header)
-    // Offset: 0x14F03C8
+    // Offset: 0x169ED7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::Il2CppString* header) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // public System.String get_Realm()
-    // Offset: 0x14F0480
+    // Offset: 0x169EE34
     ::Il2CppString* get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x14F04B4
+    // Offset: 0x169EE68
     ::Il2CppString* get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x14F04EC
+    // Offset: 0x169EEA0
     ::Il2CppString* get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x14F0524
+    // Offset: 0x169EED8
     ::Il2CppString* get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x14F055C
+    // Offset: 0x169EF10
     ::Il2CppString* get_QOP();
     // public System.Boolean Parse()
-    // Offset: 0x14F0594
+    // Offset: 0x169EF48
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x14F0918
+    // Offset: 0x169F2CC
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x14F09A4
+    // Offset: 0x169F358
     ::Il2CppString* GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x14F077C
+    // Offset: 0x169F130
     bool GetKeywordAndValue(::Il2CppString*& key, ::Il2CppString*& value);
     // static private System.Void .cctor()
-    // Offset: 0x14F0A38
+    // Offset: 0x169F3EC
     static void _cctor();
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)

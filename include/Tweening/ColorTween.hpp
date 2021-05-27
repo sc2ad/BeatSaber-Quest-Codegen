@@ -14,6 +14,12 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: Zenject
+namespace Zenject {
+  // Forward declaring type: StaticMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  class StaticMemoryPool_7;
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
@@ -34,23 +40,42 @@ namespace Tweening {
     public:
     // Creating value type constructor for type: ColorTween
     ColorTween() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE297B0
+    // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,Tweening.EaseType,System.Single,Tweening.ColorTween> Pool
+    static Zenject::StaticMemoryPool_7<UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, float, Tweening::EaseType, float, Tweening::ColorTween*>* _get_Pool();
+    // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,Tweening.EaseType,System.Single,Tweening.ColorTween> Pool
+    static void _set_Pool(Zenject::StaticMemoryPool_7<UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, float, Tweening::EaseType, float, Tweening::ColorTween*>* value);
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0xFAC700
+    // Offset: 0x10FDE84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0xFAC7D8
+    // Offset: 0x10FDF5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public UnityEngine.Color GetValue(System.Single t)
-    // Offset: 0xFAC8B0
+    // Offset: 0x10FE034
     UnityEngine::Color GetValue(float t);
+    // static private System.Void .cctor()
+    // Offset: 0x10FE200
+    static void _cctor();
+    // public System.Void .ctor()
+    // Offset: 0x10FDE34
+    // Implemented from: Tweening.Tween`1
+    // Base method: System.Void Tween_1::.ctor()
+    // Base method: System.Void Tween::.ctor()
+    // Base method: System.Void Object::.ctor()
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static ColorTween* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::ColorTween::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>()));
+    }
   }; // Tweening.ColorTween
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::ColorTween*, "Tweening", "ColorTween");

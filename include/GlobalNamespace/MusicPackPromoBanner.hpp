@@ -76,14 +76,14 @@ namespace GlobalNamespace {
     MusicPackPromoBanner(TMPro::TextMeshProUGUI* promoText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::UI::Image* coverImage_ = {}, TMPro::TextMeshProUGUI* promoButtonText_ = {}, GlobalNamespace::IBeatmapLevelPack* currentPromoMusicPack_ = {}) noexcept : promoText{promoText_}, backgroundImage{backgroundImage_}, coverImage{coverImage_}, promoButtonText{promoButtonText_}, currentPromoMusicPack{currentPromoMusicPack_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [LocalizationKeyAttribute] Offset: 0xD46AE4
+    // [LocalizationKeyAttribute] Offset: 0xE27778
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
     static ::Il2CppString* _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
     static void _set_kPlayNow(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xD46AF4
+    // [LocalizationKeyAttribute] Offset: 0xE27788
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
@@ -91,16 +91,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kGetNow
     static void _set_kGetNow(::Il2CppString* value);
     // public IBeatmapLevelPack get_currentPromoMusicPack()
-    // Offset: 0xFE8708
+    // Offset: 0x23EA2BC
     GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
-    // Offset: 0xFE8710
+    // Offset: 0x23EA2C4
     ::Il2CppString* get_promoButtonText();
     // public System.Void Setup(DlcPromoExperimentDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
-    // Offset: 0xFE872C
+    // Offset: 0x23EA2E0
     void Setup(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
     // public System.Void .ctor()
-    // Offset: 0xFE88F4
+    // Offset: 0x23EA4A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

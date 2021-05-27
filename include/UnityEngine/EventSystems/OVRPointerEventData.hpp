@@ -42,7 +42,7 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: OVRPointerEventData
     OVRPointerEventData(UnityEngine::Ray worldSpaceRay_ = {}, UnityEngine::Vector2 swipeStart_ = {}) noexcept : worldSpaceRay{worldSpaceRay_}, swipeStart{swipeStart_} {}
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1E7B5CC
+    // Offset: 0x1EBE898
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.Void PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
@@ -52,7 +52,7 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x1E7D70C
+    // Offset: 0x1EC09D8
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
     ::Il2CppString* ToString();

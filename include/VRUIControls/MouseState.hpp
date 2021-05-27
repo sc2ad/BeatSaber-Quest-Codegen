@@ -44,19 +44,19 @@ namespace VRUIControls {
       return trackedButtons;
     }
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x2132370
+    // Offset: 0x234A388
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x2132424
+    // Offset: 0x234A43C
     bool AnyReleasesThisFrame();
     // public VRUIControls.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button)
-    // Offset: 0x21324D8
+    // Offset: 0x234A4F0
     VRUIControls::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button, UnityEngine.EventSystems.PointerEventData/FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x2132614
+    // Offset: 0x234A62C
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x2132658
+    // Offset: 0x234A670
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

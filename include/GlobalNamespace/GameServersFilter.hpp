@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServersFilter
     GameServersFilter(bool filterByDifficulty_ = {}, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty_ = {}, bool filterByModifiers_ = {}, GlobalNamespace::GameplayModifierMask filteredModifiers_ = {}, bool filterBySongPacks_ = {}, GlobalNamespace::SongPackMask filteredSongPacks_ = {}, bool showFull_ = {}, bool showProtected_ = {}, bool showInternetGames_ = {}) noexcept : filterByDifficulty{filterByDifficulty_}, filteredDifficulty{filteredDifficulty_}, filterByModifiers{filterByModifiers_}, filteredModifiers{filteredModifiers_}, filterBySongPacks{filterBySongPacks_}, filteredSongPacks{filteredSongPacks_}, showFull{showFull_}, showProtected{showProtected_}, showInternetGames{showInternetGames_} {}
     // public System.Void .ctor()
-    // Offset: 0xF63244
+    // Offset: 0x1041158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -35,23 +35,23 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static void _set__empty(System::Text::RegularExpressions::RegexPrefix* value);
     // System.Void .ctor(System.String prefix, System.Boolean ci)
-    // Offset: 0x1804EAC
+    // Offset: 0x1976478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPrefix* New_ctor(::Il2CppString* prefix, bool ci) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPrefix*, creationType>(prefix, ci)));
     }
     // System.String get_Prefix()
-    // Offset: 0x180E89C
+    // Offset: 0x197FE68
     ::Il2CppString* get_Prefix();
     // System.Boolean get_CaseInsensitive()
-    // Offset: 0x180E8A4
+    // Offset: 0x197FE70
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
-    // Offset: 0x180E8AC
+    // Offset: 0x197FE78
     static System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // static private System.Void .cctor()
-    // Offset: 0x180E914
+    // Offset: 0x197FEE0
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
   #pragma pack(pop)

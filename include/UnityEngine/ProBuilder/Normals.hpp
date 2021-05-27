@@ -36,19 +36,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Int32[] s_CachedIntArray
     static void _set_s_CachedIntArray(::Array<int>* value);
     // static private System.Void ClearIntArray(System.Int32 count)
-    // Offset: 0x15A3B6C
+    // Offset: 0x1703F18
     static void ClearIntArray(int count);
     // static public System.Void CalculateTangents(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x15A3C90
+    // Offset: 0x170403C
     static void CalculateTangents(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Void CalculateHardNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x15A42E4
+    // Offset: 0x1704690
     static void CalculateHardNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Void CalculateNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x15A4810
+    // Offset: 0x1704BBC
     static void CalculateNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Void .cctor()
-    // Offset: 0x15A4F20
+    // Offset: 0x17052CC
     static void _cctor();
   }; // UnityEngine.ProBuilder.Normals
   #pragma pack(pop)

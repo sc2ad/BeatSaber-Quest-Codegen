@@ -97,14 +97,14 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: RegexCode
     RegexCode(::Array<int>* codes_ = {}, ::Array<::Il2CppString*>* strings_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexPrefix* fcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix_ = {}, int anchors_ = {}, bool rightToLeft_ = {}) noexcept : codes{codes_}, strings{strings_}, trackcount{trackcount_}, caps{caps_}, capsize{capsize_}, fcPrefix{fcPrefix_}, bmPrefix{bmPrefix_}, anchors{anchors_}, rightToLeft{rightToLeft_} {}
     // System.Void .ctor(System.Int32[] codes, System.Collections.Generic.List`1<System.String> stringlist, System.Int32 trackcount, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.RegexBoyerMoore bmPrefix, System.Text.RegularExpressions.RegexPrefix fcPrefix, System.Int32 anchors, System.Boolean rightToLeft)
-    // Offset: 0x1804760
+    // Offset: 0x1975D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCode* New_ctor(::Array<int>* codes, System::Collections::Generic::List_1<::Il2CppString*>* stringlist, int trackcount, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCode*, creationType>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft)));
     }
     // static System.Boolean OpcodeBacktracks(System.Int32 Op)
-    // Offset: 0x180485C
+    // Offset: 0x1975E28
     static bool OpcodeBacktracks(int Op);
   }; // System.Text.RegularExpressions.RegexCode
   #pragma pack(pop)

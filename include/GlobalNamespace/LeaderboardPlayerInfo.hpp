@@ -22,42 +22,42 @@ namespace GlobalNamespace {
     ::Il2CppString* serverKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35D38
+    // [CompilerGeneratedAttribute] Offset: 0xE1651C
     // private System.String <playerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* playerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35D48
+    // [CompilerGeneratedAttribute] Offset: 0xE1652C
     // private System.String <playerName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* playerName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35D58
+    // [CompilerGeneratedAttribute] Offset: 0xE1653C
     // private System.String <playerKey>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::Il2CppString* playerKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35D68
+    // [CompilerGeneratedAttribute] Offset: 0xE1654C
     // private System.String <authType>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* authType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35D78
+    // [CompilerGeneratedAttribute] Offset: 0xE1655C
     // private System.String <playerFriends>k__BackingField
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* playerFriends;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD35D88
+    // [CompilerGeneratedAttribute] Offset: 0xE1656C
     // private System.Boolean <succeeded>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -67,43 +67,43 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardPlayerInfo
     LeaderboardPlayerInfo(::Il2CppString* serverKey_ = {}, ::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, ::Il2CppString* playerKey_ = {}, ::Il2CppString* authType_ = {}, ::Il2CppString* playerFriends_ = {}, bool succeeded_ = {}) noexcept : serverKey{serverKey_}, playerId{playerId_}, playerName{playerName_}, playerKey{playerKey_}, authType{authType_}, playerFriends{playerFriends_}, succeeded{succeeded_} {}
     // public System.String get_playerId()
-    // Offset: 0x1119C10
+    // Offset: 0x106BA18
     ::Il2CppString* get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x1119C18
+    // Offset: 0x106BA20
     void set_playerId(::Il2CppString* value);
     // public System.String get_playerName()
-    // Offset: 0x1119C20
+    // Offset: 0x106BA28
     ::Il2CppString* get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0x1119C28
+    // Offset: 0x106BA30
     void set_playerName(::Il2CppString* value);
     // public System.String get_playerKey()
-    // Offset: 0x1119C30
+    // Offset: 0x106BA38
     ::Il2CppString* get_playerKey();
     // private System.Void set_playerKey(System.String value)
-    // Offset: 0x1119C38
+    // Offset: 0x106BA40
     void set_playerKey(::Il2CppString* value);
     // public System.String get_authType()
-    // Offset: 0x1119C40
+    // Offset: 0x106BA48
     ::Il2CppString* get_authType();
     // private System.Void set_authType(System.String value)
-    // Offset: 0x1119C48
+    // Offset: 0x106BA50
     void set_authType(::Il2CppString* value);
     // public System.String get_playerFriends()
-    // Offset: 0x1119C50
+    // Offset: 0x106BA58
     ::Il2CppString* get_playerFriends();
     // private System.Void set_playerFriends(System.String value)
-    // Offset: 0x1119C58
+    // Offset: 0x106BA60
     void set_playerFriends(::Il2CppString* value);
     // public System.Boolean get_succeeded()
-    // Offset: 0x1119C60
+    // Offset: 0x106BA68
     bool get_succeeded();
     // private System.Void set_succeeded(System.Boolean value)
-    // Offset: 0x1119C68
+    // Offset: 0x106BA70
     void set_succeeded(bool value);
     // public System.Void .ctor(System.Boolean succeeded, System.String playerId, System.String playerName, System.String playerKey, System.String authType, System.String playerFriends)
-    // Offset: 0x1119C74
+    // Offset: 0x106BA7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::Il2CppString* playerId, ::Il2CppString* playerName, ::Il2CppString* playerKey, ::Il2CppString* authType, ::Il2CppString* playerFriends) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardPlayerInfo::.ctor");

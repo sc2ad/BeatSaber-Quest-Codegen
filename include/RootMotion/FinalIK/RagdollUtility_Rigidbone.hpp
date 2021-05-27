@@ -106,17 +106,17 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Rigidbone
     Rigidbone(UnityEngine::Rigidbody* r_ = {}, UnityEngine::Transform* t_ = {}, UnityEngine::Collider* collider_ = {}, UnityEngine::Joint* joint_ = {}, UnityEngine::Rigidbody* c_ = {}, bool updateAnchor_ = {}, UnityEngine::Vector3 deltaPosition_ = {}, UnityEngine::Quaternion deltaRotation_ = {}, float deltaTime_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Quaternion lastRotation_ = {}) noexcept : r{r_}, t{t_}, collider{collider_}, joint{joint_}, c{c_}, updateAnchor{updateAnchor_}, deltaPosition{deltaPosition_}, deltaRotation{deltaRotation_}, deltaTime{deltaTime_}, lastPosition{lastPosition_}, lastRotation{lastRotation_} {}
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x190568C
+    // Offset: 0x1A89084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Rigidbone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Rigidbone*, creationType>(r)));
     }
     // public System.Void RecordVelocity()
-    // Offset: 0x1906298
+    // Offset: 0x1A89C90
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x190607C
+    // Offset: 0x1A89A74
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/Rigidbone
   #pragma pack(pop)

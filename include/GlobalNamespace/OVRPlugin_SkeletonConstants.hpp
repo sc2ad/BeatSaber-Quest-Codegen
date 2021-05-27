@@ -32,8 +32,14 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
+    // static field const value: static public OVRPlugin/SkeletonConstants MaxHandBones
+    static constexpr const int MaxHandBones = 24;
+    // Get static field: static public OVRPlugin/SkeletonConstants MaxHandBones
+    static GlobalNamespace::OVRPlugin::SkeletonConstants _get_MaxHandBones();
+    // Set static field: static public OVRPlugin/SkeletonConstants MaxHandBones
+    static void _set_MaxHandBones(GlobalNamespace::OVRPlugin::SkeletonConstants value);
     // static field const value: static public OVRPlugin/SkeletonConstants MaxBones
-    static constexpr const int MaxBones = 24;
+    static constexpr const int MaxBones = 50;
     // Get static field: static public OVRPlugin/SkeletonConstants MaxBones
     static GlobalNamespace::OVRPlugin::SkeletonConstants _get_MaxBones();
     // Set static field: static public OVRPlugin/SkeletonConstants MaxBones

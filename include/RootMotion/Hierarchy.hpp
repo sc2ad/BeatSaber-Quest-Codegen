@@ -28,37 +28,37 @@ namespace RootMotion {
     // Creating value type constructor for type: Hierarchy
     Hierarchy() noexcept {}
     // static public System.Boolean HierarchyIsValid(UnityEngine.Transform[] bones)
-    // Offset: 0x1912058
+    // Offset: 0x1A95A50
     static bool HierarchyIsValid(::Array<UnityEngine::Transform*>* bones);
     // static public UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects)
-    // Offset: 0x1912258
+    // Offset: 0x1A95C50
     static UnityEngine::Object* ContainsDuplicate(::Array<UnityEngine::Object*>* objects);
     // static public System.Boolean IsAncestor(UnityEngine.Transform transform, UnityEngine.Transform ancestor)
-    // Offset: 0x19120F0
+    // Offset: 0x1A95AE8
     static bool IsAncestor(UnityEngine::Transform* transform, UnityEngine::Transform* ancestor);
     // static public System.Boolean ContainsChild(UnityEngine.Transform transform, UnityEngine.Transform child)
-    // Offset: 0x191237C
+    // Offset: 0x1A95D74
     static bool ContainsChild(UnityEngine::Transform* transform, UnityEngine::Transform* child);
     // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, ref UnityEngine.Transform[] array)
-    // Offset: 0x19124A0
+    // Offset: 0x1A95E98
     static void AddAncestors(UnityEngine::Transform* transform, UnityEngine::Transform* blocker, ::Array<UnityEngine::Transform*>*& array);
     // static public UnityEngine.Transform GetAncestor(UnityEngine.Transform transform, System.Int32 minChildCount)
-    // Offset: 0x1912748
+    // Offset: 0x1A96140
     static UnityEngine::Transform* GetAncestor(UnityEngine::Transform* transform, int minChildCount);
     // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform t1, UnityEngine.Transform t2)
-    // Offset: 0x1912864
+    // Offset: 0x1A9625C
     static UnityEngine::Transform* GetFirstCommonAncestor(UnityEngine::Transform* t1, UnityEngine::Transform* t2);
     // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform[] transforms)
-    // Offset: 0x19129EC
+    // Offset: 0x1A963E4
     static UnityEngine::Transform* GetFirstCommonAncestor(::Array<UnityEngine::Transform*>* transforms);
     // static public UnityEngine.Transform GetFirstCommonAncestorRecursive(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
-    // Offset: 0x1912D80
+    // Offset: 0x1A96778
     static UnityEngine::Transform* GetFirstCommonAncestorRecursive(UnityEngine::Transform* transform, ::Array<UnityEngine::Transform*>* transforms);
     // static public System.Boolean IsCommonAncestor(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
-    // Offset: 0x1912B6C
+    // Offset: 0x1A96564
     static bool IsCommonAncestor(UnityEngine::Transform* transform, ::Array<UnityEngine::Transform*>* transforms);
     // public System.Void .ctor()
-    // Offset: 0x1912F20
+    // Offset: 0x1A96918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

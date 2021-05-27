@@ -42,13 +42,13 @@ namespace GlobalNamespace {
       return unsubscribes;
     }
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x117A83C
+    // Offset: 0x1227B28
     void Bind(System::Action* subscribe, System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x117A8B8
+    // Offset: 0x1227BA4
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0x117A9C8
+    // Offset: 0x1227CB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

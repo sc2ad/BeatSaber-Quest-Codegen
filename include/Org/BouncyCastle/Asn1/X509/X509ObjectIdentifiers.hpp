@@ -102,7 +102,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier CrlAccessMethod
     static void _set_CrlAccessMethod(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x185F958
+    // Offset: 0x19F69F0
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.X509.X509ObjectIdentifiers
   #pragma pack(pop)

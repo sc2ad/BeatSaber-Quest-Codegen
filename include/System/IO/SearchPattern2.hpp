@@ -62,27 +62,27 @@ namespace System::IO {
     // Set static field: static readonly System.Char[] InvalidChars
     static void _set_InvalidChars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x16DA15C
+    // Offset: 0x185D4C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::Il2CppString* pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
-    // Offset: 0x16DAEBC
+    // Offset: 0x185E228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::Il2CppString* pattern, bool ignore) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern, ignore)));
     }
     // public System.Boolean get_HasWildcard()
-    // Offset: 0x16DB1E8
+    // Offset: 0x185E554
     bool get_HasWildcard();
     // private System.Void Compile(System.String pattern)
-    // Offset: 0x16DAF04
+    // Offset: 0x185E270
     void Compile(::Il2CppString* pattern);
     // static private System.Void .cctor()
-    // Offset: 0x16DB220
+    // Offset: 0x185E58C
     static void _cctor();
   }; // System.IO.SearchPattern2
   #pragma pack(pop)

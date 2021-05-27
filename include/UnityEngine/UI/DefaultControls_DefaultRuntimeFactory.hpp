@@ -44,7 +44,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.DefaultControls/IFactoryControls Default
     static void _set_Default(UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x1344200
+    // Offset: 0x142560C
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
@@ -54,10 +54,10 @@ namespace UnityEngine::UI {
       return CreateGameObject(name, {components...});
     }
     // static private System.Void .cctor()
-    // Offset: 0x134427C
+    // Offset: 0x1425688
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1344274
+    // Offset: 0x1425680
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,14 +31,14 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xD35E38
+    // [LocalizationKeyAttribute] Offset: 0xE1661C
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* descriptionLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xD35E70
+    // [LocalizationKeyAttribute] Offset: 0xE16654
     // private System.String _characteristicNameLocalizationKey
     // Size: 0x8
     // Offset: 0x28
@@ -88,34 +88,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x10AA168
+    // Offset: 0x11A5334
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x10AA170
+    // Offset: 0x11A533C
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x10AA178
+    // Offset: 0x11A5344
     ::Il2CppString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x10AA180
+    // Offset: 0x11A534C
     ::Il2CppString* get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x10AA188
+    // Offset: 0x11A5354
     ::Il2CppString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x10AA190
+    // Offset: 0x11A535C
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x10AA198
+    // Offset: 0x11A5364
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x10AA1A0
+    // Offset: 0x11A536C
     bool get_requires360Movement();
     // public System.Int32 get_numberOfColors()
-    // Offset: 0x10AA1A8
+    // Offset: 0x11A5374
     int get_numberOfColors();
     // public System.Void .ctor()
-    // Offset: 0x10AA1B0
+    // Offset: 0x11A537C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

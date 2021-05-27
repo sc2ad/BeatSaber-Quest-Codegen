@@ -23,7 +23,7 @@ namespace System::Net {
     // Creating value type constructor for type: InfiniteTimerQueue
     InfiniteTimerQueue() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x1425364
+    // Offset: 0x15A09BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

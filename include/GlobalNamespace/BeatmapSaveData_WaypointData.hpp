@@ -55,26 +55,26 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
     // public System.Single get_time()
-    // Offset: 0xF2D760
+    // Offset: 0x1083660
     float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0xF2D768
+    // Offset: 0x1083668
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0xF2D770
+    // Offset: 0x1083670
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0xF2D778
+    // Offset: 0x1083678
     GlobalNamespace::OffsetDirection get_offsetDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, OffsetDirection offsetDirection)
-    // Offset: 0xF2D780
+    // Offset: 0x1083680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::WaypointData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::WaypointData*, creationType>(time, lineIndex, lineLayer, offsetDirection)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xF2D7D0
+    // Offset: 0x10836D0
     void MoveTime(float offset);
   }; // BeatmapSaveData/WaypointData
   #pragma pack(pop)

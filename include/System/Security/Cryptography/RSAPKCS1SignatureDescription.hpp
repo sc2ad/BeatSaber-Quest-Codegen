@@ -31,7 +31,7 @@ namespace System::Security::Cryptography {
       return hashAlgorithm;
     }
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
-    // Offset: 0x1960D74
+    // Offset: 0x1ACA478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDescription* New_ctor(::Il2CppString* hashAlgorithm, ::Il2CppString* digestAlgorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDescription::.ctor");

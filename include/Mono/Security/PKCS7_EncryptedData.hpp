@@ -54,20 +54,20 @@ namespace Mono::Security {
     // Creating value type constructor for type: EncryptedData
     EncryptedData(uint8_t version_ = {}, Mono::Security::PKCS7::ContentInfo* content_ = {}, Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm_ = {}, ::Array<uint8_t>* encrypted_ = {}) noexcept : version{version_}, content{content_}, encryptionAlgorithm{encryptionAlgorithm_}, encrypted{encrypted_} {}
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1B9FE18
+    // Offset: 0x1D5D828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>(asn1)));
     }
     // public Mono.Security.PKCS7/ContentInfo get_EncryptionAlgorithm()
-    // Offset: 0x1BA00CC
+    // Offset: 0x1D5DADC
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
-    // Offset: 0x1BA00D4
+    // Offset: 0x1D5DAE4
     ::Array<uint8_t>* get_EncryptedContent();
     // public System.Void .ctor()
-    // Offset: 0x1B9FDF0
+    // Offset: 0x1D5D800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

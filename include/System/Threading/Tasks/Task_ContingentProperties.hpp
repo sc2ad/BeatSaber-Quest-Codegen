@@ -96,13 +96,13 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: ContingentProperties
     ContingentProperties(System::Threading::ExecutionContext* m_capturedContext_ = {}, System::Threading::ManualResetEventSlim* m_completionEvent_ = {}, System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder_ = {}, System::Threading::CancellationToken m_cancellationToken_ = {}, System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>* m_cancellationRegistration_ = {}, int m_internalCancellationRequested_ = {}, int m_completionCountdown_ = {}, System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* m_exceptionalChildren_ = {}) noexcept : m_capturedContext{m_capturedContext_}, m_completionEvent{m_completionEvent_}, m_exceptionsHolder{m_exceptionsHolder_}, m_cancellationToken{m_cancellationToken_}, m_cancellationRegistration{m_cancellationRegistration_}, m_internalCancellationRequested{m_internalCancellationRequested_}, m_completionCountdown{m_completionCountdown_}, m_exceptionalChildren{m_exceptionalChildren_} {}
     // System.Void SetCompleted()
-    // Offset: 0x16DE82C
+    // Offset: 0x187484C
     void SetCompleted();
     // System.Void DeregisterCancellationCallback()
-    // Offset: 0x16DE864
+    // Offset: 0x1874884
     void DeregisterCancellationCallback();
     // public System.Void .ctor()
-    // Offset: 0x16DE3D4
+    // Offset: 0x18743F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

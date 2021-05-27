@@ -94,22 +94,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
     // static public PacketPool`1<PartyMessageHandler/ServerStatusUpdateMessage> get_pool()
-    // Offset: 0x15E56CC
+    // Offset: 0x14ED54C
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* get_pool();
     // public PartyMessageHandler/ServerStatusUpdateMessage Init(System.String serverName, System.String password, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x15E59B0
+    // Offset: 0x14ED830
     GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* Init(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15E6DEC
+    // Offset: 0x14EEC6C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15E6E70
+    // Offset: 0x14EECF0
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x15E6064
+    // Offset: 0x14EDEE4
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x15E6F10
+    // Offset: 0x14EED90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

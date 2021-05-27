@@ -9,11 +9,18 @@
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectSpawnMovementData
   class BeatmapObjectSpawnMovementData;
+  // Forward declaring type: NoteLineLayer
+  struct NoteLineLayer;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action
   class Action;
+}
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Vector2
+  struct Vector2;
 }
 // Completed forward declares
 // Type namespace: 
@@ -64,6 +71,12 @@ namespace GlobalNamespace {
     // public System.Void remove_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void remove_didInitEvent(System::Action* value);
+    // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
+    // Offset: 0xFFFFFFFF
+    UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
+    // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
+    // Offset: 0xFFFFFFFF
+    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
   }; // IBeatmapObjectSpawnController
   #pragma pack(pop)
 }

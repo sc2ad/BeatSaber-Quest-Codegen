@@ -27,19 +27,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FileHelpers
     FileHelpers() noexcept {}
     // static public System.String GetEscapedURLForFilePath(System.String filePath)
-    // Offset: 0x117B880
+    // Offset: 0x1228E40
     static ::Il2CppString* GetEscapedURLForFilePath(::Il2CppString* filePath);
     // static public System.String GetUniqueDirectoryNameByAppendingNumber(System.String dirName)
-    // Offset: 0x117B8E4
+    // Offset: 0x1228EA4
     static ::Il2CppString* GetUniqueDirectoryNameByAppendingNumber(::Il2CppString* dirName);
     // static public System.String[] GetFilePaths(System.String directoryPath, System.Collections.Generic.HashSet`1<System.String> extensions)
-    // Offset: 0x117B998
+    // Offset: 0x1228F58
     static ::Array<::Il2CppString*>* GetFilePaths(::Il2CppString* directoryPath, System::Collections::Generic::HashSet_1<::Il2CppString*>* extensions);
     // static public System.String[] GetFileNamesFromFilePaths(System.String[] filePaths)
-    // Offset: 0x117BB38
+    // Offset: 0x12290F8
     static ::Array<::Il2CppString*>* GetFileNamesFromFilePaths(::Array<::Il2CppString*>* filePaths);
     // static public System.Void SaveToJSONFile(System.Object obj, System.String filePath, System.String tempFilePath, System.String backupFilePath)
-    // Offset: 0x117BC58
+    // Offset: 0x1229218
     static void SaveToJSONFile(::Il2CppObject* obj, ::Il2CppString* filePath, ::Il2CppString* tempFilePath, ::Il2CppString* backupFilePath);
     // static public T LoadFromJSONFile(System.String filePath, System.String backupFilePath)
     // Offset: 0xFFFFFFFF
@@ -51,10 +51,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, filePath, backupFilePath);
     }
     // static public System.String LoadJSONFile(System.String filePath, System.String backupFilePath)
-    // Offset: 0x117BDC4
+    // Offset: 0x1229384
     static ::Il2CppString* LoadJSONFile(::Il2CppString* filePath, ::Il2CppString* backupFilePath);
     // public System.Void .ctor()
-    // Offset: 0x117BF3C
+    // Offset: 0x12294FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,21 +30,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD202B4
+    // [DescriptionAttribute] Offset: 0xDFEEB8
     // static field const value: static public Oculus.Platform.PermissionType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PermissionType Unknown
     static Oculus::Platform::PermissionType _get_Unknown();
     // Set static field: static public Oculus.Platform.PermissionType Unknown
     static void _set_Unknown(Oculus::Platform::PermissionType value);
-    // [DescriptionAttribute] Offset: 0xD202EC
+    // [DescriptionAttribute] Offset: 0xDFEEF0
     // static field const value: static public Oculus.Platform.PermissionType Microphone
     static constexpr const int Microphone = 1;
     // Get static field: static public Oculus.Platform.PermissionType Microphone
     static Oculus::Platform::PermissionType _get_Microphone();
     // Set static field: static public Oculus.Platform.PermissionType Microphone
     static void _set_Microphone(Oculus::Platform::PermissionType value);
-    // [DescriptionAttribute] Offset: 0xD20324
+    // [DescriptionAttribute] Offset: 0xDFEF28
     // static field const value: static public Oculus.Platform.PermissionType WriteExternalStorage
     static constexpr const int WriteExternalStorage = 2;
     // Get static field: static public Oculus.Platform.PermissionType WriteExternalStorage

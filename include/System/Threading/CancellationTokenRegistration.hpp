@@ -58,25 +58,25 @@ namespace System::Threading {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
-    // Offset: 0xE0BDB8
+    // Offset: 0xEFFE7C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo)
     // System.Boolean TryDeregister()
-    // Offset: 0xE0BDC4
+    // Offset: 0xEFFE88
     bool TryDeregister();
     // public System.Void Dispose()
-    // Offset: 0xE0BDCC
+    // Offset: 0xEFFE90
     void Dispose();
     // public System.Boolean Equals(System.Threading.CancellationTokenRegistration other)
-    // Offset: 0xE0BDDC
+    // Offset: 0xEFFEA0
     bool Equals(System::Threading::CancellationTokenRegistration other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE0BDD4
+    // Offset: 0xEFFE98
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE0BE14
+    // Offset: 0xEFFED8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

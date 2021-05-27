@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0xF2FD10
+    // Offset: 0x1085E74
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

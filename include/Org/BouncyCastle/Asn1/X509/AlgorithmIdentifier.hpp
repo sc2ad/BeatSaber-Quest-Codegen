@@ -46,33 +46,33 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: AlgorithmIdentifier
     AlgorithmIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* parameters_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_} {}
     // static public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1852F0C
+    // Offset: 0x19E9FA4
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier GetInstance(System.Object obj)
-    // Offset: 0x1852F28
+    // Offset: 0x19E9FC0
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x1853168
+    // Offset: 0x19EA200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlgorithmIdentifier* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlgorithmIdentifier*, creationType>(algorithm, parameters)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1852FCC
+    // Offset: 0x19EA064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlgorithmIdentifier* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlgorithmIdentifier*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Algorithm()
-    // Offset: 0x18531A0
+    // Offset: 0x19EA238
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Parameters()
-    // Offset: 0x18531A8
+    // Offset: 0x19EA240
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Parameters();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x18531B0
+    // Offset: 0x19EA248
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

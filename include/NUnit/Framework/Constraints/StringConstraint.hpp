@@ -48,7 +48,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: StringConstraint
     StringConstraint(::Il2CppString* expected_ = {}, bool caseInsensitive_ = {}, ::Il2CppString* descriptionText_ = {}) noexcept : expected{expected_}, caseInsensitive{caseInsensitive_}, descriptionText{descriptionText_} {}
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x15CB2A0
+    // Offset: 0x1716058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringConstraint* New_ctor(::Il2CppString* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::StringConstraint::.ctor");
@@ -58,12 +58,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool Matches(::Il2CppString* actual);
     // public override System.String get_Description()
-    // Offset: 0x15CB86C
+    // Offset: 0x1716624
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x15CB92C
+    // Offset: 0x17166E4
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

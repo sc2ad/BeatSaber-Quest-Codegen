@@ -37,20 +37,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return e;
     }
     // System.Void .ctor(System.Collections.IEnumerator e)
-    // Offset: 0x185A478
+    // Offset: 0x19F1510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator* New_ctor(System::Collections::IEnumerator* e) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, creationType>(e)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x185A4A4
+    // Offset: 0x19F153C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x185A554
+    // Offset: 0x19F15EC
     void Reset();
     // public System.Object get_Current()
-    // Offset: 0x185A608
+    // Offset: 0x19F16A0
     ::Il2CppObject* get_Current();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator
   #pragma pack(pop)

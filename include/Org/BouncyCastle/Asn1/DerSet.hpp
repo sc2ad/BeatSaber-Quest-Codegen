@@ -35,20 +35,20 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerSet Empty
     static void _set_Empty(Org::BouncyCastle::Asn1::DerSet* value);
     // static Org.BouncyCastle.Asn1.DerSet FromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector, System.Boolean needsSorting)
-    // Offset: 0x15624A4
+    // Offset: 0x16DB094
     static Org::BouncyCastle::Asn1::DerSet* FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector, System.Boolean needsSorting)
-    // Offset: 0x156620C
+    // Offset: 0x16DEDFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerSet* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>(elementVector, needsSorting)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1574308
+    // Offset: 0x16ECEF8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1569650
+    // Offset: 0x16E2240
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Void Asn1Set::.ctor()
     // Base method: System.Void Asn1Object::.ctor()
@@ -60,7 +60,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
-    // Offset: 0x1566208
+    // Offset: 0x16DEDF8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Void Asn1Set::.ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,7 +69,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>(element)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x15742E4
+    // Offset: 0x16ECED4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Void Asn1Set::.ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +78,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>(elementVector)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1569A10
+    // Offset: 0x16E2600
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

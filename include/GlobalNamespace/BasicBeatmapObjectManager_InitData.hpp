@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool disappearingArrows_ = {}, bool ghostNotes_ = {}, float cutAngleTolerance_ = {}, float notesUniformScale_ = {}) noexcept : disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_}, cutAngleTolerance{cutAngleTolerance_}, notesUniformScale{notesUniformScale_} {}
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single cutAngleTolerance, System.Single notesUniformScale)
-    // Offset: 0x10A5454
+    // Offset: 0x11A05FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float cutAngleTolerance, float notesUniformScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::InitData::.ctor");

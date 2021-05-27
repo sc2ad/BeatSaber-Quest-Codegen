@@ -51,14 +51,14 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: DelayPromise
     DelayPromise(System::Threading::CancellationToken Token_ = {}, System::Threading::CancellationTokenRegistration Registration_ = {}, System::Threading::Timer* Timer_ = {}) noexcept : Token{Token_}, Registration{Registration_}, Timer{Timer_} {}
     // System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x16DE92C
+    // Offset: 0x187494C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::DelayPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::DelayPromise*, creationType>(token)));
     }
     // System.Void Complete()
-    // Offset: 0x16DE1B8
+    // Offset: 0x18741D8
     void Complete();
   }; // System.Threading.Tasks.Task/DelayPromise
   // WARNING Not writing size check since size may be invalid!

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorHueSlider* colorHueSlider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorHueSlider*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD40B74
+    // [CompilerGeneratedAttribute] Offset: 0xE211F8
     // private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     // Size: 0x8
     // Offset: 0x28
@@ -72,37 +72,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xF6B988
+    // Offset: 0x104AFB4
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xF6BA2C
+    // Offset: 0x104B058
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xF6BAD0
+    // Offset: 0x104B0FC
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xF6BAE0
+    // Offset: 0x104B10C
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xF6BBA8
+    // Offset: 0x104B1D4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xF6BC88
+    // Offset: 0x104B2B4
     void OnDestroy();
     // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF6BDE0
+    // Offset: 0x104B40C
     void HandleColorSaturationOrValueDidChange(GlobalNamespace::ColorSaturationValueSlider* slider, UnityEngine::Vector2 colorSaturationAndValue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF6BE78
+    // Offset: 0x104B4A4
     void HandleColorHueDidChange(GlobalNamespace::ColorHueSlider* slider, float hue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0xF6BB40
+    // Offset: 0x104B16C
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0xF6BB1C
+    // Offset: 0x104B148
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0xF6BF08
+    // Offset: 0x104B534
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

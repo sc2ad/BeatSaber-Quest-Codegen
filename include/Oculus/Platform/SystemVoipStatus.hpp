@@ -30,28 +30,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD20EFC
+    // [DescriptionAttribute] Offset: 0xDFFB00
     // static field const value: static public Oculus.Platform.SystemVoipStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Unknown
     static Oculus::Platform::SystemVoipStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Unknown
     static void _set_Unknown(Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0xD20F34
+    // [DescriptionAttribute] Offset: 0xDFFB38
     // static field const value: static public Oculus.Platform.SystemVoipStatus Unavailable
     static constexpr const int Unavailable = 1;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Unavailable
     static Oculus::Platform::SystemVoipStatus _get_Unavailable();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Unavailable
     static void _set_Unavailable(Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0xD20F6C
+    // [DescriptionAttribute] Offset: 0xDFFB70
     // static field const value: static public Oculus.Platform.SystemVoipStatus Suppressed
     static constexpr const int Suppressed = 2;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Suppressed
     static Oculus::Platform::SystemVoipStatus _get_Suppressed();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Suppressed
     static void _set_Suppressed(Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0xD20FA4
+    // [DescriptionAttribute] Offset: 0xDFFBA8
     // static field const value: static public Oculus.Platform.SystemVoipStatus Active
     static constexpr const int Active = 3;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Active

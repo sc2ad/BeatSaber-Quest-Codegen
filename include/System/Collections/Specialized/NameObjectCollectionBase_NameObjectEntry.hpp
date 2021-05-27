@@ -33,7 +33,7 @@ namespace System::Collections::Specialized {
     // Creating value type constructor for type: NameObjectEntry
     NameObjectEntry(::Il2CppString* Key_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Key{Key_}, Value{Value_} {}
     // System.Void .ctor(System.String name, System.Object value)
-    // Offset: 0x16C99A0
+    // Offset: 0x184CD0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::Il2CppString* name, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::.ctor");

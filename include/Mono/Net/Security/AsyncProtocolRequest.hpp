@@ -48,14 +48,14 @@ namespace Mono::Net::Security {
     struct $ProcessOperation$d__24;
     // Nested type: Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25
     struct $InnerRead$d__25;
-    // [CompilerGeneratedAttribute] Offset: 0xCB34CC
+    // [CompilerGeneratedAttribute] Offset: 0xD887FC
     // private readonly Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     Mono::Net::Security::MobileAuthenticatedStream* Parent;
     // Field size check
     static_assert(sizeof(Mono::Net::Security::MobileAuthenticatedStream*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xCB34DC
+    // [CompilerGeneratedAttribute] Offset: 0xD8880C
     // private readonly System.Boolean <RunSynchronously>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -64,7 +64,7 @@ namespace Mono::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: RunSynchronously and: UserResult
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xCB34EC
+    // [CompilerGeneratedAttribute] Offset: 0xD8881C
     // private System.Int32 <UserResult>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -100,47 +100,47 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: AsyncProtocolRequest
     AsyncProtocolRequest(Mono::Net::Security::MobileAuthenticatedStream* Parent_ = {}, bool RunSynchronously_ = {}, int UserResult_ = {}, int Started_ = {}, int RequestedSize_ = {}, int WriteRequested_ = {}, ::Il2CppObject* locker_ = {}) noexcept : Parent{Parent_}, RunSynchronously{RunSynchronously_}, UserResult{UserResult_}, Started{Started_}, RequestedSize{RequestedSize_}, WriteRequested{WriteRequested_}, locker{locker_} {}
     // public Mono.Net.Security.MobileAuthenticatedStream get_Parent()
-    // Offset: 0x144FE7C
+    // Offset: 0x15D4B2C
     Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
     // public System.Boolean get_RunSynchronously()
-    // Offset: 0x144FE84
+    // Offset: 0x15D4B34
     bool get_RunSynchronously();
     // public System.String get_Name()
-    // Offset: 0x144FE8C
+    // Offset: 0x15D4B3C
     ::Il2CppString* get_Name();
     // public System.Int32 get_UserResult()
-    // Offset: 0x144FEB4
+    // Offset: 0x15D4B64
     int get_UserResult();
     // protected System.Void set_UserResult(System.Int32 value)
-    // Offset: 0x144FEBC
+    // Offset: 0x15D4B6C
     void set_UserResult(int value);
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
-    // Offset: 0x144FC14
+    // Offset: 0x15D48C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolRequest*, creationType>(parent, sync)));
     }
     // System.Void RequestRead(System.Int32 size)
-    // Offset: 0x144FEC4
+    // Offset: 0x15D4B74
     void RequestRead(int size);
     // System.Void RequestWrite()
-    // Offset: 0x144FF5C
+    // Offset: 0x15D4C0C
     void RequestWrite();
     // System.Threading.Tasks.Task`1<Mono.Net.Security.AsyncProtocolResult> StartOperation(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x144FF68
+    // Offset: 0x15D4C18
     System::Threading::Tasks::Task_1<Mono::Net::Security::AsyncProtocolResult*>* StartOperation(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task ProcessOperation(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1450074
+    // Offset: 0x15D4D24
     System::Threading::Tasks::Task* ProcessOperation(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Nullable`1<System.Int32>> InnerRead(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1450174
+    // Offset: 0x15D4E24
     System::Threading::Tasks::Task_1<System::Nullable_1<int>>* InnerRead(System::Threading::CancellationToken cancellationToken);
     // protected Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
     // Offset: 0xFFFFFFFF
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);
     // public override System.String ToString()
-    // Offset: 0x1450284
+    // Offset: 0x15D4F34
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -77,30 +77,30 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerInteger DefaultTrailerField
     static void _set_DefaultTrailerField(Org::BouncyCastle::Asn1::DerInteger* value);
     // static public Org.BouncyCastle.Asn1.Pkcs.RsassaPssParameters GetInstance(System.Object obj)
-    // Offset: 0x1628EE4
+    // Offset: 0x172D240
     static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm, Org.BouncyCastle.Asn1.DerInteger saltLength, Org.BouncyCastle.Asn1.DerInteger trailerField)
-    // Offset: 0x162924C
+    // Offset: 0x172D5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsassaPssParameters* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm, Org::BouncyCastle::Asn1::DerInteger* saltLength, Org::BouncyCastle::Asn1::DerInteger* trailerField) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsassaPssParameters*, creationType>(hashAlgorithm, maskGenAlgorithm, saltLength, trailerField)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1629064
+    // Offset: 0x172D3C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsassaPssParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsassaPssParameters*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_HashAlgorithm()
-    // Offset: 0x1629298
+    // Offset: 0x172D5F4
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
     // static private System.Void .cctor()
-    // Offset: 0x162952C
+    // Offset: 0x172D888
     static void _cctor();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16292A0
+    // Offset: 0x172D5FC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DifficultyTableCell
     DifficultyTableCell(TMPro::TextMeshProUGUI* difficultyText_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, GlobalNamespace::FillIndicator* fillIndicator_ = {}) noexcept : difficultyText{difficultyText_}, bgImage{bgImage_}, highlightImage{highlightImage_}, fillIndicator{fillIndicator_} {}
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0x106C3CC
+    // Offset: 0x10B62D4
     void set_difficultyText(::Il2CppString* value);
     // public System.String get_difficultyText()
-    // Offset: 0x106C3E8
+    // Offset: 0x10B62F0
     ::Il2CppString* get_difficultyText();
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0x106C404
+    // Offset: 0x10B630C
     void set_difficultyValue(int value);
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x106C4A0
+    // Offset: 0x10B63F4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x106C538
+    // Offset: 0x10B648C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x106C574
+    // Offset: 0x10B64C8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

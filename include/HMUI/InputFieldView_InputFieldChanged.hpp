@@ -22,7 +22,7 @@ namespace HMUI {
     // Creating value type constructor for type: InputFieldChanged
     InputFieldChanged() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12153C4
+    // Offset: 0x1295A78
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

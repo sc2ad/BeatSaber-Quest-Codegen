@@ -66,19 +66,19 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock> s_OrderBlocks
     static void _set_s_OrderBlocks(System::Collections::Generic::List_1<UnityEngine::BeforeRenderHelper::OrderBlock>* value);
     // static private System.Int32 GetUpdateOrder(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1A01A58
+    // Offset: 0x1B6FE1C
     static int GetUpdateOrder(UnityEngine::Events::UnityAction* callback);
     // static public System.Void RegisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x19FF934
+    // Offset: 0x1B6DCB8
     static void RegisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void UnregisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x19FFCD4
+    // Offset: 0x1B6E058
     static void UnregisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void Invoke()
-    // Offset: 0x1A0034C
+    // Offset: 0x1B6E6D0
     static void Invoke();
     // static private System.Void .cctor()
-    // Offset: 0x1A01D78
+    // Offset: 0x1B7013C
     static void _cctor();
   }; // UnityEngine.BeforeRenderHelper
   #pragma pack(pop)

@@ -40,7 +40,7 @@ namespace System::Globalization {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0xE0D560
+    // Offset: 0xF02228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     HebrewNumberParsingContext(int result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::HebrewNumberParsingContext::.ctor");

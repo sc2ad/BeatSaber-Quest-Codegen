@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectToServerParams
     ConnectToServerParams(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, ::Il2CppString* password_ = {}, System::Net::IPEndPoint* endPoint_ = {}, ::Il2CppString* serverUserId_ = {}, ::Il2CppString* serverUserName_ = {}) noexcept : secret{secret_}, code{code_}, password{password_}, endPoint{endPoint_}, serverUserId{serverUserId_}, serverUserName{serverUserName_} {}
     // public System.Void .ctor()
-    // Offset: 0x12B7F2C
+    // Offset: 0x14E1520
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

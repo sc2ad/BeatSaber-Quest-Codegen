@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xD3BF38
+    // [InjectAttribute] Offset: 0xE1C940
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
@@ -39,18 +39,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissMissionObjectiveChecker
     MissMissionObjectiveChecker(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : beatmapObjectManager{beatmapObjectManager_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0xF41F3C
+    // Offset: 0x104E05C
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0xF41FDC
+    // Offset: 0x104E0FC
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // protected override System.Void Init()
-    // Offset: 0xF41DB4
+    // Offset: 0x104DED4
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xF420B8
+    // Offset: 0x104E1E8
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()

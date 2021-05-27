@@ -29,18 +29,18 @@ namespace System::Configuration {
     // Creating value type constructor for type: ConfigurationSection
     ConfigurationSection() noexcept {}
     // protected internal System.Void DeserializeSection(System.Xml.XmlReader reader)
-    // Offset: 0x21B64EC
+    // Offset: 0x23D8100
     void DeserializeSection(System::Xml::XmlReader* reader);
     // protected internal System.String SerializeSection(System.Configuration.ConfigurationElement parentElement, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
-    // Offset: 0x21B65AC
+    // Offset: 0x23D81C0
     ::Il2CppString* SerializeSection(System::Configuration::ConfigurationElement* parentElement, ::Il2CppString* name, System::Configuration::ConfigurationSaveMode saveMode);
     // protected internal override System.Boolean IsModified()
-    // Offset: 0x21B652C
+    // Offset: 0x23D8140
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Boolean ConfigurationElement::IsModified()
     bool IsModified();
     // protected internal override System.Void ResetModified()
-    // Offset: 0x21B656C
+    // Offset: 0x23D8180
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Void ConfigurationElement::ResetModified()
     void ResetModified();

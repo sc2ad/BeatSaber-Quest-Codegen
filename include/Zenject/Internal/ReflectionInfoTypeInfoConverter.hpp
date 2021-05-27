@@ -69,37 +69,37 @@ namespace Zenject::Internal {
     // Creating value type constructor for type: ReflectionInfoTypeInfoConverter
     ReflectionInfoTypeInfoConverter() noexcept {}
     // static public Zenject.InjectTypeInfo/InjectMethodInfo ConvertMethod(Zenject.Internal.ReflectionTypeInfo/InjectMethodInfo injectMethod)
-    // Offset: 0x148BDAC
+    // Offset: 0x1629B38
     static Zenject::InjectTypeInfo::InjectMethodInfo* ConvertMethod(Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo* injectMethod);
     // static public Zenject.InjectTypeInfo/InjectConstructorInfo ConvertConstructor(Zenject.Internal.ReflectionTypeInfo/InjectConstructorInfo injectConstructor, System.Type type)
-    // Offset: 0x148BF74
+    // Offset: 0x1629D00
     static Zenject::InjectTypeInfo::InjectConstructorInfo* ConvertConstructor(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* injectConstructor, System::Type* type);
     // static public Zenject.InjectTypeInfo/InjectMemberInfo ConvertField(System.Type parentType, Zenject.Internal.ReflectionTypeInfo/InjectFieldInfo injectField)
-    // Offset: 0x148C258
+    // Offset: 0x1629FE4
     static Zenject::InjectTypeInfo::InjectMemberInfo* ConvertField(System::Type* parentType, Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* injectField);
     // static public Zenject.InjectTypeInfo/InjectMemberInfo ConvertProperty(System.Type parentType, Zenject.Internal.ReflectionTypeInfo/InjectPropertyInfo injectProperty)
-    // Offset: 0x148C4A0
+    // Offset: 0x162A22C
     static Zenject::InjectTypeInfo::InjectMemberInfo* ConvertProperty(System::Type* parentType, Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* injectProperty);
     // static private Zenject.ZenFactoryMethod TryCreateFactoryMethod(System.Type type, Zenject.Internal.ReflectionTypeInfo/InjectConstructorInfo reflectionInfo)
-    // Offset: 0x148C0CC
+    // Offset: 0x1629E58
     static Zenject::ZenFactoryMethod* TryCreateFactoryMethod(System::Type* type, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* reflectionInfo);
     // static private Zenject.ZenFactoryMethod TryCreateFactoryMethodCompiledLambdaExpression(System.Type type, System.Reflection.ConstructorInfo constructor)
-    // Offset: 0x148C53C
+    // Offset: 0x162A2C8
     static Zenject::ZenFactoryMethod* TryCreateFactoryMethodCompiledLambdaExpression(System::Type* type, System::Reflection::ConstructorInfo* constructor);
     // static private Zenject.ZenInjectMethod TryCreateActionForMethod(System.Reflection.MethodInfo methodInfo)
-    // Offset: 0x148BF6C
+    // Offset: 0x1629CF8
     static Zenject::ZenInjectMethod* TryCreateActionForMethod(System::Reflection::MethodInfo* methodInfo);
     // static private System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> GetAllFields(System.Type t, System.Reflection.BindingFlags flags)
-    // Offset: 0x148C544
+    // Offset: 0x162A2D0
     static System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* GetAllFields(System::Type* t, System::Reflection::BindingFlags flags);
     // static private Zenject.ZenMemberSetterMethod GetOnlyPropertySetter(System.Type parentType, System.String propertyName)
-    // Offset: 0x148C6C4
+    // Offset: 0x162A450
     static Zenject::ZenMemberSetterMethod* GetOnlyPropertySetter(System::Type* parentType, ::Il2CppString* propertyName);
     // static private Zenject.ZenMemberSetterMethod GetSetter(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x148C2EC
+    // Offset: 0x162A078
     static Zenject::ZenMemberSetterMethod* GetSetter(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
     // static private Zenject.ZenMemberSetterMethod TryGetSetterAsCompiledExpression(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x148C9CC
+    // Offset: 0x162A758
     static Zenject::ZenMemberSetterMethod* TryGetSetterAsCompiledExpression(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter
   #pragma pack(pop)

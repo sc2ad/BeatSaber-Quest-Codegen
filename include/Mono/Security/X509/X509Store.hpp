@@ -65,35 +65,35 @@ namespace Mono::Security::X509 {
     // Creating value type constructor for type: X509Store
     X509Store(::Il2CppString* storePath_ = {}, Mono::Security::X509::X509CertificateCollection* certificates_ = {}, System::Collections::ArrayList* crls_ = {}, bool crl_ = {}, bool newFormat_ = {}) noexcept : storePath{storePath_}, certificates{certificates_}, crls{crls_}, crl{crl_}, newFormat{newFormat_} {}
     // System.Void .ctor(System.String path, System.Boolean crl, System.Boolean newFormat)
-    // Offset: 0x217014C
+    // Offset: 0x2390370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(::Il2CppString* path, bool crl, bool newFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(path, crl, newFormat)));
     }
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x2170198
+    // Offset: 0x23903BC
     Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // public System.Collections.ArrayList get_Crls()
-    // Offset: 0x217039C
+    // Offset: 0x23905C0
     System::Collections::ArrayList* get_Crls();
     // private System.Byte[] Load(System.String filename)
-    // Offset: 0x21705F4
+    // Offset: 0x2390818
     ::Array<uint8_t>* Load(::Il2CppString* filename);
     // private Mono.Security.X509.X509Certificate LoadCertificate(System.String filename)
-    // Offset: 0x217076C
+    // Offset: 0x2390990
     Mono::Security::X509::X509Certificate* LoadCertificate(::Il2CppString* filename);
     // private Mono.Security.X509.X509Crl LoadCrl(System.String filename)
-    // Offset: 0x21707DC
+    // Offset: 0x2390A00
     Mono::Security::X509::X509Crl* LoadCrl(::Il2CppString* filename);
     // private System.Boolean CheckStore(System.String path, System.Boolean throwException)
-    // Offset: 0x217084C
+    // Offset: 0x2390A70
     bool CheckStore(::Il2CppString* path, bool throwException);
     // private Mono.Security.X509.X509CertificateCollection BuildCertificatesCollection(System.String storeName)
-    // Offset: 0x21701CC
+    // Offset: 0x23903F0
     Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::Il2CppString* storeName);
     // private System.Collections.ArrayList BuildCrlsCollection(System.String storeName)
-    // Offset: 0x217042C
+    // Offset: 0x2390650
     System::Collections::ArrayList* BuildCrlsCollection(::Il2CppString* storeName);
   }; // Mono.Security.X509.X509Store
   #pragma pack(pop)

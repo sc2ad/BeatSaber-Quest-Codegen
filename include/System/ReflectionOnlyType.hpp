@@ -27,7 +27,7 @@ namespace System {
     // Creating value type constructor for type: ReflectionOnlyType
     ReflectionOnlyType() noexcept {}
     // private System.Void .ctor()
-    // Offset: 0x1317F38
+    // Offset: 0x13F933C
     // Implemented from: System.RuntimeType
     // Base method: System.Void RuntimeType::.ctor()
     // Base method: System.Void TypeInfo::.ctor()
@@ -40,7 +40,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionOnlyType*, creationType>()));
     }
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x1317FA0
+    // Offset: 0x13F93A4
     // Implemented from: System.RuntimeType
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();

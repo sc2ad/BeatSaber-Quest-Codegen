@@ -42,14 +42,14 @@ namespace Zenject {
   template<typename TContract>
   class IFactoryProviderBase_1 : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD0485C
+    // [CompilerGeneratedAttribute] Offset: 0xDDF278
     // private System.Guid <FactoryId>k__BackingField
     // Size: 0x10
     // Offset: 0x0
     System::Guid FactoryId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xD0486C
+    // [CompilerGeneratedAttribute] Offset: 0xDDF288
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x0

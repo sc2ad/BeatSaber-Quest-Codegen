@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AssetFileDownloadResult
     AssetFileDownloadResult(uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}) noexcept : AssetId{AssetId_}, Filepath{Filepath_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13A6410
+    // Offset: 0x14B226C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDownloadResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDownloadResult::.ctor");

@@ -19,10 +19,10 @@ namespace Org::BouncyCastle::Utilities {
     // Set static field: static private System.Int64 NanosecondsPerTick
     static void _set_NanosecondsPerTick(int64_t value);
     // static public System.Int64 NanoTime()
-    // Offset: 0x1E34C60
+    // Offset: 0x1F734AC
     static int64_t NanoTime();
     // static private System.Void .cctor()
-    // Offset: 0x1E34D18
+    // Offset: 0x1F73564
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Times
   #pragma pack(pop)

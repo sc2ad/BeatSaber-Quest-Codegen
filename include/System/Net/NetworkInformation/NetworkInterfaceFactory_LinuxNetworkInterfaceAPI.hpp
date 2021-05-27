@@ -35,18 +35,18 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxNetworkInterfaceAPI
     LinuxNetworkInterfaceAPI() noexcept {}
     // static private System.Void FreeInterfaceAddresses(System.IntPtr ifap)
-    // Offset: 0x134A144
+    // Offset: 0x1474AF0
     static void FreeInterfaceAddresses(System::IntPtr ifap);
     // static private System.Int32 GetInterfaceAddresses(out System.IntPtr ifap)
-    // Offset: 0x134A1C8
+    // Offset: 0x1474B74
     static int GetInterfaceAddresses(System::IntPtr& ifap);
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x134A24C
+    // Offset: 0x1474BF8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.Void .ctor()
-    // Offset: 0x134A12C
+    // Offset: 0x1474AD8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()

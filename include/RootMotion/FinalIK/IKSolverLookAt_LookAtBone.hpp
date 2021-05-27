@@ -42,16 +42,16 @@ namespace RootMotion::FinalIK {
       return baseForwardOffsetEuler;
     }
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x1A8C6F0
+    // Offset: 0x1BE56BC
     void Initiate(UnityEngine::Transform* root);
     // public System.Void LookAt(UnityEngine.Vector3 direction, System.Single weight)
-    // Offset: 0x1A8D61C
+    // Offset: 0x1BE65E8
     void LookAt(UnityEngine::Vector3 direction, float weight);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x1A8D218
+    // Offset: 0x1BE61E4
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor()
-    // Offset: 0x1A8D964
+    // Offset: 0x1BE6930
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
@@ -62,7 +62,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt::LookAtBone*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1A8C3B4
+    // Offset: 0x1BE5380
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor(UnityEngine.Transform transform)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

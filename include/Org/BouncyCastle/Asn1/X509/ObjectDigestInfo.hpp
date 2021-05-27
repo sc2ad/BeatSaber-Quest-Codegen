@@ -67,20 +67,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: ObjectDigestInfo
     ObjectDigestInfo(Org::BouncyCastle::Asn1::DerEnumerated* digestedObjectType_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* otherObjectTypeID_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerBitString* objectDigest_ = {}) noexcept : digestedObjectType{digestedObjectType_}, otherObjectTypeID{otherObjectTypeID_}, digestAlgorithm{digestAlgorithm_}, objectDigest{objectDigest_} {}
     // static public Org.BouncyCastle.Asn1.X509.ObjectDigestInfo GetInstance(System.Object obj)
-    // Offset: 0x1859154
+    // Offset: 0x19F01EC
     static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.ObjectDigestInfo GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x1858168
+    // Offset: 0x19EF200
     static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x18592D4
+    // Offset: 0x19F036C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectDigestInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDigestInfo*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1859514
+    // Offset: 0x19F05AC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

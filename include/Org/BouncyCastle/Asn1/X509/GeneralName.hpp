@@ -46,28 +46,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
     // public System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1Encodable name)
-    // Offset: 0x18573D0
+    // Offset: 0x19EE468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralName* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1Encodable* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::GeneralName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralName*, creationType>(tag, name)));
     }
     // static public Org.BouncyCastle.Asn1.X509.GeneralName GetInstance(System.Object obj)
-    // Offset: 0x185740C
+    // Offset: 0x19EE4A4
     static Org::BouncyCastle::Asn1::X509::GeneralName* GetInstance(::Il2CppObject* obj);
     // public System.Int32 get_TagNo()
-    // Offset: 0x185787C
+    // Offset: 0x19EE914
     int get_TagNo();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Name()
-    // Offset: 0x1857884
+    // Offset: 0x19EE91C
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
     // public override System.String ToString()
-    // Offset: 0x185788C
+    // Offset: 0x19EE924
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1857A54
+    // Offset: 0x19EEAEC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -108,43 +108,43 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int32 P_SZ
     static void _set_P_SZ(int value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1BAB26C
+    // Offset: 0x1D7A4C8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1BAB6FC
+    // Offset: 0x1D7A958
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1BAB744
+    // Offset: 0x1D7A9A0
     bool get_IsPartialBlockOkay();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1BAB74C
+    // Offset: 0x1D7A9A8
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1BABBDC
+    // Offset: 0x1D7AE38
     void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1BABBE0
+    // Offset: 0x1D7AE3C
     int GetBlockSize();
     // private System.UInt32 F(System.UInt32 x)
-    // Offset: 0x1BABBE8
+    // Offset: 0x1D7AE44
     uint F(uint x);
     // private System.Void ProcessTable(System.UInt32 xl, System.UInt32 xr, System.UInt32[] table)
-    // Offset: 0x1BABC94
+    // Offset: 0x1D7AEF0
     void ProcessTable(uint xl, uint xr, ::Array<uint>* table);
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1BAB3C8
+    // Offset: 0x1D7A624
     void SetKey(::Array<uint8_t>* key);
     // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1BAB870
+    // Offset: 0x1D7AACC
     void EncryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1BABA34
+    // Offset: 0x1D7AC90
     void DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // static private System.Void .cctor()
-    // Offset: 0x1BABE74
+    // Offset: 0x1D7B0D0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BAB178
+    // Offset: 0x1D7A3D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

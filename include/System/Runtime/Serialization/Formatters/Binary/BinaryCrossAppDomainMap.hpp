@@ -36,13 +36,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return crossAppDomainArrayIndex;
     }
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x146A600
+    // Offset: 0x15EF2B0
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x146A640
+    // Offset: 0x15EF2F0
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x146A5F8
+    // Offset: 0x15EF2A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

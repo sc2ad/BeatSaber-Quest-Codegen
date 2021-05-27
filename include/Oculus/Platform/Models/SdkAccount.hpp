@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: SdkAccount
     SdkAccount(Oculus::Platform::SdkAccountType AccountType_ = {}, uint64_t UserId_ = {}) noexcept : AccountType{AccountType_}, UserId{UserId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13AFCAC
+    // Offset: 0x14BC774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SdkAccount* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SdkAccount::.ctor");

@@ -39,14 +39,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 SecretSize
     static void _set_SecretSize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x1194408
+    // Offset: 0x1241980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X25519PrivateKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X25519PrivateKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11944C8
+    // Offset: 0x1241A40
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.X25519PrivateKeyParameters
   #pragma pack(pop)

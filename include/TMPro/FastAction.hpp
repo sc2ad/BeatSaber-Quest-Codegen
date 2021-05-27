@@ -50,16 +50,16 @@ namespace TMPro {
     // Creating value type constructor for type: FastAction
     FastAction(System::Collections::Generic::LinkedList_1<System::Action*>* delegates_ = {}, System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup_ = {}) noexcept : delegates{delegates_}, lookup{lookup_} {}
     // public System.Void Add(System.Action rhs)
-    // Offset: 0xFC9C0C
+    // Offset: 0x1108454
     void Add(System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0xFC9CC8
+    // Offset: 0x1108510
     void Remove(System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0xFC9D78
+    // Offset: 0x11085C0
     void Call();
     // public System.Void .ctor()
-    // Offset: 0xFC9DF8
+    // Offset: 0x1108640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

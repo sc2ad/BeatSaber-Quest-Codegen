@@ -42,28 +42,28 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return bOut;
     }
     // public System.String get_AlgorithmName()
-    // Offset: 0x1B1B930
+    // Offset: 0x1CBE9C8
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1B1B978
+    // Offset: 0x1CBEA10
     int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1B1B980
+    // Offset: 0x1CBEA18
     int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1B1B9A8
+    // Offset: 0x1CBEA40
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1B1B9CC
+    // Offset: 0x1CBEA64
     void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1B1B9F0
+    // Offset: 0x1CBEA88
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1B1BA7C
+    // Offset: 0x1CBEB14
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1B1BAA4
+    // Offset: 0x1CBEB3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

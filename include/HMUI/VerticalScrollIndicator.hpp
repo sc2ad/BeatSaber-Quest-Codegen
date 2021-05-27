@@ -68,28 +68,28 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x121BD48
+    // Offset: 0x129C3FC
     void set_progress(float value);
     // public System.Single get_progress()
-    // Offset: 0x12273F8
+    // Offset: 0x12A7B7C
     float get_progress();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x121B994
+    // Offset: 0x129C048
     void set_normalizedPageHeight(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x1227400
+    // Offset: 0x12A7B84
     float get_normalizedPageHeight();
     // public System.Void set_disabled(System.Boolean value)
-    // Offset: 0x1227408
+    // Offset: 0x12A7B8C
     void set_disabled(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x1227454
+    // Offset: 0x12A7BD8
     void OnEnable();
     // private System.Void RefreshHandle()
-    // Offset: 0x12272D0
+    // Offset: 0x12A7A54
     void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x1227458
+    // Offset: 0x12A7BDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpawnRotationProcessor
     SpawnRotationProcessor(float rotation_ = {}, ::Array<float>* rotations_ = {}) noexcept : rotation{rotation_}, rotations{rotations_} {}
     // public System.Single get_rotation()
-    // Offset: 0xF93D1C
+    // Offset: 0x1176400
     float get_rotation();
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0xF93BD0
+    // Offset: 0x11762B4
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Single RotationForEventValue(System.Int32 index)
-    // Offset: 0xF93D24
+    // Offset: 0x1176408
     float RotationForEventValue(int index);
     // public System.Void .ctor()
-    // Offset: 0xF93CA4
+    // Offset: 0x1176388
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

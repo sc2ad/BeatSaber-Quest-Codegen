@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionCompletionResults
     MissionCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults_ = {}) noexcept : levelCompletionResults{levelCompletionResults_}, missionObjectiveResults{missionObjectiveResults_} {}
     // public System.Boolean get_IsMissionComplete()
-    // Offset: 0xF42708
+    // Offset: 0x104E85C
     bool get_IsMissionComplete();
     // public System.Void .ctor(LevelCompletionResults levelCompletionResults, MissionObjectiveResult[] missionObjectiveResults)
-    // Offset: 0xF42788
+    // Offset: 0x104E8DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionCompletionResults::.ctor");

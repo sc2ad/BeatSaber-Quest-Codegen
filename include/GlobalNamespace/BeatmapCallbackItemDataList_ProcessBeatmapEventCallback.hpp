@@ -37,20 +37,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ProcessBeatmapEventCallback
     ProcessBeatmapEventCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10A99B4
+    // Offset: 0x11A4B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(BeatmapEventData beatmapEventData)
-    // Offset: 0x10A852C
+    // Offset: 0x11A36F8
     void Invoke(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.IAsyncResult BeginInvoke(BeatmapEventData beatmapEventData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10A99C4
+    // Offset: 0x11A4B90
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapEventData* beatmapEventData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10A99E8
+    // Offset: 0x11A4BB4
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/ProcessBeatmapEventCallback
   #pragma pack(pop)

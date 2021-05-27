@@ -31,23 +31,23 @@ namespace System::Security::Cryptography::X509Certificates {
       return critical;
     }
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x16B7B68
+    // Offset: 0x1839D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::Il2CppString* oid, ::Array<uint8_t>* rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // public System.Boolean get_Critical()
-    // Offset: 0x16B7B98
+    // Offset: 0x1839D44
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x16B7BA0
+    // Offset: 0x1839D4C
     void set_Critical(bool value);
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x16ABE74
+    // Offset: 0x182E020
     ::Il2CppString* FormatUnkownData(::Array<uint8_t>* data);
     // protected System.Void .ctor()
-    // Offset: 0x16AB3DC
+    // Offset: 0x182D588
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -57,7 +57,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x16B7BAC
+    // Offset: 0x1839D58
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);

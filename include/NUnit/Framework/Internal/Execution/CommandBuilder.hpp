@@ -54,22 +54,22 @@ namespace NUnit::Framework::Internal::Execution {
     // Creating value type constructor for type: CommandBuilder
     CommandBuilder() noexcept {}
     // static public NUnit.Framework.Internal.Commands.TestCommand MakeOneTimeSetUpCommand(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x15D59BC
+    // Offset: 0x1720774
     static NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
     // static public NUnit.Framework.Internal.Commands.TestCommand MakeOneTimeTearDownCommand(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDownItems, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x15D5D50
+    // Offset: 0x1720B08
     static NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeTearDownCommand(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
     // static public NUnit.Framework.Internal.Commands.SkipCommand MakeSkipCommand(NUnit.Framework.Internal.Test test)
-    // Offset: 0x15D5CEC
+    // Offset: 0x1720AA4
     static NUnit::Framework::Internal::Commands::SkipCommand* MakeSkipCommand(NUnit::Framework::Internal::Test* test);
     // static public System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> BuildSetUpTearDownList(System.Type fixtureType, System.Type setUpType, System.Type tearDownType)
-    // Offset: 0x15D5E1C
+    // Offset: 0x1720BD4
     static System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* BuildSetUpTearDownList(System::Type* fixtureType, System::Type* setUpType, System::Type* tearDownType);
     // static private NUnit.Framework.Internal.Commands.SetUpTearDownItem BuildNode(System.Type fixtureType, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> setUpMethods, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> tearDownMethods)
-    // Offset: 0x15D5FAC
+    // Offset: 0x1720D64
     static NUnit::Framework::Internal::Commands::SetUpTearDownItem* BuildNode(System::Type* fixtureType, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* setUpMethods, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* tearDownMethods);
     // static private System.Collections.Generic.List`1<System.Reflection.MethodInfo> SelectMethodsByDeclaringType(System.Type type, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> methods)
-    // Offset: 0x15D6044
+    // Offset: 0x1720DFC
     static System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* SelectMethodsByDeclaringType(System::Type* type, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* methods);
   }; // NUnit.Framework.Internal.Execution.CommandBuilder
   #pragma pack(pop)

@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreEffect* flyingScoreEffectPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD4025C
+    // [SpaceAttribute] Offset: 0xE20900
     // private BeatEffect _beatEffectPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatEffect* shortBeatEffectPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD402A4
+    // [SpaceAttribute] Offset: 0xE20948
     // private NoteCutSoundEffect _noteCutSoundEffectPrefab
     // Size: 0x8
     // Offset: 0x38
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteEffect* flyingSpriteEffectPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD402FC
+    // [SpaceAttribute] Offset: 0xE209A0
     // private BoolSO _noteDebrisHDConditionVariable
     // Size: 0x8
     // Offset: 0x50
@@ -112,10 +112,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
-    // Offset: 0xF4CBEC
+    // Offset: 0x10BD7E8
     void ManualInstallBindings(Zenject::DiContainer* container, bool shortBeatEffect);
     // public System.Void .ctor()
-    // Offset: 0xF4CE24
+    // Offset: 0x10BDA20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     GlobalNamespace::CreateServerFormController* createServerFormController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreateServerFormController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD44FB4
+    // [InjectAttribute] Offset: 0xE25C18
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD44FC4
+    // [CompilerGeneratedAttribute] Offset: 0xE25C28
     // private System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -82,33 +82,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreateServerViewController
     CreateServerViewController(UnityEngine::UI::Button* createServerButton_ = {}, UnityEngine::UI::Button* cancelCreateServerButton_ = {}, GlobalNamespace::CreateServerFormController* createServerFormController_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : createServerButton{createServerButton_}, cancelCreateServerButton{cancelCreateServerButton_}, createServerFormController{createServerFormController_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> value)
-    // Offset: 0x10668D0
+    // Offset: 0x1098ACC
     void add_didFinishEvent(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> value)
-    // Offset: 0x1066974
+    // Offset: 0x1098B70
     void remove_didFinishEvent(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x1066A18
+    // Offset: 0x1098C14
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x1066A20
+    // Offset: 0x1098C1C
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private UnifiedNetworkPlayerModel/CreatePartyConfig CreatePartyConfig()
-    // Offset: 0x1066B68
+    // Offset: 0x1098D64
     GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* CreatePartyConfig();
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x1066DB4
+    // Offset: 0x1098FB0
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x1066E28
+    // Offset: 0x1099024
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1066A6C
+    // Offset: 0x1098C68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1066DAC
+    // Offset: 0x1098FA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

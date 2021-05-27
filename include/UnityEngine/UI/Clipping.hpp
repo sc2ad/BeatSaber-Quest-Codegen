@@ -33,7 +33,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Clipping
     Clipping() noexcept {}
     // static public UnityEngine.Rect FindCullAndClipWorldRect(System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> rectMaskParents, out System.Boolean validRect)
-    // Offset: 0x133F06C
+    // Offset: 0x1420478
     static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, bool& validRect);
   }; // UnityEngine.UI.Clipping
   #pragma pack(pop)

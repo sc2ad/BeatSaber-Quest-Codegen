@@ -61,55 +61,55 @@ namespace System::Net {
     // Creating value type constructor for type: WebException
     WebException(System::Net::WebExceptionStatus m_Status_ = {}, System::Net::WebResponse* m_Response_ = {}, System::Net::WebExceptionInternalStatus m_InternalStatus_ = {}) noexcept : m_Status{m_Status_}, m_Response{m_Response_}, m_InternalStatus{m_InternalStatus_} {}
     // public System.Void .ctor(System.String message, System.Net.WebExceptionStatus status)
-    // Offset: 0x142C0E0
+    // Offset: 0x15A7738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Net::WebExceptionStatus status) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, status)));
     }
     // System.Void .ctor(System.String message, System.Net.WebExceptionStatus status, System.Net.WebExceptionInternalStatus internalStatus, System.Exception innerException)
-    // Offset: 0x14312E8
+    // Offset: 0x15AC940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, status, internalStatus, innerException)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response)
-    // Offset: 0x142AF0C
+    // Offset: 0x15A6564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, innerException, status, response)));
     }
     // System.Void .ctor(System.String message, System.String data, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response)
-    // Offset: 0x1431B24
+    // Offset: 0x15AD17C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, ::Il2CppString* data, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, data, innerException, status, response)));
     }
     // System.Void .ctor(System.String message, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response, System.Net.WebExceptionInternalStatus internalStatus)
-    // Offset: 0x1431B0C
+    // Offset: 0x15AD164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response, System::Net::WebExceptionInternalStatus internalStatus) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, innerException, status, response, internalStatus)));
     }
     // System.Void .ctor(System.String message, System.String data, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response, System.Net.WebExceptionInternalStatus internalStatus)
-    // Offset: 0x1431BFC
+    // Offset: 0x15AD254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebException* New_ctor(::Il2CppString* message, ::Il2CppString* data, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response, System::Net::WebExceptionInternalStatus internalStatus) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, data, innerException, status, response, internalStatus)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1431CEC
+    // Offset: 0x15AD344
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.Net.WebExceptionStatus get_Status()
-    // Offset: 0x1431D00
+    // Offset: 0x15AD358
     System::Net::WebExceptionStatus get_Status();
     // public System.Void .ctor()
-    // Offset: 0x1431AD8
+    // Offset: 0x15AD130
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -121,7 +121,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1431AE8
+    // Offset: 0x15AD140
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -132,7 +132,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1431AFC
+    // Offset: 0x15AD154
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
@@ -143,7 +143,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1431CDC
+    // Offset: 0x15AD334
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
@@ -154,7 +154,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<WebException*, creationType>(serializationInfo, streamingContext)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1431CF8
+    // Offset: 0x15AD350
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

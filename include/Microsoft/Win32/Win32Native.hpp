@@ -22,10 +22,10 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: Win32Native
     Win32Native() noexcept {}
     // static public System.String GetMessage(System.Int32 hr)
-    // Offset: 0x18A4FF8
+    // Offset: 0x1A3BF40
     static ::Il2CppString* GetMessage(int hr);
     // static public System.Int32 MakeHRFromErrorCode(System.Int32 errorCode)
-    // Offset: 0x18A5074
+    // Offset: 0x1A3BFBC
     static int MakeHRFromErrorCode(int errorCode);
   }; // Microsoft.Win32.Win32Native
   #pragma pack(pop)

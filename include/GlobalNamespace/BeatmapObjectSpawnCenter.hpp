@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: defaultDistnace and: spawnCenterDistanceWasFoundEvent
     char __padding1[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD386A0
+    // [CompilerGeneratedAttribute] Offset: 0xE18EB4
     // private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
     // Size: 0x8
     // Offset: 0x28
@@ -71,25 +71,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_spawnCenterDistance()
-    // Offset: 0xF299C8
+    // Offset: 0x107F43C
     float get_spawnCenterDistance();
     // public System.Boolean get_spawnCenterDistanceWasFound()
-    // Offset: 0xF299D0
+    // Offset: 0x107F444
     bool get_spawnCenterDistanceWasFound();
     // public System.Void add_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF299D8
+    // Offset: 0x107F44C
     void add_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Void remove_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF29A7C
+    // Offset: 0x107F4F0
     void remove_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Single CalculateSpawnCenterPosition(System.Int32 numberOfPlayers)
-    // Offset: 0xF29B20
+    // Offset: 0x107F594
     float CalculateSpawnCenterPosition(int numberOfPlayers);
     // private System.Void ReportAndSaveSpawnCenterDistance(System.Single distance)
-    // Offset: 0xF29C4C
+    // Offset: 0x107F6C0
     void ReportAndSaveSpawnCenterDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0xF29CCC
+    // Offset: 0x107F740
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

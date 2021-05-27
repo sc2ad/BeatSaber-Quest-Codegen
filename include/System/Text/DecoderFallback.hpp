@@ -48,13 +48,13 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x1A69200
+    // Offset: 0x1B462F8
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.DecoderFallback get_ReplacementFallback()
-    // Offset: 0x1A66560
+    // Offset: 0x1B43658
     static System::Text::DecoderFallback* get_ReplacementFallback();
     // static public System.Text.DecoderFallback get_ExceptionFallback()
-    // Offset: 0x1A692E4
+    // Offset: 0x1B463DC
     static System::Text::DecoderFallback* get_ExceptionFallback();
     // public System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
     // Offset: 0xFFFFFFFF
@@ -63,7 +63,7 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     int get_MaxCharCount();
     // protected System.Void .ctor()
-    // Offset: 0x1A68E94
+    // Offset: 0x1B45F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

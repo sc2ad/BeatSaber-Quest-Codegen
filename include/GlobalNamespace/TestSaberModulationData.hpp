@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(TestSaberModulationData::ModulationType), 0 + sizeof(int)> __GlobalNamespace_TestSaberModulationData_ModulationTypeSizeCheck;
     static_assert(sizeof(TestSaberModulationData::ModulationType) == 0x4);
-    // [RangeAttribute] Offset: 0xD33BA8
+    // [RangeAttribute] Offset: 0xE14294
     // private System.Single _baseValue
     // Size: 0x4
     // Offset: 0x10
@@ -94,14 +94,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TestSaberModulationData::ModulationType modulationType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TestSaberModulationData::ModulationType) == 0x4);
-    // [RangeAttribute] Offset: 0xD33BE8
+    // [RangeAttribute] Offset: 0xE142D4
     // private System.Single _speed
     // Size: 0x4
     // Offset: 0x18
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xD33C28
+    // [RangeAttribute] Offset: 0xE14314
     // private System.Single _amount
     // Size: 0x4
     // Offset: 0x1C
@@ -117,10 +117,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TestSaberModulationData
     TestSaberModulationData(float baseValue_ = {}, GlobalNamespace::TestSaberModulationData::ModulationType modulationType_ = {}, float speed_ = {}, float amount_ = {}, float multiplier_ = {}) noexcept : baseValue{baseValue_}, modulationType{modulationType_}, speed{speed_}, amount{amount_}, multiplier{multiplier_} {}
     // public System.Single Evaluate(System.Single time)
-    // Offset: 0xFA5208
+    // Offset: 0x10F5C24
     float Evaluate(float time);
     // public System.Void .ctor()
-    // Offset: 0xFA538C
+    // Offset: 0x10F5DA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -98,10 +98,10 @@ namespace OVRSimpleJSON {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Boolean get_IsValid()
-    // Offset: 0xE082C0
+    // Offset: 0xF0E5B4
     bool get_IsValid();
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
-    // Offset: 0xE082D0
+    // Offset: 0xF0E5C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Enumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::Enumerator::.ctor");
@@ -109,7 +109,7 @@ namespace OVRSimpleJSON {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
     }
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
-    // Offset: 0xE0830C
+    // Offset: 0xF0E600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::Enumerator::.ctor");
@@ -117,10 +117,10 @@ namespace OVRSimpleJSON {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
     }
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
-    // Offset: 0xE08348
+    // Offset: 0xF0E63C
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0xE08350
+    // Offset: 0xF0E644
     bool MoveNext();
   }; // OVRSimpleJSON.JSONNode/Enumerator
   // WARNING Not writing size check since size may be invalid!

@@ -35,14 +35,14 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0x12C0E04
+    // Offset: 0x136D5B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x12C0E68
+    // Offset: 0x136D618
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

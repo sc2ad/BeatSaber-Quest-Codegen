@@ -42,36 +42,36 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
     static void _set_None(UnityEngine::ProBuilder::HandleConstraint2D* value);
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
-    // Offset: 0x191C448
+    // Offset: 0x1A9FE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandleConstraint2D* New_ctor(int x, int y) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HandleConstraint2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandleConstraint2D*, creationType>(x, y)));
     }
     // public UnityEngine.ProBuilder.HandleConstraint2D Inverse()
-    // Offset: 0x191C480
+    // Offset: 0x1A9FE78
     UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
     // public UnityEngine.Vector2 Mask(UnityEngine.Vector2 v)
-    // Offset: 0x191C500
+    // Offset: 0x1A9FEF8
     UnityEngine::Vector2 Mask(UnityEngine::Vector2 v);
     // public UnityEngine.Vector2 InverseMask(UnityEngine.Vector2 v)
-    // Offset: 0x191C518
+    // Offset: 0x1A9FF10
     UnityEngine::Vector2 InverseMask(UnityEngine::Vector2 v);
     // static private System.Void .cctor()
-    // Offset: 0x191C814
+    // Offset: 0x1AA020C
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x191C5C8
+    // Offset: 0x1A9FFC0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x191C5D0
+    // Offset: 0x1A9FFC8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.String ToString()
-    // Offset: 0x191C660
+    // Offset: 0x1AA0058
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -80,10 +80,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(HandleConstraint2D), 20 + sizeof(int)> __UnityEngine_ProBuilder_HandleConstraint2DSizeCheck;
   static_assert(sizeof(HandleConstraint2D) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
-  // Offset: 0x191C540
+  // Offset: 0x1A9FF38
   bool operator ==(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
-  // Offset: 0x191C584
+  // Offset: 0x1A9FF7C
   bool operator !=(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleConstraint2D*, "UnityEngine.ProBuilder", "HandleConstraint2D");

@@ -55,7 +55,7 @@ namespace System::IO {
     // Creating value type constructor for type: FileData
     FileData(::Il2CppString* Directory_ = {}, System::IO::FileAttributes Attributes_ = {}, bool NotExists_ = {}, System::DateTime CreationTime_ = {}, System::DateTime LastWriteTime_ = {}) noexcept : Directory{Directory_}, Attributes{Attributes_}, NotExists{NotExists_}, CreationTime{CreationTime_}, LastWriteTime{LastWriteTime_} {}
     // public System.Void .ctor()
-    // Offset: 0x16D93B8
+    // Offset: 0x185C724
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

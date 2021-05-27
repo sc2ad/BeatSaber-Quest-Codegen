@@ -21,13 +21,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DisableGCWhileEnabled
     DisableGCWhileEnabled() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x1178A38
+    // Offset: 0x1225D24
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1178A44
+    // Offset: 0x1225D30
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1178A50
+    // Offset: 0x1225D3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

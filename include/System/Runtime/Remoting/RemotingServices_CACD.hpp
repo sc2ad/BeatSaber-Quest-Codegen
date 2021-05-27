@@ -33,7 +33,7 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: CACD
     CACD(::Il2CppObject* d_ = {}, ::Il2CppObject* c_ = {}) noexcept : d{d_}, c{c_} {}
     // public System.Void .ctor()
-    // Offset: 0x14625BC
+    // Offset: 0x15E726C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

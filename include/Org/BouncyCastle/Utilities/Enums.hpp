@@ -26,16 +26,16 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: Enums
     Enums() noexcept {}
     // static System.Enum GetEnumValue(System.Type enumType, System.String s)
-    // Offset: 0x1E32A54
+    // Offset: 0x1F712FC
     static System::Enum* GetEnumValue(System::Type* enumType, ::Il2CppString* s);
     // static System.Array GetEnumValues(System.Type enumType)
-    // Offset: 0x1E32C4C
+    // Offset: 0x1F714F4
     static System::Array* GetEnumValues(System::Type* enumType);
     // static System.Enum GetArbitraryValue(System.Type enumType)
-    // Offset: 0x1E32D1C
+    // Offset: 0x1F715C4
     static System::Enum* GetArbitraryValue(System::Type* enumType);
     // static System.Boolean IsEnumType(System.Type t)
-    // Offset: 0x1E32C2C
+    // Offset: 0x1F714D4
     static bool IsEnumType(System::Type* t);
   }; // Org.BouncyCastle.Utilities.Enums
   #pragma pack(pop)

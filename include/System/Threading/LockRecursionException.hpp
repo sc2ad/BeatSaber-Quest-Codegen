@@ -28,7 +28,7 @@ namespace System::Threading {
     // Creating value type constructor for type: LockRecursionException
     LockRecursionException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16FE90C
+    // Offset: 0x1894A08
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -38,7 +38,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<LockRecursionException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x16FE974
+    // Offset: 0x1894A70
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +47,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<LockRecursionException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16FE9EC
+    // Offset: 0x1894AE8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

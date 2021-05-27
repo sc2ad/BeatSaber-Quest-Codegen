@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HMAsyncRequestWithCancellationToken
     HMAsyncRequestWithCancellationToken(System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : cancellationTokenSource{cancellationTokenSource_} {}
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0x111BF04
+    // Offset: 0x106DD0C
     System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0x111B3A8
+    // Offset: 0x106D1B0
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::.ctor()
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, creationType>()));
     }
     // public override System.Void Cancel()
-    // Offset: 0x111BF0C
+    // Offset: 0x106DD14
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();

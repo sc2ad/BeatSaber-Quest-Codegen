@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class BeatmapObjectManager;
   // Forward declaring type: MultiplayerPlayersManager
   class MultiplayerPlayersManager;
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
+  // Forward declaring type: MultiplayerLevelCompletionResults
+  class MultiplayerLevelCompletionResults;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -50,35 +50,35 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelFailedTextEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3CAF0
+    // [InjectAttribute] Offset: 0xE1D300
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3CB00
+    // [InjectAttribute] Offset: 0xE1D310
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3CB10
+    // [InjectAttribute] Offset: 0xE1D320
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3CB20
+    // [InjectAttribute] Offset: 0xE1D330
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3CB30
+    // [InjectAttribute] Offset: 0xE1D340
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
@@ -90,19 +90,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1086650
+    // Offset: 0x23FF4BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1086740
+    // Offset: 0x23FF5AC
     void OnDestroy();
     // private System.Collections.IEnumerator PlayerFailedCoroutine()
-    // Offset: 0x1086840
+    // Offset: 0x23FF6AC
     System::Collections::IEnumerator* PlayerFailedCoroutine();
-    // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x10868DC
-    void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
+    // Offset: 0x23FF748
+    void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1086928
+    // Offset: 0x23FF79C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

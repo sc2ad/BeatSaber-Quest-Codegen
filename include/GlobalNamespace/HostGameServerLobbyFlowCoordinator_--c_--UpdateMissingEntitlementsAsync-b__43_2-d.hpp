@@ -73,10 +73,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDF3D98
+    // Offset: 0xEE39B0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDF3DA0
+    // Offset: 0xEE39B8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__43_2>d
   // WARNING Not writing size check since size may be invalid!

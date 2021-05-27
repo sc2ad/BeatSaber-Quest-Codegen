@@ -57,23 +57,23 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.Stack stack)
-    // Offset: 0x17F0490
+    // Offset: 0x1961A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack::StackEnumerator* New_ctor(System::Collections::Stack* stack) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::StackEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack::StackEnumerator*, creationType>(stack)));
     }
     // public System.Object Clone()
-    // Offset: 0x17F0788
+    // Offset: 0x1961D54
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x17F0790
+    // Offset: 0x1961D5C
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x17F08B0
+    // Offset: 0x1961E7C
     ::Il2CppObject* get_Current();
     // public System.Void Reset()
-    // Offset: 0x17F0964
+    // Offset: 0x1961F30
     void Reset();
   }; // System.Collections.Stack/StackEnumerator
   #pragma pack(pop)

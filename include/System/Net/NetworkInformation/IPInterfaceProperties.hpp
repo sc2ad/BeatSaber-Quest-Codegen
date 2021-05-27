@@ -34,7 +34,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFF
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // protected System.Void .ctor()
-    // Offset: 0x1348798
+    // Offset: 0x1473144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -97,14 +97,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveTypeSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3BF58
+    // [CompilerGeneratedAttribute] Offset: 0xE1C960
     // private System.Action`1<MissionObjectiveChecker> statusDidChangeEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* statusDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3BF68
+    // [CompilerGeneratedAttribute] Offset: 0xE1C970
     // private System.Action`1<MissionObjectiveChecker> checkedValueDidChangeEvent
     // Size: 0x8
     // Offset: 0x28
@@ -140,49 +140,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xF48D38
+    // Offset: 0x10559F0
     void add_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xF48DDC
+    // Offset: 0x1055A94
     void remove_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void add_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xF48E80
+    // Offset: 0x1055B38
     void add_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xF48F24
+    // Offset: 0x1055BDC
     void remove_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public MissionObjectiveTypeSO get_missionObjectiveType()
-    // Offset: 0xF48FC8
+    // Offset: 0x1055C80
     GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();
     // public MissionObjective get_missionObjective()
-    // Offset: 0xF48FD0
+    // Offset: 0x1055C88
     GlobalNamespace::MissionObjective* get_missionObjective();
     // public System.Boolean get_disableChecking()
-    // Offset: 0xF48FD8
+    // Offset: 0x1055C90
     bool get_disableChecking();
     // public System.Void set_disableChecking(System.Boolean value)
-    // Offset: 0xF48FE0
+    // Offset: 0x1055C98
     void set_disableChecking(bool value);
     // public MissionObjectiveChecker/Status get_status()
-    // Offset: 0xF48FEC
+    // Offset: 0x1055CA4
     GlobalNamespace::MissionObjectiveChecker::Status get_status();
     // protected System.Void set_status(MissionObjectiveChecker/Status value)
-    // Offset: 0xF41EB0
+    // Offset: 0x104DFD0
     void set_status(GlobalNamespace::MissionObjectiveChecker::Status value);
     // public System.Int32 get_checkedValue()
-    // Offset: 0xF48FF4
+    // Offset: 0x1055CAC
     int get_checkedValue();
     // protected System.Void set_checkedValue(System.Int32 value)
-    // Offset: 0xF4202C
+    // Offset: 0x104E15C
     void set_checkedValue(int value);
     // public System.Void SetCheckedMissionObjective(MissionObjective missionObjective)
-    // Offset: 0xF48FFC
+    // Offset: 0x1055CB4
     void SetCheckedMissionObjective(GlobalNamespace::MissionObjective* missionObjective);
     // protected System.Void Init()
     // Offset: 0xFFFFFFFF
     void Init();
     // protected System.Void .ctor()
-    // Offset: 0xF4900C
+    // Offset: 0x1055CC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

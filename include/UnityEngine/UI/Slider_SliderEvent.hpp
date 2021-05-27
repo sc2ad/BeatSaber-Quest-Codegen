@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: SliderEvent
     SliderEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2164BB4
+    // Offset: 0x2382DD8
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

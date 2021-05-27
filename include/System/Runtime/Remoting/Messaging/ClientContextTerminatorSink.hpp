@@ -49,17 +49,17 @@ namespace System::Runtime::Remoting::Messaging {
       return context;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x188AC7C
+    // Offset: 0x1A20BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientContextTerminatorSink* New_ctor(System::Runtime::Remoting::Contexts::Context* ctx) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientContextTerminatorSink*, creationType>(ctx)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x188ACA8
+    // Offset: 0x1A20BF0
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x188AE94
+    // Offset: 0x1A20DDC
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Messaging.ClientContextTerminatorSink
   #pragma pack(pop)

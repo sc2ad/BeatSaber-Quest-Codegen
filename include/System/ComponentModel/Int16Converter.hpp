@@ -21,7 +21,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: Int16Converter
     Int16Converter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16CCE24
+    // Offset: 0x1850190
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

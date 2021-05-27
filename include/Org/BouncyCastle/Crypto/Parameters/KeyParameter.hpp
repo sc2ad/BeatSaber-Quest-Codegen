@@ -35,21 +35,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return key;
     }
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x118EFB8
+    // Offset: 0x123C530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyParameter* New_ctor(::Array<uint8_t>* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyParameter*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x118F1D0
+    // Offset: 0x123C748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyParameter* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyParameter*, creationType>(key, keyOff, keyLen)));
     }
     // public System.Byte[] GetKey()
-    // Offset: 0x1193138
+    // Offset: 0x12406B0
     ::Array<uint8_t>* GetKey();
   }; // Org.BouncyCastle.Crypto.Parameters.KeyParameter
   #pragma pack(pop)

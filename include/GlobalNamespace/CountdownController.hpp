@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::CountdownElementController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD42F5C
+    // [InjectAttribute] Offset: 0xE23B60
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -75,8 +75,14 @@ namespace GlobalNamespace {
     bool gongSounded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: gongSounded and: countdownElementControllerQueue
-    char __padding5[0x7] = {};
+    // private System.Boolean _countdownRunning
+    // Size: 0x1
+    // Offset: 0x39
+    bool countdownRunning;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: countdownRunning and: countdownElementControllerQueue
+    char __padding6[0x6] = {};
     // private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
     // Size: 0x8
     // Offset: 0x40
@@ -84,7 +90,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*) == 0x8);
     // Creating value type constructor for type: CountdownController
-    CountdownController(UnityEngine::AudioSource* audioSource_ = {}, ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers_ = {}, GlobalNamespace::ITimeProvider* timeProvider_ = {}, float countdownEndTime_ = {}, int currentRemainingSecond_ = {}, bool gongSounded_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue_ = {}) noexcept : audioSource{audioSource_}, countdownElementControllers{countdownElementControllers_}, timeProvider{timeProvider_}, countdownEndTime{countdownEndTime_}, currentRemainingSecond{currentRemainingSecond_}, gongSounded{gongSounded_}, countdownElementControllerQueue{countdownElementControllerQueue_} {}
+    CountdownController(UnityEngine::AudioSource* audioSource_ = {}, ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers_ = {}, GlobalNamespace::ITimeProvider* timeProvider_ = {}, float countdownEndTime_ = {}, int currentRemainingSecond_ = {}, bool gongSounded_ = {}, bool countdownRunning_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue_ = {}) noexcept : audioSource{audioSource_}, countdownElementControllers{countdownElementControllers_}, timeProvider{timeProvider_}, countdownEndTime{countdownEndTime_}, currentRemainingSecond{currentRemainingSecond_}, gongSounded{gongSounded_}, countdownRunning{countdownRunning_}, countdownElementControllerQueue{countdownElementControllerQueue_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kGongTime
@@ -94,22 +100,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kGongTime
     static void _set_kGongTime(float value);
     // protected System.Void Awake()
-    // Offset: 0x10660C4
+    // Offset: 0x10984B8
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x10660D0
+    // Offset: 0x10984D0
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x10662C8
+    // Offset: 0x108B724
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x10663EC
+    // Offset: 0x108B914
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x1066468
+    // Offset: 0x108B824
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x10664F4
+    // Offset: 0x10986F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

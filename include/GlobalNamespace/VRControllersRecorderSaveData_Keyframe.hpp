@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>* positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
     // public System.Void .ctor()
-    // Offset: 0x1673F10
+    // Offset: 0x1D94BB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

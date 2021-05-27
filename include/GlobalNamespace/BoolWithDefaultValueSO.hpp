@@ -26,12 +26,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolWithDefaultValueSO
     BoolWithDefaultValueSO(bool defaultValue_ = {}) noexcept : defaultValue{defaultValue_} {}
     // protected override System.Void OnEnable()
-    // Offset: 0x117577C
+    // Offset: 0x1222A68
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x117581C
+    // Offset: 0x1222B08
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
     // Base method: System.Void ObservableVariableSO_1::.ctor()

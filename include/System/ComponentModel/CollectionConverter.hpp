@@ -21,7 +21,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: CollectionConverter
     CollectionConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16CB498
+    // Offset: 0x184E804
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

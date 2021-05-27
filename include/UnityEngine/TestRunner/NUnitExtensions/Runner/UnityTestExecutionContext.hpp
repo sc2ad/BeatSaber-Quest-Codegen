@@ -98,42 +98,42 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: assertCount and: Context
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD5B4B4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC1C
     // private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* Context;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B4C4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC2C
     // private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     NUnit::Framework::Internal::Test* CurrentTest;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B4D4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC3C
     // private System.DateTime <StartTime>k__BackingField
     // Size: 0x8
     // Offset: 0x38
     System::DateTime StartTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B4E4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC4C
     // private System.Int64 <StartTicks>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     int64_t StartTicks;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B4F4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC5C
     // private System.Object <TestObject>k__BackingField
     // Size: 0x8
     // Offset: 0x48
     ::Il2CppObject* TestObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B504
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC6C
     // private System.String <WorkDirectory>k__BackingField
     // Size: 0x8
     // Offset: 0x50
@@ -148,14 +148,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(NUnit::Framework::Internal::TestExecutionStatus) == 0x4);
     // Padding between fields: executionStatus and: UpstreamActions
     char __padding9[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD5B514
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC7C
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* UpstreamActions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B524
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC8C
     // private System.Int32 <TestCaseTimeout>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -164,35 +164,35 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: CurrentCulture
     char __padding11[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD5B534
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC9C
     // private System.Globalization.CultureInfo <CurrentCulture>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     System::Globalization::CultureInfo* CurrentCulture;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B544
+    // [CompilerGeneratedAttribute] Offset: 0xE3CCAC
     // private System.Globalization.CultureInfo <CurrentUICulture>k__BackingField
     // Size: 0x8
     // Offset: 0x78
     System::Globalization::CultureInfo* CurrentUICulture;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B554
+    // [CompilerGeneratedAttribute] Offset: 0xE3CCBC
     // private NUnit.Framework.Interfaces.ITestListener <Listener>k__BackingField
     // Size: 0x8
     // Offset: 0x80
     NUnit::Framework::Interfaces::ITestListener* Listener;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITestListener*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B564
+    // [CompilerGeneratedAttribute] Offset: 0xE3CCCC
     // private System.IO.TextWriter <OutWriter>k__BackingField
     // Size: 0x8
     // Offset: 0x88
     System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B574
+    // [CompilerGeneratedAttribute] Offset: 0xE3CCDC
     // private System.Boolean <StopOnError>k__BackingField
     // Size: 0x1
     // Offset: 0x90
@@ -201,14 +201,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: StopOnError and: Dispatcher
     char __padding16[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD5B584
+    // [CompilerGeneratedAttribute] Offset: 0xE3CCEC
     // private NUnit.Framework.Internal.Execution.IWorkItemDispatcher <Dispatcher>k__BackingField
     // Size: 0x8
     // Offset: 0x98
     NUnit::Framework::Internal::Execution::IWorkItemDispatcher* Dispatcher;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Execution::IWorkItemDispatcher*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B594
+    // [CompilerGeneratedAttribute] Offset: 0xE3CCFC
     // private NUnit.Framework.ParallelScope <ParallelScope>k__BackingField
     // Size: 0x4
     // Offset: 0xA0
@@ -217,28 +217,28 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(NUnit::Framework::ParallelScope) == 0x4);
     // Padding between fields: ParallelScope and: WorkerId
     char __padding18[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD5B5A4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD0C
     // private System.String <WorkerId>k__BackingField
     // Size: 0x8
     // Offset: 0xA8
     ::Il2CppString* WorkerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B5B4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD1C
     // private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
     // Size: 0x8
     // Offset: 0xB0
     NUnit::Framework::Internal::Randomizer* RandomGenerator;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Randomizer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B5C4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD2C
     // private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
     // Size: 0x8
     // Offset: 0xB8
     NUnit::Framework::Constraints::ValueFormatter* CurrentValueFormatter;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B5D4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD3C
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Size: 0x1
     // Offset: 0xC0
@@ -247,21 +247,21 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsSingleThreaded and: SetUpTearDownState
     char __padding22[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD5B5E4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD4C
     // private UnityEngine.TestTools.BeforeAfterTestCommandState <SetUpTearDownState>k__BackingField
     // Size: 0x8
     // Offset: 0xC8
     UnityEngine::TestTools::BeforeAfterTestCommandState* SetUpTearDownState;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::BeforeAfterTestCommandState*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B5F4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD5C
     // private UnityEngine.TestTools.BeforeAfterTestCommandState <OuterUnityTestActionState>k__BackingField
     // Size: 0x8
     // Offset: 0xD0
     UnityEngine::TestTools::BeforeAfterTestCommandState* OuterUnityTestActionState;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::BeforeAfterTestCommandState*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD5B604
+    // [CompilerGeneratedAttribute] Offset: 0xE3CD6C
     // private UnityEngine.TestTools.EnumerableTestState <EnumerableTestState>k__BackingField
     // Size: 0x8
     // Offset: 0xD8
@@ -274,128 +274,128 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator NUnit::Framework::Internal::ITestExecutionContext() noexcept {
       return *reinterpret_cast<NUnit::Framework::Internal::ITestExecutionContext*>(this);
     }
-    // [CompilerGeneratedAttribute] Offset: 0xD5B4A4
+    // [CompilerGeneratedAttribute] Offset: 0xE3CC0C
     // Get static field: static private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <CurrentContext>k__BackingField
     static UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$CurrentContext$k__BackingField();
     // Set static field: static private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <CurrentContext>k__BackingField
     static void _set_$CurrentContext$k__BackingField(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // static public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_CurrentContext()
-    // Offset: 0x1369C90
+    // Offset: 0x149463C
     static UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_CurrentContext();
     // static public System.Void set_CurrentContext(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x1369CE0
+    // Offset: 0x149468C
     static void set_CurrentContext(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x1369D34
+    // Offset: 0x14946E0
     NUnit::Framework::Internal::Test* get_CurrentTest();
     // public System.Void set_CurrentTest(NUnit.Framework.Internal.Test value)
-    // Offset: 0x1369D3C
+    // Offset: 0x14946E8
     void set_CurrentTest(NUnit::Framework::Internal::Test* value);
     // public System.DateTime get_StartTime()
-    // Offset: 0x1369D44
+    // Offset: 0x14946F0
     System::DateTime get_StartTime();
     // public System.Void set_StartTime(System.DateTime value)
-    // Offset: 0x1369D4C
+    // Offset: 0x14946F8
     void set_StartTime(System::DateTime value);
     // public System.Int64 get_StartTicks()
-    // Offset: 0x1369D54
+    // Offset: 0x1494700
     int64_t get_StartTicks();
     // public System.Void set_StartTicks(System.Int64 value)
-    // Offset: 0x1369D5C
+    // Offset: 0x1494708
     void set_StartTicks(int64_t value);
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x1369D64
+    // Offset: 0x1494710
     NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x1369D6C
+    // Offset: 0x1494718
     void set_CurrentResult(NUnit::Framework::Internal::TestResult* value);
     // public System.Object get_TestObject()
-    // Offset: 0x1369D80
+    // Offset: 0x149472C
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x1369D88
+    // Offset: 0x1494734
     void set_TestObject(::Il2CppObject* value);
     // public System.String get_WorkDirectory()
-    // Offset: 0x1369D90
+    // Offset: 0x149473C
     ::Il2CppString* get_WorkDirectory();
     // public System.Void set_WorkDirectory(System.String value)
-    // Offset: 0x1369D98
+    // Offset: 0x1494744
     void set_WorkDirectory(::Il2CppString* value);
     // public NUnit.Framework.Internal.TestExecutionStatus get_ExecutionStatus()
-    // Offset: 0x13613C0
+    // Offset: 0x148BD6C
     NUnit::Framework::Internal::TestExecutionStatus get_ExecutionStatus();
     // public System.Void set_ExecutionStatus(NUnit.Framework.Internal.TestExecutionStatus value)
-    // Offset: 0x1363644
+    // Offset: 0x148DFF0
     void set_ExecutionStatus(NUnit::Framework::Internal::TestExecutionStatus value);
     // public System.Collections.Generic.List`1<NUnit.Framework.ITestAction> get_UpstreamActions()
-    // Offset: 0x1369DA0
+    // Offset: 0x149474C
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* get_UpstreamActions();
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x1369DA8
+    // Offset: 0x1494754
     void set_UpstreamActions(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
     // public System.Int32 get_TestCaseTimeout()
-    // Offset: 0x1369DB0
+    // Offset: 0x149475C
     int get_TestCaseTimeout();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x1369DB8
+    // Offset: 0x1494764
     void set_TestCaseTimeout(int value);
     // public System.Globalization.CultureInfo get_CurrentCulture()
-    // Offset: 0x1369DC0
+    // Offset: 0x149476C
     System::Globalization::CultureInfo* get_CurrentCulture();
     // public System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
-    // Offset: 0x1369DC8
+    // Offset: 0x1494774
     void set_CurrentCulture(System::Globalization::CultureInfo* value);
     // public System.Globalization.CultureInfo get_CurrentUICulture()
-    // Offset: 0x1369DD0
+    // Offset: 0x149477C
     System::Globalization::CultureInfo* get_CurrentUICulture();
     // public System.Void set_CurrentUICulture(System.Globalization.CultureInfo value)
-    // Offset: 0x1369DD8
+    // Offset: 0x1494784
     void set_CurrentUICulture(System::Globalization::CultureInfo* value);
     // public NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x1369DE0
+    // Offset: 0x149478C
     NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Void set_Listener(NUnit.Framework.Interfaces.ITestListener value)
-    // Offset: 0x1369DE8
+    // Offset: 0x1494794
     void set_Listener(NUnit::Framework::Interfaces::ITestListener* value);
     // public System.Void .ctor(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext other)
-    // Offset: 0x13644BC
+    // Offset: 0x148EE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestExecutionContext* New_ctor(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestExecutionContext*, creationType>(other)));
     }
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x1369DF0
+    // Offset: 0x149479C
     System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x1369DF8
+    // Offset: 0x14947A4
     void set_OutWriter(System::IO::TextWriter* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x1369E00
+    // Offset: 0x14947AC
     NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // public UnityEngine.TestTools.BeforeAfterTestCommandState get_SetUpTearDownState()
-    // Offset: 0x1369E08
+    // Offset: 0x14947B4
     UnityEngine::TestTools::BeforeAfterTestCommandState* get_SetUpTearDownState();
     // public System.Void set_SetUpTearDownState(UnityEngine.TestTools.BeforeAfterTestCommandState value)
-    // Offset: 0x1369E10
+    // Offset: 0x14947BC
     void set_SetUpTearDownState(UnityEngine::TestTools::BeforeAfterTestCommandState* value);
     // public UnityEngine.TestTools.BeforeAfterTestCommandState get_OuterUnityTestActionState()
-    // Offset: 0x1369E18
+    // Offset: 0x14947C4
     UnityEngine::TestTools::BeforeAfterTestCommandState* get_OuterUnityTestActionState();
     // public System.Void set_OuterUnityTestActionState(UnityEngine.TestTools.BeforeAfterTestCommandState value)
-    // Offset: 0x1369E20
+    // Offset: 0x14947CC
     void set_OuterUnityTestActionState(UnityEngine::TestTools::BeforeAfterTestCommandState* value);
     // public UnityEngine.TestTools.EnumerableTestState get_EnumerableTestState()
-    // Offset: 0x1369E28
+    // Offset: 0x14947D4
     UnityEngine::TestTools::EnumerableTestState* get_EnumerableTestState();
     // public System.Void set_EnumerableTestState(UnityEngine.TestTools.EnumerableTestState value)
-    // Offset: 0x1369E30
+    // Offset: 0x14947DC
     void set_EnumerableTestState(UnityEngine::TestTools::EnumerableTestState* value);
     // public System.Void IncrementAssertCount()
-    // Offset: 0x1369E38
+    // Offset: 0x14947E4
     void IncrementAssertCount();
     // public System.Void .ctor()
-    // Offset: 0x13697B4
+    // Offset: 0x1494160
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

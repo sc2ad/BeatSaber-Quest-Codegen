@@ -68,23 +68,23 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public System.String DefaultTestNamePattern
     static void _set_DefaultTestNamePattern(::Il2CppString* value);
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x2092CFC
+    // Offset: 0x2295ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator* New_ctor(::Il2CppString* pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>(pattern)));
     }
     // public System.String GetDisplayName(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x2092D28
+    // Offset: 0x2295F00
     ::Il2CppString* GetDisplayName(NUnit::Framework::Internal::TestMethod* testMethod, ::Array<::Il2CppObject*>* args);
     // static private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NameFragment> BuildFragmentList(System.String pattern)
-    // Offset: 0x2092EC0
+    // Offset: 0x2296098
     static System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* BuildFragmentList(::Il2CppString* pattern);
     // static private System.Void .cctor()
-    // Offset: 0x20936A0
+    // Offset: 0x2296878
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2092C80
+    // Offset: 0x2295E58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

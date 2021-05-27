@@ -41,16 +41,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
     static void _set_ht(System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
     // System.Object GetCachedValue(System.String name)
-    // Offset: 0x146E888
+    // Offset: 0x15F3538
     ::Il2CppObject* GetCachedValue(::Il2CppString* name);
     // System.Void SetCachedValue(System.Object value)
-    // Offset: 0x146E934
+    // Offset: 0x15F35E4
     void SetCachedValue(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x146E9D0
+    // Offset: 0x15F3680
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x146E9C8
+    // Offset: 0x15F3678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

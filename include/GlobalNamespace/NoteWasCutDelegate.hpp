@@ -37,20 +37,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteWasCutDelegate
     NoteWasCutDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10BAAE8
+    // Offset: 0x11C1480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteWasCutDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteWasCutDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteWasCutDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x10BAAF8
+    // Offset: 0x11C1490
     void Invoke(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier);
     // public System.IAsyncResult BeginInvoke(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10BAF08
+    // Offset: 0x11C18A0
     System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NoteCutInfo noteCutInfo, System.IAsyncResult result)
-    // Offset: 0x10BAFC4
+    // Offset: 0x11C195C
     void EndInvoke(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
   }; // NoteWasCutDelegate
   #pragma pack(pop)

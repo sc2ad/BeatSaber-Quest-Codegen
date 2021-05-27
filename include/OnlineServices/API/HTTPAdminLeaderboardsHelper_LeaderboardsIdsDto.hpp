@@ -31,7 +31,7 @@ namespace OnlineServices::API {
       return leaderboardsIds;
     }
     // public System.Void .ctor()
-    // Offset: 0xF0E848
+    // Offset: 0x11D577C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

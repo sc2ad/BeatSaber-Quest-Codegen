@@ -71,42 +71,42 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: TestSuiteResult
     TestSuiteResult(int passCount_ = {}, int failCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children_ = {}) noexcept : passCount{passCount_}, failCount{failCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, children{children_} {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x2096C00
+    // Offset: 0x2299DD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestSuiteResult* New_ctor(NUnit::Framework::Internal::TestSuite* suite) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestSuiteResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestSuiteResult*, creationType>(suite)));
     }
     // public System.Void AddResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x2097140
+    // Offset: 0x229A318
     void AddResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public override System.Int32 get_FailCount()
-    // Offset: 0x20970C0
+    // Offset: 0x229A298
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_FailCount()
     int get_FailCount();
     // public override System.Int32 get_PassCount()
-    // Offset: 0x20970C8
+    // Offset: 0x229A2A0
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_PassCount()
     int get_PassCount();
     // public override System.Int32 get_SkipCount()
-    // Offset: 0x20970D0
+    // Offset: 0x229A2A8
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_SkipCount()
     int get_SkipCount();
     // public override System.Int32 get_InconclusiveCount()
-    // Offset: 0x20970D8
+    // Offset: 0x229A2B0
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_InconclusiveCount()
     int get_InconclusiveCount();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x20970E0
+    // Offset: 0x229A2B8
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Boolean TestResult::get_HasChildren()
     bool get_HasChildren();
     // public override System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
-    // Offset: 0x2097138
+    // Offset: 0x229A310
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();

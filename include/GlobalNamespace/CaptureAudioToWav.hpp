@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x117588C
+    // Offset: 0x1222B78
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x11758C4
+    // Offset: 0x1222BB0
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0x1175974
+    // Offset: 0x1222C60
     void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x1175E14
+    // Offset: 0x1223100
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0x1175E24
+    // Offset: 0x1223110
     void ConvertAndWrite(::Array<float>* dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0x1175A30
+    // Offset: 0x1222D1C
     void WriteHeader();
     // public System.Void .ctor()
-    // Offset: 0x1175FC0
+    // Offset: 0x12232AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

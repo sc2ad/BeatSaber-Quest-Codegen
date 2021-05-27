@@ -49,21 +49,21 @@ namespace GlobalNamespace {
     class $$c__DisplayClass8_0;
     // Nested type: GlobalNamespace::MainMenuDestinationRequestController::$ProcessDestinationRequest$d__8
     struct $ProcessDestinationRequest$d__8;
-    // [InjectAttribute] Offset: 0xD35950
+    // [InjectAttribute] Offset: 0xE16134
     // private readonly IDestinationRequestManager _destinationRequestManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IDestinationRequestManager* destinationRequestManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDestinationRequestManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD35960
+    // [InjectAttribute] Offset: 0xE16144
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD35970
+    // [InjectAttribute] Offset: 0xE16154
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -87,22 +87,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Initialize()
-    // Offset: 0x10E6430
+    // Offset: 0x10D73B0
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x10E66E0
+    // Offset: 0x10D7660
     void Dispose();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x10E6878
+    // Offset: 0x10D77F8
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleDestinationRequestManagerDidSendMenuDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x10E6B08
+    // Offset: 0x10D7A88
     void HandleDestinationRequestManagerDidSendMenuDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // private System.Void ProcessDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x10E6618
+    // Offset: 0x10D7598
     void ProcessDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // public System.Void .ctor()
-    // Offset: 0x10E6B0C
+    // Offset: 0x10D7A8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

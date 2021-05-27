@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
       return TotalCount;
     }
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x13A7010
+    // Offset: 0x14B2E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeEntryList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ChallengeEntryList::.ctor");

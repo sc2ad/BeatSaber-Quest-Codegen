@@ -147,7 +147,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Creating value type constructor for type: RemoteTestData
     RemoteTestData(::Il2CppString* id_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, int testCaseCount_ = {}, int ChildIndex_ = {}, bool hasChildren_ = {}, bool isSuite_ = {}, ::Array<::Il2CppString*>* childrenIds_ = {}, int testCaseTimeout_ = {}, ::Array<::Il2CppString*>* Categories_ = {}, bool IsTestAssembly_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* SkipReason_ = {}, ::Il2CppString* ParentId_ = {}, ::Il2CppString* UniqueName_ = {}, ::Il2CppString* ParentUniqueName_ = {}, ::Il2CppString* ParentFullName_ = {}) noexcept : id{id_}, name{name_}, fullName{fullName_}, testCaseCount{testCaseCount_}, ChildIndex{ChildIndex_}, hasChildren{hasChildren_}, isSuite{isSuite_}, childrenIds{childrenIds_}, testCaseTimeout{testCaseTimeout_}, Categories{Categories_}, IsTestAssembly{IsTestAssembly_}, RunState{RunState_}, Description{Description_}, SkipReason{SkipReason_}, ParentId{ParentId_}, UniqueName{UniqueName_}, ParentUniqueName{ParentUniqueName_}, ParentFullName{ParentFullName_} {}
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x136C988
+    // Offset: 0x1497334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData* New_ctor(NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");

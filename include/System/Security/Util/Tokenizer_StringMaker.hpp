@@ -64,19 +64,19 @@ namespace System::Security::Util {
     // Creating value type constructor for type: StringMaker
     StringMaker(::Array<::Il2CppString*>* aStrings_ = {}, uint cStringsMax_ = {}, uint cStringsUsed_ = {}, System::Text::StringBuilder* outStringBuilder_ = {}, ::Array<::Il2CppChar>* outChars_ = {}, int outIndex_ = {}) noexcept : aStrings{aStrings_}, cStringsMax{cStringsMax_}, cStringsUsed{cStringsUsed_}, outStringBuilder{outStringBuilder_}, outChars{outChars_}, outIndex{outIndex_} {}
     // static private System.UInt32 HashString(System.String str)
-    // Offset: 0x1A57384
+    // Offset: 0x1B3447C
     static uint HashString(::Il2CppString* str);
     // static private System.UInt32 HashCharArray(System.Char[] a, System.Int32 l)
-    // Offset: 0x1A573F0
+    // Offset: 0x1B344E8
     static uint HashCharArray(::Array<::Il2CppChar>* a, int l);
     // private System.Boolean CompareStringAndChars(System.String str, System.Char[] a, System.Int32 l)
-    // Offset: 0x1A574E0
+    // Offset: 0x1B345D8
     bool CompareStringAndChars(::Il2CppString* str, ::Array<::Il2CppChar>* a, int l);
     // public System.String MakeString()
-    // Offset: 0x1A570A8
+    // Offset: 0x1B341A0
     ::Il2CppString* MakeString();
     // public System.Void .ctor()
-    // Offset: 0x1A57458
+    // Offset: 0x1B34550
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

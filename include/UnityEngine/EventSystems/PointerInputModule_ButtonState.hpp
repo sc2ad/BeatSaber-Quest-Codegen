@@ -37,19 +37,19 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: ButtonState
     ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton m_Button_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData_ = {}) noexcept : m_Button{m_Button_}, m_EventData{m_EventData_} {}
     // public UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData get_eventData()
-    // Offset: 0x13388CC
+    // Offset: 0x1419CD8
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData value)
-    // Offset: 0x13388D4
+    // Offset: 0x1419CE0
     void set_eventData(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0x13388DC
+    // Offset: 0x1419CE8
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0x13388E4
+    // Offset: 0x1419CF0
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Void .ctor()
-    // Offset: 0x13388EC
+    // Offset: 0x1419CF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

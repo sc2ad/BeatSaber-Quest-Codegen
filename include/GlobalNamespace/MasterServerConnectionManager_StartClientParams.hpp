@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StartClientParams
     StartClientParams() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12B7F34
+    // Offset: 0x14E1528
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

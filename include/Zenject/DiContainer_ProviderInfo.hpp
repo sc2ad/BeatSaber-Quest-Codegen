@@ -56,7 +56,7 @@ namespace Zenject {
     // Creating value type constructor for type: ProviderInfo
     ProviderInfo(Zenject::DiContainer* Container_ = {}, bool NonLazy_ = {}, Zenject::IProvider* Provider_ = {}, Zenject::BindingCondition* Condition_ = {}) noexcept : Container{Container_}, NonLazy{NonLazy_}, Provider{Provider_}, Condition{Condition_} {}
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
-    // Offset: 0x147D8CC
+    // Offset: 0x161B658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ProviderInfo::.ctor");

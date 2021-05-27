@@ -32,6 +32,12 @@ namespace Oculus::Platform {
     constexpr operator uint() const noexcept {
       return value;
     }
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal AbuseReport_LaunchAdvancedReportFlow
+    static constexpr const uint AbuseReport_LaunchAdvancedReportFlow = 1286683246u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal AbuseReport_LaunchAdvancedReportFlow
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_AbuseReport_LaunchAdvancedReportFlow();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal AbuseReport_LaunchAdvancedReportFlow
+    static void _set_AbuseReport_LaunchAdvancedReportFlow(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Application_ExecuteCoordinatedLaunch
     static constexpr const uint Application_ExecuteCoordinatedLaunch = 645772532u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Application_ExecuteCoordinatedLaunch
@@ -98,6 +104,12 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_GraphAPI_Post();
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal GraphAPI_Post
     static void _set_GraphAPI_Post(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal GroupPresence_LaunchInvitePanel
+    static constexpr const uint GroupPresence_LaunchInvitePanel = 262066079u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal GroupPresence_LaunchInvitePanel
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_GroupPresence_LaunchInvitePanel();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal GroupPresence_LaunchInvitePanel
+    static void _set_GroupPresence_LaunchInvitePanel(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal HTTP_Get
     static constexpr const uint HTTP_Get = 1874211363u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal HTTP_Get
@@ -290,6 +302,30 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_Party_Leave();
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Party_Leave
     static void _set_Party_Leave(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetDestination
+    static constexpr const uint RichPresence_SetDestination = 1328734477u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetDestination
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_RichPresence_SetDestination();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetDestination
+    static void _set_RichPresence_SetDestination(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetIsJoinable
+    static constexpr const uint RichPresence_SetIsJoinable = 1050353505u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetIsJoinable
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_RichPresence_SetIsJoinable();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetIsJoinable
+    static void _set_RichPresence_SetIsJoinable(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetLobbySession
+    static constexpr const uint RichPresence_SetLobbySession = 1895893271u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetLobbySession
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_RichPresence_SetLobbySession();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetLobbySession
+    static void _set_RichPresence_SetLobbySession(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetMatchSession
+    static constexpr const uint RichPresence_SetMatchSession = 1675623566u;
+    // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetMatchSession
+    static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_RichPresence_SetMatchSession();
+    // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal RichPresence_SetMatchSession
+    static void _set_RichPresence_SetMatchSession(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // static field const value: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Room_CreateOrUpdateAndJoinNamed
     static constexpr const uint Room_CreateOrUpdateAndJoinNamed = 2089683601u;
     // Get static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal Room_CreateOrUpdateAndJoinNamed

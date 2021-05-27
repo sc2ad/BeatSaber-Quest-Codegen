@@ -50,26 +50,26 @@ namespace HMUI {
     // Creating value type constructor for type: CircleTouchable
     CircleTouchable(float minRadius_ = {}, float maxRadius_ = {}, UnityEngine::RectTransform* containerRect_ = {}) noexcept : minRadius{minRadius_}, maxRadius{maxRadius_}, containerRect{containerRect_} {}
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x1240B88
+    // Offset: 0x12F3054
     void UpdateCachedReferences();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x1240CD4
+    // Offset: 0x12F31A0
     void OnDrawGizmosSelected();
     // private System.Void DrawGizmoCircle(UnityEngine.Vector3 center, System.Single radius, System.Int32 steps)
-    // Offset: 0x1240E54
+    // Offset: 0x12F3320
     void DrawGizmoCircle(UnityEngine::Vector3 center, float radius, int steps);
     // protected override System.Void OnEnable()
-    // Offset: 0x1240B60
+    // Offset: 0x12F302C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x1240BFC
+    // Offset: 0x12F30C8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public System.Void .ctor()
-    // Offset: 0x1241030
+    // Offset: 0x12F34FC
     // Implemented from: HMUI.Touchable
     // Base method: System.Void Touchable::.ctor()
     // Base method: System.Void Graphic::.ctor()

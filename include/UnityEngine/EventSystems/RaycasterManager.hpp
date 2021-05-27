@@ -32,16 +32,16 @@ namespace UnityEngine::EventSystems {
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> s_Raycasters
     static void _set_s_Raycasters(System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* value);
     // static public System.Void AddRaycaster(UnityEngine.EventSystems.BaseRaycaster baseRaycaster)
-    // Offset: 0x13324D4
+    // Offset: 0x14138E0
     static void AddRaycaster(UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
     // static public System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> GetRaycasters()
-    // Offset: 0x1338D78
+    // Offset: 0x141A184
     static System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* GetRaycasters();
     // static public System.Void RemoveRaycasters(UnityEngine.EventSystems.BaseRaycaster baseRaycaster)
-    // Offset: 0x1332608
+    // Offset: 0x1413A14
     static void RemoveRaycasters(UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
     // static private System.Void .cctor()
-    // Offset: 0x1338DE0
+    // Offset: 0x141A1EC
     static void _cctor();
   }; // UnityEngine.EventSystems.RaycasterManager
   #pragma pack(pop)

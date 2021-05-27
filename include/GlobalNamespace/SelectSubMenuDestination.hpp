@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return menuDestination;
     }
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0x105A094
+    // Offset: 0x10E9590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectSubMenuDestination::.ctor");

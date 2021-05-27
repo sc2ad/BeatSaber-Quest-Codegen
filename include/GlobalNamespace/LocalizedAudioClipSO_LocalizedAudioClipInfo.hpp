@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedAudioClipInfo
     LocalizedAudioClipInfo(Polyglot::Language language_ = {}, UnityEngine::AudioClip* localizedAudioClip_ = {}) noexcept : language{language_}, localizedAudioClip{localizedAudioClip_} {}
     // public System.Void .ctor()
-    // Offset: 0x10E4264
+    // Offset: 0x10D4A98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

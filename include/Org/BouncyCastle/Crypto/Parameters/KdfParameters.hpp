@@ -37,17 +37,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
-    // Offset: 0x11930F0
+    // Offset: 0x1240668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdfParameters* New_ctor(::Array<uint8_t>* shared, ::Array<uint8_t>* iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KdfParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdfParameters*, creationType>(shared, iv)));
     }
     // public System.Byte[] GetSharedSecret()
-    // Offset: 0x1193128
+    // Offset: 0x12406A0
     ::Array<uint8_t>* GetSharedSecret();
     // public System.Byte[] GetIV()
-    // Offset: 0x1193130
+    // Offset: 0x12406A8
     ::Array<uint8_t>* GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
   #pragma pack(pop)

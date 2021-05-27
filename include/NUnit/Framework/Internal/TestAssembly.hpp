@@ -27,8 +27,8 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x90
     char ___base_padding[0x7] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xD24AF0
-    // [CompilerGeneratedAttribute] Offset: 0xD24AF0
+    // [DebuggerBrowsableAttribute] Offset: 0xE049EC
+    // [CompilerGeneratedAttribute] Offset: 0xE049EC
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x90
@@ -42,20 +42,20 @@ namespace NUnit::Framework::Internal {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
-    // Offset: 0x20911B8
+    // Offset: 0x2294390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(assembly, path)));
     }
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2091388
+    // Offset: 0x2294560
     System::Reflection::Assembly* get_Assembly();
     // private System.Void set_Assembly(System.Reflection.Assembly value)
-    // Offset: 0x2091390
+    // Offset: 0x2294568
     void set_Assembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.String path)
-    // Offset: 0x2091300
+    // Offset: 0x22944D8
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)
@@ -65,7 +65,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(path)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x2091398
+    // Offset: 0x2294570
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

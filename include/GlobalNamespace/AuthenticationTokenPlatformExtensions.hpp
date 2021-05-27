@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AuthenticationTokenPlatformExtensions
     AuthenticationTokenPlatformExtensions() noexcept {}
     // static public AuthenticationToken/Platform ToAuthenticationTokenPlatform(UserInfo/Platform platform)
-    // Offset: 0x101BBE8
+    // Offset: 0x112D6A8
     static GlobalNamespace::AuthenticationToken::Platform ToAuthenticationTokenPlatform(GlobalNamespace::UserInfo::Platform platform);
     // static public UserInfo/Platform ToUserInfoPlatform(AuthenticationToken/Platform platform)
-    // Offset: 0x101BC14
+    // Offset: 0x112D6D4
     static GlobalNamespace::UserInfo::Platform ToUserInfoPlatform(GlobalNamespace::AuthenticationToken::Platform platform);
   }; // AuthenticationTokenPlatformExtensions
   #pragma pack(pop)

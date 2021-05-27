@@ -33,7 +33,7 @@ namespace System::Net::NetworkInformation {
       return info;
     }
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
-    // Offset: 0x134CA5C
+    // Offset: 0x1477408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPv4InterfaceStatistics* New_ctor(System::Net::NetworkInformation::Win32_MIB_IFROW info) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::.ctor");

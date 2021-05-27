@@ -37,20 +37,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: StateChanged
     StateChanged() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A081E4
+    // Offset: 0x1B77594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CullingGroup::StateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::CullingGroup::StateChanged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CullingGroup::StateChanged*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.CullingGroupEvent sphere)
-    // Offset: 0x1A07F80
+    // Offset: 0x1B77330
     void Invoke(UnityEngine::CullingGroupEvent sphere);
     // public System.IAsyncResult BeginInvoke(UnityEngine.CullingGroupEvent sphere, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A081F4
+    // Offset: 0x1B775A4
     System::IAsyncResult* BeginInvoke(UnityEngine::CullingGroupEvent sphere, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A08280
+    // Offset: 0x1B77630
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.CullingGroup/StateChanged
   #pragma pack(pop)

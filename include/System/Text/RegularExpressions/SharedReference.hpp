@@ -36,7 +36,7 @@ namespace System::Text::RegularExpressions {
       return ref;
     }
     // public System.Void .ctor()
-    // Offset: 0x18108A0
+    // Offset: 0x1981E6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

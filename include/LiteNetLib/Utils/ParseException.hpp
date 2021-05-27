@@ -21,7 +21,7 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: ParseException
     ParseException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x21A26FC
+    // Offset: 0x23C5BBC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

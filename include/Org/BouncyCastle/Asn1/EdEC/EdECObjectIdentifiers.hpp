@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::EdEC {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_Ed448
     static void _set_id_Ed448(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1575970
+    // Offset: 0x16EE560
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.EdEC.EdECObjectIdentifiers
   #pragma pack(pop)

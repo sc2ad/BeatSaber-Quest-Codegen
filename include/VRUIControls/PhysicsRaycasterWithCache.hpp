@@ -78,7 +78,7 @@ namespace VRUIControls {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0xE2B4F8
+      // Offset: 0xF21430
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask)
     }; // VRUIControls.PhysicsRaycasterWithCache/CachedRaycast
@@ -100,10 +100,10 @@ namespace VRUIControls {
     // Creating value type constructor for type: PhysicsRaycasterWithCache
     PhysicsRaycasterWithCache(System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* cachedRaycasts_ = {}, int lastFrameCount_ = {}) noexcept : cachedRaycasts{cachedRaycasts_}, lastFrameCount{lastFrameCount_} {}
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x21326C8
+    // Offset: 0x234A6E0
     bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
     // public System.Void .ctor()
-    // Offset: 0x2132B6C
+    // Offset: 0x234AB84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

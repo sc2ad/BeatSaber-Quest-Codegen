@@ -17,46 +17,46 @@ namespace Mono::Math {
     // Creating value type constructor for type: Kernel
     Kernel() noexcept {}
     // static public Mono.Math.BigInteger Subtract(Mono.Math.BigInteger big, Mono.Math.BigInteger small)
-    // Offset: 0x1B926E8
+    // Offset: 0x1D500F8
     static Mono::Math::BigInteger* Subtract(Mono::Math::BigInteger* big, Mono::Math::BigInteger* small);
     // static public System.Void MinusEq(Mono.Math.BigInteger big, Mono.Math.BigInteger small)
-    // Offset: 0x1B94920
+    // Offset: 0x1D52330
     static void MinusEq(Mono::Math::BigInteger* big, Mono::Math::BigInteger* small);
     // static public System.Void PlusEq(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-    // Offset: 0x1B94A40
+    // Offset: 0x1D52450
     static void PlusEq(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger* bi2);
     // static public Mono.Math.BigInteger/Sign Compare(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-    // Offset: 0x1B92598
+    // Offset: 0x1D4FFA8
     static Mono::Math::BigInteger::Sign Compare(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger* bi2);
     // static public System.UInt32 SingleByteDivideInPlace(Mono.Math.BigInteger n, System.UInt32 d)
-    // Offset: 0x1B93FD8
+    // Offset: 0x1D519E8
     static uint SingleByteDivideInPlace(Mono::Math::BigInteger* n, uint d);
     // static public System.UInt32 DwordMod(Mono.Math.BigInteger n, System.UInt32 d)
-    // Offset: 0x1B928B0
+    // Offset: 0x1D502C0
     static uint DwordMod(Mono::Math::BigInteger* n, uint d);
     // static public Mono.Math.BigInteger[] DwordDivMod(Mono.Math.BigInteger n, System.UInt32 d)
-    // Offset: 0x1B94BC8
+    // Offset: 0x1D525D8
     static ::Array<Mono::Math::BigInteger*>* DwordDivMod(Mono::Math::BigInteger* n, uint d);
     // static public Mono.Math.BigInteger[] multiByteDivide(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-    // Offset: 0x1B92960
+    // Offset: 0x1D50370
     static ::Array<Mono::Math::BigInteger*>* multiByteDivide(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger* bi2);
     // static public Mono.Math.BigInteger LeftShift(Mono.Math.BigInteger bi, System.Int32 n)
-    // Offset: 0x1B9312C
+    // Offset: 0x1D50B3C
     static Mono::Math::BigInteger* LeftShift(Mono::Math::BigInteger* bi, int n);
     // static public Mono.Math.BigInteger RightShift(Mono.Math.BigInteger bi, System.Int32 n)
-    // Offset: 0x1B93314
+    // Offset: 0x1D50D24
     static Mono::Math::BigInteger* RightShift(Mono::Math::BigInteger* bi, int n);
     // static public System.Void Multiply(System.UInt32[] x, System.UInt32 xOffset, System.UInt32 xLen, System.UInt32[] y, System.UInt32 yOffset, System.UInt32 yLen, System.UInt32[] d, System.UInt32 dOffset)
-    // Offset: 0x1B9302C
+    // Offset: 0x1D50A3C
     static void Multiply(::Array<uint>* x, uint xOffset, uint xLen, ::Array<uint>* y, uint yOffset, uint yLen, ::Array<uint>* d, uint dOffset);
     // static public System.Void MultiplyMod2p32pmod(System.UInt32[] x, System.Int32 xOffset, System.Int32 xLen, System.UInt32[] y, System.Int32 yOffest, System.Int32 yLen, System.UInt32[] d, System.Int32 dOffset, System.Int32 mod)
-    // Offset: 0x1B94D74
+    // Offset: 0x1D52784
     static void MultiplyMod2p32pmod(::Array<uint>* x, int xOffset, int xLen, ::Array<uint>* y, int yOffest, int yLen, ::Array<uint>* d, int dOffset, int mod);
     // static public System.UInt32 modInverse(Mono.Math.BigInteger bi, System.UInt32 modulus)
-    // Offset: 0x1B94EA4
+    // Offset: 0x1D528B4
     static uint modInverse(Mono::Math::BigInteger* bi, uint modulus);
     // static public Mono.Math.BigInteger modInverse(Mono.Math.BigInteger bi, Mono.Math.BigInteger modulus)
-    // Offset: 0x1B94234
+    // Offset: 0x1D51C44
     static Mono::Math::BigInteger* modInverse(Mono::Math::BigInteger* bi, Mono::Math::BigInteger* modulus);
   }; // Mono.Math.BigInteger/Kernel
   #pragma pack(pop)

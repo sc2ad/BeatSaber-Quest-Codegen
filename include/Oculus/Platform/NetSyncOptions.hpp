@@ -38,19 +38,19 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetVoipGroup(System.String value)
-    // Offset: 0x13B0CEC
+    // Offset: 0x14BD7B4
     void SetVoipGroup(::Il2CppString* value);
     // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x13B0D68
+    // Offset: 0x14BD830
     void SetVoipStreamDefault(Oculus::Platform::NetSyncVoipStreamMode value);
     // public System.Void SetZoneId(System.String value)
-    // Offset: 0x13B0DE4
+    // Offset: 0x14BD8AC
     void SetZoneId(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
-    // Offset: 0x13B0E60
+    // Offset: 0x14BD928
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x13B0C74
+    // Offset: 0x14BD73C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,7 +59,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x13B0EB0
+    // Offset: 0x14BD978
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

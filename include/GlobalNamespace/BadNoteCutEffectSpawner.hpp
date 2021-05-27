@@ -41,21 +41,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3935C
+    // [InjectAttribute] Offset: 0xE19C48
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3936C
+    // [InjectAttribute] Offset: 0xE19C58
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3937C
+    // [InjectAttribute] Offset: 0xE19C68
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -67,16 +67,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1025CB0
+    // Offset: 0x119C590
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1025D68
+    // Offset: 0x119C648
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1025E00
+    // Offset: 0x119C6E0
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x1025F08
+    // Offset: 0x119C808
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

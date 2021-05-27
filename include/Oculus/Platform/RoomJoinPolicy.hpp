@@ -30,42 +30,42 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xD2071C
+    // [DescriptionAttribute] Offset: 0xDFF320
     // static field const value: static public Oculus.Platform.RoomJoinPolicy None
     static constexpr const int None = 0;
     // Get static field: static public Oculus.Platform.RoomJoinPolicy None
     static Oculus::Platform::RoomJoinPolicy _get_None();
     // Set static field: static public Oculus.Platform.RoomJoinPolicy None
     static void _set_None(Oculus::Platform::RoomJoinPolicy value);
-    // [DescriptionAttribute] Offset: 0xD20754
+    // [DescriptionAttribute] Offset: 0xDFF358
     // static field const value: static public Oculus.Platform.RoomJoinPolicy Everyone
     static constexpr const int Everyone = 1;
     // Get static field: static public Oculus.Platform.RoomJoinPolicy Everyone
     static Oculus::Platform::RoomJoinPolicy _get_Everyone();
     // Set static field: static public Oculus.Platform.RoomJoinPolicy Everyone
     static void _set_Everyone(Oculus::Platform::RoomJoinPolicy value);
-    // [DescriptionAttribute] Offset: 0xD2078C
+    // [DescriptionAttribute] Offset: 0xDFF390
     // static field const value: static public Oculus.Platform.RoomJoinPolicy FriendsOfMembers
     static constexpr const int FriendsOfMembers = 2;
     // Get static field: static public Oculus.Platform.RoomJoinPolicy FriendsOfMembers
     static Oculus::Platform::RoomJoinPolicy _get_FriendsOfMembers();
     // Set static field: static public Oculus.Platform.RoomJoinPolicy FriendsOfMembers
     static void _set_FriendsOfMembers(Oculus::Platform::RoomJoinPolicy value);
-    // [DescriptionAttribute] Offset: 0xD207C4
+    // [DescriptionAttribute] Offset: 0xDFF3C8
     // static field const value: static public Oculus.Platform.RoomJoinPolicy FriendsOfOwner
     static constexpr const int FriendsOfOwner = 3;
     // Get static field: static public Oculus.Platform.RoomJoinPolicy FriendsOfOwner
     static Oculus::Platform::RoomJoinPolicy _get_FriendsOfOwner();
     // Set static field: static public Oculus.Platform.RoomJoinPolicy FriendsOfOwner
     static void _set_FriendsOfOwner(Oculus::Platform::RoomJoinPolicy value);
-    // [DescriptionAttribute] Offset: 0xD207FC
+    // [DescriptionAttribute] Offset: 0xDFF400
     // static field const value: static public Oculus.Platform.RoomJoinPolicy InvitedUsers
     static constexpr const int InvitedUsers = 4;
     // Get static field: static public Oculus.Platform.RoomJoinPolicy InvitedUsers
     static Oculus::Platform::RoomJoinPolicy _get_InvitedUsers();
     // Set static field: static public Oculus.Platform.RoomJoinPolicy InvitedUsers
     static void _set_InvitedUsers(Oculus::Platform::RoomJoinPolicy value);
-    // [DescriptionAttribute] Offset: 0xD20834
+    // [DescriptionAttribute] Offset: 0xDFF438
     // static field const value: static public Oculus.Platform.RoomJoinPolicy Unknown
     static constexpr const int Unknown = 5;
     // Get static field: static public Oculus.Platform.RoomJoinPolicy Unknown

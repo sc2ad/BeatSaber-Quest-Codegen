@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43634
+    // [InjectAttribute] Offset: 0xE24238
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43644
+    // [CompilerGeneratedAttribute] Offset: 0xE24248
     // private System.Action`1<System.Single> valueDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -97,28 +97,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF7BA4C
+    // Offset: 0x1014214
     void add_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xF7BAF0
+    // Offset: 0x10142B8
     void remove_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_value()
-    // Offset: 0xF7BB94
+    // Offset: 0x101435C
     float get_value();
     // protected System.Void Awake()
-    // Offset: 0xF7BB9C
+    // Offset: 0x1014364
     void Awake();
     // public System.Void Init(System.Single playerHeight)
-    // Offset: 0xF7BC4C
+    // Offset: 0x1014414
     void Init(float playerHeight);
     // private System.Void AutoSetHeight()
-    // Offset: 0xF7BCF0
+    // Offset: 0x10144B8
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0xF7BC54
+    // Offset: 0x101441C
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0xF7BE14
+    // Offset: 0x10145DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

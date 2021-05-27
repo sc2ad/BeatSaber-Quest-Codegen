@@ -52,22 +52,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MediaAsyncLoader
     MediaAsyncLoader() noexcept {}
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2187E5C
+    // Offset: 0x23AA378
     static System::Threading::Tasks::Task_1<::Il2CppString*>* LoadWebpage(::Il2CppString* uri, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2187F6C
+    // Offset: 0x23AA488
     static System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadTextureAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x218807C
+    // Offset: 0x23AA598
     static System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadTextureAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x218818C
+    // Offset: 0x23AA6A8
     static System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0x218829C
+    // Offset: 0x23AA7B8
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x2188304
+    // Offset: 0x23AA820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

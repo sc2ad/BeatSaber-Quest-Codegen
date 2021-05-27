@@ -200,58 +200,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0x11563BC
+    // Offset: 0x1267B1C
     void Awake();
     // private System.Void Update()
-    // Offset: 0x11565C4
+    // Offset: 0x1267D24
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x1156D08
+    // Offset: 0x1268468
     void OnDestroy();
     // private System.Void InitUIComponents()
-    // Offset: 0x115668C
+    // Offset: 0x1267DEC
     void InitUIComponents();
     // private System.Void UpdateVariable()
-    // Offset: 0x1156A60
+    // Offset: 0x12681C0
     void UpdateVariable();
     // private System.Void UpdateStrings()
-    // Offset: 0x1156AA4
+    // Offset: 0x1268204
     void UpdateStrings();
     // private System.Void RiftPresentGUI(UnityEngine.GameObject guiMainOBj)
-    // Offset: 0x11574FC
+    // Offset: 0x1268C5C
     void RiftPresentGUI(UnityEngine::GameObject* guiMainOBj);
     // private System.Void UpdateDeviceDetection()
-    // Offset: 0x1156A20
+    // Offset: 0x1268180
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
-    // Offset: 0x1156D10
+    // Offset: 0x1268470
     UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::Il2CppString* name, float posY, ::Il2CppString* str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
-    // Offset: 0x11576B0
+    // Offset: 0x1268E10
     UnityEngine::GameObject* ComponentComposition(UnityEngine::GameObject* GO);
     // private System.Void UpdateIPD()
-    // Offset: 0x1156EF0
+    // Offset: 0x1268650
     void UpdateIPD();
     // private System.Void UpdateEyeHeightOffset()
-    // Offset: 0x1156FB4
+    // Offset: 0x1268714
     void UpdateEyeHeightOffset();
     // private System.Void UpdateEyeDepthOffset()
-    // Offset: 0x115706C
+    // Offset: 0x12687CC
     void UpdateEyeDepthOffset();
     // private System.Void UpdateFOV()
-    // Offset: 0x1157124
+    // Offset: 0x1268884
     void UpdateFOV();
     // private System.Void UpdateResolutionEyeTexture()
-    // Offset: 0x115722C
+    // Offset: 0x126898C
     void UpdateResolutionEyeTexture();
     // private System.Void UpdateLatencyValues()
-    // Offset: 0x1157414
+    // Offset: 0x1268B74
     void UpdateLatencyValues();
     // private System.Void UpdateFPS()
-    // Offset: 0x1157418
+    // Offset: 0x1268B78
     void UpdateFPS();
     // public System.Void .ctor()
-    // Offset: 0x1157A1C
+    // Offset: 0x126917C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PropertyTintColorPair
     PropertyTintColorPair(UnityEngine::Color tintColor_ = {}, ::Il2CppString* property_ = {}) noexcept : tintColor{tintColor_}, property{property_} {}
     // public System.Void .ctor()
-    // Offset: 0x105BAC8
+    // Offset: 0x10EB1A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

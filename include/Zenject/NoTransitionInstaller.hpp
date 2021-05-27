@@ -28,10 +28,13 @@ namespace Zenject {
     // Creating value type constructor for type: NoTransitionInstaller
     NoTransitionInstaller() noexcept {}
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x152F0C4
+    // Offset: 0x16C664C
     void InstallBindings(Zenject::DiContainer* container);
+    // public System.Void PostInstall(Zenject.DiContainer container)
+    // Offset: 0x16C6650
+    void PostInstall(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x152F0C8
+    // Offset: 0x16C6654
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

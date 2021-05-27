@@ -28,12 +28,12 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_SelectionCaret
     TMP_SelectionCaret() noexcept {}
     // public override System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x102E480
+    // Offset: 0x11566B0
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(UnityEngine::Rect clipRect, bool validRect);
     // public System.Void .ctor()
-    // Offset: 0x102E484
+    // Offset: 0x11566B4
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()

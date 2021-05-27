@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     bool useMainColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xD488A8
+    // [DrawIfAttribute] Offset: 0xE2A35C
     // public System.Boolean _useOwnGradient
     // Size: 0x1
     // Offset: 0x1A
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOwnGradient and: particleColorGradient
     char __padding3[0x5] = {};
-    // [DrawIfAttribute] Offset: 0xD4893C
+    // [DrawIfAttribute] Offset: 0xE2A3F0
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FireworkItemParticleSystem
     FireworkItemParticleSystem(UnityEngine::ParticleSystem* particleSystem_ = {}, bool isSubemitter_ = {}, bool useMainColor_ = {}, bool useOwnGradient_ = {}, UnityEngine::Gradient* particleColorGradient_ = {}, bool randomizeSpeed_ = {}) noexcept : particleSystem{particleSystem_}, isSubemitter{isSubemitter_}, useMainColor{useMainColor_}, useOwnGradient{useOwnGradient_}, particleColorGradient{particleColorGradient_}, randomizeSpeed{randomizeSpeed_} {}
     // public System.Void .ctor()
-    // Offset: 0xF558E8
+    // Offset: 0x10C6474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

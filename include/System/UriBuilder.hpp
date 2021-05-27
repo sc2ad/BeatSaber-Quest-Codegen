@@ -96,52 +96,52 @@ namespace System {
     // Creating value type constructor for type: UriBuilder
     UriBuilder(bool changed_ = {}, ::Il2CppString* fragment_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* password_ = {}, ::Il2CppString* path_ = {}, int port_ = {}, ::Il2CppString* query_ = {}, ::Il2CppString* scheme_ = {}, ::Il2CppString* schemeDelimiter_ = {}, System::Uri* uri_ = {}, ::Il2CppString* username_ = {}) noexcept : changed{changed_}, fragment{fragment_}, host{host_}, password{password_}, path{path_}, port{port_}, query{query_}, scheme{scheme_}, schemeDelimiter{schemeDelimiter_}, uri{uri_}, username{username_} {}
     // public System.Void .ctor(System.String uri)
-    // Offset: 0x2179E70
+    // Offset: 0x23A3698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* uri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(uri)));
     }
     // private System.Void Init(System.Uri uri)
-    // Offset: 0x217A00C
+    // Offset: 0x23A3834
     void Init(System::Uri* uri);
     // public System.Void .ctor(System.String schemeName, System.String hostName)
-    // Offset: 0x217A2F4
+    // Offset: 0x23A3B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* schemeName, ::Il2CppString* hostName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(schemeName, hostName)));
     }
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
-    // Offset: 0x217A640
+    // Offset: 0x23A3E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::Il2CppString* scheme, ::Il2CppString* host, int portNumber) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(scheme, host, portNumber)));
     }
     // public System.Void set_Host(System.String value)
-    // Offset: 0x217A55C
+    // Offset: 0x23A3D84
     void set_Host(::Il2CppString* value);
     // public System.Void set_Path(System.String value)
-    // Offset: 0x217A70C
+    // Offset: 0x23A3F34
     void set_Path(::Il2CppString* value);
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x217A66C
+    // Offset: 0x23A3E94
     void set_Port(int value);
     // public System.Void set_Query(System.String value)
-    // Offset: 0x217A7CC
+    // Offset: 0x23A3FF4
     void set_Query(::Il2CppString* value);
     // public System.Void set_Scheme(System.String value)
-    // Offset: 0x217A420
+    // Offset: 0x23A3C48
     void set_Scheme(::Il2CppString* value);
     // public System.Uri get_Uri()
-    // Offset: 0x217A888
+    // Offset: 0x23A40B0
     System::Uri* get_Uri();
     // private System.Void SetFieldsFromUri(System.Uri uri)
-    // Offset: 0x217A184
+    // Offset: 0x23A39AC
     void SetFieldsFromUri(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x2179D6C
+    // Offset: 0x23A3594
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -150,17 +150,17 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object rparam)
-    // Offset: 0x217A934
+    // Offset: 0x23A415C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rparam)
     bool Equals(::Il2CppObject* rparam);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x217A994
+    // Offset: 0x23A41BC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x217A9B8
+    // Offset: 0x23A41E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

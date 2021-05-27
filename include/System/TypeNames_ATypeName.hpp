@@ -30,20 +30,20 @@ namespace System {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_DisplayName();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x20EDB88
+    // Offset: 0x2312598
     bool Equals(System::TypeName* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20EDC74
+    // Offset: 0x2312684
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x20EDCA0
+    // Offset: 0x23126B0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // protected System.Void .ctor()
-    // Offset: 0x20EC99C
+    // Offset: 0x23113AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,35 +47,35 @@ namespace System::Threading {
       return m_ec;
     }
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0xE0BE58
+    // Offset: 0xEFFF1C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec)
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0xE0BE60
+    // Offset: 0xEFFF24
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean get_IsNull()
-    // Offset: 0xE0BE68
+    // Offset: 0xEFFF2C
     bool get_IsNull();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0xE0BE78
+    // Offset: 0xEFFF3C
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0xE0BE94
+    // Offset: 0xEFFF58
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0xE0BEB0
+    // Offset: 0xEFFF74
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0xE0BEC8
+    // Offset: 0xEFFF8C
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/Reader get_LogicalCallContext()
-    // Offset: 0xE0BEE0
+    // Offset: 0xEFFFA4
     System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader get_IllogicalCallContext()
-    // Offset: 0xE0BEFC
+    // Offset: 0xEFFFC0
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0xE0BF18
+    // Offset: 0xEFFFDC
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/Reader
   #pragma pack(pop)

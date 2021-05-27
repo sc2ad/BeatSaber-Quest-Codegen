@@ -15,10 +15,10 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: IntrospectiveSortUtilities
     IntrospectiveSortUtilities() noexcept {}
     // static System.Int32 FloorLog2(System.Int32 n)
-    // Offset: 0x1640ACC
+    // Offset: 0x175EF34
     static int FloorLog2(int n);
     // static System.Void ThrowOrIgnoreBadComparer(System.Object comparer)
-    // Offset: 0x1640C2C
+    // Offset: 0x175F094
     static void ThrowOrIgnoreBadComparer(::Il2CppObject* comparer);
   }; // System.Collections.Generic.IntrospectiveSortUtilities
   #pragma pack(pop)

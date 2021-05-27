@@ -42,35 +42,35 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B238
+    // [InjectAttribute] Offset: 0xE1BC30
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B248
+    // [InjectAttribute] Offset: 0xE1BC40
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3B258
+    // [CompilerGeneratedAttribute] Offset: 0xE1BC50
     // private System.Action relativeScoreOrImmediateRankDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* relativeScoreOrImmediateRankDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3B268
+    // [CompilerGeneratedAttribute] Offset: 0xE1BC60
     // private System.Single <relativeScore>k__BackingField
     // Size: 0x4
     // Offset: 0x38
     float relativeScore;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD3B278
+    // [CompilerGeneratedAttribute] Offset: 0xE1BC70
     // private RankModel/Rank <immediateRank>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
@@ -82,37 +82,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0xF88380
+    // Offset: 0x10ABF3C
     void add_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
     // public System.Void remove_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0xF88424
+    // Offset: 0x10ABFE0
     void remove_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
     // public System.Single get_relativeScore()
-    // Offset: 0xF884C8
+    // Offset: 0x10AC084
     float get_relativeScore();
     // private System.Void set_relativeScore(System.Single value)
-    // Offset: 0xF884D0
+    // Offset: 0x10AC08C
     void set_relativeScore(float value);
     // public RankModel/Rank get_immediateRank()
-    // Offset: 0xF884D8
+    // Offset: 0x10AC094
     GlobalNamespace::RankModel::Rank get_immediateRank();
     // private System.Void set_immediateRank(RankModel/Rank value)
-    // Offset: 0xF884E0
+    // Offset: 0x10AC09C
     void set_immediateRank(GlobalNamespace::RankModel::Rank value);
     // protected System.Void Start()
-    // Offset: 0xF884E8
+    // Offset: 0x10AC0A4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF88620
+    // Offset: 0x10AC1DC
     void OnDestroy();
     // private System.Void HandleScoreControllerImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0xF88720
+    // Offset: 0x10AC2DC
     void HandleScoreControllerImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleScore, int immediateMaxPossibleModifiedScore);
     // private System.Void UpdateRelativeScoreAndImmediateRank(System.Int32 score, System.Int32 modifiedScore, System.Int32 maxPossibleScore, System.Int32 maxPossibleModifiedScore)
-    // Offset: 0xF88874
+    // Offset: 0x10AC430
     void UpdateRelativeScoreAndImmediateRank(int score, int modifiedScore, int maxPossibleScore, int maxPossibleModifiedScore);
     // public System.Void .ctor()
-    // Offset: 0xF888FC
+    // Offset: 0x10AC4B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

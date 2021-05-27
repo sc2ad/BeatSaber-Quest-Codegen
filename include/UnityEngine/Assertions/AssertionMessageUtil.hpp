@@ -15,13 +15,13 @@ namespace UnityEngine::Assertions {
     // Creating value type constructor for type: AssertionMessageUtil
     AssertionMessageUtil() noexcept {}
     // static public System.String GetMessage(System.String failureMessage)
-    // Offset: 0x1A00D30
+    // Offset: 0x1B6F0B4
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage);
     // static public System.String GetMessage(System.String failureMessage, System.String expected)
-    // Offset: 0x1A00E1C
+    // Offset: 0x1B6F1A0
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage, ::Il2CppString* expected);
     // static public System.String GetEqualityMessage(System.Object actual, System.Object expected, System.Boolean expectEqual)
-    // Offset: 0x1A00A0C
+    // Offset: 0x1B6ED90
     static ::Il2CppString* GetEqualityMessage(::Il2CppObject* actual, ::Il2CppObject* expected, bool expectEqual);
   }; // UnityEngine.Assertions.AssertionMessageUtil
   #pragma pack(pop)

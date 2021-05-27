@@ -126,6 +126,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_Event15();
     // Set static field: static public BeatmapEventType Event15
     static void _set_Event15(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType Event16
+    static constexpr const int Event16 = 16;
+    // Get static field: static public BeatmapEventType Event16
+    static GlobalNamespace::BeatmapEventType _get_Event16();
+    // Set static field: static public BeatmapEventType Event16
+    static void _set_Event16(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType Event17
+    static constexpr const int Event17 = 17;
+    // Get static field: static public BeatmapEventType Event17
+    static GlobalNamespace::BeatmapEventType _get_Event17();
+    // Set static field: static public BeatmapEventType Event17
+    static void _set_Event17(GlobalNamespace::BeatmapEventType value);
     // static field const value: static public BeatmapEventType VoidEvent
     static constexpr const int VoidEvent = -1;
     // Get static field: static public BeatmapEventType VoidEvent

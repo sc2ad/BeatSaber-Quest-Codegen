@@ -42,7 +42,7 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0xDFBAF4
+    // Offset: 0xEEBB04
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2)
   }; // TMPro.TMP_TextUtilities/LineSegment

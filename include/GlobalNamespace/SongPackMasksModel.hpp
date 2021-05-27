@@ -54,20 +54,20 @@ namespace GlobalNamespace {
       return songPackMaskData;
     }
     // public System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<SongPackMask,System.String>> get_songPackMaskData()
-    // Offset: 0xF8FB60
+    // Offset: 0x11721A0
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>* get_songPackMaskData();
     // public System.Void .ctor(SongPackMaskModelSO songPackMasks)
-    // Offset: 0xF8FB68
+    // Offset: 0x11721A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMasksModel* New_ctor(GlobalNamespace::SongPackMaskModelSO* songPackMasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMasksModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMasksModel*, creationType>(songPackMasks)));
     }
     // public SongPackMask GetAllSongsMask()
-    // Offset: 0xF8FC5C
+    // Offset: 0x117229C
     GlobalNamespace::SongPackMask GetAllSongsMask();
     // public System.String GetSongPackMaskText(SongPackMask songPackMask)
-    // Offset: 0xF8FD20
+    // Offset: 0x1172360
     ::Il2CppString* GetSongPackMaskText(GlobalNamespace::SongPackMask songPackMask);
   }; // SongPackMasksModel
   #pragma pack(pop)

@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Creating value type constructor for type: PointPrecomp
     PointPrecomp(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}) noexcept : x{x_}, y{y_} {}
     // public System.Void .ctor()
-    // Offset: 0x1B60D34
+    // Offset: 0x1D16D3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

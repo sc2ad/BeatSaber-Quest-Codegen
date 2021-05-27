@@ -54,10 +54,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xDF5B04
+    // Offset: 0xEE57F8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xDF5B0C
+    // Offset: 0xEE5800
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d
   // WARNING Not writing size check since size may be invalid!

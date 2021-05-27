@@ -60,30 +60,30 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HandPoser
     HandPoser(::Array<UnityEngine::Transform*>* children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::Array<UnityEngine::Transform*>* poseChildren_ = {}, ::Array<UnityEngine::Vector3>* defaultLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
     // protected System.Void StoreDefaultState()
-    // Offset: 0x1AA100C
+    // Offset: 0x1C47DEC
     void StoreDefaultState();
     // public override System.Void AutoMapping()
-    // Offset: 0x1AA0EFC
+    // Offset: 0x1C47CDC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1AA0FB0
+    // Offset: 0x1C47D90
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1AA1168
+    // Offset: 0x1C47F48
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1AA1264
+    // Offset: 0x1C48044
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // public System.Void .ctor()
-    // Offset: 0x1AA1614
+    // Offset: 0x1C483F4
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()

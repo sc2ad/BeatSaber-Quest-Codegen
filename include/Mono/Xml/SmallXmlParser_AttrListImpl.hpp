@@ -47,31 +47,31 @@ namespace Mono::Xml {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IAttrList*>(this);
     }
     // public System.Int32 get_Length()
-    // Offset: 0x18CD6D0
+    // Offset: 0x1A64618
     int get_Length();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x18CD720
+    // Offset: 0x1A64668
     ::Il2CppString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x18CD798
+    // Offset: 0x1A646E0
     ::Il2CppString* GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x18CD810
+    // Offset: 0x1A64758
     ::Il2CppString* GetValue(::Il2CppString* name);
     // public System.String[] get_Names()
-    // Offset: 0x18CD8E4
+    // Offset: 0x1A6482C
     ::Array<::Il2CppString*>* get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x18CD93C
+    // Offset: 0x1A64884
     ::Array<::Il2CppString*>* get_Values();
     // System.Void Clear()
-    // Offset: 0x18CD0FC
+    // Offset: 0x1A64044
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x18CD650
+    // Offset: 0x1A64598
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x18CBD40
+    // Offset: 0x1A62C88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -49,7 +49,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CloudStorageUpdateResponse
     CloudStorageUpdateResponse(::Il2CppString* Bucket_ = {}, ::Il2CppString* Key_ = {}, Oculus::Platform::CloudStorageUpdateStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Key{Key_}, Status{Status_}, VersionHandle{VersionHandle_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13A7E20
+    // Offset: 0x14B3C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageUpdateResponse* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageUpdateResponse::.ctor");

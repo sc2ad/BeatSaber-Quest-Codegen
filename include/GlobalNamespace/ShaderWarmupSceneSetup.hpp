@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ShaderWarmupSceneSetup
     ShaderWarmupSceneSetup(GlobalNamespace::ColorSchemeSO* sharedWarmupColorScheme_ = {}) noexcept : sharedWarmupColorScheme{sharedWarmupColorScheme_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x105C8C0
+    // Offset: 0x10EBFB4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x105C968
+    // Offset: 0x10EC05C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

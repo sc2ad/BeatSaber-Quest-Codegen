@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* progressSecondsText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3B368
+    // [InjectAttribute] Offset: 0xE1BD60
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
@@ -119,13 +119,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF919DC
+    // Offset: 0x11740C0
     void Start();
     // protected System.Void Update()
-    // Offset: 0xF91AF4
+    // Offset: 0x11741D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF91CD8
+    // Offset: 0x11743BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

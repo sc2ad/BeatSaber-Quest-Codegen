@@ -46,17 +46,17 @@ namespace System::Runtime::Remoting::Activation {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);
     }
     // public System.Void .ctor(System.String activationUrl, System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1324B70
+    // Offset: 0x1405F7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppDomainLevelActivator* New_ctor(::Il2CppString* activationUrl, System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::AppDomainLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainLevelActivator*, creationType>(activationUrl, next)));
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x1325150
+    // Offset: 0x140655C
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1325158
+    // Offset: 0x1406564
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.AppDomainLevelActivator
   #pragma pack(pop)

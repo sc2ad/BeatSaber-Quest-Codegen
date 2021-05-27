@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLobbyAvatarPlace
     MultiplayerLobbyAvatarPlace() noexcept {}
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 worldPos, UnityEngine.Quaternion rotation)
-    // Offset: 0x1081F90
+    // Offset: 0x23FAD00
     void SetPositionAndRotation(UnityEngine::Vector3 worldPos, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x108200C
+    // Offset: 0x23FAD7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

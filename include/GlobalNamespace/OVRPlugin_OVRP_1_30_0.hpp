@@ -28,25 +28,25 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetCurrentTrackingTransformPose(out OVRPlugin/Posef trackingTransformPose)
-    // Offset: 0x157F7E8
+    // Offset: 0x16094A0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetCurrentTrackingTransformPose(GlobalNamespace::OVRPlugin::Posef& trackingTransformPose);
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRawPose(out OVRPlugin/Posef trackingTransformRawPose)
-    // Offset: 0x157F868
+    // Offset: 0x1609520
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRawPose(GlobalNamespace::OVRPlugin::Posef& trackingTransformRawPose);
     // static public OVRPlugin/Result ovrp_SendEvent2(System.String name, System.String param, System.String source)
-    // Offset: 0x157F8E8
+    // Offset: 0x16095A0
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent2(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
     // static public OVRPlugin/Result ovrp_IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics, out OVRPlugin/Bool isSupported)
-    // Offset: 0x157F9C4
+    // Offset: 0x160967C
     static GlobalNamespace::OVRPlugin::Result ovrp_IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, GlobalNamespace::OVRPlugin::Bool& isSupported);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics, out System.Single value)
-    // Offset: 0x157FA54
+    // Offset: 0x160970C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, float& value);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics, out System.Int32 value)
-    // Offset: 0x157FAE4
+    // Offset: 0x160979C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, int& value);
     // static private System.Void .cctor()
-    // Offset: 0x157FB74
+    // Offset: 0x160982C
     static void _cctor();
   }; // OVRPlugin/OVRP_1_30_0
   #pragma pack(pop)

@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxSecondsToConsiderStrobe
     static void _set_kMaxSecondsToConsiderStrobe(float value);
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions)
-    // Offset: 0x10B0C88
+    // Offset: 0x11ABE54
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
     // static System.Void <CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0(System.Single insertionTime, ref BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0 )
-    // Offset: 0x10B1488
+    // Offset: 0x11AC654
     static void $CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0(float insertionTime, GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0& param_1);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)

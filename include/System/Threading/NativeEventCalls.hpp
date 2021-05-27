@@ -27,22 +27,22 @@ namespace System::Threading {
     // Creating value type constructor for type: NativeEventCalls
     NativeEventCalls() noexcept {}
     // static public System.IntPtr CreateEvent_internal(System.Boolean manual, System.Boolean initial, System.String name, out System.Int32 errorCode)
-    // Offset: 0x16FD2D0
+    // Offset: 0x18933CC
     static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::Il2CppString* name, int& errorCode);
     // static public System.Boolean SetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x16FD408
+    // Offset: 0x1893504
     static bool SetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean SetEvent_internal(System.IntPtr handle)
-    // Offset: 0x17000F4
+    // Offset: 0x18961F0
     static bool SetEvent_internal(System::IntPtr handle);
     // static public System.Boolean ResetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x16FD364
+    // Offset: 0x1893460
     static bool ResetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean ResetEvent_internal(System.IntPtr handle)
-    // Offset: 0x17000F8
+    // Offset: 0x18961F4
     static bool ResetEvent_internal(System::IntPtr handle);
     // static public System.Void CloseEvent_internal(System.IntPtr handle)
-    // Offset: 0x17000FC
+    // Offset: 0x18961F8
     static void CloseEvent_internal(System::IntPtr handle);
   }; // System.Threading.NativeEventCalls
   #pragma pack(pop)

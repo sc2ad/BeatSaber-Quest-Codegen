@@ -9,7 +9,7 @@
 // Including type: MasterServer.IDedicatedServerClientToServerMessage
 #include "MasterServer/IDedicatedServerClientToServerMessage.hpp"
 // Including type: GameplayServerFiniteStateMachine/GameStateType
-#include "GlobalNamespace/GameplayServerFiniteStateMachine_GameStateType.hpp"
+#include "GlobalNamespace/GameplayServerFiniteStateMachine.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -39,14 +39,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD1B414
+    // [CompilerGeneratedAttribute] Offset: 0xDF021C
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD1B424
+    // [CompilerGeneratedAttribute] Offset: 0xDF022C
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -80,40 +80,40 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public PacketPool`1<MasterServer.MatchmakingServerStatusUpdateRequest> get_pool()
-    // Offset: 0x12A8C60
+    // Offset: 0x12C14C8
     static GlobalNamespace::PacketPool_1<MasterServer::MatchmakingServerStatusUpdateRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12A8CA8
+    // Offset: 0x12C1510
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x12A8CB0
+    // Offset: 0x12C1518
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x12A8CB8
+    // Offset: 0x12C1520
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x12A8CC0
+    // Offset: 0x12C1528
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.MatchmakingServerStatusUpdateRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, GameplayServerFiniteStateMachine/GameStateType gameState, System.Int32 currentPlayerCount)
-    // Offset: 0x12A8E20
+    // Offset: 0x12C1688
     MasterServer::MatchmakingServerStatusUpdateRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType gameState, int currentPlayerCount);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12A8CC8
+    // Offset: 0x12C1530
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12A8D44
+    // Offset: 0x12C15AC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12A8DC4
+    // Offset: 0x12C162C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x12A8E30
+    // Offset: 0x12C1698
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

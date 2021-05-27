@@ -17,10 +17,10 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEnumerableHelpers
     FileSystemEnumerableHelpers() noexcept {}
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/WIN32_FIND_DATA data)
-    // Offset: 0x17C8D6C
+    // Offset: 0x193A338
     static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/WIN32_FIND_DATA data)
-    // Offset: 0x17C8E08
+    // Offset: 0x193A3D4
     static bool IsFile(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
   #pragma pack(pop)

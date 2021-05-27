@@ -49,7 +49,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xD26EC0
+    // [RangeAttribute] Offset: 0xE06DBC
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x38
@@ -68,7 +68,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xD26ED8
+    // [RangeAttribute] Offset: 0xE06DD4
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x54
@@ -78,16 +78,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Constraints
     Constraints(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Vector3 position_ = {}, float positionWeight_ = {}, UnityEngine::Vector3 rotationOffset_ = {}, UnityEngine::Vector3 rotation_ = {}, float rotationWeight_ = {}) noexcept : transform{transform_}, target{target_}, positionOffset{positionOffset_}, position{position_}, positionWeight{positionWeight_}, rotationOffset{rotationOffset_}, rotation{rotation_}, rotationWeight{rotationWeight_} {}
     // public System.Boolean IsValid()
-    // Offset: 0x1AEF670
+    // Offset: 0x1C95398
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1AEE0F4
+    // Offset: 0x1C93E1C
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x1AEE2D0
+    // Offset: 0x1C93FF8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1AEE9F8
+    // Offset: 0x1C94720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

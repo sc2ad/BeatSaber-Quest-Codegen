@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RendererMaterialsPairs
     RendererMaterialsPairs(UnityEngine::Renderer* renderer_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs_ = {}) noexcept : renderer{renderer_}, materialPairs{materialPairs_} {}
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x1022FC4
+    // Offset: 0x1134F1C
     UnityEngine::Renderer* get_renderer();
     // public System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> get_materialPairs()
-    // Offset: 0x1022FCC
+    // Offset: 0x1134F24
     System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
     // public System.Void .ctor(UnityEngine.Renderer renderer)
-    // Offset: 0x1022FD4
+    // Offset: 0x1134F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(UnityEngine::Renderer* renderer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");

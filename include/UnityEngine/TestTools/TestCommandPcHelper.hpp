@@ -26,13 +26,13 @@ namespace UnityEngine::TestTools {
     // Creating value type constructor for type: TestCommandPcHelper
     TestCommandPcHelper() noexcept {}
     // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
-    // Offset: 0x1374A94
+    // Offset: 0x149F440
     void SetEnumeratorPC(System::Collections::IEnumerator* enumerator, int pc);
     // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
-    // Offset: 0x1374A98
+    // Offset: 0x149F444
     int GetEnumeratorPC(System::Collections::IEnumerator* enumerator);
     // public System.Void .ctor()
-    // Offset: 0x1374AA0
+    // Offset: 0x149F44C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

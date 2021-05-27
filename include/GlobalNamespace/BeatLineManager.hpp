@@ -50,21 +50,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: linesYPosition and: beatmapObjectManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xD38530
+    // [InjectAttribute] Offset: 0xE18D14
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD38540
+    // [InjectAttribute] Offset: 0xE18D24
     // private BeatLine/Pool _beatLinePool
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatLine::Pool* beatLinePool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLine::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0xD38550
+    // [InjectAttribute] Offset: 0xE18D34
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -108,28 +108,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0x10A6CF4
+    // Offset: 0x11A1EC0
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0x10A6CFC
+    // Offset: 0x11A1EC8
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0x10A6D04
+    // Offset: 0x11A1ED0
     float get_rotationRange();
     // protected System.Void Start()
-    // Offset: 0x10A6D0C
+    // Offset: 0x11A1ED8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10A6DA0
+    // Offset: 0x11A1F6C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x10A6E34
+    // Offset: 0x11A2000
     void Update();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x10A71E8
+    // Offset: 0x11A23B4
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x10A73E4
+    // Offset: 0x11A25B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

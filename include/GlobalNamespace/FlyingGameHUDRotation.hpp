@@ -35,14 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: beatLineManager
     char __padding0[0x4] = {};
-    // [InjectOptionalAttribute] Offset: 0xD3A90C
+    // [InjectOptionalAttribute] Offset: 0xE1B324
     // private readonly BeatLineManager _beatLineManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatLineManager* beatLineManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xD3A91C
+    // [InjectOptionalAttribute] Offset: 0xE1B334
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x28
@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF57140
+    // Offset: 0x10C7CCC
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0xF57274
+    // Offset: 0x10C7E00
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0xF57454
+    // Offset: 0x10C7FE0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xF57568
+    // Offset: 0x10C80F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

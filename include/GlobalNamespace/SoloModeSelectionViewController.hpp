@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* dismissButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD45EB8
+    // [CompilerGeneratedAttribute] Offset: 0xE26B4C
     // private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -120,33 +120,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SoloModeSelectionViewController
     SoloModeSelectionViewController(UnityEngine::UI::Button* freePlayModeButton_ = {}, UnityEngine::UI::Button* oneSaberModeButton_ = {}, UnityEngine::UI::Button* noArrowsModeButton_ = {}, UnityEngine::UI::Button* dismissButton_ = {}, System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent_ = {}) noexcept : freePlayModeButton{freePlayModeButton_}, oneSaberModeButton{oneSaberModeButton_}, noArrowsModeButton{noArrowsModeButton_}, dismissButton{dismissButton_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xF8E714
+    // Offset: 0x1170D48
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xF8E7B8
+    // Offset: 0x1170DEC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // private System.Void HandleMenuButton(SoloModeSelectionViewController/MenuType subMenuType)
-    // Offset: 0xF8E9E0
+    // Offset: 0x1171014
     void HandleMenuButton(GlobalNamespace::SoloModeSelectionViewController::MenuType subMenuType);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xF8EA60
+    // Offset: 0x1171094
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xF8EA68
+    // Offset: 0x117109C
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xF8EA70
+    // Offset: 0x11710A4
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0xF8EA78
+    // Offset: 0x11710AC
     void $DidActivate$b__8_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF8E85C
+    // Offset: 0x1170E90
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF8EA58
+    // Offset: 0x117108C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

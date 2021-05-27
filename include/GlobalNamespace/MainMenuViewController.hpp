@@ -189,35 +189,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MusicPackPromoBanner*) == 0x8);
-    // [InjectAttribute] Offset: 0xD449AC
+    // [InjectAttribute] Offset: 0xE255E0
     // private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD449BC
+    // [InjectAttribute] Offset: 0xE255F0
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD449CC
+    // [InjectAttribute] Offset: 0xE25600
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD449DC
+    // [CompilerGeneratedAttribute] Offset: 0xE25610
     // private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
     // Size: 0x8
     // Offset: 0xD8
     System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD449EC
+    // [CompilerGeneratedAttribute] Offset: 0xE25620
     // private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0xE0
@@ -227,54 +227,54 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainMenuViewController
     MainMenuViewController(UnityEngine::UI::Button* soloButton_ = {}, UnityEngine::UI::Button* partyButton_ = {}, UnityEngine::UI::Button* campaignButton_ = {}, UnityEngine::UI::Button* quitButton_ = {}, UnityEngine::UI::Button* howToPlayButton_ = {}, UnityEngine::UI::Button* beatmapEditorButton_ = {}, UnityEngine::UI::Button* multiplayerButton_ = {}, UnityEngine::UI::Button* optionsButton_ = {}, UnityEngine::UI::Button* musicPackPromoButton_ = {}, GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent_ = {}, System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* musicPackPromoButtonWasPressedEvent_ = {}) noexcept : soloButton{soloButton_}, partyButton{partyButton_}, campaignButton{campaignButton_}, quitButton{quitButton_}, howToPlayButton{howToPlayButton_}, beatmapEditorButton{beatmapEditorButton_}, multiplayerButton{multiplayerButton_}, optionsButton{optionsButton_}, musicPackPromoButton{musicPackPromoButton_}, musicPackPromoBanner{musicPackPromoBanner_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, appStaticSettings{appStaticSettings_}, analyticsModel{analyticsModel_}, didFinishEvent{didFinishEvent_}, musicPackPromoButtonWasPressedEvent{musicPackPromoButtonWasPressedEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0xF3AE0C
+    // Offset: 0x10D55B4
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0xF3AEB0
+    // Offset: 0x10D5E64
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void add_musicPackPromoButtonWasPressedEvent(System.Action`1<IBeatmapLevelPack> value)
-    // Offset: 0xF3AF54
+    // Offset: 0x10D5658
     void add_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void remove_musicPackPromoButtonWasPressedEvent(System.Action`1<IBeatmapLevelPack> value)
-    // Offset: 0xF3AFF8
+    // Offset: 0x10D5F08
     void remove_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
     // private System.Void PackPromoButtonWasPressed()
-    // Offset: 0xF3B508
+    // Offset: 0x10D84D4
     void PackPromoButtonWasPressed();
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0xF3B5B4
+    // Offset: 0x10D8580
     void HandleMenuButton(GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__20_0()
-    // Offset: 0xF3B634
+    // Offset: 0x10D8600
     void $DidActivate$b__20_0();
     // private System.Void <DidActivate>b__20_1()
-    // Offset: 0xF3B63C
+    // Offset: 0x10D8608
     void $DidActivate$b__20_1();
     // private System.Void <DidActivate>b__20_2()
-    // Offset: 0xF3B644
+    // Offset: 0x10D8610
     void $DidActivate$b__20_2();
     // private System.Void <DidActivate>b__20_3()
-    // Offset: 0xF3B64C
+    // Offset: 0x10D8618
     void $DidActivate$b__20_3();
     // private System.Void <DidActivate>b__20_4()
-    // Offset: 0xF3B654
+    // Offset: 0x10D8620
     void $DidActivate$b__20_4();
     // private System.Void <DidActivate>b__20_5()
-    // Offset: 0xF3B65C
+    // Offset: 0x10D8628
     void $DidActivate$b__20_5();
     // private System.Void <DidActivate>b__20_6()
-    // Offset: 0xF3B664
+    // Offset: 0x10D8630
     void $DidActivate$b__20_6();
     // private System.Void <DidActivate>b__20_7()
-    // Offset: 0xF3B66C
+    // Offset: 0x10D8638
     void $DidActivate$b__20_7();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF3B09C
+    // Offset: 0x10D8068
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF3B62C
+    // Offset: 0x10D85F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

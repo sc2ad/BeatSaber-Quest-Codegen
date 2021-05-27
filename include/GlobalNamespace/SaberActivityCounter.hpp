@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0xD3EF48
+    // [InjectAttribute] Offset: 0xE1F52C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD3EF58
+    // [CompilerGeneratedAttribute] Offset: 0xE1F53C
     // private System.Action`1<System.Single> totalDistanceDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -170,40 +170,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x104C284
+    // Offset: 0x10B128C
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x104C328
+    // Offset: 0x10B1330
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x104C3CC
+    // Offset: 0x10B13D4
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x104C3D4
+    // Offset: 0x10B13DC
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x104C3DC
+    // Offset: 0x10B13E4
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x104C3E4
+    // Offset: 0x10B13EC
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x104C3EC
+    // Offset: 0x10A3BBC
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x104C408
+    // Offset: 0x10A3BD8
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0x104C424
+    // Offset: 0x10B13F4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x104C4E4
+    // Offset: 0x10B14B4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x104C50C
+    // Offset: 0x10B14DC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x104C8BC
+    // Offset: 0x10B188C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

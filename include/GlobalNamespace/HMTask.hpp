@@ -77,29 +77,29 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HMTask
     HMTask(System::Threading::Thread* thread_ = {}, System::Action* job_ = {}, System::Action* finishCallback_ = {}, bool canceled_ = {}, bool started_ = {}, bool finished_ = {}) noexcept : thread{thread_}, job{job_}, finishCallback{finishCallback_}, canceled{canceled_}, started{started_}, finished{finished_} {}
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
-    // Offset: 0x117B380
+    // Offset: 0x1228940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask* New_ctor(System::Action* job, System::Action* finishCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask*, creationType>(job, finishCallback)));
     }
     // public System.Void Run()
-    // Offset: 0x117B490
+    // Offset: 0x1228A50
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
-    // Offset: 0x1181254
+    // Offset: 0x122E6D8
     System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
-    // Offset: 0x11812F0
+    // Offset: 0x122E774
     void RunJob();
     // public System.Void Cancel()
-    // Offset: 0x11813C4
+    // Offset: 0x122E848
     void Cancel();
     // private System.Boolean <RunCoroutine>b__8_0()
-    // Offset: 0x11813D0
+    // Offset: 0x122E854
     bool $RunCoroutine$b__8_0();
     // private System.Void <RunJob>b__9_0()
-    // Offset: 0x11813D8
+    // Offset: 0x122E85C
     void $RunJob$b__9_0();
   }; // HMTask
   #pragma pack(pop)

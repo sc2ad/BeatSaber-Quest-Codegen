@@ -6,8 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
-// Including type: OVRManager
-#include "GlobalNamespace/OVRManager.hpp"
 // Including type: OVRBoundary
 #include "GlobalNamespace/OVRBoundary.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,6 +24,13 @@ namespace UnityEngine {
   // Forward declaring type: Mesh
   class Mesh;
 }
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: CameraDevice
+  struct OVRManager_CameraDevice;
+  // Forward declaring type: VirtualGreenScreenType
+  struct OVRManager_VirtualGreenScreenType;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -37,28 +42,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRCompositionUtil
     OVRCompositionUtil() noexcept {}
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x11508DC
+    // Offset: 0x1261C28
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x115097C
+    // Offset: 0x1261CC8
     static void SafeDestroy_(UnityEngine::GameObject*& obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x1150A00
-    static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager::CameraDevice cameraDevice);
+    // Offset: 0x1261D4C
+    static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager_CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x1150A2C
-    static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager::VirtualGreenScreenType type);
+    // Offset: 0x1261D78
+    static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager_VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x1150AC0
+    // Offset: 0x1261E0C
     static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1150B6C
+    // Offset: 0x1261EB8
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x1150DAC
+    // Offset: 0x12620F8
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0x1151254
+    // Offset: 0x12625A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

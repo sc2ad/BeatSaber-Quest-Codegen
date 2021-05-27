@@ -45,20 +45,20 @@ namespace UnityEngine::EventSystems {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1330E1C
+    // Offset: 0x1412228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::BaseEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseEventData*, creationType>(eventSystem)));
     }
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0x1330E48
+    // Offset: 0x1412254
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0x1330E64
+    // Offset: 0x1412270
     UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0x1330E80
+    // Offset: 0x141228C
     void set_selectedObject(UnityEngine::GameObject* value);
   }; // UnityEngine.EventSystems.BaseEventData
   #pragma pack(pop)

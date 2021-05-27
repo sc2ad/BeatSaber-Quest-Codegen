@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Creating value type constructor for type: Kdf2BytesGenerator
     Kdf2BytesGenerator() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x171191C
+    // Offset: 0x18A7A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Kdf2BytesGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::.ctor");

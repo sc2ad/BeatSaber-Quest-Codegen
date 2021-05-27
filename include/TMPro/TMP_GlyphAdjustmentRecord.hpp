@@ -41,23 +41,23 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0xDF4680
+    // Offset: 0xEE4BD4
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0xDF4688
+    // Offset: 0xEE4BDC
     void set_glyphIndex(uint value);
     // public TMPro.TMP_GlyphValueRecord get_glyphValueRecord()
-    // Offset: 0xDF4690
+    // Offset: 0xEE4BE4
     TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
     // public System.Void set_glyphValueRecord(TMPro.TMP_GlyphValueRecord value)
-    // Offset: 0xDF469C
+    // Offset: 0xEE4BF0
     void set_glyphValueRecord(TMPro::TMP_GlyphValueRecord value);
     // public System.Void .ctor(System.UInt32 glyphIndex, TMPro.TMP_GlyphValueRecord glyphValueRecord)
-    // Offset: 0xDF46A8
+    // Offset: 0xEE4BFC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TMP_GlyphAdjustmentRecord(uint glyphIndex, TMPro::TMP_GlyphValueRecord glyphValueRecord)
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord adjustmentRecord)
-    // Offset: 0xDF46B8
+    // Offset: 0xEE4C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphAdjustmentRecord::.ctor");

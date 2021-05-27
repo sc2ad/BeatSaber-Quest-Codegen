@@ -14,6 +14,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: MockPlayersModel
+  class MockPlayersModel;
 }
 // Completed forward declares
 // Type namespace: 
@@ -30,16 +32,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AppInitScenesTransitionSetupDataSO
     AppInitScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
-    // Offset: 0x1019064
+    // Offset: 0x112A8B8
     void Init();
     // public System.Void InitAsAppStart()
-    // Offset: 0x10190D4
+    // Offset: 0x112A92C
     void InitAsAppStart();
-    // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0x1019144
-    void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
+    // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
+    // Offset: 0x112A9A0
+    void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void .ctor()
-    // Offset: 0x10191BC
+    // Offset: 0x112AA20
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

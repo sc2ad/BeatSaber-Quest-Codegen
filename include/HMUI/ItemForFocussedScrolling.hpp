@@ -21,7 +21,7 @@ namespace HMUI {
     // Creating value type constructor for type: ItemForFocussedScrolling
     ItemForFocussedScrolling() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12161B0
+    // Offset: 0x1296864
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

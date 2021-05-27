@@ -65,7 +65,7 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
     static_assert(sizeof(TimeFieldAttribute::UseEditMode) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xCFDEA8
+    // [CompilerGeneratedAttribute] Offset: 0xDD8848
     // private readonly UnityEngine.Timeline.TimeFieldAttribute/UseEditMode <useEditMode>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -79,10 +79,10 @@ namespace UnityEngine::Timeline {
       return useEditMode;
     }
     // public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode get_useEditMode()
-    // Offset: 0x168CB74
+    // Offset: 0x17CE554
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UseEditMode useEditMode)
-    // Offset: 0x168CB7C
+    // Offset: 0x17CE55C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeFieldAttribute::.ctor");

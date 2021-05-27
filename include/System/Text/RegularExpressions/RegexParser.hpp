@@ -175,224 +175,224 @@ namespace System::Text::RegularExpressions {
     // Set static field: static readonly System.Byte[] _category
     static void _set__category(::Array<uint8_t>* value);
     // static System.Text.RegularExpressions.RegexTree Parse(System.String re, System.Text.RegularExpressions.RegexOptions op)
-    // Offset: 0x180955C
+    // Offset: 0x197AB28
     static System::Text::RegularExpressions::RegexTree* Parse(::Il2CppString* re, System::Text::RegularExpressions::RegexOptions op);
     // private System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x18096F4
+    // Offset: 0x197ACC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexParser* New_ctor(System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexParser*, creationType>(culture)));
     }
     // System.Void SetPattern(System.String Re)
-    // Offset: 0x1809798
+    // Offset: 0x197AD64
     void SetPattern(::Il2CppString* Re);
     // System.Void Reset(System.Text.RegularExpressions.RegexOptions topopts)
-    // Offset: 0x1809B58
+    // Offset: 0x197B124
     void Reset(System::Text::RegularExpressions::RegexOptions topopts);
     // System.Text.RegularExpressions.RegexNode ScanRegex()
-    // Offset: 0x1809BE8
+    // Offset: 0x197B1B4
     System::Text::RegularExpressions::RegexNode* ScanRegex();
     // System.Text.RegularExpressions.RegexCharClass ScanCharClass(System.Boolean caseInsensitive)
-    // Offset: 0x180AF00
+    // Offset: 0x197C4CC
     System::Text::RegularExpressions::RegexCharClass* ScanCharClass(bool caseInsensitive);
     // System.Text.RegularExpressions.RegexCharClass ScanCharClass(System.Boolean caseInsensitive, System.Boolean scanOnly)
-    // Offset: 0x180C7A0
+    // Offset: 0x197DD6C
     System::Text::RegularExpressions::RegexCharClass* ScanCharClass(bool caseInsensitive, bool scanOnly);
     // System.Text.RegularExpressions.RegexNode ScanGroupOpen()
-    // Offset: 0x180AFE8
+    // Offset: 0x197C5B4
     System::Text::RegularExpressions::RegexNode* ScanGroupOpen();
     // System.Void ScanBlank()
-    // Offset: 0x180A4A0
+    // Offset: 0x197BA6C
     void ScanBlank();
     // System.Text.RegularExpressions.RegexNode ScanBackslash()
-    // Offset: 0x180BFA8
+    // Offset: 0x197D574
     System::Text::RegularExpressions::RegexNode* ScanBackslash();
     // System.Text.RegularExpressions.RegexNode ScanBasicBackslash()
-    // Offset: 0x180D5FC
+    // Offset: 0x197EBC8
     System::Text::RegularExpressions::RegexNode* ScanBasicBackslash();
     // System.String ScanCapname()
-    // Offset: 0x180D138
+    // Offset: 0x197E704
     ::Il2CppString* ScanCapname();
     // System.Char ScanOctal()
-    // Offset: 0x180DC2C
+    // Offset: 0x197F1F8
     ::Il2CppChar ScanOctal();
     // System.Int32 ScanDecimal()
-    // Offset: 0x180C668
+    // Offset: 0x197DC34
     int ScanDecimal();
     // System.Char ScanHex(System.Int32 c)
-    // Offset: 0x180DCEC
+    // Offset: 0x197F2B8
     ::Il2CppChar ScanHex(int c);
     // static System.Int32 HexDigit(System.Char ch)
-    // Offset: 0x180DE38
+    // Offset: 0x197F404
     static int HexDigit(::Il2CppChar ch);
     // System.Char ScanControl()
-    // Offset: 0x180DE70
+    // Offset: 0x197F43C
     ::Il2CppChar ScanControl();
     // System.Boolean IsOnlyTopOption(System.Text.RegularExpressions.RegexOptions option)
-    // Offset: 0x180DF38
+    // Offset: 0x197F504
     bool IsOnlyTopOption(System::Text::RegularExpressions::RegexOptions option);
     // System.Void ScanOptions()
-    // Offset: 0x180D3A4
+    // Offset: 0x197E970
     void ScanOptions();
     // System.Char ScanCharEscape()
-    // Offset: 0x180CF7C
+    // Offset: 0x197E548
     ::Il2CppChar ScanCharEscape();
     // System.String ParseProperty()
-    // Offset: 0x180CE00
+    // Offset: 0x197E3CC
     ::Il2CppString* ParseProperty();
     // System.Int32 TypeFromCode(System.Char ch)
-    // Offset: 0x180D568
+    // Offset: 0x197EB34
     int TypeFromCode(::Il2CppChar ch);
     // static System.Text.RegularExpressions.RegexOptions OptionFromCode(System.Char ch)
-    // Offset: 0x180DF60
+    // Offset: 0x197F52C
     static System::Text::RegularExpressions::RegexOptions OptionFromCode(::Il2CppChar ch);
     // System.Void CountCaptures()
-    // Offset: 0x1809804
+    // Offset: 0x197ADD0
     void CountCaptures();
     // System.Void NoteCaptureSlot(System.Int32 i, System.Int32 pos)
-    // Offset: 0x180DFC0
+    // Offset: 0x197F58C
     void NoteCaptureSlot(int i, int pos);
     // System.Void NoteCaptureName(System.String name, System.Int32 pos)
-    // Offset: 0x180E128
+    // Offset: 0x197F6F4
     void NoteCaptureName(::Il2CppString* name, int pos);
     // System.Void AssignNameSlots()
-    // Offset: 0x180E24C
+    // Offset: 0x197F818
     void AssignNameSlots();
     // System.Int32 CaptureSlotFromName(System.String capname)
-    // Offset: 0x180D308
+    // Offset: 0x197E8D4
     int CaptureSlotFromName(::Il2CppString* capname);
     // System.Boolean IsCaptureSlot(System.Int32 i)
-    // Offset: 0x180D248
+    // Offset: 0x197E814
     bool IsCaptureSlot(int i);
     // System.Boolean IsCaptureName(System.String capname)
-    // Offset: 0x180D2EC
+    // Offset: 0x197E8B8
     bool IsCaptureName(::Il2CppString* capname);
     // System.Boolean UseOptionN()
-    // Offset: 0x180D23C
+    // Offset: 0x197E808
     bool UseOptionN();
     // System.Boolean UseOptionI()
-    // Offset: 0x180AEF4
+    // Offset: 0x197C4C0
     bool UseOptionI();
     // System.Boolean UseOptionM()
-    // Offset: 0x180C4A8
+    // Offset: 0x197DA74
     bool UseOptionM();
     // System.Boolean UseOptionS()
-    // Offset: 0x180C52C
+    // Offset: 0x197DAF8
     bool UseOptionS();
     // System.Boolean UseOptionX()
-    // Offset: 0x180A79C
+    // Offset: 0x197BD68
     bool UseOptionX();
     // System.Boolean UseOptionE()
-    // Offset: 0x180CDF4
+    // Offset: 0x197E3C0
     bool UseOptionE();
     // static System.Boolean IsSpecial(System.Char ch)
-    // Offset: 0x180AA78
+    // Offset: 0x197C044
     static bool IsSpecial(::Il2CppChar ch);
     // static System.Boolean IsStopperX(System.Char ch)
-    // Offset: 0x180A800
+    // Offset: 0x197BDCC
     static bool IsStopperX(::Il2CppChar ch);
     // static System.Boolean IsQuantifier(System.Char ch)
-    // Offset: 0x180AB2C
+    // Offset: 0x197C0F8
     static bool IsQuantifier(::Il2CppChar ch);
     // System.Boolean IsTrueQuantifier()
-    // Offset: 0x180A8B4
+    // Offset: 0x197BE80
     bool IsTrueQuantifier();
     // static System.Boolean IsSpace(System.Char ch)
-    // Offset: 0x180D4B4
+    // Offset: 0x197EA80
     static bool IsSpace(::Il2CppChar ch);
     // System.Void AddConcatenate(System.Int32 pos, System.Int32 cch, System.Boolean isReplacement)
-    // Offset: 0x180ABE0
+    // Offset: 0x197C1AC
     void AddConcatenate(int pos, int cch, bool isReplacement);
     // System.Void PushGroup()
-    // Offset: 0x180BA50
+    // Offset: 0x197D01C
     void PushGroup();
     // System.Void PopGroup()
-    // Offset: 0x180BE14
+    // Offset: 0x197D3E0
     void PopGroup();
     // System.Boolean EmptyStack()
-    // Offset: 0x180BB74
+    // Offset: 0x197D140
     bool EmptyStack();
     // System.Void StartGroup(System.Text.RegularExpressions.RegexNode openGroup)
-    // Offset: 0x180A3F8
+    // Offset: 0x197B9C4
     void StartGroup(System::Text::RegularExpressions::RegexNode* openGroup);
     // System.Void AddAlternate()
-    // Offset: 0x180BA9C
+    // Offset: 0x197D068
     void AddAlternate();
     // System.Void AddConcatenate()
-    // Offset: 0x180C608
+    // Offset: 0x197DBD4
     void AddConcatenate();
     // System.Void AddConcatenate(System.Boolean lazy, System.Int32 min, System.Int32 max)
-    // Offset: 0x180C758
+    // Offset: 0x197DD24
     void AddConcatenate(bool lazy, int min, int max);
     // System.Text.RegularExpressions.RegexNode Unit()
-    // Offset: 0x180E800
+    // Offset: 0x197FDCC
     System::Text::RegularExpressions::RegexNode* Unit();
     // System.Void AddUnitOne(System.Char ch)
-    // Offset: 0x180AE34
+    // Offset: 0x197C400
     void AddUnitOne(::Il2CppChar ch);
     // System.Void AddUnitNotone(System.Char ch)
-    // Offset: 0x180C538
+    // Offset: 0x197DB04
     void AddUnitNotone(::Il2CppChar ch);
     // System.Void AddUnitSet(System.String cc)
-    // Offset: 0x180AF0C
+    // Offset: 0x197C4D8
     void AddUnitSet(::Il2CppString* cc);
     // System.Void AddUnitNode(System.Text.RegularExpressions.RegexNode node)
-    // Offset: 0x180E808
+    // Offset: 0x197FDD4
     void AddUnitNode(System::Text::RegularExpressions::RegexNode* node);
     // System.Void AddUnitType(System.Int32 type)
-    // Offset: 0x180C4B4
+    // Offset: 0x197DA80
     void AddUnitType(int type);
     // System.Void AddGroup()
-    // Offset: 0x180BC9C
+    // Offset: 0x197D268
     void AddGroup();
     // System.Void PushOptions()
-    // Offset: 0x180AF8C
+    // Offset: 0x197C558
     void PushOptions();
     // System.Void PopOptions()
-    // Offset: 0x180BF10
+    // Offset: 0x197D4DC
     void PopOptions();
     // System.Boolean EmptyOptionsStack()
-    // Offset: 0x180E0D0
+    // Offset: 0x197F69C
     bool EmptyOptionsStack();
     // System.Void PopKeepOptions()
-    // Offset: 0x180B9F0
+    // Offset: 0x197CFBC
     void PopKeepOptions();
     // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x180BB84
+    // Offset: 0x197D150
     System::ArgumentException* MakeException(::Il2CppString* message);
     // System.Int32 Textpos()
-    // Offset: 0x180E810
+    // Offset: 0x197FDDC
     int Textpos();
     // System.Void Textto(System.Int32 pos)
-    // Offset: 0x180E818
+    // Offset: 0x197FDE4
     void Textto(int pos);
     // System.Char MoveRightGetChar()
-    // Offset: 0x180C63C
+    // Offset: 0x197DC08
     ::Il2CppChar MoveRightGetChar();
     // System.Void MoveRight()
-    // Offset: 0x180A7A8
+    // Offset: 0x197BD74
     void MoveRight();
     // System.Void MoveRight(System.Int32 i)
-    // Offset: 0x180D22C
+    // Offset: 0x197E7F8
     void MoveRight(int i);
     // System.Void MoveLeft()
-    // Offset: 0x180C5F8
+    // Offset: 0x197DBC4
     void MoveLeft();
     // System.Char CharAt(System.Int32 i)
-    // Offset: 0x180AE18
+    // Offset: 0x197C3E4
     ::Il2CppChar CharAt(int i);
     // System.Char RightChar()
-    // Offset: 0x180A7DC
+    // Offset: 0x197BDA8
     ::Il2CppChar RightChar();
     // System.Char RightChar(System.Int32 i)
-    // Offset: 0x180D204
+    // Offset: 0x197E7D0
     ::Il2CppChar RightChar(int i);
     // System.Int32 CharsRight()
-    // Offset: 0x180A7B8
+    // Offset: 0x197BD84
     int CharsRight();
     // static private System.Void .cctor()
-    // Offset: 0x180E820
+    // Offset: 0x197FDEC
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexParser
   #pragma pack(pop)

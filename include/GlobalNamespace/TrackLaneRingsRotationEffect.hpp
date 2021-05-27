@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [HeaderAttribute] Offset: 0xD3ACE4
+    // [HeaderAttribute] Offset: 0xE1B6FC
     // private System.Single _startupRotationAngle
     // Size: 0x4
     // Offset: 0x20
@@ -87,31 +87,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0xFA6638
+    // Offset: 0x10F705C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xFA6750
+    // Offset: 0x10F7174
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0xFA67FC
+    // Offset: 0x10F7220
     void FixedUpdate();
     // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
-    // Offset: 0xFA6760
+    // Offset: 0x10F7184
     void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
     // public System.Single GetFirstRingRotationAngle()
-    // Offset: 0xFA6A78
+    // Offset: 0x10F749C
     float GetFirstRingRotationAngle();
     // public System.Single GetFirstRingDestinationRotationAngle()
-    // Offset: 0xFA6ABC
+    // Offset: 0x10F74E0
     float GetFirstRingDestinationRotationAngle();
     // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
-    // Offset: 0xFA69E0
+    // Offset: 0x10F7404
     GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
     // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
-    // Offset: 0xFA6978
+    // Offset: 0x10F739C
     void RecycleRingRotationEffect(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
     // public System.Void .ctor()
-    // Offset: 0xFA6B00
+    // Offset: 0x10F7524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

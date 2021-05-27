@@ -37,6 +37,16 @@ namespace Unity::Collections::LowLevel::Unsafe {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<Unity::Collections::NativeArray_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, dataPointer, length, allocator);
     }
+    // static public System.Void* GetUnsafeReadOnlyPtr(Unity.Collections.NativeArray`1<T> nativeArray)
+    // Offset: 0xFFFFFFFF
+    template<class T>
+    static void* GetUnsafeReadOnlyPtr(Unity::Collections::NativeArray_1<T> nativeArray) {
+      static_assert(is_value_type_v<T>);
+      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility", "GetUnsafeReadOnlyPtr", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nativeArray)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<void*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, nativeArray);
+    }
   }; // Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility
   #pragma pack(pop)
 }

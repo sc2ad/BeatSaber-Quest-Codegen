@@ -29,26 +29,26 @@ namespace System::Threading {
       return flag;
     }
     // public System.Boolean TryRelaxedSet()
-    // Offset: 0x16FA2B0
+    // Offset: 0x18903AC
     bool TryRelaxedSet();
     // public System.Boolean Exchange(System.Boolean newVal)
-    // Offset: 0x16FA2E0
+    // Offset: 0x18903DC
     bool Exchange(bool newVal);
     // public System.Boolean Equals(System.Threading.AtomicBoolean rhs)
-    // Offset: 0x16FA308
+    // Offset: 0x1890404
     bool Equals(System::Threading::AtomicBoolean* rhs);
     // public override System.Boolean Equals(System.Object rhs)
-    // Offset: 0x16FA32C
+    // Offset: 0x1890428
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rhs)
     bool Equals(::Il2CppObject* rhs);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16FA3C8
+    // Offset: 0x18904C4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void .ctor()
-    // Offset: 0x16FA3D4
+    // Offset: 0x18904D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

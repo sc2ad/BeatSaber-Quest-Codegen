@@ -278,15 +278,15 @@ namespace System::Threading {
     // Creating value type constructor for type: InternalThread
     InternalThread(int lock_thread_id_ = {}, System::IntPtr handle_ = {}, System::IntPtr native_handle_ = {}, System::IntPtr unused3_ = {}, System::IntPtr name_ = {}, int name_len_ = {}, System::Threading::ThreadState state_ = {}, ::Il2CppObject* abort_exc_ = {}, int abort_state_handle_ = {}, int64_t thread_id_ = {}, System::IntPtr debugger_thread_ = {}, System::UIntPtr static_data_ = {}, System::IntPtr runtime_thread_info_ = {}, ::Il2CppObject* current_appcontext_ = {}, ::Il2CppObject* root_domain_thread_ = {}, ::Array<uint8_t>* serialized_principal_ = {}, int serialized_principal_version_ = {}, System::IntPtr appdomain_refs_ = {}, int interruption_requested_ = {}, System::IntPtr synch_cs_ = {}, bool threadpool_thread_ = {}, bool thread_interrupt_requested_ = {}, int stack_size_ = {}, uint8_t apartment_state_ = {}, int critical_region_level_ = {}, int managed_id_ = {}, int small_id_ = {}, System::IntPtr manage_callback_ = {}, System::IntPtr unused4_ = {}, System::IntPtr flags_ = {}, System::IntPtr thread_pinning_ref_ = {}, System::IntPtr abort_protected_block_count_ = {}, int priority_ = {}, System::IntPtr owned_mutex_ = {}, System::IntPtr suspended_event_ = {}, int self_suspended_ = {}, System::IntPtr unused1_ = {}, System::IntPtr unused2_ = {}, System::IntPtr last_ = {}) noexcept : lock_thread_id{lock_thread_id_}, handle{handle_}, native_handle{native_handle_}, unused3{unused3_}, name{name_}, name_len{name_len_}, state{state_}, abort_exc{abort_exc_}, abort_state_handle{abort_state_handle_}, thread_id{thread_id_}, debugger_thread{debugger_thread_}, static_data{static_data_}, runtime_thread_info{runtime_thread_info_}, current_appcontext{current_appcontext_}, root_domain_thread{root_domain_thread_}, serialized_principal{serialized_principal_}, serialized_principal_version{serialized_principal_version_}, appdomain_refs{appdomain_refs_}, interruption_requested{interruption_requested_}, synch_cs{synch_cs_}, threadpool_thread{threadpool_thread_}, thread_interrupt_requested{thread_interrupt_requested_}, stack_size{stack_size_}, apartment_state{apartment_state_}, critical_region_level{critical_region_level_}, managed_id{managed_id_}, small_id{small_id_}, manage_callback{manage_callback_}, unused4{unused4_}, flags{flags_}, thread_pinning_ref{thread_pinning_ref_}, abort_protected_block_count{abort_protected_block_count_}, priority{priority_}, owned_mutex{owned_mutex_}, suspended_event{suspended_event_}, self_suspended{self_suspended_}, unused1{unused1_}, unused2{unused2_}, last{last_} {}
     // private System.Void Thread_free_internal()
-    // Offset: 0x16FE890
+    // Offset: 0x189498C
     void Thread_free_internal();
     // protected override System.Void Finalize()
-    // Offset: 0x16FE894
+    // Offset: 0x1894990
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
     // public System.Void .ctor()
-    // Offset: 0x16FE8FC
+    // Offset: 0x18949F8
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()

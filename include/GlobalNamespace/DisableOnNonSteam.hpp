@@ -21,10 +21,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DisableOnNonSteam
     DisableOnNonSteam() noexcept {}
     // private System.Void Awake()
-    // Offset: 0x106D2F0
+    // Offset: 0x10B7244
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x106D318
+    // Offset: 0x10B726C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

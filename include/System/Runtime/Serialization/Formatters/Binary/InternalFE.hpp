@@ -51,7 +51,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: InternalFE
     InternalFE(System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat_ = {}, System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat_ = {}, System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum_ = {}) noexcept : FEtypeFormat{FEtypeFormat_}, FEassemblyFormat{FEassemblyFormat_}, FEsecurityLevel{FEsecurityLevel_}, FEserializerTypeEnum{FEserializerTypeEnum_} {}
     // public System.Void .ctor()
-    // Offset: 0x146A9AC
+    // Offset: 0x15EF65C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

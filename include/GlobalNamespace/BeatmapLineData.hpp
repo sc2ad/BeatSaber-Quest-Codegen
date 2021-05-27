@@ -51,24 +51,24 @@ namespace GlobalNamespace {
       return beatmapObjectsData;
     }
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
-    // Offset: 0x21A4930
+    // Offset: 0x23C45DC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x21A4938
+    // Offset: 0x23C45E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLineData* New_ctor(int initialCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLineData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLineData*, creationType>(initialCapacity)));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapObjectData> beatmapObjectData)
-    // Offset: 0x21A49BC
+    // Offset: 0x23C4668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLineData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLineData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLineData*, creationType>(beatmapObjectData)));
     }
     // public System.Void AddBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x21A49E8
+    // Offset: 0x23C4694
     void AddBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
   }; // BeatmapLineData
   #pragma pack(pop)

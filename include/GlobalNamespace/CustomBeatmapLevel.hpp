@@ -51,17 +51,17 @@ namespace GlobalNamespace {
       return beatmapLevelData;
     }
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x10680B0
+    // Offset: 0x109B160
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip)
-    // Offset: 0x10680B8
+    // Offset: 0x109B168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevel*, creationType>(customPreviewBeatmapLevel, previewAudioClip)));
     }
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x1068278
+    // Offset: 0x109B328
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
   }; // CustomBeatmapLevel
   #pragma pack(pop)

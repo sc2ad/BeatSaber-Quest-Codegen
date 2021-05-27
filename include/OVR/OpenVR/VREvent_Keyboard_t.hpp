@@ -79,7 +79,7 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.String get_cNewInput()
-    // Offset: 0xDF5914
+    // Offset: 0xEE5C54
     ::Il2CppString* get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
   #pragma pack(pop)

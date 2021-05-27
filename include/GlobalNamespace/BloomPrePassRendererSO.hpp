@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD14A58
+    // [SpaceAttribute] Offset: 0xDF3F0C
     // private BloomPrePassRendererSO/PreallocationData[] _preallocationData
     // Size: 0x8
     // Offset: 0x20
@@ -105,75 +105,75 @@ namespace GlobalNamespace {
     BloomPrePassRendererSO(GlobalNamespace::BloomFogSO* bloomFog_ = {}, ::Array<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>* preallocationData_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>* lightsRenderingData_ = {}, UnityEngine::Rendering::CommandBuffer* commandBuffer_ = {}, bool initialized_ = {}, UnityEngine::Texture2D* blackTexture_ = {}) noexcept : bloomFog{bloomFog_}, preallocationData{preallocationData_}, lightsRenderingData{lightsRenderingData_}, commandBuffer{commandBuffer_}, initialized{initialized_}, blackTexture{blackTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD14A90
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF3F44
     // Get static field: static private readonly System.Int32 _vertexTransformMatrixID
     static int _get__vertexTransformMatrixID();
     // Set static field: static private readonly System.Int32 _vertexTransformMatrixID
     static void _set__vertexTransformMatrixID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD14AA0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF3F54
     // Get static field: static private readonly System.Int32 _bloomPrePassTextureID
     static int _get__bloomPrePassTextureID();
     // Set static field: static private readonly System.Int32 _bloomPrePassTextureID
     static void _set__bloomPrePassTextureID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD14AB0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF3F64
     // Get static field: static private readonly System.Int32 _stereoCameraEyeOffsetID
     static int _get__stereoCameraEyeOffsetID();
     // Set static field: static private readonly System.Int32 _stereoCameraEyeOffsetID
     static void _set__stereoCameraEyeOffsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD14AC0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF3F74
     // Get static field: static private readonly System.Int32 _customFogTextureToScreenRatioID
     static int _get__customFogTextureToScreenRatioID();
     // Set static field: static private readonly System.Int32 _customFogTextureToScreenRatioID
     static void _set__customFogTextureToScreenRatioID(int value);
     // protected System.Void OnDisable()
-    // Offset: 0x1D0E598
+    // Offset: 0x1D6CA78
     void OnDisable();
     // public System.Void Init()
-    // Offset: 0x1D0B1B8
+    // Offset: 0x1D69698
     void Init();
     // private System.Void Cleanup()
-    // Offset: 0x1D0E59C
+    // Offset: 0x1D6CA7C
     void Cleanup();
     // public System.Void RenderAndSetData(UnityEngine.Vector3 cameraPos, UnityEngine.Matrix4x4 projectionMatrix, UnityEngine.Matrix4x4 viewMatrix, System.Single stereoCameraEyeOffset, IBloomPrePassParams bloomPrePassParams, UnityEngine.RenderTexture dest, out UnityEngine.Vector2 textureToScreenRatio, out ToneMapping toneMapping)
-    // Offset: 0x1D0BA9C
+    // Offset: 0x1D69F7C
     void RenderAndSetData(UnityEngine::Vector3 cameraPos, UnityEngine::Matrix4x4 projectionMatrix, UnityEngine::Matrix4x4 viewMatrix, float stereoCameraEyeOffset, GlobalNamespace::IBloomPrePassParams* bloomPrePassParams, UnityEngine::RenderTexture* dest, UnityEngine::Vector2& textureToScreenRatio, GlobalNamespace::ToneMapping& toneMapping);
     // static public System.Void SetDataToShaders(System.Single stereoCameraEyeOffset, UnityEngine.Vector2 textureToScreenRatio, UnityEngine.Texture bloomFogTexture, ToneMapping toneMapping)
-    // Offset: 0x1D0C3E0
+    // Offset: 0x1D6A8C0
     static void SetDataToShaders(float stereoCameraEyeOffset, UnityEngine::Vector2 textureToScreenRatio, UnityEngine::Texture* bloomFogTexture, GlobalNamespace::ToneMapping toneMapping);
     // public System.Void SetCustomStereoCameraEyeOffset(System.Single stereoCameraEyeOffset)
-    // Offset: 0x1D0F398
+    // Offset: 0x1D6D878
     void SetCustomStereoCameraEyeOffset(float stereoCameraEyeOffset);
     // public UnityEngine.RenderTexture CreateBloomPrePassRenderTextureIfNeeded(UnityEngine.RenderTexture renderTexture, IBloomPrePassParams bloomPrePassParams)
-    // Offset: 0x1D0B788
+    // Offset: 0x1D69C68
     UnityEngine::RenderTexture* CreateBloomPrePassRenderTextureIfNeeded(UnityEngine::RenderTexture* renderTexture, GlobalNamespace::IBloomPrePassParams* bloomPrePassParams);
     // public System.Void EnableBloomFog()
-    // Offset: 0x1D0C3C4
+    // Offset: 0x1D6A8A4
     void EnableBloomFog();
     // public System.Void DisableBloomFog()
-    // Offset: 0x1D0C5A8
+    // Offset: 0x1D6AA88
     void DisableBloomFog();
     // public System.Void UpdateBloomFogParams()
-    // Offset: 0x1D0F414
+    // Offset: 0x1D6D8F4
     void UpdateBloomFogParams();
     // public System.Void GetCameraParams(UnityEngine.Camera camera, out UnityEngine.Matrix4x4 projectionMatrix, out UnityEngine.Matrix4x4 viewMatrix, out System.Single stereoCameraEyeOffset)
-    // Offset: 0x1D0B61C
+    // Offset: 0x1D69AFC
     void GetCameraParams(UnityEngine::Camera* camera, UnityEngine::Matrix4x4& projectionMatrix, UnityEngine::Matrix4x4& viewMatrix, float& stereoCameraEyeOffset);
     // private System.Void RenderAllLights(UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single linesWidth)
-    // Offset: 0x1D0EAD0
+    // Offset: 0x1D6CFB0
     void RenderAllLights(UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float linesWidth);
     // private System.Void PrepareLightsMeshRendering(BloomPrePassRendererSO/LightsRenderingData data, System.Int32 numberOfLights)
-    // Offset: 0x1D0E6CC
+    // Offset: 0x1D6CBAC
     void PrepareLightsMeshRendering(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData* data, int numberOfLights);
     // private UnityEngine.Matrix4x4 MatrixLerp(UnityEngine.Matrix4x4 from, UnityEngine.Matrix4x4 to, System.Single t)
-    // Offset: 0x1D0F42C
+    // Offset: 0x1D6D90C
     UnityEngine::Matrix4x4 MatrixLerp(UnityEngine::Matrix4x4 from, UnityEngine::Matrix4x4 to, float t);
     // protected override System.Void OnEnable()
-    // Offset: 0x1D0E570
+    // Offset: 0x1D6CA50
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1D0F538
+    // Offset: 0x1D6DA18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -185,7 +185,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRendererSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D0F5A8
+    // Offset: 0x1D6DA88
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

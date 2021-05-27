@@ -26,7 +26,7 @@ namespace System::Diagnostics::Tracing {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // [ThreadStaticAttribute] Offset: 0xCAD044
+    // [ThreadStaticAttribute] Offset: 0xD822A8
     // Get static field: static private System.Byte m_EventSourceExceptionRecurenceCount
     static uint8_t _get_m_EventSourceExceptionRecurenceCount();
     // Set static field: static private System.Byte m_EventSourceExceptionRecurenceCount
@@ -40,21 +40,21 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid
     static void _set_AspNetEventSourceGuid(System::Guid value);
     // public System.Boolean IsEnabled()
-    // Offset: 0x1653AB0
+    // Offset: 0x178E874
     bool IsEnabled();
     // public System.Void Dispose()
-    // Offset: 0x1653B2C
+    // Offset: 0x178E8F0
     void Dispose();
     // static private System.Void .cctor()
-    // Offset: 0x1653B34
+    // Offset: 0x178E8F8
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1653AB8
+    // Offset: 0x178E87C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x1653B24
+    // Offset: 0x178E8E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +63,7 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1653B30
+    // Offset: 0x178E8F4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

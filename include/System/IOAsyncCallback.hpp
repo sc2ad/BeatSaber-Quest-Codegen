@@ -32,20 +32,20 @@ namespace System {
     // Creating value type constructor for type: IOAsyncCallback
     IOAsyncCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16DB34C
+    // Offset: 0x185E6B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOAsyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IOAsyncResult ioares)
-    // Offset: 0x16DB35C
+    // Offset: 0x185E6C8
     void Invoke(System::IOAsyncResult* ioares);
     // public System.IAsyncResult BeginInvoke(System.IOAsyncResult ioares, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16DB6F0
+    // Offset: 0x185EA5C
     System::IAsyncResult* BeginInvoke(System::IOAsyncResult* ioares, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16DB714
+    // Offset: 0x185EA80
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IOAsyncCallback
   #pragma pack(pop)

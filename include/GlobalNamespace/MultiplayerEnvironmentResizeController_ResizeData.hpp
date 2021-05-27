@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0xD48A84
+    // [NullAllowed] Offset: 0xE2A4D8
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
-    // [NullAllowed] Offset: 0xD48ABC
+    // [NullAllowed] Offset: 0xE2A510
     // private UnityEngine.Transform[] _otherTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -61,19 +61,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ResizeData
     ResizeData(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType resizeType_ = {}, float offset_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, ::Array<UnityEngine::Transform*>* otherTransforms_ = {}) noexcept : resizeType{resizeType_}, offset{offset_}, lights{lights_}, otherTransforms{otherTransforms_} {}
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
-    // Offset: 0x107AB40
+    // Offset: 0x23F1384
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();
     // public System.Single get_offset()
-    // Offset: 0x107AB48
+    // Offset: 0x23F138C
     float get_offset();
     // public TubeBloomPrePassLight[] get_lights()
-    // Offset: 0x107AB50
+    // Offset: 0x23F1394
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* get_lights();
     // public UnityEngine.Transform[] get_otherTransforms()
-    // Offset: 0x107AB58
+    // Offset: 0x23F139C
     ::Array<UnityEngine::Transform*>* get_otherTransforms();
     // public System.Void .ctor()
-    // Offset: 0x107AB60
+    // Offset: 0x23F13A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

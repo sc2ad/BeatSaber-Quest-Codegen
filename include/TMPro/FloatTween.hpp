@@ -70,43 +70,43 @@ namespace TMPro {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xDF41A4
+    // Offset: 0xEE46F8
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xDF41AC
+    // Offset: 0xEE4700
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xDF41B4
+    // Offset: 0xEE4708
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xDF41BC
+    // Offset: 0xEE4710
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0xDF41C4
+    // Offset: 0xEE4718
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xDF41CC
+    // Offset: 0xEE4720
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xDF41D4
+    // Offset: 0xEE4728
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xDF41DC
+    // Offset: 0xEE4730
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xDF41E8
+    // Offset: 0xEE473C
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xDF41F0
+    // Offset: 0xEE4744
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xDF41F8
+    // Offset: 0xEE474C
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xDF4200
+    // Offset: 0xEE4754
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0xDF4208
+    // Offset: 0xEE475C
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)

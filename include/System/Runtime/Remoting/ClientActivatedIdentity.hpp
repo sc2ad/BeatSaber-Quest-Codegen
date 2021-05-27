@@ -49,30 +49,30 @@ namespace System::Runtime::Remoting {
       return targetThis;
     }
     // public System.Void .ctor(System.String objectUri, System.Type objectType)
-    // Offset: 0x132AEF0
+    // Offset: 0x140C2FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientActivatedIdentity* New_ctor(::Il2CppString* objectUri, System::Type* objectType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ClientActivatedIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientActivatedIdentity*, creationType>(objectUri, objectType)));
     }
     // public System.MarshalByRefObject GetServerObject()
-    // Offset: 0x132AF00
+    // Offset: 0x140C30C
     System::MarshalByRefObject* GetServerObject();
     // public System.Void SetClientProxy(System.MarshalByRefObject obj)
-    // Offset: 0x132AF08
+    // Offset: 0x140C314
     void SetClientProxy(System::MarshalByRefObject* obj);
     // public override System.Void OnLifetimeExpired()
-    // Offset: 0x132AF10
+    // Offset: 0x140C31C
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Void ServerIdentity::OnLifetimeExpired()
     void OnLifetimeExpired();
     // public override System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x132AF84
+    // Offset: 0x140C390
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessage ServerIdentity::SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public override System.Runtime.Remoting.Messaging.IMessageCtrl AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x132B204
+    // Offset: 0x140C610
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl ServerIdentity::AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

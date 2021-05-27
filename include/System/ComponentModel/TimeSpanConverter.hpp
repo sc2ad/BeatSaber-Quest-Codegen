@@ -21,7 +21,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: TimeSpanConverter
     TimeSpanConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16CCEA8
+    // Offset: 0x1850214
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

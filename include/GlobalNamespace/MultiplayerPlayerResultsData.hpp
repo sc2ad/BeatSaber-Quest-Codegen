@@ -16,10 +16,12 @@
 namespace GlobalNamespace {
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
+  // Forward declaring type: MultiplayerLevelCompletionResults
+  class MultiplayerLevelCompletionResults;
   // Forward declaring type: MultiplayerBadgeAwardData
   class MultiplayerBadgeAwardData;
+  // Forward declaring type: LevelCompletionResults
+  class LevelCompletionResults;
 }
 // Completed forward declares
 // Type namespace: 
@@ -35,12 +37,12 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // public readonly LevelCompletionResults levelCompletionResults
+    // public readonly MultiplayerLevelCompletionResults multiplayerLevelCompletionResults
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+    GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LevelCompletionResults*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::MultiplayerLevelCompletionResults*) == 0x8);
     // public MultiplayerBadgeAwardData badge
     // Size: 0x8
     // Offset: 0x20
@@ -48,20 +50,23 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgeAwardData*) == 0x8);
     // Creating value type constructor for type: MultiplayerPlayerResultsData
-    MultiplayerPlayerResultsData(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, GlobalNamespace::MultiplayerBadgeAwardData* badge_ = {}) noexcept : connectedPlayer{connectedPlayer_}, levelCompletionResults{levelCompletionResults_}, badge{badge_} {}
+    MultiplayerPlayerResultsData(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults_ = {}, GlobalNamespace::MultiplayerBadgeAwardData* badge_ = {}) noexcept : connectedPlayer{connectedPlayer_}, multiplayerLevelCompletionResults{multiplayerLevelCompletionResults_}, badge{badge_} {}
     // Creating interface conversion operator: operator System::IComparable
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
-    // public System.Void .ctor(IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1009928
+    // public LevelCompletionResults get_levelCompletionResults()
+    // Offset: 0x23DFE50
+    GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
+    // public System.Void .ctor(IConnectedPlayer connectedPlayer, MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)
+    // Offset: 0x23DFE6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerPlayerResultsData* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
+    static MultiplayerPlayerResultsData* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerPlayerResultsData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayerResultsData*, creationType>(connectedPlayer, levelCompletionResults)));
+      return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayerResultsData*, creationType>(connectedPlayer, multiplayerLevelCompletionResults)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x1009960
+    // Offset: 0x23DFEA4
     int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerPlayerResultsData
   #pragma pack(pop)

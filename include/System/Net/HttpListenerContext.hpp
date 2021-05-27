@@ -83,41 +83,41 @@ namespace System::Net {
     // Creating value type constructor for type: HttpListenerContext
     HttpListenerContext(System::Net::HttpListenerRequest* request_ = {}, System::Net::HttpListenerResponse* response_ = {}, System::Security::Principal::IPrincipal* user_ = {}, System::Net::HttpConnection* cnc_ = {}, ::Il2CppString* error_ = {}, int err_status_ = {}, System::Net::HttpListener* Listener_ = {}) noexcept : request{request_}, response{response_}, user{user_}, cnc{cnc_}, error{error_}, err_status{err_status_}, Listener{Listener_} {}
     // System.Void .ctor(System.Net.HttpConnection cnc)
-    // Offset: 0x1492CB0
+    // Offset: 0x1630A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerContext* New_ctor(System::Net::HttpConnection* cnc) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerContext*, creationType>(cnc)));
     }
     // System.Int32 get_ErrorStatus()
-    // Offset: 0x1498C80
+    // Offset: 0x1636A0C
     int get_ErrorStatus();
     // System.Void set_ErrorStatus(System.Int32 value)
-    // Offset: 0x1498C88
+    // Offset: 0x1636A14
     void set_ErrorStatus(int value);
     // System.String get_ErrorMessage()
-    // Offset: 0x1498C90
+    // Offset: 0x1636A1C
     ::Il2CppString* get_ErrorMessage();
     // System.Void set_ErrorMessage(System.String value)
-    // Offset: 0x1498C98
+    // Offset: 0x1636A24
     void set_ErrorMessage(::Il2CppString* value);
     // System.Boolean get_HaveError()
-    // Offset: 0x1493F44
+    // Offset: 0x1631CD0
     bool get_HaveError();
     // System.Net.HttpConnection get_Connection()
-    // Offset: 0x1498CA0
+    // Offset: 0x1636A2C
     System::Net::HttpConnection* get_Connection();
     // public System.Net.HttpListenerRequest get_Request()
-    // Offset: 0x1498CA8
+    // Offset: 0x1636A34
     System::Net::HttpListenerRequest* get_Request();
     // public System.Net.HttpListenerResponse get_Response()
-    // Offset: 0x1498CB0
+    // Offset: 0x1636A3C
     System::Net::HttpListenerResponse* get_Response();
     // System.Void ParseAuthentication(System.Net.AuthenticationSchemes expectedSchemes)
-    // Offset: 0x1498584
+    // Offset: 0x1636310
     void ParseAuthentication(System::Net::AuthenticationSchemes expectedSchemes);
     // System.Security.Principal.IPrincipal ParseBasicAuthentication(System.String authData)
-    // Offset: 0x1498CB8
+    // Offset: 0x1636A44
     System::Security::Principal::IPrincipal* ParseBasicAuthentication(::Il2CppString* authData);
   }; // System.Net.HttpListenerContext
   #pragma pack(pop)

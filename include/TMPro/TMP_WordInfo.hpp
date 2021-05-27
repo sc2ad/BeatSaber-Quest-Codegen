@@ -55,7 +55,7 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.String GetWord()
-    // Offset: 0xDFBB40
+    // Offset: 0xEEBB50
     ::Il2CppString* GetWord();
   }; // TMPro.TMP_WordInfo
   #pragma pack(pop)

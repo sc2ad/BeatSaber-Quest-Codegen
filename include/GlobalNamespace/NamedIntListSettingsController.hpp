@@ -42,22 +42,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NamedIntListSettingsController
     NamedIntListSettingsController(GlobalNamespace::IntSO* settingsValue_ = {}, ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* textValuePairs_ = {}) noexcept : settingsValue{settingsValue_}, textValuePairs{textValuePairs_} {}
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xFE8EB4
+    // Offset: 0x23EAA68
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xFE8F9C
+    // Offset: 0x23EAB50
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xFE9030
+    // Offset: 0x23EABE4
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xFE9084
+    // Offset: 0x23EAC38
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

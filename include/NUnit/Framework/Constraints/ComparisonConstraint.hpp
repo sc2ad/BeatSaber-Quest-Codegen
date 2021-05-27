@@ -62,14 +62,14 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ComparisonConstraint
     ComparisonConstraint(::Il2CppObject* expected_ = {}, bool lessComparisonResult_ = {}, bool equalComparisonResult_ = {}, bool greaterComparisonResult_ = {}, NUnit::Framework::Constraints::ComparisonAdapter* comparer_ = {}) noexcept : expected{expected_}, lessComparisonResult{lessComparisonResult_}, equalComparisonResult{equalComparisonResult_}, greaterComparisonResult{greaterComparisonResult_}, comparer{comparer_} {}
     // protected System.Void .ctor(System.Object value, System.Boolean lessComparisonResult, System.Boolean equalComparisonResult, System.Boolean greaterComparisonResult, System.String predicate)
-    // Offset: 0x15C0FB4
+    // Offset: 0x170BD6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComparisonConstraint* New_ctor(::Il2CppObject* value, bool lessComparisonResult, bool equalComparisonResult, bool greaterComparisonResult, ::Il2CppString* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ComparisonConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComparisonConstraint*, creationType>(value, lessComparisonResult, equalComparisonResult, greaterComparisonResult, predicate)));
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x15C1360
+    // Offset: 0x170C118
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

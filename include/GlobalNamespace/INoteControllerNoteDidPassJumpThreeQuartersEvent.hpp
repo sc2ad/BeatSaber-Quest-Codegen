@@ -7,8 +7,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: NoteController
-  class NoteController;
+  // Forward declaring type: NoteControllerBase
+  class NoteControllerBase;
 }
 // Completed forward declares
 // Type namespace: 
@@ -20,9 +20,9 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: INoteControllerNoteDidPassJumpThreeQuartersEvent
     INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {}
-    // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteController noteController)
+    // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteController* noteController);
+    void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase* noteController);
   }; // INoteControllerNoteDidPassJumpThreeQuartersEvent
   #pragma pack(pop)
 }

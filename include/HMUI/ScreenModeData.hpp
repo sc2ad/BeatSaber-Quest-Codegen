@@ -50,14 +50,14 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: offsetHeightByHeadPos and: yOffsetRelativeToHead
     char __padding4[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xD174B8
+    // [DrawIfAttribute] Offset: 0xDF6AFC
     // public System.Single yOffsetRelativeToHead
     // Size: 0x4
     // Offset: 0x34
     float yOffsetRelativeToHead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xD17550
+    // [DrawIfAttribute] Offset: 0xDF6B94
     // public System.Single minYPos
     // Size: 0x4
     // Offset: 0x38
@@ -67,7 +67,7 @@ namespace HMUI {
     // Creating value type constructor for type: ScreenModeData
     ScreenModeData(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 rotation_ = {}, float scale_ = {}, float radius_ = {}, bool offsetHeightByHeadPos_ = {}, float yOffsetRelativeToHead_ = {}, float minYPos_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_}, radius{radius_}, offsetHeightByHeadPos{offsetHeightByHeadPos_}, yOffsetRelativeToHead{yOffsetRelativeToHead_}, minYPos{minYPos_} {}
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 rotation, System.Single scale, System.Single radius, System.Boolean offsetHeightByHeadPos, System.Single yOffsetRelativeToHead, System.Single minYPos)
-    // Offset: 0x121A2E8
+    // Offset: 0x129A99C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float scale, float radius, bool offsetHeightByHeadPos, float yOffsetRelativeToHead, float minYPos) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScreenModeData::.ctor");

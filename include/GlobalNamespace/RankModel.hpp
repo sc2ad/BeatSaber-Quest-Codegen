@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RankModel
     RankModel() noexcept {}
     // static public System.String GetRankName(RankModel/Rank rank)
-    // Offset: 0x213D018
+    // Offset: 0x2331488
     static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
-    // Offset: 0x213D07C
+    // Offset: 0x23314EC
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
   }; // RankModel
   #pragma pack(pop)

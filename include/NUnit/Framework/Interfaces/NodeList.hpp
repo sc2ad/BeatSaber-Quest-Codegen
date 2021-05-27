@@ -27,7 +27,7 @@ namespace NUnit::Framework::Interfaces {
     // Creating value type constructor for type: NodeList
     NodeList() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15CBF54
+    // Offset: 0x1716D0C
     // Implemented from: System.Collections.Generic.List`1
     // Base method: System.Void List_1::.ctor()
     // Base method: System.Void Object::.ctor()

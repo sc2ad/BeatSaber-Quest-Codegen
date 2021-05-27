@@ -47,11 +47,11 @@ namespace Mono {
       return value;
     }
     // System.Void .ctor(Mono.RuntimeStructs/MonoClass* value)
-    // Offset: 0xE0DDFC
+    // Offset: 0xF02B78
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value)
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xE0DE04
+    // Offset: 0xF02B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeClassHandle(System::IntPtr ptr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeClassHandle::.ctor");
@@ -59,21 +59,21 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
     }
     // Mono.RuntimeStructs/MonoClass* get_Value()
-    // Offset: 0xE0DE30
+    // Offset: 0xF02BAC
     Mono::RuntimeStructs::MonoClass* get_Value();
     // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/MonoClass* klass)
-    // Offset: 0x18B4080
+    // Offset: 0x1A4AFC8
     static System::IntPtr GetTypeFromClass(Mono::RuntimeStructs::MonoClass* klass);
     // System.RuntimeTypeHandle GetTypeHandle()
-    // Offset: 0xE0DE74
+    // Offset: 0xF02BF0
     System::RuntimeTypeHandle GetTypeHandle();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE0DE38
+    // Offset: 0xF02BB4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE0DE40
+    // Offset: 0xF02BBC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

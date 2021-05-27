@@ -57,10 +57,10 @@ namespace System::Threading {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Boolean UndoNoThrow()
-    // Offset: 0xE0BF7C
+    // Offset: 0xF00040
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0xE0BF84
+    // Offset: 0xF00048
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
   #pragma pack(pop)

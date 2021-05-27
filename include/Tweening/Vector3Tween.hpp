@@ -14,6 +14,12 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: Zenject
+namespace Zenject {
+  // Forward declaring type: StaticMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  class StaticMemoryPool_7;
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
@@ -34,23 +40,42 @@ namespace Tweening {
     public:
     // Creating value type constructor for type: Vector3Tween
     Vector3Tween() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE297A0
+    // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector3,UnityEngine.Vector3,System.Action`1<UnityEngine.Vector3>,System.Single,Tweening.EaseType,System.Single,Tweening.Vector3Tween> Pool
+    static Zenject::StaticMemoryPool_7<UnityEngine::Vector3, UnityEngine::Vector3, System::Action_1<UnityEngine::Vector3>*, float, Tweening::EaseType, float, Tweening::Vector3Tween*>* _get_Pool();
+    // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector3,UnityEngine.Vector3,System.Action`1<UnityEngine.Vector3>,System.Single,Tweening.EaseType,System.Single,Tweening.Vector3Tween> Pool
+    static void _set_Pool(Zenject::StaticMemoryPool_7<UnityEngine::Vector3, UnityEngine::Vector3, System::Action_1<UnityEngine::Vector3>*, float, Tweening::EaseType, float, Tweening::Vector3Tween*>* value);
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0xFADA60
+    // Offset: 0x10FF4E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0xFADB28
+    // Offset: 0x10FF5AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // public UnityEngine.Vector3 GetValue(System.Single t)
-    // Offset: 0xFADBF0
+    // Offset: 0x10FF674
     UnityEngine::Vector3 GetValue(float t);
+    // static private System.Void .cctor()
+    // Offset: 0x10FF770
+    static void _cctor();
+    // public System.Void .ctor()
+    // Offset: 0x10FF494
+    // Implemented from: Tweening.Tween`1
+    // Base method: System.Void Tween_1::.ctor()
+    // Base method: System.Void Tween::.ctor()
+    // Base method: System.Void Object::.ctor()
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static Vector3Tween* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>()));
+    }
   }; // Tweening.Vector3Tween
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Vector3Tween*, "Tweening", "Vector3Tween");

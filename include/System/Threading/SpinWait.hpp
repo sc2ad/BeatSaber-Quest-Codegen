@@ -31,10 +31,10 @@ namespace System::Threading {
       return m_count;
     }
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0xE0C070
+    // Offset: 0xF00134
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0xE0C0A0
+    // Offset: 0xF00164
     void SpinOnce();
   }; // System.Threading.SpinWait
   #pragma pack(pop)

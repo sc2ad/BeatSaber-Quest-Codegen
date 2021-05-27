@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* customSongPackMaskItems;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD374D8
+    // [SpaceAttribute] Offset: 0xE17CBC
     // private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     // Size: 0x8
     // Offset: 0x28
@@ -88,37 +88,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<System.String> get_defaultSongPackMaskItems()
-    // Offset: 0xF8EBE4
+    // Offset: 0x1171218
     System::Collections::Generic::List_1<::Il2CppString*>* get_defaultSongPackMaskItems();
     // public SongPackMaskModelSO/SongPackMaskItem[] get_customSongPackMaskItems()
-    // Offset: 0xF8EBEC
+    // Offset: 0x1171220
     ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* get_customSongPackMaskItems();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasCollection()
-    // Offset: 0xF8EBF4
+    // Offset: 0x1171228
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
     // public BeatmapLevelPackCollectionSO get_dlcCollection()
-    // Offset: 0xF8EBFC
+    // Offset: 0x1171230
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_dlcCollection();
     // private System.String ToLocalizedName(System.String serializedName)
-    // Offset: 0xF8EC04
+    // Offset: 0x1171238
     ::Il2CppString* ToLocalizedName(::Il2CppString* serializedName);
     // public System.Boolean ToSongPackMask(System.String serializedName, out SongPackMask songPackMask)
-    // Offset: 0xF8F2DC
+    // Offset: 0x1171910
     bool ToSongPackMask(::Il2CppString* serializedName, GlobalNamespace::SongPackMask& songPackMask);
     // public SongPackMask ToSongPackMask(System.String serializedName)
-    // Offset: 0xF8F354
+    // Offset: 0x1171988
     GlobalNamespace::SongPackMask ToSongPackMask(::Il2CppString* serializedName);
     // public System.Boolean ToSerializedName(SongPackMask songPackMask, out System.String serializedName)
-    // Offset: 0xF8F38C
+    // Offset: 0x11719C0
     bool ToSerializedName(GlobalNamespace::SongPackMask songPackMask, ::Il2CppString*& serializedName);
     // public System.String ToSerializedName(SongPackMask songPackMask)
-    // Offset: 0xF8F414
+    // Offset: 0x1171A48
     ::Il2CppString* ToSerializedName(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void LazyInit()
-    // Offset: 0xF8EC98
+    // Offset: 0x11712CC
     void LazyInit();
     // public System.Void .ctor()
-    // Offset: 0xF8F850
+    // Offset: 0x1171E90
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

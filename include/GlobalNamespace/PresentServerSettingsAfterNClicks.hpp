@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfClicksRequired and: settingsFlowCoordinator
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0xD43684
+    // [InjectAttribute] Offset: 0xE24288
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8
     // Offset: 0x30
@@ -83,16 +83,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0xF80298
+    // Offset: 0x10A3BFC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xF8032C
+    // Offset: 0x10A3C90
     void OnDisable();
     // private System.Void <OnEnable>b__6_0()
-    // Offset: 0xF803B8
+    // Offset: 0x10A3D1C
     void $OnEnable$b__6_0();
     // public System.Void .ctor()
-    // Offset: 0xF80348
+    // Offset: 0x10A3CAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

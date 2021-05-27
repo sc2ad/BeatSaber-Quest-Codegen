@@ -28,12 +28,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UrlInputFieldSettingsController
     UrlInputFieldSettingsController() noexcept {}
     // protected override System.Void HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x166F574
+    // Offset: 0x1D9021C
     // Implemented from: InputFieldSettingsController
     // Base method: System.Void InputFieldSettingsController::HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
     void HandleInputFieldDidChange(HMUI::InputFieldView* inputFieldView);
     // public System.Void .ctor()
-    // Offset: 0x166F60C
+    // Offset: 0x1D902B4
     // Implemented from: InputFieldSettingsController
     // Base method: System.Void InputFieldSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

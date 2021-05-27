@@ -107,45 +107,45 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x119DDE8
+    // Offset: 0x124B360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM2Signer* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::SM2Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM2Signer*, creationType>(digest)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x119DE68
+    // Offset: 0x124B3E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM2Signer* New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::SM2Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM2Signer*, creationType>(encoding, digest)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x119DEE8
+    // Offset: 0x124B460
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x119E60C
+    // Offset: 0x124BB84
     void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
     // public System.Void Reset()
-    // Offset: 0x119E6E8
+    // Offset: 0x124BC60
     void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x119E840
+    // Offset: 0x124BDB8
     ::Array<uint8_t>* GenerateSignature();
     // private System.Byte[] GetZ(System.Byte[] userID)
-    // Offset: 0x119E484
+    // Offset: 0x124B9FC
     ::Array<uint8_t>* GetZ(::Array<uint8_t>* userID);
     // private System.Void AddUserID(Org.BouncyCastle.Crypto.IDigest digest, System.Byte[] userID)
-    // Offset: 0x119ED24
+    // Offset: 0x124C29C
     void AddUserID(Org::BouncyCastle::Crypto::IDigest* digest, ::Array<uint8_t>* userID);
     // private System.Void AddFieldElement(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Math.EC.ECFieldElement v)
-    // Offset: 0x119EECC
+    // Offset: 0x124C444
     void AddFieldElement(Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Math::EC::ECFieldElement* v);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x119EFB8
+    // Offset: 0x124C530
     Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x119F01C
+    // Offset: 0x124C594
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
   }; // Org.BouncyCastle.Crypto.Signers.SM2Signer
   #pragma pack(pop)

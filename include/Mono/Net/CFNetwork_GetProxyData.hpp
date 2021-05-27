@@ -66,10 +66,10 @@ namespace Mono::Net {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Dispose()
-    // Offset: 0x144EA1C
+    // Offset: 0x15D36CC
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x144C854
+    // Offset: 0x15D1504
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

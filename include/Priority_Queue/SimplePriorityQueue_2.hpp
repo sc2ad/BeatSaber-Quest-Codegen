@@ -69,7 +69,7 @@ namespace Priority_Queue {
       public:
       using declaring_type = SimplePriorityQueue_2<TItem, TPriority>*;
       static constexpr std::string_view NESTED_NAME = "SimpleNode";
-      // [CompilerGeneratedAttribute] Offset: 0xD48C54
+      // [CompilerGeneratedAttribute] Offset: 0xE2A6B8
       // private TItem <Data>k__BackingField
       // Size: 0xFFFFFFFF
       // Offset: 0x0

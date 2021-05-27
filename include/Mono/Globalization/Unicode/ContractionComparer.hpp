@@ -36,13 +36,13 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public readonly Mono.Globalization.Unicode.ContractionComparer Instance
     static void _set_Instance(Mono::Globalization::Unicode::ContractionComparer* value);
     // public System.Int32 Compare(Mono.Globalization.Unicode.Contraction c1, Mono.Globalization.Unicode.Contraction c2)
-    // Offset: 0x18A651C
+    // Offset: 0x1A3D464
     int Compare(Mono::Globalization::Unicode::Contraction* c1, Mono::Globalization::Unicode::Contraction* c2);
     // static private System.Void .cctor()
-    // Offset: 0x18A65C0
+    // Offset: 0x1A3D508
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18A65B8
+    // Offset: 0x1A3D500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

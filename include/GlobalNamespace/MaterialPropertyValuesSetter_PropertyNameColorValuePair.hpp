@@ -35,7 +35,7 @@ namespace GlobalNamespace {
       return color;
     }
     // public System.Void .ctor()
-    // Offset: 0x1D15A1C
+    // Offset: 0x1D74858
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

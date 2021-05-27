@@ -21,7 +21,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: NUnitAttribute
     NUnitAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2099D58
+    // Offset: 0x229CF30
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

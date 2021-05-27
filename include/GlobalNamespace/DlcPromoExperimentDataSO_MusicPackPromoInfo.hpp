@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MusicPackPromoInfo
     MusicPackPromoInfo(GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, UnityEngine::Sprite* bannerImage_ = {}) noexcept : previewBeatmapLevelPack{previewBeatmapLevelPack_}, bannerImage{bannerImage_} {}
     // public PreviewBeatmapLevelPackSO get_previewBeatmapLevelPack()
-    // Offset: 0x106D8E4
+    // Offset: 0x10B7B10
     GlobalNamespace::PreviewBeatmapLevelPackSO* get_previewBeatmapLevelPack();
     // public UnityEngine.Sprite get_bannerImage()
-    // Offset: 0x106D8EC
+    // Offset: 0x10B7B18
     UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
-    // Offset: 0x106D8F4
+    // Offset: 0x10B7B20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -15,10 +15,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataAssetsModel
     BeatmapDataAssetsModel() noexcept {}
     // static public System.String BeatmapLevelDataAssetNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x10AE1CC
+    // Offset: 0x11A9398
     static ::Il2CppString* BeatmapLevelDataAssetNameForBeatmapLevel(::Il2CppString* levelID);
     // static public System.String AssetBundleNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x10AE220
+    // Offset: 0x11A93EC
     static ::Il2CppString* AssetBundleNameForBeatmapLevel(::Il2CppString* levelID);
   }; // BeatmapDataAssetsModel
   #pragma pack(pop)

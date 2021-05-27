@@ -30,20 +30,20 @@ namespace UnityEngine::Events {
     // Creating value type constructor for type: UnityAction
     UnityAction() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A0B64C
+    // Offset: 0x1B7A9B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityAction* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityAction*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1A01B6C
+    // Offset: 0x1B6FF30
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A0B65C
+    // Offset: 0x1B7A9C0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A0B688
+    // Offset: 0x1B7A9EC
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Events.UnityAction
   #pragma pack(pop)

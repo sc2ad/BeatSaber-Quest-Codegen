@@ -28,7 +28,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: InvalidSignatureException
     InvalidSignatureException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1378714
+    // Offset: 0x14A30C0
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -38,7 +38,7 @@ namespace UnityEngine::TestTools::TestRunner {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidSignatureException*, creationType>(message)));
     }
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x137871C
+    // Offset: 0x14A30C8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();

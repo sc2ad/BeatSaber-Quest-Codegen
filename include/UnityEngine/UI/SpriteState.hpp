@@ -35,7 +35,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_PressedSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xCEDE94
+    // [FormerlySerializedAsAttribute] Offset: 0xDC89C4
     // private UnityEngine.Sprite m_SelectedSprite
     // Size: 0x8
     // Offset: 0x10
@@ -59,31 +59,31 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::SpriteState>*>(this);
     }
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0xE2C18C
+    // Offset: 0xF21AD4
     UnityEngine::Sprite* get_highlightedSprite();
     // public System.Void set_highlightedSprite(UnityEngine.Sprite value)
-    // Offset: 0xE2C194
+    // Offset: 0xF21ADC
     void set_highlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0xE2C19C
+    // Offset: 0xF21AE4
     UnityEngine::Sprite* get_pressedSprite();
     // public System.Void set_pressedSprite(UnityEngine.Sprite value)
-    // Offset: 0xE2C1A4
+    // Offset: 0xF21AEC
     void set_pressedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0xE2C1AC
+    // Offset: 0xF21AF4
     UnityEngine::Sprite* get_selectedSprite();
     // public System.Void set_selectedSprite(UnityEngine.Sprite value)
-    // Offset: 0xE2C1B4
+    // Offset: 0xF21AFC
     void set_selectedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0xE2C1BC
+    // Offset: 0xF21B04
     UnityEngine::Sprite* get_disabledSprite();
     // public System.Void set_disabledSprite(UnityEngine.Sprite value)
-    // Offset: 0xE2C1C4
+    // Offset: 0xF21B0C
     void set_disabledSprite(UnityEngine::Sprite* value);
     // public System.Boolean Equals(UnityEngine.UI.SpriteState other)
-    // Offset: 0xE2C1CC
+    // Offset: 0xF21B14
     bool Equals(UnityEngine::UI::SpriteState other);
   }; // UnityEngine.UI.SpriteState
   #pragma pack(pop)

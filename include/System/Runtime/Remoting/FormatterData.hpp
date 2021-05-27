@@ -21,7 +21,7 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: FormatterData
     FormatterData() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1884964
+    // Offset: 0x1A1A8AC
     // Implemented from: System.Runtime.Remoting.ProviderData
     // Base method: System.Void ProviderData::.ctor()
     // Base method: System.Void Object::.ctor()

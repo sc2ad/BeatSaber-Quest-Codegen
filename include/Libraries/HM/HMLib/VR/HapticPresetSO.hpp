@@ -47,10 +47,10 @@ namespace Libraries::HM::HMLib::VR {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x1182D60
+    // Offset: 0x12301E4
     void CopyFrom(Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // public System.Void .ctor()
-    // Offset: 0x1182D94
+    // Offset: 0x1230218
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

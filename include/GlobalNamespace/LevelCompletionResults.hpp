@@ -122,36 +122,6 @@ namespace GlobalNamespace {
       static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_Restart();
       // Set static field: static public LevelCompletionResults/LevelEndAction Restart
       static void _set_Restart(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-      // static field const value: static public LevelCompletionResults/LevelEndAction MultiplayerInactive
-      static constexpr const int MultiplayerInactive = 3;
-      // Get static field: static public LevelCompletionResults/LevelEndAction MultiplayerInactive
-      static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_MultiplayerInactive();
-      // Set static field: static public LevelCompletionResults/LevelEndAction MultiplayerInactive
-      static void _set_MultiplayerInactive(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-      // static field const value: static public LevelCompletionResults/LevelEndAction LostConnection
-      static constexpr const int LostConnection = 4;
-      // Get static field: static public LevelCompletionResults/LevelEndAction LostConnection
-      static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_LostConnection();
-      // Set static field: static public LevelCompletionResults/LevelEndAction LostConnection
-      static void _set_LostConnection(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-      // static field const value: static public LevelCompletionResults/LevelEndAction StartupFailed
-      static constexpr const int StartupFailed = 5;
-      // Get static field: static public LevelCompletionResults/LevelEndAction StartupFailed
-      static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_StartupFailed();
-      // Set static field: static public LevelCompletionResults/LevelEndAction StartupFailed
-      static void _set_StartupFailed(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-      // static field const value: static public LevelCompletionResults/LevelEndAction HostEndedLevel
-      static constexpr const int HostEndedLevel = 6;
-      // Get static field: static public LevelCompletionResults/LevelEndAction HostEndedLevel
-      static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_HostEndedLevel();
-      // Set static field: static public LevelCompletionResults/LevelEndAction HostEndedLevel
-      static void _set_HostEndedLevel(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
-      // static field const value: static public LevelCompletionResults/LevelEndAction ConnectedAfterLevelEnded
-      static constexpr const int ConnectedAfterLevelEnded = 7;
-      // Get static field: static public LevelCompletionResults/LevelEndAction ConnectedAfterLevelEnded
-      static GlobalNamespace::LevelCompletionResults::LevelEndAction _get_ConnectedAfterLevelEnded();
-      // Set static field: static public LevelCompletionResults/LevelEndAction ConnectedAfterLevelEnded
-      static void _set_ConnectedAfterLevelEnded(GlobalNamespace::LevelCompletionResults::LevelEndAction value);
     }; // LevelCompletionResults/LevelEndAction
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndAction), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndActionSizeCheck;
@@ -342,34 +312,27 @@ namespace GlobalNamespace {
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
-    // public System.Void .ctor(LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0x2139C04
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LevelCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelCompletionResults::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(levelEndAction)));
-    }
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 rawScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 averageCutScore, System.Int32 maxCutScore, System.Single averageCutDistanceRawScore, System.Int32 maxCombo, System.Single minDirDeviation, System.Single maxDirDeviation, System.Single averageDirDeviation, System.Single minTimeDeviation, System.Single maxTimeDeviation, System.Single averageTimeDeviation, System.Single endSongTime)
-    // Offset: 0x2139C8C
+    // Offset: 0x232DF88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int rawScore, GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int averageCutScore, int maxCutScore, float averageCutDistanceRawScore, int maxCombo, float minDirDeviation, float maxDirDeviation, float averageDirDeviation, float minTimeDeviation, float maxTimeDeviation, float averageTimeDeviation, float endSongTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(gameplayModifiers, modifiedScore, rawScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, songDuration, levelEndStateType, levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, averageCutScore, maxCutScore, averageCutDistanceRawScore, maxCombo, minDirDeviation, maxDirDeviation, averageDirDeviation, minTimeDeviation, maxTimeDeviation, averageTimeDeviation, endSongTime)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x2139E08
+    // Offset: 0x232E104
     int CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2139F24
+    // Offset: 0x232E220
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x213A20C
+    // Offset: 0x232E508
     GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable$LevelCompletionResults$_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x213A214
+    // Offset: 0x232E510
     static GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2139BFC
+    // Offset: 0x232DF80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

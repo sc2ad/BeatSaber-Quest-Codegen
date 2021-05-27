@@ -44,38 +44,38 @@ namespace System::IO {
     // Creating value type constructor for type: CStreamWriter
     CStreamWriter(System::TermInfoDriver* driver_ = {}) noexcept : driver{driver_} {}
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x17BC860
+    // Offset: 0x192DE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool leaveOpen) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::CStreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CStreamWriter*, creationType>(stream, encoding, leaveOpen)));
     }
     // public System.Void InternalWriteString(System.String val)
-    // Offset: 0x17BD2DC
+    // Offset: 0x192E8A8
     void InternalWriteString(::Il2CppString* val);
     // public System.Void InternalWriteChar(System.Char val)
-    // Offset: 0x17BD20C
+    // Offset: 0x192E7D8
     void InternalWriteChar(::Il2CppChar val);
     // public System.Void InternalWriteChars(System.Char[] buffer, System.Int32 n)
-    // Offset: 0x17BD51C
+    // Offset: 0x192EAE8
     void InternalWriteChars(::Array<::Il2CppChar>* buffer, int n);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x17BCB0C
+    // Offset: 0x192E0D8
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.Char val)
-    // Offset: 0x17BD078
+    // Offset: 0x192E644
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char val)
     void Write(::Il2CppChar val);
     // public override System.Void Write(System.Char[] val)
-    // Offset: 0x17BD5F8
+    // Offset: 0x192EBC4
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] val)
     void Write(::Array<::Il2CppChar>* val);
     // public override System.Void Write(System.String val)
-    // Offset: 0x17BD620
+    // Offset: 0x192EBEC
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String val)
     void Write(::Il2CppString* val);

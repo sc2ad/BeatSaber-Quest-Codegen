@@ -25,13 +25,13 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // static public NUnit.Framework.Constraints.NUnitComparer get_Default()
-    // Offset: 0x15C0F58
+    // Offset: 0x170BD10
     static NUnit::Framework::Constraints::NUnitComparer* get_Default();
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x15C72FC
+    // Offset: 0x17120B4
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x15C72F4
+    // Offset: 0x17120AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

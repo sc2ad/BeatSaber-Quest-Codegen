@@ -20,8 +20,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: IAudioTimeSource
   class IAudioTimeSource;
-  // Forward declaring type: BeatmapObjectSpawnController
-  class BeatmapObjectSpawnController;
+  // Forward declaring type: IBeatmapObjectSpawnController
+  class IBeatmapObjectSpawnController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
-      // Offset: 0xDF390C
+      // Offset: 0xEE3D40
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
@@ -90,14 +90,14 @@ namespace GlobalNamespace {
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
+    GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IBeatmapObjectSpawnController*) == 0x8);
     // Creating value type constructor for type: BeatmapObjectAvoidanceYOffsetEvaluator
-    BeatmapObjectAvoidanceYOffsetEvaluator(int currentYJumpOffsetBufferEndIndex_ = {}, float jumpDurationToDesiredZPosition_ = {}, ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>* yJumpOffsetBuffer_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}) noexcept : currentYJumpOffsetBufferEndIndex{currentYJumpOffsetBufferEndIndex_}, jumpDurationToDesiredZPosition{jumpDurationToDesiredZPosition_}, yJumpOffsetBuffer{yJumpOffsetBuffer_}, audioTimeSource{audioTimeSource_}, beatmapObjectSpawnController{beatmapObjectSpawnController_} {}
+    BeatmapObjectAvoidanceYOffsetEvaluator(int currentYJumpOffsetBufferEndIndex_ = {}, float jumpDurationToDesiredZPosition_ = {}, ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>* yJumpOffsetBuffer_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}) noexcept : currentYJumpOffsetBufferEndIndex{currentYJumpOffsetBufferEndIndex_}, jumpDurationToDesiredZPosition{jumpDurationToDesiredZPosition_}, yJumpOffsetBuffer{yJumpOffsetBuffer_}, audioTimeSource{audioTimeSource_}, beatmapObjectSpawnController{beatmapObjectSpawnController_} {}
     // static field const value: static private System.Int32 kYJumpOffsetBufferLength
     static constexpr const int kYJumpOffsetBufferLength = 2000;
     // Get static field: static private System.Int32 kYJumpOffsetBufferLength
@@ -110,22 +110,22 @@ namespace GlobalNamespace {
     static float _get_kYJumpOffsetBufferSongTimeInitValue();
     // Set static field: static private System.Single kYJumpOffsetBufferSongTimeInitValue
     static void _set_kYJumpOffsetBufferSongTimeInitValue(float value);
-    // public System.Void .ctor(IAudioTimeSource audioTimeSource, BeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
-    // Offset: 0xF246A8
+    // public System.Void .ctor(IAudioTimeSource audioTimeSource, IBeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
+    // Offset: 0x1079C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
+    static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator*, creationType>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData)));
     }
     // public System.Void ManualUpdate()
-    // Offset: 0xF247A8
+    // Offset: 0x1079D84
     void ManualUpdate();
     // public System.Single GetJumpOffsetYAtJumpStartSongTime(System.Single lastDeltaTime)
-    // Offset: 0xF248C4
+    // Offset: 0x1079F0C
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator), 40 + sizeof(GlobalNamespace::BeatmapObjectSpawnController*)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluatorSizeCheck;
+  static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator), 40 + sizeof(GlobalNamespace::IBeatmapObjectSpawnController*)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");

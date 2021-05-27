@@ -42,7 +42,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* m_Signals;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>*) == 0x8);
-    // [CustomSignalEventDrawer] Offset: 0xCFE01C
+    // [CustomSignalEventDrawer] Offset: 0xDD89BC
     // private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     // Size: 0x8
     // Offset: 0x18
@@ -52,25 +52,25 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: EventKeyValue
     EventKeyValue(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* m_Signals_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events_ = {}) noexcept : m_Signals{m_Signals_}, m_Events{m_Events_} {}
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, out UnityEngine.Events.UnityEvent value)
-    // Offset: 0x168BCB8
+    // Offset: 0x17CD698
     bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent*& value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x168BE98
+    // Offset: 0x17CD878
     void Append(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0x168C4C0
+    // Offset: 0x17CDEA0
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x168C05C
+    // Offset: 0x17CDA3C
     void Remove(UnityEngine::Timeline::SignalAsset* key);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0x168C898
+    // Offset: 0x17CE278
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0x168C8A0
+    // Offset: 0x17CE280
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Void .ctor()
-    // Offset: 0x168C800
+    // Offset: 0x17CE1E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

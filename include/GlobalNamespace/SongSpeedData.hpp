@@ -29,7 +29,7 @@ namespace GlobalNamespace {
       return speedMul;
     }
     // public System.Void .ctor(System.Single speedMul)
-    // Offset: 0xF91CE8
+    // Offset: 0x11743CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongSpeedData* New_ctor(float speedMul) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongSpeedData::.ctor");

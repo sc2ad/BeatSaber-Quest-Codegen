@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedHoverHint
     LocalizedHoverHint() noexcept {}
     // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
-    // Offset: 0x10E426C
+    // Offset: 0x10D4AA0
     void SetText(HMUI::HoverHint* hoverHint, ::Il2CppString* value);
     // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
-    // Offset: 0x10E4284
+    // Offset: 0x10D4AB8
     void UpdateAlignment(HMUI::HoverHint* hoverHint, Polyglot::LanguageDirection direction);
     // public System.Void .ctor()
-    // Offset: 0x10E4288
+    // Offset: 0x10D4ABC
     // Implemented from: Polyglot.LocalizedTextComponent`1
     // Base method: System.Void LocalizedTextComponent_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

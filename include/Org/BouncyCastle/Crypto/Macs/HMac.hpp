@@ -81,32 +81,32 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1713458
+    // Offset: 0x18A9554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMac* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::HMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMac*, creationType>(digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1717500
+    // Offset: 0x18AD5FC
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1717AAC
+    // Offset: 0x18ADBA8
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1717AB4
+    // Offset: 0x18ADBB0
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1717B78
+    // Offset: 0x18ADC74
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1717C54
+    // Offset: 0x18ADD50
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1718140
+    // Offset: 0x18AE23C
     void Reset();
     // static private System.Void XorPad(System.Byte[] pad, System.Int32 len, System.Byte n)
-    // Offset: 0x1717A50
+    // Offset: 0x18ADB4C
     static void XorPad(::Array<uint8_t>* pad, int len, uint8_t n);
   }; // Org.BouncyCastle.Crypto.Macs.HMac
   #pragma pack(pop)

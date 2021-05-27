@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xD219AC
+    // [ObsoleteAttribute] Offset: 0xE00620
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x18
@@ -49,7 +49,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: UserAndRoom
     UserAndRoom(Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : RoomOptional{RoomOptional_}, Room{Room_}, User{User_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13AFE20
+    // Offset: 0x14BC8E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAndRoom* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserAndRoom::.ctor");

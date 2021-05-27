@@ -65,34 +65,34 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // public System.Void .ctor(System.String name, System.Boolean allowNull, System.Int32 minLength, System.Int32 maxLength)
-    // Offset: 0x1229E04
+    // public System.Void .ctor(System.String name, System.Int32 minLength, System.Int32 maxLength, System.Boolean allowNull)
+    // Offset: 0x1306A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, bool allowNull, int minLength, int maxLength) {
+    static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int minLength, int maxLength, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, allowNull, minLength, maxLength)));
+      return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, minLength, maxLength, allowNull)));
     }
-    // public System.Void .ctor(System.String name, System.Int32 size)
-    // Offset: 0x1229E58
+    // public System.Void .ctor(System.String name, System.Int32 size, System.Boolean allowNull)
+    // Offset: 0x1306AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int size) {
+    static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int size, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size)));
+      return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size, allowNull)));
     }
     // public System.Byte[] get_data()
-    // Offset: 0x1229E98
+    // Offset: 0x1306AFC
     ::Array<uint8_t>* get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x1229EA0
+    // Offset: 0x1306B04
     void set_data(::Array<uint8_t>* value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x122A0A0
+    // Offset: 0x1306D04
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x122A1B0
+    // Offset: 0x1306E14
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Clear()
-    // Offset: 0x122A3C8
+    // Offset: 0x130702C
     void Clear();
   }; // ByteArrayNetSerializable
   #pragma pack(pop)

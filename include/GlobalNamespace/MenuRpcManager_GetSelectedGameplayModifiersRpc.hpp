@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetSelectedGameplayModifiersRpc
     GetSelectedGameplayModifiersRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15DD0F8
+    // Offset: 0x14E6568
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

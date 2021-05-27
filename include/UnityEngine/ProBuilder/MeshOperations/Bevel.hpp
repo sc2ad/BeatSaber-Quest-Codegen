@@ -61,19 +61,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private readonly System.Int32[] k_BridgeIndexesTri
     static void _set_k_BridgeIndexesTri(::Array<int>* value);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> BevelEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge> edges, System.Single amount)
-    // Offset: 0x13B34B0
+    // Offset: 0x1527B14
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* BevelEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges, float amount);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> GetBridgeFaces(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right, System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>>>> holes)
-    // Offset: 0x13B5B00
+    // Offset: 0x152A164
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::FaceRebuildData*>* GetBridgeFaces(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*>>*>* holes);
     // static private System.Void SlideEdge(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, UnityEngine.ProBuilder.WingedEdge we, System.Single amount)
-    // Offset: 0x13B56F0
+    // Offset: 0x1529D54
     static void SlideEdge(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, UnityEngine::ProBuilder::WingedEdge* we, float amount);
     // static private UnityEngine.ProBuilder.Edge GetLeadingEdge(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 common)
-    // Offset: 0x13B6178
+    // Offset: 0x152A7DC
     static UnityEngine::ProBuilder::Edge GetLeadingEdge(UnityEngine::ProBuilder::WingedEdge* wing, int common);
     // static private System.Void .cctor()
-    // Offset: 0x13B6270
+    // Offset: 0x152A8D4
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel
   #pragma pack(pop)

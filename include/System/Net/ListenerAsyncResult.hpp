@@ -120,41 +120,41 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(System::Threading::WaitCallback* value);
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x14979F0
+    // Offset: 0x163577C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x14975D0
+    // Offset: 0x163535C
     void Complete(System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x14A62F8
+    // Offset: 0x1644084
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x14988D0
+    // Offset: 0x163665C
     void Complete(System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x1497B3C
+    // Offset: 0x16358C8
     void Complete(System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x14984E0
+    // Offset: 0x163626C
     System::Net::HttpListenerContext* GetContext();
     // public System.Object get_AsyncState()
-    // Offset: 0x14A644C
+    // Offset: 0x16441D8
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x14983DC
+    // Offset: 0x1636168
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x14A6460
+    // Offset: 0x16441EC
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1498330
+    // Offset: 0x16360BC
     bool get_IsCompleted();
     // static private System.Void .cctor()
-    // Offset: 0x14A6474
+    // Offset: 0x1644200
     static void _cctor();
   }; // System.Net.ListenerAsyncResult
   #pragma pack(pop)

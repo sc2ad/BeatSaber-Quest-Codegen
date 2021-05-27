@@ -21,19 +21,19 @@ namespace System::Text {
     public:
     // Creating value type constructor for type: StringBuilderCache
     StringBuilderCache() noexcept {}
-    // [ThreadStaticAttribute] Offset: 0xCAC080
+    // [ThreadStaticAttribute] Offset: 0xD812E4
     // Get static field: static private System.Text.StringBuilder CachedInstance
     static System::Text::StringBuilder* _get_CachedInstance();
     // Set static field: static private System.Text.StringBuilder CachedInstance
     static void _set_CachedInstance(System::Text::StringBuilder* value);
     // static public System.Text.StringBuilder Acquire(System.Int32 capacity)
-    // Offset: 0x1B2FD98
+    // Offset: 0x1CE5DA0
     static System::Text::StringBuilder* Acquire(int capacity);
     // static public System.Void Release(System.Text.StringBuilder sb)
-    // Offset: 0x1B2FE5C
+    // Offset: 0x1CE5E64
     static void Release(System::Text::StringBuilder* sb);
     // static public System.String GetStringAndRelease(System.Text.StringBuilder sb)
-    // Offset: 0x1B2FED4
+    // Offset: 0x1CE5EDC
     static ::Il2CppString* GetStringAndRelease(System::Text::StringBuilder* sb);
   }; // System.Text.StringBuilderCache
   #pragma pack(pop)

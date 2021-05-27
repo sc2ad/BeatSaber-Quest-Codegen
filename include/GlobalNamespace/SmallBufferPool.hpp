@@ -101,13 +101,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kCacheMaxMaxCapacity
     static void _set_kCacheMaxMaxCapacity(int value);
     // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x15EB5F0
+    // Offset: 0x2365CD4
     ::Array<uint8_t>* GetBuffer(int length);
     // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x15EB7C0
+    // Offset: 0x2365EA4
     void ReleaseBuffer(::Array<uint8_t>* buffer);
     // public System.Void .ctor()
-    // Offset: 0x15EB900
+    // Offset: 0x2365FE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

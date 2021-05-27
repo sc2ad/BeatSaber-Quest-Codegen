@@ -80,37 +80,37 @@ namespace System::Security::Util {
     // Creating value type constructor for type: TokenizerStream
     TokenizerStream(int m_countTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_headTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_lastTokens_ = {}, System::Security::Util::TokenizerShortBlock* m_currentTokens_ = {}, int m_indexTokens_ = {}, System::Security::Util::TokenizerStringBlock* m_headStrings_ = {}, System::Security::Util::TokenizerStringBlock* m_currentStrings_ = {}, int m_indexStrings_ = {}) noexcept : m_countTokens{m_countTokens_}, m_headTokens{m_headTokens_}, m_lastTokens{m_lastTokens_}, m_currentTokens{m_currentTokens_}, m_indexTokens{m_indexTokens_}, m_headStrings{m_headStrings_}, m_currentStrings{m_currentStrings_}, m_indexStrings{m_indexStrings_} {}
     // System.Void AddToken(System.Int16 token)
-    // Offset: 0x1A5686C
+    // Offset: 0x1B33964
     void AddToken(int16_t token);
     // System.Void AddString(System.String str)
-    // Offset: 0x1A56FAC
+    // Offset: 0x1B340A4
     void AddString(::Il2CppString* str);
     // System.Void Reset()
-    // Offset: 0x1A576E0
+    // Offset: 0x1B347D8
     void Reset();
     // System.Int16 GetNextFullToken()
-    // Offset: 0x1A576FC
+    // Offset: 0x1B347F4
     int16_t GetNextFullToken();
     // System.Int16 GetNextToken()
-    // Offset: 0x1A57778
+    // Offset: 0x1B34870
     int16_t GetNextToken();
     // System.String GetNextString()
-    // Offset: 0x1A57790
+    // Offset: 0x1B34888
     ::Il2CppString* GetNextString();
     // System.Void ThrowAwayNextString()
-    // Offset: 0x1A57808
+    // Offset: 0x1B34900
     void ThrowAwayNextString();
     // System.Void TagLastToken(System.Int16 tag)
-    // Offset: 0x1A5780C
+    // Offset: 0x1B34904
     void TagLastToken(int16_t tag);
     // System.Int32 GetTokenCount()
-    // Offset: 0x1A5788C
+    // Offset: 0x1B34984
     int GetTokenCount();
     // System.Void GoToPosition(System.Int32 position)
-    // Offset: 0x1A57894
+    // Offset: 0x1B3498C
     void GoToPosition(int position);
     // System.Void .ctor()
-    // Offset: 0x1A575E8
+    // Offset: 0x1B346E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

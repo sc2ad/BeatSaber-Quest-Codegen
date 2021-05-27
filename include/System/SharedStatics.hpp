@@ -35,16 +35,16 @@ namespace System {
     // Set static field: static private readonly System.SharedStatics _sharedStatics
     static void _set__sharedStatics(System::SharedStatics* value);
     // static public System.Security.Util.Tokenizer/StringMaker GetSharedStringMaker()
-    // Offset: 0x1A559EC
+    // Offset: 0x1B32AE4
     static System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
     // static public System.Void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer/StringMaker maker)
-    // Offset: 0x1A55BC4
+    // Offset: 0x1B32CBC
     static void ReleaseSharedStringMaker(System::Security::Util::Tokenizer::StringMaker*& maker);
     // static private System.Void .cctor()
-    // Offset: 0x1A57C04
+    // Offset: 0x1B34CFC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1A57BFC
+    // Offset: 0x1B34CF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

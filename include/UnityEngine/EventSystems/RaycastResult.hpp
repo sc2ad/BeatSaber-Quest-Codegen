@@ -104,19 +104,19 @@ namespace UnityEngine::EventSystems {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0xDFC400
+    // Offset: 0xEED410
     UnityEngine::GameObject* get_gameObject();
     // public System.Void set_gameObject(UnityEngine.GameObject value)
-    // Offset: 0xDFC408
+    // Offset: 0xEED418
     void set_gameObject(UnityEngine::GameObject* value);
     // public System.Boolean get_isValid()
-    // Offset: 0xDFC410
+    // Offset: 0xEED420
     bool get_isValid();
     // public System.Void Clear()
-    // Offset: 0xDFC418
+    // Offset: 0xEED428
     void Clear();
     // public override System.String ToString()
-    // Offset: 0xDFC420
+    // Offset: 0xEED430
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

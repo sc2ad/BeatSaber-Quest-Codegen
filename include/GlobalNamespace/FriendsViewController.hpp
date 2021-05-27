@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* enableOpenPartyToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43D94
+    // [InjectAttribute] Offset: 0xE24998
     // private readonly PlatformNetworkPlayerModel _networkPlayerModel
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::PlatformNetworkPlayerModel* networkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43DA4
+    // [InjectAttribute] Offset: 0xE249A8
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
@@ -74,43 +74,43 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FriendsViewController
     FriendsViewController(UnityEngine::UI::Toggle* enableOpenPartyToggle_ = {}, GlobalNamespace::PlatformNetworkPlayerModel* networkPlayerModel_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool allowAnyoneToJoin_ = {}) noexcept : enableOpenPartyToggle{enableOpenPartyToggle_}, networkPlayerModel{networkPlayerModel_}, networkConfig{networkConfig_}, toggleBinder{toggleBinder_}, allowAnyoneToJoin{allowAnyoneToJoin_} {}
     // private System.Void HandleOpenPartyToggleChanged(System.Boolean openParty)
-    // Offset: 0xF59AE0
+    // Offset: 0x1038358
     void HandleOpenPartyToggleChanged(bool openParty);
     // private System.Void RefreshParty(System.Boolean overrideHide)
-    // Offset: 0xF5991C
+    // Offset: 0x1038194
     void RefreshParty(bool overrideHide);
     // public override System.String get_myPartyTitle()
-    // Offset: 0xF59778
+    // Offset: 0x1037FF0
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_myPartyTitle()
     ::Il2CppString* get_myPartyTitle();
     // public override System.String get_otherPlayersTitle()
-    // Offset: 0xF597C0
+    // Offset: 0x1038038
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_otherPlayersTitle()
     ::Il2CppString* get_otherPlayersTitle();
     // public override INetworkPlayerModel get_networkPlayerModel()
-    // Offset: 0xF59808
+    // Offset: 0x1038080
     // Implemented from: NetworkPlayersViewController
     // Base method: INetworkPlayerModel NetworkPlayersViewController::get_networkPlayerModel()
     GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // protected override System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0xF59810
+    // Offset: 0x1038088
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF59A58
+    // Offset: 0x10382D0
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0xF59AAC
+    // Offset: 0x1038324
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xF59AF0
+    // Offset: 0x1038368
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

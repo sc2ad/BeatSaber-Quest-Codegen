@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LanguageSettingsController* languageSettingsController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LanguageSettingsController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD45D88
+    // [CompilerGeneratedAttribute] Offset: 0xE26A1C
     // private System.Action didChangeLanguageEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action* didChangeLanguageEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD45D98
+    // [CompilerGeneratedAttribute] Offset: 0xE26A2C
     // private System.Action didPressContinueButtonEvent
     // Size: 0x8
     // Offset: 0x88
@@ -64,35 +64,35 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SelectLanguageViewController
     SelectLanguageViewController(UnityEngine::UI::Button* continueButton_ = {}, GlobalNamespace::LanguageSettingsController* languageSettingsController_ = {}, System::Action* didChangeLanguageEvent_ = {}, System::Action* didPressContinueButtonEvent_ = {}) noexcept : continueButton{continueButton_}, languageSettingsController{languageSettingsController_}, didChangeLanguageEvent{didChangeLanguageEvent_}, didPressContinueButtonEvent{didPressContinueButtonEvent_} {}
     // public System.Void add_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x105906C
+    // Offset: 0x10E8568
     void add_didChangeLanguageEvent(System::Action* value);
     // public System.Void remove_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x1059110
+    // Offset: 0x10E860C
     void remove_didChangeLanguageEvent(System::Action* value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x10591B4
+    // Offset: 0x10E86B0
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1059258
+    // Offset: 0x10E8754
     void remove_didPressContinueButtonEvent(System::Action* value);
     // private System.Void HandleLanguageSettingsControllerOndropDownValueDidChange()
-    // Offset: 0x10594C4
+    // Offset: 0x10E89C0
     void HandleLanguageSettingsControllerOndropDownValueDidChange();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x10594E0
+    // Offset: 0x10E89DC
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10592FC
+    // Offset: 0x10E87F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x10593E4
+    // Offset: 0x10E88E0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10594D8
+    // Offset: 0x10E89D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

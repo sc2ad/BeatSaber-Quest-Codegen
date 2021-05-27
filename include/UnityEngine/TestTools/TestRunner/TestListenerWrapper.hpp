@@ -55,20 +55,20 @@ namespace UnityEngine::TestTools::TestRunner {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // public System.Void .ctor(UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent, UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent)
-    // Offset: 0x1379290
+    // Offset: 0x14A3C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestListenerWrapper* New_ctor(UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent, UnityEngine::TestTools::TestRunner::TestFinishedEvent* testFinishedEvent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::TestListenerWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestListenerWrapper*, creationType>(testStartedEvent, testFinishedEvent)));
     }
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1379B70
+    // Offset: 0x14A451C
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1379BD8
+    // Offset: 0x14A4584
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x1379C40
+    // Offset: 0x14A45EC
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
   }; // UnityEngine.TestTools.TestRunner.TestListenerWrapper
   #pragma pack(pop)

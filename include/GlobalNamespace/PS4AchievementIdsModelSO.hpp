@@ -57,21 +57,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
-    // Offset: 0xF15614
+    // Offset: 0x1004F68
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
-    // Offset: 0xF157DC
+    // Offset: 0x1005130
     bool GetTrophyId(::Il2CppString* achievementId, int& trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
-    // Offset: 0xF15850
+    // Offset: 0x10051A4
     bool GetAchievementId(int trophyId, ::Il2CppString*& achievementId);
     // protected override System.Void OnEnable()
-    // Offset: 0xF1561C
+    // Offset: 0x1004F70
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xF158D0
+    // Offset: 0x1005224
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapEventData
     BeatmapEventData(GlobalNamespace::BeatmapEventType type_ = {}, float time_ = {}, int value_ = {}) noexcept : type{type_}, time{time_}, value{value_} {}
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value)
-    // Offset: 0x21A46C0
+    // Offset: 0x23C434C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventData::.ctor");

@@ -55,14 +55,14 @@ namespace System::Security::Authentication {
     static System::Security::Authentication::SslProtocols _get_Tls();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls
     static void _set_Tls(System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0xCB35B4
+    // [MonoTODOAttribute] Offset: 0xD888E4
     // static field const value: static public System.Security.Authentication.SslProtocols Tls11
     static constexpr const int Tls11 = 768;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls11
     static System::Security::Authentication::SslProtocols _get_Tls11();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls11
     static void _set_Tls11(System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0xCB35EC
+    // [MonoTODOAttribute] Offset: 0xD8891C
     // static field const value: static public System.Security.Authentication.SslProtocols Tls12
     static constexpr const int Tls12 = 3072;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls12

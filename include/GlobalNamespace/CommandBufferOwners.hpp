@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CommandBufferOwners
     CommandBufferOwners(System::Collections::Generic::HashSet_1<UnityEngine::Object*>* owners_ = {}, UnityEngine::Rendering::CommandBuffer* commandBuffer_ = {}) noexcept : owners{owners_}, commandBuffer{commandBuffer_} {}
     // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x212CCE0
+    // Offset: 0x2344940
     void AddOwner(UnityEngine::Object* owner);
     // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x212CA18
+    // Offset: 0x2344678
     void RemoveOwner(UnityEngine::Object* owner);
     // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x212CC78
+    // Offset: 0x23448D8
     bool ContainsOwner(UnityEngine::Object* owner);
     // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x212CA8C
+    // Offset: 0x23446EC
     int get_NumberOfOwners();
     // public System.Void .ctor()
-    // Offset: 0x212CD78
+    // Offset: 0x23449D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

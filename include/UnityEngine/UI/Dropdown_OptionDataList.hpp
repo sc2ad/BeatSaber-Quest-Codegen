@@ -39,13 +39,13 @@ namespace UnityEngine::UI {
       return m_Options;
     }
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> get_options()
-    // Offset: 0x17549EC
+    // Offset: 0x18FAF68
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> value)
-    // Offset: 0x17549F4
+    // Offset: 0x18FAF70
     void set_options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x17549FC
+    // Offset: 0x18FAF78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -166,7 +166,7 @@ namespace Org::BouncyCastle::Asn1::BC {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier linkedCertificate
     static void _set_linkedCertificate(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x15678EC
+    // Offset: 0x16E04DC
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.BC.BCObjectIdentifiers
   #pragma pack(pop)

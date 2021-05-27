@@ -156,6 +156,13 @@ namespace UnityEngine::Playables {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetBehaviour", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
+    // static public UnityEngine.Playables.ScriptPlayable`1<T> op_Explicit(UnityEngine.Playables.Playable playable)
+    // Offset: 0xFFFFFFFF
+    explicit ScriptPlayable_1(UnityEngine::Playables::Playable& playable) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::ScriptPlayable_1::op_Explicit");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "op_Explicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
+      *this = ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::ScriptPlayable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable);
+    }
     // public System.Boolean Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
     // Offset: 0xFFFFFFFF
     bool Equals(UnityEngine::Playables::ScriptPlayable_1<T> other) {

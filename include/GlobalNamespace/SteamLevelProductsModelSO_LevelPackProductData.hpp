@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelPackProductData
     LevelPackProductData(uint bundleId_ = {}, ::Il2CppString* levelPackId_ = {}, ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelProductsData_ = {}) noexcept : bundleId{bundleId_}, levelPackId{levelPackId_}, levelProductsData{levelProductsData_} {}
     // public System.UInt32 get_bundleId()
-    // Offset: 0xF9BF20
+    // Offset: 0x117E850
     uint get_bundleId();
     // public System.String get_levelPackId()
-    // Offset: 0xF9BF28
+    // Offset: 0x117E858
     ::Il2CppString* get_levelPackId();
     // public SteamLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0xF9BF30
+    // Offset: 0x117E860
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0xF9BF38
+    // Offset: 0x117E868
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

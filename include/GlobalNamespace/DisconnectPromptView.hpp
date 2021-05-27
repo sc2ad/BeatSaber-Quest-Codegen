@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD46160
+    // [SpaceAttribute] Offset: 0xE26DF4
     // private UnityEngine.GameObject _promptGameObject
     // Size: 0x8
     // Offset: 0x28
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD461B8
+    // [CompilerGeneratedAttribute] Offset: 0xE26E4C
     // private System.Action`1<System.Boolean> didViewFinishEvent
     // Size: 0x8
     // Offset: 0x40
@@ -99,31 +99,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x106D380
+    // Offset: 0x10B74C8
     void add_didViewFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x106D424
+    // Offset: 0x10B756C
     void remove_didViewFinishEvent(System::Action_1<bool>* value);
     // private System.Void OnEnable()
-    // Offset: 0x106D4C8
+    // Offset: 0x10B7610
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x106D5A8
+    // Offset: 0x10B76F0
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x106D5C4
+    // Offset: 0x10B770C
     void Show();
     // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x106D608
+    // Offset: 0x10B7750
     void Hide(System::Action* finishedCallback);
     // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x106D730
+    // Offset: 0x10B7878
     void $OnEnable$b__9_0();
     // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x106D794
+    // Offset: 0x10B78DC
     void $OnEnable$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x106D6C8
+    // Offset: 0x10B7810
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

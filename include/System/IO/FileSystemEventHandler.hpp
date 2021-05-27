@@ -35,20 +35,20 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEventHandler
     FileSystemEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D98E8
+    // Offset: 0x185CC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.IO.FileSystemEventArgs e)
-    // Offset: 0x16D98F8
+    // Offset: 0x185CC64
     void Invoke(::Il2CppObject* sender, System::IO::FileSystemEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.FileSystemEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D9CE0
+    // Offset: 0x185D04C
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::FileSystemEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16D9D10
+    // Offset: 0x185D07C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileSystemEventHandler
   #pragma pack(pop)

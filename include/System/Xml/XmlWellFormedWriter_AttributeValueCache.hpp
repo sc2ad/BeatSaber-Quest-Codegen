@@ -69,52 +69,52 @@ namespace System::Xml {
     // Creating value type constructor for type: AttributeValueCache
     AttributeValueCache(System::Text::StringBuilder* stringValue_ = {}, ::Il2CppString* singleStringValue_ = {}, ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>* items_ = {}, int firstItem_ = {}, int lastItem_ = {}) noexcept : stringValue{stringValue_}, singleStringValue{singleStringValue_}, items{items_}, firstItem{firstItem_}, lastItem{lastItem_} {}
     // System.String get_StringValue()
-    // Offset: 0x217DCB0
+    // Offset: 0x23A74D8
     ::Il2CppString* get_StringValue();
     // System.Void WriteEntityRef(System.String name)
-    // Offset: 0x217DCE0
+    // Offset: 0x23A7508
     void WriteEntityRef(::Il2CppString* name);
     // System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x217E01C
+    // Offset: 0x23A7844
     void WriteCharEntity(::Il2CppChar ch);
     // System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x217E0B8
+    // Offset: 0x23A78E0
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x217E18C
+    // Offset: 0x23A79B4
     void WriteWhitespace(::Il2CppString* ws);
     // System.Void WriteString(System.String text)
-    // Offset: 0x217E1E0
+    // Offset: 0x23A7A08
     void WriteString(::Il2CppString* text);
     // System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x217E254
+    // Offset: 0x23A7A7C
     void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
     // System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x217E350
+    // Offset: 0x23A7B78
     void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
     // System.Void WriteRaw(System.String data)
-    // Offset: 0x217E40C
+    // Offset: 0x23A7C34
     void WriteRaw(::Il2CppString* data);
     // System.Void WriteValue(System.String value)
-    // Offset: 0x217E460
+    // Offset: 0x23A7C88
     void WriteValue(::Il2CppString* value);
     // System.Void Replay(System.Xml.XmlWriter writer)
-    // Offset: 0x217E4B4
+    // Offset: 0x23A7CDC
     void Replay(System::Xml::XmlWriter* writer);
     // System.Void Trim()
-    // Offset: 0x217E7C0
+    // Offset: 0x23A7FE8
     void Trim();
     // System.Void Clear()
-    // Offset: 0x217EC34
+    // Offset: 0x23A845C
     void Clear();
     // private System.Void StartComplexValue()
-    // Offset: 0x217DE5C
+    // Offset: 0x23A7684
     void StartComplexValue();
     // private System.Void AddItem(System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType type, System.Object data)
-    // Offset: 0x217DEA4
+    // Offset: 0x23A76CC
     void AddItem(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // public System.Void .ctor()
-    // Offset: 0x217EC78
+    // Offset: 0x23A84A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

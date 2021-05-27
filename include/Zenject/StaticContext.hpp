@@ -26,13 +26,13 @@ namespace Zenject {
     // Set static field: static private Zenject.DiContainer _container
     static void _set__container(Zenject::DiContainer* value);
     // static public System.Void Clear()
-    // Offset: 0x1539044
+    // Offset: 0x16D0608
     static void Clear();
     // static public System.Boolean get_HasContainer()
-    // Offset: 0x1539094
+    // Offset: 0x16D0658
     static bool get_HasContainer();
     // static public Zenject.DiContainer get_Container()
-    // Offset: 0x1533A98
+    // Offset: 0x16CB024
     static Zenject::DiContainer* get_Container();
   }; // Zenject.StaticContext
   #pragma pack(pop)

@@ -8,14 +8,16 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-// Including type: OVRManager
-#include "GlobalNamespace/OVRManager.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: OVRComposition
   class OVRComposition;
+  // Forward declaring type: OVRMixedRealityCaptureConfiguration
+  class OVRMixedRealityCaptureConfiguration;
+  // Forward declaring type: TrackingOrigin
+  struct OVRManager_TrackingOrigin;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -23,12 +25,6 @@ namespace UnityEngine {
   class GameObject;
   // Forward declaring type: Camera
   class Camera;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
 }
 // Completed forward declares
 // Type namespace: 
@@ -68,17 +64,17 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRComposition* _get_currentComposition();
     // Set static field: static public OVRComposition currentComposition
     static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
-    // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRManager/CompositionMethod compositionMethod, System.Boolean useDynamicLighting, OVRManager/CameraDevice cameraDevice, OVRManager/DepthQuality depthQuality, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x13CB228
-    static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRManager::CompositionMethod compositionMethod, bool useDynamicLighting, GlobalNamespace::OVRManager::CameraDevice cameraDevice, GlobalNamespace::OVRManager::DepthQuality depthQuality, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
+    // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
+    // Offset: 0x12D0C60
+    static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void Cleanup()
-    // Offset: 0x13CB96C
+    // Offset: 0x12D14E8
     static void Cleanup();
     // static public System.Void RecenterPose()
-    // Offset: 0x13CBB68
+    // Offset: 0x12D16E4
     static void RecenterPose();
     // static private System.Void .cctor()
-    // Offset: 0x13CBC14
+    // Offset: 0x12D1790
     static void _cctor();
   }; // OVRMixedReality
   #pragma pack(pop)

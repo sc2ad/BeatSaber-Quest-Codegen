@@ -33,19 +33,19 @@ namespace Mono::Math::Prime::Generator {
     // Creating value type constructor for type: PrimeGeneratorBase
     PrimeGeneratorBase() noexcept {}
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
-    // Offset: 0x1B95844
+    // Offset: 0x1D53254
     Mono::Math::Prime::ConfidenceFactor get_Confidence();
     // public Mono.Math.Prime.PrimalityTest get_PrimalityTest()
-    // Offset: 0x1B9584C
+    // Offset: 0x1D5325C
     Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
     // public System.Int32 get_TrialDivisionBounds()
-    // Offset: 0x1B958C0
+    // Offset: 0x1D532D0
     int get_TrialDivisionBounds();
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
     // Offset: 0xFFFFFFFF
     Mono::Math::BigInteger* GenerateNewPrime(int bits);
     // protected System.Void .ctor()
-    // Offset: 0x1B958C8
+    // Offset: 0x1D532D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

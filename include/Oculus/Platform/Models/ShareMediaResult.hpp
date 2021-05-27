@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
       return Status;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13ADA20
+    // Offset: 0x14BA1B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShareMediaResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ShareMediaResult::.ctor");

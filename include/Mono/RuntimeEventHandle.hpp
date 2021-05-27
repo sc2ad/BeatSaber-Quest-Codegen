@@ -38,19 +38,19 @@ namespace Mono {
       return value;
     }
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xE0DE7C
+    // Offset: 0xF02BF8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimeEventHandle(System::IntPtr v)
     // public System.IntPtr get_Value()
-    // Offset: 0xE0DE84
+    // Offset: 0xF02C00
     System::IntPtr get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xE0DE8C
+    // Offset: 0xF02C08
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xE0DE94
+    // Offset: 0xF02C10
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

@@ -26,17 +26,17 @@ namespace GlobalNamespace {
     public:
     // private GameNoteController _gameNoteController
     // Size: 0x8
-    // Offset: 0x60
+    // Offset: 0x50
     GlobalNamespace::GameNoteController* gameNoteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameNoteController*) == 0x8);
     // Creating value type constructor for type: DisappearingArrowController
     DisappearingArrowController(GlobalNamespace::GameNoteController* gameNoteController_ = {}) noexcept : gameNoteController{gameNoteController_} {}
     // protected GameNoteController get_gameNoteController()
-    // Offset: 0x106D328
+    // Offset: 0x10B7450
     GlobalNamespace::GameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x106D330
+    // Offset: 0x10B7458
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

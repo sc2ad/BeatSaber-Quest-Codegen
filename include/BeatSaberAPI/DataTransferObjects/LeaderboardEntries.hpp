@@ -36,7 +36,7 @@ namespace BeatSaberAPI::DataTransferObjects {
       return entries;
     }
     // public System.Void .ctor()
-    // Offset: 0x10A748C
+    // Offset: 0x11A2658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

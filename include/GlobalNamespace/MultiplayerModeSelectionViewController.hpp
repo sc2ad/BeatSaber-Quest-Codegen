@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD4547C
+    // [SpaceAttribute] Offset: 0xE260E0
     // private TMPro.TextMeshProUGUI _maintenanceMessageText
     // Size: 0x8
     // Offset: 0x90
@@ -132,14 +132,14 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* customServerEndPointText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xD454C4
+    // [InjectAttribute] Offset: 0xE26128
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::INetworkConfig* networkConfig;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkConfig*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD454D4
+    // [CompilerGeneratedAttribute] Offset: 0xE26138
     // private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -149,36 +149,36 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerModeSelectionViewController
     MultiplayerModeSelectionViewController(UnityEngine::UI::Button* quickPlayButton_ = {}, UnityEngine::UI::Button* gameBrowserButton_ = {}, UnityEngine::UI::Button* joinWithCodeButton_ = {}, UnityEngine::UI::Button* createServerButton_ = {}, TMPro::TextMeshProUGUI* maintenanceMessageText_ = {}, TMPro::TextMeshProUGUI* customServerEndPointText_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent_ = {}) noexcept : quickPlayButton{quickPlayButton_}, gameBrowserButton{gameBrowserButton_}, joinWithCodeButton{joinWithCodeButton_}, createServerButton{createServerButton_}, maintenanceMessageText{maintenanceMessageText_}, customServerEndPointText{customServerEndPointText_}, networkConfig{networkConfig_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1002ADC
+    // Offset: 0x23DAD5C
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1002F94
+    // Offset: 0x23DAE00
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void SetData(MasterServerAvailabilityData masterServerAvailabilityData)
-    // Offset: 0x1005BEC
+    // Offset: 0x23DAB0C
     void SetData(GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData);
     // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x10060D4
+    // Offset: 0x23DB13C
     void HandleMenuButton(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x1006154
+    // Offset: 0x23DB1BC
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x100615C
+    // Offset: 0x23DB1C4
     void $DidActivate$b__11_1();
     // private System.Void <DidActivate>b__11_2()
-    // Offset: 0x1006164
+    // Offset: 0x23DB1CC
     void $DidActivate$b__11_2();
     // private System.Void <DidActivate>b__11_3()
-    // Offset: 0x100616C
+    // Offset: 0x23DB1D4
     void $DidActivate$b__11_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1005E3C
+    // Offset: 0x23DAEA4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x100614C
+    // Offset: 0x23DB1B4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

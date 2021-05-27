@@ -207,13 +207,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PerfMetrics
     PerfMetrics(int frameCount_ = {}, float frameTime_ = {}, float deltaFrameTime_ = {}, bool appCpuTime_IsValid_ = {}, float appCpuTime_ = {}, bool appGpuTime_IsValid_ = {}, float appGpuTime_ = {}, bool compositorCpuTime_IsValid_ = {}, float compositorCpuTime_ = {}, bool compositorGpuTime_IsValid_ = {}, float compositorGpuTime_ = {}, bool compositorDroppedFrameCount_IsValid_ = {}, int compositorDroppedFrameCount_ = {}, bool systemGpuUtilPercentage_IsValid_ = {}, float systemGpuUtilPercentage_ = {}, bool systemCpuUtilAveragePercentage_IsValid_ = {}, float systemCpuUtilAveragePercentage_ = {}, bool systemCpuUtilWorstPercentage_IsValid_ = {}, float systemCpuUtilWorstPercentage_ = {}, bool deviceCpuClockFrequencyInMHz_IsValid_ = {}, float deviceCpuClockFrequencyInMHz_ = {}, bool deviceGpuClockFrequencyInMHz_IsValid_ = {}, float deviceGpuClockFrequencyInMHz_ = {}, bool deviceCpuClockLevel_IsValid_ = {}, int deviceCpuClockLevel_ = {}, bool deviceGpuClockLevel_IsValid_ = {}, int deviceGpuClockLevel_ = {}) noexcept : frameCount{frameCount_}, frameTime{frameTime_}, deltaFrameTime{deltaFrameTime_}, appCpuTime_IsValid{appCpuTime_IsValid_}, appCpuTime{appCpuTime_}, appGpuTime_IsValid{appGpuTime_IsValid_}, appGpuTime{appGpuTime_}, compositorCpuTime_IsValid{compositorCpuTime_IsValid_}, compositorCpuTime{compositorCpuTime_}, compositorGpuTime_IsValid{compositorGpuTime_IsValid_}, compositorGpuTime{compositorGpuTime_}, compositorDroppedFrameCount_IsValid{compositorDroppedFrameCount_IsValid_}, compositorDroppedFrameCount{compositorDroppedFrameCount_}, systemGpuUtilPercentage_IsValid{systemGpuUtilPercentage_IsValid_}, systemGpuUtilPercentage{systemGpuUtilPercentage_}, systemCpuUtilAveragePercentage_IsValid{systemCpuUtilAveragePercentage_IsValid_}, systemCpuUtilAveragePercentage{systemCpuUtilAveragePercentage_}, systemCpuUtilWorstPercentage_IsValid{systemCpuUtilWorstPercentage_IsValid_}, systemCpuUtilWorstPercentage{systemCpuUtilWorstPercentage_}, deviceCpuClockFrequencyInMHz_IsValid{deviceCpuClockFrequencyInMHz_IsValid_}, deviceCpuClockFrequencyInMHz{deviceCpuClockFrequencyInMHz_}, deviceGpuClockFrequencyInMHz_IsValid{deviceGpuClockFrequencyInMHz_IsValid_}, deviceGpuClockFrequencyInMHz{deviceGpuClockFrequencyInMHz_}, deviceCpuClockLevel_IsValid{deviceCpuClockLevel_IsValid_}, deviceCpuClockLevel{deviceCpuClockLevel_}, deviceGpuClockLevel_IsValid{deviceGpuClockLevel_IsValid_}, deviceGpuClockLevel{deviceGpuClockLevel_} {}
     // public System.String ToJSON()
-    // Offset: 0x1E76930
+    // Offset: 0x1EB9BFC
     ::Il2CppString* ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x1E76E1C
+    // Offset: 0x1EBA0E8
     bool LoadFromJSON(::Il2CppString* json);
     // public System.Void .ctor()
-    // Offset: 0x1E76DA0
+    // Offset: 0x1EBA06C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

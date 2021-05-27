@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelJoinButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD453FC
+    // [CompilerGeneratedAttribute] Offset: 0xE26060
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -82,33 +82,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: JoinQuickPlayViewController
     JoinQuickPlayViewController(GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown_ = {}, GlobalNamespace::QuickPlaySongPacksDropdown* songPacksDropdown_ = {}, UnityEngine::UI::Button* joinButton_ = {}, UnityEngine::UI::Button* cancelJoinButton_ = {}, System::Action_1<bool>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : beatmapDifficultyDropdown{beatmapDifficultyDropdown_}, songPacksDropdown{songPacksDropdown_}, joinButton{joinButton_}, cancelJoinButton{cancelJoinButton_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11191C0
+    // Offset: 0x106AFC8
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1119264
+    // Offset: 0x106B06C
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x1119308
+    // Offset: 0x106B110
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MasterServerQuickPlaySetupData masterServerQuickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x1119310
+    // Offset: 0x106B118
     void Setup(GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0x11194AC
+    // Offset: 0x106B2B4
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x1119564
+    // Offset: 0x106B36C
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x111956C
+    // Offset: 0x106B374
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1119390
+    // Offset: 0x106B198
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x111955C
+    // Offset: 0x106B364
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

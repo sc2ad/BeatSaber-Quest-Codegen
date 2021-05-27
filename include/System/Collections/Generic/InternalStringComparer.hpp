@@ -20,16 +20,16 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: InternalStringComparer
     InternalStringComparer() noexcept {}
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x164F898
+    // Offset: 0x176DD00
     int GetHashCode(::Il2CppString* obj);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x164F8B8
+    // Offset: 0x176DD20
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x164F8E8
+    // Offset: 0x176DD50
     int IndexOf(::Array<::Il2CppString*>* array, ::Il2CppString* value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x164F950
+    // Offset: 0x176DDB8
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()

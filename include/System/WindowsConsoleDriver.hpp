@@ -58,22 +58,22 @@ namespace System {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
     }
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x20F5648
+    // Offset: 0x231A058
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x20F58B0
+    // Offset: 0x231A2C0
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x20F5520
+    // Offset: 0x2319F30
     static System::IntPtr GetStdHandle(System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x20F55A8
+    // Offset: 0x2319FB8
     static bool GetConsoleScreenBufferInfo(System::IntPtr handle, System::ConsoleScreenBufferInfo& info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x20F57C0
+    // Offset: 0x231A1D0
     static bool ReadConsoleInput(System::IntPtr handle, System::InputRecord& record, int length, int& nread);
     // public System.Void .ctor()
-    // Offset: 0x20F54C0
+    // Offset: 0x2319ED0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

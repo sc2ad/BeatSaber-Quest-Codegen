@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     SteamVR_Render(bool pauseGameWhenDashboardIsVisible_ = {}, bool lockPhysicsUpdateRateToRenderFrequency_ = {}, GlobalNamespace::SteamVR_ExternalCamera* externalCamera_ = {}, ::Il2CppString* externalCameraConfigPath_ = {}, Valve::VR::ETrackingUniverseOrigin trackingSpace_ = {}, ::Array<GlobalNamespace::SteamVR_Camera*>* cameras_ = {}, ::Array<Valve::VR::TrackedDevicePose_t>* poses_ = {}, ::Array<Valve::VR::TrackedDevicePose_t>* gamePoses_ = {}, UnityEngine::WaitForEndOfFrame* waitForEndOfFrame_ = {}, float sceneResolutionScale_ = {}, float timeScale_ = {}) noexcept : pauseGameWhenDashboardIsVisible{pauseGameWhenDashboardIsVisible_}, lockPhysicsUpdateRateToRenderFrequency{lockPhysicsUpdateRateToRenderFrequency_}, externalCamera{externalCamera_}, externalCameraConfigPath{externalCameraConfigPath_}, trackingSpace{trackingSpace_}, cameras{cameras_}, poses{poses_}, gamePoses{gamePoses_}, waitForEndOfFrame{waitForEndOfFrame_}, sceneResolutionScale{sceneResolutionScale_}, timeScale{timeScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [CompilerGeneratedAttribute] Offset: 0xCF9308
+    // [CompilerGeneratedAttribute] Offset: 0xDD4C60
     // Get static field: static private Valve.VR.EVREye <eye>k__BackingField
     static Valve::VR::EVREye _get_$eye$k__BackingField();
     // Set static field: static private Valve.VR.EVREye <eye>k__BackingField
@@ -144,82 +144,82 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean _pauseRendering
     static void _set__pauseRendering(bool value);
     // static public Valve.VR.EVREye get_eye()
-    // Offset: 0x12F759C
+    // Offset: 0x13BE0A8
     static Valve::VR::EVREye get_eye();
     // static private System.Void set_eye(Valve.VR.EVREye value)
-    // Offset: 0x12F75EC
+    // Offset: 0x13BE0F8
     static void set_eye(Valve::VR::EVREye value);
     // static public SteamVR_Render get_instance()
-    // Offset: 0x12EA768
+    // Offset: 0x13B1274
     static GlobalNamespace::SteamVR_Render* get_instance();
     // private System.Void OnDestroy()
-    // Offset: 0x12F7640
+    // Offset: 0x13BE14C
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x12F7690
+    // Offset: 0x13BE19C
     void OnApplicationQuit();
     // static public System.Void Add(SteamVR_Camera vrcam)
-    // Offset: 0x12E9124
+    // Offset: 0x13AFC30
     static void Add(GlobalNamespace::SteamVR_Camera* vrcam);
     // static public System.Void Remove(SteamVR_Camera vrcam)
-    // Offset: 0x12E85F4
+    // Offset: 0x13AF100
     static void Remove(GlobalNamespace::SteamVR_Camera* vrcam);
     // static public SteamVR_Camera Top()
-    // Offset: 0x12F225C
+    // Offset: 0x13B8D68
     static GlobalNamespace::SteamVR_Camera* Top();
     // private System.Void AddInternal(SteamVR_Camera vrcam)
-    // Offset: 0x12F7704
+    // Offset: 0x13BE210
     void AddInternal(GlobalNamespace::SteamVR_Camera* vrcam);
     // private System.Void RemoveInternal(SteamVR_Camera vrcam)
-    // Offset: 0x12F7908
+    // Offset: 0x13BE414
     void RemoveInternal(GlobalNamespace::SteamVR_Camera* vrcam);
     // private SteamVR_Camera TopInternal()
-    // Offset: 0x12F7ABC
+    // Offset: 0x13BE5C8
     GlobalNamespace::SteamVR_Camera* TopInternal();
     // static public System.Boolean get_pauseRendering()
-    // Offset: 0x12F7B08
+    // Offset: 0x13BE614
     static bool get_pauseRendering();
     // static public System.Void set_pauseRendering(System.Boolean value)
-    // Offset: 0x12F3484
+    // Offset: 0x13B9F90
     static void set_pauseRendering(bool value);
     // private System.Collections.IEnumerator RenderLoop()
-    // Offset: 0x12F7B58
+    // Offset: 0x13BE664
     System::Collections::IEnumerator* RenderLoop();
     // private System.Void RenderExternalCamera()
-    // Offset: 0x12F7BF4
+    // Offset: 0x13BE700
     void RenderExternalCamera();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0x12F7D30
+    // Offset: 0x13BE83C
     void OnInputFocus(bool hasFocus);
     // private System.Void OnQuit(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x12F7DA0
+    // Offset: 0x13BE8AC
     void OnQuit(Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
-    // Offset: 0x12F7DA8
+    // Offset: 0x13BE8B4
     ::Il2CppString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x12F7EF4
+    // Offset: 0x13BEA00
     void OnRequestScreenshot(Valve::VR::VREvent_t vrEvent);
     // private System.Void OnEnable()
-    // Offset: 0x12F80D4
+    // Offset: 0x13BEBE0
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x12F8350
+    // Offset: 0x13BEE5C
     void OnDisable();
     // private System.Void Awake()
-    // Offset: 0x12F8508
+    // Offset: 0x13BF014
     void Awake();
     // public System.Void UpdatePoses()
-    // Offset: 0x12F866C
+    // Offset: 0x13BF178
     void UpdatePoses();
     // private System.Void OnBeforeRender()
-    // Offset: 0x12F874C
+    // Offset: 0x13BF258
     void OnBeforeRender();
     // private System.Void Update()
-    // Offset: 0x12F8750
+    // Offset: 0x13BF25C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12F8B54
+    // Offset: 0x13BF660
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

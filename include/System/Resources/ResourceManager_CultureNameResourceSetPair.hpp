@@ -21,7 +21,7 @@ namespace System::Resources {
     // Creating value type constructor for type: CultureNameResourceSetPair
     CultureNameResourceSetPair() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1319138
+    // Offset: 0x13FA53C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* coverImage;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD36090
+    // [SpaceAttribute] Offset: 0xE16874
     // private BeatmapLevelCollectionSO _beatmapLevelCollection
     // Size: 0x8
     // Offset: 0x38
@@ -74,25 +74,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_packID()
-    // Offset: 0x10B88F4
+    // Offset: 0x1076630
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x10B88FC
+    // Offset: 0x1076638
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x10B8904
+    // Offset: 0x1076640
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x10B890C
+    // Offset: 0x1076648
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x10B8914
+    // Offset: 0x1076650
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x10B891C
+    // Offset: 0x1076658
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x10B8924
+    // Offset: 0x1076660
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

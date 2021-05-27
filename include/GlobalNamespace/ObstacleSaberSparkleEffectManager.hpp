@@ -68,42 +68,42 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD396B4
+    // [InjectAttribute] Offset: 0xE19FA0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD396C4
+    // [InjectAttribute] Offset: 0xE19FB0
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD396D4
+    // [InjectAttribute] Offset: 0xE19FC0
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD396E4
+    // [InjectAttribute] Offset: 0xE19FD0
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD396F4
+    // [CompilerGeneratedAttribute] Offset: 0xE19FE0
     // private System.Action`1<SaberType> sparkleEffectDidStartEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_1<GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::SaberType>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD39704
+    // [CompilerGeneratedAttribute] Offset: 0xE19FF0
     // private System.Action`1<SaberType> sparkleEffectDidEndEvent
     // Size: 0x8
     // Offset: 0x50
@@ -151,37 +151,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x10BC7A8
+    // Offset: 0x11C326C
     void add_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x10BCA0C
+    // Offset: 0x11C34D0
     void remove_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void add_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x10BC84C
+    // Offset: 0x11C3310
     void add_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x10BCAB0
+    // Offset: 0x11C3574
     void remove_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // protected System.Void Start()
-    // Offset: 0x10BD140
+    // Offset: 0x11C3C04
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x10BD3CC
+    // Offset: 0x11C3E90
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x10BD488
+    // Offset: 0x11C3F4C
     void Update();
     // private UnityEngine.Quaternion GetEffectRotation(UnityEngine.Vector3 pos, UnityEngine.Transform transform, UnityEngine.Bounds bounds)
-    // Offset: 0x10BDD40
+    // Offset: 0x11C4804
     UnityEngine::Quaternion GetEffectRotation(UnityEngine::Vector3 pos, UnityEngine::Transform* transform, UnityEngine::Bounds bounds);
     // public UnityEngine.Vector3 BurnMarkPosForSaberType(SaberType saberType)
-    // Offset: 0x10BCC98
+    // Offset: 0x11C375C
     UnityEngine::Vector3 BurnMarkPosForSaberType(GlobalNamespace::SaberType saberType);
     // private System.Boolean GetBurnMarkPos(UnityEngine.Bounds bounds, UnityEngine.Transform transform, UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x10BDAE8
+    // Offset: 0x11C45AC
     bool GetBurnMarkPos(UnityEngine::Bounds bounds, UnityEngine::Transform* transform, UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // public System.Void .ctor()
-    // Offset: 0x10BDEF8
+    // Offset: 0x11C49BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

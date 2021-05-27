@@ -28,16 +28,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set static field: static public System.Double EPSILON
     static void _set_EPSILON(double value);
     // static public System.Boolean SmartIncircle(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pd)
-    // Offset: 0x215A594
+    // Offset: 0x23807B8
     static bool SmartIncircle(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
     // static public System.Boolean InScanArea(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pd)
-    // Offset: 0x21599CC
+    // Offset: 0x237FBF0
     static bool InScanArea(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
     // static public UnityEngine.ProBuilder.Poly2Tri.Orientation Orient2d(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc)
-    // Offset: 0x2157D70
+    // Offset: 0x237DF94
     static UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
     // static private System.Void .cctor()
-    // Offset: 0x215CB54
+    // Offset: 0x2382D78
     static void _cctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationUtil
   #pragma pack(pop)

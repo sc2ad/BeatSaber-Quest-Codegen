@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* dropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43474
+    // [CompilerGeneratedAttribute] Offset: 0xE24078
     // private System.Action dropDownValueDidChangeEvent
     // Size: 0x8
     // Offset: 0x20
@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x106F6F0
+    // Offset: 0x10B9948
     void add_dropDownValueDidChangeEvent(System::Action* value);
     // public System.Void remove_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x106F794
+    // Offset: 0x10B99EC
     void remove_dropDownValueDidChangeEvent(System::Action* value);
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
@@ -77,22 +77,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x106F838
+    // Offset: 0x10B9A90
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x106F9E8
+    // Offset: 0x10B9C40
     void OnDisable();
     // private System.Void HandleDropdownValueDidChange(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x106FAC0
+    // Offset: 0x10B9D18
     void HandleDropdownValueDidChange(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI()
-    // Offset: 0x106F900
+    // Offset: 0x10B9B58
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x106FB08
+    // Offset: 0x10B9D60
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x106FB68
+    // Offset: 0x10B9DC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

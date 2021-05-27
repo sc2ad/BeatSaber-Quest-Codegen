@@ -82,17 +82,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::PublicServerInfo>*>(this);
     }
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, System.Boolean hasPassword, GameplayServerConfiguration configuration)
-    // Offset: 0xE090DC
+    // Offset: 0xF21690
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* serverName, ::Il2CppString* code, int currentPlayerCount, int maxPlayerCount, bool hasPassword, GlobalNamespace::GameplayServerConfiguration configuration)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE09110
+    // Offset: 0xF216C4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public PublicServerInfo CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE09118
+    // Offset: 0xF216CC
     GlobalNamespace::PublicServerInfo CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15E8E54
+    // Offset: 0x2363488
     static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
   #pragma pack(pop)

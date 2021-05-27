@@ -44,22 +44,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: MemberPrimitiveUnTyped
     MemberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation_ = {}, ::Il2CppObject* value_ = {}) noexcept : typeInformation{typeInformation_}, value{value_} {}
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, System.Object value)
-    // Offset: 0x146E744
+    // Offset: 0x15F33F4
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::Il2CppObject* value);
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation)
-    // Offset: 0x146E750
+    // Offset: 0x15F3400
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x146E758
+    // Offset: 0x15F3408
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x146E780
+    // Offset: 0x15F3430
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x146E7B8
+    // Offset: 0x15F3468
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x146E73C
+    // Offset: 0x15F33EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

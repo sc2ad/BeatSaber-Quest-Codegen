@@ -50,15 +50,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UnityLightWithId
     UnityLightWithId(UnityEngine::Light* light_ = {}, float intensity_ = {}, float minAlpha_ = {}) noexcept : light{light_}, intensity{intensity_}, minAlpha{minAlpha_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0x1D1A128
+    // Offset: 0x1D792D0
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1D1A144
+    // Offset: 0x1D792EC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1D1A214
+    // Offset: 0x1D793BC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

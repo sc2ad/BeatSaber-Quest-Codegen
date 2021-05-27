@@ -137,34 +137,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x16769DC
+    // Offset: 0x1D976D4
     void set_tickerColor(UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x1676A00
+    // Offset: 0x1D976F8
     void set_movingTickerColor(UnityEngine::Color value);
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x1676A24
+    // Offset: 0x1D9771C
     void set_zeroOffset(float value);
     // public System.Single get_zeroOffset()
-    // Offset: 0x1676A34
+    // Offset: 0x1D9772C
     float get_zeroOffset();
     // protected System.Void Awake()
-    // Offset: 0x1676A3C
+    // Offset: 0x1D97734
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1676B4C
+    // Offset: 0x1D97844
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1676BA0
+    // Offset: 0x1D97898
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x1676BF4
+    // Offset: 0x1D978EC
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x1676DB8
+    // Offset: 0x1D97AB0
     void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0x1676E9C
+    // Offset: 0x1D97B94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

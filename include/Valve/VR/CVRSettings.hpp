@@ -45,47 +45,47 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1528D4C
+    // Offset: 0x16BF240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSettings* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSettings*, creationType>(pInterface)));
     }
     // public System.String GetSettingsErrorNameFromEnum(Valve.VR.EVRSettingsError eError)
-    // Offset: 0x1528E54
+    // Offset: 0x16BF348
     ::Il2CppString* GetSettingsErrorNameFromEnum(Valve::VR::EVRSettingsError eError);
     // public System.Boolean Sync(System.Boolean bForce, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528EE8
+    // Offset: 0x16BF3DC
     bool Sync(bool bForce, Valve::VR::EVRSettingsError& peError);
     // public System.Void SetBool(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528F08
+    // Offset: 0x16BF3FC
     void SetBool(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, bool bValue, Valve::VR::EVRSettingsError& peError);
     // public System.Void SetInt32(System.String pchSection, System.String pchSettingsKey, System.Int32 nValue, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528F28
+    // Offset: 0x16BF41C
     void SetInt32(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, int nValue, Valve::VR::EVRSettingsError& peError);
     // public System.Void SetFloat(System.String pchSection, System.String pchSettingsKey, System.Single flValue, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528F44
+    // Offset: 0x16BF438
     void SetFloat(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, float flValue, Valve::VR::EVRSettingsError& peError);
     // public System.Void SetString(System.String pchSection, System.String pchSettingsKey, System.String pchValue, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528F60
+    // Offset: 0x16BF454
     void SetString(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, ::Il2CppString* pchValue, Valve::VR::EVRSettingsError& peError);
     // public System.Boolean GetBool(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528F7C
+    // Offset: 0x16BF470
     bool GetBool(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
     // public System.Int32 GetInt32(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528F98
+    // Offset: 0x16BF48C
     int GetInt32(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
     // public System.Single GetFloat(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528FB4
+    // Offset: 0x16BF4A8
     float GetFloat(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
     // public System.Void GetString(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528FD0
+    // Offset: 0x16BF4C4
     void GetString(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, Valve::VR::EVRSettingsError& peError);
     // public System.Void RemoveSection(System.String pchSection, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1528FEC
+    // Offset: 0x16BF4E0
     void RemoveSection(::Il2CppString* pchSection, Valve::VR::EVRSettingsError& peError);
     // public System.Void RemoveKeyInSection(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1529008
+    // Offset: 0x16BF4FC
     void RemoveKeyInSection(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
   }; // Valve.VR.CVRSettings
   #pragma pack(pop)

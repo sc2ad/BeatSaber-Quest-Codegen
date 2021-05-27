@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PreallocationData
     PreallocationData(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, int preallocateCount_ = {}) noexcept : lightType{lightType_}, preallocateCount{preallocateCount_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D0F66C
+    // Offset: 0x1D6DB4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

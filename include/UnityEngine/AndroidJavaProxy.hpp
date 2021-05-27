@@ -52,45 +52,45 @@ namespace UnityEngine {
     // Set static field: static private readonly System.IntPtr s_HashCodeMethodID
     static void _set_s_HashCodeMethodID(System::IntPtr value);
     // public System.Void .ctor(System.String javaInterface)
-    // Offset: 0x21486E8
+    // Offset: 0x235FA5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaProxy* New_ctor(::Il2CppString* javaInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaProxy*, creationType>(javaInterface)));
     }
     // public System.Void .ctor(UnityEngine.AndroidJavaClass javaInterface)
-    // Offset: 0x2148758
+    // Offset: 0x235FACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaProxy* New_ctor(UnityEngine::AndroidJavaClass* javaInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaProxy*, creationType>(javaInterface)));
     }
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, System.Object[] args)
-    // Offset: 0x2148824
+    // Offset: 0x235FB98
     UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, UnityEngine.AndroidJavaObject[] javaArgs)
-    // Offset: 0x2149970
+    // Offset: 0x2360CE4
     UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::Array<UnityEngine::AndroidJavaObject*>* javaArgs);
     // public System.Boolean equals(UnityEngine.AndroidJavaObject obj)
-    // Offset: 0x214A12C
+    // Offset: 0x23614A0
     bool equals(UnityEngine::AndroidJavaObject* obj);
     // public System.Int32 hashCode()
-    // Offset: 0x214A1B8
+    // Offset: 0x236152C
     int hashCode();
     // public System.String toString()
-    // Offset: 0x214A274
+    // Offset: 0x23615E8
     ::Il2CppString* toString();
     // UnityEngine.AndroidJavaObject GetProxyObject()
-    // Offset: 0x214A2D4
+    // Offset: 0x2361648
     UnityEngine::AndroidJavaObject* GetProxyObject();
     // System.IntPtr GetRawProxy()
-    // Offset: 0x2149734
+    // Offset: 0x2360AA8
     System::IntPtr GetRawProxy();
     // static private System.Void .cctor()
-    // Offset: 0x214A348
+    // Offset: 0x23616BC
     static void _cctor();
     // protected override System.Void Finalize()
-    // Offset: 0x21487B8
+    // Offset: 0x235FB2C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -33,26 +33,26 @@ namespace Mono::Math {
     // Creating value type constructor for type: ModulusRing
     ModulusRing(Mono::Math::BigInteger* mod_ = {}, Mono::Math::BigInteger* constant_ = {}) noexcept : mod{mod_}, constant{constant_} {}
     // public System.Void .ctor(Mono.Math.BigInteger modulus)
-    // Offset: 0x1B94F74
+    // Offset: 0x1D52984
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger::ModulusRing* New_ctor(Mono::Math::BigInteger* modulus) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::ModulusRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger::ModulusRing*, creationType>(modulus)));
     }
     // public System.Void BarrettReduction(Mono.Math.BigInteger x)
-    // Offset: 0x1B95270
+    // Offset: 0x1D52C80
     void BarrettReduction(Mono::Math::BigInteger* x);
     // public Mono.Math.BigInteger Multiply(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
-    // Offset: 0x1B954E0
+    // Offset: 0x1D52EF0
     Mono::Math::BigInteger* Multiply(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Difference(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
-    // Offset: 0x1B95060
+    // Offset: 0x1D52A70
     Mono::Math::BigInteger* Difference(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Pow(Mono.Math.BigInteger a, Mono.Math.BigInteger k)
-    // Offset: 0x1B956B0
+    // Offset: 0x1D530C0
     Mono::Math::BigInteger* Pow(Mono::Math::BigInteger* a, Mono::Math::BigInteger* k);
     // public Mono.Math.BigInteger Pow(System.UInt32 b, Mono.Math.BigInteger exp)
-    // Offset: 0x1B957CC
+    // Offset: 0x1D531DC
     Mono::Math::BigInteger* Pow(uint b, Mono::Math::BigInteger* exp);
   }; // Mono.Math.BigInteger/ModulusRing
   #pragma pack(pop)

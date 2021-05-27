@@ -65,16 +65,16 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0xE2513C
+    // Offset: 0xF18FDC
     void Init(::Il2CppString* argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/ParseFailureKind failure)
-    // Offset: 0xE2514C
+    // Offset: 0xF18FEC
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/ParseFailureKind failure, System.String argument)
-    // Offset: 0xE25154
+    // Offset: 0xF18FF4
     void SetFailure(System::Version::ParseFailureKind failure, ::Il2CppString* argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0xE2515C
+    // Offset: 0xF18FFC
     System::Exception* GetVersionParseException();
   }; // System.Version/VersionResult
   #pragma pack(pop)

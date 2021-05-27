@@ -71,17 +71,17 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String k_VersionDatePattern
     static void _set_k_VersionDatePattern(::Il2CppString* value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
-    // Offset: 0x1DC2F88
+    // Offset: 0x1F470B8
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
-    // Offset: 0x1DC2FF8
+    // Offset: 0x1F47128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::Il2CppString* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
-    // Offset: 0x1DC326C
+    // Offset: 0x1F4739C
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)

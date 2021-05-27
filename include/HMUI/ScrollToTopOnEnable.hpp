@@ -36,10 +36,10 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x121A8B4
+    // Offset: 0x129AF68
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x121AA0C
+    // Offset: 0x129B0C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

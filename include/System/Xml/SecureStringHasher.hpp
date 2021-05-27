@@ -46,19 +46,19 @@ namespace System::Xml {
     // Set static field: static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate hashCodeDelegate
     static void _set_hashCodeDelegate(System::Xml::SecureStringHasher::HashCodeOfStringDelegate* value);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x17A8980
+    // Offset: 0x1919F4C
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x17A8998
+    // Offset: 0x1919F64
     int GetHashCode(::Il2CppString* key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x17A8F98
+    // Offset: 0x191A564
     static int GetHashCodeOfString(::Il2CppString* key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x17A8A30
+    // Offset: 0x1919FFC
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x17A8950
+    // Offset: 0x1919F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

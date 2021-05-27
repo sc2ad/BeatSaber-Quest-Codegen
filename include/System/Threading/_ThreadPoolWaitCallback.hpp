@@ -15,7 +15,7 @@ namespace System::Threading {
     // Creating value type constructor for type: _ThreadPoolWaitCallback
     _ThreadPoolWaitCallback() noexcept {}
     // static System.Boolean PerformWaitCallback()
-    // Offset: 0x16E96A4
+    // Offset: 0x187F7A0
     static bool PerformWaitCallback();
   }; // System.Threading._ThreadPoolWaitCallback
   #pragma pack(pop)

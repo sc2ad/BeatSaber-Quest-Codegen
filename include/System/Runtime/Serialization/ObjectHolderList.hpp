@@ -40,29 +40,29 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: ObjectHolderList
     ObjectHolderList(::Array<System::Runtime::Serialization::ObjectHolder*>* m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x15038C4
+    // Offset: 0x167DB8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.ObjectHolder value)
-    // Offset: 0x1503938
+    // Offset: 0x167DC00
     void Add(System::Runtime::Serialization::ObjectHolder* value);
     // System.Runtime.Serialization.ObjectHolderListEnumerator GetFixupEnumerator()
-    // Offset: 0x1503A7C
+    // Offset: 0x167DD44
     System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
     // private System.Void EnlargeArray()
-    // Offset: 0x15039EC
+    // Offset: 0x167DCB4
     void EnlargeArray();
     // System.Int32 get_Version()
-    // Offset: 0x1503B34
+    // Offset: 0x167DDFC
     int get_Version();
     // System.Int32 get_Count()
-    // Offset: 0x1503B3C
+    // Offset: 0x167DE04
     int get_Count();
     // System.Void .ctor()
-    // Offset: 0x15038BC
+    // Offset: 0x167DB84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

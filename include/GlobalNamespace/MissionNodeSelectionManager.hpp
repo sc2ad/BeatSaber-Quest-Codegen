@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodesManager* missionNodesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodesManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD42C50
+    // [CompilerGeneratedAttribute] Offset: 0xE23854
     // private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
     // Size: 0x8
     // Offset: 0x20
@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xF4738C
+    // Offset: 0x1053C10
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xF47430
+    // Offset: 0x1053CB4
     void remove_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0xF474D4
+    // Offset: 0x1053D58
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0xF4758C
+    // Offset: 0x1053E14
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF4780C
+    // Offset: 0x1054094
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0xF47AB8
+    // Offset: 0x1054340
     void HandleNodeWasSelect(GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0xF47B7C
+    // Offset: 0x1054404
     void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0xF47C0C
+    // Offset: 0x1054494
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

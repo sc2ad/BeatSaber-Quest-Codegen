@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: DestinationList
     DestinationList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x13A7FB8
+    // Offset: 0x14B3F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DestinationList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::DestinationList::.ctor");

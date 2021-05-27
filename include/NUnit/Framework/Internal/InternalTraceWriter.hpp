@@ -30,7 +30,7 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: InternalTraceWriter
     InternalTraceWriter(System::IO::TextWriter* writer_ = {}) noexcept : writer{writer_} {}
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x208CE94
+    // Offset: 0x229006C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();

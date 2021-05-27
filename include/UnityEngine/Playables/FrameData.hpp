@@ -154,31 +154,31 @@ namespace UnityEngine::Playables {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // private System.Boolean HasFlags(UnityEngine.Playables.FrameData/Flags flag)
-    // Offset: 0xE131C0
+    // Offset: 0xF072A0
     bool HasFlags(UnityEngine::Playables::FrameData::Flags flag);
     // public System.Single get_deltaTime()
-    // Offset: 0xE131D0
+    // Offset: 0xF072B0
     float get_deltaTime();
     // public System.Single get_effectiveSpeed()
-    // Offset: 0xE131DC
+    // Offset: 0xF072BC
     float get_effectiveSpeed();
     // public UnityEngine.Playables.FrameData/EvaluationType get_evaluationType()
-    // Offset: 0xE131E4
+    // Offset: 0xF072C4
     UnityEngine::Playables::FrameData::EvaluationType get_evaluationType();
     // public System.Boolean get_seekOccurred()
-    // Offset: 0xE131F4
+    // Offset: 0xF072D4
     bool get_seekOccurred();
     // public System.Boolean get_timeLooped()
-    // Offset: 0xE13200
+    // Offset: 0xF072E0
     bool get_timeLooped();
     // public System.Boolean get_timeHeld()
-    // Offset: 0xE1320C
+    // Offset: 0xF072EC
     bool get_timeHeld();
     // public UnityEngine.Playables.PlayableOutput get_output()
-    // Offset: 0xE13218
+    // Offset: 0xF072F8
     UnityEngine::Playables::PlayableOutput get_output();
     // public UnityEngine.Playables.PlayState get_effectivePlayState()
-    // Offset: 0xE13224
+    // Offset: 0xF07304
     UnityEngine::Playables::PlayState get_effectivePlayState();
   }; // UnityEngine.Playables.FrameData
   #pragma pack(pop)

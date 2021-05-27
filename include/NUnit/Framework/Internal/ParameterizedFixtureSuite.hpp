@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal {
       return genericFixture;
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x208DEE0
+    // Offset: 0x22910B8
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
@@ -48,7 +48,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedFixtureSuite*, creationType>(typeInfo)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x208E144
+    // Offset: 0x229131C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

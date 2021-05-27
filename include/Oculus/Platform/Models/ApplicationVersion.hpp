@@ -49,7 +49,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: ApplicationVersion
     ApplicationVersion(int CurrentCode_ = {}, ::Il2CppString* CurrentName_ = {}, int LatestCode_ = {}, ::Il2CppString* LatestName_ = {}) noexcept : CurrentCode{CurrentCode_}, CurrentName{CurrentName_}, LatestCode{LatestCode_}, LatestName{LatestName_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13A5A60
+    // Offset: 0x14B18BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplicationVersion* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ApplicationVersion::.ctor");

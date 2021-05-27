@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   template<typename T>
   class ObservableVariableSO_1 : public GlobalNamespace::PersistentScriptableObject/*, public GlobalNamespace::IValue_1<T>, public GlobalNamespace::IObservableChange*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xD08B38
+    // [CompilerGeneratedAttribute] Offset: 0xDE3FC4
     // private System.Action didChangeEvent
     // Size: 0x8
     // Offset: 0x0

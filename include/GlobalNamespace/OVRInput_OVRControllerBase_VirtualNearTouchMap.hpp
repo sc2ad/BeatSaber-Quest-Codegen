@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VirtualNearTouchMap
     VirtualNearTouchMap(GlobalNamespace::OVRInput::RawNearTouch None_ = {}, GlobalNamespace::OVRInput::RawNearTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawNearTouch PrimaryThumbButtons_ = {}, GlobalNamespace::OVRInput::RawNearTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons_ = {}) noexcept : None{None_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbButtons{PrimaryThumbButtons_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbButtons{SecondaryThumbButtons_} {}
     // public OVRInput/RawNearTouch ToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0x17488F0
+    // Offset: 0x14FF730
     GlobalNamespace::OVRInput::RawNearTouch ToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x1747B54
+    // Offset: 0x14FE994
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

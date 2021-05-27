@@ -68,22 +68,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highquality and: scale
     char __padding3[0x1] = {};
-    // [TooltipAttribute] Offset: 0xCF9224
+    // [TooltipAttribute] Offset: 0xDD4B7C
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x24
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xCF925C
+    // [TooltipAttribute] Offset: 0xDD4BB4
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x28
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xCF9294
-    // [RangeAttribute] Offset: 0xCF9294
+    // [TooltipAttribute] Offset: 0xDD4BEC
+    // [RangeAttribute] Offset: 0xDD4BEC
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x2C
@@ -126,37 +126,37 @@ namespace GlobalNamespace {
     SteamVR_Overlay(UnityEngine::Texture* texture_ = {}, bool curved_ = {}, bool antialias_ = {}, bool highquality_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, UnityEngine::Vector4 uvOffset_ = {}, UnityEngine::Vector2 mouseScale_ = {}, UnityEngine::Vector2 curvedRange_ = {}, Valve::VR::VROverlayInputMethod inputMethod_ = {}, uint64_t handle_ = {}) noexcept : texture{texture_}, curved{curved_}, antialias{antialias_}, highquality{highquality_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uvOffset{uvOffset_}, mouseScale{mouseScale_}, curvedRange{curvedRange_}, inputMethod{inputMethod_}, handle{handle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [CompilerGeneratedAttribute] Offset: 0xCF92E8
+    // [CompilerGeneratedAttribute] Offset: 0xDD4C40
     // Get static field: static private SteamVR_Overlay <instance>k__BackingField
     static GlobalNamespace::SteamVR_Overlay* _get_$instance$k__BackingField();
     // Set static field: static private SteamVR_Overlay <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::SteamVR_Overlay* value);
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0x12F59A8
+    // Offset: 0x13BC4B4
     static GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0x12F59F8
+    // Offset: 0x13BC504
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0x12F21E4
+    // Offset: 0x13B8CF0
     static ::Il2CppString* get_key();
     // private System.Void OnEnable()
-    // Offset: 0x12F5A4C
+    // Offset: 0x13BC558
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x12F5B9C
+    // Offset: 0x13BC6A8
     void OnDisable();
     // public System.Void UpdateOverlay()
-    // Offset: 0x12F5C58
+    // Offset: 0x13BC764
     void UpdateOverlay();
     // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
-    // Offset: 0x12F6094
+    // Offset: 0x13BCBA0
     bool PollNextEvent(Valve::VR::VREvent_t& pEvent);
     // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0x12F61A0
+    // Offset: 0x13BCCAC
     bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, GlobalNamespace::SteamVR_Overlay::IntersectionResults& results);
     // public System.Void .ctor()
-    // Offset: 0x12F635C
+    // Offset: 0x13BCE68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

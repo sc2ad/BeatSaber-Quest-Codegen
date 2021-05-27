@@ -46,20 +46,20 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: RC2CbcParameter
     RC2CbcParameter(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* iv_ = {}) noexcept : version{version_}, iv{iv_} {}
     // static public Org.BouncyCastle.Asn1.Pkcs.RC2CbcParameter GetInstance(System.Object obj)
-    // Offset: 0x1628350
+    // Offset: 0x172C6AC
     static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16284AC
+    // Offset: 0x172C808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2CbcParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2CbcParameter*, creationType>(seq)));
     }
     // public System.Byte[] GetIV()
-    // Offset: 0x16285D4
+    // Offset: 0x172C930
     ::Array<uint8_t>* GetIV();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x162865C
+    // Offset: 0x172C9B8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

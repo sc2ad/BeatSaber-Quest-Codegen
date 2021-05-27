@@ -48,6 +48,13 @@ namespace System::Collections::Generic {
     T item;
     // Creating value type constructor for type: LinkedListNode_1
     LinkedListNode_1(System::Collections::Generic::LinkedList_1<T>* list_ = {}, System::Collections::Generic::LinkedListNode_1<T>* next_ = {}, System::Collections::Generic::LinkedListNode_1<T>* prev_ = {}, T item_ = {}) noexcept : list{list_}, next{next_}, prev{prev_}, item{item_} {}
+    // public System.Void .ctor(T value)
+    // Offset: 0xFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static LinkedListNode_1<T>* New_ctor(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<LinkedListNode_1<T>*, creationType>(value)));
+    }
     // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list, T value)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,12 +69,26 @@ namespace System::Collections::Generic {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Next", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
     }
+    // public System.Collections.Generic.LinkedListNode`1<T> get_Previous()
+    // Offset: 0xFFFFFFFF
+    System::Collections::Generic::LinkedListNode_1<T>* get_Previous() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Previous");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Previous", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
+    }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+    }
+    // public System.Void set_Value(T value)
+    // Offset: 0xFFFFFFFF
+    void set_Value(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::set_Value");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // System.Void Invalidate()
     // Offset: 0xFFFFFFFF

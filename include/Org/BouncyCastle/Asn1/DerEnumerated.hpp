@@ -49,46 +49,46 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
     static void _set_cache(::Array<Org::BouncyCastle::Asn1::DerEnumerated*>* value);
     // static public Org.BouncyCastle.Asn1.DerEnumerated GetInstance(System.Object obj)
-    // Offset: 0x156FF5C
+    // Offset: 0x16E8B4C
     static Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(System.Int32 val)
-    // Offset: 0x157005C
+    // Offset: 0x16E8C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerEnumerated* New_ctor(int val) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerEnumerated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerEnumerated*, creationType>(val)));
     }
     // public System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x1570144
+    // Offset: 0x16E8D34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerEnumerated* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerEnumerated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerEnumerated*, creationType>(bytes)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Value()
-    // Offset: 0x1570360
+    // Offset: 0x16E8F50
     Org::BouncyCastle::Math::BigInteger* get_Value();
     // public System.Int32 get_IntValueExact()
-    // Offset: 0x15703C8
+    // Offset: 0x16E8FB8
     int get_IntValueExact();
     // static Org.BouncyCastle.Asn1.DerEnumerated FromOctetString(System.Byte[] enc)
-    // Offset: 0x156389C
+    // Offset: 0x16DC48C
     static Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::Array<uint8_t>* enc);
     // static private System.Void .cctor()
-    // Offset: 0x15706BC
+    // Offset: 0x16E92AC
     static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1570554
+    // Offset: 0x16E9144
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1570578
+    // Offset: 0x16E9168
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1570650
+    // Offset: 0x16E9240
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

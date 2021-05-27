@@ -42,16 +42,16 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return lookupPowX2;
     }
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x1723014
+    // Offset: 0x18B9110
     void Init(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x1723228
+    // Offset: 0x18B9324
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x17233E8
+    // Offset: 0x18B94E4
     void EnsureAvailable(int bit);
     // public System.Void .ctor()
-    // Offset: 0x1723650
+    // Offset: 0x18B974C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

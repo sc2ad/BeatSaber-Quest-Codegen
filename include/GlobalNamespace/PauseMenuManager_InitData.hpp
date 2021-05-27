@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(::Il2CppString* backButtonText_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, bool showRestartButton_ = {}, bool showLevelBar_ = {}) noexcept : backButtonText{backButtonText_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, showRestartButton{showRestartButton_}, showLevelBar{showLevelBar_} {}
     // public System.Void .ctor(System.String backButtonText, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showRestartButton, System.Boolean showLevelBar)
-    // Offset: 0xF1B96C
+    // Offset: 0x100B394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseMenuManager::InitData* New_ctor(::Il2CppString* backButtonText, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PauseMenuManager::InitData::.ctor");

@@ -59,55 +59,55 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x167E598
+    // Offset: 0x17BFCC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::RuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeClip*, creationType>(clip, clipPlayable, parentMixer)));
     }
     // private System.Void Create(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x168AD8C
+    // Offset: 0x17CC5D0
     void Create(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer);
     // public UnityEngine.Timeline.TimelineClip get_clip()
-    // Offset: 0x168AE18
+    // Offset: 0x17CC65C
     UnityEngine::Timeline::TimelineClip* get_clip();
     // public UnityEngine.Playables.Playable get_mixer()
-    // Offset: 0x168AE20
+    // Offset: 0x17CC664
     UnityEngine::Playables::Playable get_mixer();
     // public UnityEngine.Playables.Playable get_playable()
-    // Offset: 0x168AE2C
+    // Offset: 0x17CC670
     UnityEngine::Playables::Playable get_playable();
     // public System.Void SetTime(System.Double time)
-    // Offset: 0x168AF4C
+    // Offset: 0x17CC790
     void SetTime(double time);
     // public System.Void SetDuration(System.Double duration)
-    // Offset: 0x168AFAC
+    // Offset: 0x17CC7F0
     void SetDuration(double duration);
     // public override System.Double get_start()
-    // Offset: 0x168AD4C
+    // Offset: 0x17CC590
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_start()
     double get_start();
     // public override System.Double get_duration()
-    // Offset: 0x168AD68
+    // Offset: 0x17CC5AC
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_duration()
     double get_duration();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x168AE38
+    // Offset: 0x17CC67C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x168B00C
+    // Offset: 0x17CC850
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
-    // public override System.Void Reset()
-    // Offset: 0x168B1C0
+    // public override System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
+    // Offset: 0x17CCA50
     // Implemented from: UnityEngine.Timeline.RuntimeElement
-    // Base method: System.Void RuntimeElement::Reset()
-    void Reset();
+    // Base method: System.Void RuntimeElement::DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
+    void DisableAt(double localTime, double rootDuration, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.RuntimeClip
   #pragma pack(pop)
   static check_size<sizeof(RuntimeClip), 48 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_RuntimeClipSizeCheck;

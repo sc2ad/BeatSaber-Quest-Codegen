@@ -43,21 +43,21 @@ namespace GlobalNamespace {
     UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xD38CC4
+    // [InjectAttribute] Offset: 0xE19568
     // private PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xD38CD4
+    // [InjectAttribute] Offset: 0xE19578
     // private IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD38CE4
+    // [CompilerGeneratedAttribute] Offset: 0xE19588
     // private System.Action floorMovementDidFinishEvent
     // Size: 0x8
     // Offset: 0x30
@@ -111,46 +111,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0xFF9224
+    // Offset: 0x11BD86C
     void add_floorMovementDidFinishEvent(System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0xFF92C8
+    // Offset: 0x11BD910
     void remove_floorMovementDidFinishEvent(System::Action* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0xFF936C
+    // Offset: 0x11BD9B4
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0xFF9458
+    // Offset: 0x11BDAA0
     UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0xFF9464
+    // Offset: 0x11BDAAC
     UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0xFF9470
+    // Offset: 0x11BDAB8
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0xFF9478
+    // Offset: 0x11BDAC0
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0xFF9480
+    // Offset: 0x11BDAC8
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0xFF948C
+    // Offset: 0x11BDAD4
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0xFF9498
+    // Offset: 0x11BDAE0
     UnityEngine::Vector3 get_localPosition();
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0xFF94A4
+    // Offset: 0x11BDAEC
     void Init(float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0xFF959C
+    // Offset: 0x11BDBE4
     UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0xFF96CC
+    // Offset: 0x11BDD14
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xFF98B0
+    // Offset: 0x11BDEF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

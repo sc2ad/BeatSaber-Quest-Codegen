@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerSpecificSettings
     PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, bool swapColors_ = {}, float playerHeight_ = {}, bool disableSFX_ = {}, bool reduceDebris_ = {}, bool advancedHud_ = {}, bool noTextsAndHuds_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, swapColors{swapColors_}, playerHeight{playerHeight_}, disableSFX{disableSFX_}, reduceDebris{reduceDebris_}, advancedHud{advancedHud_}, noTextsAndHuds{noTextsAndHuds_} {}
     // public System.Void .ctor()
-    // Offset: 0xF7C9D4
+    // Offset: 0x1015140
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

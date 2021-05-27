@@ -43,14 +43,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return m_topLevelAssembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
-    // Offset: 0x1474024
+    // Offset: 0x15F8CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(System::Reflection::Assembly* topLevelAssembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader::TopLevelAssemblyTypeResolver*, creationType>(topLevelAssembly)));
     }
     // public System.Type ResolveType(System.Reflection.Assembly assembly, System.String simpleTypeName, System.Boolean ignoreCase)
-    // Offset: 0x1474050
+    // Offset: 0x15F8D00
     System::Type* ResolveType(System::Reflection::Assembly* assembly, ::Il2CppString* simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TopLevelAssemblyTypeResolver
   #pragma pack(pop)

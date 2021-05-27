@@ -35,14 +35,14 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3BE58
+    // [InjectAttribute] Offset: 0xE1C860
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0xD3BE68
+    // [InjectAttribute] Offset: 0xE1C870
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0xF99C0C
+    // Offset: 0x117C52C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF99CF8
+    // Offset: 0x117C618
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0xF99DF0
+    // Offset: 0x117C710
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0xF99DF4
+    // Offset: 0x117C714
     void StartLevelFinished();
     // public System.Void .ctor()
-    // Offset: 0xF99E3C
+    // Offset: 0x117C75C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

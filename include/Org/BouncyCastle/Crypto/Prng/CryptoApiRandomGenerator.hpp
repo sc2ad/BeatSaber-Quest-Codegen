@@ -42,17 +42,17 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return rndProv;
     }
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x1194AEC
+    // Offset: 0x1242064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoApiRandomGenerator* New_ctor(System::Security::Cryptography::RandomNumberGenerator* rng) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>(rng)));
     }
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x1194B18
+    // Offset: 0x1242090
     void NextBytes(::Array<uint8_t>* bytes);
     // public System.Void .ctor()
-    // Offset: 0x1194AB4
+    // Offset: 0x124202C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -55,22 +55,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: CombineMeshes
     CombineMeshes() noexcept {}
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes)
-    // Offset: 0x13B65E0
+    // Offset: 0x152AC44
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes, UnityEngine.ProBuilder.ProBuilderMesh meshTarget)
-    // Offset: 0x13B6990
+    // Offset: 0x152AFF4
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, UnityEngine::ProBuilder::ProBuilderMesh* meshTarget);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> CombineToNewMeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes)
-    // Offset: 0x13B65E4
+    // Offset: 0x152AC48
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* CombineToNewMeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
     // static private System.Void AccumulateMeshesInfo(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes, System.Int32 offset, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> autoUvFaces, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex> sharedVertices, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex> sharedTextures, ref System.Collections.Generic.List`1<UnityEngine.Material> materialMap, UnityEngine.Transform targetTransform)
-    // Offset: 0x13B7254
+    // Offset: 0x152B8B8
     static void AccumulateMeshesInfo(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, int offset, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*& vertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*& faces, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*& autoUvFaces, System::Collections::Generic::List_1<UnityEngine::ProBuilder::SharedVertex*>*& sharedVertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::SharedVertex*>*& sharedTextures, System::Collections::Generic::List_1<UnityEngine::Material*>*& materialMap, UnityEngine::Transform* targetTransform);
     // static private UnityEngine.ProBuilder.ProBuilderMesh CreateMeshFromSplit(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> remap, UnityEngine.Material[] materials)
-    // Offset: 0x13B8BA4
+    // Offset: 0x152D208
     static UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshFromSplit(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup, System::Collections::Generic::Dictionary_2<int, int>* remap, ::Array<UnityEngine::Material*>* materials);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> SplitByMaxVertexCount(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedVertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedTextures, System.UInt32 maxVertexCount)
-    // Offset: 0x13B7CE8
+    // Offset: 0x152C34C
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* SplitByMaxVertexCount(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedTextures, uint maxVertexCount);
   }; // UnityEngine.ProBuilder.MeshOperations.CombineMeshes
   #pragma pack(pop)

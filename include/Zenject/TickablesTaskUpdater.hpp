@@ -27,10 +27,10 @@ namespace Zenject {
     // Creating value type constructor for type: TickablesTaskUpdater
     TickablesTaskUpdater() noexcept {}
     // protected System.Void UpdateItem(Zenject.ITickable task)
-    // Offset: 0x153F1D8
+    // Offset: 0x16D679C
     void UpdateItem(Zenject::ITickable* task);
     // public System.Void .ctor()
-    // Offset: 0x153D864
+    // Offset: 0x16D4E28
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
     // Base method: System.Void Object::.ctor()

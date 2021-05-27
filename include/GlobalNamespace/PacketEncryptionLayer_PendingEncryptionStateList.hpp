@@ -8,6 +8,8 @@
 #include "GlobalNamespace/PacketEncryptionLayer.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
+// Including type: EncryptionUtility
+#include "GlobalNamespace/EncryptionUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -37,45 +39,45 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
-    // private readonly System.Collections.Generic.Dictionary`2<System.Int32,PacketEncryptionLayer/EncryptionState> _pendingStatesByPort
+    // private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* pendingStatesByPort;
+    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>* pendingStatesByPort;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*) == 0x8);
     // Creating value type constructor for type: PendingEncryptionStateList
-    PendingEncryptionStateList(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* pendingStatesByPort_ = {}) noexcept : pendingStatesByPort{pendingStatesByPort_} {}
+    PendingEncryptionStateList(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>* pendingStatesByPort_ = {}) noexcept : pendingStatesByPort{pendingStatesByPort_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*
+    constexpr operator System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*() const noexcept {
       return pendingStatesByPort;
     }
     // public System.Boolean get_isEmpty()
-    // Offset: 0x15E275C
+    // Offset: 0x14EB890
     bool get_isEmpty();
     // public System.Void Dispose()
-    // Offset: 0x15E5234
+    // Offset: 0x14ED054
     void Dispose();
-    // public PacketEncryptionLayer/EncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x15E3244
-    ::Array<GlobalNamespace::PacketEncryptionLayer::EncryptionState*>* GetSortedEncryptionStates(int port);
-    // public System.Boolean TryGetEncryptionState(System.Int32 port, out PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x15E2F94
-    bool TryGetEncryptionState(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState*& encryptionState);
-    // public System.Void Add(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x15E29FC
-    void Add(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
+    // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
+    // Offset: 0x14EC0CC
+    ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>* GetSortedEncryptionStates(int port);
+    // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
+    // Offset: 0x14EBE1C
+    bool TryGetEncryptionState(int port, GlobalNamespace::EncryptionUtility::IEncryptionState*& encryptionState);
+    // public System.Void Add(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
+    // Offset: 0x14ECE78
+    void Add(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x15E26F4
+    // Offset: 0x14EB828
     bool Remove(int port);
-    // public System.Boolean Remove(System.Int32 port, PacketEncryptionLayer/EncryptionState encryptionState)
-    // Offset: 0x15E3620
-    bool Remove(int port, GlobalNamespace::PacketEncryptionLayer::EncryptionState* encryptionState);
+    // public System.Boolean Remove(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
+    // Offset: 0x14EC4A8
+    bool Remove(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void .ctor()
-    // Offset: 0x15E298C
+    // Offset: 0x14ECE08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,7 +87,7 @@ namespace GlobalNamespace {
     }
   }; // PacketEncryptionLayer/PendingEncryptionStateList
   #pragma pack(pop)
-  static check_size<sizeof(PacketEncryptionLayer::PendingEncryptionStateList), 16 + sizeof(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::PacketEncryptionLayer::EncryptionState*>*)> __GlobalNamespace_PacketEncryptionLayer_PendingEncryptionStateListSizeCheck;
+  static check_size<sizeof(PacketEncryptionLayer::PendingEncryptionStateList), 16 + sizeof(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*)> __GlobalNamespace_PacketEncryptionLayer_PendingEncryptionStateListSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer::PendingEncryptionStateList) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*, "", "PacketEncryptionLayer/PendingEncryptionStateList");

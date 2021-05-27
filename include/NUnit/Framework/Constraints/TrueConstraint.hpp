@@ -28,7 +28,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: TrueConstraint
     TrueConstraint() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15CBA78
+    // Offset: 0x1716830
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -37,7 +37,7 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<TrueConstraint*, creationType>()));
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x15CBAF0
+    // Offset: 0x17168A8
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

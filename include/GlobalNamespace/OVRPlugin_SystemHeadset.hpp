@@ -116,12 +116,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemHeadset _get_Oculus_Link_Quest();
     // Set static field: static public OVRPlugin/SystemHeadset Oculus_Link_Quest
     static void _set_Oculus_Link_Quest(GlobalNamespace::OVRPlugin::SystemHeadset value);
-    // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4102
-    static constexpr const int PC_Placeholder_4102 = 4102;
-    // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4102
-    static GlobalNamespace::OVRPlugin::SystemHeadset _get_PC_Placeholder_4102();
-    // Set static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4102
-    static void _set_PC_Placeholder_4102(GlobalNamespace::OVRPlugin::SystemHeadset value);
+    // static field const value: static public OVRPlugin/SystemHeadset Oculus_Link_Quest_2
+    static constexpr const int Oculus_Link_Quest_2 = 4102;
+    // Get static field: static public OVRPlugin/SystemHeadset Oculus_Link_Quest_2
+    static GlobalNamespace::OVRPlugin::SystemHeadset _get_Oculus_Link_Quest_2();
+    // Set static field: static public OVRPlugin/SystemHeadset Oculus_Link_Quest_2
+    static void _set_Oculus_Link_Quest_2(GlobalNamespace::OVRPlugin::SystemHeadset value);
     // static field const value: static public OVRPlugin/SystemHeadset PC_Placeholder_4103
     static constexpr const int PC_Placeholder_4103 = 4103;
     // Get static field: static public OVRPlugin/SystemHeadset PC_Placeholder_4103

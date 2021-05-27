@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusInit::$$c
     class $$c;
-    // [InjectOptionalAttribute] Offset: 0xD34218
+    // [InjectOptionalAttribute] Offset: 0xE1498C
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusDeeplinkManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD34228
+    // [InjectAttribute] Offset: 0xE1499C
     // private DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0x20
@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init()
-    // Offset: 0x10C36F4
+    // Offset: 0x11CB130
     void Init();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0x10C38C8
+    // Offset: 0x11CB304
     void InitCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x10C3A6C
+    // Offset: 0x11CB4A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

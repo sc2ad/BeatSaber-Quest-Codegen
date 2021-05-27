@@ -44,10 +44,10 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ConstraintBuilder
     ConstraintBuilder(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops_ = {}, NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints_ = {}, ::Il2CppObject* lastPushed_ = {}) noexcept : ops{ops_}, constraints{constraints_}, lastPushed{lastPushed_} {}
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x15C1898
+    // Offset: 0x170C650
     NUnit::Framework::Constraints::IConstraint* Resolve();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x15C1A44
+    // Offset: 0x170C7FC
     bool get_IsResolvable();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)

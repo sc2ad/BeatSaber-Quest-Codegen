@@ -34,10 +34,10 @@ namespace HMUI {
     // Creating value type constructor for type: TextPageScrollView
     TextPageScrollView(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
     // public System.Void SetText(System.String text)
-    // Offset: 0x1224A60
+    // Offset: 0x12A51E4
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x1224AC4
+    // Offset: 0x12A5248
     // Implemented from: HMUI.ScrollView
     // Base method: System.Void ScrollView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

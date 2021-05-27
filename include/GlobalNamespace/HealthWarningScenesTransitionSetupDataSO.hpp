@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningScenesTransitionSetupDataSO
     HealthWarningScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init(HealthWarningSceneSetupData healthWarningSceneSetupData)
-    // Offset: 0xF6E514
+    // Offset: 0x1061AA8
     void Init(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0xF6E8EC
+    // Offset: 0x1061E18
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

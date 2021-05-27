@@ -17,7 +17,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Host
     Host() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.String result)
-    // Offset: 0x1401D58
+    // Offset: 0x157E3B0
     static bool TryParse(::Il2CppString* input, ::Il2CppString*& result);
   }; // System.Net.Http.Headers.Parser/Host
   #pragma pack(pop)

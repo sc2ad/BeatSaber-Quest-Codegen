@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithAchievementUpdate
     MessageWithAchievementUpdate() noexcept {}
     // protected Oculus.Platform.Models.AchievementUpdate GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x13A5848
+    // Offset: 0x14B16A4
     Oculus::Platform::Models::AchievementUpdate* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x13A2E70
+    // Offset: 0x14AF368
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAchievementUpdate*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AchievementUpdate GetAchievementUpdate()
-    // Offset: 0x13A5804
+    // Offset: 0x14B1660
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AchievementUpdate Message::GetAchievementUpdate()
     Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();

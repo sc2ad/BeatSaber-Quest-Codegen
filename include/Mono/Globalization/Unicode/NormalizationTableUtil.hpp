@@ -42,13 +42,13 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Helper
     static void _set_Helper(Mono::Globalization::Unicode::CodePointIndexer* value);
     // static private System.Void .cctor()
-    // Offset: 0x18A87C8
+    // Offset: 0x1A3F710
     static void _cctor();
     // static public System.Int32 PropIdx(System.Int32 cp)
-    // Offset: 0x18A8A88
+    // Offset: 0x1A3F9D0
     static int PropIdx(int cp);
     // static public System.Int32 MapIdx(System.Int32 cp)
-    // Offset: 0x18A8B00
+    // Offset: 0x1A3FA48
     static int MapIdx(int cp);
   }; // Mono.Globalization.Unicode.NormalizationTableUtil
   #pragma pack(pop)

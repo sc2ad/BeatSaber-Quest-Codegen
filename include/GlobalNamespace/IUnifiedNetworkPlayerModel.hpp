@@ -76,9 +76,9 @@ namespace GlobalNamespace {
     // public System.Void SetServerFilter(GameplayServerFilter filter)
     // Offset: 0xFFFFFFFF
     void SetServerFilter(GlobalNamespace::GameplayServerFilter filter);
-    // public System.Void JoinMatchmaking(GameplayServerConfiguration configuration, System.String secret)
+    // public System.Void JoinMatchmaking(GameplayServerConfiguration configuration, DiscoveryPolicy discoveryPolicy, System.String secret, System.String code)
     // Offset: 0xFFFFFFFF
-    void JoinMatchmaking(GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret);
+    void JoinMatchmaking(GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::Il2CppString* secret, ::Il2CppString* code);
     // public System.Void ConnectToServerWithCode(System.String serverCode, System.String serverPassword)
     // Offset: 0xFFFFFFFF
     void ConnectToServerWithCode(::Il2CppString* serverCode, ::Il2CppString* serverPassword);

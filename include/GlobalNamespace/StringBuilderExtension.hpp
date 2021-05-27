@@ -22,22 +22,22 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: StringBuilderExtension
     StringBuilderExtension() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xD08510
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE399C
     // Get static field: static private System.Char[] charToInt
     static ::Array<::Il2CppChar>* _get_charToInt();
     // Set static field: static private System.Char[] charToInt
     static void _set_charToInt(::Array<::Il2CppChar>* value);
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
-    // Offset: 0x214D804
+    // Offset: 0x2351980
     static void Swap(System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
-    // Offset: 0x214D8BC
+    // Offset: 0x2351A38
     static void AppendNumber(System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
-    // Offset: 0x214DA04
+    // Offset: 0x2351B80
     static void AppendNumber(System::Text::StringBuilder* sb, uint unumber);
     // static private System.Void .cctor()
-    // Offset: 0x214DB30
+    // Offset: 0x2351CAC
     static void _cctor();
   }; // StringBuilderExtension
   #pragma pack(pop)

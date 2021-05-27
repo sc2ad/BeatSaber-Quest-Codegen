@@ -42,14 +42,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return inner;
     }
     // public System.Void .ctor(System.Collections.IEnumerable inner)
-    // Offset: 0x12908E0
+    // Offset: 0x136495C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableProxy* New_ctor(System::Collections::IEnumerable* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::EnumerableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableProxy*, creationType>(inner)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x129097C
+    // Offset: 0x13649F8
     System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EnumerableProxy
   #pragma pack(pop)

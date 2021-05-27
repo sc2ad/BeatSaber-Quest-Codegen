@@ -68,29 +68,29 @@ namespace System::Net::Sockets {
     // Creating value type constructor for type: TcpListener
     TcpListener(System::Net::IPEndPoint* m_ServerSocketEP_ = {}, System::Net::Sockets::Socket* m_ServerSocket_ = {}, bool m_Active_ = {}, bool m_ExclusiveAddressUse_ = {}) noexcept : m_ServerSocketEP{m_ServerSocketEP_}, m_ServerSocket{m_ServerSocket_}, m_Active{m_Active_}, m_ExclusiveAddressUse{m_ExclusiveAddressUse_} {}
     // public System.Void .ctor(System.Net.IPAddress localaddr, System.Int32 port)
-    // Offset: 0x14248BC
+    // Offset: 0x159FF14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpListener* New_ctor(System::Net::IPAddress* localaddr, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpListener*, creationType>(localaddr, port)));
     }
     // public System.Net.EndPoint get_LocalEndpoint()
-    // Offset: 0x1424A2C
+    // Offset: 0x15A0084
     System::Net::EndPoint* get_LocalEndpoint();
     // public System.Void Start()
-    // Offset: 0x1424A58
+    // Offset: 0x15A00B0
     void Start();
     // public System.Void Start(System.Int32 backlog)
-    // Offset: 0x1424A60
+    // Offset: 0x15A00B8
     void Start(int backlog);
     // public System.Void Stop()
-    // Offset: 0x1424BF0
+    // Offset: 0x15A0248
     void Stop();
     // public System.IAsyncResult BeginAcceptTcpClient(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1424CC4
+    // Offset: 0x15A031C
     System::IAsyncResult* BeginAcceptTcpClient(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.TcpClient EndAcceptTcpClient(System.IAsyncResult asyncResult)
-    // Offset: 0x1424D84
+    // Offset: 0x15A03DC
     System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
   #pragma pack(pop)

@@ -45,7 +45,7 @@ namespace HMUI {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [InjectAttribute] Offset: 0xD16B80
+    // [InjectAttribute] Offset: 0xDF61C4
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -71,28 +71,28 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
-    // Offset: 0x124BC64
+    // Offset: 0x12FE130
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x124BC6C
+    // Offset: 0x12FE138
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x124BC74
+    // Offset: 0x12FE140
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x124BD0C
+    // Offset: 0x12FE1D8
     UnityEngine::Vector3 get_worldCenter();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x124BE94
+    // Offset: 0x12FE360
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x124BF48
+    // Offset: 0x12FE414
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x124C0B0
+    // Offset: 0x12FE57C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x124C140
+    // Offset: 0x12FE60C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

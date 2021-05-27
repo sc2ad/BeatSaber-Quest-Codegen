@@ -53,21 +53,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HealthWarningFlowCoordinator::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xD41B20
+    // [InjectAttribute] Offset: 0xE22724
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xD41B30
+    // [InjectAttribute] Offset: 0xE22734
     // private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD41B40
+    // [SpaceAttribute] Offset: 0xE22744
     // private EulaViewController _eulaViewController
     // Size: 0x8
     // Offset: 0xB8
@@ -98,35 +98,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD41BB8
+    // [SpaceAttribute] Offset: 0xE227BC
     // private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xD41BF0
+    // [InjectAttribute] Offset: 0xE227F4
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD41C00
+    // [InjectAttribute] Offset: 0xE22804
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD41C10
+    // [InjectAttribute] Offset: 0xE22814
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xD41C20
+    // [InjectAttribute] Offset: 0xE22824
     // private readonly HealthWarningFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0x100
@@ -142,57 +142,57 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningFlowCoordinator
     HealthWarningFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::EulaViewController* eulaViewController_ = {}, GlobalNamespace::HealthWarningViewController* healthWarningViewController_ = {}, GlobalNamespace::PrivacyPolicyViewController* privacyPolicyViewController_ = {}, GlobalNamespace::SelectLanguageViewController* selectLanguageViewController_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::HealthWarningFlowCoordinator::InitData* initData_ = {}, System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles_ = {}) noexcept : playerDataModel{playerDataModel_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, eulaViewController{eulaViewController_}, healthWarningViewController{healthWarningViewController_}, privacyPolicyViewController{privacyPolicyViewController_}, selectLanguageViewController{selectLanguageViewController_}, mainSettingsModel{mainSettingsModel_}, appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, fadeInOut{fadeInOut_}, gameScenesManager{gameScenesManager_}, initData{initData_}, viewControllerTitles{viewControllerTitles_} {}
     // private HMUI.ViewController GetEulaOrHealthWarningViewController()
-    // Offset: 0xF6DCA4
+    // Offset: 0x1061238
     HMUI::ViewController* GetEulaOrHealthWarningViewController();
     // protected System.Void Update()
-    // Offset: 0xF6E0F8
+    // Offset: 0x106168C
     void Update();
     // private System.Void HandleSelectLanguageViewControllerDidChangeLanguage()
-    // Offset: 0xF6E138
+    // Offset: 0x10616CC
     void HandleSelectLanguageViewControllerDidChangeLanguage();
     // private System.Void HandleSelectLanguageViewControllerDidPressContinueButton()
-    // Offset: 0xF6E1C0
+    // Offset: 0x1061754
     void HandleSelectLanguageViewControllerDidPressContinueButton();
     // private System.Void HandleEulaViewControllerDidFinish(System.Boolean agreed)
-    // Offset: 0xF6E218
+    // Offset: 0x10617AC
     void HandleEulaViewControllerDidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0xF6E28C
+    // Offset: 0x1061820
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0xF6E2A4
+    // Offset: 0x1061838
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0xF6E134
+    // Offset: 0x10616C8
     void HandleHealthWarningViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0xF6E378
+    // Offset: 0x106190C
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__23_0(System.Int32 button)
-    // Offset: 0xF6E488
+    // Offset: 0x1061A1C
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__23_0(int button);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF6D770
+    // Offset: 0x1060D04
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0xF6DCDC
+    // Offset: 0x1061270
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0xF6E024
+    // Offset: 0x10615B8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xF6E3D4
+    // Offset: 0x1061968
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xF6E480
+    // Offset: 0x1061A14
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -31,16 +31,16 @@ namespace System::Net {
     // Creating value type constructor for type: EndPoint
     EndPoint() noexcept {}
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x14F1B98
+    // Offset: 0x16A054C
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Net.SocketAddress Serialize()
-    // Offset: 0x14F1C58
+    // Offset: 0x16A060C
     System::Net::SocketAddress* Serialize();
     // public System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0x14F1D18
+    // Offset: 0x16A06CC
     System::Net::EndPoint* Create(System::Net::SocketAddress* socketAddress);
     // protected System.Void .ctor()
-    // Offset: 0x14F1D5C
+    // Offset: 0x16A0710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

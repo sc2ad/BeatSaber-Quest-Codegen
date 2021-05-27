@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NodePoseSyncState state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncState) == 0x48);
-    // [CompilerGeneratedAttribute] Offset: 0xD1B2D4
+    // [CompilerGeneratedAttribute] Offset: 0xDF00CC
     // private SyncStateId <id>k__BackingField
     // Size: 0x1
     // Offset: 0x58
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SyncStateId) == 0x1);
     // Padding between fields: id and: time
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD1B2E4
+    // [CompilerGeneratedAttribute] Offset: 0xDF00DC
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x5C
@@ -75,42 +75,38 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::NodePoseSyncState>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::NodePoseSyncState>*>(this);
     }
-    // Get static field: static public readonly PacketPool`1<NodePoseSyncStateNetSerializable> pool
-    static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* _get_pool();
-    // Set static field: static public readonly PacketPool`1<NodePoseSyncStateNetSerializable> pool
-    static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* value);
+    // static public PacketPool`1<NodePoseSyncStateNetSerializable> get_pool()
+    // Offset: 0x14EA8A4
+    static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x15E0F48
+    // Offset: 0x14EA8EC
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x15E0F50
+    // Offset: 0x14EA8F4
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x15E0F58
+    // Offset: 0x14EA8FC
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x15E0F60
+    // Offset: 0x14EA904
     void set_time(float value);
     // public NodePoseSyncState get_state()
-    // Offset: 0x15E0F68
+    // Offset: 0x14EA90C
     GlobalNamespace::NodePoseSyncState get_state();
     // public System.Void set_state(NodePoseSyncState value)
-    // Offset: 0x15E0F78
+    // Offset: 0x14EA91C
     void set_state(GlobalNamespace::NodePoseSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15E0F94
+    // Offset: 0x14EA938
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15E0FF4
+    // Offset: 0x14EA998
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x15E1044
+    // Offset: 0x14EA9E8
     void Release();
-    // static private System.Void .cctor()
-    // Offset: 0x15E10D0
-    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x15E10C8
+    // Offset: 0x14EAA44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,7 +45,7 @@ namespace HMUI {
     HMUI::ScreenSystem* screenSystem;
     // Field size check
     static_assert(sizeof(HMUI::ScreenSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xD17428
+    // [InjectAttribute] Offset: 0xDF6A6C
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -63,22 +63,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x124B8E8
+    // Offset: 0x12FDDB4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x124BAA4
+    // Offset: 0x12FDF70
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x124B9E8
+    // Offset: 0x12FDEB4
     void HandleSceneTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x124BB7C
+    // Offset: 0x12FE048
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x124BC38
+    // Offset: 0x12FE104
     void StartWithFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator);
     // public System.Void .ctor()
-    // Offset: 0x124BC5C
+    // Offset: 0x12FE128
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SplineUtils
     SplineUtils() noexcept {}
     // static public UnityEngine.Vector3 Interpolate(UnityEngine.Vector3 t0, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 t1, System.Single f)
-    // Offset: 0xF94068
+    // Offset: 0x117674C
     static UnityEngine::Vector3 Interpolate(UnityEngine::Vector3 t0, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 t1, float f);
   }; // SplineUtils
   #pragma pack(pop)

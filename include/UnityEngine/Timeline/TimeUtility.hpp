@@ -45,49 +45,49 @@ namespace UnityEngine::Timeline {
     // Set static field: static public readonly System.Double k_MaxTimelineDurationInSeconds
     static void _set_k_MaxTimelineDurationInSeconds(double value);
     // static private System.Void ValidateFrameRate(System.Double frameRate)
-    // Offset: 0x168D7EC
+    // Offset: 0x17CF1CC
     static void ValidateFrameRate(double frameRate);
     // static public System.Int32 ToFrames(System.Double time, System.Double frameRate)
-    // Offset: 0x168D8A4
+    // Offset: 0x17CF284
     static int ToFrames(double time, double frameRate);
     // static public System.Double ToExactFrames(System.Double time, System.Double frameRate)
-    // Offset: 0x168DA88
+    // Offset: 0x17CF464
     static double ToExactFrames(double time, double frameRate);
     // static public System.Double FromFrames(System.Int32 frames, System.Double frameRate)
-    // Offset: 0x168DB00
+    // Offset: 0x17CF4DC
     static double FromFrames(int frames, double frameRate);
     // static public System.Double FromFrames(System.Double frames, System.Double frameRate)
-    // Offset: 0x168DB7C
+    // Offset: 0x17CF558
     static double FromFrames(double frames, double frameRate);
     // static public System.Boolean OnFrameBoundary(System.Double time, System.Double frameRate)
-    // Offset: 0x168DBF4
+    // Offset: 0x17CF5D0
     static bool OnFrameBoundary(double time, double frameRate);
     // static public System.Double GetEpsilon(System.Double time, System.Double frameRate)
-    // Offset: 0x168D9D4
+    // Offset: 0x17CF3B0
     static double GetEpsilon(double time, double frameRate);
     // static public System.Boolean OnFrameBoundary(System.Double time, System.Double frameRate, System.Double epsilon)
-    // Offset: 0x168DC78
+    // Offset: 0x17CF654
     static bool OnFrameBoundary(double time, double frameRate, double epsilon);
     // static public System.Double RoundToFrame(System.Double time, System.Double frameRate)
-    // Offset: 0x168DDA4
+    // Offset: 0x17CF780
     static double RoundToFrame(double time, double frameRate);
     // static public System.String TimeAsFrames(System.Double timeValue, System.Double frameRate, System.String format)
-    // Offset: 0x168DE64
+    // Offset: 0x17CF840
     static ::Il2CppString* TimeAsFrames(double timeValue, double frameRate, ::Il2CppString* format);
     // static public System.String TimeAsTimeCode(System.Double timeValue, System.Double frameRate, System.String format)
-    // Offset: 0x168DF64
+    // Offset: 0x17CF940
     static ::Il2CppString* TimeAsTimeCode(double timeValue, double frameRate, ::Il2CppString* format);
     // static public System.Double ParseTimeCode(System.String timeCode, System.Double frameRate, System.Double defaultValue)
-    // Offset: 0x168E3EC
+    // Offset: 0x17CFDC8
     static double ParseTimeCode(::Il2CppString* timeCode, double frameRate, double defaultValue);
     // static public System.Double GetAnimationClipLength(UnityEngine.AnimationClip clip)
-    // Offset: 0x167C400
+    // Offset: 0x17BDB2C
     static double GetAnimationClipLength(UnityEngine::AnimationClip* clip);
     // static private System.String RemoveChar(System.String str, System.Func`2<System.Char,System.Boolean> charToRemoveFunc)
-    // Offset: 0x168E97C
+    // Offset: 0x17D0358
     static ::Il2CppString* RemoveChar(::Il2CppString* str, System::Func_2<::Il2CppChar, bool>* charToRemoveFunc);
     // static private System.Void .cctor()
-    // Offset: 0x168EA90
+    // Offset: 0x17D046C
     static void _cctor();
   }; // UnityEngine.Timeline.TimeUtility
   #pragma pack(pop)

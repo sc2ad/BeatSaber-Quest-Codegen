@@ -33,14 +33,14 @@ namespace RootMotion {
     // Creating value type constructor for type: LargeHeader
     LargeHeader(::Il2CppString* name_ = {}, ::Il2CppString* color_ = {}) noexcept : name{name_}, color{color_} {}
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1914A64
+    // Offset: 0x1A9845C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LargeHeader* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::LargeHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LargeHeader*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
-    // Offset: 0x1914AD4
+    // Offset: 0x1A984CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LargeHeader* New_ctor(::Il2CppString* name, ::Il2CppString* color) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::LargeHeader::.ctor");

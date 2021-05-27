@@ -50,47 +50,47 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x152A84C
+    // Offset: 0x16C0D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRTrackedCamera* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRTrackedCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRTrackedCamera*, creationType>(pInterface)));
     }
     // public System.String GetCameraErrorNameFromEnum(Valve.VR.EVRTrackedCameraError eCameraError)
-    // Offset: 0x152A954
+    // Offset: 0x16C0E48
     ::Il2CppString* GetCameraErrorNameFromEnum(Valve::VR::EVRTrackedCameraError eCameraError);
     // public Valve.VR.EVRTrackedCameraError HasCamera(System.UInt32 nDeviceIndex, ref System.Boolean pHasCamera)
-    // Offset: 0x1518A2C
+    // Offset: 0x16AEF20
     Valve::VR::EVRTrackedCameraError HasCamera(uint nDeviceIndex, bool& pHasCamera);
     // public Valve.VR.EVRTrackedCameraError GetCameraFrameSize(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, ref System.UInt32 pnFrameBufferSize)
-    // Offset: 0x152A9E8
+    // Offset: 0x16C0EDC
     Valve::VR::EVRTrackedCameraError GetCameraFrameSize(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize);
     // public Valve.VR.EVRTrackedCameraError GetCameraIntrinsics(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref Valve.VR.HmdVector2_t pFocalLength, ref Valve.VR.HmdVector2_t pCenter)
-    // Offset: 0x152AA10
+    // Offset: 0x16C0F04
     Valve::VR::EVRTrackedCameraError GetCameraIntrinsics(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::HmdVector2_t& pFocalLength, Valve::VR::HmdVector2_t& pCenter);
     // public Valve.VR.EVRTrackedCameraError GetCameraProjection(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.Single flZNear, System.Single flZFar, ref Valve.VR.HmdMatrix44_t pProjection)
-    // Offset: 0x152AA2C
+    // Offset: 0x16C0F20
     Valve::VR::EVRTrackedCameraError GetCameraProjection(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, float flZNear, float flZFar, Valve::VR::HmdMatrix44_t& pProjection);
     // public Valve.VR.EVRTrackedCameraError AcquireVideoStreamingService(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)
-    // Offset: 0x1518B08
+    // Offset: 0x16AEFFC
     Valve::VR::EVRTrackedCameraError AcquireVideoStreamingService(uint nDeviceIndex, uint64_t& pHandle);
     // public Valve.VR.EVRTrackedCameraError ReleaseVideoStreamingService(System.UInt64 hTrackedCamera)
-    // Offset: 0x1518BD8
+    // Offset: 0x16AF0CC
     Valve::VR::EVRTrackedCameraError ReleaseVideoStreamingService(uint64_t hTrackedCamera);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamFrameBuffer(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pFrameBuffer, System.UInt32 nFrameBufferSize, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x152AA48
+    // Offset: 0x16C0F3C
     Valve::VR::EVRTrackedCameraError GetVideoStreamFrameBuffer(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pFrameBuffer, uint nFrameBufferSize, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamTextureSize(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref Valve.VR.VRTextureBounds_t pTextureBounds, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1519488
+    // Offset: 0x16AF97C
     Valve::VR::EVRTrackedCameraError GetVideoStreamTextureSize(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamTextureD3D11(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x151946C
+    // Offset: 0x16AF960
     Valve::VR::EVRTrackedCameraError GetVideoStreamTextureD3D11(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pD3D11DeviceOrResource, System::IntPtr& ppD3D11ShaderResourceView, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamTextureGL(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref System.UInt32 pglTextureId, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x151944C
+    // Offset: 0x16AF940
     Valve::VR::EVRTrackedCameraError GetVideoStreamTextureGL(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, uint& pglTextureId, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
     // public Valve.VR.EVRTrackedCameraError ReleaseVideoStreamTextureGL(System.UInt64 hTrackedCamera, System.UInt32 glTextureId)
-    // Offset: 0x1519430
+    // Offset: 0x16AF924
     Valve::VR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint glTextureId);
   }; // Valve.VR.CVRTrackedCamera
   #pragma pack(pop)

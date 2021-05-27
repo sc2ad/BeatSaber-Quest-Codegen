@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0xD39E80
+    // [InjectAttribute] Offset: 0xE1A76C
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -71,40 +71,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0xF6AA6C
+    // Offset: 0x1048A44
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0xF6AB04
+    // Offset: 0x1048ADC
     void Awake();
     // private System.Void Init()
-    // Offset: 0xF6AB14
+    // Offset: 0x1048AEC
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0xF6AC8C
+    // Offset: 0x1048C64
     void Animate(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0xF6B01C
+    // Offset: 0x1048FF4
     System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0xF6B0C8
+    // Offset: 0x10490A0
     void SetDistances(float distance, UnityEngine::Vector3 direction);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0xF6B230
+    // Offset: 0x1049208
     void set_hide(bool value);
     // private System.Void set_size(System.Single value)
-    // Offset: 0xF6B268
+    // Offset: 0x1049240
     void set_size(float value);
     // private System.Single get_size()
-    // Offset: 0xF6B32C
+    // Offset: 0x1049304
     float get_size();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0xF6ABB0
+    // Offset: 0x1048B88
     void set_alpha(float value);
     // private System.Single get_alpha()
-    // Offset: 0xF6B380
+    // Offset: 0x1049358
     float get_alpha();
     // public System.Void .ctor()
-    // Offset: 0xF6B3CC
+    // Offset: 0x10493A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

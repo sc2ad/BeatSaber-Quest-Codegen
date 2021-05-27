@@ -54,13 +54,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public Valve.VR.CVRRenderModels get_instance()
-    // Offset: 0x12F9F24
+    // Offset: 0x13C0A30
     Valve::VR::CVRRenderModels* get_instance();
     // public System.Void Dispose()
-    // Offset: 0x12FC57C
+    // Offset: 0x13C3088
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x12F9860
+    // Offset: 0x13C036C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -29,7 +29,7 @@ namespace System::Runtime::Remoting::Messaging {
       return index;
     }
     // public System.Void .ctor(System.Int32 i)
-    // Offset: 0x18876F8
+    // Offset: 0x1A1D640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADArgHolder* New_ctor(int i) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");

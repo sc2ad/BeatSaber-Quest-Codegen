@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::Material*>* materials;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Material*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xD329CC
+    // [InjectAttribute] Offset: 0xE12C5C
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
@@ -77,13 +77,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kNumberOfRows
     static void _set_kNumberOfRows(int value);
     // protected System.Void Start()
-    // Offset: 0xF4F974
+    // Offset: 0x10C0624
     void Start();
     // private System.Collections.IEnumerator HideAfterFrames(System.Int32 numberOfFrames)
-    // Offset: 0xF4FD00
+    // Offset: 0x10C09B0
     System::Collections::IEnumerator* HideAfterFrames(int numberOfFrames);
     // public System.Void .ctor()
-    // Offset: 0xF4FDAC
+    // Offset: 0x10C0A5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

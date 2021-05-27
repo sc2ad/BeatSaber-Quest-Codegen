@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     float moveSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xD39684
+    // [InjectAttribute] Offset: 0xE19F70
     // private readonly NoteDebris/Pool _noteDebrisPool
     // Size: 0x8
     // Offset: 0x28
@@ -92,13 +92,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLifeTimeOffset
     static void _set_kLifeTimeOffset(float value);
     // public System.Void SpawnDebris(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single saberSpeed, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, ColorType colorType, System.Single timeToNextColorNote, UnityEngine.Vector3 moveVec)
-    // Offset: 0xFF4FAC
+    // Offset: 0x11B94A4
     void SpawnDebris(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float saberSpeed, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 noteScale, GlobalNamespace::ColorType colorType, float timeToNextColorNote, UnityEngine::Vector3 moveVec);
     // public System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0xFF8C94
+    // Offset: 0x11BD2DC
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
     // public System.Void .ctor()
-    // Offset: 0xFF8D78
+    // Offset: 0x11BD3C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -109,7 +109,7 @@ namespace LeaderboardsDTO {
     // Creating value type constructor for type: LevelScoreResultDTO
     LevelScoreResultDTO(::Il2CppString* guid_ = {}, ::Il2CppString* guids_ = {}, ::Il2CppString* guidInstance_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : guid{guid_}, guids{guids_}, guidInstance{guidInstance_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, leaderboardId{leaderboardId_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // public System.Void .ctor()
-    // Offset: 0x111B24C
+    // Offset: 0x106D054
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Creating value type constructor for type: Base64
     Base64() noexcept {}
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1E31C90
+    // Offset: 0x1F70538
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
   #pragma pack(pop)

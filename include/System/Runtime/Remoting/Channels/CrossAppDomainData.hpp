@@ -39,17 +39,17 @@ namespace System::Runtime::Remoting::Channels {
     // Creating value type constructor for type: CrossAppDomainData
     CrossAppDomainData(::Il2CppObject* ContextID_ = {}, int DomainID_ = {}, ::Il2CppString* processGuid_ = {}) noexcept : ContextID{ContextID_}, DomainID{DomainID_}, processGuid{processGuid_} {}
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x132A058
+    // Offset: 0x140B464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainData* New_ctor(int domainId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossAppDomainData*, creationType>(domainId)));
     }
     // System.Int32 get_DomainID()
-    // Offset: 0x132A554
+    // Offset: 0x140B960
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x132A55C
+    // Offset: 0x140B968
     ::Il2CppString* get_ProcessID();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainData
   #pragma pack(pop)

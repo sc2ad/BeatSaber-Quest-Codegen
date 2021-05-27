@@ -87,16 +87,16 @@ namespace System::Net {
     // Set static field: static private System.Collections.Hashtable s_QueuesCache
     static void _set_s_QueuesCache(System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x1424F78
+    // Offset: 0x15A05D0
     static void _cctor();
     // static System.Net.TimerThread/Queue CreateQueue(System.Int32 durationMilliseconds)
-    // Offset: 0x1425190
+    // Offset: 0x15A07E8
     static System::Net::TimerThread::Queue* CreateQueue(int durationMilliseconds);
     // static private System.Void StopTimerThread()
-    // Offset: 0x142543C
+    // Offset: 0x15A0A94
     static void StopTimerThread();
     // static private System.Void OnDomainUnload(System.Object sender, System.EventArgs e)
-    // Offset: 0x14254C8
+    // Offset: 0x15A0B20
     static void OnDomainUnload(::Il2CppObject* sender, System::EventArgs* e);
   }; // System.Net.TimerThread
   #pragma pack(pop)

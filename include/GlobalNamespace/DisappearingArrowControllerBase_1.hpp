@@ -14,20 +14,20 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IGameNoteControllerInitializable`1<T>
+  // Forward declaring type: ICubeNoteControllerInitializable`1<T>
   template<typename T>
-  class IGameNoteControllerInitializable_1;
-  // Forward declaring type: IGameNoteTypeProvider
-  class IGameNoteTypeProvider;
+  class ICubeNoteControllerInitializable_1;
+  // Forward declaring type: ICubeNoteTypeProvider
+  class ICubeNoteTypeProvider;
+  // Forward declaring type: INoteMovementProvider
+  class INoteMovementProvider;
+  // Forward declaring type: MaterialPropertyBlockController
+  class MaterialPropertyBlockController;
   // Forward declaring type: CutoutEffect
   class CutoutEffect;
-  // Forward declaring type: NoteMovement
-  class NoteMovement;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: SpriteRenderer
-  class SpriteRenderer;
   // Forward declaring type: MeshRenderer
   class MeshRenderer;
 }
@@ -39,12 +39,12 @@ namespace GlobalNamespace {
   template<typename T>
   class DisappearingArrowControllerBase_1 : public UnityEngine::MonoBehaviour {
     public:
-    // private UnityEngine.SpriteRenderer[] _spriteRenderers
+    // private MaterialPropertyBlockController[] _transparentObjectMaterialPropertyBlocks
     // Size: 0x8
     // Offset: 0x0
-    ::Array<UnityEngine::SpriteRenderer*>* spriteRenderers;
+    ::Array<GlobalNamespace::MaterialPropertyBlockController*>* transparentObjectMaterialPropertyBlocks;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::SpriteRenderer*>*) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyBlockController*>*) == 0x8);
     // private UnityEngine.MeshRenderer _cubeMeshRenderer
     // Size: 0x8
     // Offset: 0x0
@@ -57,13 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CutoutEffect* arrowCutoutEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CutoutEffect*) == 0x8);
-    // private NoteMovement _noteMovement
-    // Size: 0x8
-    // Offset: 0x0
-    GlobalNamespace::NoteMovement* noteMovement;
-    // Field size check
-    static_assert(sizeof(GlobalNamespace::NoteMovement*) == 0x8);
-    // [SpaceAttribute] Offset: 0xD38A9C
+    // [SpaceAttribute] Offset: 0xE192D0
     // private System.Single _disappearingNormalStart
     // Size: 0x4
     // Offset: 0x0
@@ -88,12 +82,6 @@ namespace GlobalNamespace {
     float disappearingGhostEnd;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // private System.Single[] _initialSpriteAlphas
-    // Size: 0x8
-    // Offset: 0x0
-    ::Array<float>* initialSpriteAlphas;
-    // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
     // private System.Single _prevArrowTransparency
     // Size: 0x4
     // Offset: 0x0
@@ -125,9 +113,22 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DisappearingArrowControllerBase_1
-    DisappearingArrowControllerBase_1(::Array<UnityEngine::SpriteRenderer*>* spriteRenderers_ = {}, UnityEngine::MeshRenderer* cubeMeshRenderer_ = {}, GlobalNamespace::CutoutEffect* arrowCutoutEffect_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, float disappearingNormalStart_ = {}, float disappearingNormalEnd_ = {}, float disappearingGhostStart_ = {}, float disappearingGhostEnd_ = {}, ::Array<float>* initialSpriteAlphas_ = {}, float prevArrowTransparency_ = {}, float minDistance_ = {}, float maxDistance_ = {}, bool hideMesh_ = {}, bool fadeArrow_ = {}) noexcept : spriteRenderers{spriteRenderers_}, cubeMeshRenderer{cubeMeshRenderer_}, arrowCutoutEffect{arrowCutoutEffect_}, noteMovement{noteMovement_}, disappearingNormalStart{disappearingNormalStart_}, disappearingNormalEnd{disappearingNormalEnd_}, disappearingGhostStart{disappearingGhostStart_}, disappearingGhostEnd{disappearingGhostEnd_}, initialSpriteAlphas{initialSpriteAlphas_}, prevArrowTransparency{prevArrowTransparency_}, minDistance{minDistance_}, maxDistance{maxDistance_}, hideMesh{hideMesh_}, fadeArrow{fadeArrow_} {}
+    DisappearingArrowControllerBase_1(::Array<GlobalNamespace::MaterialPropertyBlockController*>* transparentObjectMaterialPropertyBlocks_ = {}, UnityEngine::MeshRenderer* cubeMeshRenderer_ = {}, GlobalNamespace::CutoutEffect* arrowCutoutEffect_ = {}, float disappearingNormalStart_ = {}, float disappearingNormalEnd_ = {}, float disappearingGhostStart_ = {}, float disappearingGhostEnd_ = {}, float prevArrowTransparency_ = {}, float minDistance_ = {}, float maxDistance_ = {}, bool hideMesh_ = {}, bool fadeArrow_ = {}) noexcept : transparentObjectMaterialPropertyBlocks{transparentObjectMaterialPropertyBlocks_}, cubeMeshRenderer{cubeMeshRenderer_}, arrowCutoutEffect{arrowCutoutEffect_}, disappearingNormalStart{disappearingNormalStart_}, disappearingNormalEnd{disappearingNormalEnd_}, disappearingGhostStart{disappearingGhostStart_}, disappearingGhostEnd{disappearingGhostEnd_}, prevArrowTransparency{prevArrowTransparency_}, minDistance{minDistance_}, maxDistance{maxDistance_}, hideMesh{hideMesh_}, fadeArrow{fadeArrow_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE19338
+    // Autogenerated static field getter
+    // Get static field: static private readonly System.Int32 _colorId
+    static int _get__colorId() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::_get__colorId");
+      return THROW_UNLESS(il2cpp_utils::GetFieldValue<int>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DisappearingArrowControllerBase_1<T>*>::get(), "_colorId"));
+    }
+    // Autogenerated static field setter
+    // Set static field: static private readonly System.Int32 _colorId
+    static void _set__colorId(int value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::_set__colorId");
+      THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DisappearingArrowControllerBase_1<T>*>::get(), "_colorId", value));
+    }
     // protected T get_gameNoteController()
     // Offset: 0xFFFFFFFF
     T get_gameNoteController() {
@@ -163,11 +164,11 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleNoteMovementNoteDidMoveInJumpPhase", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
-    // private System.Void HandleGameNoteControllerDidInit(T gameNoteController)
+    // private System.Void HandleCubeNoteControllerDidInit(T gameNoteController)
     // Offset: 0xFFFFFFFF
-    void HandleGameNoteControllerDidInit(T gameNoteController) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::HandleGameNoteControllerDidInit");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleGameNoteControllerDidInit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameNoteController)})));
+    void HandleCubeNoteControllerDidInit(T gameNoteController) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::HandleCubeNoteControllerDidInit");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleCubeNoteControllerDidInit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameNoteController)})));
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, gameNoteController);
     }
     // private System.Void SetArrowTransparency(System.Single arrowTransparency)
@@ -189,6 +190,15 @@ namespace GlobalNamespace {
     static DisappearingArrowControllerBase_1<T>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisappearingArrowControllerBase_1<T>*, creationType>()));
+    }
+    // static private System.Void .cctor()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: UnityEngine.Object
+    // Base method: System.Void Object::.cctor()
+    static void _cctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisappearingArrowControllerBase_1::.cctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DisappearingArrowControllerBase_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
   }; // DisappearingArrowControllerBase`1
   // Could not write size check! Type: DisappearingArrowControllerBase`1 is generic, or has no fields that are valid for size checks!

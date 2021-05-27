@@ -68,13 +68,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: CADMethodRef
     CADMethodRef(bool ctor_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::Array<::Il2CppString*>* param_names_ = {}, ::Array<::Il2CppString*>* generic_arg_names_ = {}) noexcept : ctor{ctor_}, typeName{typeName_}, methodName{methodName_}, param_names{param_names_}, generic_arg_names{generic_arg_names_} {}
     // private System.Type[] GetTypes(System.String[] typeArray)
-    // Offset: 0x1889E10
+    // Offset: 0x1A1FD58
     ::Array<System::Type*>* GetTypes(::Array<::Il2CppString*>* typeArray);
     // public System.Reflection.MethodBase Resolve()
-    // Offset: 0x1887B30
+    // Offset: 0x1A1DA78
     System::Reflection::MethodBase* Resolve();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x18877C0
+    // Offset: 0x1A1D708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodRef* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodRef::.ctor");

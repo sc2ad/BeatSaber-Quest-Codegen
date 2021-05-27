@@ -88,14 +88,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* closeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD40B34
+    // [CompilerGeneratedAttribute] Offset: 0xE211B8
     // private System.Action didFinishEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD40B44
+    // [CompilerGeneratedAttribute] Offset: 0xE211C8
     // private System.Action`1<ColorScheme> didChangeColorSchemeEvent
     // Size: 0x8
     // Offset: 0x48
@@ -113,43 +113,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0xF4BF58
+    // Offset: 0x10BCB54
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0xF4BFFC
+    // Offset: 0x10BCBF8
     void remove_didFinishEvent(System::Action* value);
     // public System.Void add_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0xF4C0A0
+    // Offset: 0x10BCC9C
     void add_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
     // public System.Void remove_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0xF4C144
+    // Offset: 0x10BCD40
     void remove_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0xF4C1E8
+    // Offset: 0x10BCDE4
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Start()
-    // Offset: 0xF4C204
+    // Offset: 0x10BCE00
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xF4C440
+    // Offset: 0x10BD03C
     void OnDestroy();
     // private System.Void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine.Color color)
-    // Offset: 0xF4C614
+    // Offset: 0x10BD210
     void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine::Color color);
     // private System.Void HandleRGBPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF4C6A0
+    // Offset: 0x10BD29C
     void HandleRGBPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xF4C7BC
+    // Offset: 0x10BD3B8
     void HandleHSVPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0xF4C8D8
+    // Offset: 0x10BD4D4
     void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color);
     // private System.Void <Start>b__13_0()
-    // Offset: 0xF4C9E4
+    // Offset: 0x10BD5E0
     void $Start$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0xF4C9DC
+    // Offset: 0x10BD5D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

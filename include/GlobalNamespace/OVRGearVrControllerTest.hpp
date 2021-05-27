@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRGearVrControllerTest
     OVRGearVrControllerTest() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x115CE10
+    // Offset: 0x14F2470
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

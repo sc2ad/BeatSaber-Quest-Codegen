@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UnityScenesHelper
     UnityScenesHelper() noexcept {}
     // static public System.Void SetActiveRootObjectsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean active)
-    // Offset: 0x214F404
+    // Offset: 0x2353580
     static void SetActiveRootObjectsInScene(UnityEngine::SceneManagement::Scene scene, bool active);
   }; // UnityScenesHelper
   #pragma pack(pop)

@@ -201,7 +201,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRSkeleton/BoneId Hand_End
     static void _set_Hand_End(GlobalNamespace::OVRSkeleton::BoneId value);
     // static field const value: static public OVRSkeleton/BoneId Max
-    static constexpr const int Max = 24;
+    static constexpr const int Max = 50;
     // Get static field: static public OVRSkeleton/BoneId Max
     static GlobalNamespace::OVRSkeleton::BoneId _get_Max();
     // Set static field: static public OVRSkeleton/BoneId Max

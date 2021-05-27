@@ -30,7 +30,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Media
     Media() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ShareMediaResult> ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
-    // Offset: 0x13A10D8
+    // Offset: 0x14AD3E8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::Il2CppString* postTextSuggestion, ::Il2CppString* filePath, Oculus::Platform::MediaContentType contentType);
   }; // Oculus.Platform.Media
   #pragma pack(pop)

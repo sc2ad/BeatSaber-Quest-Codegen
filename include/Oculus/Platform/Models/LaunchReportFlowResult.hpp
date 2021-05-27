@@ -35,7 +35,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LaunchReportFlowResult
     LaunchReportFlowResult(bool DidCancel_ = {}, uint64_t UserReportId_ = {}) noexcept : DidCancel{DidCancel_}, UserReportId{UserReportId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13A8B90
+    // Offset: 0x14B5044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchReportFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchReportFlowResult::.ctor");

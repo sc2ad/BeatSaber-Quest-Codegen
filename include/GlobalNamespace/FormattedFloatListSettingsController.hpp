@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::FormattedFloatListSettingsController::ValueType) == 0x4);
     // Padding between fields: valueType and: valueDidChangeEvent
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD434B4
+    // [CompilerGeneratedAttribute] Offset: 0xE240B8
     // private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
     // Size: 0x8
     // Offset: 0x40
@@ -125,40 +125,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FormattedFloatListSettingsController
     FormattedFloatListSettingsController(::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsController::ValueType valueType_ = {}, System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* valueDidChangeEvent_ = {}, float value_ = {}, float min_ = {}, float max_ = {}, bool hasValue_ = {}) noexcept : values{values_}, formattingString{formattingString_}, valueType{valueType_}, valueDidChangeEvent{valueDidChangeEvent_}, value{value_}, min{min_}, max{max_}, hasValue{hasValue_} {}
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0xF58FA8
+    // Offset: 0x1037820
     void add_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0xF5904C
+    // Offset: 0x10378C4
     void remove_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Single get_value()
-    // Offset: 0xF590F0
+    // Offset: 0x1037968
     float get_value();
     // public System.Single[] get_values()
-    // Offset: 0xF590F8
+    // Offset: 0x1037970
     ::Array<float>* get_values();
     // public System.Void set_values(System.Single[] value)
-    // Offset: 0xF59100
+    // Offset: 0x1037978
     void set_values(::Array<float>* value);
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0xF59110
+    // Offset: 0x1037988
     void SetValue(float value, bool callCallback);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xF59128
+    // Offset: 0x10379A0
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xF59280
+    // Offset: 0x1037AF8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xF59324
+    // Offset: 0x1037B9C
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xF59410
+    // Offset: 0x1037C88
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

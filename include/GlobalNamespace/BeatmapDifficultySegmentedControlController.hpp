@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     HMUI::TextSegmentedControl* difficultySegmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::TextSegmentedControl*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD437F4
+    // [CompilerGeneratedAttribute] Offset: 0xE243F8
     // private System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> didSelectDifficultyEvent
     // Size: 0x8
     // Offset: 0x20
@@ -76,31 +76,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x10B21AC
+    // Offset: 0x11AD378
     void add_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x10B2250
+    // Offset: 0x11AD41C
     void remove_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public BeatmapDifficulty get_selectedDifficulty()
-    // Offset: 0x10B22F4
+    // Offset: 0x11AD4C0
     GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
     // protected System.Void Awake()
-    // Offset: 0x10B22FC
+    // Offset: 0x11AD4C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10B2390
+    // Offset: 0x11AD55C
     void OnDestroy();
     // private System.Int32 GetClosestDifficultyIndex(BeatmapDifficulty searchDifficulty)
-    // Offset: 0x10B246C
+    // Offset: 0x11AD638
     int GetClosestDifficultyIndex(GlobalNamespace::BeatmapDifficulty searchDifficulty);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x10B2574
+    // Offset: 0x11AD740
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void SetData(IDifficultyBeatmap[] difficultyBeatmaps, BeatmapDifficulty selectedDifficulty)
-    // Offset: 0x10B2618
+    // Offset: 0x11AD7E4
     void SetData(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty);
     // public System.Void .ctor()
-    // Offset: 0x10B28A8
+    // Offset: 0x11ADA74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

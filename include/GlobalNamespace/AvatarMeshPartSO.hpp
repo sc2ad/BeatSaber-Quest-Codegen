@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarMeshPartSO
     AvatarMeshPartSO() noexcept {}
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x101DBD4
+    // Offset: 0x112FB38
     UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor()
-    // Offset: 0x101DC18
+    // Offset: 0x112FB7C
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

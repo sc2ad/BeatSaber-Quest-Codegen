@@ -145,14 +145,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSettingsPanelController*) == 0x8);
-    // [InjectAttribute] Offset: 0xD43E9C
+    // [InjectAttribute] Offset: 0xE24AA0
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD43EAC
+    // [CompilerGeneratedAttribute] Offset: 0xE24AB0
     // private System.Action didChangeGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -212,57 +212,57 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplaySetupViewController
     GameplaySetupViewController(HMUI::TextSegmentedControl* selectionSegmentedControl_ = {}, GlobalNamespace::PlayerSettingsPanelController* playerSettingsPanelController_ = {}, GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController_ = {}, GlobalNamespace::EnvironmentOverrideSettingsPanelController* environmentOverrideSettingsPanelController_ = {}, GlobalNamespace::ColorsOverrideSettingsPanelController* colorsOverrideSettingsPanelController_ = {}, GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action* didChangeGameplayModifiersEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplaySetupViewController::Panel*>* panels_ = {}, int activePanelIdx_ = {}, bool showModifiers_ = {}, bool showEnvironmentOverrideSettings_ = {}, bool showColorSchemesSettings_ = {}, bool shouldRefreshContent_ = {}, bool isInitialized_ = {}, GlobalNamespace::GameplaySetupViewController::GameplayMode gameplayMode_ = {}) noexcept : selectionSegmentedControl{selectionSegmentedControl_}, playerSettingsPanelController{playerSettingsPanelController_}, gameplayModifiersPanelController{gameplayModifiersPanelController_}, environmentOverrideSettingsPanelController{environmentOverrideSettingsPanelController_}, colorsOverrideSettingsPanelController{colorsOverrideSettingsPanelController_}, multiplayerSettingsPanelController{multiplayerSettingsPanelController_}, playerDataModel{playerDataModel_}, didChangeGameplayModifiersEvent{didChangeGameplayModifiersEvent_}, panels{panels_}, activePanelIdx{activePanelIdx_}, showModifiers{showModifiers_}, showEnvironmentOverrideSettings{showEnvironmentOverrideSettings_}, showColorSchemesSettings{showColorSchemesSettings_}, shouldRefreshContent{shouldRefreshContent_}, isInitialized{isInitialized_}, gameplayMode{gameplayMode_} {}
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0xF69D4C
+    // Offset: 0x1047DC4
     void add_didChangeGameplayModifiersEvent(System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0xF69DF0
+    // Offset: 0x1047E68
     void remove_didChangeGameplayModifiersEvent(System::Action* value);
     // public PlayerSpecificSettings get_playerSettings()
-    // Offset: 0xF69E94
+    // Offset: 0x1047F0C
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xF69EB0
+    // Offset: 0x1047F28
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public OverrideEnvironmentSettings get_environmentOverrideSettings()
-    // Offset: 0xF69ECC
+    // Offset: 0x1047F44
     GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0xF69EF4
+    // Offset: 0x1047F6C
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings, GameplaySetupViewController/GameplayMode gameplayMode)
-    // Offset: 0xF69F1C
+    // Offset: 0x103CD60
     void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, GlobalNamespace::GameplaySetupViewController::GameplayMode gameplayMode);
     // private System.Void Init()
-    // Offset: 0xF69FBC
+    // Offset: 0x1047F94
     void Init();
     // protected System.Void OnDisable()
-    // Offset: 0xF6A644
+    // Offset: 0x104861C
     void OnDisable();
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xF6A72C
+    // Offset: 0x1048704
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void HandlePlayerSettingsPanelControllerDidChangePlayerSettings()
-    // Offset: 0xF6A7EC
+    // Offset: 0x10487C4
     void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
     // private System.Void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers()
-    // Offset: 0xF6A834
+    // Offset: 0x104880C
     void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0xF6A734
+    // Offset: 0x104870C
     void SetActivePanel(int panelIdx);
     // private System.Void RefreshContent()
-    // Offset: 0xF6A05C
+    // Offset: 0x1048034
     void RefreshContent();
     // private System.Void RefreshActivePanel()
-    // Offset: 0xF6A890
+    // Offset: 0x1048868
     void RefreshActivePanel();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xF6A4F8
+    // Offset: 0x10484D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0xF6A9BC
+    // Offset: 0x1048994
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

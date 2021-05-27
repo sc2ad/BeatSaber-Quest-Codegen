@@ -57,49 +57,49 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: AppendElements
     AppendElements() noexcept {}
     // static UnityEngine.ProBuilder.Face AppendFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3[] positions, UnityEngine.Color[] colors, UnityEngine.Vector2[] uvs, UnityEngine.ProBuilder.Face face, System.Int32[] common)
-    // Offset: 0x192B900
+    // Offset: 0x1AAF2F8
     static UnityEngine::ProBuilder::Face* AppendFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Color>* colors, ::Array<UnityEngine::Vector2>* uvs, UnityEngine::ProBuilder::Face* face, ::Array<int>* common);
     // static public UnityEngine.ProBuilder.Face[] AppendFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3[][] positions, UnityEngine.Color[][] colors, UnityEngine.Vector2[][] uvs, UnityEngine.ProBuilder.Face[] faces, System.Int32[][] shared)
-    // Offset: 0x192BE44
+    // Offset: 0x1AAF83C
     static ::Array<UnityEngine::ProBuilder::Face*>* AppendFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<::Array<UnityEngine::Vector3>*>* positions, ::Array<::Array<UnityEngine::Color>*>* colors, ::Array<::Array<UnityEngine::Vector2>*>* uvs, ::Array<UnityEngine::ProBuilder::Face*>* faces, ::Array<::Array<int>*>* shared);
     // static public UnityEngine.ProBuilder.Face CreatePolygon(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<System.Int32> indexes, System.Boolean unordered)
-    // Offset: 0x192C320
+    // Offset: 0x1AAFD18
     static UnityEngine::ProBuilder::Face* CreatePolygon(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<int>* indexes, bool unordered);
     // static public UnityEngine.ProBuilder.ActionResult CreateShapeFromPolygon(UnityEngine.ProBuilder.PolyShape poly)
-    // Offset: 0x192C808
+    // Offset: 0x1AB0200
     static UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(UnityEngine::ProBuilder::PolyShape* poly);
     // static System.Void ClearAndRefreshMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x192C850
+    // Offset: 0x1AB0248
     static void ClearAndRefreshMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public UnityEngine.ProBuilder.ActionResult CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Single extrude, System.Boolean flipNormals)
-    // Offset: 0x192C844
+    // Offset: 0x1AB023C
     static UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, float extrude, bool flipNormals);
     // static public UnityEngine.ProBuilder.ActionResult CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Single extrude, System.Boolean flipNormals, UnityEngine.Vector3 cameraLookAt, System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector3>> holePoints)
-    // Offset: 0x192D478
+    // Offset: 0x1AB0E70
     static UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, float extrude, bool flipNormals, UnityEngine::Vector3 cameraLookAt, System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>* holePoints);
     // static public UnityEngine.ProBuilder.ActionResult CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Single extrude, System.Boolean flipNormals, System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector3>> holePoints)
-    // Offset: 0x192C898
+    // Offset: 0x1AB0290
     static UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, float extrude, bool flipNormals, System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>* holePoints);
     // static UnityEngine.ProBuilder.FaceRebuildData FaceWithVertices(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Boolean unordered)
-    // Offset: 0x192C748
+    // Offset: 0x1AB0140
     static UnityEngine::ProBuilder::FaceRebuildData* FaceWithVertices(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices, bool unordered);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> TentCapWithVertices(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> path)
-    // Offset: 0x192D96C
+    // Offset: 0x1AB1364
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::FaceRebuildData*>* TentCapWithVertices(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* path);
     // static public System.Void DuplicateAndFlip(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces)
-    // Offset: 0x192D484
+    // Offset: 0x1AB0E7C
     static void DuplicateAndFlip(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces);
     // static public UnityEngine.ProBuilder.Face Bridge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b, System.Boolean allowNonManifoldGeometry)
-    // Offset: 0x192DB88
+    // Offset: 0x1AB1580
     static UnityEngine::ProBuilder::Face* Bridge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b, bool allowNonManifoldGeometry);
     // static public UnityEngine.ProBuilder.Face AppendVerticesToFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face, UnityEngine.Vector3[] points)
-    // Offset: 0x192EE8C
+    // Offset: 0x1AB2884
     static UnityEngine::ProBuilder::Face* AppendVerticesToFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face, ::Array<UnityEngine::Vector3>* points);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge, System.Int32 count)
-    // Offset: 0x192F7B4
+    // Offset: 0x1AB31AC
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge, int count);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge> edges, System.Int32 count)
-    // Offset: 0x192F844
+    // Offset: 0x1AB323C
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges, int count);
   }; // UnityEngine.ProBuilder.MeshOperations.AppendElements
   #pragma pack(pop)

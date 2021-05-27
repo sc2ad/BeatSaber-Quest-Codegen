@@ -7,8 +7,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
+  // Forward declaring type: MultiplayerLevelCompletionResults
+  class MultiplayerLevelCompletionResults;
   // Forward declaring type: PlayerNetworkFailReason
   struct PlayerNetworkFailReason;
 }
@@ -22,9 +22,9 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: IMultiplayerLevelEndActionsListener
     IMultiplayerLevelEndActionsListener() noexcept {}
-    // public System.Void ReportPlayerDidFinish(LevelCompletionResults results)
+    // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
     // Offset: 0xFFFFFFFF
-    void ReportPlayerDidFinish(GlobalNamespace::LevelCompletionResults* results);
+    void ReportPlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
     // Offset: 0xFFFFFFFF
     void ReportPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);

@@ -32,12 +32,12 @@ namespace Oculus::Platform::Models {
     System::DateTime GrantTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    // public readonly System.UInt64 ID
+    // public readonly System.String ID
     // Size: 0x8
     // Offset: 0x20
-    uint64_t _ID;
+    ::Il2CppString* _ID;
     // Field size check
-    static_assert(sizeof(uint64_t) == 0x8);
+    static_assert(sizeof(::Il2CppString*) == 0x8);
     // public readonly System.String Sku
     // Size: 0x8
     // Offset: 0x28
@@ -45,9 +45,9 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Purchase
-    Purchase(System::DateTime ExpirationTime_ = {}, System::DateTime GrantTime_ = {}, uint64_t _ID_ = {}, ::Il2CppString* Sku_ = {}) noexcept : ExpirationTime{ExpirationTime_}, GrantTime{GrantTime_}, _ID{_ID_}, Sku{Sku_} {}
+    Purchase(System::DateTime ExpirationTime_ = {}, System::DateTime GrantTime_ = {}, ::Il2CppString* _ID_ = {}, ::Il2CppString* Sku_ = {}) noexcept : ExpirationTime{ExpirationTime_}, GrantTime{GrantTime_}, _ID{_ID_}, Sku{Sku_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13AC900
+    // Offset: 0x14B9094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Purchase* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Purchase::.ctor");

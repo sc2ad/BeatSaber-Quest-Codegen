@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: State
     State(System::Nullable_1<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> levelCategory_ = {}, GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : levelCategory{levelCategory_}, beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevel{previewBeatmapLevel_}, difficultyBeatmap{difficultyBeatmap_} {}
     // private System.Void .ctor(System.Nullable`1<SelectLevelCategoryViewController/LevelCategory> levelCategory, IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11294F4
+    // Offset: 0x11FD1D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSelectionFlowCoordinator::State* New_ctor(System::Nullable_1<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSelectionFlowCoordinator::State::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSelectionFlowCoordinator::State*, creationType>(levelCategory, beatmapLevelPack, previewBeatmapLevel, difficultyBeatmap)));
     }
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x1129540
+    // Offset: 0x11FD21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSelectionFlowCoordinator::State* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSelectionFlowCoordinator::State::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSelectionFlowCoordinator::State*, creationType>(beatmapLevelPack)));
     }
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x1129570
+    // Offset: 0x11FD24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSelectionFlowCoordinator::State* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSelectionFlowCoordinator::State::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSelectionFlowCoordinator::State*, creationType>(beatmapLevelPack, previewBeatmapLevel)));
     }
     // public System.Void .ctor(SelectLevelCategoryViewController/LevelCategory levelCategory, IBeatmapLevelPack beatmapLevelPack, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11295AC
+    // Offset: 0x11FD288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSelectionFlowCoordinator::State* New_ctor(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSelectionFlowCoordinator::State::.ctor");

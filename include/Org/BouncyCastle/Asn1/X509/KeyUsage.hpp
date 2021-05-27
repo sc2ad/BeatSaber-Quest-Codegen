@@ -21,17 +21,17 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: KeyUsage
     KeyUsage() noexcept {}
     // static public Org.BouncyCastle.Asn1.X509.KeyUsage GetInstance(System.Object obj)
-    // Offset: 0x1858EC4
+    // Offset: 0x19EFF5C
     static Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x1858FDC
+    // Offset: 0x19F0074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyUsage* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::KeyUsage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyUsage*, creationType>(usage)));
     }
     // public override System.String ToString()
-    // Offset: 0x1859088
+    // Offset: 0x19F0120
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

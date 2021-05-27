@@ -21,16 +21,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MonobehaviourCallbacksOrderDebuger
     MonobehaviourCallbacksOrderDebuger() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x1182F70
+    // Offset: 0x12303F4
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1183018
+    // Offset: 0x123049C
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x11830C0
+    // Offset: 0x1230544
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1183168
+    // Offset: 0x12305EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

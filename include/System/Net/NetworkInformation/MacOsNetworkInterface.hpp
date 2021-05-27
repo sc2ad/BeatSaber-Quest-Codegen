@@ -40,19 +40,19 @@ namespace System::Net::NetworkInformation {
       return ifa_flags;
     }
     // System.Void .ctor(System.String name, System.UInt32 ifa_flags)
-    // Offset: 0x134989C
+    // Offset: 0x1474248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsNetworkInterface* New_ctor(::Il2CppString* name, uint ifa_flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsNetworkInterface*, creationType>(name, ifa_flags)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x13498C4
+    // Offset: 0x1474270
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1349940
+    // Offset: 0x14742EC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();

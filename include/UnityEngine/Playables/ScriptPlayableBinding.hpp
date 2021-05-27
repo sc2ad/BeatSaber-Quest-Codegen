@@ -36,10 +36,10 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: ScriptPlayableBinding
     ScriptPlayableBinding() noexcept {}
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key, System.Type type)
-    // Offset: 0x1ABB7C0
+    // Offset: 0x1B06834
     static UnityEngine::Playables::PlayableBinding Create(::Il2CppString* name, UnityEngine::Object* key, System::Type* type);
     // static private UnityEngine.Playables.PlayableOutput CreateScriptOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x1ABB870
+    // Offset: 0x1B06918
     static UnityEngine::Playables::PlayableOutput CreateScriptOutput(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
   }; // UnityEngine.Playables.ScriptPlayableBinding
   #pragma pack(pop)

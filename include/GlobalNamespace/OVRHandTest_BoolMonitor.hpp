@@ -77,17 +77,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolMonitor
     BoolMonitor(::Il2CppString* m_name_ = {}, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* m_generator_ = {}, bool m_prevValue_ = {}, bool m_currentValue_ = {}, bool m_currentValueRecentlyChanged_ = {}, float m_displayTimeout_ = {}, float m_displayTimer_ = {}) noexcept : m_name{m_name_}, m_generator{m_generator_}, m_prevValue{m_prevValue_}, m_currentValue{m_currentValue_}, m_currentValueRecentlyChanged{m_currentValueRecentlyChanged_}, m_displayTimeout{m_displayTimeout_}, m_displayTimer{m_displayTimer_} {}
     // public System.Void .ctor(System.String name, OVRHandTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
-    // Offset: 0x173E5E8
+    // Offset: 0x14F5F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest::BoolMonitor* New_ctor(::Il2CppString* name, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHandTest::BoolMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest::BoolMonitor*, creationType>(name, generator, displayTimeout)));
     }
     // public System.Void Update()
-    // Offset: 0x173F10C
+    // Offset: 0x14F6A98
     void Update();
     // public System.Void AppendToStringBuilder(ref System.Text.StringBuilder sb)
-    // Offset: 0x173F1B0
+    // Offset: 0x14F6B3C
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRHandTest/BoolMonitor
   #pragma pack(pop)

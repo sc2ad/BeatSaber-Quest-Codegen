@@ -100,25 +100,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_controlGroupSize()
-    // Offset: 0xF51C5C
+    // Offset: 0x10C2798
     float get_controlGroupSize();
     // public System.String get_experimentName()
-    // Offset: 0xF51C64
+    // Offset: 0x10C27A0
     ::Il2CppString* get_experimentName();
     // public ExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0xF51C6C
+    // Offset: 0x10C27A8
     GlobalNamespace::ExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0xF51C74
+    // Offset: 0x10B8F34
     void ComputeCurrentUserTreatment(::Il2CppString* userId);
     // public System.Void ForceSetTreatmentGroup(ExperimentDefinitionSO/Group group)
-    // Offset: 0xF51E7C
+    // Offset: 0x10C2994
     void ForceSetTreatmentGroup(GlobalNamespace::ExperimentDefinitionSO::Group group);
     // private ExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0xF51C98
+    // Offset: 0x10C27B0
     GlobalNamespace::ExperimentDefinitionSO::Group AbSplit(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0xF51E84
+    // Offset: 0x10C299C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

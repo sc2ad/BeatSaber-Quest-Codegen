@@ -196,65 +196,65 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Set static field: static private readonly System.Byte[] Zeroes
     static void _set_Zeroes(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IMac poly1305)
-    // Offset: 0x171DEA0
+    // Offset: 0x18B3F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChaCha20Poly1305* New_ctor(Org::BouncyCastle::Crypto::IMac* poly1305) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChaCha20Poly1305*, creationType>(poly1305)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x171E050
+    // Offset: 0x18B414C
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x171E5D0
+    // Offset: 0x18B46CC
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x171E6D4
+    // Offset: 0x18B47D0
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x171E7DC
+    // Offset: 0x18B48D8
     void ProcessAadBytes(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x171EB20
+    // Offset: 0x18B4C1C
     int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x171F1C8
+    // Offset: 0x18B52C4
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x171F710
+    // Offset: 0x18B580C
     void Reset();
     // private System.Void CheckAad()
-    // Offset: 0x171E9B0
+    // Offset: 0x18B4AAC
     void CheckAad();
     // private System.Void CheckData()
-    // Offset: 0x171F014
+    // Offset: 0x18B5110
     void CheckData();
     // private System.Void FinishAad(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State nextState)
-    // Offset: 0x171F71C
+    // Offset: 0x18B5818
     void FinishAad(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.Void FinishData(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State nextState)
-    // Offset: 0x171F56C
+    // Offset: 0x18B5668
     void FinishData(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.UInt64 IncrementCount(System.UInt64 count, System.UInt32 increment, System.UInt64 limit)
-    // Offset: 0x171EA80
+    // Offset: 0x18B4B7C
     uint64_t IncrementCount(uint64_t count, uint increment, uint64_t limit);
     // private System.Void InitMac()
-    // Offset: 0x171F864
+    // Offset: 0x18B5960
     void InitMac();
     // private System.Void PadMac(System.UInt64 count)
-    // Offset: 0x171F74C
+    // Offset: 0x18B5848
     void PadMac(uint64_t count);
     // private System.Void ProcessData(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x171F0FC
+    // Offset: 0x18B51F8
     void ProcessData(::Array<uint8_t>* inBytes, int inOff, int inLen, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Void Reset(System.Boolean clearMac, System.Boolean resetCipher)
-    // Offset: 0x171E46C
+    // Offset: 0x18B4568
     void Reset(bool clearMac, bool resetCipher);
     // static private System.Void .cctor()
-    // Offset: 0x171F9F4
+    // Offset: 0x18B5AF0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x171DE40
+    // Offset: 0x18B3F3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

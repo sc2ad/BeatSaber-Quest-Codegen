@@ -32,16 +32,16 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: RichPresence
     RichPresence() noexcept {}
     // static public Oculus.Platform.Request Clear()
-    // Offset: 0x13B1ED8
+    // Offset: 0x23925A0
     static Oculus::Platform::Request* Clear();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.DestinationList> GetDestinations()
-    // Offset: 0x13B1FDC
+    // Offset: 0x23926A4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* GetDestinations();
     // static public Oculus.Platform.Request Set(Oculus.Platform.RichPresenceOptions richPresenceOptions)
-    // Offset: 0x13B20E8
+    // Offset: 0x23927B0
     static Oculus::Platform::Request* Set(Oculus::Platform::RichPresenceOptions* richPresenceOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.DestinationList> GetNextDestinationListPage(Oculus.Platform.Models.DestinationList list)
-    // Offset: 0x13B2210
+    // Offset: 0x2392940
     static Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(Oculus::Platform::Models::DestinationList* list);
   }; // Oculus.Platform.RichPresence
   #pragma pack(pop)

@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LivestreamingVideoStats
     LivestreamingVideoStats(int CommentCount_ = {}, int ReactionCount_ = {}, ::Il2CppString* TotalViews_ = {}) noexcept : CommentCount{CommentCount_}, ReactionCount{ReactionCount_}, TotalViews{TotalViews_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x13A9B64
+    // Offset: 0x14B62F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingVideoStats* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingVideoStats::.ctor");
